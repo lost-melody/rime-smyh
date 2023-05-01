@@ -1,0 +1,210 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: smyh
+  name: 宇浩三码顶
+  version: "alpha"
+  author:
+    - 宇浩输入法
+    - 王牌饼干
+  description: |
+    宇浩三码顶，基于宇浩输入法制作。
+    宇浩输入法QQ群：735728797
+  dependencies:
+    # 袖珍拼音, 用于反查
+    - pinyin_simp
+    # 引号词库
+    - smyh.phrase
+
+switches:
+  - name: ascii_punct
+    states: [ '，。', '，．' ]
+    reset: 0
+  - name: full_shape
+    states: [ 半, 全 ]
+    reset: 0
+  - name: gbk
+    reset: 1
+  - name: division
+    states: [ 隐, 拆 ]
+    reset: 0
+  - name: rev_div
+    reset: 1
+  - name: simp_tip
+    reset: 1
+  - name: ascii_mode
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    # - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    # - fallback_segmentor
+  translators:
+    - punct_translator
+    # 单字和智能选重
+    - table_translator
+    # 引号词
+    - table_translator@phrase
+    # 上次上屏历史
+    - history_translator@history
+    # 打断施法, 同时为施法提示提供数据
+    - lua_translator@smyh_translator
+    # 反查
+    - reverse_lookup_translator@rev_pinyin
+  filters:
+    - simplifier
+    # 候选去重
+    - uniquifier
+    # 字符集过滤
+    - charset_filter@gbk
+    # 简码提示
+    - simplifier@simp_tip
+    # 施法提示, 需配合打断施法翻译器
+    - lua_filter@smyh_filter
+    # 拆分提示
+    - simplifier@division
+    # 反查拆分提示
+    - simplifier@rev_div
+
+speller:
+  alphabet: "qwertyuiopasdfghjklzxcvbnm';"
+  initials: "qwertyuiopasdfghjklzxcvbnm'"
+  auto_select: true
+  auto_select_unique_candidate: true
+  algebra:
+    # Z键和分号等同
+    - derive/;/z/
+
+# 主翻译器
+translator:
+  dictionary: smyh
+  enable_encoder: false
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+  strict_spelling: true
+  initial_quality: 0
+  preedit_format:
+    - xform/[;z]/_/
+  comment_format:
+    - xform/;/_/
+
+# 重复上次上屏
+history:
+  input: z
+  size: 1
+  initial_quality: 1
+
+# 引号词库
+phrase:
+  dictionary: smyh.phrase
+  prism: smyh.phrase
+  enable_encoder: false
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+  strict_spelling: true
+  initial_quality: 0
+  preedit_format:
+    - "xform/^'//"
+  comment_format:
+    - "xform/^'//"
+
+# 拆分提示, 可快捷开关
+division:
+  opencc_config: smyh_div.json
+  option_name: division
+  tips: all
+  show_in_comment: true
+  comment_format:
+    - xform/;/_/
+    - xform/\[/〔/
+    - xform/\]/〕/
+    - xform/\|/·/
+  tags: [ abc ]
+
+# 反查拆分提示, 反查时常显
+rev_div:
+  opencc_config: smyh_div.json
+  option_name: rev_div
+  tips: all
+  show_in_comment: true
+  comment_format:
+    - xform/;/_/
+    - xform/\[/〔/
+    - xform/\]/〕/
+    - xform/\|/·/
+  tags: [ rev_pinyin ]
+
+# 简码提示
+simp_tip:
+  opencc_config: smyh_simp.json
+  option_name: simp_tip
+  tips: all
+  show_in_comment: true
+  comment_format:
+    - xform/;/_/
+    - 'xform/^(.*)$/[$1]/'
+  tags: [ retword ]
+
+# 拼音反查
+rev_pinyin:
+  tag: rev_pinyin
+  prefix: "z"
+  dictionary: pinyin_simp
+  tips: "[拼音反查]"
+  preedit_format:
+    - xform/^z//
+  comment_format:
+    - xform/;/_/
+    - "xform/^/[/"
+    - "xform/$/]/"
+
+# 标点
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  bindings:
+    # 空格清空错码
+    - { when: has_menu, accept: space, send: space }
+    - { when: composing, accept: space, send: Escape }
+    # 减号、等号翻页
+    - { when: paging, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
+    # 引号、Tab选重。
+    - {when: has_menu, accept: apostrophe, send: 2}
+    - {when: has_menu, accept: Tab, send: 3}
+    # 拆分提示
+    - { when: always, accept: "Control+Shift+C", toggle: division }
+    # 中英文标点
+    - {when: always, accept: Control+period, toggle: ascii_punct}
+    # 扩展字符集。
+    - {when: always, accept: Control+Shift+U, toggle: gbk}
+
+recognizer:
+  patterns:
+    # 引号词模式
+    phrase: "^'[a-y]{0,4}$"
+    # 拼音反查模式
+    rev_pinyin: "^z[a-z]*$"
+    # 符号模式
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    # 单字模式, 为了使唯一候选不自动上屏
+    retword: '^[a-y]{3}|[a-y]{1,2}[z;]$'
+
+menu:
+  page_size: 6

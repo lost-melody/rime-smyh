@@ -1,0 +1,34 @@
+patch:
+  schema/name: 宇浩三码顶
+  schema/dependencies/+:
+  switches/+:
+  key_binder/bindings/+:
+  ascii_composer/switch_key/+:
+    # 左Shift上屏候选, 右Shift上屏编码
+    Shift_L: commit_text
+    Shift_R: commit_code
+    Control_L: noop
+    Control_R: noop
+    Caps_Lock: clear
+    Eisu_toggle: clear
+  recognizer/patterns/+:
+  punctuator/half_shape/+:
+    '<' : '《'
+    '>' : '》'
+    '/' : [ '/', 、, ､, ／, ÷ ]
+    '\' : '、'
+    '`' : '`'
+    '~' : '~'
+    '@' : '@'
+    '#' : '#'
+    '%' : '%'
+    '$' : '￥'
+    '*' : '*'
+    '=' : '='
+    '[' : '【'
+    ']' : '】'
+    '{' : '｛'
+    '}' : '｝'
+  editor/bindings/+:
+    # 回车清空编码
+    Return: cancel

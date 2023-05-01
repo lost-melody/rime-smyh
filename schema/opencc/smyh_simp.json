@@ -1,0 +1,19 @@
+{
+  "name": "smyh simp tips",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "smyh_simp.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "smyh_simp.txt"
+      }]
+    }
+  }]
+}
