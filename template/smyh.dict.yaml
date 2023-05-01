@@ -1,0 +1,16 @@
+# rime dictionary: 宇浩三码顶·单字
+# encoding: utf-8
+
+---
+name: "smyh"
+version: "beta"
+sort: by_weight
+import_tables:
+  - smyh.smart
+columns:
+  - text
+  - code
+  - weight
+
+...
+

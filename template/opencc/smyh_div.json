@@ -1,0 +1,19 @@
+{
+  "name": "smyh division tips",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "smyh_div.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "smyh_div.txt"
+      }]
+    }
+  }]
+}
