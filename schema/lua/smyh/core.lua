@@ -2,6 +2,31 @@ local M = {}
 M.filter = {}
 M.translator = {}
 
+local function commit_history(input, seg, env)
+    if string.match(string.sub(input, 1, 3), "[a-y][z;]z") then
+        -- 一简补Z
+        input = string.sub(input, 1, 1)..";"
+    elseif string.match(string.sub(input, 1, 4), "[a-y][a-y][z;]z") then
+        -- 二简补Z
+        input = string.sub(input, 1, 2)..";"
+    elseif string.match(string.sub(input, 1, 4), "[a-y][a-y][a-z]z") then
+        -- 全码补Z
+        input = string.sub(input, 1, 3)
+    else
+        return
+    end
+    if env.mem:dict_lookup(input, false, 1) then
+        for entry in env.mem:iter_dict() do
+            env.engine:commit_text(entry.text)
+            env.engine.context:clear()
+            env.engine.context:push_input("z")
+            yield(Candidate("table", seg.start, seg._end, entry.text, ""))
+            yield(Candidate("table", seg.start, seg._end, "", ""))
+            return true
+        end
+    end
+end
+
 -- 计算分词列表
 local function get_code_segs(input)
     local code_segs = {}
@@ -71,6 +96,10 @@ end
 
 -- 翻译器
 function M.translator.func(input, seg, env)
+    if commit_history(input, seg, env) then
+        return
+    end
+
     -- 施法提示
     local pass_comment = ""
     -- 分词

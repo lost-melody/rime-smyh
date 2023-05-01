@@ -53,7 +53,8 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 
 	// 按字频编号
 	sort.SliceStable(charMetaList, func(i, j int) bool {
-		return charMetaList[i].Freq > charMetaList[j].Freq
+		return charMetaList[i].Freq > charMetaList[j].Freq ||
+			charMetaList[i].Freq == charMetaList[j].Freq && charMetaList[i].Char < charMetaList[j].Char
 	})
 	for i, charMeta := range charMetaList {
 		charMeta.Seq = i
@@ -153,7 +154,8 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 	// 按词频排序
 	sort.SliceStable(phraseMetaList, func(i, j int) bool {
 		return phraseMetaList[i].Code < phraseMetaList[j].Code ||
-			phraseMetaList[i].Code == phraseMetaList[j].Code && phraseMetaList[i].Freq > phraseMetaList[j].Freq
+			phraseMetaList[i].Code == phraseMetaList[j].Code && phraseMetaList[i].Freq > phraseMetaList[j].Freq ||
+			phraseMetaList[i].Code == phraseMetaList[j].Code && phraseMetaList[i].Freq == phraseMetaList[j].Freq && phraseMetaList[i].Phrase < phraseMetaList[j].Phrase
 	})
 	sort.SliceStable(phraseTipList, func(i, j int) bool {
 		return phraseTipList[i].Phrase < phraseTipList[j].Phrase
