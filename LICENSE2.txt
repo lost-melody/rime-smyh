@@ -1,4 +1,6 @@
-This license applies to the theme of the website.
+This license applies to
+- the generator code (dir `generator/`)
+- and the shell scripts (files suffixed by `.sh`)
 
 The MIT License (MIT)
 
