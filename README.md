@@ -41,4 +41,4 @@
 
 - 字频数据: [25亿字语料汉字字频表](https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm).
 - 字根及拆分数据: [yuhao/schema/yuhao_chaifen.dict.yaml](https://github.com/forFudan/yuhao/blob/main/schema/yuhao_chaifen.dict.yaml).
-- 袖珍简化字拼音: [rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp).
+- 宇浩拼音: [yuhao/schema/yuhao_pinyin.dict.yaml](https://github.com/forFudan/yuhao/blob/main/schema/yuhao_pinyin.dict.yaml).

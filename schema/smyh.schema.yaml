@@ -12,8 +12,8 @@ schema:
     宇浩三码顶，基于宇浩输入法制作。
     宇浩输入法QQ群：735728797
   dependencies:
-    # 袖珍拼音, 用于反查
-    - pinyin_simp
+    # 宇浩拼音, 用于反查
+    - yuhao_pinyin
     # 引号词库
     - smyh.phrase
 
@@ -60,10 +60,10 @@ engine:
     - table_translator@phrase
     # 上次上屏历史
     - history_translator@history
-    # 打断施法, 同时为施法提示提供数据
-    - lua_translator@smyh_translator
     # 反查
     - reverse_lookup_translator@rev_pinyin
+    # 打断施法, 同时为施法提示提供数据
+    - lua_translator@smyh_translator
   filters:
     - simplifier
     # 候选去重
@@ -133,7 +133,7 @@ division:
     - xform/;/_/
     - xform/\[/〔/
     - xform/\]/〕/
-    - xform/\|/·/
+    - xform/\|/ · /
   tags: [ abc ]
 
 # 反查拆分提示, 反查时常显
@@ -146,7 +146,7 @@ rev_div:
     - xform/;/_/
     - xform/\[/〔/
     - xform/\]/〕/
-    - xform/\|/·/
+    - xform/\|/ · /
   tags: [ rev_pinyin ]
 
 # 简码提示
@@ -164,8 +164,8 @@ simp_tip:
 rev_pinyin:
   tag: rev_pinyin
   prefix: "z"
-  dictionary: pinyin_simp
-  tips: "[拼音反查]"
+  dictionary: yuhao_pinyin
+  tips: "[拼音]"
   preedit_format:
     - xform/^z//
   comment_format:

@@ -12,7 +12,6 @@ mkdir -p "${SCHEMA}/opencc"
 
 # 拷贝模板文件
 cp template/smyh.*.yaml "${SCHEMA}/"
-cp template/pinyin_simp.*.yaml "${SCHEMA}/"
 cp template/rime.lua "${SCHEMA}/"
 cp template/lua/smyh/*.lua "${SCHEMA}/lua/smyh/"
 cp template/opencc/smyh_*.{json,txt} "${SCHEMA}/opencc/"

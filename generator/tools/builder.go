@@ -177,7 +177,7 @@ func calcCodeByDiv(div []string, mappings map[string]string) (full string, code 
 	if len(code) == 2 {
 		supp := getCodeSupplement(full)
 		code += supp
-		full += supp
+		// full += supp
 	}
 
 	code = strings.ToLower(code)
