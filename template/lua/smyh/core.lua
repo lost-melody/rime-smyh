@@ -4,9 +4,13 @@ M.translator = {}
 
 -- 单字Z键顶, 记录上屏历史
 local function commit_history(input, seg, env)
-    if string.match(string.sub(input, 1, 3), "[a-y][z;]z") then
-        -- 一简补Z
-        input = string.sub(input, 1, 1)..";"
+    -- if string.match(string.sub(input, 1, 3), "[a-y][z;]z") then
+    --     -- 一简补Z
+    --     input = string.sub(input, 1, 1)..";"
+    -- elseif string.match(string.sub(input, 1, 4), "[a-y][a-y][z;]z") then
+    if string.match(string.sub(input, 1, 4), "[a-y][z;][z;]z") then
+        -- 一简二简词补Z
+        input = string.sub(input, 1, 1)..";;"
     elseif string.match(string.sub(input, 1, 4), "[a-y][a-y][z;]z") then
         -- 二简补Z
         input = string.sub(input, 1, 2)..";"

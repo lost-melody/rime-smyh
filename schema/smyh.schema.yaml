@@ -32,7 +32,7 @@ switches:
   - name: rev_div
     reset: 1
   - name: simp_tip
-    reset: 1
+    reset: 0
   - name: ascii_mode
     reset: 0
 
@@ -86,6 +86,8 @@ speller:
   auto_select_unique_candidate: true
   algebra:
     # Z键和分号等同
+    - derive/;;/;z/
+    - derive/;;/z;/
     - derive/;/z/
 
 # 主翻译器
@@ -190,6 +192,8 @@ key_binder:
     - {when: has_menu, accept: Tab, send: 3}
     # 拆分提示
     - { when: always, accept: "Control+Shift+C", toggle: division }
+    # 简码提示
+    - { when: always, accept: "Control+Shift+S", toggle: simp_tip }
     # 中英文标点
     - {when: always, accept: Control+period, toggle: ascii_punct}
     # 扩展字符集。
@@ -204,7 +208,7 @@ recognizer:
     # 符号模式
     punct: '^/([0-9]0?|[A-Za-z]+)$'
     # 单字模式, 为了使唯一候选不自动上屏
-    retword: '^[a-y]{3}|[a-y]{1,2}[z;]$'
+    retword: '^[a-y]{3}|[a-y]{2}[z;]|[a-y][z;]{1,2}$'
 
 menu:
   page_size: 6

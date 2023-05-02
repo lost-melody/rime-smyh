@@ -16,6 +16,7 @@ columns:
 
 打开	aa;
 取得	ab;
+把握	a;;
 把握	ac;
 顶级	ad;
 抓住	ae;
@@ -39,6 +40,7 @@ columns:
 推动	aw;
 报告	ax;
 势力	ay;
+对于	b;;
 对于	ba;
 双方	bb;
 丑陋	bc;
@@ -85,6 +87,7 @@ columns:
 随时	cs;
 除非	ct;
 予以	cu;
+好像	c;;
 好像	cv;
 阴谋	cw;
 妈妈	cx;
@@ -109,6 +112,7 @@ columns:
 死亡	dr;
 需要	ds;
 零件	dt;
+不知道	d;;
 不知道	du;
 成为	dv;
 期间	dw;
@@ -136,6 +140,7 @@ columns:
 价格	et;
 信息	eu;
 仍然	ev;
+的确	e;;
 的确	ew;
 似乎	ex;
 你们	ey;
@@ -147,6 +152,7 @@ columns:
 本身	ff;
 天气	fg;
 标准	fh;
+一个	f;;
 一个	fi;
 更加	fj;
 两个	fk;
@@ -167,6 +173,7 @@ columns:
 奇怪	ga;
 巨大	gb;
 靶子	gc;
+大家	g;;
 大家	gd;
 革命	ge;
 玩笑	gf;
@@ -191,7 +198,8 @@ columns:
 牵连	gy;
 寺院	ha;
 声音	hb;
-地方	hc;
+地方	h;;
+车车	hc;
 城市	hd;
 未来	he;
 辅助	hf;
@@ -229,7 +237,8 @@ columns:
 遍布	in;
 注意	io;
 浏览	ip;
-没有	iq;
+没有	i;;
+产生	iq;
 活动	ir;
 满足	is;
 溜走	it;
@@ -280,7 +289,8 @@ columns:
 遇到	kp;
 贬义	kq;
 蝌蚪	kr;
-上面	ks;
+上面	k;;
+里面	ks;
 内容	kt;
 赚钱	ku;
 虫子	kv;
@@ -308,6 +318,7 @@ columns:
 吸收	lv;
 史学	lw;
 哈哈	ly;
+小时	m;;
 小时	ma;
 瞪大	mb;
 小姑娘	mc;
@@ -344,7 +355,8 @@ columns:
 止步	ni;
 旧式	nj;
 赏识	nk;
-回来	nl;
+回来	n;;
+圆圈	nl;
 常常	nm;
 趾甲	nn;
 踪影	no;
@@ -381,7 +393,8 @@ columns:
 说明	ou;
 充分	ov;
 调整	ow;
-为什么	ox;
+为什么	o;;
+辛苦	ox;
 密切	oy;
 麻烦	pa;
 变化	pb;
@@ -398,7 +411,8 @@ columns:
 补充	pm;
 门口	pn;
 粮食	po;
-这样	pp;
+这样	p;;
+迷惑	pp;
 疾病	pq;
 窗外	pr;
 突然	ps;
@@ -408,7 +422,8 @@ columns:
 文化	pw;
 离开	px;
 究竟	py;
-我们	qa;
+我们	q;;
+年代	qa;
 每个	qb;
 川菜	qc;
 顺利	qd;
@@ -442,7 +457,8 @@ columns:
 狭窄	rg;
 街道	rh;
 匕首	ri;
-得到	rj;
+得到	r;;
+香味	rj;
 独立	rk;
 程度	rl;
 外面	rm;
@@ -495,7 +511,8 @@ columns:
 自己	tk;
 钟头	tl;
 看见	tm;
-个人	tn;
+个人	t;;
+用于	tn;
 今天	to;
 片面	tp;
 铁路	tq;
@@ -575,7 +592,8 @@ columns:
 脑袋	wp;
 先生	wq;
 脂肪	wr;
-然后	ws;
+然后	w;;
+希望	ws;
 忽然	wt;
 焦虑	wu;
 月亮	wv;
@@ -598,6 +616,7 @@ columns:
 以后	xo;
 边缘	xp;
 群体	xq;
+出租车	x;;
 出租车	xr;
 收藏夹	xs;
 办法	xt;
@@ -619,6 +638,7 @@ columns:
 负责	yk;
 象征	yl;
 悄悄	ym;
+心情	y;;
 心情	yn;
 惊人	yo;
 追求	yp;
