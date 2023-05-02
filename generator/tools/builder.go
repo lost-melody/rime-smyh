@@ -41,7 +41,7 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 					charMetaList = append(charMetaList, &cm)
 				}
 				// 全码后置
-				charMeta.Freq = 1000
+				charMeta.Freq = 10000
 				charMeta.Back = true
 				charMetaList = append(charMetaList, &charMeta)
 			} else {
