@@ -137,7 +137,7 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 							addPhrase(cPhrase, cf.Code+cs.Code, tip, cFreq)
 						} else {
 							// 双首选作为提示
-							addPhrase("_", f.Code+s.Code, tip, 0)
+							// addPhrase("_", f.Code+s.Code, tip, 0)
 							tip = cPhrase
 						}
 						addPhrase(f.Char+s.Char, f.Code+s.Code, tip, freq)

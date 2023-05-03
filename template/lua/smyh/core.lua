@@ -2,6 +2,8 @@ local M = {}
 M.filter = {}
 M.translator = {}
 
+-- ######## 工具函数 ########
+
 -- 单字Z键顶, 记录上屏历史
 local function commit_history(input, seg, env)
     -- if string.match(string.sub(input, 1, 3), "[a-y][z;]z") then
@@ -58,22 +60,34 @@ local function get_code_segs(input)
     return code_segs, input
 end
 
+-- 查询编码对应候选列表
+local function dict_lookup(code, env)
+    local result = {}
+    if env.mem:dict_lookup(code, false, 1) then
+        for entry in env.mem:iter_dict() do
+            table.insert(result, entry)
+        end
+    end
+    return result
+end
+
 -- 查询分词首选字列表
 local function query_char_list(code_segs, env)
     if code_segs then
         local char_list = {}
         for _, code in ipairs(code_segs) do
-            if env.mem:dict_lookup(code, false, 1) then
-                for entry in env.mem:iter_dict() do
-                    table.insert(char_list, entry.text)
-                    break
-                end
+            -- 查询编码候选, 并取首选字
+            local entries = dict_lookup(code, env)
+            if entries and #entries ~= 0 then
+                table.insert(char_list, entries[1].text)
             end
         end
         return char_list
     end
     return nil
 end
+
+-- ######## 过滤器 ########
 
 function M.filter.init(env)
 end
@@ -85,11 +99,7 @@ function M.filter.func(input, env)
         if comment and string.len(comment) ~= 0 and comment ~= cand.text then
             -- 给首个与打断提示不同的候选添加施法提示
             local c = cand:get_genuine()
-            c.comment = "["..comment.."]"
-            comment = nil
-        end
-        if cand.text == "_" then
-            cand = Candidate(cand.type, cand.start, cand._end, "", "")
+            c.comment, comment = "["..comment.."]", nil
         end
         yield(cand)
     end
@@ -97,6 +107,8 @@ end
 
 function M.filter.fini(env)
 end
+
+-- ######## 翻译器 ########
 
 function M.translator.init(env)
     env.mem = Memory(env.engine, env.engine.schema)
@@ -109,8 +121,9 @@ function M.translator.func(input, seg, env)
         return
     end
 
-    -- 施法提示
-    local pass_comment = ""
+    -- 清空施法提示
+    env.engine.context:set_property("smyh.comment", "")
+
     -- 分词
     input = string.gsub(input, 'z', ';')
     local code_segs, remaining = get_code_segs(input)
@@ -127,7 +140,6 @@ function M.translator.func(input, seg, env)
                 env.engine:commit_text(char)
             end
             -- 清空编码, 追加保留串
-            -- env.engine.context:pop_input(string.len(input))
             env.engine.context:clear()
             env.engine.context:push_input(retain)
             -- 假装table_translator
@@ -139,16 +151,22 @@ function M.translator.func(input, seg, env)
         end
     elseif (not remaining or remaining == "") and code_segs and #code_segs > 1 then
         -- 没有冗余编码, 分词数大于一, 触发施法提示
+        local pass_comment = ""
         local char_list = query_char_list(code_segs, env)
         if char_list then
             for _, char in ipairs(char_list) do
                 pass_comment = pass_comment..char
             end
         end
-    end
+        -- 传递施法提示
+        env.engine.context:set_property("smyh.comment", pass_comment)
 
-    -- 用context传递施法提示
-    env.engine.context:set_property("smyh.comment", pass_comment)
+        -- 唯一候选添加占位候选
+        local entries = dict_lookup(input, env)
+        if entries and #entries == 1 then
+            yield(Candidate("table", seg.start, seg._end, "", ""))
+        end
+    end
 end
 
 function M.translator.fini(env)

@@ -160,7 +160,7 @@ simp_tip:
   comment_format:
     - xform/;/_/
     - 'xform/^(.*)$/[$1]/'
-  tags: [ retword ]
+  tags: [ fullcode ]
 
 # 拼音反查
 rev_pinyin:
@@ -209,6 +209,8 @@ recognizer:
     punct: '^/([0-9]0?|[A-Za-z]+)$'
     # 单字模式, 为了使唯一候选不自动上屏
     retword: '^[a-y]{3}|[a-y]{2}[z;]|[a-y][z;]{1,2}$'
+    # 全码模式, 为了标识全码, 从而只对全码提供简码提示
+    fullcode: '^[a-y]{3}$'
 
 menu:
   page_size: 6
