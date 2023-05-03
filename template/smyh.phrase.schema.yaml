@@ -11,7 +11,7 @@ speller:
   alphabet: "qwertyuiopasdfghjklxcvbnm"
   initials: "qwertyuiopasdfghjklxcvbnm"
   algebra:
-    - xform/([a-y]{4})/'$1/
+    - xform/^([a-y]+)$/'$1/
 
 translator:
   dictionary: smyh.phrase
