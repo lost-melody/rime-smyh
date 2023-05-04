@@ -16,6 +16,8 @@ schema:
     - yuhao_pinyin
     # 引号词库
     - smyh.phrase
+    # 全码官宇词库
+    - smyh.yuhaofull
 
 switches:
   - name: ascii_punct
@@ -58,6 +60,8 @@ engine:
     - table_translator
     # 引号词
     - table_translator@phrase
+    # 全码官宇
+    - table_translator@yuhaofull
     # 上次上屏历史
     - history_translator@history
     # 反查
@@ -80,7 +84,7 @@ engine:
     - simplifier@rev_div
 
 speller:
-  alphabet: "qwertyuiopasdfghjklzxcvbnm';"
+  alphabet: "qwertyuiopasdfghjklzxcvbnm';/"
   initials: "qwertyuiopasdfghjklzxcvbnm'"
   auto_select: true
   auto_select_unique_candidate: true
@@ -112,6 +116,7 @@ history:
 
 # 引号词库
 phrase:
+  tag: phrase
   dictionary: smyh.phrase
   prism: smyh.phrase
   enable_encoder: false
@@ -121,9 +126,21 @@ phrase:
   strict_spelling: true
   initial_quality: 0
   preedit_format:
-    - "xform/^'//"
-  comment_format:
-    - "xform/^'//"
+    - "xform/^'/*/"
+
+# 全码官宇词库
+yuhaofull:
+  tag: yuhaofull
+  dictionary: smyh.yuhaofull
+  prism: smyh.yuhaofull
+  enable_encoder: false
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+  strict_spelling: true
+  initial_quality: 0
+  preedit_format:
+    - "xform|/|_|"
 
 # 拆分提示, 可快捷开关
 division:
@@ -159,7 +176,7 @@ simp_tip:
   show_in_comment: true
   comment_format:
     - xform/;/_/
-    - 'xform/^(.*)$/[$1]/'
+    - "xform/^(.*)$/[$1]/"
   tags: [ fullcode ]
 
 # 拼音反查
@@ -211,6 +228,8 @@ recognizer:
     retword: '^[a-y]{3}|[a-y]{2}[z;]|[a-y][z;]{1,2}$'
     # 全码模式, 为了标识全码, 从而只对全码提供简码提示
     fullcode: '^[a-y]{3}$'
+    # 全码官宇模式, 形如 xx/xx 打出官宇全码字
+    yuhaofull: '^[a-y]{2}/[a-y]{0,2}$'
 
 menu:
   page_size: 6

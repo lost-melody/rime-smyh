@@ -1,0 +1,17 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: smyh.yuhaofull
+  name: 宇浩三码顶·全码官宇词库
+  description: |
+    辅助方案，不能打字。
+
+speller:
+  alphabet: "qwertyuiopasdfghjklxcvbnm"
+  initials: "qwertyuiopasdfghjklxcvbnm"
+  algebra:
+    - xform|^([a-y]{2})([a-y]{1,2})$|$1/$2|
+
+translator:
+  dictionary: smyh.yuhaofull
