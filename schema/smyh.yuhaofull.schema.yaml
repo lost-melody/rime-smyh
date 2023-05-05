@@ -11,7 +11,7 @@ speller:
   alphabet: "qwertyuiopasdfghjklxcvbnm"
   initials: "qwertyuiopasdfghjklxcvbnm"
   algebra:
-    - xform|^([a-y]{2})([a-y]{1,2})$|$1/$2|
+    - xform|^([a-y]{2})([a-y]{0,2})$|$1/$2|
 
 translator:
   dictionary: smyh.yuhaofull
