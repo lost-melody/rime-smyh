@@ -26,8 +26,6 @@ switches:
   - name: full_shape
     states: [ 半, 全 ]
     reset: 0
-  - name: gbk
-    reset: 1
   - name: division
     states: [ 隐, 拆 ]
     reset: 0
@@ -72,8 +70,6 @@ engine:
     - simplifier
     # 候选去重
     - uniquifier
-    # 字符集过滤
-    - charset_filter@gbk
     # 简码提示
     - simplifier@simp_tip
     # 施法提示, 需配合打断施法翻译器
@@ -213,8 +209,6 @@ key_binder:
     - { when: always, accept: "Control+Shift+S", toggle: simp_tip }
     # 中英文标点
     - {when: always, accept: Control+period, toggle: ascii_punct}
-    # 扩展字符集。
-    - {when: always, accept: Control+Shift+U, toggle: gbk}
 
 recognizer:
   patterns:
