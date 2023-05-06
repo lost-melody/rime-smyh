@@ -85,10 +85,12 @@ speller:
   auto_select: true
   auto_select_unique_candidate: true
   algebra:
+    # 分号简码可略分号, 并使一简字简词前置
+    - derive/;$//
     # Z键和分号等同
+    - derive/;/z/
     - derive/;;/;z/
     - derive/;;/z;/
-    - derive/;/z/
 
 # 主翻译器
 translator:
