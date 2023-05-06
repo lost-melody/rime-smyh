@@ -94,6 +94,7 @@ func BuildCodeCharMetaMap(charMetaList []*types.CharMeta) (codeCharMetaMap map[s
 
 func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMetaMap map[string][]*types.CharMeta, phraseFreqSet map[string]int64) (phraseMetaList []*types.PhraseMeta, phraseTipList []*types.PhraseTip) {
 	smartSet := map[string]struct{}{}
+	// 加詞
 	addPhrase := func(phrase, code, tip string, freq int64) {
 		if _, ok := smartSet[phrase+code]; ok {
 			return
@@ -113,42 +114,126 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 			phraseTipList = append(phraseTipList, &phraseTip)
 		}
 	}
+	// 決定是否加詞
+	dealPhrase := func(phrase []rune, freq int64) {
+		phraseChars := make([][]*types.CharMeta, len(phrase))
+		// 進位加法器記録下標, 詞語各字的各編碼笛卡爾積
+		charIndexes := make([]int, len(phrase))
+		for i, char := range phrase {
+			phraseChars[i] = charMetaMap[string(char)]
+		}
+
+		for {
+			current := make([]*types.CharMeta, len(phrase))
+			for i := range charIndexes {
+				current[i] = phraseChars[i][charIndexes[i]]
+			}
+
+			// 是否需要選重
+			needSel := false
+
+			switch len(current) {
+			case 2:
+				// 二字詞
+				fs, ss := current[0].Sel != 0, current[1].Sel != 0
+				if fs || ss {
+					needSel = true
+				}
+			case 3:
+				// 三字詞
+				fs, ss, ts := current[0].Sel != 0, current[1].Sel != 0, current[2].Sel != 0
+				if fs {
+					// 首字選重
+					needSel = true
+					if !ts {
+						// 末字不選重
+						current = current[:2]
+					}
+				} else if ss {
+					// 次字選重
+					needSel = true
+					if _, ok := phraseFreqSet[current[0].Char+current[1].Char]; ok {
+						// 若有前二字詞, 則需組首字
+						if !ts {
+							// 不組末字
+							current = current[:2]
+						}
+					} else {
+						// 不組之
+						current = current[1:]
+					}
+				} else if ts {
+					// 末字選重
+					needSel = true
+					if _, ok := phraseFreqSet[current[0].Char+current[1].Char]; !ok {
+						// 无前二字詞, 不組首字
+						current = current[1:]
+					}
+				}
+			default:
+			}
+
+			// 需要選重, 即需要組詞
+			if needSel {
+				// 首選字成詞
+				cPhraseChars := make([]*types.CharMeta, len(current))
+				phrase, cPhrase := "", ""
+				phraseCode, cPhraseCode := "", ""
+				for i := range current {
+					cPhraseChars[i] = codeCharMetaMap[current[i].Code][0]
+					phrase += current[i].Char
+					cPhrase += cPhraseChars[i].Char
+					phraseCode += current[i].Code
+					cPhraseCode += cPhraseChars[i].Code
+				}
+				tip := ""
+				if cFreq, ok := phraseFreqSet[cPhrase]; ok {
+					// 雙首選也是詞
+					backed := false
+					for _, char := range cPhraseChars {
+						if char.Back {
+							// 雙首選存在後置字, 後置之
+							backed = true
+						}
+					}
+					if backed {
+						cFreq = 0
+					}
+					addPhrase(cPhrase, cPhraseCode, "", cFreq)
+				} else {
+					// 雙首選作爲提示詞
+					tip = cPhrase
+				}
+				addPhrase(phrase, phraseCode, tip, freq)
+			}
+
+			done := false
+			// 模拟進位加法器, 匹配所有組合
+			for i := range charIndexes {
+				// 當位加一
+				charIndexes[i]++
+				if charIndexes[i] == len(phraseChars[i]) {
+					// 進位
+					charIndexes[i] = 0
+					if i == len(charIndexes)-1 {
+						// 最高位進位, 結束
+						done = true
+						break
+					}
+				} else {
+					// 无進位
+					break
+				}
+			}
+			if done {
+				break
+			}
+		}
+	}
 
 	// 遍历词汇表
 	for phrase, freq := range phraseFreqSet {
-		phrase := []rune(phrase)
-
-		switch len(phrase) {
-		case 2:
-			first, second := charMetaMap[string(phrase[0])], charMetaMap[string(phrase[1])]
-			for _, f := range first {
-				for _, s := range second {
-					if f.Sel != 0 || s.Sel != 0 {
-						// 两字首选
-						cf, cs := codeCharMetaMap[f.Code][0], codeCharMetaMap[s.Code][0]
-						cPhrase := cf.Char + cs.Char
-						tip := ""
-						if cFreq, ok := phraseFreqSet[cPhrase]; ok {
-							// 双首选也是词
-							if cf.Back || cs.Back {
-								// 如果双首选存在后置字, 则后置
-								cFreq = 0
-							}
-							addPhrase(cPhrase, cf.Code+cs.Code, tip, cFreq)
-						} else {
-							// 双首选作为提示
-							// addPhrase("_", f.Code+s.Code, tip, 0)
-							tip = cPhrase
-						}
-						addPhrase(f.Char+s.Char, f.Code+s.Code, tip, freq)
-					}
-				}
-			}
-		case 3:
-			continue
-		default:
-			continue
-		}
+		dealPhrase([]rune(phrase), freq)
 	}
 
 	// 按词频排序

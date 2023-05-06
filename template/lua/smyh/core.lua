@@ -61,9 +61,11 @@ local function get_code_segs(input)
 end
 
 -- 查询编码对应候选列表
-local function dict_lookup(code, env)
+local function dict_lookup(code, env, comp)
+    -- 是否补全编码
+    comp = comp or false
     local result = {}
-    if env.mem:dict_lookup(code, false, 1) then
+    if env.mem:dict_lookup(code, comp, 2) then
         for entry in env.mem:iter_dict() do
             table.insert(result, entry)
         end
@@ -162,7 +164,7 @@ function M.translator.func(input, seg, env)
         env.engine.context:set_property("smyh.comment", pass_comment)
 
         -- 唯一候选添加占位候选
-        local entries = dict_lookup(input, env)
+        local entries = dict_lookup(input, env, true)
         if entries and #entries == 1 then
             yield(Candidate("table", seg.start, seg._end, "", ""))
         end
