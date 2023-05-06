@@ -165,10 +165,8 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 				} else if ts {
 					// 末字選重
 					needSel = true
-					if _, ok := phraseFreqSet[current[0].Char+current[1].Char]; !ok {
-						// 无前二字詞, 不組首字
-						current = current[1:]
-					}
+					// 不組首字
+					current = current[1:]
 				}
 			default:
 			}
