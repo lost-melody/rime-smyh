@@ -89,7 +89,7 @@ func main() {
 	// PHRASE
 	buffer.Truncate(0)
 	for _, phraseMeta := range phraseMetaList {
-		buffer.WriteString(fmt.Sprintf("%s\t%s\t%d\n", phraseMeta.Phrase, phraseMeta.Code, phraseMeta.Freq))
+		buffer.WriteString(fmt.Sprintf("%s\t%s\n", phraseMeta.Phrase, phraseMeta.Code))
 	}
 	err = os.WriteFile("/tmp/phrase.txt", buffer.Bytes(), 0644)
 	if err != nil {

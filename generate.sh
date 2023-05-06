@@ -24,6 +24,8 @@ cd "${WD}"
 # 单字码表
 grep -v '#' table/smyh_quick.txt >>"${SCHEMA}/smyh.dict.yaml"
 cat /tmp/char.txt >>"${SCHEMA}/smyh.dict.yaml"
+# 引號詩詞成語碼表
+grep -v '#' table/quote.txt >>"${SCHEMA}/smyh.phrase.dict.yaml"
 # 智能词码表
 cat /tmp/phrase.txt >>"${SCHEMA}/smyh.smart.dict.yaml"
 # 拆分提示

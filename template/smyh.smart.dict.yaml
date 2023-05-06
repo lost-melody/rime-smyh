@@ -4,7 +4,7 @@
 ---
 name: "smyh.smart"
 version: "beta"
-sort: by_weight
+sort: original
 columns:
   - text
   - code

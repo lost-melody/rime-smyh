@@ -4,7 +4,7 @@
 ---
 name: "smyh"
 version: "beta"
-sort: by_weight
+sort: original
 import_tables:
   - smyh.smart
 columns:

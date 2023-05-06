@@ -1,20 +1,3 @@
-# rime dictionary: 宇浩三码顶·引号词库
-# encoding: utf-8
-
----
-name: "smyh.phrase"
-version: "beta"
-sort: original
-import_tables:
-  # - yuhao.chengyu
-  # - yuhao.symbols
-columns:
-  - text
-  - code
-  - weight
-  - other
-...
-
 无论如何	foce
 不知不觉	dqdi
 无能为力	fvox
