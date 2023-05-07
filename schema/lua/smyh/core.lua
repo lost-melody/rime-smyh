@@ -38,6 +38,8 @@ local function commit_history(input, seg, env)
 end
 
 -- 计算分词列表
+-- "jnuhsklll;" -> ["jnu","hsk","lll"], ";"
+-- "o;gso"     -> ["o;", "gso"]
 local function get_code_segs(input)
     local code_segs = {}
     while string.len(input) ~= 0 do
@@ -61,6 +63,7 @@ local function get_code_segs(input)
 end
 
 -- 查询编码对应候选列表
+-- "hsk" -> ["考", "示"]
 local function dict_lookup(code, env, comp)
     -- 是否补全编码
     comp = comp or false
@@ -73,6 +76,9 @@ local function dict_lookup(code, env, comp)
     return result
 end
 
+-- 最大匹配查詢分詞候選列表
+-- ["jnu", "hsk", "lll"] -> ["显示", "品"]
+-- ["jnu", "hsk"]        -> ["显", "考"]
 local function query_cand_list(code_segs, env)
     if code_segs and #code_segs > 1 then
         local seg_length = #code_segs
@@ -147,11 +153,19 @@ function M.translator.func(input, seg, env)
     -- 分词
     input = string.gsub(input, 'z', ';')
     local code_segs, remaining = get_code_segs(input)
+    local fullcode_entries
 
     if remaining and remaining == ";" and code_segs and #code_segs > 1 then
         -- 有单个冗余分号, 且分词数大于一, 触发 "打断施法"
+        fullcode_entries = dict_lookup(table.concat(code_segs, ''), env)
         local char_list, retain = query_cand_list(code_segs, env)
         if char_list then
+            if fullcode_entries and #fullcode_entries > 1 and fullcode_entries[1].text == table.concat(char_list, '') then
+                -- 多重智能詞, 且首選與單字相同, 上屏第二候選
+                yield(Candidate("table", seg.start, seg._end, fullcode_entries[2].text, fullcode_entries[2].comment))
+                return
+            end
+
             -- 移除末位候選
             table.remove(char_list)
             remaining = ''
@@ -173,10 +187,15 @@ function M.translator.func(input, seg, env)
     if (not remaining or remaining == "") and code_segs and #code_segs > 1 then
         -- 没有冗余编码, 分词数大于一, 触发施法提示
         local pass_comment = ""
+        fullcode_entries = dict_lookup(table.concat(code_segs, ''), env)
         local char_list, _ = query_cand_list(code_segs, env)
         if char_list then
-            for _, char in ipairs(char_list) do
-                pass_comment = pass_comment..char
+            if fullcode_entries and #fullcode_entries > 1 and fullcode_entries[1].text == table.concat(char_list, '') then
+                -- 多重智能詞, 且首選與單字相同, 提示第二候選
+                pass_comment = "↩"..fullcode_entries[2].text
+            else
+                -- 單個候選詞, 或首選與單字不同, 提示首選
+                pass_comment = "☯"..table.concat(char_list, '')
             end
         end
         -- 传递施法提示
