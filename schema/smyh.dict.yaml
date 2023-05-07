@@ -613,10 +613,10 @@ columns:
 服务	wx;
 脆弱	wy;
 建议	xa;
-骚动	xb;
+发生	xb;
 驰骋	xc;
 办不到	xd;
-发生	xe;
+收到	xe;
 卫生	xf;
 骑车	xg;
 以至于	xh;
@@ -20781,6 +20781,7 @@ columns:
 驿	xba	12436
 骙	xbg	29
 骚	xbk	72015
+发	xbo	3946829
 驭	xbu	11486
 収	xbu	6
 骣	xbv	23
@@ -20798,7 +20799,6 @@ columns:
 翫	xeh	3
 斨	xej	4
 骆	xel	39888
-发	xeo	3946829
 翭	xeq	2
 飁	xer	1
 骄	xet	60597
