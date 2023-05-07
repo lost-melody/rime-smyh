@@ -73,20 +73,38 @@ local function dict_lookup(code, env, comp)
     return result
 end
 
--- 查询分词首选字列表
-local function query_char_list(code_segs, env)
-    if code_segs then
-        local char_list = {}
-        for _, code in ipairs(code_segs) do
-            -- 查询编码候选, 并取首选字
-            local entries = dict_lookup(code, env)
-            if entries and #entries ~= 0 then
-                table.insert(char_list, entries[1].text)
+local function query_cand_list(code_segs, env)
+    if code_segs and #code_segs > 1 then
+        local seg_length = #code_segs
+        local cand_list = {}
+        local code = ''
+        while #code_segs ~= 0 do
+            -- 最大匹配
+            for viewport = #code_segs, 1, -1 do
+                if viewport ~= seg_length then
+                    code = table.concat(code_segs, '', 1, viewport)
+                    local entries = dict_lookup(code, env)
+                    if entries and #entries ~= 0 then
+                        -- 當前viewport有候選, 擇之並進入下一輪
+                        table.insert(cand_list, entries[1].text)
+                        if viewport ~= #code_segs then
+                            for _ = 1, viewport do
+                                table.remove(code_segs, 1)
+                            end
+                        else
+                            return cand_list, code
+                        end
+                        break
+                    elseif viewport == 1 then
+                        -- 最小viewport无候選, 返回
+                        return
+                    end
+                end
             end
         end
-        return char_list
+        -- 返回候選字列表及末候選編碼
+        return cand_list, code
     end
-    return nil
 end
 
 -- ######## 过滤器 ########
@@ -132,11 +150,11 @@ function M.translator.func(input, seg, env)
 
     if remaining and remaining == ";" and code_segs and #code_segs > 1 then
         -- 有单个冗余分号, 且分词数大于一, 触发 "打断施法"
-        local retain = code_segs[#code_segs]
-        table.remove(code_segs)
-        -- 保留分词末项, 上屏之前的首选
-        local char_list = query_char_list(code_segs, env)
+        local char_list, retain = query_cand_list(code_segs, env)
         if char_list then
+            -- 移除末位候選
+            table.remove(char_list)
+            remaining = ''
             for _, char in ipairs(char_list) do
                 -- 上屏
                 env.engine:commit_text(char)
@@ -151,10 +169,11 @@ function M.translator.func(input, seg, env)
                 end
             end
         end
-    elseif (not remaining or remaining == "") and code_segs and #code_segs > 1 then
+    end
+    if (not remaining or remaining == "") and code_segs and #code_segs > 1 then
         -- 没有冗余编码, 分词数大于一, 触发施法提示
         local pass_comment = ""
-        local char_list = query_char_list(code_segs, env)
+        local char_list, _ = query_cand_list(code_segs, env)
         if char_list then
             for _, char in ipairs(char_list) do
                 pass_comment = pass_comment..char
