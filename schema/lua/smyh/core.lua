@@ -2,6 +2,8 @@ local M = {}
 M.filter = {}
 M.translator = {}
 
+local pass_comment = ''
+
 -- ######## 工具函数 ########
 
 -- 单字Z键顶, 记录上屏历史
@@ -120,7 +122,8 @@ end
 
 -- 过滤器
 function M.filter.func(input, env)
-    local comment = env.engine.context:get_property("smyh.comment")
+    -- local comment = env.engine.context:get_property("smyh.comment")
+    local comment = pass_comment
     for cand in input:iter() do
         if comment and string.len(comment) ~= 0 and comment ~= cand.text then
             -- 给首个与打断提示不同的候选添加施法提示
@@ -148,7 +151,8 @@ function M.translator.func(input, seg, env)
     end
 
     -- 清空施法提示
-    env.engine.context:set_property("smyh.comment", "")
+    -- env.engine.context:set_property("smyh.comment", "")
+    pass_comment = ''
 
     -- 分词
     input = string.gsub(input, 'z', ';')
@@ -186,7 +190,7 @@ function M.translator.func(input, seg, env)
     end
     if (not remaining or remaining == "") and code_segs and #code_segs > 1 then
         -- 没有冗余编码, 分词数大于一, 触发施法提示
-        local pass_comment = ""
+        -- local pass_comment = ""
         fullcode_entries = dict_lookup(table.concat(code_segs, ''), env)
         local char_list, _ = query_cand_list(code_segs, env)
         if char_list then
@@ -199,7 +203,7 @@ function M.translator.func(input, seg, env)
             end
         end
         -- 传递施法提示
-        env.engine.context:set_property("smyh.comment", pass_comment)
+        -- env.engine.context:set_property("smyh.comment", pass_comment)
 
         -- 唯一候选添加占位候选
         local entries = dict_lookup(input, env, true)
