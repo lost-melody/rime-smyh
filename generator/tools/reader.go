@@ -113,7 +113,9 @@ func ReadPhraseFreq(filepath string) (freqSet map[string]int64, err error) {
 		// phrase, freqStr := line[0], line[1]
 		// freqSet[phrase], _ = strconv.ParseInt(freqStr, 10, 64)
 		phrase := line[0]
-		freqSet[phrase] = int64(len(lines) - i)
+		if _, ok := freqSet[phrase]; !ok {
+			freqSet[phrase] = int64(len(lines) - i)
+		}
 	}
 
 	return

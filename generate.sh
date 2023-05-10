@@ -32,3 +32,6 @@ cat /tmp/phrase.txt >>"${SCHEMA}/smyh.smart.dict.yaml"
 cat /tmp/div.txt >>"${SCHEMA}/opencc/smyh_div.txt"
 # 简码提示
 grep -v '#' table/smyh_simp.txt >>"${SCHEMA}/opencc/smyh_simp.txt"
+
+# 清理生成文件
+rm /tmp/{char,div,phrase}.txt
