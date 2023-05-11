@@ -136,14 +136,20 @@ function M.filter.func(input, env)
         end
         if index == 1 then
             -- 首選和編碼
-            first_cand.preedit = cand.text..first_cand.preedit
+            if string.len(cand.text) <= string.len("三個字") then
+                -- 三字以内, 先字後碼
+                first_cand.preedit = cand.text..first_cand.preedit
+            else
+                -- 三字以上, 先碼後字
+                first_cand.preedit = first_cand.preedit..cand.text
+            end
+            -- 施法提示
             if comment and string.len(comment) ~= 0 then
-                -- 施法提示也冒個泡
                 first_cand.preedit = first_cand.preedit.." ["..comment.."]"
             end
         elseif index <= 3 and string.len(cand.text) ~= 0 then
             -- 二三選處理
-            first_cand.preedit = first_cand.preedit.." "..tostring(index).."."..cand.text..cand.comment
+            first_cand.preedit = first_cand.preedit.." "..tostring(index).."."..cand.text
         end
 
         if comment and string.len(comment) ~= 0 and comment ~= cand.text then
