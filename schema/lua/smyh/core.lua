@@ -124,7 +124,28 @@ end
 function M.filter.func(input, env)
     -- local comment = env.engine.context:get_property("smyh.comment")
     local comment = pass_comment
+    local first_cand = nil
+    local index = 0
     for cand in input:iter() do
+        index = index + 1
+        if not first_cand then
+            -- 把首選捉出來
+            first_cand = cand:get_genuine()
+            -- 下划线不太好看, 换成减
+            first_cand.preedit = string.gsub(first_cand.preedit, '_', '-')
+        end
+        if index == 1 then
+            -- 首選和編碼
+            first_cand.preedit = cand.text..first_cand.preedit
+            if comment and string.len(comment) ~= 0 then
+                -- 施法提示也冒個泡
+                first_cand.preedit = first_cand.preedit.." ["..comment.."]"
+            end
+        elseif index <= 3 and string.len(cand.text) ~= 0 then
+            -- 二三選處理
+            first_cand.preedit = first_cand.preedit.." "..tostring(index).."."..cand.text..cand.comment
+        end
+
         if comment and string.len(comment) ~= 0 and comment ~= cand.text then
             -- 给首个与打断提示不同的候选添加施法提示
             local c = cand:get_genuine()
