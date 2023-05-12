@@ -124,8 +124,10 @@ end
 function M.filter.func(input, env)
     -- 施法提示
     local comment = pass_comment
-    -- 暫存
+    -- 暫存索引, 首選和預編輯文本
     local index, first_cand, first_preedit = 0, nil, ""
+    -- 暫存前三候選, 然后單批次送出, 以解決閃屏問題, 並解決Hamster下顯示問題
+    local three_cands = {}
     -- 迭代器
     local iter, obj = input:iter()
     local next = iter(obj)
@@ -154,13 +156,25 @@ function M.filter.func(input, env)
             if comment and string.len(comment) ~= 0 then
                 first_preedit = first_preedit.." ["..comment.."]"
             end
-        elseif index <= 3 and string.len(cand.text) ~= 0 then
+            -- 注入首選
+            table.insert(three_cands, cand)
+        elseif index <= 3 then
             -- 二三選處理
-            first_preedit = first_preedit.." "..tostring(index).."."..cand.text
+            if string.len(cand.text) ~= 0 then
+                -- 限定非空候选, 因爲占位候選不需要顯示
+                first_preedit = first_preedit.." "..tostring(index).."."..cand.text
+            end
+            -- 注入次選和三選
+            table.insert(three_cands, cand)
+
             if index == 3 then
                 -- 三選時, 刷新預編輯文本
                 first_cand.preedit = first_preedit
                 first_preedit = ""
+                -- 将暫存的前三候選批次送出
+                for _, c in ipairs(three_cands) do
+                    yield(c)
+                end
             end
         end
 
@@ -171,13 +185,23 @@ function M.filter.func(input, env)
         end
 
         next = iter(obj)
-        if not next and string.len(first_preedit) ~= 0 then
-            -- 不足三選, 在遍歷結束后刷新預編輯文本
-            first_cand.preedit = first_preedit
-            first_preedit = ""
+        if not next then
+            -- not next 表示没有下一候選, 説明當前遍歷結束
+            -- 這時有可能不足三選, 暫存的候選也就有可能没有批次送出
+            if index < 3 then
+                -- 不足三選, 刷新預編輯文本
+                first_cand.preedit = first_preedit
+                first_preedit = ""
+            end
+            -- 将暫存的前三候選批次送出
+            for _, c in ipairs(three_cands) do
+                yield(c)
+            end
         end
 
-        yield(cand)
+        if index > 3 then
+            yield(cand)
+        end
     end
 end
 
