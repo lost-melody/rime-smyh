@@ -185,14 +185,12 @@ function M.filter.func(input, env)
         end
 
         next = iter(obj)
-        if not next then
+        if not next and index < 3 then
             -- not next 表示没有下一候選, 説明當前遍歷結束
             -- 這時有可能不足三選, 暫存的候選也就有可能没有批次送出
-            if index < 3 then
-                -- 不足三選, 刷新預編輯文本
-                first_cand.preedit = first_preedit
-                first_preedit = ""
-            end
+            -- 刷新預編輯文本
+            first_cand.preedit = first_preedit
+            first_preedit = ""
             -- 将暫存的前三候選批次送出
             for _, c in ipairs(three_cands) do
                 yield(c)
@@ -266,7 +264,7 @@ function M.translator.func(input, seg, env)
         if char_list then
             if fullcode_entries and #fullcode_entries > 1 and fullcode_entries[1].text == table.concat(char_list, '') then
                 -- 多重智能詞, 且首選與單字相同, 提示第二候選
-                pass_comment = "↩"..fullcode_entries[2].text
+                pass_comment = "↵"..fullcode_entries[2].text
             else
                 -- 單個候選詞, 或首選與單字不同, 提示首選
                 pass_comment = "☯"..table.concat(char_list, '')
