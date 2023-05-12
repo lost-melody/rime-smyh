@@ -122,41 +122,61 @@ end
 
 -- 过滤器
 function M.filter.func(input, env)
-    -- local comment = env.engine.context:get_property("smyh.comment")
+    -- 施法提示
     local comment = pass_comment
-    local first_cand = nil
-    local index = 0
-    for cand in input:iter() do
+    -- 暫存
+    local index, first_cand, first_preedit = 0, nil, ""
+    -- 迭代器
+    local iter, obj = input:iter()
+    local next = iter(obj)
+    while next do
         index = index + 1
+        local cand = next
+
         if not first_cand then
             -- 把首選捉出來
             first_cand = cand:get_genuine()
             -- 下划线不太好看, 换成减
-            first_cand.preedit = string.gsub(first_cand.preedit, '_', '-')
+            first_preedit = string.gsub(first_cand.preedit, '_', '-')
         end
+
+        -- 修改首選的預编輯文本, 這会作爲内嵌編碼顯示到輸入處
         if index == 1 then
             -- 首選和編碼
             if string.len(cand.text) <= string.len("三個字") then
                 -- 三字以内, 先字後碼
-                first_cand.preedit = cand.text..first_cand.preedit
+                first_preedit = cand.text..first_preedit
             else
                 -- 三字以上, 先碼後字
-                first_cand.preedit = first_cand.preedit..cand.text
+                first_preedit = first_preedit..cand.text
             end
             -- 施法提示
             if comment and string.len(comment) ~= 0 then
-                first_cand.preedit = first_cand.preedit.." ["..comment.."]"
+                first_preedit = first_preedit.." ["..comment.."]"
             end
         elseif index <= 3 and string.len(cand.text) ~= 0 then
             -- 二三選處理
-            first_cand.preedit = first_cand.preedit.." "..tostring(index).."."..cand.text
+            first_preedit = first_preedit.." "..tostring(index).."."..cand.text
+            if index == 3 then
+                -- 三選時, 刷新預編輯文本
+                first_cand.preedit = first_preedit
+                first_preedit = ""
+            end
         end
 
-        if comment and string.len(comment) ~= 0 and comment ~= cand.text then
+        if string.len(comment) ~= 0 and comment ~= cand.text then
             -- 给首个与打断提示不同的候选添加施法提示
             local c = cand:get_genuine()
-            c.comment, comment = "["..comment.."]", nil
+            c.comment, comment = "["..comment.."]", ""
         end
+
+        next = iter(obj)
+        if not next and string.len(first_preedit) ~= 0 then
+            -- 不足三選, 在遍歷結束后刷新預編輯文本
+            first_cand.preedit = first_preedit
+            first_preedit = ""
+        end
+
         yield(cand)
     end
 end
@@ -178,7 +198,6 @@ function M.translator.func(input, seg, env)
     end
 
     -- 清空施法提示
-    -- env.engine.context:set_property("smyh.comment", "")
     pass_comment = ''
 
     -- 分词
@@ -229,8 +248,6 @@ function M.translator.func(input, seg, env)
                 pass_comment = "☯"..table.concat(char_list, '')
             end
         end
-        -- 传递施法提示
-        -- env.engine.context:set_property("smyh.comment", pass_comment)
 
         -- 唯一候选添加占位候选
         local entries = dict_lookup(input, env, true)

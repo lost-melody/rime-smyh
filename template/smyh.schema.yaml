@@ -200,6 +200,7 @@ key_binder:
     - { when: has_menu, accept: equal, send: Page_Down }
     # 引号、Tab选重。
     - {when: has_menu, accept: apostrophe, send: 2}
+    - {when: has_menu, accept: grave, send: 3}
     - {when: has_menu, accept: Tab, send: 3}
     # 拆分提示
     - { when: always, accept: "Control+Shift+C", toggle: division }
