@@ -95,10 +95,15 @@ func BuildCodeCharMetaMap(charMetaList []*types.CharMeta) (codeCharMetaMap map[s
 }
 
 func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMetaMap map[string][]*types.CharMeta, phraseFreqSet map[string]int64) (phraseMetaList []*types.PhraseMeta, phraseTipList []*types.PhraseTip) {
-	smartSet := map[string]struct{}{}
+	// 暫存 ["詞語code"]: &PhraseMeta{}
+	smartSet := map[string]*types.PhraseMeta{}
 	// 加詞
 	addPhrase := func(phrase, code, tip string, freq int64) {
-		if _, ok := smartSet[phrase+code]; ok {
+		if pm, ok := smartSet[phrase+code]; ok {
+			// 詞語已存在時, 若有更高權重, 則更新
+			if freq > pm.Freq {
+				pm.Freq = freq
+			}
 			return
 		}
 		phraseMeta := types.PhraseMeta{
@@ -106,7 +111,7 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 			Code:   code,
 			Freq:   freq,
 		}
-		smartSet[phrase+code] = struct{}{}
+		smartSet[phrase+code] = &phraseMeta
 		phraseMetaList = append(phraseMetaList, &phraseMeta)
 		if len(tip) != 0 {
 			phraseTip := types.PhraseTip{

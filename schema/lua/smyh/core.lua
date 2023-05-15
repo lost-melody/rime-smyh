@@ -2,6 +2,9 @@ local M = {}
 M.filter = {}
 M.translator = {}
 
+-- 由translator記録輸入串, 傳遞給filter
+local input_code = ''
+-- 由translator計算施法提示, 傳遞給filter
 local pass_comment = ''
 
 -- ######## 工具函数 ########
@@ -122,6 +125,8 @@ end
 
 -- 过滤器
 function M.filter.func(input, env)
+    -- 仅顯示前三選
+    local display_cands = 3
     -- 施法提示
     local comment = pass_comment
     -- 暫存索引, 首選和預編輯文本
@@ -135,7 +140,7 @@ function M.filter.func(input, env)
         index = index + 1
         local cand = next
 
-        if not first_cand then
+        if index == 1 then
             -- 把首選捉出來
             first_cand = cand:get_genuine()
             -- 下划线不太好看, 换成减
@@ -152,22 +157,30 @@ function M.filter.func(input, env)
                 -- 三字以上, 先碼後字
                 first_preedit = first_preedit..cand.text
             end
+            if string.sub(input_code, 1, 1) == "z" then
+                -- 反查時顯示拆分提示, 去除漢字
+                first_preedit = first_preedit..string.gsub(cand.comment, "%[.-·", "[")
+            end
             -- 施法提示
             if comment and string.len(comment) ~= 0 then
                 first_preedit = first_preedit.." ["..comment.."]"
             end
             -- 注入首選
             table.insert(three_cands, cand)
-        elseif index <= 3 then
+        elseif index <= display_cands then
             -- 二三選處理
             if string.len(cand.text) ~= 0 then
                 -- 限定非空候选, 因爲占位候選不需要顯示
                 first_preedit = first_preedit.." "..tostring(index).."."..cand.text
+                if string.sub(input_code, 1, 1) == "z" then
+                    -- 反查時顯示拆分提示, 去除漢字
+                    first_preedit = first_preedit..string.gsub(cand.comment, "%[.-·", "[")
+                end
             end
             -- 注入次選和三選
             table.insert(three_cands, cand)
 
-            if index == 3 then
+            if index == display_cands then
                 -- 三選時, 刷新預編輯文本
                 first_cand.preedit = first_preedit
                 first_preedit = ""
@@ -175,6 +188,8 @@ function M.filter.func(input, env)
                 for _, c in ipairs(three_cands) do
                     yield(c)
                 end
+                -- 清空暫存
+                three_cands = {}
             end
         end
 
@@ -185,7 +200,7 @@ function M.filter.func(input, env)
         end
 
         next = iter(obj)
-        if not next and index < 3 then
+        if not next and index < display_cands then
             -- not next 表示没有下一候選, 説明當前遍歷結束
             -- 這時有可能不足三選, 暫存的候選也就有可能没有批次送出
             -- 刷新預編輯文本
@@ -195,11 +210,16 @@ function M.filter.func(input, env)
             for _, c in ipairs(three_cands) do
                 yield(c)
             end
+            -- 清空暫存
+            three_cands = {}
         end
 
-        if index > 3 then
+        if index > display_cands then
             yield(cand)
         end
+
+        -- 下一頁, index歸零
+        index = index % display_cands
     end
 end
 
@@ -214,6 +234,8 @@ end
 
 -- 翻译器
 function M.translator.func(input, seg, env)
+    input_code = input
+
     -- 单字Z键顶, 记录上屏历史
     if commit_history(input, seg, env) then
         return
