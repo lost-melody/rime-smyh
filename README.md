@@ -1,12 +1,12 @@
 # 宇浩三码顶
 
-> *宇浩三码顶* 是一个 [宇浩输入法](http://zhuyuhao.com/yuhao) (*GitHub*: [forfudan/yuhao](https://github.com/forfudan/yuhao)) 的衍生方案,
+> *宇浩三码顶* 是一个 [宇浩输入法](https://zhuyuhao.com/yuhao) (*GitHub*: [forfudan/yuhao](https://github.com/forfudan/yuhao)) 的衍生方案,
     基于宇浩的字根布局和拆分数据, 引入三码顶字的输入方式.
     由于其不改变原宇浩的布局和拆分, 可以实现和宇浩标准版间的无缝切换.
 
 ## 一些说明
 
-![宇浩输入法字根图](http://zhuyuhao.com/yuhao/image/宇浩输入法宋体字根图.png)
+![宇浩输入法字根图](https://zhuyuhao.com/yuhao/image/宇浩输入法宋体字根图测试版.png)
 
 - 拆字方法:
     - 单根字: 大码+小码+小码互击键`d`或`k`. 即小码在左补`k`, 小码在右补`d`.

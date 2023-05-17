@@ -19,7 +19,7 @@
 眼花缭乱	msvr
 总而言之	usup
 彻头彻尾	rsrb
-社会主义	utoo
+社会主义	htoo
 前所未有	uihs
 丰富多彩	dore
 因地制宜	nhwo
@@ -45,7 +45,7 @@
 异口同声	clkh
 津津有味	iisl
 出谋划策	xogq
-全神贯注	tubi
+全神贯注	thbi
 得心应手	ryut
 人山人海	tjti
 出其不意	xddi
@@ -61,7 +61,7 @@
 四面八方	ngto
 不以为然	dxow
 突如其来	pcdf
-聚精会神	aptu
+聚精会神	apth
 显而易见	jsjk
 求同存异	fksc
 讨价还价	oede
@@ -134,7 +134,7 @@
 难能可贵	bval
 日日夜夜	jjoo
 耐人寻味	stxl
-视而不见	usdk
+视而不见	hsdk
 五颜六色	fioy
 取长补短	atpq
 独一无二	rffs
@@ -248,7 +248,7 @@
 招兵买马	aevx
 招摇撞骗	aaax
 天长地久	fthy
-鬼斧神工	wtuf
+鬼斧神工	wthf
 如影随形	cjcf
 塞翁失马	otqx
 竭尽全力	ibtx
@@ -406,7 +406,7 @@
 无精打采	fpae
 群策群力	xqxx
 卷土重来	uhqf
-牛鬼蛇神	wwku
+牛鬼蛇神	wwkh
 我行我素	qrqh
 绳之以法	vpxi
 首当其冲	umds
@@ -416,7 +416,7 @@
 无中生有	flws
 不在话下	dsoa
 手舞足蹈	tqnn
-心旷神怡	yjuy
+心旷神怡	yjhy
 置之不理	mpdg
 风起云涌	qdsi
 苦口婆心	sliy
@@ -453,7 +453,7 @@
 倾家荡产	eosi
 不一而足	dfsn
 自食其力	tydx
-罪魁祸首	mwuu
+罪魁祸首	mwhu
 世外桃源	hrfi
 不相上下	dfka
 物美价廉	wueu
@@ -498,7 +498,7 @@
 东山再起	ajgd
 模棱两可	fffa
 稍纵即逝	rvxa
-虎视眈眈	mumm
+虎视眈眈	mhmm
 光明正大	mjfg
 柴米油盐	npih
 害群之马	oxpx
@@ -553,10 +553,10 @@
 抛头露面	asdg
 数一数二	pfps
 化险为夷	ecog
-神出鬼没	uxwi
+神出鬼没	hxwi
 变幻莫测	pvsi
 庞然大物	uwgw
-出神入化	xure
+出神入化	xhre
 拖泥带水	aisk
 跋山涉水	njik
 多愁善感	rrud
@@ -605,7 +605,7 @@
 快马加鞭	yxxg
 天马行空	fxrp
 步步为营	nnos
-祸不单行	udur
+祸不单行	hdur
 扶摇直上	aadk
 空穴来风	ppfq
 阴差阳错	cuct
@@ -797,7 +797,7 @@
 今非昔比	tlsr
 人命关天	tyuf
 无所不在	fids
-心领神会	ytut
+心领神会	ytht
 不着边际	duxc
 春风化雨	gqed
 大模大样	gfgf
@@ -835,7 +835,7 @@
 心花怒放	ysco
 顾此失彼	snqr
 天花乱坠	fsrc
-视死如归	udcu
+视死如归	hdcu
 声情并茂	hyus
 承上启下	vkia
 令人发指	ttxa
@@ -878,7 +878,7 @@
 一言难尽	fubb
 三心二意	fysi
 为非作歹	oled
-各显神通	ejub
+各显神通	ejhb
 身强力壮	wvxu
 言不由衷	udko
 登峰造极	bjwf
@@ -914,7 +914,7 @@
 挥汗如雨	aicd
 如日中天	cjlf
 天高地厚	fohs
-疑神疑鬼	rurw
+疑神疑鬼	rhrw
 知难而退	qbsv
 返老还童	ehdi
 无病呻吟	fpll
@@ -1080,7 +1080,7 @@
 一丝不苟	fvds
 唯心主义	lyoo
 有声有色	shsy
-一视同仁	fuke
+一视同仁	fhke
 博大精深	dgpi
 五花八门	fstp
 玩忽职守	gwao
@@ -1107,7 +1107,7 @@
 格格不入	ffdr
 胡说八道	dotu
 高屋建瓴	obxt
-幸灾乐祸	hotu
+幸灾乐祸	hoth
 无穷无尽	fpfb
 三三两两	ffff
 同心协力	kydx
@@ -1270,7 +1270,7 @@
 四分五裂	ntfd
 一蹶不振	fnda
 诚惶诚恐	oyof
-祸国殃民	undc
+祸国殃民	hndc
 危在旦夕	ysjr
 心悦诚服	yyow
 春暖花开	gjsf
@@ -1348,7 +1348,7 @@
 牵肠挂肚	gwaw
 先声夺人	whgt
 一贫如洗	ftci
-鬼使神差	weuu
+鬼使神差	wehu
 死气沉沉	dqii
 亦步亦趋	pnpd
 长驱直入	txdr
@@ -1388,7 +1388,7 @@
 过关斩将	auhu
 天南地北	fdhu
 唯唯诺诺	lloo
-顶礼膜拜	auwt
+顶礼膜拜	ahwt
 同仇敌忾	kery
 贤妻良母	ndob
 咬文嚼字	lplo
@@ -1426,7 +1426,7 @@
 价值连城	eehh
 同流合污	kiyi
 弦外之音	vrpi
-礼尚往来	unrf
+礼尚往来	hnrf
 疲于奔命	pfgy
 同病相怜	kpfy
 言过其实	uado
@@ -1498,7 +1498,7 @@
 浓妆艳抹	iuda
 苟延残喘	sqdl
 寄人篱下	otqa
-六神无主	oufo
+六神无主	ohfo
 前因后果	unej
 三头六臂	fsob
 朝思暮想	djsf
@@ -1641,7 +1641,7 @@
 指桑骂槐	ablf
 怀才不遇	yadk
 奇装异服	gucw
-神乎其神	uqdu
+神乎其神	hqdh
 十恶不赦	dadh
 偷鸡摸狗	ebar
 万寿无疆	fdfv
@@ -1730,7 +1730,7 @@
 经年累月	vqjw
 犬牙交错	shot
 完璧归赵	obud
-因祸得福	nuru
+因祸得福	nhrh
 引火烧身	vuuw
 藏龙卧虎	sdsm
 一毛不拔	frda
@@ -1785,7 +1785,7 @@
 鸣锣开道	ltfu
 杀一儆百	wfed
 天诛地灭	fohf
-貌合神离	yyup
+貌合神离	yyhp
 人面兽心	tguy
 装疯卖傻	upde
 翻云覆雨	qsdd
@@ -1886,14 +1886,14 @@
 知无不言	qfdu
 普天同庆	ufku
 嬉皮笑脸	cvqw
-祸从口出	utlx
+祸从口出	htlx
 称王称霸	rgrd
 冷若冰霜	sssd
 看破红尘	tdvm
 对酒当歌	bima
 螳螂捕蝉	kkak
 三从四德	ftnr
-包藏祸心	wsuy
+包藏祸心	wshy
 别来无恙	lffu
 世界大战	hjgm
 大兴安岭	gioj
@@ -1947,7 +1947,7 @@
 打成一片	adft
 一分为二	ftos
 东张西望	avdu
-彬彬有礼	ffsu
+彬彬有礼	ffsh
 千头万绪	wsfv
 千里迢迢	wkbb
 有气无力	sqfx
@@ -2002,7 +2002,7 @@
 挖空心思	apyj
 叫苦不迭	lsdq
 放任自流	oeti
-熟视无睹	oufm
+熟视无睹	ohfm
 忘恩负义	unyo
 见多识广	krou
 掷地有声	ahsh
@@ -2077,7 +2077,7 @@
 依然如故	ewcd
 济济一堂	iifn
 开源节流	fisi
-神采奕奕	uepp
+神采奕奕	hepp
 笑逐颜开	qdif
 身经百战	wvdm
 一拍即合	faxy
@@ -2146,7 +2146,7 @@
 倾盆大雨	etgd
 窗明几净	pjqs
 一无是处	ffje
-作威作福	edeu
+作威作福	edeh
 饱经风霜	rvqd
 独占鳌头	rmhs
 伤天害理	efog
@@ -2182,8 +2182,8 @@
 两败俱伤	fkee
 泾渭分明	iitj
 连篇累牍	hqjt
-神魂颠倒	usde
-凶神恶煞	wuay
+神魂颠倒	hsde
+凶神恶煞	whay
 大风大浪	gqgi
 瞒天过海	mfai
 心急火燎	yyuu
@@ -2194,7 +2194,7 @@
 功德无量	frfj
 五谷丰登	ftdb
 飞禽走兽	vtdu
-分庭抗礼	tuau
+分庭抗礼	tuah
 皇亲国戚	eind
 丧权辱国	dfsn
 体无完肤	efow
@@ -2212,7 +2212,7 @@
 高深莫测	oisi
 冷眼旁观	smob
 忠贞不渝	lmdi
-黯然神伤	nwue
+黯然神伤	nwhe
 呆头呆脑	lslw
 孤军奋战	vygm
 万人空巷	ftps
@@ -2238,7 +2238,7 @@
 魂不附体	sdce
 流言蜚语	iulo
 惹是生非	sjwl
-心驰神往	yxur
+心驰神往	yxhr
 根深叶茂	fils
 厚此薄彼	snsr
 矫枉过正	qfaf
@@ -2302,7 +2302,7 @@
 以退为进	xvos
 暗无天日	jffj
 雕梁画栋	wiff
-料事如神	pacu
+料事如神	pach
 声名狼藉	hrrs
 挑拨离间	aapp
 虚情假意	myei
@@ -2412,11 +2412,11 @@
 落叶归根	sluf
 男盗女娼	jscc
 叶公好龙	ltcd
-福至心灵	uhyx
+福至心灵	hhyx
 鹤发童颜	yxii
 劫富济贫	hoit
 酒囊饭袋	idre
-视若无睹	usfm
+视若无睹	hsfm
 防患未然	clhw
 功德圆满	frni
 缩头缩脑	vsvw
@@ -2429,7 +2429,7 @@
 格杀勿论	fwwo
 人困马乏	tnxq
 耳提面命	aagy
-神机妙算	ufcq
+神机妙算	hfcq
 探囊取物	adaw
 天怒人怨	fctr
 枉费心机	fvyf
@@ -2439,7 +2439,7 @@
 日薄西山	jsdj
 五马分尸	fxtb
 枕戈待旦	fgrj
-飞来横祸	vffu
+飞来横祸	vffh
 将功赎罪	ufkm
 奴颜婢膝	cicw
 奇珍异宝	ggco
@@ -2503,13 +2503,13 @@
 和蔼可亲	rsai
 隐隐约约	ccvv
 真心诚意	dyoi
-神通广大	ubug
+神通广大	hbug
 取之不尽	apdb
 巍然屹立	jwji
 由浅入深	kiri
 斗志昂扬	shja
 后患无穷	elfp
-炯炯有神	uusu
+炯炯有神	uush
 路人皆知	ntrq
 舍己为人	tbot
 风云际会	qsct
@@ -2611,7 +2611,7 @@
 逍遥法外	meir
 时不我待	jdqr
 为人师表	otuh
-天灾人祸	fotu
+天灾人祸	foth
 喋喋不休	llde
 惴惴不安	yydo
 任人唯贤	etln
@@ -2639,7 +2639,7 @@
 舍己救人	tbft
 黯然失色	nwqy
 养家糊口	uopl
-等闲视之	qpup
+等闲视之	qphp
 独辟蹊径	rbnr
 一言为定	fuoo
 大雅之堂	ghpn
@@ -2679,7 +2679,7 @@
 横行霸道	frdu
 争权夺利	yfgr
 门可罗雀	pamm
-神气活现	uqig
+神气活现	hqig
 妇孺皆知	cvrq
 刚正不阿	kfdc
 除恶务尽	caeb
@@ -2812,7 +2812,7 @@
 风流韵事	qiia
 溜之大吉	ipgh
 抱残守缺	adow
-高官厚禄	oosu
+高官厚禄	oosh
 倚老卖老	ehdh
 中庸之道	lupu
 恍如隔世	ycch
@@ -2848,7 +2848,7 @@
 一言九鼎	fuym
 付之一笑	epfq
 狗仗人势	reta
-数典忘祖	pkuu
+数典忘祖	pkuh
 眼明手快	mjty
 自食其果	tydj
 唇亡齿寒	suno
@@ -2912,7 +2912,7 @@
 尸位素餐	behm
 投桃报李	afaf
 断垣残壁	phdb
-祸从天降	utfc
+祸从天降	htfc
 一面之交	fgpo
 藏头露尾	ssdb
 各持己见	eabk
@@ -2937,7 +2937,7 @@
 瓮中之鳖	tlpu
 邪门歪道	hpdu
 杯弓蛇影	fvkj
-祸起萧墙	udsh
+祸起萧墙	hdsh
 乐天知命	tfqy
 水滴石穿	kidp
 冷暖自知	sjtq
@@ -3021,13 +3021,13 @@
 博学多才	dira
 应付自如	uetc
 鹬蚌相争	ckfy
-不祥之兆	dupq
+不祥之兆	dhpq
 大呼小叫	glml
 天下无双	fafb
 报仇雪恨	aedy
 悲喜交集	lhow
 插翅难逃	adbq
-兵贵神速	eluf
+兵贵神速	elhf
 壁立千仞	biwe
 怒气冲天	cqsf
 黄雀在后	smse
@@ -3090,7 +3090,7 @@
 有生以来	swxf
 浓墨重彩	inqe
 慷慨解囊	yyyd
-神经衰弱	uvov
+神经衰弱	hvov
 舍生忘死	twud
 万里长城	fkth
 最后通牒	jebt
@@ -3151,7 +3151,7 @@
 磕磕绊绊	ddvv
 以身试法	xwoi
 牛郎织女	wovc
-混淆视听	iiul
+混淆视听	iihl
 喝西北风	lduq
 双喜临门	bhnp
 炙手可热	wtaa
@@ -3167,7 +3167,7 @@
 如法炮制	ciuw
 名落孙山	rsvj
 中西合璧	ldyb
-光宗耀祖	momu
+光宗耀祖	momh
 文人相轻	ptfh
 固步自封	nnth
 贪污腐化	tiue
@@ -3179,7 +3179,7 @@
 知法犯法	qiri
 百尺竿头	dbqs
 薄利多销	srrt
-以礼相待	xufr
+以礼相待	xhfr
 笨手笨脚	qtqw
 好自为之	ctop
 散兵游勇	seib
@@ -3213,7 +3213,7 @@
 曲径通幽	krbj
 乌七八糟	eatp
 一马平川	fxhq
-装神弄鬼	uugw
+装神弄鬼	uhgw
 鬼头鬼脑	wsww
 瓢泼大雨	digd
 欺人太甚	dtgd
@@ -3287,7 +3287,7 @@
 不胜其烦	dwdu
 图谋不轨	nodh
 不二法门	dsip
-先礼后兵	wuee
+先礼后兵	whee
 推三阻四	afcn
 踌躇不前	nndu
 瓜田李下	qjfa
@@ -3314,7 +3314,7 @@
 饿虎扑食	rmay
 路不拾遗	ndal
 靡靡之音	pppi
-无功受禄	ffeu
+无功受禄	ffeh
 悔不当初	ydmp
 毁誉参半	rivu
 几次三番	qsfq
@@ -3355,20 +3355,20 @@
 无源之水	fipk
 怒气冲冲	cqss
 事不关己	adub
-神采飞扬	ueva
+神采飞扬	heva
 昏昏沉沉	ttii
 春光明媚	gmjc
 霸王别姬	dglc
 仁者见仁	ehke
 懵懵懂懂	yyyy
 惶恐不安	yfdo
-龙凤呈祥	dqlu
+龙凤呈祥	dqlh
 心浮气躁	yiqn
 冰冻三尺	ssfb
 麻雀虽小	pmlm
 一路平安	fnho
 子子孙孙	vvvv
-精神焕发	puux
+精神焕发	phux
 蛊惑人心	kgty
 哀鸿遍野	oiik
 百花争艳	dsyd
@@ -3436,7 +3436,7 @@
 剥削阶级	xmcv
 始终不渝	cvdi
 或多或少	grgm
-祖祖辈辈	uull
+祖祖辈辈	hhll
 经济危机	viyf
 加班加点	xgxm
 五角大楼	fygf
@@ -3510,8 +3510,8 @@
 争强好胜	yvcw
 头昏眼花	stms
 一病不起	fpdd
-目不斜视	mdtu
-吉祥如意	huci
+目不斜视	mdth
+吉祥如意	hhci
 火树银花	ufts
 松松垮垮	ffhh
 罪该万死	mofd
@@ -3679,7 +3679,7 @@
 百年树人	dqft
 灭绝人性	fvty
 长生不老	twdh
-龙马精神	dxpu
+龙马精神	dxph
 富可敌国	oarn
 无出其右	fxds
 居心不良	bydo
@@ -3703,10 +3703,10 @@
 愚昧无知	kjfq
 患难之交	lbpo
 九五之尊	yfpu
-心神不定	yudo
+心神不定	yhdo
 益寿延年	udqq
 狼烟四起	rund
-自视甚高	tudo
+自视甚高	thdo
 局促不安	bedo
 狗血淋头	rqis
 失之毫厘	qpos
@@ -3720,7 +3720,7 @@
 歃血为盟	wqoj
 有口难言	slbu
 左拥右抱	sasa
-神气十足	uqdn
+神气十足	hqdn
 人面桃花	tgfs
 心如死灰	ycds
 清风明月	iqjw
@@ -3745,7 +3745,7 @@
 上上下下	kkaa
 点点滴滴	mmii
 顺其自然	qdtw
-赔礼道歉	kuuu
+赔礼道歉	khuu
 尼加拉瓜	bxaq
 塞尔维亚	oyva
 榜上有名	fksr
@@ -3823,7 +3823,7 @@
 刀耕火种	bdur
 劳而无功	ssff
 泥沙俱下	iiea
-怒目而视	cmsu
+怒目而视	cmsh
 残垣断壁	dhpb
 四书五经	nvfv
 亭台楼阁	ovfp
@@ -3866,7 +3866,7 @@
 告老还乡	whdv
 斑驳陆离	gxcp
 犬马之劳	sxps
-奉若神明	gsuj
+奉若神明	gshj
 健步如飞	encv
 青云直上	hsdk
 怒形于色	cffy
@@ -3956,7 +3956,7 @@
 比翼双飞	rxbv
 冲昏头脑	stsw
 不见天日	dkfj
-屏气凝神	bqsu
+屏气凝神	bqsh
 害人不浅	otdi
 迂回曲折	fnka
 满盘皆输	iqrh
@@ -3974,7 +3974,7 @@
 庖丁解牛	uayw
 志在千里	hswk
 河东狮吼	iarl
-嫁祸于人	cuft
+嫁祸于人	chft
 勤能补拙	gvpa
 旧地重游	nhqi
 盗亦有道	spsu
@@ -4000,7 +4000,7 @@
 苦海无边	sifx
 性命交关	yyou
 卧床不起	sudd
-洪福齐天	iupf
+洪福齐天	ihpf
 轻诺寡信	hooe
 春夏秋冬	gdre
 克罗地亚	dmha
@@ -4038,7 +4038,7 @@
 取信于民	aefc
 炎黄子孙	usvv
 有增无减	shfs
-精神抖擞	puaa
+精神抖擞	phaa
 叽叽喳喳	llll
 精兵强将	pevu
 敲锣打鼓	otah
@@ -4074,7 +4074,7 @@
 干脆利落	hwrs
 不甚了了	ddvv
 便宜行事	eora
-福尔马林	uyxf
+福尔马林	hyxf
 修身养性	ewuy
 一板一眼	fffm
 后事之师	eapu
@@ -4133,7 +4133,7 @@
 冥顽不灵	yfdx
 混世魔王	ihpg
 奋勇当先	gbmw
-福如东海	ucai
+福如东海	hcai
 浑身是胆	iwjw
 不见经传	dkve
 指腹为婚	awoc
@@ -4176,7 +4176,7 @@
 风华绝代	qeve
 开卷有益	fusu
 声如洪钟	hcit
-有福同享	suko
+有福同享	shko
 本乡本土	fvfh
 春色满园	gyin
 君子之交	xvpo
@@ -4263,7 +4263,7 @@
 救亡图存	funs
 简而言之	qsup
 春华秋实	gero
-神清气爽	uiqg
+神清气爽	hiqg
 过眼烟云	amus
 心灰意懒	ysiy
 不可终日	davj
@@ -4332,13 +4332,13 @@
 泛泛而谈	iiso
 虚有其表	msdh
 滴水穿石	ikpd
-福无双至	ufbh
+福无双至	hfbh
 披坚执锐	anat
 徒子徒孙	rvrv
 星移斗转	jrsh
 好声好气	chcq
 寻章摘句	xiaw
-大显神通	gjub
+大显神通	gjhb
 不落窠臼	dspr
 狼奔豕突	rgdp
 铁树开花	tffs
@@ -4380,7 +4380,7 @@
 飞蛾扑火	vkau
 浩气长存	iqts
 一星半点	fjum
-人神共愤	tusy
+人神共愤	thsy
 旭日东升	yjaq
 枯枝败叶	ffkl
 含苞欲放	tsto
@@ -4490,7 +4490,7 @@
 风行一时	qrfj
 名噪一时	rlfj
 鼎鼎大名	mmgr
-神来之笔	ufpq
+神来之笔	hfpq
 与时俱进	sjes
 五讲四美	fonu
 一望无垠	fufh
@@ -4585,7 +4585,7 @@
 纤尘不染	vmdi
 外圆内方	rnko
 归去来兮	uhft
-恭贺新禧	sxiu
+恭贺新禧	sxih
 不死不活	dddi
 琼浆玉液	gugi
 情深似海	yiei
@@ -4599,12 +4599,12 @@
 四海升平	niqh
 浮生若梦	iwsf
 阴曹地府	cshu
-神思恍惚	ujyy
+神思恍惚	hjyy
 士别三日	hlfj
 一枕黄粱	ffsi
 形销骨立	ftmi
 瞒上欺下	mkda
-敬若神明	ssuj
+敬若神明	sshj
 转悲为喜	hloh
 梦幻泡影	fvij
 不知进退	dqsv
@@ -4640,7 +4640,7 @@
 厄尔尼诺	sybo
 无话可说	foao
 趋利避害	drbo
-株式会社	fgtu
+株式会社	fgth
 流光溢彩	imie
 说不过去	odah
 时隐时现	jcjg
@@ -4739,10 +4739,10 @@
 牢骚满腹	oxiw
 春回大地	gngh
 丢人现眼	etgm
-礼义廉耻	uoua
+礼义廉耻	houa
 待字闺中	ropl
 眼观六路	mbon
-相视而笑	fusq
+相视而笑	fhsq
 同床共枕	kusf
 物竞天择	wifa
 过江之鲫	aipq
@@ -4775,7 +4775,7 @@
 蚕食鲸吞	fyqf
 美人迟暮	utbs
 环肥燕瘦	gwsp
-用兵如神	tecu
+用兵如神	tech
 不识好歹	docd
 不足为据	dnoa
 蚍蜉撼树	kkaf
@@ -4879,7 +4879,7 @@
 旧病复发	npqx
 得意之作	ripe
 一线生机	fvwf
-礼仪之邦	uepd
+礼仪之邦	hepd
 千人一面	wtfg
 枯燥无味	fufl
 民富国强	conv
@@ -4938,7 +4938,7 @@
 不复存在	dqss
 虎穴龙潭	mpdi
 满头大汗	isgi
-法兰克福	iudu
+法兰克福	iudh
 紧追不舍	nydt
 吹弹得破	lvrd
 黑龙江省	ndim
@@ -4946,13 +4946,13 @@
 轻轻松松	hhff
 发奋图强	xgnv
 密密匝匝	oogg
-神鬼莫测	uwsi
+神鬼莫测	hwsi
 危地马拉	yhxa
 多多少少	rrmm
 乌兹别克	euld
 指指点点	aamm
 反作用力	eetx
-知书达礼	qvgu
+知书达礼	qvgh
 笑傲江湖	qeii
 总的来看	ueft
 童颜鹤发	iiyx
@@ -5133,7 +5133,7 @@
 囊中羞涩	dlui
 原班人马	sgtx
 广而告之	uswp
-神不守舍	udot
+神不守舍	hdot
 生辰八字	wsto
 象牙之塔	yhph
 比翼齐飞	rxpv
@@ -5149,7 +5149,7 @@
 颐养天年	gufq
 兼容并包	upuw
 势不可当	adam
-高视阔步	oupn
+高视阔步	ohpn
 有口难辩	slbo
 拉帮结伙	adve
 以身相许	xwfo
@@ -5183,7 +5183,7 @@
 狂风骤雨	rqxd
 心腹大患	ywgl
 波谲云诡	ioso
-抖擞精神	aapu
+抖擞精神	aaph
 成王败寇	dgko
 闭口不言	pldu
 人非圣贤	tlbn
@@ -5198,7 +5198,7 @@
 敬业乐群	sntx
 此伏彼起	nerd
 临危授命	nyay
-视同儿戏	ukqb
+视同儿戏	hkqb
 百废待举	duri
 分文不值	tpde
 雨打风吹	daql
@@ -5234,7 +5234,7 @@
 以次充好	xsoc
 穿云裂石	psdd
 穷寇勿追	powy
-福尔摩斯	uypd
+福尔摩斯	hypd
 名声大振	rhga
 犹犹豫豫	rrcc
 扑面而来	agsf
@@ -5262,12 +5262,12 @@
 保驾护航	exaq
 晓之以理	jpxg
 强加于人	vxft
-大饱眼福	grmu
+大饱眼福	grmh
 销售一空	twfp
 人高马大	toxg
 万物之灵	fwpx
 心如刀绞	ycbv
-杀身之祸	wwpu
+杀身之祸	wwph
 泱泱大国	iign
 深山老林	ijhf
 天人合一	ftyf
@@ -5343,8 +5343,8 @@
 人心叵测	tygi
 翩翩公子	iitv
 英姿焕发	ssux
-神工鬼斧	ufwt
-兵连祸结	ehuv
+神工鬼斧	hfwt
+兵连祸结	ehhv
 何足道哉	enud
 攻其无备	fdfe
 其乐融融	dtff
@@ -5408,7 +5408,7 @@
 后继乏人	evqt
 喜不自禁	hdtf
 百闻不如一见	dpdk
-扶正祛邪	afuh
+扶正祛邪	afhh
 声名鹊起	hrsd
 下不了台	advv
 处变不惊	epdy
@@ -5464,7 +5464,7 @@
 天无绝人之路	ffvn
 喷薄欲出	lstx
 承欢膝下	vbwa
-克己复礼	dbqu
+克己复礼	dbqh
 罢黜百家	mndo
 不仁不义	dedo
 喊冤叫屈	lylb
@@ -5492,7 +5492,7 @@
 难辞其咎	brde
 难得一见	brfk
 泰晤士报	gjha
-大祸临头	guns
+大祸临头	ghns
 遥不可及	edav
 受之有愧	epsy
 老有所为	hsio
@@ -5512,7 +5512,7 @@
 唯命是听	lyjl
 转败为胜	hkow
 心路历程	ynsr
-神志不清	uhdi
+神志不清	hhdi
 富兰克林	oudf
 名门望族	rpuo
 热胀冷缩	awsv
@@ -5666,7 +5666,7 @@
 科罗拉多	rmar
 闹中取静	plah
 闪烁其辞	pudr
-九三学社	yfiu
+九三学社	yfih
 寻寻觅觅	xxee
 含糊不清	tpdi
 人多地少	trhm
@@ -5706,7 +5706,7 @@
 匠心独具	gyrm
 山雨欲来风满楼	jdtf
 奖罚分明	umtj
-开山鼻祖	fjtu
+开山鼻祖	fjth
 下情上达	aykg
 富贵不能淫	oldi
 脚踏两只船	wnfq
@@ -5726,7 +5726,7 @@
 位极人臣	efts
 博学多闻	dirp
 活龙活现	idig
-福地洞天	uhif
+福地洞天	hhif
 言必有据	uysa
 戎马一生	gxfw
 马达加斯加	xgxx
@@ -5743,7 +5743,7 @@
 不在此列	dsnd
 一点也不	fmcd
 残杯冷炙	dfsw
-焉知非福	fqlu
+焉知非福	fqlh
 不辨菽麦	dosh
 眼冒金星	mkwj
 漫无目的	ifme
@@ -5784,7 +5784,7 @@
 围追堵截	nyhd
 深明大义	ijgo
 不费吹灰之力	dvlx
-一饱眼福	frmu
+一饱眼福	frmh
 事到临头	ahns
 妇道人家	cuto
 头昏脑胀	stww
@@ -5858,7 +5858,7 @@
 贝加尔湖	kxyi
 心脑血管	ywqq
 以卵投石	xtad
-视同路人	uknt
+视同路人	hknt
 密西西比	oddr
 迎难而上	tbsk
 猫哭老鼠	rlhr
@@ -5888,7 +5888,7 @@
 一失足成千古恨	fqny
 老弱残兵	hvde
 缺斤少两	wemf
-旦夕祸福	jruu
+旦夕祸福	jrhh
 飞短流长	vqit
 任人摆布	etas
 一物降一物	fwcw
@@ -5957,7 +5957,7 @@
 风景名胜	qjrw
 风生水起	qwkd
 几何级数	qevp
-必有后福	yseu
+必有后福	yseh
 飞蛾赴火	vkdu
 以手加额	xtxo
 性命攸关	yyeu
@@ -5966,7 +5966,7 @@
 年年有余	qqst
 标本兼治	ffui
 知难而上	qbsk
-造福一方	wufo
+造福一方	whfo
 入室操戈	roag
 自毁长城	trth
 交口称誉	olri
@@ -5993,7 +5993,7 @@
 拿腔拿调	ywyo
 信赏必罚	enym
 首尾相应	ubfu
-神不知鬼不觉	udqi
+神不知鬼不觉	hdqi
 临时抱佛脚	njaw
 私相授受	rfae
 事实胜于雄辩	aowo
@@ -6003,7 +6003,7 @@
 英雄所见略同	ssik
 兵败如山倒	ekce
 打开天窗说亮话	affo
-怪力乱神	yxru
+怪力乱神	yxrh
 车到山前必有路	hhjn
 轻如鸿毛	hcir
 名师出高徒	ruxr
@@ -6064,10 +6064,10 @@
 自导自演	tcti
 答疑解惑	qryg
 剪草除根	uscf
-闭目养神	pmuu
+闭目养神	pmuh
 普渡众生	uitw
 美味佳肴	ulew
-慈禧太后	uuge
+慈禧太后	uhge
 美梦成真	ufdd
 如风过耳	cqaa
 恕我直言	cqdu
@@ -6125,7 +6125,7 @@
 声名远播	hrfa
 无所遁形	fief
 歪理邪说	dgho
-一不留神	fdtu
+一不留神	fdth
 两岸三地	fjfh
 天安门广场	foph
 亚伯拉罕	aeay
@@ -6180,7 +6180,7 @@
 挟天子以令诸侯	afve
 粥少僧多	vmer
 人心隔肚皮	tycv
-黯然伤神	nweu
+黯然伤神	nweh
 顾盼自雄	smts
 安邦治国	odin
 穷形尽相	pfbf
@@ -6204,7 +6204,7 @@
 以力服人	xxwt
 懒懒散散	yyss
 收效甚微	xodr
-视如草芥	ucss
+视如草芥	hcss
 乌兰浩特	euiw
 技压群雄	asxs
 挥霍一空	adfp
@@ -6216,7 +6216,7 @@
 自毁前程	trur
 闪闪烁烁	ppuu
 闭门谢客	ppoo
-傲视群雄	euxs
+傲视群雄	ehxs
 低头不语	esdo
 绿野仙踪	vken
 文责自负	phty
@@ -6468,7 +6468,7 @@
 里约热内卢	kvam
 吃香喝辣	lrlo
 四季常青	nrnh
-加利福尼亚	xrua
+加利福尼亚	xrha
 岁末年初	jhqp
 羽翼未丰	xxhd
 屏气敛息	bqtt
@@ -6540,7 +6540,7 @@
 坚信不疑	nedr
 由点到面	kmhg
 慢工出细活	yfxi
-精神分裂症	putp
+精神分裂症	phtp
 穿衣戴帽	podm
 猜枚行令	rfrt
 外引内联	rvka
@@ -6664,7 +6664,7 @@
 奋袂而起	gpsd
 不务空名	depr
 忧心如捣	yyca
-社情民意	uyci
+社情民意	hyci
 春秋繁露	grqd
 寻亲访友	xios
 条条块块	eehh
@@ -6676,11 +6676,11 @@
 概而言之	fsup
 懒懒洋洋	yyii
 通用规范汉字表	btgh
-社会性死亡	utyu
+社会性死亡	htyu
 古籍印刷通用字规范字形表	dqth
 市场经济	ohvi
-精神文明	pupj
-社会科学	utri
+精神文明	phpj
+社会科学	htri
 高等教育	oqho
 高等学校	oqif
 报告文学	awpi
@@ -6708,7 +6708,7 @@
 言之成理	updg
 肥头大耳	wsga
 拉帮结派	advi
-侧目而视	emsu
+侧目而视	emsh
 心怀叵测	yygi
 千夫所指	wgia
 揠苗助长	asmt
@@ -6736,7 +6736,7 @@
 相比之下	frpa
 对外开放	brfo
 对外贸易	brtj
-封建社会	hxut
+封建社会	hxht
 激动人心	isty
 量子力学	jvxi
 抗日战争	ajmy
@@ -6746,7 +6746,7 @@
 自然灾害	twoo
 生产关系	wiuq
 迄今为止	qton
-社会制度	utwu
+社会制度	htwu
 经济基础	vidd
 红十字会	vdot
 集成电路	wdkn
@@ -6766,7 +6766,7 @@
 赤身裸体	hwpe
 仁人志士	ethh
 芸芸众生	sstw
-令人神往	ttur
+令人神往	tthr
 圣诞老人	boht
 悠然自得	ewtr
 以身殉职	xwda
@@ -6844,7 +6844,7 @@
 滴水成冰	ikds
 作壁上观	ebkb
 污言秽语	iuro
-礼贤下士	unah
+礼贤下士	hnah
 睡眼惺忪	mmyy
 鹅毛大雪	qrgd
 望其项背	udfu
@@ -6863,7 +6863,7 @@
 本来面目	ffgm
 己所不欲	bidt
 感激不尽	didb
-心神不宁	yudo
+心神不宁	yhdo
 齐心合力	pyyx
 分文不取	tpda
 鲜艳夺目	qdgm
@@ -6910,7 +6910,7 @@
 咬紧牙关	lnhu
 夺眶而出	gmsx
 万般无奈	fqfg
-闭路电视	pnku
+闭路电视	pnkh
 百废待兴	duri
 顶头上司	askv
 多管闲事	rqpa
@@ -7000,7 +7000,7 @@
 乡镇企业	vttn
 商品经济	olvi
 公共汽车	tsih
-社会关系	utuq
+社会关系	htuq
 半殖民地	udch
 世世代代	hhee
 知识青年	qohq
@@ -7009,7 +7009,7 @@
 实用主义	otoo
 非同一般	lkfq
 人心向背	tyru
-奴隶社会	cxut
+奴隶社会	cxht
 核反应堆	feuh
 白色恐怖	eyfy
 安全系数	otqp
@@ -7051,7 +7051,7 @@
 故作高深	deoi
 一言既出	fuxx
 哭天喊地	lflh
-神色自若	uyts
+神色自若	hyts
 大发慈悲	gxul
 走为上策	dokq
 豺狼虎豹	yrmy
@@ -7085,16 +7085,16 @@
 农贸市场	ytoh
 种族主义	rooo
 一声不响	fhdl
-种族歧视	ronu
-原始社会	scut
+种族歧视	ronh
+原始社会	scht
 人身自由	twtk
-中枢神经	lfuv
+中枢神经	lfhv
 自下而上	task
 总的说来	ueof
 发家致富	xoho
 精疲力尽	ppxb
 既得利益	xrru
-神经过敏	uvaq
+神经过敏	hvaq
 笑容满面	qpig
 初来乍到	pfqh
 土木工程	hffr
@@ -7120,7 +7120,7 @@
 宽大为怀	ogoy
 空谷足音	ptni
 铁板钉钉	tftt
-洞天福地	ifuh
+洞天福地	ifhh
 白璧无瑕	ebfg
 龙行虎步	drmn
 通俗易懂	bejy
@@ -7164,7 +7164,7 @@
 尘埃落定	mhso
 流行歌曲	irak
 密不可分	odat
-神经系统	uvqv
+神经系统	hvqv
 久经考验	yvhx
 反过来说	eafo
 航天飞机	qfvf
@@ -7174,7 +7174,7 @@
 集体主义	weoo
 修正主义	efoo
 二氧化硫	sqed
-人民公社	tctu
+人民公社	tcth
 奋发有为	gxso
 形象思维	fyjv
 思想体系	jfeq
@@ -7268,7 +7268,7 @@
 综合国力	vynx
 运载火箭	sduq
 时至今日	jhtj
-社会活动	utis
+社会活动	htis
 不败之地	dkph
 食物中毒	ywlh
 恶性肿瘤	aywp
@@ -7287,7 +7287,7 @@
 依依惜别	eeyl
 风云突变	qspp
 合二为一	ysof
-神经错乱	uvtr
+神经错乱	hvtr
 千恩万谢	wnfo
 膘肥体壮	wweu
 欢声雷动	bhds
@@ -7321,7 +7321,7 @@
 字字珠玑	oogg
 桃李不言	ffdu
 不疾不徐	dpdr
-自求多福	tfru
+自求多福	tfrh
 庸庸碌碌	uudd
 相貌堂堂	fynn
 风吹浪打	qlia
@@ -7335,7 +7335,7 @@
 巫山云雨	fjsd
 瓦釜雷鸣	atdl
 有进无退	ssfv
-求神问卜	fupm
+求神问卜	fhpm
 孤儿寡妇	vqoc
 郁郁不乐	ssdt
 蒙娜丽莎	scfs
@@ -7418,7 +7418,7 @@
 皮里阳秋	vkcr
 绫罗绸缎	vmvv
 打击报复	aaaq
-精神恍惚	puyy
+精神恍惚	phyy
 白雪皑皑	edee
 自学成才	tida
 厚德载物	srdw
@@ -7493,11 +7493,11 @@
 优生优育	eweo
 体育运动	eoss
 放在心上	osyk
-文明礼貌	pjuy
+文明礼貌	pjhy
 广播体操	uaea
 电子商务	kvoe
 群众路线	xtnv
-有线电视	svku
+有线电视	svkh
 北京时间	uojp
 化学武器	eifl
 出租汽车	xrih
@@ -7583,7 +7583,7 @@
 又惊又喜	bybh
 不无道理	dfug
 不足之处	dnpe
-不容忽视	dpwu
+不容忽视	dpwh
 未尝不可	hnda
 无意之中	fipl
 四处奔波	negi
@@ -7649,10 +7649,10 @@
 惘然若失	ywsq
 茹苦含辛	ssto
 倒果为因	ejon
-开山祖师	fjuu
+开山祖师	fjhu
 别无长物	lftw
 晓行夜宿	jroo
-不可忽视	dawu
+不可忽视	dawh
 公平合理	thyg
 摸不着头脑	aduw
 一针一线	ftfv
@@ -7661,7 +7661,7 @@
 寥寥可数	ooap
 男女有别	jcsl
 魔高一尺	pofb
-功名利禄	frru
+功名利禄	frrh
 国难当头	nbms
 自甘堕落	tscs
 满腹牢骚	iwox
@@ -7700,7 +7700,7 @@
 心痒难挠	ypba
 久仰大名	yegr
 闲花野草	psks
-靖国神社	inuu
+靖国神社	inhh
 从古到今	tdht
 席不暇暖	udjj
 一声不吭	fhdl
@@ -7720,7 +7720,7 @@
 上市公司	kotv
 汇丰银行	idtr
 快捷方式	yaog
-社会公德	uttr
+社会公德	httr
 搜索引擎	advs
 移动硬盘	rsdq
 等价交换	qeoa
@@ -7728,7 +7728,7 @@
 好久不见	cydk
 合资企业	ystn
 分分秒秒	ttrr
-社会效益	utou
+社会效益	htou
 侦探小说	eamo
 所到之处	ihpe
 宏观经济	obvi
@@ -7752,7 +7752,7 @@
 静脉曲张	hwkv
 得而复失	rsqq
 至善至美	huhu
-社会工作	utfe
+社会工作	htfe
 和气生财	rqwk
 笔墨官司	qnov
 攻城略地	fhjh
@@ -7770,7 +7770,7 @@
 说来说去	ofoh
 嫌贫爱富	cteo
 成双成对	dbdb
-认祖归宗	ouuo
+认祖归宗	ohuo
 缺衣少食	womy
 情意绵绵	yivv
 完好无缺	ocfw
@@ -7805,7 +7805,7 @@
 一笑千金	fqww
 歧路亡羊	nnuu
 深情厚意	iysi
-转祸为福	huou
+转祸为福	hhoh
 以古非今	xdlt
 心回意转	ynih
 心慈面软	yugh
@@ -7910,7 +7910,7 @@
 鼾声如雷	thcd
 水木清华	kfie
 龙蛇混杂	dkiy
-心醉神迷	ygup
+心醉神迷	yghp
 虎落平阳	mshc
 长夜漫漫	toii
 糟糠之妻	pppd
@@ -7992,7 +7992,7 @@
 有色眼镜	symt
 天字第一号	foql
 月光如水	wmck
-神神道道	uuuu
+神神道道	hhuu
 低眉顺眼	ebqm
 心存芥蒂	ysss
 暴饮暴食	jrjy
@@ -8051,7 +8051,7 @@
 在我看来	sqtf
 日月重光	jwqm
 明正典刑	jfkf
-福慧双修	udbe
+福慧双修	hdbe
 穷而后工	psef
 盘尼西林	qbdf
 问心有愧	pysy
@@ -8100,7 +8100,7 @@
 唯心史观	lylb
 人海战术	timf
 仰卧起坐	esdt
-坐骨神经	tmuv
+坐骨神经	tmhv
 等而下之	qsap
 俄罗斯族	emdo
 清水衙门	ikrp
@@ -8177,7 +8177,7 @@
 必有一得	ysfr
 情文并茂	ypus
 安东尼奥	oabr
-福寿无疆	udfv
+福寿无疆	hdfv
 安富尊荣	oous
 抵足而眠	ansm
 择主而事	aosa
@@ -8246,7 +8246,7 @@
 吆五喝六	lflo
 流里流气	ikiq
 情急智生	yyqw
-列祖列宗	dudo
+列祖列宗	dhdo
 蔫头耷脑	ssgw
 万事亨通	faob
 七零八碎	adtd
@@ -8289,7 +8289,7 @@
 劈风斩浪	bqhi
 花花太岁	ssgj
 藏器待时	slrj
-荣宗耀祖	somu
+荣宗耀祖	somh
 春风一度	gqfu
 尤文图斯	dpnd
 丧家之狗	dopr
@@ -8382,10 +8382,10 @@
 上梁不正下梁歪	kidd
 半真半假	udue
 一人得道	ftru
-神龙见首不见尾	udkb
+神龙见首不见尾	hdkb
 宝刀未老	obhh
 闻风而至	pqsh
-傲慢无礼	eyfu
+傲慢无礼	eyfh
 鹰击长空	uatp
 天理不容	fgdp
 识时务者为俊杰	ojef
@@ -8394,7 +8394,7 @@
 白费力气	evxq
 好言好语	cuco
 兴利除害	irco
-福星高照	ujoj
+福星高照	hjoj
 无名小辈	frml
 秉公办理	rtxg
 贪多嚼不烂	trlu
@@ -8551,8 +8551,8 @@
 几天几夜	qfqo
 密云不雨	osdd
 窃钩者诛	ptho
-神秘莫测	ursi
-招灾惹祸	aosu
+神秘莫测	hrsi
+招灾惹祸	aosh
 拉普拉斯	auad
 格林纳达	ffvg
 辞不达意	rdgi
@@ -8759,7 +8759,7 @@
 四川大学	nqgi
 四分之一	ntpf
 山东大学	jagi
-神雕侠侣	uwee
+神雕侠侣	hwee
 宽衣解带	ooys
 执子之手	avpt
 控制面板	awgf
@@ -8803,7 +8803,7 @@
 浑然不觉	iwdi
 柳暗花明又一村	fjsf
 不分伯仲	dtee
-人有旦夕祸福	tsju
+人有旦夕祸福	tsjh
 国仇家恨	neoy
 勤学好问	gicp
 水至清则无鱼	khiq
@@ -8890,7 +8890,7 @@
 暨南大学	xdgi
 好事成双	cadb
 从头再来	tsgf
-红颜祸水	viuk
+红颜祸水	vihk
 应用技术	utaf
 夜不能寐	odvo
 邓小平理论	bmho
@@ -9105,7 +9105,7 @@
 世界和平	hjrh
 翘首以盼	auxm
 聚苯乙烯	asvu
-非礼勿视	luwu
+非礼勿视	lhwh
 志存高远	hsof
 十一月份	dfwe
 无可替代	fage
@@ -9147,7 +9147,7 @@
 安危与共	oyss
 滑天下之大稽	ifar
 鲤鱼跳龙门	qqnp
-礼轻情意重	uhyq
+礼轻情意重	hhyq
 密锣紧鼓	otnh
 钻木取火	tfau
 定国安邦	onod
@@ -9306,7 +9306,7 @@
 先忧后乐	wyet
 吹糠见米	lpkp
 举止大方	ingo
-五福临门	funp
+五福临门	fhnp
 水可载舟	kadq
 看菜吃饭	tslr
 春满人间	gitp
@@ -9408,7 +9408,7 @@
 勇者不惧	bhdy
 吉人自有天相	httf
 风行草偃	qrse
-视民如伤	ucce
+视民如伤	hcce
 目无尊长	mfut
 泥古不化	idde
 引以为憾	vxoy
@@ -9447,7 +9447,7 @@
 日清月结	jiwv
 器小易盈	lmjv
 顺之者昌	qphj
-呵佛骂祖	lelu
+呵佛骂祖	lelh
 轻裘肥马	hfwx
 罗敷有夫	mfsg
 国色天姿	nyfs
@@ -9455,7 +9455,7 @@
 风鬟雾鬓	qhdh
 网开三面	kffg
 山高路险	jonc
-心荡神迷	ysup
+心荡神迷	yshp
 以意逆志	xiuh
 冢中枯骨	ylfm
 宾夕法尼亚	oria
@@ -9517,7 +9517,7 @@
 按时完成	ajod
 委以重任	rxqe
 我的电脑	qekw
-人民出版社	tcxu
+人民出版社	tcxh
 弗朗西斯	vodd
 毫无怨言	ofru
 度君子之腹	uxvw
@@ -9608,7 +9608,7 @@
 宽猛相济	orfi
 完美无疵	oufp
 负屈含冤	ybty
-钱可通神	tabu
+钱可通神	tabh
 狗娘养的	rcue
 急人所急	ytiy
 挺胸凸肚	awnw
@@ -9645,7 +9645,7 @@
 宅心仁厚	oyes
 杀鸡给猴看	wbvt
 手足情深	tnyi
-鬼哭神嚎	wlul
+鬼哭神嚎	wlhl
 八竿子打不着	tqvu
 世界之窗	hjpp
 巴音郭楞	ciof
@@ -9810,7 +9810,7 @@
 见者有份	khse
 以史为鉴	xlon
 窃国者侯	pnhe
-神经兮兮	uvtt
+神经兮兮	hvtt
 手足口病	tnlp
 奸夫淫妇	cgic
 如意郎君	ciox
@@ -9842,7 +9842,7 @@
 有来无回	sffn
 母慈子孝	buvh
 一抔黄土	fash
-寿山福海	djui
+寿山福海	djhi
 沉郁顿挫	isaa
 虱多不痒	vrdp
 对症之药	bpps
@@ -9891,7 +9891,7 @@
 粗心浮气	pyiq
 断梗飘蓬	pfds
 穷原竟委	psir
-礼坏乐崩	uhtj
+礼坏乐崩	hhtj
 官卑职小	owam
 穿街过巷	pras
 金石丝竹	wdvq
@@ -9907,7 +9907,7 @@
 生生不已	wwdb
 徒乱人意	rrti
 入主出奴	roxc
-六神不安	oudo
+六神不安	ohdo
 冶容诲淫	spoi
 好肉剜疮	ckop
 妖由人兴	ckti
@@ -10003,7 +10003,7 @@
 貌合心离	yyyp
 用舍行藏	ttrs
 声若洪钟	hsit
-赤县神州	hmui
+赤县神州	hmhi
 无罪推定	fmao
 顽梗不化	ffde
 一了百当	fvdm
@@ -10022,11 +10022,11 @@
 蹑足潜踪	nnin
 路柳墙花	nfhs
 心同此理	ykng
-飞灾横祸	vofu
+飞灾横祸	vofh
 屈指一算	bafq
 以蠡测海	xbii
 断发文身	pxpw
-祸福无常	uufn
+祸福无常	hhfn
 急不暇择	ydja
 铜头铁额	tsto
 儿女成行	qcdr
@@ -10036,11 +10036,11 @@
 积草屯粮	rsap
 矫若惊龙	qsyd
 臭不可当	tdam
-造福于民	wufc
+造福于民	whfc
 乞浆得酒	quri
 逆取顺守	uaqo
 六尺之孤	obpv
-意乱神迷	irup
+意乱神迷	irhp
 资产负债表	siyh
 兼弱攻昧	uvfj
 人非木石	tlfd
@@ -10087,7 +10087,7 @@
 拉大旗作虎皮	agov
 书香世家	vrho
 此一时彼一时	nfjj
-惊天地泣鬼神	yfhu
+惊天地泣鬼神	yfhh
 大水冲了龙王庙	gksu
 王顾左右而言他	gsse
 击楫中流	afli
@@ -10129,8 +10129,8 @@
 嗜酒如命	licy
 呈堂证供	lnoe
 连天烽火	hfuu
-内视反听	kuel
-心荡神驰	ysux
+内视反听	khel
+心荡神驰	yshx
 情不可却	ydah
 惊鸿一现	yifg
 惊蛇入草	ykrs
@@ -10144,14 +10144,14 @@
 心织笔耕	yvqd
 数黑论黄	pnos
 断鹤续凫	pyvy
-视若路人	usnt
-神圣不可侵犯	ubdr
-祸在旦夕	usjr
+视若路人	hsnt
+神圣不可侵犯	hbdr
+祸在旦夕	hsjr
 穷当益坚	pmun
 宝中之宝	olpo
 鹤鸣九皋	ylye
-神头鬼面	uswg
-神道设教	uuoh
+神头鬼面	hswg
+神道设教	huoh
 急来抱佛脚	yfaw
 金印紫绶	wtnv
 钻头觅缝	tsev
@@ -10191,7 +10191,7 @@
 敢做敢当	vevm
 可遇不可求	akdf
 好了疮疤忘了痛	cvpp
-东方神起	aoud
+东方神起	aohd
 阿拉巴马	cacx
 马萨诸塞	xsoo
 克孜勒苏	dvgs
@@ -10308,7 +10308,7 @@
 踏雪无痕	ndfp
 中国工程院	lnfc
 中国建设银行	lnxr
-精神文明建设	pupo
+精神文明建设	phpo
 康熙来了	ugfv
 齐齐哈尔市	pplo
 季风气候	rqqe
@@ -10371,7 +10371,7 @@
 以升量石	xqjd
 火上弄冰	ukgs
 精雕细镂	pwvt
-祸不旋踵	udon
+祸不旋踵	hdon
 寡见少闻	okmp
 家败人亡	oktu
 室迩人远	oytf
@@ -10393,7 +10393,7 @@
 蛮烟瘴雨	pupd
 衣食不周	oydw
 世俗之见	hepk
-视财如命	ukcy
+视财如命	hkcy
 皇天不负有心人	efdt
 自古英雄出少年	tdsq
 长眠不起	tmdd
@@ -10410,7 +10410,7 @@
 狗尾巴草	rbcs
 儿女私情	qcry
 气势恢宏	qayo
-西祠胡同	dudk
+西祠胡同	dhdk
 松嫩平原	fchs
 生无可恋	wfap
 生死离别	wdpl
@@ -10462,7 +10462,7 @@
 困而学之	nsip
 骨肉未寒	mkho
 数往知来	prqf
-神号鬼哭	ulwl
+神号鬼哭	hlwl
 久悬不决	ymds
 兜头盖脸	esuw
 抵掌而谈	anso
@@ -10519,7 +10519,7 @@
 有职有权	sasf
 填街塞巷	hros
 走乡串户	dvli
-一瞑不视	fmdu
+一瞑不视	fmdh
 来犯之敌	frpr
 卓而不群	msdx
 虚盈实亏	mvof
@@ -10599,7 +10599,7 @@
 由博返约	kdev
 情见势屈	ykab
 军中无戏言	ylfu
-祸结兵连	uveh
+祸结兵连	hveh
 独异于人	rcft
 久惯牢成	yyod
 看人脸色	ttwy
@@ -10702,13 +10702,13 @@
 措不及防	advc
 簪缨世族	qvho
 父严子孝	tavh
-作福作威	eued
+作福作威	ehed
 埃里克森	hkdf
 五险一金	fcfw
 快乐大本营	ytgs
 横刀立马	fbix
 店大欺客	ugdo
-高等教育出版社	oqhu
+高等教育出版社	oqhh
 看守内阁	tokp
 柯尔克孜族	fydo
 原子武器	svfl
@@ -10745,7 +10745,7 @@
 明人不说暗话	jtdo
 丑媳妇总得见公婆	bcci
 火冒三尺	ukfb
-视民如子	uccv
+视民如子	hccv
 冤家宜解不宜结	yoov
 急惊风撞着慢郎中	yyql
 杏雨梨云	fdrs
@@ -10788,14 +10788,14 @@
 迥乎不同	kqdk
 狼号鬼哭	rlwl
 羡慕嫉妒恨	uscy
-欺师灭祖	dufu
+欺师灭祖	dufh
 用人勿疑	ttwr
 烟花易冷	usjs
 热情似火	ayeu
 杨门女将	fpcu
 行者无疆	rhfv
 俄克拉荷马	edax
-合家幸福	yohu
+合家幸福	yohh
 机关刊物	fuhw
 筑巢引凤	qvvq
 多吃多占	rlrm
@@ -10881,7 +10881,7 @@
 毛发耸然	rxtw
 雨露均沾	ddhi
 朝里无人莫做官	dkfo
-虎视耽耽	muaa
+虎视耽耽	mhaa
 淫辞秽语	irro
 临危不挠	nyda
 嗔拳不打笑面	ludg
@@ -10908,9 +10908,9 @@
 眼尖手快	mmty
 出出入入	xxrr
 望而止步	usnn
-进禄加官	suxo
+进禄加官	shxo
 眼急手快	myty
-淆乱视听	irul
+淆乱视听	irhl
 跌荡不羁	nsdm
 跳进黄河洗不清	nssi
 书中自有颜如玉	vltg
@@ -10947,7 +10947,7 @@
 炊沙成饭	uidr
 新罕布什尔	iysy
 仙妮蕾德	ecsr
-大难不死必有后福	gbdu
+大难不死必有后福	gbdh
 二人同心其利断金	stkw
 来者不善善者不来	fhdf
 以其人之道还治其人之身	xdtw
@@ -11019,7 +11019,7 @@
 有志于此	shfn
 近朱者赤近墨者黑	ewhn
 呼之即来挥之即去	lpxh
-塞翁失马焉知非福	otqu
+塞翁失马焉知非福	otqh
 人为财死鸟为食亡	toku
 道高一尺魔高一丈	uofs
 天网恢恢疏而不漏	fkyi
@@ -11106,7 +11106,7 @@
 差以毫厘失之千里	uxok
 既有今日何必当初	xstp
 分久必合合久必分	tyyt
-视而不见听而不闻	usdp
+视而不见听而不闻	hsdp
 志当存高远	hmsf
 苦海无边回头是岸	sifj
 十目所视十手所指	dmia
@@ -11128,7 +11128,7 @@
 明察秋毫不见舆薪	jors
 路遥知马力日久见人心	neqy
 同声相应同气相求	khff
-祸兮福所倚福兮祸所伏	utue
+祸兮福所倚福兮祸所伏	hthe
 留得青山在不怕没柴烧	trhu
 读书百遍其义自见	ovdk
 魔高一尺道高一丈	pofs
@@ -11142,7 +11142,7 @@
 三日打鱼两日晒网	fjak
 王子犯法庶民同罪	gvrm
 海内存知己天涯若比邻	ikst
-福不重至祸必重来	udqf
+福不重至祸必重来	hdqf
 看菜吃饭量体裁衣	tslo
 单则易折众则难摧	ukja
 养儿防老积谷防饥	uqcr
@@ -11173,7 +11173,7 @@
 高鸟尽良弓藏	oybs
 重峦迭嶂	qpqj
 九型人格	yftf
-天有不测风云人有旦夕祸福	fsdu
+天有不测风云人有旦夕祸福	fsdh
 一朝被蛇咬十年怕井绳	fdpv
 平时不烧香急来抱佛脚	hjdw
 积财千万不如薄技在身	rkww
@@ -11201,7 +11201,7 @@
 稀世之才	rhpa
 东北师范大学	auui
 南京师范大学	doui
-中国社会科学院	lnuc
+中国社会科学院	lnhc
 中国科学院	lnrc
 中国科技大学	lnri
 中国人民大学	lnti
@@ -11307,7 +11307,7 @@
 败兴而归	kisu
 高高挂起	ooad
 炮火连天	uuhf
-精神百倍	pude
+精神百倍	phde
 哼哼唧唧	llll
 四体不勤	nedg
 积谷防饥	rtcr
@@ -11315,7 +11315,7 @@
 万世师表	fhuh
 敲骨吸髓	omlm
 骨肉至亲	mkhi
-心神恍惚	yuyy
+心神恍惚	yhyy
 不可动摇	dasa
 栋梁之才	fipa
 一波未平	fihh
@@ -11413,7 +11413,7 @@
 吉凶未卜	hwhm
 至亲骨肉	himk
 了然于胸	vwfw
-神情恍惚	uyyy
+神情恍惚	hyyy
 家财万贯	okfb
 古木参天	dfvf
 才华出众	aext
@@ -11425,9 +11425,9 @@
 千里送鹅毛	wkur
 落草为寇	ssoo
 芬芳馥郁	ssrs
-过路财神	anku
+过路财神	ankh
 兴致索然	ihdw
-气定神闲	qoup
+气定神闲	qohp
 气焰嚣张	qulv
 盖棺定论	ufoo
 分毫不差	todu
@@ -11468,7 +11468,7 @@
 死而无憾	dsfy
 丹凤朝阳	wqdc
 下逐客令	adot
-神乎其技	uqda
+神乎其技	hqda
 举止言谈	inuo
 浩浩汤汤	iiii
 明枪易躲	jfjw
@@ -11536,7 +11536,7 @@
 分进合击	tsya
 变幻无穷	pvfp
 悄然无声	ywfh
-视为畏途	uojt
+视为畏途	hojt
 不知所以	dqix
 秋收冬藏	rxes
 门禁森严	pffa
@@ -11616,7 +11616,7 @@
 赤身露体	hwde
 一男半女	fjuc
 借坡下驴	ehax
-弥天大祸	vfgu
+弥天大祸	vfgh
 少不经事	mdva
 无始无终	fcfv
 索然寡味	dwol
@@ -11670,7 +11670,7 @@
 富贵不淫	oldi
 铭记不忘	todu
 信口胡言	eldu
-报效祖国	aoun
+报效祖国	aohn
 烫手山芋	itjs
 政教合一	fhyf
 错上加错	tkxt
@@ -11693,7 +11693,7 @@
 鲍鱼之肆	qqph
 引车卖浆	vhdu
 源源而来	iisf
-祸福相依	uufe
+祸福相依	hhfe
 春生夏长	gwdt
 驽马十驾	cxdx
 丑态毕露	bgrd
@@ -11744,13 +11744,13 @@
 对天发誓	bfxa
 轻徭薄赋	hrsk
 不为五斗米折腰	dofw
-祛病延年	upqq
+祛病延年	hpqq
 债多不愁	erdr
 两虎相争	fmfy
 不生不灭	dwdf
 东摇西摆	aada
 膏腴之地	owph
-十目所视	dmiu
+十目所视	dmih
 忧谗畏讥	yojo
 笨嘴拙舌	qlar
 满坑满谷	ihit
@@ -11771,7 +11771,7 @@
 壮心不已	uydb
 慷慨就义	yyoo
 坎坷不平	hhdh
-精神错乱	putr
+精神错乱	phtr
 天大地大	fghg
 力不能及	xdvv
 踟蹰不前	nndu
@@ -11805,7 +11805,7 @@
 后生小子	ewmv
 令人咋舌	ttlr
 公平交易	thoj
-精神矍铄	pumt
+精神矍铄	phmt
 满口答应	ilqu
 亡国灭种	unfr
 公说公有理	totg
@@ -11833,14 +11833,14 @@
 鱼肉乡里	qkvk
 相形失色	ffqy
 前不见古人	udkt
-福兮祸所伏	utue
+福兮祸所伏	hthe
 言笑晏晏	uqjj
 旁枝末节	ofhs
 三拳两脚	fufw
 驰名天下	xrfa
 自出机杼	txff
 君子固穷	xvnp
-视为知己	uoqb
+视为知己	hoqb
 风吹云散	qlss
 激昂慷慨	ijyy
 仇人相见	etfk
@@ -11903,7 +11903,7 @@
 一语不发	fodx
 不到长城非好汉	dhti
 取信于人	aeft
-礼崩乐坏	ujth
+礼崩乐坏	hjth
 壁垒分明	bvtj
 天下归心	fauy
 蝇头小楷	ksmf
@@ -11959,7 +11959,7 @@
 一片丹心	ftwy
 力所不及	xidv
 六畜兴旺	ooij
-身在福中不知福	wsuu
+身在福中不知福	wshh
 有过之无不及	sapv
 流落他乡	isev
 汪洋恣肆	iish
@@ -11974,7 +11974,7 @@
 暮色苍茫	syss
 事缓则圆	avkn
 撒泼打滚	aiai
-祸兮福所倚	utue
+祸兮福所倚	hthe
 当面锣对面鼓	mgth
 瞎子摸鱼	mvaq
 相机而动	ffss
@@ -12029,13 +12029,13 @@
 心惊胆寒	yywo
 横眉冷对千夫指	fbsa
 花无百日红	sfdv
-下笔如有神	aqcu
+下笔如有神	aqch
 惊喜交加	yhox
 同是天涯沦落人	kjft
 不知为不知	dqoq
 率土之滨	ohpi
 朴素无华	fhfe
-福寿康宁	uduo
+福寿康宁	hduo
 酣然入梦	gwrf
 改弦易张	bvjv
 楼台亭阁	fvop
@@ -12134,7 +12134,7 @@
 威武不能屈	dfdb
 时移世易	jrhj
 关门闭户	uppi
-神情自若	uyts
+神情自若	hyts
 无心插柳柳成荫	fyas
 只缘身在此山中	lvwl
 从恶如崩	tacj
@@ -12159,7 +12159,7 @@
 书香人家	vrto
 鱼贯而行	qbsr
 传为笑谈	eoqo
-吉凶祸福	hwuu
+吉凶祸福	hwhh
 海不扬波	idai
 极目远望	fmfu
 财不露白	kdde
@@ -12225,7 +12225,7 @@
 跃马扬鞭	nxag
 行有余力	rstx
 海阔天高	ipfo
-视如珍宝	ucgo
+视如珍宝	hcgo
 敬老尊贤	shun
 世态人情	hgty
 抱打不平	aadh
@@ -12251,7 +12251,7 @@
 础润而雨	disd
 吴头楚尾	lsfb
 青灯古佛	hude
-目不忍视	mdbu
+目不忍视	mdbh
 九死不悔	yddy
 权倾天下	fefa
 未竟之志	hiph
@@ -12297,7 +12297,7 @@
 包罗万有	wmfs
 开物成务	fwde
 令人齿冷	ttns
-福寿双全	udbt
+福寿双全	hdbt
 行而不远	rsdf
 束手无措	ftfa
 半懂不懂	uydy
@@ -12378,7 +12378,7 @@
 冤有头债有主	ysso
 猖獗一时	rrfj
 齐齐整整	ppff
-儿孙自有儿孙福	qvtu
+儿孙自有儿孙福	qvth
 一朝权在手	fdft
 割据一方	oafo
 不矜细行	dcvr
@@ -12411,7 +12411,7 @@
 多言多语	ruro
 呵欠连天	lehf
 气喘如牛	qlcw
-和气致祥	rqhu
+和气致祥	rqhh
 千秋万世	wrfh
 夙夜匪懈	qogy
 月圆花好	wnsc
@@ -12629,7 +12629,7 @@
 处处闻啼鸟	eepy
 人生得意须尽欢	twrb
 形容憔悴	fpyy
-视为儿戏	uoqb
+视为儿戏	hoqb
 游必有方	iyso
 桃花依旧笑春风	fseq
 月朗风清	woqi
@@ -12670,10 +12670,10 @@
 好骑者堕	cxhc
 桑间濮上	bpik
 片瓦不留	tadt
-敬鬼神而远之	swup
+敬鬼神而远之	swhp
 关山阻隔	ujcc
 身在江湖	wsii
-神完气足	uoqn
+神完气足	hoqn
 十年生聚	dqwa
 相逢恨晚	feyj
 穷愁潦倒	prie
@@ -12721,7 +12721,7 @@
 姜是老的辣	ujho
 以身试险	xwoc
 一物不知	fwdq
-诗礼传家	oueo
+诗礼传家	oheo
 涕泪交加	iiox
 倏忽之间	ewpp
 杀父之仇	wtpe
@@ -12746,7 +12746,7 @@
 半饥半饱	urur
 大地春回	ghgn
 以勤补拙	xgpa
-神闲气定	upqo
+神闲气定	hpqo
 急人之困	ytpn
 万应灵药	fuxs
 山鸣谷应	jltu
@@ -12861,7 +12861,7 @@
 争前恐后	yufe
 人有悲欢离合	tsly
 无容身之地	fpwh
-富而好礼	oscu
+富而好礼	osch
 得来全不费功夫	rftg
 同心共济	kysi
 在地愿为连理枝	shsf
@@ -12892,7 +12892,7 @@
 业精于勤荒于嬉	npfc
 宁为玉碎不为瓦全	oogt
 扇枕温衾	ifit
-王祥卧冰	guss
+王祥卧冰	ghss
 殿堂楼阁	bnfp
 嚣张一时	lvfj
 慎始敬终	ycsv
@@ -12990,7 +12990,7 @@
 学然后知不足	iwen
 连战皆捷	hmra
 芳草萋萋鹦鹉洲	sssi
-迎神赛会	tuot
+迎神赛会	thot
 逐句逐字	dwdo
 高头讲章	osoi
 恰似一江春水向东流	yefi
@@ -13047,7 +13047,7 @@
 不知所言	dqiu
 江汉朝宗	iido
 兴国安邦	inod
-有福同享有难同当	sukm
+有福同享有难同当	shkm
 仇人相见分外眼红	etfv
 追风逐日	yqdj
 言有尽而意无穷	usbp
@@ -13089,7 +13089,7 @@
 红豆生南国	vfwn
 春城无处不飞花	ghfs
 千金不换	wwda
-视死如生	udcw
+视死如生	hdcw
 所答非所问	iqlp
 一蹴可几	fnaq
 中外合璧	lryb
@@ -13242,8 +13242,8 @@
 恰同学少年	ykiq
 碧水青山	gkhj
 三男两女	fjfc
-富贵吉祥	olhu
-福禄寿喜	uudh
+富贵吉祥	olhh
+福禄寿喜	hhdh
 大有所为	gsio
 初试啼声	polh
 烟花三月下扬州	usfi
@@ -13263,7 +13263,7 @@
 一口吃个胖子	fllv
 其不善者而改之	ddup
 小人喻于利	mtlr
-祸兮福之所倚	utue
+祸兮福之所倚	hthe
 无边落木萧萧下	fxsa
 门泊东吴万里船	piaq
 凄凄惨惨戚戚	ssyd
@@ -13308,7 +13308,7 @@
 两处茫茫皆不见	fesk
 人生在世不称意	twsi
 不得已而用之	drbp
-诗成泣鬼神	odiu
+诗成泣鬼神	odih
 春潮带雨晚来急	gisy
 一弦一柱思华年	fvfq
 从此君王不早朝	tnxd
@@ -13354,7 +13354,7 @@
 行到水穷处	rhke
 明月松间照	jwfj
 齐鲁青未了	pqhv
-福兮祸之所伏	utue
+福兮祸之所伏	hthe
 知之者不如好之者	qphh
 早有蜻蜓立上头	jsks
 昔人已乘黄鹤去	stbh
@@ -13573,7 +13573,7 @@
 三男四女	fjnc
 天阶夜色凉如水	fcok
 芙蓉如面柳如眉	sscb
-禅房花木深	uisi
+禅房花木深	hisi
 野渡无人舟自横	kiff
 何当共剪西窗烛	emsu
 空山不见人	pjdt
@@ -13589,7 +13589,7 @@
 明月别枝惊鹊	jwls
 江枫渔火对愁眠	ifim
 但闻人语响	eptl
-祭神如神在	wucs
+祭神如神在	whcs
 笑谈渴饮匈奴血	qoiq
 昨日之日不可留	jjpt
 一任群芳妒	fexc
@@ -13632,7 +13632,7 @@
 铁肩担道义	tiao
 安得广厦千万间	orup
 毕竟东流去	riah
-不问苍生问鬼神	dpsu
+不问苍生问鬼神	dpsh
 为赋新词强说愁	okir
 国以民为本	nxcf
 无限风光在险峰	fcqj
@@ -13745,7 +13745,7 @@
 城阙辅三秦	hphg
 两朝开济老臣心	fdfy
 美人卷珠帘	utup
-丞相祠堂何处寻	vfux
+丞相祠堂何处寻	vfhx
 王孙自可留	gvtt
 行人弓箭各在腰	rtvw
 斗酒十千恣欢谑	sido
@@ -13938,7 +13938,7 @@
 从容自在	tpts
 毫无所知	ofiq
 明月何时照我还	jwed
-视死忽如归	udwu
+视死忽如归	hdwu
 山色空蒙雨亦奇	jypg
 如椽之笔	cfpq
 挈妇将雏	dcuy
@@ -14005,7 +14005,7 @@
 四海无闲田	nifj
 邀我至田家	eqho
 众鸟高飞尽	tyob
-丹青难写是精神	whbu
+丹青难写是精神	whbh
 绿杨烟外晓寒轻	vfuh
 天接云涛连晓雾	fasd
 无边丝雨细如愁	fxvr
@@ -14667,7 +14667,7 @@
 弦断有谁听	vpsl
 但悲不见九州同	eldk
 京口瓜洲一水间	olqp
-游褒禅山记	iouo
+游褒禅山记	ioho
 不知转入此中来	dqhf
 只因未到伤心处	lnhe
 送杜少府之任蜀州	ufmi
@@ -14782,7 +14782,7 @@
 故国三千里	dnfk
 潘岳悼亡犹费词	ieyo
 银河倒挂三石梁	tiei
-一片神鸦社鼓	ftuh
+一片神鸦社鼓	fthh
 顾我无衣搜荩箧	sqfq
 天上人间会相见	fktk
 莫辞更坐弹一曲	srfk
@@ -14852,7 +14852,7 @@
 男大当婚女大当嫁	jgmc
 此心安处是吾乡	nyov
 亦我所欲也	pqic
-尔俸尔禄	yeyu
+尔俸尔禄	yeyh
 良辰美景奈何天	osuf
 壮士一去兮不复还	uhfd
 为人谋而不忠乎	otoq
@@ -15188,7 +15188,7 @@
 不见去年人	dkht
 只识弯弓射大雕	lopw
 而智勇多困于所溺	sqbi
-大礼不辞小让	gudo
+大礼不辞小让	ghdo
 天意怜幽草	fiys
 辨材须待七年期	oftd
 不与秦塞通人烟	dsgu
@@ -15409,7 +15409,7 @@
 日晏犹得眠	jjrm
 本以高难饱	fxor
 言而无文行之不远	usff
-箫鼓哀吟感鬼神	qhou
+箫鼓哀吟感鬼神	qhoh
 红颜弃轩冕	viok
 归来仿佛三更	ufef
 闻郎江上唱歌声	poih
@@ -15440,7 +15440,7 @@
 平芜尽处是春山	hsbj
 知他故宫何处	qede
 白云一片去悠悠	esfe
-神欢体自轻	ubeh
+神欢体自轻	hbeh
 何日平胡虏	ejhm
 高山安可仰	ojoe
 鸾刀缕切空纷纶	pbvv
@@ -15478,7 +15478,7 @@
 一桥飞架南北	ffvu
 最忆是杭州	jyji
 有恒产者有恒心	syiy
-祸患常积于忽微	ulnr
+祸患常积于忽微	hlnr
 金就砺则利	wodr
 忧国不谋身	yndw
 重上井冈山	qksj
@@ -15581,7 +15581,7 @@
 更无豪杰怕熊罴	ffom
 最爱湖东行不足	jein
 解落三秋叶	ysfl
-虎视何雄哉	mued
+虎视何雄哉	mhed
 风声雨声读书声声声入耳	qhda
 开窗放入大江来	fpof
 粗缯大布裹生涯	pvgi
@@ -15604,7 +15604,7 @@
 俟我于城隅	eqfc
 共此灯烛光	snum
 蓬山此去无多路	sjnn
-把酒祝东风	aiuq
+把酒祝东风	aihq
 解鞍少驻初程	ygmr
 散入春风满洛城	srgh
 我今停杯一问之	qtep
@@ -15859,7 +15859,7 @@
 暮色苍茫看劲松	sysf
 春有百花秋有月	gsdw
 钟山风雨起苍黄	tjqs
-神女应无恙	ucuu
+神女应无恙	hcuu
 萧瑟秋风今又是	sgrj
 依依墟里烟	eehu
 博学而笃志	dish
@@ -15964,7 +15964,7 @@
 炉火照天地	uujh
 哀吾生之须臾	ofwr
 江天一色无纤尘	iffm
-一日克己复礼	fjdu
+一日克己复礼	fjdh
 摄提贞于孟陬兮	aamt
 绿遍山原白满川	vijq
 皎皎空中孤月轮	eeph
@@ -16029,7 +16029,7 @@
 汉家山东二百州	ioji
 满座衣冠似雪	iuod
 生别常恻恻	wlny
-安禅制毒龙	ouwd
+安禅制毒龙	ohwd
 子宁不嗣音	vodi
 都护铁衣冷难着	hatu
 胡为乎泥中	doql
@@ -16432,7 +16432,7 @@
 是人之所欲也	jtpc
 彩云易散琉璃脆	esjw
 肉食者谋之	kyhp
-与人恭而有礼	stsu
+与人恭而有礼	stsh
 君子食无求饱	xvyr
 桃花源里人家	fsio
 生年不满百	wqdd
@@ -16459,7 +16459,7 @@
 一年春好处	fqge
 朕皇考曰伯庸	wehu
 曲肱而枕之	kwsp
-六亿神州尽舜尧	oeua
+六亿神州尽舜尧	oeha
 我善养吾浩然之气	quuq
 黄洋界上炮声隆	sijc
 居简而行简	bqsq
@@ -16549,7 +16549,7 @@
 翩翩佳公子	iiev
 虽执鞭之士	lagh
 三曰不敢为天下先	fjdw
-禄在其中矣	usdv
+禄在其中矣	hsdv
 朝露待日晞	ddrj
 一言为重百金轻	fuoh
 节用而爱人	stst
@@ -16585,7 +16585,7 @@
 我笑别人看不穿	qqlp
 仄仄平平仄仄平	sshh
 念此私自愧	tnry
-失义而后礼	qosu
+失义而后礼	qosh
 报道敌军宵遁	aure
 叹息肠内热	ltwa
 扈江离与辟芷兮	iipt
@@ -16604,7 +16604,7 @@
 善抱者不脱	uahw
 心事恐蹉跎	yafn
 暮云收尽溢清寒	ssxo
-君使臣以礼	xesu
+君使臣以礼	xesh
 失德而后仁	qrse
 惟愿孩儿愚且鲁	ysvq
 臣事君以忠	saxl
@@ -16668,7 +16668,7 @@
 汽笛一声肠已断	iqfp
 秀出九芙蓉	rxys
 肇锡余以嘉名	ittr
-社稷一戎衣	urfo
+社稷一戎衣	hrfo
 被酒莫惊春睡重	pisq
 能得几时好	vrqc
 浩浩送中秋	iiur
@@ -16682,7 +16682,7 @@
 常恐秋节至	nfrh
 出入无完裙	xrfp
 枕上诗书闲处好	fkoc
-而神明自得	sujr
+而神明自得	shjr
 君不见青海头	xdks
 遥望九华峰	euyj
 不敢叹风尘	dvlm
@@ -16732,7 +16732,7 @@
 一棹碧涛春水路	ffgn
 东城渐觉风光好	ahic
 名与身孰亲	rswi
-可怜无补费精神	ayfu
+可怜无补费精神	ayfh
 熟读而精思	oosj
 可惜一溪风月	ayfw
 莫教踏碎琼瑶	shng
@@ -16854,7 +16854,7 @@
 不如不遇倾城色	dcdy
 苦乏大药资	sqgs
 菡萏金芙蓉	ssws
-神行电迈蹑慌惚	urky
+神行电迈蹑慌惚	hrky
 宴陶家亭子	ocov
 买得一枝春欲放	vrfo
 三十二莲峰	fdsj
@@ -16995,7 +16995,7 @@
 回也不改其乐	ncdt
 将熊熊一窝	uvvp
 国之本在家	npfo
-天视自我民视	futu
+天视自我民视	fhth
 则修文德以来之	kepp
 打铁先得自身硬	atwd
 天下之本在国	fapn
@@ -17039,7 +17039,7 @@
 今之学者为人	tpit
 君子之过也	xvpc
 纵浪大化中	vigl
-祸莫大于不知足	usgn
+祸莫大于不知足	hsgn
 东风好作阳和使	aqce
 一城之人皆若狂	fhpr
 六盘山上高峰	oqjj
@@ -17107,7 +17107,7 @@
 青山一道同云雨	hjfd
 沉沉一线穿南北	iifu
 环滁皆山也	girc
-有礼者敬人	suht
+有礼者敬人	shht
 两龙跃出浮水来	fdnf
 我如果爱你	qcje
 使吾勇于就死也	efbc
@@ -17143,7 +17143,7 @@
 夜市千灯照碧云	oows
 从汀州向长沙	tiii
 皆反求诸己	refb
-君之视臣如土芥	xpus
+君之视臣如土芥	xphs
 君子谋道不谋食	xvoy
 吴刚捧出桂花酒	lkai
 小人穷斯滥矣	mtpv
@@ -17205,7 +17205,7 @@
 集芙蓉以为裳	wssn
 故不积跬步	ddrn
 而不知其所以然	sdqw
-有神人居焉	sutf
+有神人居焉	shtf
 惟庚寅吾以降	yuoc
 涉江采芙蓉	iies
 得意而忘言	risu
@@ -17217,9 +17217,9 @@
 多藏必厚亡	rsyu
 地转凝碧湾	hhsi
 无辞让之心	froy
-君之视臣如手足	xpun
+君之视臣如手足	xphn
 收拾金瓯一片	xawt
-则臣视君如腹心	ksuy
+则臣视君如腹心	kshy
 何处闻灯不看来	eepf
 赖以拄其间	fxap
 种树郭橐驼传	rfoe
@@ -17253,9 +17253,9 @@
 斜晖脉脉水悠悠	tjwe
 飒沓如流星	ikcj
 秦皇岛外打鱼船	geyq
-则臣视君如国人	ksut
+则臣视君如国人	ksht
 更加众志成城	fxth
-君之视臣如犬马	xpux
+君之视臣如犬马	xphx
 不拘一格降人材	daff
 庭中有奇树	ulsf
 银汉无声转玉盘	tifq
@@ -17271,7 +17271,7 @@
 人猿相揖别	trfl
 欲寄彩笺兼尺素	toeh
 于从政乎何有	ftfs
-吏禄三百石	fufd
+吏禄三百石	fhfd
 君子不重则不威	xvdd
 故知足之足	dqnn
 草树云山如锦绣	sfsv
@@ -17593,7 +17593,7 @@
 壁上红旗飘落照	bkvj
 出门如见大宾	xpco
 大江东流去	giah
-不以礼节之	dxup
+不以礼节之	dxhp
 肌肤若冰雪	wwsd
 踏雪没心情	ndiy
 二龙争战决雌雄	sdys
@@ -17694,7 +17694,7 @@
 虚室有余闲	mosp
 万物将自化	fwue
 乡人皆好之	vtrp
-不炼金丹不坐禅	duwu
+不炼金丹不坐禅	duwh
 到处潜悲辛	heio
 未可与适道	hasu
 君行吾为发浩歌	xrfa
@@ -17730,7 +17730,7 @@
 茅檐长扫静无苔	sfts
 露寒人远鸡相应	dotu
 世上英雄本无主	hkso
-五福降中天	fucf
+五福降中天	fhcf
 家童鼻息已雷鸣	oitl
 晨登瓦官阁	jbap
 其次忆吴宫	dsyo
@@ -17778,7 +17778,7 @@
 关东有义士	uash
 春前为送浣花村	guof
 诗家总爱西昆好	oouc
-神得一以灵	urfx
+神得一以灵	hrfx
 万里长江边	fktx
 日本晁卿辞帝都	jfjh
 未有不阴时	hsdj
@@ -18000,7 +18000,7 @@
 可得而闻也	arsc
 宣城还见杜鹃花	ohds
 泣尽继以血	ibvq
-神妙独难忘	ucru
+神妙独难忘	hcru
 凿户牖以为室	nito
 探金英知近重阳	awsc
 虎头金粟影	mswj
@@ -18104,7 +18104,7 @@
 风起绿洲吹浪去	qdvh
 留得枯荷听雨声	trfh
 一饭胡麻度几春	frdg
-读书万卷始通神	ovfu
+读书万卷始通神	ovfh
 报仇千里如咫尺	aewb
 跃上葱茏四百旋	nkso
 秋阴不散霜飞晚	rcdj
@@ -18117,7 +18117,7 @@
 制芰荷以为衣兮	wsst
 青蒿黄韭试春盘	hssq
 菡萏香销翠叶残	ssrd
-绿荫树下养精神	vsfu
+绿荫树下养精神	vsfh
 江月年年望相似	iwqe
 曙光初照演兵场	jmph
 观鱼胜过富春江	bqwi
@@ -18341,7 +18341,7 @@
 酒醒只在花前坐	iglt
 岭南万户皆春色	jdfy
 坏壁无由见旧题	hbfj
-绿杨树下养精神	vffu
+绿杨树下养精神	vffh
 累上留云借月章	jkti
 浓香吹尽有谁知	irlq
 更多还肯失林峦	frdp
@@ -18429,7 +18429,7 @@
 心悦君兮知不知	yyxq
 乱石峥嵘俗无井	rdjs
 此花不与群花比	nsdr
-不戒视成谓之暴	dguj
+不戒视成谓之暴	dghj
 红旗半卷出辕门	voup
 曾经学舞度芳年	uviq
 北极朝廷终不改	ufdb
@@ -18504,7 +18504,7 @@
 履至尊而制六合	bhuy
 丁香空结雨中愁	arpr
 何处黄云是陇间	eesp
-醉中往往爱逃禅	glru
+醉中往往爱逃禅	glrh
 门外白袍如立鹄	prew
 又作三吴浪漫游	befi
 纵使君来岂堪折	vexa
@@ -18603,7 +18603,7 @@
 天子之事也	fvpc
 无非湘水余波	flii
 予观夫巴陵胜状	cbgu
-费心劳神	vysu
+费心劳神	vysh
 食洋不化	yide
 可以濯吾缨	axiv
 然后有千里马	wesx
@@ -18615,7 +18615,7 @@
 目览千载事	mnwa
 才情横溢	ayfi
 步履艰辛	nbbo
-神清气和	uiqr
+神清气和	hiqr
 天地与我并生	fhsw
 他人亦已歌	etpa
 朝饮木兰之坠露兮	drft
@@ -18627,7 +18627,7 @@
 愿为比翼鸟	sory
 共赏一轮明月	snfw
 原是濂溪一脉	sjiw
-官至礼部尚书	ohuv
+官至礼部尚书	ohhv
 白首偕老	eueh
 轮流做庄	hieu
 可以濯吾足	axin
@@ -18736,7 +18736,7 @@
 秋风起兮白云飞	rqdv
 亦犹今之视昔	prts
 然则何时而乐耶	wkea
-君子三年不为礼	xvfu
+君子三年不为礼	xvfh
 骈死于槽枥之间	xdfp
 向青草更青处漫溯	rhsi
 闻有国有家者	psnh
@@ -18904,7 +18904,7 @@
 自古帝王州	tdoi
 怅望江头江水声	yuih
 古今来许多世家	dtfo
-燕子来时新社	svfu
+燕子来时新社	svfh
 清吟晓露叶	iljl
 一夜好风吹	focl
 乃重修岳阳楼	vqef
@@ -19129,7 +19129,7 @@
 予不得已也	cdrc
 为高必因丘陵	ooyc
 然后知轻重	weqq
-子张学干禄	vviu
+子张学干禄	vvih
 风如拔山怒	qcac
 五陵衣马自轻肥	fcow
 群仙出没空明中	xexl
@@ -19643,7 +19643,7 @@
 浪淘沙北戴河	iiii
 去关市之征	huor
 故君子莫大乎与人为善	dxvu
-每逢佳处辄参禅	qeeu
+每逢佳处辄参禅	qeeh
 不以千里称也	dxwc
 蚓无爪牙之利	kfer
 汉水接天回	ikan
@@ -19655,7 +19655,7 @@
 腰鼓百面春雷发	whdx
 采之欲遗谁	epto
 夕露沾我衣	rdio
-煌煌祖宗业	uuun
+煌煌祖宗业	uuhn
 水中月色长不改	klwb
 人之有道也	tpsc
 不得中顾私	drlr
@@ -19958,7 +19958,7 @@
 莫之能御也	spvc
 吹参差兮谁思	lvuj
 高怀见物理	oykg
-百神翳其备降兮	dugt
+百神翳其备降兮	dhgt
 一身独暖亦何情	fwry
 幼而无父曰孤	vsfv
 幸逢太平代	hege
@@ -20027,7 +20027,7 @@
 谁欲讨莼羹	otou
 则天下之士	kfah
 如斯而已乎	cdsq
-社稷依明主	ureo
+社稷依明主	hreo
 不可徒行也	darc
 首夏犹清和	udrr
 齐有倜傥生	psew
@@ -20196,7 +20196,7 @@
 朝光散花楼	dmsf
 樱花落尽阶前月	fssw
 旧墓人家归葬多	nstr
-神有所不通	usib
+神有所不通	hsib
 千竿竹翠数莲红	wqqv
 恰似葡萄初酦醅	yesg
 终日断腥膻	vjpw
@@ -20257,7 +20257,7 @@
 劝君少干名	bxmr
 及与汝相对	vsib
 忆杭州梅花因叙旧游寄萧协律	yfir
-目不视恶色	mduy
+目不视恶色	mdhy
 十字津头一字行	doir
 独倚望江楼	reuf
 曾参岂是杀人者	uvjh
@@ -20307,7 +20307,7 @@
 丘不与易也	edsc
 怀瑾握瑜兮	ygat
 也应攀折他人手	cuft
-晋祠流水如碧玉	auig
+晋祠流水如碧玉	ahig
 璆锵鸣兮琳琅	gtlg
 幼子饥已卒	vvro
 罗衫叶叶绣重重	mplq
@@ -20359,7 +20359,7 @@
 兵过黄河疑未反	ease
 行云去后遥山暝	rshj
 虽世殊事异	lhdc
-传有神龙人不识	esuo
+传有神龙人不识	esho
 月到柳梢头	whfs
 老而无子曰独	hsfr
 人间晚秀非无意	tpji
@@ -20947,7 +20947,7 @@
 北山始与南屏通	ujcb
 君子有勇而无义为乱	xvsr
 阳子问其故	cvpd
-仰视浮云驰	euix
+仰视浮云驰	ehix
 相期憩瓯越	fdrd
 他得非我贤	erln
 弥勒真弥勒	vgdg
@@ -20976,7 +20976,7 @@
 何由得见洛阳春	ekrg
 而其见愈奇	sdkg
 抚长剑兮玉珥	attg
-见者惊犹鬼神	khyu
+见者惊犹鬼神	khyh
 服食求神仙	wyfe
 之死矢靡它	pdqo
 荷花半成子	ssuv
@@ -21065,7 +21065,7 @@
 垂鞭直拂五云车	egdh
 秦王与赵王会饮	ggsr
 农民个个同仇	ycte
-徐福空来不得仙	rupe
+徐福空来不得仙	rhpe
 非谓其见彼也	lodc
 收天下之兵	xfae
 轻于柳絮重于霜	hffd
@@ -21263,7 +21263,7 @@
 秋宵月色胜春宵	rowo
 即今河畔冰开日	xtij
 泣珠报恩君莫辞	igar
-彭祖巫咸几回死	hufd
+彭祖巫咸几回死	hhfd
 遥遥至西荆	eehs
 不能发声哭	dvxl
 可以语上也	axoc
@@ -21283,7 +21283,7 @@
 中有双飞鸟	lsby
 枕前看鹤浴	futi
 夫子焉不学	gvfi
-呈祥势可嘉	luah
+呈祥势可嘉	lhah
 斗巧尽输年少	sfbm
 两岸罗衣破晕香	fjmr
 孤城西北起高楼	vhdf
@@ -21351,7 +21351,7 @@
 儒生有长策	ewsq
 江南腊月半	idwu
 犬子以田产未置止我	svxq
-礼法有明文	uisp
+礼法有明文	hisp
 云横九派浮黄鹤	sfyy
 爱之欲其富也	eptc
 相如一奋其气	fcfq
@@ -21481,7 +21481,7 @@
 世俗乍见应怃然	heqw
 孤猿衔恨叫中秋	vrrr
 幽怨不堪听	jrdl
-登池州九峰楼寄张祜	biiu
+登池州九峰楼寄张祜	biih
 项庄拔剑起舞	fuaq
 鹤笼开处见君子	yqfv
 道固不小行	undr
@@ -21723,7 +21723,7 @@
 君王为人不忍	xgob
 人生达命岂暇愁	twgr
 忠信事不显	leaj
-回忘礼乐矣	nuuv
+回忘礼乐矣	nuhv
 只令故旧伤	ltde
 朝别朱雀门	dlwp
 柳丝袅娜春无力	fvyx
@@ -22036,7 +22036,7 @@
 然士或怯懦而不敢发	whgx
 洛水桥边春日斜	ikft
 力去陈言夸末俗	xhce
-巫山神女庙	fjuu
+巫山神女庙	fjhu
 君有丈夫泪	xssi
 挟弹章台左	avis
 云弄竹溪月	sgqw
@@ -22221,7 +22221,7 @@
 万物之镜也	fwpc
 壁立千仞无依倚	biwe
 静拂琴床席	hagu
-闻道神仙不可接	puua
+闻道神仙不可接	puha
 形适外无恙	frru
 巢非不完也	vldc
 风花时傍马头飞	qsjv
@@ -22329,7 +22329,7 @@
 无食无儿一妇人	fyft
 满耳潺湲满面凉	iais
 欢娱恨白头	bcys
-稳送祝融归	ruuu
+稳送祝融归	ruhu
 之子归穷泉	pvue
 片石孤峰窥色相	tdvf
 郢人垩慢其鼻端若蝇翼	ltax
@@ -22527,7 +22527,7 @@
 玉楼明月长相忆	gfjy
 百尺楼高水接天	dbff
 廉颇遂奔魏之大梁	uvui
-彼视渊若陵	ruic
+彼视渊若陵	rhic
 四海遏密八音	niji
 提剑出燕京	atxo
 日入相与归	jrfu
@@ -22584,7 +22584,7 @@
 花开残菊傍疏篱	sfdq
 月黑见渔灯	wnku
 人在青山远近居	tshb
-神女为秉机	ucof
+神女为秉机	hcof
 时矫首而遐观	jqub
 无因移得到人家	fnro
 鸡犬相和汉古村	bsff
@@ -22638,7 +22638,7 @@
 人间天上代代相传	tpfe
 父子之情也	tvpc
 国无人莫我知兮	nftt
-饮酣视八极	rguf
+饮酣视八极	rghf
 未坐将军树	htuf
 与物相刃相靡	swfp
 机杼鸣帘栊	fflf
@@ -22817,7 +22817,7 @@
 说之虽不以道	oplu
 立诛杀曹无伤	iowe
 多少春花秋月	rmgw
-公之视廉将军孰与秦王	tpug
+公之视廉将军孰与秦王	tphg
 听此寒虫号	lnol
 千里清光又依旧	wkin
 如闻断续弦	cppv
@@ -23004,7 +23004,7 @@
 犹小石小木之在大山也	rmdc
 越中山色镜中看	dljt
 粽香筒竹嫩	prqc
-瞋目视项王	mmug
+瞋目视项王	mmhg
 应怜半死白头翁	uyut
 自夫子之死也	tgvc
 审权势之宜	ofao
@@ -23102,7 +23102,7 @@
 君不见管鲍贫时交	xdko
 俗物都茫茫	ewhs
 亦不能至也	pdvc
-自大视细者不明	tguj
+自大视细者不明	tghj
 秋吟切骨玉声寒	rlao
 气可以养而致	qaxh
 谁人可相从	otat
@@ -23146,7 +23146,7 @@
 索食声孜孜	dyhv
 众峰来自天目山	tjfj
 闲教玉笼鹦鹉念郎诗	phgo
-问禅不契前三语	pudo
+问禅不契前三语	phdo
 游童挟弹一麾肘	iiaw
 外物少能逼	rwmf
 飞在白云端	vsei
@@ -23194,7 +23194,7 @@
 心清闻妙香	yipr
 漫绕东篱嗅落英	ivas
 但逢新人民	eeic
-无求于物长精神	fffu
+无求于物长精神	fffh
 戏咏蜡梅二首	blku
 则与一生彘肩	ksfi
 红莲池里白莲开	vsif
@@ -23548,7 +23548,7 @@
 雪白河豚不药人	deit
 西风漫卷孤城	dqih
 不离墙下至行时	dphj
-此养神之道也	nuuc
+此养神之道也	nuhc
 孤鸾舞镜不作双	vpqb
 君自此远矣	xtnv
 惟梁孝王都	yihh
@@ -23647,7 +23647,7 @@
 不仁者远矣	dehv
 能向花前几回醉	vrsg
 虽趣舍万殊	ldtd
-端州石工巧如神	iidu
+端州石工巧如神	iidh
 鲁有兀者叔山无趾	qshn
 五夜飕飗枕前觉	foqi
 不见一人来	dkff
@@ -23718,7 +23718,7 @@
 两人不敢上	ftdk
 赐也闻一以知二	kcps
 推心辅王政	ayhf
-祗役出皇邑	urxl
+祗役出皇邑	hrxl
 朝廷雇我作闲人	deit
 心如韩寿爱偷香	ycdr
 吾安得夫忘言之人而与之言哉	ford
@@ -23743,7 +23743,7 @@
 特地惊狂眼	whym
 帘下宫人出	paox
 千峰争攒聚	wjya
-而不敢怀庆赏爵禄	sdvu
+而不敢怀庆赏爵禄	sdvh
 投冠旋旧墟	ayoh
 万斛之舟行若风	fypq
 古之狂也肆	dprh
@@ -23870,7 +23870,7 @@
 得自洞庭口	rtil
 山衔好月来	jrcf
 日夕殊不来	jrdf
-明乎礼义而陋于知人心	jquy
+明乎礼义而陋于知人心	jqhy
 别后悠悠君莫问	leep
 乘舆恐未回	rrfn
 山东豪俊遂并起而亡秦族矣	jaov
@@ -24397,7 +24397,7 @@
 死已三千岁矣	dbfv
 杨桴击节雷阗阗	ffap
 当时屋瓦始称珍	mjbg
-殷礼吾能言之	eufp
+殷礼吾能言之	ehfp
 入河蟾不没	riki
 我叩其两端而竭焉	qldf
 遗爱寺钟欹枕听	lehl
@@ -24625,7 +24625,7 @@
 夫维圣哲以茂行兮	gvbt
 年年岁岁一床书	qqjv
 杞不足征也	fdnc
-鲤退而学礼	qvsu
+鲤退而学礼	qvsh
 有作成一囊	sedd
 今直为此萧艾也	tdoc
 不知口体之奉不若人也	dqlc
@@ -24755,7 +24755,7 @@
 隔在远远乡	csfv
 重重叠叠上瑶台	qqbv
 得列嘉树中	rdhl
-递相祖述复先谁	ufuo
+递相祖述复先谁	ufho
 半生身老心闲	uwwp
 夜深花正寒	oiso
 对酒不能酬	bidg
@@ -24852,7 +24852,7 @@
 君子之德风也	xvpc
 众莫知兮余所为	tsqo
 水阁虚凉玉簟空	kpmp
-他年夜雨独伤神	eqou
+他年夜雨独伤神	eqoh
 此其大略也	ndgc
 一鸟不鸣山更幽	fydj
 吾愿君去国捐俗	fsxe
@@ -24887,7 +24887,7 @@
 建芳馨兮庑门	xshp
 玉关寄长安李主簿	guoq
 夫残朴以为器	gdfl
-光禄池台开锦绣	muiv
+光禄池台开锦绣	mhiv
 莫嫌荦确坡头路	scsn
 郭外是黄河	orji
 邮亭寄人世	kooh
@@ -25218,7 +25218,7 @@
 终身何敢望韩公	vwet
 以为莫己若者	xosh
 不足以为广	dnxu
-不忧社稷倾	dyue
+不忧社稷倾	dyhe
 水如环佩月如襟	kcgp
 万物不得不昌	fwdj
 俱兼山水乡	eujv
@@ -25278,7 +25278,7 @@
 在目皓已洁	smei
 世缘终浅道根深	hvvi
 问以经济策	pxvq
-夏礼吾能言之	dufp
+夏礼吾能言之	dhfp
 披帷西向立	amdi
 正是维摩境界	fjvj
 邀我登云台	eqbv
@@ -25305,7 +25305,7 @@
 其后秦伐赵	degd
 乘船往石头	rqrs
 衣带日已缓	osjv
-此吾祖太常公宣德间执此以朝	nfud
+此吾祖太常公宣德间执此以朝	nfhd
 世溷浊而嫉贤兮	hiit
 两心之外无人知	fypq
 姑苏台上乌栖时	csvj
@@ -25324,7 +25324,7 @@
 然不自意能先入关破秦	wdtg
 亦足慰平生	pnbw
 内热溲膏是也	kaic
-送祁录事归合州	uuxi
+送祁录事归合州	uhxi
 行藏终欲付何人	rsvt
 绿浪东西南北水	viak
 以杖叩其胫	xflw
@@ -25411,7 +25411,7 @@
 策杖归去来	qfuf
 安敢尚盘桓	ovnf
 欲语羞雷同	touk
-则臣视君如寇雠	ksuw
+则臣视君如寇雠	kshw
 羞而不为也	usdc
 空林独与白云期	pfrd
 闭门锄菜伴园丁	ppta
@@ -25478,7 +25478,7 @@
 而天下始分矣	sfav
 今吾嗣为之十二年	tflq
 闲与仙人扫落花	pses
-犹疾视而盛气	rpuq
+犹疾视而盛气	rphq
 感郎千金意	dowi
 幻化空身即法身	vepw
 是同为淫僻也	jkoc
@@ -25662,7 +25662,7 @@
 心飞故国楼	yvdf
 赠元六兄林宗	kfoo
 长逝入君怀	tary
-开视化为血	fueq
+开视化为血	fheq
 先据要路津	wadi
 殚残天下之圣法	ddfi
 无数新禽有喜声	fpih
@@ -25979,7 +25979,7 @@
 月出孤舟寒	wxvo
 巴陵一望洞庭秋	ccfr
 江火似流萤	iues
-俯视洛阳川	euiq
+俯视洛阳川	ehiq
 多于九土之城郭	rfyo
 轮欹影促犹频望	hgju
 谷幽光未显	tjmj
@@ -26151,7 +26151,7 @@
 晰晰燎火光	jjum
 郁金香是兰陵酒	swri
 待吾还丹成	rfdd
-礼义由贤者出	uokx
+礼义由贤者出	hokx
 翩翾粉翅开	impf
 流俗之所轻也	iepc
 此固其理也	nndc
@@ -26261,7 +26261,7 @@
 但知临水登山啸咏	eqnl
 巴女骑牛唱竹枝	ccxf
 春山携妓采茶时	gjaj
-寥亮幽音妙入神	ooju
+寥亮幽音妙入神	oojh
 树无用之指也	fftc
 万点蜀山尖	fmmm
 远望青童童	fuhi
@@ -26490,7 +26490,7 @@
 人间桑海朝朝变	tpbp
 劳者尸如丘	shbe
 庐江小吏仲卿妻	uimd
-吾祖死于是	fudj
+吾祖死于是	fhdj
 内无应门五尺之僮	kfue
 宫官既拆盘	ooxq
 心中与之然	ylsw
@@ -26609,7 +26609,7 @@
 也知法供无穷尽	cqib
 军中无以为乐	ylft
 江东子弟今虽在	iavs
-礼乐不兴则刑罚不中	utdl
+礼乐不兴则刑罚不中	htdl
 丈夫未可轻年少	sghm
 缯絮足御寒	vcno
 将帅接燕蓟	uuas
@@ -26624,7 +26624,7 @@
 床下夜相亲	uaoi
 孤灯何事独成花	vues
 但恐失桃花	efqs
-结社多高客	vuro
+结社多高客	vhro
 翻身跃入七人房	qwni
 游雁有馀声	issh
 断尽苏州刺史肠	pbsw
@@ -26716,7 +26716,7 @@
 日日悲看水独流	jjli
 父老四五人	thnt
 廉君宣恶言	uxou
-祖母今年九十有六	ubto
+祖母今年九十有六	hbto
 愈往而不知其所穷	trsp
 涧水无声绕竹流	ikfi
 鸿雁欲南飞	istv
@@ -26755,7 +26755,7 @@
 眼花繚亂	msbe
 總而言之	bsup
 徹頭徹尾	rfrb
-社會主義	utou
+社會主義	htou
 豐富多彩	jore
 衆所周知	qiwq
 興致勃勃	rhdd
@@ -26771,7 +26771,7 @@
 漫不經心	idby
 異口同聲	jlkh
 出謀劃策	xuxq
-全神貫注	tubi
+全神貫注	thbi
 得心應手	ryut
 混爲一談	iefu
 美不勝收	udwx
@@ -26783,7 +26783,7 @@
 想方設法	foui
 不以爲然	dxew
 突如其來	pcdd
-聚精會神	aptu
+聚精會神	apth
 顯而易見	jsjm
 求同存異	fksj
 討價還價	ueme
@@ -26837,7 +26837,7 @@
 自始至終	tchb
 難能可貴	sval
 耐人尋味	stxl
-視而不見	usdm
+視而不見	hsdm
 五顔六色	fioy
 取長補短	ahpq
 獨一無二	rfqs
@@ -27040,7 +27040,7 @@
 望而卻步	ustn
 無中生有	qlws
 不在話下	dsua
-心曠神怡	yjuy
+心曠神怡	yjhy
 風起雲湧	rddi
 依依不捨	eeda
 絶無僅有	bqes
@@ -27069,7 +27069,7 @@
 風馳電掣	rddw
 鱗次櫛比	tsfr
 傾家蕩産	eosi
-罪魁禍首	mwuu
+罪魁禍首	mwhu
 物美價廉	wueu
 雜亂無章	oeqi
 自給自足	tbtn
@@ -27101,7 +27101,7 @@
 東山再起	fjgd
 模棱兩可	fffa
 稍縱卽逝	rbea
-虎視眈眈	mumm
+虎視眈眈	mhmm
 柴米油鹽	npis
 害群之馬	oxpd
 言傳身教	uewh
@@ -27180,7 +27180,7 @@
 快馬加鞭	ydxg
 天馬行空	fdrp
 步步爲營	nneu
-禍不單行	udlr
+禍不單行	hdlr
 空穴來風	ppdr
 陰差陽錯	cucw
 獨善其身	rudw
@@ -27330,7 +27330,7 @@
 風雨同舟	rdkq
 人命關天	tykf
 無所不在	qids
-心領神會	ytut
+心領神會	ytht
 不着邊際	dutc
 春風化雨	gred
 大模大樣	gfgf
@@ -27356,7 +27356,7 @@
 千山萬水	wjsk
 顧此失彼	inqr
 天花亂墜	fsec
-視死如歸	udcy
+視死如歸	hdcy
 聲情並茂	hyus
 承上啓下	vkia
 令人髮指	ttha
@@ -27388,7 +27388,7 @@
 勢不兩立	hdfi
 一言難盡	fusx
 爲非作歹	eled
-各顯神通	ejub
+各顯神通	ejhb
 身強力壯	wvxx
 登峰造極	bjwf
 力挽狂瀾	xari
@@ -27538,7 +27538,7 @@
 一絲不苟	fbds
 唯心主義	lyou
 有聲有色	shsy
-一視同仁	fuke
+一視同仁	fhke
 五花八門	fstk
 翫忽職守	xwao
 有條不紊	sedp
@@ -27559,7 +27559,7 @@
 熱火朝天	hudf
 一望無際	fuqc
 胡説八道	dutu
-幸災樂禍	hveu
+幸災樂禍	hveh
 無窮無盡	qpqx
 三三兩兩	ffff
 同心協力	kydx
@@ -27676,7 +27676,7 @@
 兵荒馬亂	esde
 蓬頭垢面	sfhg
 誠惶誠恐	uyuf
-禍國殃民	undc
+禍國殃民	hndc
 心悦誠服	yyuw
 春暖花開	gjsk
 多才多藝	rars
@@ -27765,7 +27765,7 @@
 低聲下氣	ehaq
 過關斬將	nkgx
 唯唯諾諾	lluu
-頂禮膜拜	auwt
+頂禮膜拜	ahwt
 同仇敵愾	keoy
 賢妻良母	sdob
 張口結舌	vlbr
@@ -27792,7 +27792,7 @@
 觸景生情	yjwy
 價值連城	eegh
 絃外之音	brpi
-禮尚往來	unrd
+禮尚往來	hnrd
 疲於奔命	pogy
 同病相憐	kpfy
 言過其實	undo
@@ -27847,7 +27847,7 @@
 濃妝艶抹	ixka
 苟延殘喘	sqdl
 寄人籬下	otqa
-六神無主	ouqo
+六神無主	ohqo
 前因後果	unrj
 三頭六臂	ffob
 當頭一棒	nfff
@@ -28022,7 +28022,7 @@
 經年累月	bqjw
 犬牙交錯	show
 完璧歸趙	obyd
-因禍得福	nuru
+因禍得福	nhrh
 引火燒身	vuuw
 藏龍臥虎	sism
 兵臨城下	esha
@@ -28061,7 +28061,7 @@
 鳴鑼開道	lwku
 殺一儆百	wfed
 天誅地滅	fuhi
-貌合神離	yyup
+貌合神離	yyhp
 人面獸心	tgly
 裝瘋賣傻	xphe
 翻雲覆雨	qddd
@@ -28126,13 +28126,13 @@
 知無不言	qqdu
 普天同慶	ufki
 嬉皮笑臉	cvqw
-禍從口出	urlx
+禍從口出	hrlx
 稱王稱霸	rgrd
 看破紅塵	tdbi
 對酒當歌	nina
 螳螂捕蟬	kkak
 三從四德	frnr
-包藏禍心	wsuy
+包藏禍心	wshy
 别來無恙	ldqu
 世界大戰	hjgl
 大興安嶺	groj
@@ -28172,7 +28172,7 @@
 圖文並茂	npus
 一分爲二	ftes
 東張西望	fvdu
-彬彬有禮	ffsu
+彬彬有禮	ffsh
 千頭萬緒	wfsb
 千裏迢迢	wobb
 有氣無力	sqqx
@@ -28207,7 +28207,7 @@
 貪官污吏	toif
 因人而異	ntsj
 一門心思	fkyj
-熟視無睹	ouqm
+熟視無睹	ohqm
 忘恩負義	unyu
 見多識廣	mruu
 擲地有聲	ahsh
@@ -28267,7 +28267,7 @@
 人跡罕至	tnyh
 濟濟一堂	iifn
 開源節流	kiqi
-神採奕奕	uapp
+神採奕奕	happ
 笑逐顔開	qdik
 身經百戰	wbdl
 一拍卽合	faey
@@ -28345,8 +28345,8 @@
 兩敗俱傷	fmee
 涇渭分明	iitj
 連篇累牘	gqjt
-神魂顛倒	usde
-凶神惡煞	wufy
+神魂顛倒	hsde
+凶神惡煞	whfy
 大風大浪	grgi
 瞞天過海	mfni
 舉棋不定	rfdo
@@ -28354,7 +28354,7 @@
 功德無量	frqj
 五穀豐登	fhjb
 飛禽走獸	btdl
-分庭抗禮	tuau
+分庭抗禮	tuah
 皇親國戚	eind
 喪權辱國	dfsn
 體無完膚	mqom
@@ -28372,7 +28372,7 @@
 高深莫測	oisi
 冷眼旁觀	smos
 忠貞不渝	lmdi
-黯然神傷	nwue
+黯然神傷	nwhe
 呆頭呆腦	lflw
 孤軍奮戰	vygl
 萬人空巷	stps
@@ -28391,7 +28391,7 @@
 以訛傳訛	xueu
 魂不附體	sdcm
 流言蜚語	iulu
-心馳神往	ydur
+心馳神往	ydhr
 根深葉茂	fiss
 矯枉過正	qfnf
 隔靴搔癢	cgap
@@ -28520,11 +28520,11 @@
 落葉歸根	ssyf
 男盜女娼	jicc
 葉公好龍	stci
-福至心靈	uhyd
+福至心靈	hhyd
 鶴髮童顔	yhii
 劫富濟貧	hoit
 酒囊飯袋	idye
-視若無睹	usqm
+視若無睹	hsqm
 功德圓滿	frni
 縮頭縮腦	bfbw
 滄海一粟	iifd
@@ -28532,11 +28532,11 @@
 恩將仇報	nxeh
 格殺勿論	fwwu
 人困馬乏	tndq
-神機妙算	ufcq
+神機妙算	hfcq
 枉費心機	fvyf
 徒勞無功	ruqf
 五馬分屍	fdtb
-飛來橫禍	bdfu
+飛來橫禍	bdfh
 將功贖罪	xfmm
 奴顔婢膝	cicw
 奇珍異寶	ggjo
@@ -28584,7 +28584,7 @@
 和藹可親	rsai
 隱隱約約	ccbb
 真心誠意	dyui
-神通廣大	ubug
+神通廣大	hbug
 取之不盡	apdx
 由淺入深	kiri
 鬥志昂揚	nhja
@@ -28667,7 +28667,7 @@
 論資排輩	usal
 時不我待	jdqr
 爲人師表	etyh
-天災人禍	fvtu
+天災人禍	fvth
 任人唯賢	etls
 唸唸有詞	llsu
 一馬當先	fdnw
@@ -28686,7 +28686,7 @@
 惻隱之心	ycpy
 捨己救人	abft
 養家餬口	uoyl
-等閒視之	qkup
+等閒視之	qkhp
 獨闢蹊徑	rknr
 一言爲定	fueo
 如獲至寶	crho
@@ -28716,7 +28716,7 @@
 橫行霸道	frdu
 爭權奪利	efgr
 門可羅雀	kamm
-神氣活現	uqig
+神氣活現	hqig
 婦孺皆知	cvrq
 剛正不阿	kfdc
 除惡務盡	cfcx
@@ -28823,7 +28823,7 @@
 反客爲主	eoeo
 風流韻事	riia
 抱殘守缺	adow
-高官厚祿	oosu
+高官厚祿	oosh
 倚老賣老	ehhh
 難分難解	stsy
 千刀萬剮	wbsn
@@ -28849,7 +28849,7 @@
 彈盡糧絶	vxpb
 下裏巴人	aoct
 狗仗人勢	reth
-數典忘祖	lkuu
+數典忘祖	lkuh
 脣亡齒寒	sumo
 大海撈針	giaw
 立錐之地	iwph
@@ -28899,7 +28899,7 @@
 屍位素餐	behm
 投桃報李	afhf
 斷垣殘壁	vhdb
-禍從天降	urfc
+禍從天降	hrfc
 藏頭露尾	sfdb
 各持己見	eabm
 斯文掃地	dpah
@@ -28917,7 +28917,7 @@
 色厲内荏	ysks
 甕中之鱉	olpu
 邪門歪道	hkdu
-禍起蕭牆	udsx
+禍起蕭牆	hdsx
 樂天知命	efqy
 遠交近攻	hoef
 螳臂當車	kbng
@@ -28983,7 +28983,7 @@
 天下無雙	faqw
 報仇雪恨	hedy
 插翅難逃	adsq
-兵貴神速	eluf
+兵貴神速	elhf
 怒氣沖天	cqif
 黃雀在後	smsr
 家學淵源	orii
@@ -29032,7 +29032,7 @@
 機會主義	ftou
 有生以來	swxd
 濃墨重彩	inqe
-神經衰弱	ubov
+神經衰弱	hbov
 捨生忘死	awud
 萬里長城	skhh
 最後通牒	jrbt
@@ -29086,7 +29086,7 @@
 磕磕絆絆	ddbb
 以身試法	xwui
 牛郎織女	wobc
-混淆視聽	iiua
+混淆視聽	iiha
 喝西北風	ldur
 雙喜臨門	whsk
 炙手可熱	wtah
@@ -29105,7 +29105,7 @@
 少見多怪	mmry
 百尺竿頭	dbqf
 薄利多銷	srrw
-以禮相待	xufr
+以禮相待	xhfr
 笨手笨腳	qtqw
 好自爲之	ctep
 散兵遊勇	seob
@@ -29131,7 +29131,7 @@
 曲徑通幽	krbj
 烏七八糟	yatp
 一馬平川	fdhq
-裝神弄鬼	xugw
+裝神弄鬼	xhgw
 鬼頭鬼腦	wfww
 瓢潑大雨	digd
 一語雙關	fuwk
@@ -29184,7 +29184,7 @@
 不勝其煩	dwdu
 圖謀不軌	nudg
 不二法門	dsik
-先禮後兵	wure
+先禮後兵	whre
 躊躇不前	nndu
 才高八鬥	aotn
 虎踞龍盤	mniq
@@ -29202,7 +29202,7 @@
 閉月羞花	kwus
 餓虎撲食	ymay
 路不拾遺	ndal
-無功受祿	qfeu
+無功受祿	qfeh
 悔不當初	ydnp
 譭譽參半	urvu
 幾次三番	vsfq
@@ -29236,14 +29236,14 @@
 無源之水	qipk
 怒氣衝衝	cqrr
 事不關己	adkb
-神采飛揚	ueba
+神采飛揚	heba
 仁者見仁	ehme
-龍鳳呈祥	iqlu
+龍鳳呈祥	iqlh
 心浮氣躁	yiqn
 冰凍三尺	ssfb
 麻雀雖小	pmlm
 子子孫孫	vvvv
-精神煥發	puub
+精神煥發	phub
 蠱惑人心	kgty
 哀鴻遍野	oiik
 百花爭艶	dsek
@@ -29294,7 +29294,7 @@
 融爲一體	fefm
 剝削階級	bmcb
 始終不渝	cbdi
-祖祖輩輩	uull
+祖祖輩輩	hhll
 經濟危機	biyf
 加班加點	xgxn
 五角大樓	fygf
@@ -29351,7 +29351,7 @@
 對簿公堂	nqtn
 爭強好勝	evcw
 頭昏眼花	ftms
-目不斜視	mdtu
+目不斜視	mdth
 火樹銀花	ufws
 鬆鬆垮垮	hhhh
 罪該萬死	musd
@@ -29477,7 +29477,7 @@
 百年樹人	dqft
 滅絶人性	ibty
 長生不老	hwdh
-龍馬精神	idpu
+龍馬精神	idph
 富可敵國	oaon
 無出其右	qxds
 及時行樂	vjre
@@ -29497,7 +29497,7 @@
 患難之交	lspo
 益壽延年	uhqq
 狼煙四起	rund
-自視甚高	tudo
+自視甚高	thdo
 侷促不安	eedo
 狗血淋頭	rqif
 失之毫釐	qpoh
@@ -29509,7 +29509,7 @@
 歃血爲盟	wqej
 有口難言	slsu
 左擁右抱	sasa
-神氣十足	uqdn
+神氣十足	hqdn
 清風明月	irjw
 安邦定國	odon
 遥遥相對	eefn
@@ -29522,7 +29522,7 @@
 直升飛機	dqbf
 點點滴滴	nnii
 順其自然	qdtw
-賠禮道歉	muuu
+賠禮道歉	mhuu
 塞爾維亞	ofbf
 人際關係	tcke
 八國聯軍	tnay
@@ -29581,7 +29581,7 @@
 心慈手軟	yutg
 刀耕火種	bdur
 勞而無功	usqf
-怒目而視	cmsu
+怒目而視	cmsh
 殘垣斷壁	dhvb
 四書五經	nxfb
 亭臺樓閣	ohfk
@@ -29688,7 +29688,7 @@
 比翼雙飛	rxwb
 衝昏頭腦	rtfw
 不見天日	dmfj
-屏氣凝神	bqsu
+屏氣凝神	bqsh
 害人不淺	otdi
 迂迴曲折	fnka
 滿盤皆輸	iqrg
@@ -29702,7 +29702,7 @@
 城門失火	hkqu
 志在千裏	hswo
 河東獅吼	ifrl
-嫁禍於人	cuot
+嫁禍於人	chot
 勤能補拙	gvpa
 舊地重遊	shqo
 盜亦有道	ipsu
@@ -29724,7 +29724,7 @@
 苦海無邊	siqt
 性命交關	yyok
 臥牀不起	sxdd
-洪福齊天	iuof
+洪福齊天	ihof
 輕諾寡信	guoe
 克羅地亞	dmhf
 硬着頭皮	dufv
@@ -29752,7 +29752,7 @@
 取信於民	aeoc
 炎黃子孫	usvv
 有增無減	shqi
-精神抖擻	puaa
+精神抖擻	phaa
 嘰嘰喳喳	llll
 精兵強將	pevx
 敲鑼打鼓	owah
@@ -29776,7 +29776,7 @@
 説長道短	uhuq
 無所不知	qidq
 乾脆利落	dwrs
-福爾馬林	ufdf
+福爾馬林	hfdf
 修身養性	ewuy
 後事之師	rapy
 盛極一時	dffj
@@ -29820,7 +29820,7 @@
 彌天大罪	vfgm
 冥頑不靈	yfdd
 奮勇當先	gbnw
-福如東海	ucfi
+福如東海	hcfi
 渾身是膽	iwjw
 不見經傳	dmbe
 指腹爲婚	awec
@@ -29915,7 +29915,7 @@
 救亡圖存	funs
 簡而言之	qsup
 春華秋實	gsro
-神清氣爽	uiqg
+神清氣爽	hiqg
 過眼煙雲	nmud
 心灰意懶	ysiy
 不可終日	dabj
@@ -29973,13 +29973,13 @@
 骨鯁在喉	mtsl
 心膽俱裂	ywed
 泛泛而談	iisu
-福無雙至	uqwh
+福無雙至	hqwh
 披堅執鋭	ashw
 徒子徒孫	rvrv
 星移斗轉	jrsg
 好聲好氣	chcq
 尋章摘句	xiaw
-大顯神通	gjub
+大顯神通	gjhb
 鐵樹開花	wfks
 四捨五入	nafr
 亂臣賊子	esmv
@@ -30007,7 +30007,7 @@
 飛蛾撲火	bkau
 浩氣長存	iqhs
 一星半點	fjun
-人神共憤	tusy
+人神共憤	thsy
 旭日東昇	yjfj
 枯枝敗葉	ffms
 外柔内剛	rckk
@@ -30081,7 +30081,7 @@
 大放異彩	goje
 風行一時	rrfj
 名噪一時	rlfj
-神來之筆	udpq
+神來之筆	hdpq
 與時俱進	rjew
 五講四美	funu
 一望無垠	fuqh
@@ -30160,7 +30160,7 @@
 纖塵不染	bidi
 外圓内方	rnko
 歸去來兮	yhdt
-恭賀新禧	sxiu
+恭賀新禧	sxih
 瓊漿玉液	gxgi
 大權旁落	gfos
 直搗黃龍	dasi
@@ -30201,7 +30201,7 @@
 厄爾尼諾	sfbu
 無話可説	quau
 趨利避害	drbo
-株式會社	fgtu
+株式會社	fgth
 説不過去	udnh
 時隱時現	jcjg
 鑼鼓喧天	whlf
@@ -30270,10 +30270,10 @@
 百年之後	dqpr
 牢騷滿腹	odiw
 丢人現眼	etgm
-禮義廉耻	uuua
+禮義廉耻	huua
 待字閨中	rokl
 眼觀六路	mson
-相視而笑	fusq
+相視而笑	fhsq
 同牀共枕	kxsf
 物競天擇	wifa
 過江之鯽	nipt
@@ -30375,7 +30375,7 @@
 天上人間	fktk
 舊病復發	sprb
 一線生機	fbwf
-禮儀之邦	uepd
+禮儀之邦	hepd
 枯燥無味	fuql
 民富國強	conv
 晚節不保	jqde
@@ -30418,18 +30418,18 @@
 不復存在	drss
 虎穴龍潭	mpii
 滿頭大汗	ifgi
-法蘭克福	isdu
+法蘭克福	isdh
 緊追不捨	syda
 吹彈得破	lvrd
 黑龍江省	niim
 恩恩愛愛	nnee
 輕輕鬆鬆	gghh
 發奮圖強	bgnv
-神鬼莫測	uwsi
+神鬼莫測	hwsi
 危地馬拉	yhda
 烏茲别克	ysld
 指指點點	aann
-知書達禮	qxhu
+知書達禮	qxhh
 總的來看	bedt
 童顔鶴髮	iiyh
 人慾橫流	ttfi
@@ -30585,7 +30585,7 @@
 人贓俱獲	tmer
 頤養天年	gufq
 勢不可當	hdan
-高視闊步	oukn
+高視闊步	ohkn
 有口難辯	slso
 拉幫結夥	ahbj
 以身相許	xwfu
@@ -30609,7 +30609,7 @@
 切中時弊	alju
 狂風驟雨	rrdd
 波譎雲詭	iudu
-抖擻精神	aapu
+抖擻精神	aaph
 成王敗寇	dgmo
 閉口不言	kldu
 人非聖賢	tlas
@@ -30621,7 +30621,7 @@
 脱繮之馬	wbpd
 敬業樂群	snex
 臨危授命	syay
-視同兒戲	ukrm
+視同兒戲	hkrm
 百廢待舉	durr
 雨打風吹	darl
 家貧如洗	otci
@@ -30643,7 +30643,7 @@
 心有靈犀	ysdb
 穿雲裂石	pddd
 窮寇勿追	powy
-福爾摩斯	ufpd
+福爾摩斯	hfpd
 名聲大振	rhga
 猶猶豫豫	rrcc
 撲面而來	agsd
@@ -30664,12 +30664,12 @@
 保駕護航	exuq
 曉之以理	jpxg
 強加於人	vxot
-大飽眼福	gymu
+大飽眼福	gymh
 銷售一空	wwfp
 人高馬大	todg
 萬物之靈	swpd
 心如刀絞	ycbb
-殺身之禍	wwpu
+殺身之禍	wwph
 泱泱大國	iign
 久經沙場	ybih
 劈波斬浪	bigi
@@ -30728,7 +30728,7 @@
 打鐵趁熱	awdh
 人心叵測	tygi
 英姿煥發	ssub
-兵連禍結	egub
+兵連禍結	eghb
 攻其無備	fdqe
 其樂融融	deff
 阿裏巴巴	cocc
@@ -30826,7 +30826,7 @@
 天無絶人之路	fqbn
 噴薄欲出	lstx
 承歡膝下	vswa
-克己復禮	dbru
+克己復禮	dbrh
 罷黜百家	mndo
 不仁不義	dedu
 利害攸關	roek
@@ -30850,7 +30850,7 @@
 難辭其咎	sede
 難得一見	srfm
 泰晤士報	gjhh
-大禍臨頭	gusf
+大禍臨頭	ghsf
 老有所爲	hsie
 遠道而來	husd
 一時半會	fjut
@@ -30986,7 +30986,7 @@
 科羅拉多	rmar
 鬧中取靜	nlah
 閃爍其辭	kude
-九三學社	yfru
+九三學社	yfrh
 尋尋覓覓	xxee
 布爾什維克	sfed
 數罪併罰	lmem
@@ -31014,7 +31014,7 @@
 匠心獨具	gyrm
 山雨欲來風滿樓	jdtf
 奬罰分明	xmtj
-開山鼻祖	kjtu
+開山鼻祖	kjth
 下情上達	aykh
 富貴不能淫	oldi
 腳踏兩隻船	wnfq
@@ -31072,7 +31072,7 @@
 圍追堵截	nyhd
 深明大義	ijgu
 不費吹灰之力	dvlx
-一飽眼福	fymu
+一飽眼福	fymh
 事到臨頭	ahsf
 婦道人家	cuto
 頭昏腦脹	ftww
@@ -31129,7 +31129,7 @@
 眼淚汪汪	miii
 貝加爾湖	mxfi
 心腦血管	ywqq
-視同路人	uknt
+視同路人	hknt
 迎難而上	tssk
 解決方案	yioo
 打架鬥毆	axng
@@ -31151,7 +31151,7 @@
 投親靠友	aiws
 老弱殘兵	hvde
 缺斤少兩	wemf
-旦夕禍福	jruu
+旦夕禍福	jrhh
 飛短流長	bqih
 任人擺佈	etae
 有聞必錄	skyw
@@ -31202,7 +31202,7 @@
 風景名勝	rjrw
 風生水起	rwkd
 幾何級數	vebl
-必有後福	ysru
+必有後福	ysrh
 飛蛾赴火	bkdu
 以手加額	xtxo
 性命攸關	yyek
@@ -31232,7 +31232,7 @@
 拿腔拿調	ywyu
 信賞必罰	enym
 首尾相應	ubfu
-神不知鬼不覺	udqr
+神不知鬼不覺	hdqr
 臨時抱佛腳	sjaw
 事實勝於雄辯	aowo
 抱成一團	adfn
@@ -31240,7 +31240,7 @@
 英雄所見略同	ssik
 兵敗如山倒	emce
 打開天窗説亮話	akfu
-怪力亂神	yxeu
+怪力亂神	yxeh
 車到山前必有路	ghjn
 輕如鴻毛	gcir
 名師出高徒	ryxr
@@ -31285,10 +31285,10 @@
 森羅萬象	fmsy
 機緣巧合	fbfy
 自導自演	tuti
-閉目養神	kmuu
+閉目養神	kmuh
 普渡衆生	uiqw
 美味佳餚	uley
-慈禧太後	uugr
+慈禧太後	uhgr
 美夢成真	usdd
 如風過耳	crna
 作鳥獸散	erls
@@ -31375,7 +31375,7 @@
 潑婦駡街	iclr
 無官一身輕	qofg
 挾天子以令諸侯	afve
-黯然傷神	nweu
+黯然傷神	nweh
 顧盼自雄	imts
 安邦治國	odin
 窮形盡相	pfxf
@@ -31391,7 +31391,7 @@
 田納西州	jbdi
 内蒙古自治區	ksdg
 懶懶散散	yyss
-視如草芥	ucss
+視如草芥	hcss
 烏蘭浩特	ysiw
 技壓群雄	asxs
 揮霍一空	adfp
@@ -31401,7 +31401,7 @@
 得失參半	rqvu
 閃閃爍爍	kkuu
 閉門謝客	kkuo
-傲視群雄	euxs
+傲視群雄	ehxs
 低頭不語	efdu
 綠野仙蹤	bken
 文責自負	phty
@@ -31602,7 +31602,7 @@
 漫天飛舞	ifbq
 里約熱内盧	kbhm
 喫香喝辣	lrlo
-加利福尼亞	xruf
+加利福尼亞	xrhf
 歲末年初	nhqp
 羽翼未豐	xxhj
 屏氣斂息	bqrt
@@ -31762,7 +31762,7 @@
 槪而言之	fsup
 懶懶洋洋	yyii
 通用規範漢字表	btgh
-社會性死亡	utyu
+社會性死亡	htyu
 古籍印刷通用字規範字形表	dqth
 無能為力	qvox
 眾所周知	miwq
@@ -31809,7 +31809,7 @@
 乘虛而入	rmsr
 拋頭露面	afdg
 化險為夷	ecog
-神出鬼沒	uxwi
+神出鬼沒	hxwi
 噓寒問暖	lokj
 披荊斬棘	asgf
 眾矢之的	mqpe
@@ -32130,7 +32130,7 @@
 蔚為大觀	sogs
 說東道西	ufud
 丟人現眼	gtgm
-禮義廉恥	uuua
+禮義廉恥	huua
 不足為據	dnoa
 出沒無常	xiqn
 無恥之徒	qapr
@@ -32318,7 +32318,7 @@
 象牙海岸	yhij
 沙烏地阿拉伯	iyhe
 快閃記憶體	ykum
-視訊記憶體	uuum
+視訊記憶體	huum
 控制元件	awfe
 開啟天窗說亮話	kifu
 記憶體條	uyme
@@ -32377,7 +32377,7 @@
 近水樓台先得月	ekfw
 互為表裏	soho
 技壓羣雄	asxs
-傲視羣雄	euxs
+傲視羣雄	ehxs
 技壓羣芳	asxs
 孤傲不羣	vedx
 好戲連台	cmgv
@@ -32385,14 +32385,14 @@
 馬紹爾羣島	dbfr
 衆說紛紜	qubb
 癡人說夢	ptus
-祕而不宣	usdo
+祕而不宣	hsdo
 脫繮之馬	wbpd
 清產覈資	ipds
 引以爲恥	vxea
 耳聽爲虛	aaem
 搖脣鼓舌	ashr
 市場經濟	ohbi
-社會科學	utrr
+社會科學	htrr
 高等學校	oqrf
 報告文學	hwpr
 無期徒刑	qdrf
@@ -32415,7 +32415,7 @@
 仁義道德	euur
 肥頭大耳	wfga
 拉幫結派	ahbi
-側目而視	emsu
+側目而視	emsh
 心懷叵測	yygi
 揠苗助長	asmh
 自賣自誇	thtu
@@ -32436,7 +32436,7 @@
 呼倫貝爾	lemf
 對外開放	nrko
 對外貿易	nrtj
-封建社會	hxut
+封建社會	hxht
 激動人心	iqty
 量子力學	jvxr
 抗日戰爭	ajle
@@ -32446,7 +32446,7 @@
 自然災害	twvo
 生產關係	wpke
 迄今為止	qton
-社會制度	utwu
+社會制度	htwu
 經濟基礎	bidd
 紅十字會	bdot
 集成電路	wddn
@@ -32518,7 +32518,7 @@
 生死與共	wdrs
 作壁上觀	ebks
 汙言穢語	iuru
-禮賢下士	usah
+禮賢下士	hsah
 鵝毛大雪	qrgd
 望其項背	udfu
 謙謙君子	uuxv
@@ -32532,7 +32532,7 @@
 苦中作樂	slee
 本來面目	fdgm
 感激不盡	didx
-心神不寧	yudo
+心神不寧	yhdo
 齊心合力	oyyx
 鮮豔奪目	tjgm
 何樂不為	eedo
@@ -32572,7 +32572,7 @@
 咬緊牙關	lshk
 奪眶而出	gmsx
 萬般無奈	sqqg
-閉路電視	kndu
+閉路電視	kndh
 百廢待興	durr
 頂頭上司	afkv
 多管閒事	rqka
@@ -32644,12 +32644,12 @@
 鄉鎮企業	vwtn
 商品經濟	olbi
 公共汽車	tsig
-社會關係	utke
+社會關係	htke
 知識青年	quhq
 生態平衡	wvhr
 初具規模	pmgf
 實用主義	otou
-奴隸社會	cfut
+奴隸社會	cfht
 核反應堆	feuh
 安全係數	otel
 循環系統	rgqb
@@ -32700,13 +32700,13 @@
 農貿市場	ktoh
 種族主義	roou
 一聲不響	fhdv
-種族歧視	ronu
-原始社會	scut
-中樞神經	lfub
+種族歧視	ronh
+原始社會	scht
+中樞神經	lfhb
 總的說來	beud
 發家致富	boho
 精疲力盡	ppxx
-神經過敏	ubnq
+神經過敏	hbnq
 笑容滿面	qpig
 初來乍到	pdqh
 二話不說	sudu
@@ -32751,7 +32751,7 @@
 扭轉乾坤	agdh
 孟加拉國	vxan
 塵埃落定	ihso
-神經系統	ubqb
+神經系統	hbqb
 久經考驗	ybhd
 反過來說	endu
 航天飛機	qfbf
@@ -32830,7 +32830,7 @@
 綜合國力	bynx
 運載火箭	yduq
 時至今日	jhtj
-社會活動	utiq
+社會活動	htiq
 不敗之地	dmph
 惡性腫瘤	fywp
 自動控制	tqaw
@@ -32844,7 +32844,7 @@
 依依惜別	eeyl
 風雲突變	rdpu
 合二為一	ysof
-神經錯亂	ubwe
+神經錯亂	hbwe
 千恩萬謝	wnsu
 膘肥體壯	wwmx
 歡聲雷動	shdq
@@ -32877,7 +32877,7 @@
 巫山雲雨	fjdd
 瓦釜雷鳴	atdl
 有進無退	swqv
-求神問卜	fukm
+求神問卜	fhkm
 孤兒寡婦	vroc
 鬱鬱不樂	ffde
 蒙娜麗莎	scfs
@@ -33001,11 +33001,11 @@
 新聞聯播	ikaa
 優生優育	eweo
 體育運動	moyq
-文明禮貌	pjuy
+文明禮貌	pjhy
 廣播體操	uama
 電子商務	dvoc
 群眾路線	xmnb
-有線電視	sbdu
+有線電視	sbdh
 北京時間	uojk
 化學武器	erfl
 出租汽車	xrig
@@ -33073,7 +33073,7 @@
 又驚又喜	bsbh
 不無道理	dqug
 不足之處	dnpm
-不容忽視	dpwu
+不容忽視	dpwh
 未嘗不可	hnda
 無意之中	qipl
 四處奔波	nmgi
@@ -33129,17 +33129,17 @@
 獨立王國	rign
 風雨如磐	rdcq
 倒果為因	ejon
-開山祖師	kjuy
+開山祖師	kjhy
 別無長物	lqhw
 曉行夜宿	jroo
-不可忽視	dawu
+不可忽視	dawh
 摸不著頭腦	adsw
 一針一線	fwfb
 諄諄教導	uuhu
 為國為民	onoc
 寥寥可數	ooal
 男女有別	jcsl
-功名利祿	frru
+功名利祿	frrh
 國難當頭	nsnf
 自甘墮落	tscs
 滿腹牢騷	iwod
@@ -33169,7 +33169,7 @@
 不經一事	dbfa
 心癢難撓	ypsa
 閒花野草	ksks
-靖國神社	inuu
+靖國神社	inhh
 從古到今	rdht
 一聲不吭	fhdl
 淅淅瀝瀝	iiii
@@ -33182,13 +33182,13 @@
 無機化學	qfer
 副總經理	fbbg
 匯豐銀行	gjwr
-社會公德	uttr
+社會公德	httr
 移動硬盤	rqdq
 等價交換	qeoa
 程序設計	ruuu
 好久不見	cydm
 合資企業	ystn
-社會效益	utou
+社會效益	htou
 偵探小說	eamu
 所到之處	ihpm
 宏觀經濟	osbi
@@ -33209,7 +33209,7 @@
 君子協定	xvdo
 靜脈曲張	hwkv
 得而復失	rsrq
-社會工作	utfe
+社會工作	htfe
 和氣生財	rqwm
 筆墨官司	qnov
 餘勇可賈	ybad
@@ -33224,7 +33224,7 @@
 說來說去	uduh
 嫌貧愛富	cteo
 成雙成對	dwdn
-認祖歸宗	uuyo
+認祖歸宗	uhyo
 情意綿綿	yibb
 完好無缺	ocqw
 滿面紅光	igbm
@@ -33249,7 +33249,7 @@
 開開心心	kkyy
 五色繽紛	fybb
 環氧樹脂	gqfw
-轉禍為福	guou
+轉禍為福	ghoh
 心回意轉	ynig
 心慈面軟	yugg
 心餘力絀	yyxb
@@ -33432,7 +33432,7 @@
 柔腸百結	cwdb
 巴伐利亞	cerf
 在我看來	sqtd
-福慧雙修	udwe
+福慧雙修	hdwe
 窮而後工	psrf
 盤尼西林	qbdf
 問心有愧	kysy
@@ -33468,7 +33468,7 @@
 唯心史觀	lyls
 人海戰術	tilr
 仰臥起坐	esdt
-坐骨神經	tmub
+坐骨神經	tmhb
 俄羅斯族	emdo
 清水衙門	ikrk
 軟硬不吃	gddl
@@ -33521,7 +33521,7 @@
 國富兵強	noev
 情文並茂	ypus
 安東尼奧	ofbr
-福壽無疆	uhqv
+福壽無疆	hhqv
 安富尊榮	oouu
 擇主而事	aosa
 召之即來	bpxd
@@ -33602,7 +33602,7 @@
 劈風斬浪	brgi
 花花太歲	ssgn
 藏器待時	slrj
-榮宗耀祖	uomu
+榮宗耀祖	uomh
 春風一度	grfu
 尤文圖斯	dpnd
 喪家之狗	dopr
@@ -33672,10 +33672,10 @@
 師出有名	yxsr
 口不擇言	ldau
 上樑不正下樑歪	kfdd
-神龍見首不見尾	uimb
+神龍見首不見尾	himb
 寶刀未老	obhh
 聞風而至	krsh
-傲慢無禮	eyqu
+傲慢無禮	eyqh
 鷹擊長空	ughp
 識時務者為俊傑	ujce
 獨木不成林	rfdf
@@ -33804,8 +33804,8 @@
 幾天幾夜	vfvo
 密雲不雨	oddd
 竊鉤者誅	pwhu
-神秘莫測	ursi
-招災惹禍	avsu
+神秘莫測	hrsi
+招災惹禍	avsh
 格林納達	ffbh
 辭不達意	edhi
 篡位奪權	qegf
@@ -33963,7 +33963,7 @@
 哄抬物價	lawe
 四川大學	nqgr
 山東大學	jfgr
-神鵰俠侶	uwee
+神鵰俠侶	hwee
 寬衣解帶	ooys
 執子之手	hvpt
 西方國家	dono
@@ -33996,7 +33996,7 @@
 一差二錯	fusw
 不分青紅皂白	dthe
 渾然不覺	iwdr
-人有旦夕禍福	tsju
+人有旦夕禍福	tsjh
 國仇家恨	neoy
 勤學好問	grck
 水至清則無魚	khit
@@ -34055,7 +34055,7 @@
 暨南大學	xdgr
 好事成雙	cadw
 從頭再來	rfgd
-紅顏禍水	bpuk
+紅顏禍水	bphk
 應用技術	utar
 鄧小平理論	bmhu
 辯證唯物主義	oulu
@@ -34217,7 +34217,7 @@
 招商銀行	aowr
 萊布尼茨	ssbs
 翹首以盼	huxm
-非禮勿視	luwu
+非禮勿視	lhwh
 志存高遠	hsoh
 無可替代	qage
 與子偕老	rveh
@@ -34251,7 +34251,7 @@
 清官難斷家務事	iosa
 安危與共	oyrs
 鯉魚跳龍門	ttnk
-禮輕情意重	ugyq
+禮輕情意重	hgyq
 密鑼緊鼓	owsh
 鑽木取火	wfau
 定國安邦	onod
@@ -34372,7 +34372,7 @@
 先憂後樂	wdre
 吹糠見米	lpmp
 舉止大方	rngo
-五福臨門	fusk
+五福臨門	fhsk
 水可載舟	kadq
 看菜吃飯	tsly
 春滿人間	gitk
@@ -34456,7 +34456,7 @@
 長生不死	hwdd
 勇者不懼	bhdy
 風行草偃	rrse
-視民如傷	ucce
+視民如傷	hcce
 目無尊長	mquh
 引以為憾	vxoy
 聊備一格	aeff
@@ -34484,7 +34484,7 @@
 蛟龍得水	kirk
 日清月結	jiwb
 順之者昌	qphj
-呵佛罵祖	lemu
+呵佛罵祖	lemh
 輕裘肥馬	gfwd
 羅敷有夫	mfsg
 國色天姿	nyfs
@@ -34492,7 +34492,7 @@
 風鬟霧鬢	rhdh
 網開三面	bkfg
 山高路險	jonc
-心蕩神迷	ysup
+心蕩神迷	yshp
 賓夕法尼亞	orif
 金甌無缺	wgqw
 鑠石流金	wdiw
@@ -34605,7 +34605,7 @@
 寬猛相濟	orfi
 完美無疵	ouqp
 負屈含冤	ybty
-錢可通神	wabu
+錢可通神	wabh
 狗孃養的	rcue
 擬於不倫	aode
 手揮目送	tamu
@@ -34755,7 +34755,7 @@
 見者有份	mhse
 以史為鑑	xlow
 竊國者侯	pnhe
-神經兮兮	ubtt
+神經兮兮	hbtt
 姦夫淫婦	cgic
 絕代雙驕	bewd
 田徑運動	jryq
@@ -34780,7 +34780,7 @@
 放火燒山	ouuj
 有來無回	sdqn
 一抔黃土	fash
-壽山福海	hjui
+壽山福海	hjhi
 沉鬱頓挫	ifaa
 蝨多不癢	vrdp
 對症之藥	npps
@@ -34817,7 +34817,7 @@
 粗心浮氣	pyiq
 斷梗飄蓬	vfds
 窮原竟委	psir
-禮壞樂崩	uhej
+禮壞樂崩	hhej
 官卑職小	owam
 穿街過巷	prns
 金石絲竹	wdbq
@@ -34905,7 +34905,7 @@
 彩鳳隨鴉	eqch
 貌合心離	yyyp
 聲若洪鐘	hsiw
-赤縣神州	hmui
+赤縣神州	hmhi
 無罪推定	qmao
 頑梗不化	ffde
 一了百當	fvdn
@@ -34919,10 +34919,10 @@
 浪跡萍蹤	insn
 躡足潛蹤	nnin
 路柳牆花	nfxs
-飛災橫禍	bvfu
+飛災橫禍	bvfh
 以蠡測海	xbii
 斷髮文身	vhpw
-禍福無常	uuqn
+禍福無常	hhqn
 急不暇擇	ydja
 銅頭鐵額	wfwo
 兒女成行	rcdr
@@ -34932,10 +34932,10 @@
 積草屯糧	rsap
 矯若驚龍	qssi
 臭不可當	tdan
-造福於民	wuoc
+造福於民	whoc
 乞漿得酒	qxri
 逆取順守	uaqo
-意亂神迷	ieup
+意亂神迷	iehp
 資產負債表	spyh
 倒鳳顛鸞	eqdu
 比學趕幫	rrdh
@@ -34971,7 +34971,7 @@
 雄偉壯觀	sexs
 書香世家	xrho
 此一時彼一時	nfjj
-驚天地泣鬼神	sfhu
+驚天地泣鬼神	sfhh
 大水衝了龍王廟	gkru
 王顧左右而言他	gise
 擊楫中流	gfli
@@ -35004,8 +35004,8 @@
 中直機關	ldfk
 呈堂證供	lnue
 連天烽火	gfuu
-內視反聽	kuea
-心蕩神馳	ysud
+內視反聽	khea
+心蕩神馳	yshd
 情不可卻	ydat
 驚鴻一現	sifg
 驚蛇入草	skrs
@@ -35016,14 +35016,14 @@
 心織筆耕	ybqd
 數黑論黃	lnus
 斷鶴續鳧	vybr
-視若路人	usnt
-神聖不可侵犯	uadr
-禍在旦夕	usjr
+視若路人	hsnt
+神聖不可侵犯	hadr
+禍在旦夕	hsjr
 窮當益堅	pnus
 寶中之寶	olpo
 鶴鳴九皋	ylye
-神頭鬼面	ufwg
-神道設教	uuuh
+神頭鬼面	hfwg
+神道設教	huuh
 急來抱佛腳	ydaw
 金印紫綬	wtnb
 鑽頭覓縫	wfeb
@@ -35053,7 +35053,7 @@
 轉了一圈	gvfn
 敢做敢當	vevn
 好了瘡疤忘了痛	cvpp
-東方神起	foud
+東方神起	fohd
 阿拉巴馬	cacd
 馬薩諸塞	dsuo
 克孜勒蘇	dvgs
@@ -35149,7 +35149,7 @@
 踏雪無痕	ndqp
 中國工程院	lnfc
 中國建設銀行	lnxr
-精神文明建設	pupu
+精神文明建設	phpu
 康熙來了	ugdv
 齊齊哈爾市	oolo
 季風氣候	rrqe
@@ -35201,7 +35201,7 @@
 見可而進	masw
 異口同音	jlki
 精雕細鏤	pwbw
-禍不旋踵	udon
+禍不旋踵	hdon
 寡見少聞	ommk
 家敗人亡	omtu
 室邇人遠	ofth
@@ -35220,7 +35220,7 @@
 就湯下麵	oiad
 蠻煙瘴雨	uupd
 世俗之見	hepm
-視財如命	umcy
+視財如命	hmcy
 皇天不負有心人	efdt
 長眠不起	hmdd
 低頭不見抬頭見	efdm
@@ -35233,7 +35233,7 @@
 風雨同路	rdkn
 兒女私情	rcry
 氣勢恢宏	qhyo
-西祠衚衕	durr
+西祠衚衕	dhrr
 生無可戀	wqau
 生死離別	wdpl
 促膝長談	ewhu
@@ -35273,7 +35273,7 @@
 因難見巧	nsmf
 困而學之	nsrp
 數往知來	lrqd
-神號鬼哭	ulwl
+神號鬼哭	hlwl
 久懸不決	ymdi
 兜頭蓋臉	efsw
 抵掌而談	ansu
@@ -35317,7 +35317,7 @@
 駱驛不絕	dddb
 有職有權	sasf
 走鄉串戶	dvli
-一瞑不視	fmdu
+一瞑不視	fmdh
 來犯之敵	drpo
 虛盈實虧	mvom
 瞬間即逝	mkxa
@@ -35380,7 +35380,7 @@
 由博返約	kdeb
 情見勢屈	ymhb
 軍中無戲言	ylqu
-禍結兵連	ubeg
+禍結兵連	hbeg
 獨異於人	rjot
 久慣牢成	yyod
 看人臉色	ttwy
@@ -35498,7 +35498,7 @@
 時運亨通	jyob
 明人不說暗話	jtdu
 醜媳婦總得見公婆	gcci
-視民如子	uccv
+視民如子	hccv
 冤家宜解不宜結	yoob
 急驚風撞著慢郎中	ysrl
 杏雨梨雲	fdrd
@@ -35532,13 +35532,13 @@
 嘴尖舌頭快	lmry
 狼號鬼哭	rlwl
 羨慕嫉妒恨	uscy
-欺師滅祖	dyiu
+欺師滅祖	dyih
 煙花易冷	usjs
 熱情似火	hyeu
 楊門女將	fkcx
 行者無疆	rhqv
 俄克拉荷馬	edad
-閤家幸福	kohu
+閤家幸福	kohh
 機關刊物	fkhw
 築巢引鳳	qvvq
 多吃多佔	rlre
@@ -35606,7 +35606,7 @@
 毛髮聳然	rhrw
 雨露均霑	ddhd
 朝裡無人莫做官	dpqo
-虎視耽耽	muaa
+虎視耽耽	mhaa
 淫辭穢語	ieru
 臨危不撓	syda
 吃著碗裡瞧著鍋裡	lsdp
@@ -35628,8 +35628,8 @@
 人無遠慮必有近憂	tqhd
 盡信書不如無書	xexx
 河海不擇細流	iidi
-進祿加官	wuxo
-淆亂視聽	ieua
+進祿加官	whxo
+淆亂視聽	ieha
 跌蕩不羈	nsdm
 跳進黃河洗不清	nwsi
 書中自有顏如玉	xltg
@@ -35663,7 +35663,7 @@
 內布拉斯加	ksax
 炊沙成飯	uidy
 新罕布什爾	iysf
-大難不死必有後福	gsdu
+大難不死必有後福	gsdh
 二人同心其利斷金	stkw
 來者不善善者不來	dhdd
 以其人之道還治其人之身	xdtw
@@ -35715,7 +35715,7 @@
 捉賊見贓	ammm
 有志於此	shon
 呼之即來揮之即去	lpxh
-塞翁失馬焉知非福	otqu
+塞翁失馬焉知非福	otqh
 人為財死鳥為食亡	tomu
 天網恢恢疏而不漏	fbyi
 不求有功但求無過	dfsn
@@ -35788,7 +35788,7 @@
 善有善報惡有惡報	usuh
 差以毫釐失之千里	uxok
 既有今日何必當初	xstp
-視而不見聽而不聞	usdk
+視而不見聽而不聞	hsdk
 志當存高遠	hnsh
 苦海無邊回頭是岸	siqj
 十目所視十手所指	dmia
@@ -35809,7 +35809,7 @@
 明察秋毫不見輿薪	jors
 路遙知馬力日久見人心	nwqy
 同聲相應同氣相求	khff
-禍兮福所倚福兮禍所伏	utue
+禍兮福所倚福兮禍所伏	hthe
 留得青山在不怕沒柴燒	trhu
 讀書百遍其義自見	uxdm
 再接再礪	gagd
@@ -35819,7 +35819,7 @@
 耳聞是虛眼觀為實	akjo
 三日打魚兩日曬網	fjab
 海內存知己天涯若比鄰	iksp
-福不重至禍必重來	udqd
+福不重至禍必重來	hdqd
 看菜吃飯量體裁衣	tslo
 單則易折眾則難摧	lmja
 養兒防老積穀防飢	urcy
@@ -35845,7 +35845,7 @@
 捨得一身剮敢把皇帝拉下馬	arfd
 高鳥盡良弓藏	orxs
 重巒迭嶂	quqj
-天有不測風雲人有旦夕禍福	fsdu
+天有不測風雲人有旦夕禍福	fsdh
 一朝被蛇咬十年怕井繩	fdpb
 平時不燒香急來抱佛腳	hjdw
 積財千萬不如薄技在身	rmww
@@ -35871,7 +35871,7 @@
 寧可玉碎不為瓦全	oagt
 東北師範大學	fuyr
 南京師範大學	doyr
-中國社會科學院	lnuc
+中國社會科學院	lnhc
 中國科學院	lnrc
 中國科技大學	lnrr
 中國人民大學	lntr
@@ -36093,7 +36093,7 @@
 爲時尚早	ejnj
 倒果爲因	ejen
 爲國爲民	enec
-轉禍爲福	gueu
+轉禍爲福	gheh
 衆目昭彰	qmji
 變廢爲寶	uueo
 羣衆組織	xqbb
@@ -36116,8 +36116,8 @@
 驢脣不對馬嘴	dsdl
 牆倒衆人推	xeqa
 齒白脣紅	mesb
-神祕莫測	uusi
-副祕書長	fuxh
+神祕莫測	hhsi
+副祕書長	fhxh
 廣大羣衆	ugxq
 爲人民服務	etcc
 佔山爲王	ejeg
@@ -36161,7 +36161,7 @@
 難乎爲繼	sqeb
 爲虎傅翼	emex
 喫糧不管事	lpda
-詭祕莫測	uusi
+詭祕莫測	uhsi
 喫現成飯	lgdy
 陪喫陪喝	clcl
 見棱見角	mfmy
@@ -36366,9 +36366,9 @@
 丹書鐵券	wxwu
 千里送鵝毛	wkur
 落草為寇	ssoo
-過路財神	nnmu
+過路財神	nnmh
 興致索然	rhdw
-氣定神閒	qouk
+氣定神閒	qohk
 氣焰囂張	qulv
 蓋棺定論	sfou
 極目遠眺	fmhm
@@ -36449,7 +36449,7 @@
 分進合擊	twyg
 變幻無窮	uvqp
 悄然無聲	ywqh
-視為畏途	uojt
+視為畏途	hojt
 門禁森嚴	kffl
 魚肉百姓	tkdc
 近鄉情怯	evyy
@@ -36507,7 +36507,7 @@
 鉅細無遺	wbql
 赤身露體	hwdm
 借坡下驢	ehad
-彌天大禍	vfgu
+彌天大禍	vfgh
 少不經事	mdba
 無始無終	qcqb
 無人之地	qtph
@@ -36547,7 +36547,7 @@
 卑鄙齷齪	wlmm
 富貴不淫	oldi
 銘記不忘	wudu
-報效祖國	houn
+報效祖國	hohn
 燙手山芋	itjs
 錯上加錯	wkxw
 旖旎風光	oorm
@@ -36566,7 +36566,7 @@
 鮑魚之肆	ttph
 引車賣漿	vghx
 源源而來	iisd
-禍福相依	uufe
+禍福相依	hhfe
 春生夏長	gwdh
 駑馬十駕	cddx
 醜態畢露	gvjd
@@ -36617,7 +36617,7 @@
 兩虎相爭	fmfe
 不生不滅	dwdi
 東搖西擺	fada
-十目所視	dmiu
+十目所視	dmih
 憂讒畏譏	duju
 滿坑滿谷	ihit
 挫骨揚灰	amas
@@ -36633,7 +36633,7 @@
 饒有興味	ysrl
 壯心不已	xydb
 慷慨就義	yyou
-精神錯亂	puwe
+精神錯亂	phwe
 踟躕不前	nndu
 譽滿天下	rifa
 路有凍死骨	nssm
@@ -36657,7 +36657,7 @@
 狗咬呂洞賓	rllo
 南征北討	druu
 後生小子	rwmv
-精神矍鑠	pumw
+精神矍鑠	phmw
 滿口答應	ilqu
 亡國滅種	unir
 公說公有理	tutg
@@ -36681,13 +36681,13 @@
 話不投機半句多	udar
 魚肉鄉里	tkvk
 前不見古人	udmt
-福兮禍所伏	utue
+福兮禍所伏	hthe
 旁枝末節	ofhq
 三拳兩腳	fufw
 馳名天下	drfa
 自出機杼	txff
 君子固窮	xvnp
-視為知己	uoqb
+視為知己	hoqb
 風吹雲散	rlds
 仇人相見	etfm
 小時了了	mjvv
@@ -36738,7 +36738,7 @@
 一語不發	fudb
 不到長城非好漢	dhhi
 取信於人	aeot
-禮崩樂壞	ujeh
+禮崩樂壞	hjeh
 壁壘分明	bjtj
 天下歸心	fayy
 蠅頭小楷	kfmf
@@ -36795,7 +36795,7 @@
 暮色蒼茫	syss
 事緩則圓	abmn
 撒潑打滾	aiai
-禍兮福所倚	utue
+禍兮福所倚	hthe
 當面鑼對面鼓	ngwh
 瞎子摸魚	mvat
 相機而動	ffsq
@@ -36835,13 +36835,13 @@
 心驚膽寒	yswo
 橫眉冷對千夫指	fbsa
 花無百日紅	sqdb
-下筆如有神	aqcu
+下筆如有神	aqch
 驚喜交加	shox
 同是天涯淪落人	kjft
 不知為不知	dqoq
 率土之濱	ohpi
 樸素無華	fhqs
-福壽康寧	uhuo
+福壽康寧	hhuo
 酣然入夢	gwrs
 改弦易張	bvjv
 樓臺亭閣	fhok
@@ -36939,7 +36939,7 @@
 書香人家	xrto
 魚貫而行	tbsr
 傳為笑談	eoqu
-吉凶禍福	hwuu
+吉凶禍福	hwhh
 海不揚波	idai
 極目遠望	fmhu
 財不露白	mdde
@@ -36990,7 +36990,7 @@
 躍馬揚鞭	ndag
 行有餘力	rsyx
 海闊天高	ikfo
-視如珍寶	ucgo
+視如珍寶	hcgo
 敬老尊賢	shus
 世態人情	hvty
 堂皇富麗	neof
@@ -37011,7 +37011,7 @@
 礎潤而雨	disd
 吳頭楚尾	lffb
 青燈古佛	hude
-目不忍視	mdbu
+目不忍視	mdbh
 權傾天下	fefa
 開合自如	kytc
 官官相衛	oofr
@@ -37048,7 +37048,7 @@
 包羅萬有	wmss
 開物成務	kwdc
 令人齒冷	ttms
-福壽雙全	uhwt
+福壽雙全	hhwt
 行而不遠	rsdh
 束手無措	ftqa
 正心誠意	fyui
@@ -37118,7 +37118,7 @@
 冤有頭債有主	ysfo
 猖獗一時	rrfj
 齊齊整整	ooff
-兒孫自有兒孫福	rvtu
+兒孫自有兒孫福	rvth
 一朝權在手	fdft
 割據一方	oafo
 不矜細行	dcbr
@@ -37141,7 +37141,7 @@
 多言多語	ruru
 呵欠連天	legf
 氣喘如牛	qlcw
-和氣致祥	rqhu
+和氣致祥	rqhh
 千秋萬世	wrsh
 月圓花好	wnsc
 鐵馬金戈	wdwg
@@ -37306,7 +37306,7 @@
 靜若處子	hsmv
 處處聞啼鳥	mmkr
 人生得意須盡歡	twrs
-視為兒戲	uorm
+視為兒戲	horm
 遊必有方	oyso
 桃花依舊笑春風	fser
 月朗風清	wori
@@ -37333,9 +37333,9 @@
 生當作人傑	wnee
 好騎者墮	cdhc
 桑間濮上	bkik
-敬鬼神而遠之	swup
+敬鬼神而遠之	swhp
 關山阻隔	kjcc
-神完氣足	uoqn
+神完氣足	hoqn
 窮愁潦倒	prie
 褒衣博帶	oods
 錚錚有聲	wwsh
@@ -37370,7 +37370,7 @@
 為五斗米折腰	ofsw
 薑是老的辣	sjho
 以身試險	xwuc
-詩禮傳家	uueo
+詩禮傳家	uheo
 涕淚交加	iiox
 倏忽之間	ewpk
 殺父之仇	wtpe
@@ -37387,7 +37387,7 @@
 百無一用是書生	dqfw
 半飢半飽	uyuy
 以勤補拙	xgpa
-神閒氣定	ukqo
+神閒氣定	hkqo
 萬應靈藥	suds
 山鳴谷應	jltu
 國而忘家	nsuo
@@ -37482,7 +37482,7 @@
 爭前恐後	eufr
 人有悲歡離合	tsly
 無容身之地	qpwh
-富而好禮	oscu
+富而好禮	osch
 得來全不費功夫	rdtg
 同心共濟	kysi
 在地願為連理枝	shsf
@@ -37508,7 +37508,7 @@
 業精於勤荒於嬉	npoc
 寧為玉碎不為瓦全	oogt
 扇枕溫衾	ifit
-王祥臥冰	guss
+王祥臥冰	ghss
 殿堂樓閣	bnfk
 囂張一時	lvfj
 慎始敬終	ycsb
@@ -37596,7 +37596,7 @@
 學然後知不足	rwrn
 連戰皆捷	glra
 芳草萋萋鸚鵡洲	sssi
-迎神賽會	tuot
+迎神賽會	thot
 高頭講章	ofui
 恰似一江春水向東流	yefi
 談天論地	ufuh
@@ -37643,7 +37643,7 @@
 莫待無花空折枝	srqf
 江漢朝宗	iido
 興國安邦	rnod
-有福同享有難同當	sukn
+有福同享有難同當	shkn
 仇人相見分外眼紅	etfb
 追風逐日	yrdj
 言有盡而意無窮	usxp
@@ -37678,7 +37678,7 @@
 紅豆生南國	bfwn
 春城無處不飛花	ghqs
 千金不換	wwda
-視死如生	udcw
+視死如生	hdcw
 所答非所問	iqlk
 一蹴可幾	fnav
 好學深思	crij
@@ -37809,8 +37809,8 @@
 倉廩實而知禮節	tuoq
 恰同學少年	ykrq
 三男兩女	fjfc
-富貴吉祥	olhu
-福祿壽喜	uuhh
+富貴吉祥	olhh
+福祿壽喜	hhhh
 大有所為	gsio
 初試啼聲	pulh
 煙花三月下揚州	usfi
@@ -37825,7 +37825,7 @@
 世事洞明皆學問	haik
 一口吃個胖子	fllv
 小人喻於利	mtlr
-禍兮福之所倚	utue
+禍兮福之所倚	hthe
 無邊落木蕭蕭下	qtsa
 門泊東吳萬里船	kifq
 悽悽慘慘慼戚	yyyd
@@ -37860,7 +37860,7 @@
 勸君莫惜金縷衣	sxso
 兩處茫茫皆不見	fmsm
 人生在世不稱意	twsi
-詩成泣鬼神	udiu
+詩成泣鬼神	udih
 春潮帶雨晚來急	gisy
 一弦一柱思華年	fvfq
 從此君王不早朝	rnxd
@@ -37897,7 +37897,7 @@
 行到水窮處	rhkm
 明月松間照	jwfj
 齊魯青未了	othv
-福兮禍之所伏	utue
+福兮禍之所伏	hthe
 早有蜻蜓立上頭	jskf
 昔人已乘黃鶴去	stbh
 不盡長江滾滾來	dxhd
@@ -38094,7 +38094,7 @@
 朱雀橋邊野草花	wmfs
 不肯過江東	dnnf
 天階夜色涼如水	fcok
-禪房花木深	uisi
+禪房花木深	hisi
 野渡無人舟自橫	kiqf
 何當共剪西窗燭	ensu
 空山不見人	pjdt
@@ -38143,7 +38143,7 @@
 鐵肩擔道義	wiau
 安得廣廈千萬間	oruk
 畢竟東流去	jifh
-不問蒼生問鬼神	dksu
+不問蒼生問鬼神	dksh
 為賦新詞強說愁	omir
 國以民為本	nxcf
 無限風光在險峰	qcrj
@@ -38242,7 +38242,7 @@
 城闕輔三秦	hkgg
 兩朝開濟老臣心	fdky
 美人卷珠簾	utuq
-丞相祠堂何處尋	vfux
+丞相祠堂何處尋	vfhx
 王孫自可留	gvtt
 斗酒十千恣歡謔	sidu
 晝出耘田夜績麻	xxdp
@@ -38413,7 +38413,7 @@
 從容自在	rpts
 毫無所知	oqiq
 明月何時照我還	jwem
-視死忽如歸	udwy
+視死忽如歸	hdwy
 如椽之筆	cfpq
 挈婦將雛	dcxw
 試玉要燒三日滿	ugdi
@@ -38473,7 +38473,7 @@
 酒酣胸膽尚開張	igwv
 四海無閒田	niqj
 眾鳥高飛盡	mrox
-丹青難寫是精神	whsu
+丹青難寫是精神	whsh
 綠楊煙外曉寒輕	bfug
 天接雲濤連曉霧	fadd
 無邊絲雨細如愁	qtbr
@@ -39073,7 +39073,7 @@
 絃斷有誰聽	bvsa
 但悲不見九州同	eldk
 京口瓜洲一水間	olqk
-遊褒禪山記	oouu
+遊褒禪山記	oohu
 不知轉入此中來	dqgd
 只因未到傷心處	lnhm
 不慼慼於貧賤	dddm
@@ -39176,7 +39176,7 @@
 故國三千里	dnfk
 潘岳悼亡猶費詞	ieyu
 銀河倒掛三石樑	wief
-一片神鴉社鼓	ftuh
+一片神鴉社鼓	fthh
 顧我無衣搜藎篋	iqqq
 天上人間會相見	fktm
 莫辭更坐彈一曲	sefk
@@ -39235,7 +39235,7 @@
 成如容易卻艱辛	dcpo
 男大當婚女大當嫁	jgnc
 此心安處是吾鄉	nyov
-爾俸爾祿	fefu
+爾俸爾祿	fefh
 壯士一去兮不復還	xhfm
 為人謀而不忠乎	otuq
 不廢江河萬古流	duii
@@ -39538,7 +39538,7 @@
 不見去年人	dmht
 只識彎弓射大雕	luuw
 而智勇多困於所溺	sqbi
-大禮不辭小讓	gudu
+大禮不辭小讓	ghdu
 天意憐幽草	fiys
 辨材須待七年期	oftd
 不與秦塞通人煙	drgu
@@ -39743,7 +39743,7 @@
 日晏猶得眠	jjrm
 本以高難飽	fxoy
 言而無文行之不遠	usqh
-簫鼓哀吟感鬼神	qhou
+簫鼓哀吟感鬼神	qhoh
 紅顏棄軒冕	bpok
 歸來彷彿三更	ydrf
 聞郎江上唱歌聲	koih
@@ -39773,7 +39773,7 @@
 平蕪盡處是春山	hsxj
 知他故宮何處	qedm
 白雲一片去悠悠	edfe
-神歡體自輕	usmg
+神歡體自輕	hsmg
 何日平胡虜	ejhm
 鸞刀縷切空紛綸	ubbb
 閒花淡淡春	ksig
@@ -39807,7 +39807,7 @@
 一橋飛架南北	ffbu
 最憶是杭州	jyji
 有恆產者有恆心	sypy
-禍患常積於忽微	ulnr
+禍患常積於忽微	hlnr
 金就礪則利	wodr
 憂國不謀身	dndw
 重上井岡山	qksj
@@ -39895,7 +39895,7 @@
 更無豪傑怕熊羆	fqom
 最愛湖東行不足	jein
 解落三秋葉	ysfs
-虎視何雄哉	mued
+虎視何雄哉	mhed
 風聲雨聲讀書聲聲聲入耳	rhda
 開窗放入大江來	kpod
 粗繒大布裹生涯	pbgi
@@ -39918,7 +39918,7 @@
 俟我於城隅	eqoc
 共此燈燭光	snum
 蓬山此去無多路	sjnn
-把酒祝東風	aiur
+把酒祝東風	aihr
 解鞍少駐初程	ygmr
 散入春風滿洛城	srgh
 我今停杯一問之	qtep
@@ -40144,7 +40144,7 @@
 結廬在人境	bush
 暮色蒼茫看勁松	sysf
 鐘山風雨起蒼黃	wjrs
-神女應無恙	ucuu
+神女應無恙	hcuu
 蕭瑟秋風今又是	sgrj
 依依墟里煙	eehu
 博學而篤志	drsh
@@ -40232,7 +40232,7 @@
 爐火照天地	uujh
 哀吾生之須臾	ofwr
 江天一色無纖塵	iffi
-一日克己復禮	fjdu
+一日克己復禮	fjdh
 攝提貞於孟陬兮	aamt
 綠遍山原白滿川	bijq
 皎皎空中孤月輪	eepg
@@ -40290,7 +40290,7 @@
 漢家山東二百州	ioji
 滿座衣冠似雪	iuod
 生別常惻惻	wlny
-安禪製毒龍	ouwi
+安禪製毒龍	ohwi
 子寧不嗣音	vodi
 都護鐵衣冷難著	huws
 胡為乎泥中	doql
@@ -40643,7 +40643,7 @@
 流水前波讓後波	ikui
 彩雲易散琉璃脆	edjw
 肉食者謀之	kyhp
-與人恭而有禮	rtsu
+與人恭而有禮	rtsh
 君子食無求飽	xvyy
 生年不滿百	wqdd
 咎莫大於欲得	esgr
@@ -40663,7 +40663,7 @@
 為大於其細	ogob
 紙船明燭照天燒	bqju
 一年春好處	fqgm
-六億神州盡舜堯	oeuh
+六億神州盡舜堯	oehh
 我善養吾浩然之氣	quuq
 黃洋界上炮聲隆	sijc
 居簡而行簡	bqsq
@@ -40729,7 +40729,7 @@
 贛水那邊紅一角	ikvy
 雖執鞭之士	lhgh
 三曰不敢為天下先	fjdw
-祿在其中矣	usdv
+祿在其中矣	hsdv
 一言為重百金輕	fuog
 節用而愛人	qtst
 聽其言而信其行	adur
@@ -40754,7 +40754,7 @@
 嫋嫋兮秋風	cctr
 君子泰而不驕	xvgd
 我笑別人看不穿	qqlp
-失義而後禮	qusu
+失義而後禮	qush
 報道敵軍宵遁	huoe
 嘆息腸內熱	ltwh
 扈江離與辟芷兮	iipt
@@ -40768,7 +40768,7 @@
 將船買酒白雲邊	xqmt
 善抱者不脫	uahw
 暮雲收盡溢清寒	sdxo
-君使臣以禮	xesu
+君使臣以禮	xesh
 失德而後仁	qrse
 惟願孩兒愚且魯	ysvt
 刺破青天鍔未殘	fdhd
@@ -40867,7 +40867,7 @@
 一棹碧濤春水路	ffgn
 東城漸覺風光好	fhic
 名與身孰親	rrwi
-可憐無補費精神	ayqu
+可憐無補費精神	ayqh
 熟讀而精思	ousj
 可惜一溪風月	ayfw
 莫教踏碎瓊瑤	shng
@@ -40971,7 +40971,7 @@
 卻教明月送將來	thjd
 不如不遇傾城色	dcdy
 苦乏大藥資	sqgs
-神行電邁躡慌惚	urdy
+神行電邁躡慌惚	hrdy
 買得一枝春欲放	mrfo
 三十二蓮峰	fdsj
 半醒半醉日復日	uguj
@@ -41094,7 +41094,7 @@
 回也不改其樂	ncde
 將熊熊一窩	xvvp
 國之本在家	npfo
-天視自我民視	futu
+天視自我民視	fhth
 則修文德以來之	mepp
 打鐵先得自身硬	awwd
 天下之本在國	fapn
@@ -41129,7 +41129,7 @@
 今之學者為人	tprt
 君子之過也	xvpc
 縱浪大化中	bigl
-禍莫大於不知足	usgn
+禍莫大於不知足	hsgn
 東風好作陽和使	frce
 六盤山上高峰	oqjj
 逢草逢花報發生	esew
@@ -41184,7 +41184,7 @@
 青山一道同雲雨	hjfd
 沉沉一線穿南北	iifu
 環滁皆山也	girc
-有禮者敬人	suht
+有禮者敬人	shht
 兩龍躍出浮水來	find
 我如果愛你	qcje
 使吾勇於就死也	efbc
@@ -41215,7 +41215,7 @@
 夜市千燈照碧雲	oowd
 從汀州向長沙	riii
 皆反求諸己	refb
-君之視臣如土芥	xpus
+君之視臣如土芥	xphs
 君子謀道不謀食	xvuy
 吳剛捧出桂花酒	lkai
 小人窮斯濫矣	mtpv
@@ -41273,9 +41273,9 @@
 鳥度屏風裡	rubp
 地轉凝碧灣	hgsi
 無辭讓之心	qeuy
-君之視臣如手足	xpun
+君之視臣如手足	xphn
 收拾金甌一片	xawt
-則臣視君如腹心	msuy
+則臣視君如腹心	mshy
 何處聞燈不看來	emkd
 賴以拄其間	fxak
 種樹郭橐駝傳	rfoe
@@ -41303,9 +41303,9 @@
 斜暉脈脈水悠悠	tjwe
 颯沓如流星	ikcj
 秦皇島外打魚船	gerq
-則臣視君如國人	msut
+則臣視君如國人	msht
 更加眾志成城	fxmh
-君之視臣如犬馬	xpud
+君之視臣如犬馬	xphd
 庭中有奇樹	ulsf
 銀漢無聲轉玉盤	wiqq
 寄蜉蝣於天地	okkh
@@ -41318,7 +41318,7 @@
 人猿相揖別	trfl
 欲寄彩箋兼尺素	toeh
 於從政乎何有	orfs
-吏祿三百石	fufd
+吏祿三百石	fhfd
 君子不重則不威	xvdd
 草樹雲山如錦繡	sfdb
 今朝風日好	tdrc
@@ -41582,7 +41582,7 @@
 壁上紅旗飄落照	bkbj
 出門如見大賓	xkco
 大江東流去	gifh
-不以禮節之	dxup
+不以禮節之	dxhp
 肌膚若冰雪	wmsd
 踏雪沒心情	ndiy
 二龍爭戰決雌雄	sies
@@ -41665,7 +41665,7 @@
 虛室有餘閒	mosk
 萬物將自化	swxe
 鄉人皆好之	vtrp
-不鍊金丹不坐禪	dwwu
+不鍊金丹不坐禪	dwwh
 到處潛悲辛	hmio
 未可與適道	haru
 君行吾為發浩歌	xrfa
@@ -41734,7 +41734,7 @@
 關東有義士	kfsh
 春前為送浣花村	guof
 詩家總愛西昆好	uobc
-神得一以靈	urfd
+神得一以靈	hrfd
 萬里長江邊	skht
 日本晁卿辭帝都	jfjh
 未有不陰時	hsdj
@@ -41925,7 +41925,7 @@
 可得而聞也	arsc
 宣城還見杜鵑花	ohms
 泣盡繼以血	ixbq
-神妙獨難忘	ucru
+神妙獨難忘	hcru
 鑿戶牖以為室	nito
 探金英知近重陽	awsc
 虎頭金粟影	mfwj
@@ -42015,7 +42015,7 @@
 風起綠洲吹浪去	rdbh
 留得枯荷聽雨聲	trfh
 一飯胡麻度幾春	fydg
-讀書萬卷始通神	uxsu
+讀書萬卷始通神	uxsh
 報仇千里如咫尺	hewb
 躍上蔥蘢四百旋	nkso
 秋陰不散霜飛晚	rcdj
@@ -42028,7 +42028,7 @@
 制芰荷以為衣兮	wsst
 青蒿黃韭試春盤	hssq
 菡萏香銷翠葉殘	ssrd
-綠蔭樹下養精神	bsfu
+綠蔭樹下養精神	bsfh
 曙光初照演兵場	jmph
 觀魚勝過富春江	stwi
 百年魔怪舞翩躚	dqpn
@@ -42226,7 +42226,7 @@
 田氏倉卒骨肉分	jttt
 嶺南萬戶皆春色	jdsy
 壞壁無由見舊題	hbqj
-綠楊樹下養精神	bffu
+綠楊樹下養精神	bffh
 累上留雲借月章	jkti
 濃香吹盡有誰知	irlq
 更多還肯失林巒	frmu
@@ -42309,7 +42309,7 @@
 心悅君兮知不知	yyxq
 亂石崢嶸俗無井	edjs
 此花不與群花比	nsdr
-不戒視成謂之暴	dguj
+不戒視成謂之暴	dghj
 紅旗半卷出轅門	bouk
 曾經學舞度芳年	ubrq
 北極朝廷終不改	ufdb
@@ -42378,7 +42378,7 @@
 始共春風容易別	csgl
 丁香空結雨中愁	arpr
 何處黃雲是隴間	emsk
-醉中往往愛逃禪	glru
+醉中往往愛逃禪	glrh
 門外白袍如立鵠	krew
 又作三吳浪漫遊	befo
 縱使君來豈堪折	bexa
@@ -42462,7 +42462,7 @@
 假戲成真	emdd
 無非湘水餘波	qlii
 予觀夫巴陵勝狀	csgx
-費心勞神	vyuu
+費心勞神	vyuh
 可以濯吾纓	axib
 然後有千里馬	wrsd
 魂魄毅兮為鬼雄	seis
@@ -42471,7 +42471,7 @@
 目覽千載事	mswa
 才情橫溢	ayfi
 步履艱辛	nbso
-神清氣和	uiqr
+神清氣和	hiqr
 天地與我並生	fhrw
 朝飲木蘭之墜露兮	dyft
 六經責我開生面	obhg
@@ -42481,7 +42481,7 @@
 願為比翼鳥	sorr
 共賞一輪明月	snfw
 原是濂溪一脈	sjiw
-官至禮部尚書	ohux
+官至禮部尚書	ohhx
 輪流做莊	gies
 譭譽聽之於人	urat
 榆柳蔭後簷	ffsq
@@ -42571,7 +42571,7 @@
 秋風起兮白雲飛	rrdb
 亦猶今之視昔	prts
 然則何時而樂耶	wmea
-君子三年不為禮	xvfu
+君子三年不為禮	xvfh
 駢死於槽櫪之間	ddok
 向青草更青處漫溯	rhsi
 聞有國有家者	ksnh
@@ -42715,7 +42715,7 @@
 紅星亂紫煙	bjeu
 悵望江頭江水聲	yuih
 古今來許多世家	dtdo
-燕子來時新社	svdu
+燕子來時新社	svdh
 清吟曉露葉	iljs
 一夜好風吹	focl
 乃重修岳陽樓	vqef
@@ -42897,7 +42897,7 @@
 天上取樣人間織	fkab
 為高必因丘陵	ooyc
 然後知輕重	wrqq
-子張學幹祿	vvru
+子張學幹祿	vvrh
 風如拔山怒	rcac
 五陵衣馬自輕肥	fcow
 群仙出沒空明中	xexl
@@ -43333,7 +43333,7 @@
 名編壯士籍	rbxq
 去關市之徵	hkor
 故君子莫大乎與人為善	dxvu
-每逢佳處輒參禪	qeeu
+每逢佳處輒參禪	qeeh
 不以千里稱也	dxwc
 蚓無爪牙之利	kqer
 漢水接天回	ikan
@@ -43344,7 +43344,7 @@
 稚子敲針作釣鉤	rvow
 腰鼓百面春雷發	whdb
 採之慾遺誰	aptu
-煌煌祖宗業	uuun
+煌煌祖宗業	uuhn
 水中月色長不改	klwb
 不得中顧私	drlr
 樓觀岳陽盡	fsex
@@ -43595,7 +43595,7 @@
 未嘗至於偃之室也	hnhc
 吹參差兮誰思	lvuj
 高懷見物理	oymg
-百神翳其備降兮	dugt
+百神翳其備降兮	dhgt
 一身獨暖亦何情	fwry
 幼而無父曰孤	vsqv
 萬事翻覆如浮雲	saqd
@@ -43852,7 +43852,7 @@
 勸君少幹名	sxmr
 及與汝相對	vrin
 憶杭州梅花因敘舊遊寄蕭協律	yfir
-目不視惡色	mduy
+目不視惡色	mdhy
 十字津頭一字行	doir
 獨倚望江樓	reuf
 曾參豈是殺人者	uvjh
@@ -43896,7 +43896,7 @@
 丘不與易也	edrc
 懷瑾握瑜兮	ygat
 也應攀折他人手	cuft
-晉祠流水如碧玉	fuig
+晉祠流水如碧玉	fhig
 璆鏘鳴兮琳琅	gwlg
 幼子飢已卒	vvyo
 羅衫葉葉繡重重	mpsq
@@ -43944,7 +43944,7 @@
 兵過黃河疑未反	ense
 行雲去後遙山暝	rdhj
 雖世殊事異	lhdj
-傳有神龍人不識	esuu
+傳有神龍人不識	eshu
 月到柳梢頭	whff
 老而無子曰獨	hsqr
 人間晚秀非無意	tkji
@@ -44443,7 +44443,7 @@
 北山始與南屏通	ujcb
 君子有勇而無義為亂	xvse
 陽子問其故	cvkd
-仰視浮雲馳	euid
+仰視浮雲馳	ehid
 相期憩甌越	fdrd
 他得非我賢	erls
 彌勒真彌勒	vgdg
@@ -44468,7 +44468,7 @@
 何由得見洛陽春	ekrg
 而其見愈奇	sdmg
 撫長劍兮玉珥	ahrg
-見者驚猶鬼神	mhsu
+見者驚猶鬼神	mhsh
 心心復心心	yyry
 歲十一月徒槓成	ndfd
 餘地何妨種玉簪	yheq
@@ -44544,7 +44544,7 @@
 垂鞭直拂五雲車	egdg
 秦王與趙王會飲	ggry
 農民個個同仇	kcee
-徐福空來不得仙	rupe
+徐福空來不得仙	rhpe
 非謂其見彼也	ludc
 輕於柳絮重於霜	gofd
 迸水落遙空	uksp
@@ -44710,7 +44710,7 @@
 秋宵月色勝春宵	rowo
 即今河畔冰開日	xtij
 泣珠報恩君莫辭	ighe
-彭祖巫咸幾回死	hufd
+彭祖巫咸幾回死	hhfd
 遙遙至西荊	wwhs
 不能發聲哭	dvbl
 可以語上也	axuc
@@ -44727,7 +44727,7 @@
 中有雙飛鳥	lswr
 枕前看鶴浴	futi
 夫子焉不學	gvfr
-呈祥勢可嘉	luhh
+呈祥勢可嘉	lhhh
 鬥巧盡輸年少	nfxm
 兩岸羅衣破暈香	fjmr
 孤城西北起高樓	vhdf
@@ -44786,7 +44786,7 @@
 儒生有長策	ewsq
 江南臘月半	idwu
 犬子以田產未置止我	svxq
-禮法有明文	uisp
+禮法有明文	hisp
 雲橫九派浮黃鶴	dfyy
 愛之慾其富也	eptc
 相如一奮其氣	fcfq
@@ -44898,7 +44898,7 @@
 世俗乍見應憮然	heqw
 孤猿銜恨叫中秋	vrrr
 幽怨不堪聽	jrda
-登池州九峰樓寄張祜	biiu
+登池州九峰樓寄張祜	biih
 項莊拔劍起舞	fsaq
 鶴籠開處見君子	yqkv
 蕭蕭聞雁飛	sskb
@@ -45111,7 +45111,7 @@
 君王為人不忍	xgob
 人生達命豈暇愁	twhr
 忠信事不顯	leaj
-回忘禮樂矣	nuuv
+回忘禮樂矣	nuhv
 只令故舊傷	ltde
 朝別朱雀門	dlwk
 柳絲嫋娜春無力	fbcx
@@ -45378,7 +45378,7 @@
 然士或怯懦而不敢發	whgb
 洛水橋邊春日斜	ikft
 力去陳言誇末俗	xhce
-巫山神女廟	fjuu
+巫山神女廟	fjhu
 君有丈夫淚	xssi
 挾彈章臺左	avis
 雲弄竹溪月	dgqw
@@ -45547,7 +45547,7 @@
 萬物之鏡也	swpc
 壁立千仞無依倚	biwe
 靜拂琴床蓆	hags
-聞道神仙不可接	kuua
+聞道神仙不可接	kuha
 形適外無恙	foru
 風花時傍馬頭飛	rsjb
 晨光映遠岫	jmjj
@@ -45643,7 +45643,7 @@
 無食無兒一婦人	qyqt
 滿耳潺湲滿面涼	iaii
 歡娛恨白頭	scyf
-穩送祝融歸	ruuy
+穩送祝融歸	ruhy
 之子歸窮泉	pvye
 片石孤峰窺色相	tdvf
 郢人堊慢其鼻端若蠅翼	ltfx
@@ -45825,7 +45825,7 @@
 玉樓明月長相憶	gfjy
 百尺樓高水接天	dbff
 廉頗遂奔魏之大梁	uvui
-彼視淵若陵	ruic
+彼視淵若陵	rhic
 提劍出燕京	arxo
 日入相與歸	jrfy
 從水之道而不為私焉	rkpf
@@ -45876,7 +45876,7 @@
 花開殘菊傍疏籬	skdq
 月黑見漁燈	wnmu
 人在青山遠近居	tshb
-神女為秉機	ucof
+神女為秉機	hcof
 時矯首而遐觀	jqus
 無因移得到人家	qnro
 雞犬相和漢古村	esff
@@ -45924,7 +45924,7 @@
 十里一置飛塵灰	dkfs
 人間天上代代相傳	tkfe
 國無人莫我知兮	nqtt
-飲酣視八極	yguf
+飲酣視八極	yghf
 未坐將軍樹	htxf
 與物相刃相靡	rwfp
 機杼鳴簾櫳	fflf
@@ -46085,7 +46085,7 @@
 開口詠鳳凰	kluq
 說之雖不以道	uplu
 立誅殺曹無傷	iuwe
-公之視廉將軍孰與秦王	tpug
+公之視廉將軍孰與秦王	tphg
 聽此寒蟲號	anol
 千里清光又依舊	wkis
 如聞斷續絃	ckvb
@@ -46251,7 +46251,7 @@
 萬言萬當不如一默	susn
 猶小石小木之在大山也	rmdc
 越中山色鏡中看	dljt
-瞋目視項王	mmug
+瞋目視項王	mmhg
 應憐半死白頭翁	uyut
 審權勢之宜	ofho
 今春來是別花來	tgdd
@@ -46336,7 +46336,7 @@
 結幽蘭而延佇	bjse
 夫不自見而見彼	gdtr
 君不見管鮑貧時交	xdmo
-自大視細者不明	tguj
+自大視細者不明	tghj
 秋吟切骨玉聲寒	rlao
 氣可以養而致	qaxh
 誰人可相從	utar
@@ -46373,7 +46373,7 @@
 索食聲孜孜	dyhv
 眾峰來自天目山	mjdj
 閒教玉籠鸚鵡念郎詩	khgu
-問禪不契前三語	kudu
+問禪不契前三語	khdu
 遊童挾彈一麾肘	oiaw
 飛在白雲端	bsei
 因擊沛公於坐	ngit
@@ -46413,7 +46413,7 @@
 但有泉聲洗我心	esey
 心清聞妙香	yikr
 漫繞東籬嗅落英	ibfs
-無求於物長精神	qfou
+無求於物長精神	qfoh
 戲詠蠟梅二首	muku
 則與一生彘肩	mrfi
 紅蓮池裡白蓮開	bsik
@@ -46730,7 +46730,7 @@
 雪白河豚不藥人	deit
 西風漫卷孤城	drih
 不離牆下至行時	dpxj
-此養神之道也	nuuc
+此養神之道也	nuhc
 孤鸞舞鏡不作雙	vuqw
 君自此遠矣	xtnv
 九齡書大字	ymxo
@@ -46894,7 +46894,7 @@
 特地驚狂眼	whsm
 簾下宮人出	qaox
 千峰爭攢聚	wjea
-而不敢懷慶賞爵祿	sdvu
+而不敢懷慶賞爵祿	sdvh
 投冠旋舊墟	ayoh
 萬斛之舟行若風	sypr
 非閉其言而不出也	lkdc
@@ -47003,7 +47003,7 @@
 等終軍之弱冠	qbyy
 山銜好月來	jrcd
 日夕殊不來	jrdd
-明乎禮義而陋於知人心	jquy
+明乎禮義而陋於知人心	jqhy
 別後悠悠君莫問	lrek
 乘輿恐未回	rrfn
 山東豪俊遂並起而亡秦族矣	jfov
@@ -47464,7 +47464,7 @@
 死已三千歲矣	dbfv
 楊桴擊節雷闐闐	ffgk
 當時屋瓦始稱珍	njbg
-殷禮吾能言之	eufp
+殷禮吾能言之	ehfp
 入河蟾不沒	riki
 我叩其兩端而竭焉	qldf
 遺愛寺鐘欹枕聽	leha
@@ -47651,7 +47651,7 @@
 夫維聖哲以茂行兮	gbat
 年年歲歲一床書	qqnx
 杞不足徵也	fdnc
-鯉退而學禮	tvsu
+鯉退而學禮	tvsh
 今直為此蕭艾也	tdoc
 不知口體之奉不若人也	dqlc
 圓魄上寒空	nekp
@@ -47761,7 +47761,7 @@
 隔在遠遠鄉	cshv
 重重疊疊上瑤臺	qqjh
 得列嘉樹中	rdhl
-遞相祖述復先誰	efuu
+遞相祖述復先誰	efhu
 半生身老心閒	uwwk
 對酒不能酬	nidg
 可憐亦進姚黃花	ayps
@@ -47843,7 +47843,7 @@
 君子之德風也	xvpc
 眾莫知兮餘所為	msqo
 水閣虛涼玉簟空	kkmp
-他年夜雨獨傷神	eqou
+他年夜雨獨傷神	eqoh
 一鳥不鳴山更幽	frdj
 吾願君去國捐俗	fsxe
 莊子持竿不顧	svai
@@ -47875,7 +47875,7 @@
 建芳馨兮廡門	xshk
 玉關寄長安李主簿	gkoq
 夫殘樸以為器	gdfl
-光祿池臺開錦繡	muib
+光祿池臺開錦繡	mhib
 莫嫌犖确坡頭路	scun
 郭外是黃河	orji
 郵亭寄人世	eooh
@@ -48161,7 +48161,7 @@
 終身何敢望韓公	bwet
 以為莫己若者	xosh
 不足以為廣	dnxu
-不憂社稷傾	ddue
+不憂社稷傾	ddhe
 水如環佩月如襟	kcgp
 萬物不得不昌	swdj
 俱兼山水鄉	eujv
@@ -48214,7 +48214,7 @@
 在目皓已潔	smei
 世緣終淺道根深	hbbi
 問以經濟策	kxbq
-夏禮吾能言之	dufp
+夏禮吾能言之	dhfp
 正是維摩境界	fjbj
 邀我登雲臺	eqbh
 路上人困蹇驢嘶	nktl
@@ -48238,7 +48238,7 @@
 其後秦伐趙	drgd
 乘船往石頭	rqrf
 衣帶日已緩	osjb
-此吾祖太常公宣德間執此以朝	nfud
+此吾祖太常公宣德間執此以朝	nfhd
 世溷濁而嫉賢兮	hiit
 兩心之外無人知	fypq
 姑蘇臺上烏棲時	cshj
@@ -48254,7 +48254,7 @@
 布衾冷似鐵	stsw
 然不自意能先入關破秦	wdtg
 內熱溲膏是也	khic
-送祁錄事歸合州	uuwi
+送祁錄事歸合州	uhwi
 行藏終欲付何人	rsbt
 綠浪東西南北水	bifk
 以杖叩其脛	xflw
@@ -48322,7 +48322,7 @@
 策杖歸去來	qfyd
 安敢尚盤桓	ovnf
 欲語羞雷同	tuuk
-則臣視君如寇讎	msuw
+則臣視君如寇讎	mshw
 羞而不為也	usdc
 空林獨與白雲期	pfrd
 閉門鋤菜伴園丁	kkwa
@@ -48379,7 +48379,7 @@
 周公恐懼流言後	wtfr
 今吾嗣為之十二年	tflq
 閒與仙人掃落花	kres
-猶疾視而盛氣	rpuq
+猶疾視而盛氣	rphq
 是同為淫僻也	jkoc
 上有萬仞山	kssj
 吾無與言之矣	fqrv
@@ -48529,7 +48529,7 @@
 心飛故國樓	ybdf
 贈元六兄林宗	mfoo
 長逝入君懷	hary
-開視化為血	kueq
+開視化為血	kheq
 先據要路津	wadi
 殫殘天下之聖法	ddfi
 無數新禽有喜聲	qlih
@@ -48792,7 +48792,7 @@
 系在紅羅襦	qsbp
 水鄉霾白屋	kvdb
 江火似流螢	iueu
-俯視洛陽川	euiq
+俯視洛陽川	ehiq
 多於九土之城郭	royo
 輪欹影促猶頻望	ggju
 谷幽光未顯	tjmj
@@ -48939,7 +48939,7 @@
 白雲堪臥君早歸	edhy
 鬱金香是蘭陵酒	fwri
 待吾還丹成	rfmd
-禮義由賢者出	uukx
+禮義由賢者出	hukx
 翩翾粉翅開	impk
 流俗之所輕也	iepc
 暫出白門前	gxeu
@@ -49236,7 +49236,7 @@
 人間桑海朝朝變	tkbu
 勞者屍如丘	uhbe
 廬江小吏仲卿妻	uimd
-吾祖死於是	fudj
+吾祖死於是	fhdj
 內無應門五尺之僮	kque
 宮官既拆盤	ooxq
 心中與之然	ylrw
@@ -49336,7 +49336,7 @@
 也知法供無窮盡	cqix
 軍中無以為樂	ylqe
 江東子弟今雖在	ifvs
-禮樂不興則刑罰不中	uedl
+禮樂不興則刑罰不中	hedl
 丈夫未可輕年少	sghm
 繒絮足禦寒	bcno
 將帥接燕薊	xyas
@@ -49350,7 +49350,7 @@
 往來而不絕者	rdsh
 床下夜相親	uaoi
 孤燈何事獨成花	vues
-結社多高客	buro
+結社多高客	bhro
 翻身躍入七人房	qwni
 遊雁有餘聲	ossh
 斷盡蘇州刺史腸	vxsw
@@ -49800,7 +49800,7 @@
 枇杷花裏閉門居	ffsb
 揚州市裏商人女	aioc
 金窗繡户長相見	wpbm
-登池州九峯樓寄張祜	biiu
+登池州九峯樓寄張祜	biih
 衞靈公第十五	rdtf
 一卧滄江驚歲晚	fsij
 空裏浮花夢裏身	poiw
@@ -49912,7 +49912,7 @@
 陽台碧峭十二峯	cvgj
 嚴陵台下桐江水	lcvk
 章台從掩映	ivrj
-光祿池台開錦繡	muib
+光祿池台開錦繡	mhib
 淺處無妨有卧龍	imqi
 別户穿虛明	lipj
 細雨濕高城	bdih
@@ -50010,7 +50010,7 @@
 才華出衆	asxq
 落草爲寇	sseo
 靠水喫水	wklk
-視爲畏途	uejt
+視爲畏途	hejt
 一切衆生	faqw
 傳爲美談	eeuu
 化敵爲友	eoes
@@ -50025,7 +50025,7 @@
 知之爲知之	qpep
 捨己爲公	abet
 不問青紅皁白	dkhe
-視爲知己	ueqb
+視爲知己	heqb
 一覽衆山小	fsqm
 自以爲得計	txeu
 捨身爲國	awen
@@ -50049,7 +50049,7 @@
 以古爲鏡	xdew
 獨在異鄉爲異客	rsjo
 女爲悅己者容	ceyp
-視爲兒戲	uerm
+視爲兒戲	herm
 以人爲鑑	xtew
 賣文爲生	hpew
 衆裏尋他千百度	qoxu
@@ -50252,7 +50252,7 @@
 武陵人捕魚爲業	fctn
 三年不爲樂	fqde
 五色新絲纏角糉	fyip
-君子三年不爲禮	xvfu
+君子三年不爲禮	xvfh
 落地爲兄弟	sheu
 吾已成爲陰間一鬼	fbdw
 猶爲棄井也	reoc
@@ -50404,7 +50404,7 @@
 吾無以爲質矣	fqxv
 如何四紀爲天子	cenv
 爲樂當及時	eenj
-神女爲秉機	ucef
+神女爲秉機	hcef
 紅紫不以爲褻服	bndw
 夏蟲也爲我沉默	dkcn
 黃印額山輕爲塵	stoi
@@ -50507,7 +50507,7 @@
 舜之爲臣也	epec
 使契爲司徒	eder
 是相與爲春秋冬夏四時行也	jfrc
-祕密事之載心兮	uoat
+祕密事之載心兮	hoat
 而君爲貴戚	sxed
 洗妝不褪脣紅	ixdb
 竹齋燒藥竈	qoup
@@ -50539,7 +50539,7 @@
 天高不爲聞	fodk
 置以爲像兮	mxet
 戀月潭邊坐石棱	uwif
-開視化爲血	kueq
+開視化爲血	kheq
 鬱郁何所爲	fsee
 夫爲天下者	gefh
 堯舜禹湯文武周孔皆爲灰	heqs
