@@ -86,7 +86,7 @@ speller:
   auto_select_unique_candidate: true
   algebra:
     # 分号简码可略分号, 并使一简字简词前置
-    - derive/^([a-y]{1,2});$/$1/
+    # - derive/^([a-y]{1,2});$/$1/
     # Z键和分号等同
     - derive/;/z/
     - derive/;;/;z/
