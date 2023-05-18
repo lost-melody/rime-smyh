@@ -31,8 +31,6 @@ switches:
     reset: 0
   - name: rev_div
     reset: 1
-  - name: simp_tip
-    reset: 0
   - name: ascii_mode
     reset: 0
 
@@ -70,8 +68,6 @@ engine:
     - simplifier
     # 候选去重
     - uniquifier
-    # 简码提示
-    - simplifier@simp_tip
     # 反查拆分提示
     - simplifier@rev_div
     # 施法提示, 需配合打断施法翻译器
@@ -162,17 +158,6 @@ rev_div:
     - xform/\|/·/
   tags: [ rev_pinyin ]
 
-# 简码提示
-simp_tip:
-  opencc_config: smyh_simp.json
-  option_name: simp_tip
-  tips: all
-  show_in_comment: true
-  comment_format:
-    - xform/;/_/
-    - "xform/^(.*)$/[$1]/"
-  tags: [ fullcode ]
-
 # 拼音反查
 rev_pinyin:
   tag: rev_pinyin
@@ -204,8 +189,6 @@ key_binder:
     - {when: has_menu, accept: Tab, send: 3}
     # 拆分提示
     - { when: always, accept: "Control+Shift+C", toggle: division }
-    # 简码提示
-    - { when: always, accept: "Control+Shift+S", toggle: simp_tip }
     # 中英文标点
     - {when: always, accept: Control+period, toggle: ascii_punct}
 
