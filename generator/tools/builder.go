@@ -277,9 +277,9 @@ func calcCodeByDiv(div []string, mappings map[string]string) (full string, code 
 
 func getCodeSupplement(code string) (supp string) {
 	if _, ok := leftHandKeySet[strings.ToLower(code)[1]]; ok {
-		supp = "k"
+		supp = "i"
 	} else {
-		supp = "d"
+		supp = "e"
 	}
 	return
 }
