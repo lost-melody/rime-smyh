@@ -9,6 +9,5 @@ mkdir -p "${RIME}/lua/smyh"
 mkdir -p "${RIME}/opencc"
 
 cp schema/smyh.*.yaml "${RIME}/"
-cp schema/rime.lua "${RIME}/"
 cp schema/lua/smyh/core.lua "${RIME}/lua/smyh/"
 cp schema/opencc/smyh_*.{json,txt} "${RIME}/opencc/"
