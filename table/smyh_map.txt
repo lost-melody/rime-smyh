@@ -19,7 +19,7 @@ Ah	亍
 Dl	來
 Hw	兀
 Hw	兀
-Dq	其
+Dj	其
 Gf	匚
 Gf	{畏下}
 Gf	匸
@@ -396,12 +396,12 @@ Cy	也
 Cy	乜
 Vl	了
 Cu	予
-Xa	凵
-Xa	屮
-Xa	屮
-Xa	丩
-Xa	丱
-Xa	丩
+Xe	凵
+Xe	屮
+Xe	屮
+Xe	丩
+Xe	丱
+Xe	丩
 Bd	刀
 Xk	力
 Xj	卩
