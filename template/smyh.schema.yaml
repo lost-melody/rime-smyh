@@ -195,6 +195,7 @@ key_binder:
     - {when: has_menu, accept: Tab, send: 3}
     # 拆分提示
     - { when: always, accept: "Control+Shift+C", toggle: division }
+    # 内嵌候選開關
     - { when: always, accept: "Control+Shift+E", toggle: embeded_cands }
     # 中英文标点
     - {when: always, accept: Control+period, toggle: ascii_punct}
