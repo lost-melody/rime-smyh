@@ -27,6 +27,8 @@ function embeded_cands_filter.init(env)
             embeded_cands = ctx:get_option(name)
         end
     end
+    -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
+    handler(env.engine.context, option_name)
     -- 注册通知回調
     env.engine.context.option_update_notifier:connect(handler)
 end
