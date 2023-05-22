@@ -17,14 +17,17 @@ key_binder:
 
 -- 讀取 schema.yaml 開關設置:
 local option_name = "embeded_cands"
--- 默認啟用, 當選項不存在時就是啟用狀態
-local embeded_cands = true
+local embeded_cands = nil
 
 function embeded_cands_filter.init(env)
     local handler = function(ctx, name)
         -- 通知回調, 當改變選項值時更新暫存的值
         if name == option_name then
             embeded_cands = ctx:get_option(name)
+            if embeded_cands == nil then
+                -- 當選項不存在時默認爲啟用狀態
+                embeded_cands = true
+            end
         end
     end
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
