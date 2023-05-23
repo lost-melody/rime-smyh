@@ -48,7 +48,9 @@ function translator.func(input, seg, env)
             -- 假装table_translator
             if env.mem:dict_lookup(retain, true, 100) then
                 for entry in env.mem:iter_dict() do
-                    yield(Candidate("table", seg.start, seg._end, entry.text, entry.comment))
+                    local cand = Candidate("table", seg.start, seg._end, entry.text, entry.comment)
+                    cand.preedit = retain
+                    yield(cand)
                 end
             end
         end
