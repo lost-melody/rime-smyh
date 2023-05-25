@@ -41,12 +41,12 @@ core.commit_history = function(input, seg, env)
 end
 
 -- 计算分词列表
--- "jnuhsklll;" -> ["jnu","hsk","lll"], ";"
--- "o;gso"     -> ["o;", "gso"]
+-- "dkdqgxfvt;" -> ["dkd","qgx","fvt"], ";"
+-- "d;nua"     -> ["d;", "nua"]
 core.get_code_segs = function(input)
     local code_segs = {}
     while string.len(input) ~= 0 do
-        if string.match(string.sub(input, 1, 2), "[a-y];") then
+        if string.match(string.sub(input, 1, 2), "[a-y][z;]") then
             -- 匹配到一简
             table.insert(code_segs, string.sub(input, 1, 2))
             input = string.sub(input, 3)
@@ -54,25 +54,26 @@ core.get_code_segs = function(input)
             -- 匹配到全码或二简
             table.insert(code_segs, string.sub(input, 1, 3))
             input = string.sub(input, 4)
-        elseif input == ";" then
-            -- 匹配到冗余分号
-            break
+        -- elseif input == ";" then
+        --     -- 匹配到冗余分号
+        --     break
         else
-            -- 不合法或不完整分词输入串
-            return
+            -- 不完整或不合法分词输入串
+            return code_segs, input
         end
     end
     return code_segs, input
 end
 
 -- 查询编码对应候选列表
--- "hsk" -> ["考", "示"]
-core.dict_lookup = function(code, env, comp)
+-- "dkd" -> ["南", "電"]
+core.dict_lookup = function(mem, code, count, comp)
     -- 是否补全编码
+    count = count or 1
     comp = comp or false
     local result = {}
-    if env.mem:dict_lookup(code, comp, 2) then
-        for entry in env.mem:iter_dict() do
+    if mem:dict_lookup(code, comp, count) then
+        for entry in mem:iter_dict() do
             table.insert(result, entry)
         end
     end
@@ -80,40 +81,35 @@ core.dict_lookup = function(code, env, comp)
 end
 
 -- 最大匹配查詢分詞候選列表
--- ["jnu", "hsk", "lll"] -> ["显示", "品"]
--- ["jnu", "hsk"]        -> ["显", "考"]
-core.query_cand_list = function(code_segs, env)
-    if code_segs and #code_segs > 1 then
-        local seg_length = #code_segs
-        local cand_list = {}
-        local code = ''
-        while #code_segs ~= 0 do
-            -- 最大匹配
-            for viewport = #code_segs, 1, -1 do
-                if viewport ~= seg_length then
-                    code = table.concat(code_segs, '', 1, viewport)
-                    local entries = core.dict_lookup(code, env)
-                    if entries and #entries ~= 0 then
-                        -- 當前viewport有候選, 擇之並進入下一輪
-                        table.insert(cand_list, entries[1].text)
-                        if viewport ~= #code_segs then
-                            for _ = 1, viewport do
-                                table.remove(code_segs, 1)
-                            end
-                        else
-                            return cand_list, code
-                        end
-                        break
-                    elseif viewport == 1 then
-                        -- 最小viewport无候選, 返回
-                        return
-                    end
+-- ["dkd", "qgx", "fvt"] -> ["電動", "杨"]
+-- ["dkd", "qgx"]        -> ["南", "動"]
+core.query_cand_list = function(mem, code_segs, skipfull)
+    local index = 1
+    local cand_list = {}
+    local code = table.concat(code_segs, "", index)
+    while index <= #code_segs do
+        -- 最大匹配
+        for viewport = #code_segs, index, -1 do
+            if not skipfull or viewport-index+1 < #code_segs then
+                code = table.concat(code_segs, "", index, viewport)
+                local entries = core.dict_lookup(mem, code)
+                if entries[1] then
+                    -- 當前viewport有候選, 擇之並進入下一輪
+                    table.insert(cand_list, entries[1].text)
+                    index = viewport + 1
+                    break
+                elseif viewport == index then
+                    -- 最小viewport无候選, 返回
+                    -- return cand_list, code
+                    table.insert(cand_list, code)
+                    index = viewport + 1
+                    break
                 end
             end
         end
-        -- 返回候選字列表及末候選編碼
-        return cand_list, code
     end
+    -- 返回候選字列表及末候選編碼
+    return cand_list, code
 end
 
 return core

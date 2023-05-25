@@ -4,77 +4,154 @@ local core = require("smyh.core")
 -- ######## 翻译器 ########
 
 function translator.init(env)
-    env.mem = Memory(env.engine, env.engine.schema)
+    -- env.mem = Memory(env.engine, env.engine.schema)
+    env.base = Memory(env.engine, Schema("smyh.base"))
 end
 
--- 翻译器
-function translator.func(input, seg, env)
-    core.input_code = input
+local function deal_semicolon(code_segs, remain, seg, env)
+    if string.len(remain) > 1 then
+        -- 不對勁
+        return
+    elseif #code_segs == 1 then
+        -- 單字全/簡碼+分號: 分號頂或二重一簡詞
+        local entries = core.dict_lookup(env.base, table.concat(code_segs, "")..remain, 100, true)
+        for _, entry in ipairs(entries) do
+            yield(Candidate("table", seg.start, seg._end, entry.text, entry.comment))
+        end
+        if #entries == 1 then
+            -- 唯一候選加竞爭
+            yield(Candidate("table", seg.start, seg._end, "", ""))
+        end
+        return
+    elseif #code_segs ~= 0 then
+        -- 智能詞+分號: 打斷施法
+        local entries = core.dict_lookup(env.base, table.concat(code_segs, ""), 2)
+        if #entries > 1 then
+            -- 多個智能詞, 选中次選
+            yield(Candidate("table", seg.start, seg._end, entries[2].text, entries[2].comment))
+            return
+        end
 
-    -- 单字Z键顶, 记录上屏历史
-    if core.commit_history(input, seg, env) then
+        -- 獲取分詞候選
+        local text_list, last_code = core.query_cand_list(env.base, code_segs, true)
+        env.engine:commit_text(table.concat(text_list, "", 1, #text_list-1))
+
+        -- 處理頂字
+        remain = last_code
+        env.engine.context:clear()
+        env.engine.context:push_input(remain)
+        core.input_code = string.gsub(remain, "[z;]", "-")
+
+        local entries = core.dict_lookup(env.base, remain, 100, true)
+        for _, entry in ipairs(entries) do
+            yield(Candidate("table", seg.start, seg._end, entry.text, entry.comment))
+        end
+        if #entries == 1 then
+            -- 唯一候選加竞爭
+            yield(Candidate("table", seg.start, seg._end, "", ""))
+        end
+        return
+    else
+        -- 孤獨的分號
+        return
+    end
+end
+
+local function deal_singlechar(code_segs, remain, seg, env)
+    local entries = core.dict_lookup(env.base, remain, 100, true)
+    for _, entry in ipairs(entries) do
+        yield(Candidate("table", seg.start, seg._end, entry.text, entry.comment))
+    end
+    if #entries == 1 then
+        -- 唯一候選添加占位
+        yield(Candidate("table", seg.start, seg._end, "", ""))
+    end
+end
+
+local function deal_delayed(code_segs, remain, seg, env)
+    -- 先查出全串候選列表
+    local full_entries = core.dict_lookup(env.base, table.concat(code_segs, "")..remain, 10)
+    if #full_entries > 1 then
+        full_entries[2].comment = "[↵]"
+    end
+
+    -- 查詢分詞串暫存值
+    local stashed_text = ""
+    local text_list, last_code = core.query_cand_list(env.base, code_segs)
+    if #text_list > 1 and #full_entries == 0 then
+        -- 延遲串大於一, 全碼无候選, 頂之
+        -- ["電動", "機"] -> commit "電動", ["機"]
+        env.engine:commit_text(table.concat(text_list, "", 1, #text_list-1))
+        -- ["機"] -> stash "機"
+        stashed_text = text_list[#text_list]
+
+        -- 處理頂字
+        local input = last_code..remain
+        env.engine.context:clear()
+        env.engine.context:push_input(input)
+        core.input_code = string.gsub(input, "[z;]", "-")
+    else
+        -- 延遲串小於或等於一, 存之
+        stashed_text = table.concat(text_list, "")
+    end
+
+    -- 查詢活動輸入串候選列表
+    local entries = core.dict_lookup(env.base, remain, 100-#full_entries, true)
+    if #entries == 0 then
+        table.insert(entries, {text=remain, comment=""})
+    end
+    if #full_entries == 1 then
+        entries[1].comment = "[☯]"
+    end
+
+    -- 送出候選
+    for _, entry in ipairs(full_entries) do
+        yield(Candidate("table", seg.start, seg._end, entry.text, entry.comment))
+    end
+    for _, entry in ipairs(entries) do
+        yield(Candidate("table", seg.start, seg._end, stashed_text..entry.text, entry.comment))
+    end
+
+    -- 唯一候選添加占位
+    if #full_entries+#entries == 1 then
+        yield(Candidate("table", seg.start, seg._end, "", ""))
+    end
+end
+
+function translator.func(input, seg, env)
+    core.input_code = string.gsub(input, "[z;]", "-")
+    if not string.match(input, "^[a-z;]*$") then
+        -- 非吾所願矣
         return
     end
 
-    -- 清空施法提示
-    core.pass_comment = ''
+    -- Z鍵統一變更爲分號
+    input = string.gsub(input, "z", ";")
 
-    -- 分词
-    input = string.gsub(input, 'z', ';')
-    local code_segs, remaining = core.get_code_segs(input)
-    local fullcode_entries
+    -- code_segs 是按 "abc"/"a;" 單字全簡碼分組的串列表, 其每個元素都滿足這一條件
+    local code_segs, remain = core.get_code_segs(input)
+    if string.match(remain, "^[z;]") then
+        -- 處理分號
+        deal_semicolon(code_segs, remain, seg, env)
+        return
+    end
 
-    if remaining and remaining == ";" and code_segs and #code_segs > 1 then
-        -- 有单个冗余分号, 且分词数大于一, 触发 "打断施法"
-        fullcode_entries = core.dict_lookup(table.concat(code_segs, ''), env)
-        local char_list, retain = core.query_cand_list(code_segs, env)
-        if char_list then
-            if fullcode_entries and #fullcode_entries > 1 and fullcode_entries[1].text == table.concat(char_list, '') then
-                -- 多重智能詞, 且首選與單字相同, 上屏第二候選
-                yield(Candidate("table", seg.start, seg._end, fullcode_entries[2].text, fullcode_entries[2].comment))
-                return
-            end
-
-            -- 移除末位候選
-            table.remove(char_list)
-            remaining = ''
-            for _, char in ipairs(char_list) do
-                -- 上屏
-                env.engine:commit_text(char)
-            end
-            -- 清空编码, 追加保留串
-            env.engine.context:clear()
-            env.engine.context:push_input(retain)
-            -- 假装table_translator
-            if env.mem:dict_lookup(retain, true, 100) then
-                for entry in env.mem:iter_dict() do
-                    local cand = Candidate("table", seg.start, seg._end, entry.text, entry.comment)
-                    cand.preedit = retain
-                    yield(cand)
-                end
-            end
+    -- 若余串 remain 爲空, 則將 code_segs 最末單字串提出
+    if #code_segs ~= 0 and string.len(remain) == 0 then
+        if #code_segs ~= 0 then
+            -- ["dkd"], "" => [], "dkd"
+            -- ["dkd"], "q" => remains
+            -- ["dkd","qgx","fvt"], "" => ["dkd","qgx"], "fvt"
+            remain = table.remove(code_segs)
         end
     end
-    if (not remaining or remaining == "") and code_segs and #code_segs > 1 then
-        -- 没有冗余编码, 分词数大于一, 触发施法提示
-        -- local pass_comment = ""
-        fullcode_entries = core.dict_lookup(table.concat(code_segs, ''), env)
-        local char_list, _ = core.query_cand_list(code_segs, env)
-        if char_list then
-            if fullcode_entries and #fullcode_entries > 1 and fullcode_entries[1].text == table.concat(char_list, '') then
-                -- 多重智能詞, 且首選與單字相同, 提示第二候選
-                core.pass_comment = "↵"..fullcode_entries[2].text
-            else
-                -- 單個候選詞, 或首選與單字不同, 提示首選
-                core.pass_comment = "☯"..table.concat(char_list, '')
-            end
-        end
 
-        -- 唯一候选添加占位候选
-        local entries = core.dict_lookup(input, env, true)
-        if entries and #entries == 1 then
-            yield(Candidate("table", seg.start, seg._end, "", ""))
-        end
+    if #code_segs == 0 then
+        -- code_segs 爲空, 僅單字
+        deal_singlechar(code_segs, remain, seg, env)
+    else
+        -- code_segs 非空, 延遲頂組合串
+        deal_delayed(code_segs, remain, seg, env)
     end
 end
 

@@ -1,5 +1,6 @@
 -- 将要被返回的過濾器對象
 local embeded_cands_filter = {}
+local core = require("smyh.core")
 
 --[[
 # xxx.schema.yaml
@@ -73,10 +74,10 @@ function embeded_cands_filter.func(input, env)
             -- 這裏的if块可以直接改成一個 preedit = preedit..cand.text
             if string.len(cand.text) <= string.len("四個漢字") then
                 -- 四字以内, "漢字code"
-                preedit = cand.text..first_cand.preedit
+                preedit = cand.text.." "..core.input_code
             else
                 -- 四字以上, "code四字以上詞"
-                preedit = first_cand.preedit..cand.text
+                preedit = core.input_code.." "..cand.text
             end
         elseif index <= page_size then
             -- 當前頁余下候選項, 形如 "2.漢字"

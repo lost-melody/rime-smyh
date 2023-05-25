@@ -21,8 +21,8 @@ go run . || exit 1
 cd "${WD}"
 
 # 单字码表
-grep -v '#' table/smyh_quick.txt >>"${SCHEMA}/smyh.dict.yaml"
-cat /tmp/char.txt >>"${SCHEMA}/smyh.dict.yaml"
+grep -v '#' table/smyh_quick.txt >>"${SCHEMA}/smyh.base.dict.yaml"
+cat /tmp/char.txt >>"${SCHEMA}/smyh.base.dict.yaml"
 # 引號詩詞成語碼表
 grep -v '#' table/quote.txt >>"${SCHEMA}/smyh.phrase.dict.yaml"
 # 智能词码表
