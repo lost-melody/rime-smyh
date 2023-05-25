@@ -59,6 +59,9 @@ end
 
 local function deal_singlechar(code_segs, remain, seg, env)
     local entries = core.dict_lookup(env.base, remain, 100, true)
+    if #entries == 0 then
+        table.insert(entries, {text="", comment=""})
+    end
     for _, entry in ipairs(entries) do
         yield(Candidate("table", seg.start, seg._end, entry.text, entry.comment))
     end
