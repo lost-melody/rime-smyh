@@ -35,7 +35,7 @@ patch:
   # 解注释以下内容, 并复制rime.lua, 以兼容旧版librime-lua
   # engine/translators:
   #   - punct_translator
-  #   - lua_translator@*smyh.core_translator
+  #   - lua_translator@smyh_core_translator
   #   - table_translator@phrase
   #   - table_translator@yuhaofull
   #   - history_translator@history
