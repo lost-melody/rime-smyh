@@ -27,11 +27,13 @@ local function deal_semicolon(code_segs, remain, seg, env, init_input)
         if #entries == 0 and string.sub(init_input, string.len(init_input)) == "z" then
             -- 單字Z鍵頂
             local entries = core.dict_lookup(env.base, table.concat(code_segs, ""))
-            env.engine:commit_text(entries[1].text)
-            env.engine.context:clear()
-            env.engine.context:push_input("z")
-            yield(Candidate("table", seg.start, seg._end, entries[1].text, ""))
-            yield(Candidate("table", seg.start, seg._end, "", ""))
+            if entries[1] then
+                env.engine:commit_text(entries[1].text)
+                env.engine.context:clear()
+                env.engine.context:push_input("z")
+                yield(Candidate("table", seg.start, seg._end, entries[1].text, ""))
+                yield(Candidate("table", seg.start, seg._end, "", ""))
+            end
         end
         return
     elseif #code_segs ~= 0 then

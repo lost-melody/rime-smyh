@@ -57,8 +57,6 @@ engine:
     # - fallback_segmentor
   translators:
     - punct_translator
-    # 宇浩三码顶主翻译器
-    - lua_translator@*smyh.core_translator
     # 引号词
     - table_translator@phrase
     # 全码官宇
@@ -67,6 +65,8 @@ engine:
     - history_translator@history
     # 反查
     - reverse_lookup_translator@rev_pinyin
+    # 宇浩三码顶主翻译器
+    - lua_translator@*smyh.core_translator
   filters:
     - simplifier
     # 候选去重
