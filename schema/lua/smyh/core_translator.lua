@@ -8,18 +8,29 @@ function translator.init(env)
     env.base = Memory(env.engine, Schema("smyh.base"))
 end
 
-local function deal_semicolon(code_segs, remain, seg, env)
+local function deal_semicolon(code_segs, remain, seg, env, init_input)
     if string.len(remain) > 1 then
         -- 不對勁
         return
     elseif #code_segs == 1 then
-        -- 單字全/簡碼+分號: 分號頂或二重一簡詞
+        -- 單字全/簡碼+分號
+        -- 二重一簡詞
         local entries = core.dict_lookup(env.base, table.concat(code_segs, "")..remain, 100, true)
         for _, entry in ipairs(entries) do
             yield(Candidate("table", seg.start, seg._end, entry.text, entry.comment))
         end
         if #entries == 1 then
             -- 唯一候選加竞爭
+            yield(Candidate("table", seg.start, seg._end, "", ""))
+        end
+        -- 分號頂
+        if #entries == 0 and string.sub(init_input, string.len(init_input)) == "z" then
+            -- 單字Z鍵頂
+            local entries = core.dict_lookup(env.base, table.concat(code_segs, ""))
+            env.engine:commit_text(entries[1].text)
+            env.engine.context:clear()
+            env.engine.context:push_input("z")
+            yield(Candidate("table", seg.start, seg._end, entries[1].text, ""))
             yield(Candidate("table", seg.start, seg._end, "", ""))
         end
         return
@@ -60,7 +71,7 @@ local function deal_semicolon(code_segs, remain, seg, env)
     end
 end
 
-local function deal_singlechar(code_segs, remain, seg, env)
+local function deal_singlechar(code_segs, remain, seg, env, init_input)
     local entries = core.dict_lookup(env.base, remain, 100, true)
     if #entries == 0 then
         table.insert(entries, {text="", comment=""})
@@ -74,7 +85,7 @@ local function deal_singlechar(code_segs, remain, seg, env)
     end
 end
 
-local function deal_delayed(code_segs, remain, seg, env)
+local function deal_delayed(code_segs, remain, seg, env, init_input)
     -- 先查出全串候選列表
     local full_entries = core.dict_lookup(env.base, table.concat(code_segs, "")..remain, 10)
     if #full_entries > 1 then
@@ -132,13 +143,14 @@ function translator.func(input, seg, env)
     end
 
     -- Z鍵統一變更爲分號
+    local init_input = input
     input = string.gsub(input, "z", ";")
 
     -- code_segs 是按 "abc"/"a;" 單字全簡碼分組的串列表, 其每個元素都滿足這一條件
     local code_segs, remain = core.get_code_segs(input)
     if string.match(remain, "^[z;]") then
         -- 處理分號
-        deal_semicolon(code_segs, remain, seg, env)
+        deal_semicolon(code_segs, remain, seg, env, init_input)
         return
     end
 
@@ -154,10 +166,10 @@ function translator.func(input, seg, env)
 
     if #code_segs == 0 then
         -- code_segs 爲空, 僅單字
-        deal_singlechar(code_segs, remain, seg, env)
+        deal_singlechar(code_segs, remain, seg, env, init_input)
     else
         -- code_segs 非空, 延遲頂組合串
-        deal_delayed(code_segs, remain, seg, env)
+        deal_delayed(code_segs, remain, seg, env, init_input)
     end
 end
 
