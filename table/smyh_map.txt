@@ -161,7 +161,7 @@ Wl	乂
 Wl	乂
 Wl	𠂭
 Ew	乌
-Yj	九
+Yf	九
 Te	人
 Te	人
 Ee	亻
@@ -169,8 +169,8 @@ Rl	僉
 Qr	儿
 Qr	{荒下}
 Ru	入
-Td	八
-Td	{介下}
+Ti	八
+Ti	{介下}
 Ym	冖
 Ym	冖
 Ym	冖
@@ -200,9 +200,9 @@ Eh	夂
 Rk	夕
 Eo	夭
 Qc	川
-Ti	彡
-Ti	{癶右}
-Ti	{两撇}
+To	彡
+To	{癶右}
+To	{两撇}
 Rc	彳
 Yi	心
 Yi	忄
@@ -358,10 +358,10 @@ Ne	黑
 Jm	黽
 Jm	{龜下}
 Mc	齒
-Nn	龰
+Nd	龰
 Bu	{鼠下}
 Bc	丑
-Va	乃
+Vj	乃
 Vi	乙
 Vi	乙
 Vi	{顺折}
