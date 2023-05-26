@@ -90,6 +90,9 @@ local function render_cand(seq, code, stashed, text, comment, digested)
     end
     -- 渲染延迟串與候選文字
     stashed, text, digested = render_stashcand(seq, stashed, text, digested)
+    if text == "" then
+        return "", digested
+    end
     -- 渲染提示串
     comment = render_comment(comment)
     cand = string.gsub(cand, "Seq", index_indicators[seq])
