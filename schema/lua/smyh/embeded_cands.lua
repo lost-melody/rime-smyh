@@ -86,7 +86,7 @@ function embeded_cands_filter.func(input, env)
         -- 修改首選的預编輯文本, 這会作爲内嵌編碼顯示到輸入處
         if index == 1 then
             -- 首選和編碼
-            preedit = cand_text..core.input_code
+            preedit = cand_text.." "..core.input_code
         elseif index <= page_size and string.len(cand_text) > 0 then
             -- 當前頁余下候選項, 形如 "2.漢字"
             -- 組合顯示爲 "首選code 2.次選 3.三選 ..."
