@@ -16,6 +16,8 @@ key_binder:
     - { when: always, accept: "Control+Shift+E", toggle: embeded_cands }
 --]]
 
+local index_indicators = {"¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰"}
+
 -- 讀取 schema.yaml 開關設置:
 local option_name = "embeded_cands"
 local embeded_cands = nil
@@ -57,6 +59,7 @@ function embeded_cands_filter.func(input, env)
     local iter, obj = input:iter()
     -- 迭代由翻譯器輸入的候選列表
     local next = iter(obj)
+    local first_stash = true
     while next do
         -- 頁索引自增, 滿足 1 <= index <= page_size
         index = index + 1
@@ -68,21 +71,27 @@ function embeded_cands_filter.func(input, env)
             first_cand = cand:get_genuine()
         end
 
+        -- 帶有暫存串的候選合併同類項
+        local cand_text = cand.text
+        local stash_len = string.len(core.stashed_text)
+        if string.len(core.stashed_text) ~= 0 and string.sub(cand_text, 1, stash_len) == core.stashed_text then
+            if first_stash or index == 1 then
+                first_stash = false
+                cand_text = core.stashed_text.."+"..string.sub(cand_text, stash_len+1)
+            else
+                cand_text = string.sub(cand_text, stash_len+1)
+            end
+        end
+
         -- 修改首選的預编輯文本, 這会作爲内嵌編碼顯示到輸入處
         if index == 1 then
             -- 首選和編碼
-            -- 這裏的if块可以直接改成一個 preedit = preedit..cand.text
-            if string.len(cand.text) <= string.len("四個漢字") then
-                -- 四字以内, "漢字code"
-                preedit = cand.text.." "..core.input_code
-            else
-                -- 四字以上, "code四字以上詞"
-                preedit = core.input_code.." "..cand.text
-            end
-        elseif index <= page_size then
+            preedit = cand_text..core.input_code
+        elseif index <= page_size and string.len(cand_text) > 0 then
             -- 當前頁余下候選項, 形如 "2.漢字"
             -- 組合顯示爲 "首選code 2.次選 3.三選 ..."
-            preedit = preedit.." "..tostring(index).."."..cand.text
+            -- preedit = preedit.." "..tostring(index).."."..cand_text
+            preedit = preedit.." "..index_indicators[index]..cand_text
         end
 
         -- 如果候選有提示且不以 "~" 開頭(补全提示), 識别爲反查提示
