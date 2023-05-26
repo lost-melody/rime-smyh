@@ -90,7 +90,7 @@ local function render_cand(seq, code, stashed, text, comment, digested)
     end
     -- 渲染延迟串與候選文字
     stashed, text, digested = render_stashcand(seq, stashed, text, digested)
-    if text == "" then
+    if seq ~= 1 and text == "" then
         return "", digested
     end
     -- 渲染提示串
