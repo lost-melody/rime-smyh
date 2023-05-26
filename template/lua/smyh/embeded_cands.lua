@@ -21,8 +21,8 @@ local index_indicators = {"¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "
 -- 首選/非首選格式定義
 -- Stash: 延迟候選; Seq: 候選序號; Code: 編碼; 候選: 候選文本; Comment: 候選提示
 local first_format = "Stash[候選Code]Comment"
-local next_format = "StashSeq候選Comment"
-local separator = ""
+local next_format = "Stash候選SeqComment"
+local separator = " "
 
 -- 讀取 schema.yaml 開關設置:
 local option_name = "embeded_cands"

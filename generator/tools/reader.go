@@ -91,8 +91,7 @@ func ReadCharFreq(filepath string) (freqSet map[string]int64, err error) {
 		}
 		line := strings.Split(strings.TrimSpace(line), "\t")
 		char, freqStr := line[0], line[1]
-		freq, _ := strconv.ParseFloat(freqStr, 64)
-		freqSet[char] = int64(freq * 100000000)
+		freqSet[char], _ = strconv.ParseInt(freqStr, 10, 64)
 	}
 
 	return

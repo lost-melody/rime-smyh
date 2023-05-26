@@ -41,7 +41,7 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 					charMetaList = append(charMetaList, &cm)
 				}
 				// 全码后置
-				charMeta.Freq = 100
+				charMeta.Freq = 10000
 				charMeta.Back = true
 				charMetaList = append(charMetaList, &charMeta)
 			} else {
@@ -276,10 +276,11 @@ func calcCodeByDiv(div []string, mappings map[string]string) (full string, code 
 }
 
 func getCodeSupplement(code string) (supp string) {
-	if _, ok := leftHandKeySet[strings.ToLower(code)[1]]; ok {
-		supp = "i"
-	} else {
-		supp = "e"
-	}
+	// if _, ok := leftHandKeySet[strings.ToLower(code)[1]]; ok {
+	// 	supp = "i"
+	// } else {
+	// 	supp = "e"
+	// }
+	supp = string(code[len(code)-1])
 	return
 }
