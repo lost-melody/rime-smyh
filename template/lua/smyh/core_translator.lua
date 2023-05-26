@@ -53,7 +53,7 @@ local function deal_semicolon(code_segs, remain, seg, env, init_input)
         remain = last_code
         env.engine.context:clear()
         env.engine.context:push_input(remain)
-        core.input_code = string.gsub(remain, "[z;]", "-")
+        core.input_code = string.gsub(remain, ";", "-")
 
         local entries = core.dict_lookup(env.base, remain, 100, true)
         if #entries == 0 then
@@ -107,14 +107,14 @@ local function deal_delayed(code_segs, remain, seg, env, init_input)
         local input = last_code..remain
         env.engine.context:clear()
         env.engine.context:push_input(input)
-        core.input_code = string.gsub(input, "[z;]", "-")
+        core.input_code = string.gsub(input, ";", "-")
     else
         -- 延遲串小於或等於一, 存之
         core.stashed_text = table.concat(text_list, "")
     end
 
     -- 查詢活動輸入串候選列表
-    core.input_code = remain
+    core.input_code = string.gsub(remain, ";", "-")
     local entries = core.dict_lookup(env.base, remain, 100-#full_entries, true)
     if #entries == 0 then
         table.insert(entries, {text=remain, comment=""})
@@ -138,17 +138,19 @@ local function deal_delayed(code_segs, remain, seg, env, init_input)
 end
 
 function translator.func(input, seg, env)
-    core.input_code = string.gsub(input, "[z;]", "-")
+    core.input_code = ""
     core.stashed_text = ""
 
-    if not string.match(input, "^[a-z;]*$") then
+    if not string.match(input, "^[a-z;]*$") or string.match(input, "^[z;]") then
         -- 非吾所願矣
         return
     end
 
+
     -- Z鍵統一變更爲分號
     local init_input = input
     input = string.gsub(input, "z", ";")
+    core.input_code = string.gsub(input, ";", "-")
 
     -- code_segs 是按 "abc"/"a;" 單字全簡碼分組的串列表, 其每個元素都滿足這一條件
     local code_segs, remain = core.get_code_segs(input)
