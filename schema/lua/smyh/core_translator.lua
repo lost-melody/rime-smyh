@@ -95,14 +95,14 @@ local function deal_delayed(code_segs, remain, seg, env, init_input)
     end
 
     -- 查詢分詞串暫存值
-    local stashed_text = ""
+    core.stashed_text = ""
     local text_list, last_code = core.query_cand_list(env.base, code_segs)
     if #text_list > 1 and #full_entries == 0 then
         -- 延遲串大於一, 全碼无候選, 頂之
         -- ["電動", "機"] -> commit "電動", ["機"]
         env.engine:commit_text(table.concat(text_list, "", 1, #text_list-1))
         -- ["機"] -> stash "機"
-        stashed_text = text_list[#text_list]
+        core.stashed_text = text_list[#text_list]
 
         -- 處理頂字
         local input = last_code..remain
@@ -111,10 +111,11 @@ local function deal_delayed(code_segs, remain, seg, env, init_input)
         core.input_code = string.gsub(input, "[z;]", "-")
     else
         -- 延遲串小於或等於一, 存之
-        stashed_text = table.concat(text_list, "")
+        core.stashed_text = table.concat(text_list, "")
     end
 
     -- 查詢活動輸入串候選列表
+    core.input_code = remain
     local entries = core.dict_lookup(env.base, remain, 100-#full_entries, true)
     if #entries == 0 then
         table.insert(entries, {text=remain, comment=""})
@@ -128,7 +129,7 @@ local function deal_delayed(code_segs, remain, seg, env, init_input)
         yield(Candidate("table", seg.start, seg._end, entry.text, entry.comment))
     end
     for _, entry in ipairs(entries) do
-        yield(Candidate("table", seg.start, seg._end, stashed_text..entry.text, entry.comment))
+        yield(Candidate("table", seg.start, seg._end, core.stashed_text..entry.text, entry.comment))
     end
 
     -- 唯一候選添加占位

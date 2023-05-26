@@ -2,8 +2,8 @@ local core = {}
 
 -- 由translator記録輸入串, 傳遞給filter
 core.input_code = ''
--- 由translator計算施法提示, 傳遞給filter
-core.pass_comment = ''
+-- 由translator計算暫存串, 傳遞給filter
+core.stashed_text = ''
 
 -- ######## 工具函数 ########
 
