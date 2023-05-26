@@ -71,39 +71,42 @@ function embeded_cands_filter.func(input, env)
             first_cand = cand:get_genuine()
         end
 
+        -- 活動輸入串
+        local input_code = ""
+        if string.len(core.input_code) == 0 then
+            input_code = cand.preedit
+        else
+            input_code = core.input_code
+        end
+
         -- 帶有暫存串的候選合併同類項
         local cand_text = cand.text
         local stash_len = string.len(core.stashed_text)
         if string.len(core.stashed_text) ~= 0 and string.sub(cand_text, 1, stash_len) == core.stashed_text then
-            if first_stash or index == 1 then
+            if index == 1 then
                 first_stash = false
-                cand_text = core.stashed_text.."."..string.sub(cand_text, stash_len+1)
+                -- "iwl"+"宇浩" => "宇[浩iwl]"
+                preedit = core.stashed_text.."["..string.sub(cand_text, stash_len+1)..input_code.."]"
+            elseif first_stash then
+                first_stash = false
+                -- "kjr"+"時間,峙沓" => "[時間kjr][峙]²沓"
+                preedit = preedit.."["..core.stashed_text.."]"..index_indicators[index]..string.sub(cand_text, stash_len+1)
             else
-                cand_text = string.sub(cand_text, stash_len+1)
+                -- "kjr"+"時間,峙沓,峙間" => "[時間kjr][峙]²沓³間"
+                preedit = preedit..index_indicators[index]..string.sub(cand_text, stash_len+1)
             end
-        end
-
-        -- 修改首選的預编輯文本, 這会作爲内嵌編碼顯示到輸入處
-        if index == 1 then
-            -- 首選和編碼
-            if string.len(core.input_code) == 0 then
-                preedit = cand_text.." "..cand.preedit
-            else
-                preedit = cand_text.." "..core.input_code
+        else
+            if index == 1 then
+                -- "kjr"+"時間" => "[時間kjr]"
+                preedit = "["..cand_text..input_code.."]"
+            elseif string.len(cand_text) > 0 then
+                -- "kjr"+"沓,間" => "[沓kjr]²間"
+                preedit = preedit..index_indicators[index]..cand_text
             end
-        elseif index <= page_size and string.len(cand_text) > 0 then
-            -- 當前頁余下候選項, 形如 "2.漢字"
-            -- 組合顯示爲 "首選code 2.次選 3.三選 ..."
-            -- preedit = preedit.." "..tostring(index).."."..cand_text
-            preedit = preedit.." "..index_indicators[index]..cand_text
         end
 
         -- 如果候選有提示且不以 "~" 開頭(补全提示), 識别爲反查提示
         if string.len(cand.comment) ~= 0 and string.sub(cand.comment, 1, 1) ~= "~" then
-            if index == 1 then
-                -- 首選後額外增加一空格, 以将輸入編碼與反查分隔
-                preedit = preedit.." "
-            end
             preedit = preedit..cand.comment
         end
         -- 存入首選

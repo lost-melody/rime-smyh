@@ -91,7 +91,7 @@ local function deal_delayed(code_segs, remain, seg, env, init_input)
     -- 先查出全串候選列表
     local full_entries = core.dict_lookup(env.base, table.concat(code_segs, "")..remain, 10)
     if #full_entries > 1 then
-        full_entries[2].comment = "[↵]"
+        full_entries[2].comment = "↵"
     end
 
     -- 查詢分詞串暫存值
@@ -120,7 +120,7 @@ local function deal_delayed(code_segs, remain, seg, env, init_input)
         table.insert(entries, {text=remain, comment=""})
     end
     if #full_entries == 1 then
-        entries[1].comment = "[☯]"
+        entries[1].comment = "☯"
     end
 
     -- 送出候選
