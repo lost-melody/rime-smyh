@@ -95,7 +95,6 @@ local function deal_delayed(code_segs, remain, seg, env, init_input)
     end
 
     -- 查詢分詞串暫存值
-    core.stashed_text = ""
     local text_list, last_code = core.query_cand_list(env.base, code_segs)
     if #text_list > 1 and #full_entries == 0 then
         -- 延遲串大於一, 全碼无候選, 頂之
@@ -140,6 +139,8 @@ end
 
 function translator.func(input, seg, env)
     core.input_code = string.gsub(input, "[z;]", "-")
+    core.stashed_text = ""
+
     if not string.match(input, "^[a-z;]*$") then
         -- 非吾所願矣
         return
