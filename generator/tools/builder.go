@@ -130,86 +130,74 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 			phraseChars[i] = charMetaMap[string(char)]
 		}
 
+		commitPhrase := func(current []*types.CharMeta) {
+			// 首選字成詞
+			cPhraseChars := make([]*types.CharMeta, len(current))
+			phrase, cPhrase := "", ""
+			phraseCode, cPhraseCode := "", ""
+			for i := range current {
+				cPhraseChars[i] = codeCharMetaMap[current[i].Code][0]
+				phrase += current[i].Char
+				cPhrase += cPhraseChars[i].Char
+				phraseCode += current[i].Code
+				cPhraseCode += cPhraseChars[i].Code
+			}
+			tip := ""
+			if cFreq, ok := phraseFreqSet[cPhrase]; ok {
+				// 雙首選也是詞
+				backed := false
+				for _, char := range cPhraseChars {
+					if char.Back {
+						// 雙首選存在後置字, 後置之
+						backed = true
+					}
+				}
+				if backed {
+					cFreq = 0
+				}
+				addPhrase(cPhrase, cPhraseCode, "", cFreq)
+			} else {
+				// 雙首選作爲提示詞
+				tip = cPhrase
+			}
+			addPhrase(phrase, phraseCode, tip, freq)
+		}
+
 		for {
 			current := make([]*types.CharMeta, len(phrase))
 			for i := range charIndexes {
 				current[i] = phraseChars[i][charIndexes[i]]
 			}
 
-			// 是否需要選重
-			needSel := false
-
-			switch len(current) {
-			case 2:
-				// 二字詞
-				fs, ss := current[0].Sel != 0, current[1].Sel != 0
-				if fs || ss {
-					needSel = true
-				}
-			case 3:
-				// 三字詞
-				fs, ss, ts := current[0].Sel != 0, current[1].Sel != 0, current[2].Sel != 0
-				if fs {
-					// 首字選重
-					needSel = true
-					if !ts {
-						// 末字不選重
-						current = current[:2]
-					}
-				} else if ss {
-					// 次字選重
-					needSel = true
-					if _, ok := phraseFreqSet[current[0].Char+current[1].Char]; ok {
-						// 若有前二字詞, 則需組首字
-						if !ts {
-							// 不組末字
-							current = current[:2]
-						}
-					} else {
-						// 不組之
-						current = current[1:]
-					}
-				} else if ts {
-					// 末字選重
-					needSel = true
-					// 不組首字
-					current = current[1:]
-				}
-			default:
-			}
-
-			// 需要選重, 即需要組詞
-			if needSel {
-				// 首選字成詞
-				cPhraseChars := make([]*types.CharMeta, len(current))
-				phrase, cPhrase := "", ""
-				phraseCode, cPhraseCode := "", ""
-				for i := range current {
-					cPhraseChars[i] = codeCharMetaMap[current[i].Code][0]
-					phrase += current[i].Char
-					cPhrase += cPhraseChars[i].Char
-					phraseCode += current[i].Code
-					cPhraseCode += cPhraseChars[i].Code
-				}
-				tip := ""
-				if cFreq, ok := phraseFreqSet[cPhrase]; ok {
-					// 雙首選也是詞
-					backed := false
-					for _, char := range cPhraseChars {
-						if char.Back {
-							// 雙首選存在後置字, 後置之
-							backed = true
+			// 雙指針滑動窗口
+			for i, j := 0, 1; j < len(current); {
+				if current[i].Sel != 0 {
+					if i-1 >= 0 {
+						if _, ok := phraseFreqSet[current[i-1].Char+current[i].Char]; ok {
+							// 根[据], 根[据]地; 而不是 根[据], [据]地
+							i, j = i-1, j-1
 						}
 					}
-					if backed {
-						cFreq = 0
+					// [電]力
+					commitPhrase(current[i : j+1])
+					if current[j].Sel != 0 {
+						for j++; j < len(current) && current[j].Sel != 0; j++ {
+							// [電]動[機], [電]動[機][器], 採[集][器]
+							commitPhrase(current[i : j+1])
+						}
+						i, j = j, j+1
+						continue
+					} else if j+1 == len(current)-1 && current[j+1].Sel != 0 {
+						// [七]年[级]
+						commitPhrase(current[i:])
+						break
 					}
-					addPhrase(cPhrase, cPhraseCode, "", cFreq)
-				} else {
-					// 雙首選作爲提示詞
-					tip = cPhrase
+				} else if j == len(current)-1 && current[j].Sel != 0 {
+					// 机[器]
+					commitPhrase(current[i:])
+					break
 				}
-				addPhrase(phrase, phraseCode, tip, freq)
+				i, j = i+1, j+1
 			}
 
 			done := false
