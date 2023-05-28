@@ -473,7 +473,6 @@ columns:
 匕首	ri;
 香味	rj;
 独立	rk;
-程度	rl;
 外面	rm;
 向前	rn;
 往往	ro;
@@ -15109,6 +15108,7 @@ columns:
 爂	rku	3
 汆	rkv	182
 臖	rkw	0
+和	rl;	6252031
 玁	rle	7
 程	rlg	590619
 徎	rlg	1
@@ -15121,8 +15121,8 @@ columns:
 种	rln	2653924
 狆	rln	0
 积	rlt	188812
-和	rlv	6252031
 名	rlv	1804559
+和	rlv	10000
 狷	rlw	372
 惒	rly	0
 衢	rma	2011
