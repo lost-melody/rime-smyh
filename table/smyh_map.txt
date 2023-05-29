@@ -257,8 +257,8 @@ Rj	臼
 Re	舌
 Qo	舟
 Yk	豸
-We	身
-We	身
+Wm	身
+Wm	身
 Wj	金
 Wj	金
 Tj	钅
