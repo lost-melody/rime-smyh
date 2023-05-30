@@ -219,6 +219,7 @@ Ks	上
 Ks	丄
 Ks	上
 Mi	且
+Kk	业
 Kf	冂
 Kf	{雋下}
 Kf	{冂丶}
@@ -274,7 +275,7 @@ Ne	黑
 Jm	黽
 Jm	{龜下}
 Mc	齒
-Nd	龰
+Nf	龰
 Bu	{鼠下}
 Bc	丑
 Vj	乃
