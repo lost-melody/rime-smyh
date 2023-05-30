@@ -101,7 +101,10 @@ core.query_cand_list = function(mem, code_segs, skipfull)
                 elseif viewport == index then
                     -- 最小viewport无候選, 返回
                     -- return cand_list, code
-                    table.insert(cand_list, code)
+                    -- 最小viewport無候選, 以編碼爲候選
+                    -- table.insert(cand_list, code)
+                    -- 最小viewport無候選, 以空串作爲候選
+                    table.insert(cand_list, "")
                     index = viewport + 1
                     break
                 end

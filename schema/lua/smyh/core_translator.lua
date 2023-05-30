@@ -117,7 +117,10 @@ local function deal_delayed(code_segs, remain, seg, env, init_input)
     core.input_code = string.gsub(remain, ";", "-")
     local entries = core.dict_lookup(env.base, remain, 100-#full_entries, true)
     if #entries == 0 then
-        table.insert(entries, {text=remain, comment=""})
+        -- 以原編碼爲空碼候選
+        -- table.insert(entries, {text=remain, comment=""})
+        -- 以空串爲空碼候選
+        table.insert(entries, {text="", comment=""})
     end
     if #full_entries == 1 then
         entries[1].comment = "☯"
