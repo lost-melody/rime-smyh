@@ -14,7 +14,7 @@ columns:
 
 ...
 
-把握	a;;
+可以	a;;
 对于	b;;
 好像	c;;
 不知道	d;;
@@ -50,7 +50,7 @@ columns:
 接受	ai;
 提高	aj;
 下来	ak;
-可以	al;
+事情	al;
 东西	am;
 捉住	an;
 按照	ao;
@@ -266,7 +266,6 @@ columns:
 学习	iy;
 时候	ja;
 照片	jb;
-男女老少	jc;
 岩石	jd;
 暖和	je;
 果然	jf;
@@ -274,10 +273,9 @@ columns:
 晴朗	jh;
 暗示	ji;
 晶莹	jj;
-岗位	jk;
+显然	jk;
 影响力	jl;
 晃动	jm;
-显然	jn;
 影响	jo;
 崆峒	jp;
 昨天	jq;
@@ -299,7 +297,7 @@ columns:
 水平	kh;
 赔偿	ki;
 螺旋	kj;
-婴儿	kk;
+业务	kk;
 蜗牛	kl;
 叔叔	km;
 螳螂	kn;
@@ -343,14 +341,12 @@ columns:
 置换	md;
 睡觉	me;
 幅度	mf;
-虐待	mg;
 光线	mh;
 瞳孔	mi;
 桌面	mj;
 帽子	mk;
 战争	ml;
 帖子	mm;
-虚伪	mn;
 罚款	mo;
 虔诚	mp;
 少数	mq;
@@ -382,7 +378,7 @@ columns:
 此外	nr;
 尚且	ns;
 掌握	nt;
-业务	nu;
+圈子	nu;
 足以	nv;
 肯定	nw;
 躍居	nx;
@@ -401,7 +397,7 @@ columns:
 就是	ol;
 市场	om;
 颤抖	on;
-房子	oo;
+议论	oo;
 谜语	op;
 许多	oq;
 它们	or;
@@ -543,13 +539,11 @@ columns:
 腐朽	ue;
 差别	uf;
 关系	ug;
-美丽	uh;
 应该	ui;
 单位	uj;
-神经	uk;
+普通	uk;
 总是	ul;
 盲目	um;
-普遍	un;
 火车	uo;
 熔点	up;
 炸弹	uq;
@@ -661,7 +655,7 @@ columns:
 性格	yw;
 争斗	yx;
 恰当	yy;
-把	a;	3798288
+可	a;	7069176
 攝	aaa	28
 聶	aaa	3
 摄	aab	80547
@@ -729,7 +723,7 @@ columns:
 摨	abw	0
 掘	abx	26017
 抿	aca	21329
-把	acb	10000
+把	acb	3798288
 耶	acf	100191
 揉	acf	67835
 邷	acf	3
@@ -1053,8 +1047,8 @@ columns:
 拀	alq	0
 职	alt	326699
 抧	alt	5
-可	alv	7069176
 扣	alv	96155
+可	alv	10000
 捐	alw	26418
 事	alx	4729336
 拐	alx	69575
