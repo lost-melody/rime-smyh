@@ -123,6 +123,10 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 	}
 	// 決定是否加詞
 	dealPhrase := func(phrase []rune, freq int64) {
+		if len(phrase) < 2 || len(phrase) > 4 {
+			return
+		}
+
 		phraseChars := make([][]*types.CharMeta, len(phrase))
 		// 進位加法器記録下標, 詞語各字的各編碼笛卡爾積
 		charIndexes := make([]int, len(phrase))
