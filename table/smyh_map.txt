@@ -96,6 +96,7 @@ Oi	亥
 Pi	亦
 Oo	宀
 Oo	亠
+Oo	{齊頭}
 Uu	广
 Ie	户
 Ie	戸
@@ -219,7 +220,7 @@ Ks	上
 Ks	丄
 Ks	上
 Mi	且
-Kk	业
+Ki	业
 Kf	冂
 Kf	{雋下}
 Kf	{冂丶}
