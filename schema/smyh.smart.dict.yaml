@@ -252,7 +252,7 @@ encoder:
 授意	aebijy
 授时	aebjac
 授時	aebjha
-授业	aebkke
+授业	aebkie
 授業	aebkut
 授勋	aeblkx
 援助	aebmxk
@@ -723,7 +723,6 @@ encoder:
 可按	alvaoc
 可擦	alvaoh
 可控	alvapf
-可恶	alvauy
 可掬	alvawp
 可击	alvaxg
 可恥	alvayi
@@ -764,6 +763,7 @@ encoder:
 可查	alvfjf
 可惡	alvfjy
 可救	alvfke
+可恶	alvfky
 可想	alvfmy
 可巧	alvfsk
 可轉	alvgga
@@ -1403,21 +1403,13 @@ encoder:
 擲地	auch;
 擲地	auchcy
 擲千	aucwke
-撇下	aueake
-撇开	auefsj
-撇開	auekfs
-亚迪	auekpd
-撇嘴	auelnt
 搓揉	aufacf
 联谊	augoom
 联调	augowl
 联袂	augpbt
-晋级	aujvvo
 掂掇	aulabb
 搪塞	aulosh
 搪瓷	aulsea
-严冬	auqese
-严酷	auqgwl
 拦挡	ausamx
 拦阻	auscmi
 拦截	ausdgw
@@ -1475,11 +1467,6 @@ encoder:
 撈針	auxwdi
 撈錢	auxwgg
 撈月	auxwye
-聪慧	auyddy
-恶浪	auyiov
-聪明	auyjwy
-聪目	auymfi
-聪敏	auyqbe
 聪颖	auyrrk
 扔棄	avjovh
 扔進	avjwpd
@@ -2092,7 +2079,7 @@ encoder:
 紂為虐	bacowwmxx
 对弈	bacpsj
 对着	bacumf
-縉紳	bajbke
+純樸	baxfkg
 純淨	baxiev
 純貞	baxmmb
 純鋼	baxwkj
@@ -2238,6 +2225,8 @@ encoder:
 彙集	bffwfv
 經售	bffwlv
 經銷	bffwmw
+縉紳	bfjbke
+縉雲	bfjdsv
 剝下	bfmake
 剝掉	bfmamj
 剝奪	bfmgwa
@@ -2301,6 +2290,7 @@ encoder:
 練出	bfuxxg
 登出	bfuxxg
 緬懷	bgiyor
+綺麗	bglfki
 轡頭	bglflm
 綺夢	bglsmr
 繚亂	bgmebx
@@ -2813,6 +2803,7 @@ encoder:
 維生	bwiwgi
 难懂	bwiysf
 难写	bwiysf
+絢麗	bwjfki
 綢帶	bwlsfm
 約佔	bwoeml
 約數	bwolde
@@ -3186,7 +3177,7 @@ encoder:
 務正業	cexfnikut
 務工	cexfoe
 務農	cexkss
-務虚	cexmkk
+務虚	cexmki
 務虛	cexmxf
 務實	cexobm
 務空	cexpfo
@@ -3263,6 +3254,7 @@ encoder:
 隔閡	cfnkoi
 隔別	cfnlwm
 隔着	cfnumf
+妍麗	cfsfki
 柔媚	cfvcbm
 柔婉	cfvcov
 柔軟	cfvgei
@@ -3387,6 +3379,7 @@ encoder:
 如炬	clvugb
 如廁	clvumm
 如飴	clvyvl
+娟麗	clwfki
 恕難	clysfw
 阻挠	cmiaah
 阻援	cmiaeb
@@ -3428,6 +3421,7 @@ encoder:
 阻力	cmixke
 隙間	cmmkjr
 妙傳	cmqega
+妙麗	cmqfki
 妙玉	cmqgod
 妙齡	cmqmtb
 妙筆	cmqqxa
@@ -3522,6 +3516,7 @@ encoder:
 婉约	covvwo
 婉然	covw;
 婉然	covwsu
+姣麗	cowfki
 違例	cpdedm
 違規	cpdgmx
 違和	cpdrlv
@@ -3709,7 +3704,7 @@ encoder:
 陰界	ctvjtt
 陰間	ctvkjr
 陰門	ctvkne
-陰虚	ctvmkk
+陰虚	ctvmki
 陰虛	ctvmxf
 陰跌	ctvnqg
 陰宅	ctvoqa
@@ -4080,7 +4075,6 @@ encoder:
 碼子	ddmvke
 碼錶	ddmwhr
 硒鼓	ddxhlb
-慧聪	ddyauy
 慧機	ddyfvt
 駙馬	deadme
 覈價	deeedm
@@ -4302,6 +4296,7 @@ encoder:
 載運	dggygp
 载器	dghlll
 古拙	dgiaxx
+古樸	dgifkg
 古時	dgijha
 古训	dgioqc
 古迹	dgippd
@@ -4356,8 +4351,8 @@ encoder:
 騎警	dglswu
 騎手	dgltue
 騎着	dglu;
-驅並	dglukk
-驅並進	dglukkwpd
+驅並	dgluki
+驅並進	dglukiwpd
 騎着	dglumf
 驅護	dglusb
 驅護艦	dglusbqsm
@@ -4570,6 +4565,7 @@ encoder:
 百聯	djravx
 百媚	djrcbm
 百貨	djrerm
+百麗	djrfki
 百曉	djrjhh
 百閲	djrkuq
 百業	djrkut
@@ -4998,6 +4994,7 @@ encoder:
 馬蜂	dmeked
 馬甲	dmekje
 馬由	dmekoe
+馬由韁	dmekoegfj
 馬里	dmekse
 馬里奧	dmekserqg
 馬上	dmeksi
@@ -6173,6 +6170,7 @@ encoder:
 僑眷	eelugm
 僑鄉	eelvqc
 僑胞	eelwwc
+質樸	eemfkg
 質數	eemlde
 質效	eemote
 質監	eemsqm
@@ -6213,6 +6211,7 @@ encoder:
 后宫	efloll
 后效	eflote
 后街	eflrha
+俨如	efqclv
 乒协	efqdxt
 乒協	efqdxx
 乒乓	efqefo
@@ -6222,6 +6221,8 @@ encoder:
 乒坛	efqhsv
 乒赛	efqosk
 乒賽	efqosm
+俨然	efqw;
+俨然	efqwsu
 倆棗	efrfkk
 彩排	eftali
 彩擴	eftaut
@@ -6266,7 +6267,7 @@ encoder:
 彩礼	efthxi
 彩壳	efthyq
 彩照	eftjbu
-彩显	eftjkk
+彩显	eftjki
 彩顯	eftjvm
 彩贝	eftkbi
 彩电	eftkdi
@@ -6355,7 +6356,7 @@ encoder:
 休学	efviyv
 采暖	efvjeb
 采景	efvjom
-休业	efvkke
+休业	efvkie
 休業	efvkut
 采购	efvkwv
 休閒	efvkwy
@@ -6623,6 +6624,7 @@ encoder:
 傲視羣	ehehmxxqu
 佳績	ehhbhm
 僥倖	ehhehd
+佳麗	ehhfki
 佳構	ehhfsh
 佳釀	ehhgor
 佳節	ehhqxx
@@ -6836,6 +6838,7 @@ encoder:
 俱厲	emtssk
 俏媚	emwcbm
 俏貨	emwerm
+俏麗	emwfki
 俏銷	emwwmw
 覓驢	emxdmm
 覓句	emxwlv
@@ -7107,6 +7110,7 @@ encoder:
 倾情	erkyhw
 倾心	erkyie
 倾角	erkytn
+儉樸	erlfkg
 貨可	erma;
 傾聽	ermagy
 貨損	ermalm
@@ -7584,6 +7588,7 @@ encoder:
 併攏	eusaim
 併吞	eusfgl
 併購	eusmsh
+俊麗	evefki
 俊暉	evejyg
 俊晖	evejyh
 樂陵	evfche
@@ -7806,7 +7811,7 @@ encoder:
 受洗	eybiwq
 受累	eybjbs
 受电	eybkdi
-受业	eybkke
+受业	eybkie
 受贿	eybksw
 受業	eybkut
 受骂	eybllx
@@ -8051,7 +8056,6 @@ encoder:
 柯夢	falsmr
 盂縣	fammmb
 盂县	fammvv
-桠杈	faufbo
 于衷	fauolr
 于谐	fauore
 于謙	fauuut
@@ -8830,6 +8834,30 @@ encoder:
 救難	fkesfw
 救護	fkeusb
 樸拙	fkgaxx
+樸樸	fkgfkg
+樸素	fkghbs
+樸雅	fkghwi
+樸實	fkgobm
+樸厚	fkgsjv
+樸歸	fkgynm
+麗絲	fkibbs
+麗娜	fkicvc
+麗質	fkieem
+麗珠	fkigwt
+麗塔	fkihsy
+麗雅	fkihwi
+麗江	fkiifo
+麗影	fkijot
+麗日	fkijri
+亚迪	fkikpd
+麗水	fkikvi
+麗風	fkirfi
+麗風和	fkirfirlv
+麗莎	fkisiq
+麗人	fkitei
+麗舍	fkithl
+麗君	fkixql
+晋级	fkjvvo
 棗紅	fkkbfo
 棗陽	fkkcjt
 棗樹	fkkfha
@@ -8862,6 +8890,8 @@ encoder:
 求告	fkowlv
 求售	fkowlv
 求勝	fkowux
+严冬	fkqese
+严酷	fkqgwl
 两可	fktalv
 丙丁	fktane
 丙綸	fktbtn
@@ -8884,6 +8914,7 @@ encoder:
 两级	fktvvo
 两集	fktwfv
 两句	fktwlv
+恶浪	fkyiov
 枴棒	flbfga
 枴棍	flbfjr
 枴杖	flbfso
@@ -9008,8 +9039,8 @@ encoder:
 頭着糞	flmu;pjt
 頭鷹	flmuer
 賴床	flmufv
-頭並	flmukk
-頭並進	flmukkwpd
+頭並	flmuki
+頭並進	flmukiwpd
 頭爛	flmuku
 頭着	flmumf
 賴着	flmumf
@@ -9153,7 +9184,6 @@ encoder:
 相慶	fmfive
 相顧	fmfiwm
 相間	fmfkjr
-相觑	fmfmkk
 相覷	fmfmkm
 相冊	fmfnci
 相當	fmfnjt
@@ -9721,6 +9751,7 @@ encoder:
 晉謁	fvjujx
 李維	fvkbwi
 李東	fvkfjr
+李麗	fvkfki
 李靖	fvkihw
 李曉	fvkjhh
 李詠	fvkuok
@@ -10078,6 +10109,7 @@ encoder:
 奇耻	galani
 奇恥	galayi
 奇袭	galdqr
+奇麗	galfki
 奇峰	galjed
 奇峯	galjed
 奇數	gallde
@@ -10509,8 +10541,10 @@ encoder:
 玩伴	gfheua
 玩酷	gfhgwl
 玩着	gfhumf
+韁繩	gfjbjm
 輻輳	gfjggg
 輻照	gfjjbu
+韁利	gfjrmd
 輻射	gfjwac
 球隊	gfocud
 球儀	gfoeug
@@ -10524,6 +10558,7 @@ encoder:
 式微	gforfq
 球莖	gfosff
 式子	gfovke
+瓠子	gfqvke
 夸耀	gfsmhw
 輔機	gfufvt
 輔幣	gfuumm
@@ -10613,6 +10648,7 @@ encoder:
 春麥	gjrdeh
 春麪	gjrdev
 春耕	gjrdtt
+春麗	gjrfki
 春蠶	gjrgqk
 春麦	gjrheh
 春潮	gjridw
@@ -10953,7 +10989,6 @@ encoder:
 連拍	gpdaeb
 連接	gpdaic
 連接數	gpdaiclde
-达聪	gpdauy
 連綴	gpdbbb
 連貫	gpdbdm
 連線	gpdbek
@@ -11106,7 +11141,6 @@ encoder:
 戒掉	gsjamj
 弄掉	gsjamj
 戒指	gsjarj
-戒严	gsjauq
 弄瓦	gsjawi
 戒刀	gsjbdi
 醋劲	gsjbfx
@@ -11119,6 +11153,7 @@ encoder:
 戒备	gsjejt
 戒條	gsjenf
 戒備	gsjest
+戒严	gsjfkq
 醋勁	gsjfvx
 醋酸	gsjgve
 戒毒	gsjhbm
@@ -11388,6 +11423,7 @@ encoder:
 醜女	gwucne
 醜化	gwueri
 醜惡	gwufjy
+瑰麗	gwufki
 醜相	gwufmf
 醜樣	gwufuk
 醜星	gwujwg
@@ -11558,6 +11594,7 @@ encoder:
 毒枭	hbmyfv
 素描	hbsasj
 素雞	hbsevw
+素樸	hbsfkg
 素淨	hbsiev
 素數	hbslde
 素顏	hbspsm
@@ -11875,9 +11912,9 @@ encoder:
 幫腔	hhmwpf
 幫兇	hhmwxq
 幫忙	hhmyuw
-圭亚	hhtaue
 社聯	hhtavx
 圭亞	hhtfja
+圭亚	hhtfki
 社區	hhtgll
 圭臬	hhttfv
 社群	hhtxqu
@@ -12668,6 +12705,7 @@ encoder:
 堆成	hwidvi
 堆栈	hwiffg
 堆棧	hwifgg
+雅麗	hwifki
 堆場	hwihjt
 堆垛	hwihqf
 堆场	hwihvt
@@ -13593,6 +13631,7 @@ encoder:
 清掃	ihwaxm
 清偿	ihwenv
 清檯	ihwfhh
+清麗	ihwfki
 清规	ihwgkx
 清规戒	ihwgkxgsj
 清規	ihwgmx
@@ -13812,6 +13851,7 @@ encoder:
 韵母	ijsbme
 汕尾	ijsbrm
 韵白	ijsebi
+端麗	ijsfki
 汕頭	ijsflm
 端機	ijsfvt
 汕大	ijsg;
@@ -14368,6 +14408,7 @@ encoder:
 流馬	ioqdme
 流彩	ioqeft
 流傳	ioqega
+流麗	ioqfki
 流式	ioqgfo
 流連	ioqgpd
 流淚	ioqiis
@@ -15252,6 +15293,7 @@ encoder:
 照護	jbuusb
 酆都	jdchjc
 岩鹽	jdhsqm
+豔麗	jdmfki
 巔峰	jdmjed
 巔峯	jdmjed
 豔慕	jdmsjo
@@ -15548,6 +15590,12 @@ encoder:
 昌鱼	jjrqye
 崑腔	jjrwpf
 映機	jkgfvt
+显式	jkigfo
+显赫	jkihtt
+显耀	jkimhw
+显豁	jkiodl
+显证	jkiofn
+显效	jkiote
 崗石	jkjdhe
 崗位	jkjeii
 崗樓	jkjflc
@@ -15555,12 +15603,6 @@ encoder:
 崗哨	jkjlmw
 崗亭	jkjola
 崗前	jkjuwm
-显式	jkkgfo
-显赫	jkkhtt
-显耀	jkkmhw
-显豁	jkkodl
-显证	jkkofn
-显效	jkkote
 巖灘	jleisw
 曼聯	jmbavx
 曼玉	jmbgod
@@ -15608,6 +15650,7 @@ encoder:
 昇華	jqsshs
 日趋	jridyx
 日貨	jrierm
+日麗	jrifki
 日頭	jriflm
 日珥	jrigar
 日式	jrigfo
@@ -15744,6 +15787,7 @@ encoder:
 顯榮	jvmuuf
 幽隱	jvvcey
 幽婉	jvvcov
+幽麗	jvvfki
 幽静	jvvhwv
 幽靜	jvvhwv
 幽閉	jvvkaq
@@ -15785,6 +15829,7 @@ encoder:
 明碼標	jwyddmfdh
 明碼標價	jwyddmfdhedm
 明傳	jwyega
+明麗	jwyfki
 明枪	jwyftv
 明灭	jwyfuo
 明灭灭	jwyfuofuo
@@ -16084,6 +16129,9 @@ encoder:
 閨怨	khhrvy
 赌注	khjiog
 蚜蟲	khykkk
+业证	kieofn
+业街	kierha
+业级	kievvo
 闇弱	kijvss
 赔偿	kilenv
 闊別	kirlwm
@@ -16145,9 +16193,6 @@ encoder:
 閩菜	kkcsef
 閩北	kkcuri
 閩台	kkcvlv
-业证	kkeofn
-业街	kkerha
-业级	kkevvo
 閘閥	kkjkeg
 蟲牙	kkkhye
 蟲洞	kkkikl
@@ -16225,13 +16270,13 @@ encoder:
 蛟河	kowial
 蛟龍	kowiwm
 蝼蛄	kpckdg
-迪亚	kpdaue
 迪瓦	kpdawi
 迪斯	kpddej
 迪南	kpddkd
 遇袭	kpddqr
 迪克	kpddqr
 迪亞	kpdfja
+迪亚	kpdfki
 迪士	kpdhfi
 迪沙	kpdimq
 迪慶	kpdive
@@ -17911,7 +17956,6 @@ encoder:
 小獸	m;lls
 小別	m;lwm
 小販	m;meb
-小觑	m;mkk
 小覷	m;mkm
 小鬧	m;nom
 小旗	m;oqd
@@ -17969,7 +18013,6 @@ encoder:
 小獸	maills
 小別	mailwm
 小販	maimeb
-小觑	maimkk
 小覷	maimkm
 小鬧	mainom
 小旗	maioqd
@@ -18341,17 +18384,17 @@ encoder:
 鸕鷀	mjruvr
 膚淺	mjwigg
 膚泛	mjwiqp
-虚僞	mkkeew
-虚傳	mkkega
-虚構	mkkfsh
-虚渺	mkkimq
-虚數	mkklde
-虚衰	mkkolr
-虚妄	mkkucn
-虚誇	mkkugs
-虚設	mkkuqh
-虚榮	mkkuuf
-虚飾	mkkyqm
+虚僞	mkieew
+虚傳	mkiega
+虚構	mkifsh
+虚渺	mkiimq
+虚數	mkilde
+虚衰	mkiolr
+虚妄	mkiucn
+虚誇	mkiugs
+虚設	mkiuqh
+虚榮	mkiuuf
+虚飾	mkiyqm
 帽舌	mkmrei
 體協	mkudxx
 體例	mkuedm
@@ -19733,6 +19776,7 @@ encoder:
 完備	ofhest
 完糧	ofhpjs
 完勝	ofhwux
+富麗	ofjfki
 富農	ofjkss
 富貴	ofjlkm
 富貴逼	ofjlkmflp
@@ -19944,6 +19988,7 @@ encoder:
 永恆	okvysw
 亳州	olaiqc
 亭閣	olakel
+郭麗	olcfki
 郭楞	olcfmo
 郭靖	olcihw
 郭曉	olcjhh
@@ -20021,6 +20066,7 @@ encoder:
 宫廷	ollexn
 高格	ollfel
 高橋	ollfel
+高麗	ollfki
 宫刑	ollfsm
 高墙	ollhdl
 宫墙	ollhdl
@@ -20083,6 +20129,7 @@ encoder:
 京劇	olmmdm
 京廣	olmust
 亮彩	olqeft
+亮麗	olqfki
 亮節	olqqxx
 亮劍	olqrmd
 瓤子	olqvke
@@ -20439,7 +20486,6 @@ encoder:
 宣稱	osjreh
 宣和	osjrlv
 宽打	oskaan
-宽严	oskauq
 宽慰	oskbhy
 宽展	oskbsg
 宽屏	oskbus
@@ -20447,6 +20493,7 @@ encoder:
 宽限	oskcvn
 宽假	oskebb
 宽贷	oskegk
+宽严	oskfkq
 宽松	oskftv
 宽大	oskg;
 宽大	oskgdi
@@ -21491,6 +21538,7 @@ encoder:
 裡頭	pksflm
 裡橫	pksfst
 瘻管	plcqob
+靡麗	plifki
 痱子	plivke
 癌腫	pljwqf
 吝啬	plvdul
@@ -21513,6 +21561,7 @@ encoder:
 米倉	pmetol
 米鋪	pmewfu
 米飯	pmeyeb
+粗樸	pmifkg
 粗涩	pmiibn
 粗澀	pmiibn
 粗淺	pmiigg
@@ -22204,7 +22253,6 @@ encoder:
 迭連	qgpgpd
 迭嶂	qgpjij
 失据	qguabd
-失聪	qguauy
 失馬	qgudme
 失傳	qguega
 失責	qguhmb
@@ -22401,6 +22449,7 @@ encoder:
 竹節	qkeqxx
 簡練	qkjbfu
 簡碼	qkjddm
+簡樸	qkjfkg
 簡況	qkjilq
 簡稱	qkjreh
 簡歷	qkjsrn
@@ -23256,7 +23305,6 @@ encoder:
 風涼	rfiiom
 風浪	rfiiov
 風癱	rfipsw
-風和	rfirlv
 風壓	rfisjh
 風語	rfiufl
 風爐	rfiumm
@@ -23529,6 +23577,7 @@ encoder:
 和暖	rlvjeb
 和景	rlvjom
 和日	rlvjri
+和日麗	rlvjrifki
 和田	rlvjti
 和煦	rlvjwu
 和暢	rlvkjt
@@ -23814,7 +23863,7 @@ encoder:
 衡量	rqajfs
 衝量	rqajfs
 衝上	rqak;
-肄业	rqakke
+肄业	rqakie
 衝上	rqaksi
 肄業	rqakut
 衡器	rqalll
@@ -24167,6 +24216,7 @@ encoder:
 秀媚	rvjcbm
 秀颀	rvjedk
 秀頎	rvjedm
+秀麗	rvjfki
 秀逗	rvjflp
 秀場	rvjhjt
 秀髮	rvjhso
@@ -25270,6 +25320,7 @@ encoder:
 華彩	shseft
 華佗	shseor
 華東	shsfjr
+華麗	shsfki
 華軟	shsgei
 華髮	shshso
 華潤	shsikg
@@ -25471,6 +25522,7 @@ encoder:
 苗寨	sjtosf
 苗疆	sjtvhj
 摹绘	sjtvtv
+厚樸	sjvfkg
 厚谊	sjvoom
 厚顏	sjvpsm
 厚誼	sjvuom
@@ -25522,6 +25574,7 @@ encoder:
 厘頭	sksflm
 黄陵	sktche
 黄页	sktdkb
+黄鹂	sktfky
 黄埔	skthfu
 黄浦	sktifu
 黄蜡	sktksj
@@ -26226,7 +26279,7 @@ encoder:
 敬畏	swejgf
 敬明	swejwy
 敬上	swek;
-敬业	swekke
+敬业	swekie
 敬上	sweksi
 敬赠	swekuj
 敬業	swekut
@@ -26393,11 +26446,11 @@ encoder:
 专横	sxofst
 专刊	sxohmd
 专注	sxoiog
-萧亚	sxtaue
 萧索	sxtdyb
 萧何	sxteal
 萧伯	sxteeb
 萧条	sxtefv
+萧亚	sxtfki
 苏杭	sxtfoq
 苏式	sxtgfo
 萧瑟	sxtggq
@@ -27387,6 +27440,7 @@ encoder:
 父業	twlkut
 父輩	twllgc
 劉備	twmest
+劉麗	twmfki
 劉玉	twmgod
 劉禪	twmhld
 劉濤	twmiha
@@ -27658,6 +27712,7 @@ encoder:
 煩難	udmsfw
 煩着	udmumf
 遂願	udpsem
+誠樸	udvfkg
 誠篤	udvqdm
 誠願	udvsem
 廟號	udwlsm
@@ -27908,6 +27963,7 @@ encoder:
 关天	ugdfgd
 美元	ugdfhw
 庆元	ugdfhw
+美麗	ugdfki
 关机	ugdfqj
 庆功	ugdfxk
 美式	ugdgfo
@@ -28282,17 +28338,17 @@ encoder:
 謂語	ujwufl
 謁見	ujxmxi
 謁拜	ujxtfd
+並可	ukialv
+並聯	ukiavx
+並軌	ukigyf
+並濟	ukiios
+並稱	ukireh
+並蒂	ukisom
+並集	ukiwfv
+並進	ukiwpd
 普測	ukjimm
 普涨	ukjivt
 普賢	ukjsbm
-並可	ukkalv
-並聯	ukkavx
-並軌	ukkgyf
-並濟	ukkios
-並稱	ukkreh
-並蒂	ukksom
-並集	ukkwfv
-並進	ukkwpd
 訥言	uktuai
 爛貨	ukuerm
 爛醉	ukugod
@@ -28492,6 +28548,7 @@ encoder:
 炕頭	uoqflm
 讓賢	uorsbm
 炫彩	uoveft
+炫麗	uovfki
 炫酷	uovgwl
 炫耀	uovmhw
 諄諄	uovuov
@@ -29038,7 +29095,7 @@ encoder:
 廉耻	uutani
 廉恥	uutayi
 廉價	uutedm
-謙虚	uutmkk
+謙虚	uutmki
 謙虛	uutmxf
 謙順	uutqdm
 謙稱	uutreh
@@ -29313,7 +29370,6 @@ encoder:
 敢當	vaenjt
 绕舌	vahrei
 绕着	vahumf
-缙绅	vajvke
 练级	vatvvo
 经受	vbfeyb
 经售	vbfwlv
@@ -29355,6 +29411,8 @@ encoder:
 孑然	vfiw;
 孑然	vfiwsu
 刁鑽	vfiwwm
+缙云	vfjsvv
+缙绅	vfjvke
 缰绳	vfjvlk
 司務	vflcex
 司馬	vfldme
@@ -30419,7 +30477,7 @@ encoder:
 杀软	wfvhei
 杀到	wfvhmd
 集刊	wfvhmd
-集显	wfvjkk
+集显	wfvjki
 集顯	wfvjvm
 集思	wfvjyi
 集邮	wfvkcf
@@ -31278,6 +31336,7 @@ encoder:
 銳不	wtqdue
 銳化	wtqeri
 脫機	wtqfvt
+脫韁	wtqgfj
 脫軌	wtqgyf
 脫髮	wtqhso
 銳增	wtqhuj
