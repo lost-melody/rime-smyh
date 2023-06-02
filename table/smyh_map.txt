@@ -9,8 +9,8 @@ Aj	丌
 Du	不
 Hi	世
 Dn	丰
-Se	二
-Se	⺀
+Si	二
+Si	⺀
 Ah	亍
 Dl	來
 Hw	兀
@@ -94,9 +94,9 @@ Uw	亡
 Uw	{贏頭}
 Oi	亥
 Pi	亦
-Oo	宀
-Oo	亠
-Oo	{齊頭}
+Ob	宀
+Ob	亠
+Ob	{齊頭}
 Uu	广
 Ie	户
 Ie	戸
@@ -109,7 +109,7 @@ Uo	火
 Uo	灬
 Pb	疒
 Px	穴
-Ii	立
+Id	立
 Pm	米
 Ug	羊
 Py	衤
@@ -220,7 +220,7 @@ Ks	上
 Ks	丄
 Ks	上
 Mi	且
-Ki	业
+Kg	业
 Kf	冂
 Kf	{雋下}
 Kf	{冂丶}
@@ -244,7 +244,7 @@ Js	山
 Mv	巾
 Kp	攴
 Jr	日
-Jo	早
+Jd	早
 Je	曰
 Ni	止
 Kv	水
@@ -319,9 +319,9 @@ Cb	巴
 Vo	幺
 Xn	廴
 Vg	弓
-Xx	彐
-Xx	{反彐}
-Xx	肀
+Xl	彐
+Xl	{反彐}
+Xl	肀
 Bm	母
 Bm	{母框}
 Bm	{互中}
@@ -335,7 +335,7 @@ Vs	{纟上}
 Xu	羽
 Xu	习
 Vn	艮
-Cf	阝
+Cj	阝
 Ci	韋
 Ci	{五下}
 Bk	飛
