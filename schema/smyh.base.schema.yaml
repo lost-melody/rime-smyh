@@ -13,4 +13,3 @@ speller:
 
 translator:
   dictionary: smyh.base
-  enable_user_dict: false
