@@ -135,6 +135,13 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 		}
 
 		commitPhrase := func(current []*types.CharMeta) {
+			for _, c := range current {
+				// 若詞中存在後置全碼字, 則不計入詞條
+				if c.Back {
+					return
+				}
+			}
+
 			// 首選字成詞
 			cPhraseChars := make([]*types.CharMeta, len(current))
 			phrase, cPhrase := "", ""
@@ -269,12 +276,14 @@ func calcCodeByDiv(div []string, mappings map[string]string) (full string, code 
 
 func getCodeSupplement(code string) (supp string) {
 	// 使用互擊EI方式
-	if _, ok := leftHandKeySet[strings.ToLower(code)[1]]; ok {
-		supp = "i"
-	} else {
-		supp = "e"
-	}
+	// if _, ok := leftHandKeySet[strings.ToLower(code)[1]]; ok {
+	// 	supp = "i"
+	// } else {
+	// 	supp = "e"
+	// }
 	// 使用雙寫小碼方式
 	// supp = string(code[len(code)-1])
+	// 使用分号
+	supp = ";"
 	return
 }
