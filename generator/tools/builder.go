@@ -135,6 +135,13 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 		}
 
 		commitPhrase := func(current []*types.CharMeta) {
+			for _, c := range current {
+				// 若詞中存在後置全碼字, 則不計入詞條
+				if c.Back {
+					return
+				}
+			}
+
 			// 首選字成詞
 			cPhraseChars := make([]*types.CharMeta, len(current))
 			phrase, cPhrase := "", ""
@@ -276,5 +283,7 @@ func getCodeSupplement(code string) (supp string) {
 	// }
 	// 使用雙寫小碼方式
 	supp = string(code[len(code)-1])
+	// 使用分号
+	// supp = ";"
 	return
 }
