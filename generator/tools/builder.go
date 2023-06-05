@@ -276,14 +276,14 @@ func calcCodeByDiv(div []string, mappings map[string]string) (full string, code 
 
 func getCodeSupplement(code string) (supp string) {
 	// 使用互擊EI方式
-	// if _, ok := leftHandKeySet[strings.ToLower(code)[1]]; ok {
-	// 	supp = "i"
-	// } else {
-	// 	supp = "e"
-	// }
+	if _, ok := leftHandKeySet[strings.ToLower(code)[1]]; ok {
+		supp = "y"
+	} else {
+		supp = "k"
+	}
 	// 使用雙寫小碼方式
 	// supp = string(code[len(code)-1])
 	// 使用分号
-	supp = ";"
+	// supp = ";"
 	return
 }
