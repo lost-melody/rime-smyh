@@ -121,6 +121,25 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 			phraseTipList = append(phraseTipList, &phraseTip)
 		}
 	}
+
+	// 輔表, 用於記錄 "入法" 這類不成詞, 又應比 "乘法" 優先的候選
+	compFreqSet := map[string]int64{}
+	for phrase, freq := range phraseFreqSet {
+		if compFreqSet[phrase] < freq {
+			compFreqSet[phrase] = freq
+		}
+		phrase := []rune(phrase)
+		if len(phrase) == 3 {
+			a, b := string(phrase[:2]), string(phrase[1:])
+			if compFreqSet[a] < freq {
+				compFreqSet[a] = freq
+			}
+			if compFreqSet[b] < freq {
+				compFreqSet[b] = freq
+			}
+		}
+	}
+
 	// 決定是否加詞
 	dealPhrase := func(phrase []rune, freq int64) {
 		if len(phrase) < 2 || len(phrase) > 4 {
@@ -154,7 +173,7 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 				cPhraseCode += cPhraseChars[i].Code
 			}
 			tip := ""
-			if cFreq, ok := phraseFreqSet[cPhrase]; ok {
+			if cFreq, ok := compFreqSet[cPhrase]; ok {
 				// 雙首選也是詞
 				backed := false
 				for _, char := range cPhraseChars {
