@@ -59,6 +59,7 @@ encoder:
 打罵	aanmdm
 打賭	aanmhj
 打鬧	aannom
+打交	aanotw
 打雜	aanotw
 打猎	aanrsj
 打緊	aansbb
@@ -1123,6 +1124,7 @@ encoder:
 换手	aygtuu
 揮手	aygtuu
 換手	aygtuu
+换言	ayguaa
 換言	ayguaa
 揮拳	aygugt
 換炮	ayguwc
@@ -1619,6 +1621,7 @@ encoder:
 縱即	brnxvx
 縱情	brnyhw
 紕漏	brribd
+總經	brybff
 總彙	brybff
 總務	brycex
 總隊	brycud
@@ -2272,6 +2275,7 @@ encoder:
 隨形	cspfst
 隨機	cspfvt
 隨機應	cspfvtuey
+随大	cspg;
 隨大	cspg;
 隨車	cspgcc
 随地	csph;
@@ -2495,6 +2499,7 @@ encoder:
 不撓	d;ahh
 不耻	d;ani
 不捨	d;atl
+不换	d;ayg
 不換	d;ayg
 不恥	d;ayi
 不妨	d;cog
@@ -3744,6 +3749,8 @@ encoder:
 假意	ebbijy
 白浪	ebbiov
 假日	ebbjrr
+白日	ebbjrr
+白山	ebbjss
 假山	ebbjss
 白蜡	ebbksj
 假冒	ebbksm
@@ -4581,6 +4588,7 @@ encoder:
 作孽	eqmsyv
 作證	eqmubu
 佩服	eqmwxb
+作服	eqmwxb
 傷殘	eqtdgg
 华彩	erdeft
 华佗	erdeor
@@ -5285,6 +5293,7 @@ encoder:
 一連	f;gpd
 一幫	f;hhm
 一場	f;hjt
+一转	f;hso
 一髮	f;hso
 一堆	f;hwi
 一堆堆	f;hwihwi
@@ -5305,6 +5314,7 @@ encoder:
 一別	f;lwm
 一睹	f;mhj
 一審	f;oqj
+一等	f;qha
 一籌	f;qha
 一簣	f;qlm
 一番	f;qpj
@@ -6552,6 +6562,7 @@ encoder:
 大錯	g;wsj
 大勝	g;wux
 大鹏	g;wwy
+大群	g;xqu
 大羣	g;xqu
 大奬	g;xwg
 專職	gacaig
@@ -7426,6 +7437,7 @@ encoder:
 地鋪	h;wfu
 長隊	haacud
 長驅	haadgl
+長白	haaebb
 長假	haaebb
 長辭	haaebo
 長醉	haagod
@@ -8155,6 +8167,7 @@ encoder:
 靜脉	hwvwok
 静物	hwvwwt
 靜物	hwvwwt
+静悄	hwvymw
 靜悄	hwvymw
 青聯	hwyavx
 青黛	hwyegn
@@ -8647,6 +8660,7 @@ encoder:
 潛臺	igjhlh
 潜江	igjifo
 潛江	igjifo
+潜意	igjijy
 潛意	igjijy
 潜流	igjioq
 潛流	igjioq
@@ -8667,7 +8681,9 @@ encoder:
 潛在	igjs;
 潜藏	igjsgs
 潛藏	igjsgs
+潜望	igjuwg
 潛望	igjuwg
+潜台	igjvlv
 潛台	igjvlv
 潜能	igjvwr
 潛能	igjvwr
@@ -9203,6 +9219,7 @@ encoder:
 滾屏	iorbus
 滚雷	iordjt
 滾雷	iordjt
+滚雪	iordxl
 滾雪	iordxl
 滚木	iorfvv
 滾木	iorfvv
@@ -9232,6 +9249,7 @@ encoder:
 滚筒	iorqkl
 滾筒	iorqkl
 滾瓜	iorquu
+滚利	iorrmd
 滾利	iorrmd
 滚蛋	iorvnk
 滾蛋	iorvnk
@@ -10367,12 +10385,13 @@ encoder:
 同齡	kflmtb
 同當	kflnjt
 同党	kflnqr
-同调	kflowl
 同义	kflowl
+同调	kflowl
 同庆	kflugd
 同謀	kflusf
 同归	kfluxl
 同级	kflvvo
+同书	kflvvo
 虹彩	kfoeft
 虹橋	kfofel
 開練	kfsbfu
@@ -11157,6 +11176,7 @@ encoder:
 遗训	lkpoqc
 遺棄	lkpovh
 遣词	lkpovl
+遗症	lkppfn
 遺症	lkppfn
 遗精	lkpphw
 遺精	lkpphw
@@ -11185,6 +11205,7 @@ encoder:
 遺忘	lkpuyi
 遗孤	lkpvqu
 遺孤	lkpvqu
+遗腹	lkpwqe
 遺腹	lkpwqe
 遗物	lkpwwt
 遺物	lkpwwt
@@ -11545,6 +11566,7 @@ encoder:
 小錢	m;wgg
 小腸	m;wjt
 小錯	m;wsj
+小朋	m;wwy
 小鹏	m;wwy
 盯視	manhmx
 盯緊	mansbb
@@ -11772,11 +11794,13 @@ encoder:
 光潤	mhwikg
 光顧	mhwiwm
 耀眼	mhwmvn
+光眼	mhwmvn
 光盘	mhwqmn
 光盤	mhwqqm
 光鮮	mhwtug
 光榮	mhwuuf
 光榮榜	mhwuuffoo
+光蛋	mhwvnk
 光缆	mhwvnk
 賠補	milpfu
 賠錢	milwgg
@@ -13275,6 +13299,7 @@ encoder:
 雜沓	otwkjr
 雜品	otwlll
 交還	otwmfp
+交家	otwods
 雜家	otwods
 交谊	otwoom
 雜交	otwotw
@@ -13428,6 +13453,7 @@ encoder:
 畜產	ovjpsw
 畜養	ovjugv
 字据	ovkabd
+字經	ovkbff
 字彙	ovkbff
 字碼	ovkddm
 字檯	ovkfhh
@@ -14745,6 +14771,7 @@ encoder:
 衞生	rcawgg
 衞生間	rcawggkjr
 衞生巾	rcawggmvv
+衛軍	rcaygc
 衞軍	rcaygc
 委婉	rcncov
 委瑣	rcngmm
@@ -14995,6 +15022,7 @@ encoder:
 刮油	rmdiko
 利時	rmdjha
 劍影	rmdjot
+利品	rmdlll
 利器	rmdlll
 刮器	rmdlll
 刮目	rmdmff
@@ -15226,10 +15254,12 @@ encoder:
 科聯	rsdavx
 科協	rsddxx
 科別	rsdlwm
+科书	rsdvvo
 科级	rsdvvo
 猎取	rsjabu
 猎枪	rsjftv
 猎奇	rsjgal
+猫头	rsjsgd
 猎头	rsjsgd
 猎犬	rsjsqq
 猎人	rsjtee
@@ -15661,6 +15691,7 @@ encoder:
 原價	semedm
 資質	semeem
 原爲	semeww
+原材	semfaq
 資材	semfaq
 資格	semfel
 原本	semffi
@@ -15998,6 +16029,7 @@ encoder:
 荡平	sithue
 蕩平	sithue
 蕩産	sitiqw
+荡山	sitjss
 蕩山	sitjss
 蕩產	sitpsw
 蕩氣	sitqpm
@@ -16902,6 +16934,7 @@ encoder:
 全集	tgnwfv
 全勝	tgnwux
 舒暢	thckjt
+长白	thhebb
 长假	thhebb
 长枪	thhftv
 长醉	thhgod
@@ -17650,6 +17683,7 @@ encoder:
 尊敬	ugaswe
 尊榮	ugauuf
 鄭碼	ugcddm
+郑板	ugcfeb
 鄭板	ugcfeb
 鄭板橋	ugcfebfel
 庫區	ugcgll
@@ -17669,6 +17703,7 @@ encoder:
 关押	ugdakj
 关掉	ugdamj
 关联	ugdaug
+美联	ugdaug
 关己	ugdbjj
 关防	ugdcog
 庆寿	ugddac
@@ -18543,6 +18578,7 @@ encoder:
 归葬	uxlsds
 归原	uxlsem
 归雁	uxlsew
+唐人	uxltee
 归人	uxltee
 归途	uxltfp
 归公	uxltvv
@@ -19040,6 +19076,7 @@ encoder:
 幼托	vxkaqa
 幼女	vxkcnn
 幼体	vxkeff
+绿体	vxkeff
 绿玉	vxkgod
 幼教	vxkhve
 幼童	vxkiks
@@ -20536,6 +20573,7 @@ encoder:
 心迹	y;ppd
 心術	y;rfa
 心狠	y;rvn
+心菜	y;sef
 心藥	y;sef
 心願	y;sem
 心肺	y;wfm
