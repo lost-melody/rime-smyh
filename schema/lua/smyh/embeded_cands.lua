@@ -79,6 +79,11 @@ local function render_comment(comment)
     return comment
 end
 
+local function escape_percent(text)
+    text = string.gsub(text, "%%", "%%%%")
+    return text
+end
+
 -- 渲染單個候選項
 local function render_cand(seq, code, stashed, text, comment, digested)
     local cand = ""
@@ -96,10 +101,10 @@ local function render_cand(seq, code, stashed, text, comment, digested)
     -- 渲染提示串
     comment = render_comment(comment)
     cand = string.gsub(cand, "Seq", index_indicators[seq])
-    cand = string.gsub(cand, "Code", code)
-    cand = string.gsub(cand, "Stash", stashed)
-    cand = string.gsub(cand, "候選", text)
-    cand = string.gsub(cand, "Comment", comment)
+    cand = string.gsub(cand, "Code", escape_percent(code))
+    cand = string.gsub(cand, "Stash", escape_percent(stashed))
+    cand = string.gsub(cand, "候選", escape_percent(text))
+    cand = string.gsub(cand, "Comment", escape_percent(comment))
     return cand, digested
 end
 
