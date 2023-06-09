@@ -142,7 +142,7 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 
 	// 決定是否加詞
 	dealPhrase := func(phrase []rune, freq int64) {
-		if len(phrase) < 2 || len(phrase) > 4 {
+		if len(phrase) < 2 || len(phrase) > 3 {
 			return
 		}
 
