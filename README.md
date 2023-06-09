@@ -13,11 +13,11 @@
         - 女: `女: Cn`, `CnC`.
         - 一: `一: Fi`, `FiF`.
     - 两根字: 首根大码+次根大小码.
-        - 字: `宀子: OoVk`, `OVk`.
+        - 字: `宀子: ObVk`, `OVk`.
         - 配: `酉己: GoBj`, `GBj`.
     - 多根字: 首次末根大码.
         - 的: `白勹丶: EbWyOd`, `EWO`.
-        - 是: `日一龰: JrFiNh`, `JFN`.
+        - 是: `日一龰: JrFiNf`, `JFN`.
 - 简码:
     - 简码分为一简和二简, 由一码或二码后补分号构成, 分号也可以 `z` 键代替.
     - 由于三码中, 二简码长没有收益, 故二简设置较少, 仅为避重而设.
@@ -51,7 +51,8 @@
     "智能选重" 词条收录自官宇简繁词库.
     "外挂词库" 词条收录自官宇简繁词库.
 
-> *Windows* 平臺下需要更新最新的 [librime](https://github.com/rime/librime/releases) 庫,
+> 當前 *Windows* 平臺下, *Weasel 0.15.0* 已更新最新 *librime*, 無須以下配置.
+    *Weasel 0.15.0* 以前的版本, 需要更新最新的 [librime](https://github.com/rime/librime/releases) 庫,
     從而獲取滿足條件的 *librime-lua* 版本.
     在 *小狼毫* 托盤菜單中選擇打開 *程序文件夹* 並 *退出算法服務*,
     然後將下載解壓得到的 *rime.dll* 文件替換進去,
