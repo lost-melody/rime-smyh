@@ -166,7 +166,9 @@ function embeded_cands_filter.func(input, env)
 
         -- 存入候選
         table.insert(page_cands, cand)
-        table.insert(page_rendered, preedit)
+        if #preedit ~= 0 then
+            table.insert(page_rendered, preedit)
+        end
 
         -- 遍歷完一頁候選後, 刷新預編輯文本
         if index == page_size then
