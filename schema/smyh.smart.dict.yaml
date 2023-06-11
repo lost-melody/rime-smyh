@@ -421,7 +421,7 @@ encoder:
 損失	almqgu
 損毁	almrfq
 損毀	almrhq
-損人	almtet
+損人	almt;
 損益	almutm
 职级	altvvo
 扣籃	alvqsm
@@ -742,7 +742,7 @@ encoder:
 捲進	auvwpd
 揹簍	auwqlc
 揹帶	auwsfm
-揹人	auwtet
+揹人	auwt;
 揹包	auwwck
 揹負	auwymb
 撈取	auxabu
@@ -872,8 +872,6 @@ encoder:
 搖錢	awwwgg
 搖鈴	awwwtb
 报偿	axbenv
-报刊	axbhmd
-报到	axbhmd
 报效	axbote
 报关	axbugd
 报验	axbxti
@@ -902,8 +900,8 @@ encoder:
 掃除	axmctf
 掃雷	axmdjt
 掃雪	axmdxl
-掃地	axmh;
 掃毒	axmhbm
+掃地	axmhcy
 掃視	axmhmx
 掃平	axmhue
 掃清	axmihw
@@ -1003,8 +1001,8 @@ encoder:
 換乘	aygrur
 换季	aygrvk
 換季	aygrvk
-换人	aygtet
-換人	aygtet
+换人	aygt;
+換人	aygt;
 换手	aygtut
 揮手	aygtut
 換手	aygtut
@@ -1063,7 +1061,7 @@ encoder:
 抛妻	ayxdxc
 抛开	ayxfsj
 抛球	ayxgfo
-抛到	ayxhmd
+抛到	ayxh;
 抛却	ayxhvx
 抛洒	ayxidx
 抛灑	ayxifi
@@ -1201,8 +1199,8 @@ encoder:
 登機	bfufvt
 練功	bfufxk
 練琴	bfuggv
+練到	bfuh;
 登場	bfuhjt
-練到	bfuhmd
 練達	bfuhup
 登時	bfujha
 練唱	bfuljj
@@ -1564,7 +1562,6 @@ encoder:
 好惨	c;yvt
 好慘	c;yvt
 导致	cacheh
-导刊	cachmd
 民婦	caicxm
 民區	caigll
 民間	caikjr
@@ -1833,7 +1830,7 @@ encoder:
 奸淫	chgiee
 奸詐	chguqm
 陸續	chhbhm
-陸地	chhh;
+陸地	chhhcy
 陸海	chhiqb
 陸沉	chhiyq
 陸戰	chhllg
@@ -1999,8 +1996,8 @@ encoder:
 随大	cspg;
 隨大	cspg;
 隨車	cspgcg
-随地	csph;
-隨地	csph;
+随地	csphcy
+隨地	csphcy
 随喜	csphll
 隨喜	csphll
 随意	cspijy
@@ -2156,7 +2153,7 @@ encoder:
 婦產	cxmpsw
 婦德	cxmrdy
 婦科	cxmrsd
-婦人	cxmtet
+婦人	cxmt;
 婦道	cxmutp
 婦孺	cxmvds
 婦幼	cxmvxk
@@ -2299,7 +2296,7 @@ encoder:
 砍树	deifba
 砍樹	deifha
 砍頭	deiflm
-砍到	deihmd
+砍到	deih;
 砍去	deihvv
 砍光	deimhw
 砍柴	deinrf
@@ -2320,7 +2317,7 @@ encoder:
 驕氣	delqpm
 驕狂	delrgn
 驕恣	delsey
-驕人	deltet
+驕人	delt;
 驕子	delvkv
 麴黴	deprfn
 麪條	devenf
@@ -2386,7 +2383,7 @@ encoder:
 載譽	dggrsu
 載入	dggrur
 載有	dggswy
-載人	dggtet
+載人	dggt;
 載運	dggygp
 载舟	dghqoq
 騎縫	dglbep
@@ -2934,7 +2931,7 @@ encoder:
 駐兵	dogeft
 駐紮	dogfxb
 駐區	doggll
-駐地	dogh;
+駐地	doghcy
 駐滬	dogiic
 駐顔	dogiqm
 駐港	dogisc
@@ -2975,7 +2972,7 @@ encoder:
 逐年	dpdqao
 逐利	dpdrmd
 逐次	dpdsei
-逐个	dpdt;
+逐个	dpdtns
 逐级	dpdvvo
 逐月	dpdwyw
 逐出	dpdx;
@@ -2989,7 +2986,7 @@ encoder:
 袭击	dqraxg
 袭来	dqrfpm
 克難	dqrsfw
-袭人	dqrtet
+袭人	dqrt;
 袭用	dqrtnt
 克強	dqrvvk
 覆電	dredkd
@@ -3039,7 +3036,7 @@ encoder:
 耕耘	dttdtv
 耕作	dtteqm
 趁機	dttfvt
-耕地	dtth;
+耕地	dtthcy
 耕者	dtthjr
 耕田	dttjtj
 耕读	dttodg
@@ -3145,7 +3142,6 @@ encoder:
 胡来	dwyfpm
 胡桃	dwyfqs
 胡杨	dwyfvt
-期刊	dwyhmd
 胡混	dwyijr
 胡同	dwykfl
 期間	dwykjr
@@ -3551,7 +3547,7 @@ encoder:
 条规	efvgkx
 休班	efvgug
 采区	efvgwl
-采到	efvhmd
+采到	efvh;
 采油	efviko
 休渔	efviqy
 休漁	efvity
@@ -3614,7 +3610,7 @@ encoder:
 使馆	efwrob
 使臣	efwscs
 使节	efwsxj
-使人	efwtet
+使人	efwt;
 使用	efwtnt
 便應	efwuey
 使出	efwx;
@@ -3639,9 +3635,9 @@ encoder:
 傳信	egaeua
 傳奇	egagal
 傳輸	egagtm
+傳到	egah;
 傳世	egahih
 傳神	egahke
-傳到	egahmd
 傳熱	egahtu
 傳報	egahub
 傳達	egahup
@@ -3661,7 +3657,7 @@ encoder:
 傳回	egan;
 傳動	egaqgx
 傳入	egarur
-傳人	egatet
+傳人	egat;
 傳看	egatmf
 傳令	egatob
 傳頌	egatvm
@@ -3809,7 +3805,7 @@ encoder:
 佔線	emlbek
 佔優	emlede
 佔理	emlgks
-佔地	emlh;
+佔地	emlhcy
 佔卦	emlhhm
 佔滿	emlisr
 佔星	emljwg
@@ -3832,7 +3828,7 @@ encoder:
 偵辦	emmoxo
 側臥	emmste
 仆役	emorqh
-仆人	emotet
+仆人	emot;
 遞補	emppfu
 遞進	empwpd
 俏銷	emwwmw
@@ -3854,7 +3850,7 @@ encoder:
 候鳥	enqror
 倘使	ensefw
 倏爾	ensfef
-倏地	ensh;
+倏地	enshcy
 倏忽	enswty
 倏尔	ensyma
 修辭	entebo
@@ -4366,7 +4362,6 @@ encoder:
 侵蚀	exbrkc
 侵華	exbshs
 务器	exklll
-务卿	exktxx
 伽馬	exldmd
 殷切	exqabd
 殷紅	exqbfo
@@ -4418,7 +4413,7 @@ encoder:
 受理	eybgks
 受戒	eybgsj
 受惠	eybgyi
-受到	eybhmd
+受到	eybh;
 受熱	eybhtu
 受教	eybhve
 受潮	eybidw
@@ -4472,7 +4467,6 @@ encoder:
 爱欲	eybtte
 受众	eybttt
 受创	eybtvm
-爱卿	eybtxx
 受着	eybu;
 受訪	eybuog
 受讓	eybuor
@@ -4493,7 +4487,6 @@ encoder:
 愛喫	eyeldg
 愛稱	eyereh
 愛慾	eyetty
-愛卿	eyetxx
 愛戀	eyeuby
 愛護	eyeusb
 仇視	eyfhmx
@@ -4723,7 +4716,6 @@ encoder:
 禁臠	ffhubt
 本隊	fficud
 本場	ffihjt
-本刊	ffihmd
 本業	ffikut
 本領	ffitom
 本應	ffiuey
@@ -4903,7 +4895,6 @@ encoder:
 更強	fjwvvk
 画画	fjxfjx
 榻榻	fjxfjx
-画刊	fjxhmd
 惡醜	fjygwu
 惡業	fjykut
 惡夢	fjysmr
@@ -4968,7 +4959,6 @@ encoder:
 頭功	flmfxk
 頭面	flmgig
 頭臺	flmhlh
-副刊	flmhmd
 頭髮	flmhso
 頭青	flmhwy
 頭油	flmiko
@@ -5035,7 +5025,7 @@ encoder:
 逼和	flprl;
 速凍	flpsfj
 逼仄	flpste
-逼人	flptet
+逼人	flpt;
 逗留	flptjt
 逗乐	flptma
 逼急	flpyxy
@@ -5157,7 +5147,6 @@ encoder:
 校區	fowgll
 校規	fowgmx
 校場	fowhjt
-校刊	fowhmd
 校注	fowiog
 校慶	fowive
 校閲	fowkuq
@@ -5411,7 +5400,7 @@ encoder:
 極權	fvffsw
 極大	fvfg;
 極爽	fvfgww
-極地	fvfh;
+極地	fvfhcy
 極致	fvfheh
 木墩	fvfhoe
 極壞	fvfhor
@@ -5450,7 +5439,6 @@ encoder:
 極力	fvfxkx
 極快	fvfybt
 極性	fvfywg
-晉劇	fvjmdm
 楹聯	fvmavx
 頸項	fvmfdm
 頸椎	fvmfwi
@@ -5672,7 +5660,7 @@ encoder:
 專科	gacrsd
 專著	gacshj
 專有	gacswy
-專人	gactet
+專人	gact;
 專用	gactnt
 專誠	gacudv
 專美	gacugd
@@ -6184,6 +6172,7 @@ encoder:
 秦淮	grhiwi
 秦嶺	grhjtm
 酥麻	grhpap
+秦晉	grhsvj
 酥脆	grhwyv
 鞦韆	grugdp
 戒掉	gsjamj
@@ -6402,25 +6391,12 @@ encoder:
 惠顧	gyiiwm
 輓歌	gyqale
 輓聯	gyqavx
-地價	h;edm
-地標	h;fdh
-地頭	h;flm
-地極	h;fvf
-地區	h;gll
-地塊	h;hwu
-地溫	h;inm
-地産	h;iqw
-地溝	h;ish
-地宫	h;oll
-地宮	h;olr
-地產	h;psw
-地盘	h;qmn
-地盤	h;qqm
-地獄	h;rus
-地帶	h;sfm
-地级	h;vvo
-地鐵	h;wdg
-地鋪	h;wfu
+到貨	h;erm
+到頭	h;flm
+到場	h;hjt
+到時	h;jha
+到賬	h;mha
+到訪	h;uog
 寺廟	hacudw
 長隊	hahcud
 長驅	hahdgl
@@ -6474,9 +6450,28 @@ encoder:
 祁连	hcjhpd
 邪淫	hcjiee
 邪術	hcjrfa
+地價	hcyedm
+地標	hcyfdh
+地頭	hcyflm
+地極	hcyfvf
+地區	hcygll
+地塊	hcyhwu
+地溫	hcyinm
+地産	hcyiqw
+地溝	hcyish
+地宫	hcyoll
+地宮	hcyolr
+地產	hcypsw
+地盘	hcyqmn
+地盤	hcyqqm
+地獄	hcyrus
+地帶	hcysfm
+地级	hcyvvo
+地鐵	hcywdg
+地鋪	hcywfu
 轱辘	hdghil
 墳頭	hdmflm
-墳地	hdmh;
+墳地	hdmhcy
 墳場	hdmhjt
 墳墓	hdmsjh
 墳塋	hdmuuh
@@ -6637,7 +6632,7 @@ encoder:
 堤坝	hjnhkb
 場院	hjtcoh
 場面	hjtgig
-場地	hjth;
+場地	hjthcy
 場所	hjtiej
 場景	hjtjom
 場內	hjtkru
@@ -6733,21 +6728,7 @@ encoder:
 責難	hmbsfw
 責令	hmbtob
 責怪	hmbybh
-刊登	hmdbfu
 刊載	hmddgg
-刊载	hmddgh
-到貨	hmderm
-刊本	hmdffi
-到頭	hmdflm
-到場	hmdhjt
-到時	hmdjha
-刊号	hmdlsk
-刊號	hmdlsm
-到賬	hmdmha
-刊名	hmdrlv
-刊用	hmdtnt
-到訪	hmduog
-刊物	hmdwwt
 祖墳	hmihdm
 祖業	hmikut
 祖輩	hmilgc
@@ -6759,8 +6740,8 @@ encoder:
 賣相	hmmfmf
 賣春	hmmgjr
 賣弄	hmmgsj
+賣到	hmmh;
 賣場	hmmhjt
-賣到	hmmhmd
 賣報	hmmhub
 賣淫	hmmiee
 賣唱	hmmljj
@@ -6814,7 +6795,7 @@ encoder:
 壞處	hormeq
 壞賬	hormha
 壞疽	horpmi
-壞人	hortet
+壞人	hort;
 壞話	horure
 壞蛋	horvnk
 连番	hpdqpj
@@ -6921,8 +6902,6 @@ encoder:
 報載	hubdgg
 報價	hubedm
 報頭	hubflm
-報刊	hubhmd
-報到	hubhmd
 報時	hubjha
 報曉	hubjhh
 報業	hubkut
@@ -7400,7 +7379,7 @@ encoder:
 渣滓	iffioo
 淋漓	iffipv
 渣子	iffvkv
-溼地	ifhh;
+溼地	ifhhcy
 溼法	ifhihv
 溼漉	ifhiil
 溼潤	ifhikg
@@ -7441,7 +7420,7 @@ encoder:
 親友	ifmsbu
 親臨	ifmsql
 親歷	ifmsrn
-親人	ifmtet
+親人	ifmt;
 親自	ifmtkt
 親手	ifmtut
 親爹	ifmtwr
@@ -7840,8 +7819,8 @@ encoder:
 站隊	imlcud
 站樁	imlfgr
 站式	imlgfo
-站到	imlhmd
-沾到	imlhmd
+站到	imlh;
+沾到	imlh;
 沾溼	imlifh
 沾湿	imlijk
 沾濕	imliju
@@ -8025,10 +8004,10 @@ encoder:
 滾輪	iorgtn
 滚珠	iorgwt
 滾珠	iorgwt
-滚地	iorh;
-滾地	iorh;
-滚到	iorhmd
-滾到	iorhmd
+滚到	iorh;
+滾到	iorh;
+滚地	iorhcy
+滾地	iorhcy
 滚熱	iorhtu
 滾熱	iorhtu
 滚燙	ioriju
@@ -8148,7 +8127,7 @@ encoder:
 産值	iqwedm
 産權	iqwfsw
 産區	iqwgll
-産地	iqwh;
+産地	iqwhcy
 産者	iqwhjr
 産油	iqwiko
 産房	iqwiog
@@ -8199,8 +8178,8 @@ encoder:
 漢魏	isgrcw
 漢學	isgrwv
 漢英	isgskg
-漢人	isgtet
-漢卿	isgtxx
+漢人	isgt;
+漢卿	isgtxv
 漢語	isgufl
 漢詩	isguha
 漢譯	isgumd
@@ -8260,7 +8239,7 @@ encoder:
 洪災	istvuo
 灘頭	iswflm
 灌輸	iswgtm
-灘地	iswh;
+灘地	iswhcy
 灌漑	iswieq
 灌注	iswiog
 灘塗	iswith
@@ -8339,9 +8318,9 @@ encoder:
 滲碳	ivtdju
 涨停	ivteoa
 涨价	ivtett
-涨到	ivthmd
-渗到	ivthmd
-滲到	ivthmd
+涨到	ivth;
+渗到	ivth;
+滲到	ivth;
 渗漏	ivtibd
 滲漏	ivtibd
 涨潮	ivtidw
@@ -9182,7 +9161,6 @@ encoder:
 內傳	kruega
 內債	kruehm
 內場	kruhjt
-內刊	kruhmd
 內測	kruimm
 內閣	krukel
 內褲	krupug
@@ -9225,7 +9203,7 @@ encoder:
 蜡笔	ksjqrm
 曲徑	ksjrff
 蜡黄	ksjskt
-蜡人	ksjtet
+蜡人	ksjt;
 蜡炬	ksjugb
 蜡烛	ksjukc
 蜡纸	ksjvta
@@ -9293,7 +9271,6 @@ encoder:
 閃現	ktegmx
 閃擊	ktegxt
 内場	ktehjt
-内刊	ktehmd
 内測	kteimm
 内閣	ktekel
 閃開	ktekfs
@@ -9555,7 +9532,7 @@ encoder:
 數次	ldesei
 數落	ldesil
 數萬	ldesky
-數人	ldetet
+數人	ldet;
 數論	ldeutn
 數說	ldeutq
 數説	ldeuuq
@@ -9605,7 +9582,7 @@ encoder:
 喫草	ldgsjd
 喫驚	ldgswd
 喫葷	ldgsyg
-喫人	ldgtet
+喫人	ldgt;
 喫魚	ldgtyt
 喫着	ldgu;
 喫請	ldguhw
@@ -9699,7 +9676,7 @@ encoder:
 嚇成	lhtdvi
 嚇倒	lhtehm
 嚇住	lhteog
-嚇到	lhthmd
+嚇到	lhth;
 嚇壞	lhthor
 哧溜	lhtitj
 吐艶	lhtksc
@@ -9707,8 +9684,8 @@ encoder:
 嚇唬	lhtlmu
 吐痰	lhtpuu
 嚇得	lhtr;
+嚇人	lhtt;
 嚇昏	lhttaj
-嚇人	lhttet
 嚇退	lhtvpd
 非標	lilfdh
 非難	lilsfw
@@ -9826,8 +9803,8 @@ encoder:
 單數	lldlde
 單產	lldpsw
 駡街	lldrha
-駡人	lldtet
-單人	lldtet
+駡人	lldt;
+單人	lldt;
 單戀	llduby
 單句	lldwlv
 單鍵	lldwxx
@@ -9909,7 +9886,7 @@ encoder:
 吊銷	lmvwmw
 吊鉤	lmvwwl
 囉嗦	lmwldb
-嚐到	lnjhmd
+嚐到	lnjh;
 嚐鮮	lnjtug
 嘴仗	lnteso
 嘴獸	lntlls
@@ -10038,7 +10015,7 @@ encoder:
 別稱	lwmreh
 別名	lwmrlv
 別後	lwmrve
-別人	lwmtet
+別人	lwmt;
 別看	lwmtmf
 別戀	lwmuby
 別說	lwmutq
@@ -10177,7 +10154,7 @@ encoder:
 劇痛	mdmpbt
 罵街	mdmrha
 劇種	mdmrqf
-罵人	mdmtet
+罵人	mdmt;
 劇變	mdmube
 罵架	mdmxlf
 劇情	mdmyhw
@@ -10392,10 +10369,10 @@ encoder:
 買樓	mmbflc
 買春	mmbgjr
 縣區	mmbgll
+買到	mmbh;
 縣長	mmbhah
 縣城	mmbhdv
 縣域	mmbhgf
-買到	mmbhmd
 買賣	mmbhmm
 貞潔	mmbidb
 縣立	mmbidi
@@ -10435,8 +10412,8 @@ encoder:
 貼紙	mmlbta
 貼近	mmlepd
 貼現	mmlgmx
+貼到	mmlh;
 貼士	mmlhfh
-貼到	mmlhmd
 貼滿	mmlisr
 貼上	mmlk;
 貼水	mmlkvk
@@ -10683,7 +10660,6 @@ encoder:
 國聯	ngfavx
 國恥	ngfayi
 國務	ngfcex
-國務卿	ngfcextxx
 國殤	ngfdqt
 國債	ngfehm
 國貨	ngferm
@@ -10758,7 +10734,7 @@ encoder:
 當機	njtfvt
 當面	njtgig
 當班	njtgug
-當地	njth;
+當地	njthcy
 當世	njthih
 當場	njthjt
 當量	njtjfs
@@ -11020,7 +10996,7 @@ encoder:
 守衞	oacrca
 讨饭	oacreb
 讨厌	oacssq
-讨人	oactet
+讨人	oact;
 讨钱	oactfg
 守護	oacusb
 守恒	oacysj
@@ -11217,7 +11193,7 @@ encoder:
 证词	ofnovl
 定义	ofnowl
 定调	ofnowl
-证人	ofntet
+证人	ofnt;
 定語	ofnufl
 证券	ofnugb
 证书	ofnvvo
@@ -11228,7 +11204,6 @@ encoder:
 诬蔑	oftsmo
 诬告	oftwlv
 宋玉	ofvgod
-试刊	ogfhmd
 试映	ogfjkg
 试训	ogfoqc
 试验	ogfxti
@@ -11240,7 +11215,7 @@ encoder:
 寶雞	ogmevw
 寶玉	ogmgod
 寶珠	ogmgwt
-寶地	ogmh;
+寶地	ogmhcy
 寶塔	ogmhsy
 寶山	ogmjsj
 寶典	ogmkst
@@ -11290,7 +11265,7 @@ encoder:
 方式	ogogfo
 宝玉	ogogod
 宝珠	ogogwt
-宝地	ogoh;
+宝地	ogohcy
 宝塔	ogohsy
 方塊	ogohwu
 宝山	ogojsj
@@ -11320,7 +11295,6 @@ encoder:
 宝岛	ogoyjs
 谨饬	ogsrqx
 诫勉	ogsylx
-诗刊	ohahmd
 诗集	ohawfv
 诗句	ohawlv
 室溫	ohkinm
@@ -11970,8 +11944,8 @@ encoder:
 调配	owlgbj
 调理	owlgks
 义理	owlgks
+调到	owlh;
 调车	owlhch
-调到	owlhmd
 调教	owlhve
 调派	owlier
 调酒	owligo
@@ -12025,7 +11999,7 @@ encoder:
 辦不	oxod;
 辦妥	oxoecn
 辦理	oxogks
-辦到	oxohmd
+辦到	oxoh;
 辦刊	oxohmd
 辦報	oxohub
 辦法	oxoihv
@@ -12316,7 +12290,7 @@ encoder:
 竊笑	pqvqeo
 竊以	pqvxot
 竄紅	prbbfo
-竄到	prbhmd
+竄到	prbh;
 竄入	prbrur
 鄰接	prcaic
 鄰居	prcbdg
@@ -12355,7 +12329,7 @@ encoder:
 產權	pswfsw
 癱軟	pswgei
 產區	pswgll
-產地	pswh;
+產地	pswhcy
 產者	pswhjr
 產油	pswiko
 產房	pswiog
@@ -12665,7 +12639,6 @@ encoder:
 等奬	qhaxwg
 簿冊	qiancn
 篇數	qinlde
-复刊	qjehmd
 复燃	qjeuwu
 复归	qjeuxl
 龜縮	qjmboj
@@ -12746,7 +12719,7 @@ encoder:
 算盤	qmsqqm
 算術	qmsrfa
 衆多	qmsrrk
-衆人	qmstet
+衆人	qmst;
 衆生	qmswgw
 算錯	qmswsj
 篡改	qmvbeh
@@ -13064,6 +13037,7 @@ encoder:
 委婉	rcncov
 委瑣	rcngmm
 委辦	rcnoxo
+魏晉	rcwsvj
 衚衕	rdarka
 嵇康	rdjuxk
 顷刻	rdkomd
@@ -13368,7 +13342,7 @@ encoder:
 鳥籠	rorqim
 鴕鳥	rorror
 鳥兒	rorrqr
-鳥人	rortet
+鳥人	rort;
 鳥語	rorufl
 鳥蛋	rorvnk
 鳥群	rorxqu
@@ -13409,7 +13383,6 @@ encoder:
 衝牀	rqaxfv
 衝力	rqaxkx
 復甦	rqefjw
-復刊	rqehmd
 復燃	rqeuwu
 種馬	rqfdmd
 種糧	rqfpjs
@@ -13418,7 +13391,7 @@ encoder:
 奧拓	rqgadh
 奧妙	rqgcmq
 奧斯	rqgdej
-奧地	rqgh;
+奧地	rqghcy
 奧祕	rqghyq
 奧迪	rqgkpd
 奧秘	rqgryq
@@ -13514,7 +13487,7 @@ encoder:
 猫头	rsjsgd
 猎头	rsjsgd
 猎犬	rsjsqs
-猎人	rsjtet
+猎人	rsjt;
 猎手	rsjtut
 猎物	rsjwwt
 猎豹	rsjywo
@@ -13630,7 +13603,6 @@ encoder:
 犯難	rvisfw
 犯錯	rviwsj
 秀髮	rvjhso
-季刊	rvkhmd
 季節	rvkqxx
 饴糖	rvlpul
 颱風	rvlrfr
@@ -13772,7 +13744,7 @@ encoder:
 蘊藏	sbmsgs
 藴藏	sbmsgs
 互敬	sbmswe
-賢人	sbmtet
+賢人	sbmt;
 蘊含	sbmtol
 藴含	sbmtol
 互訪	sbmuog
@@ -14008,10 +13980,10 @@ encoder:
 荊軻	sfmgal
 帶球	sfmgfo
 帶班	sfmgug
+帶到	sfmh;
 荆轲	sfmhal
 帶毒	sfmhbm
 顢頇	sfmhdm
-帶到	sfmhmd
 帶壞	sfmhor
 帶去	sfmhvv
 荆州	sfmiqc
@@ -14105,8 +14077,8 @@ encoder:
 難耐	sfwsac
 難友	sfwsbu
 難有	sfwswy
+難人	sfwt;
 難分	sfwtbd
-難人	sfwtet
 難看	sfwtmf
 難言	sfwuau
 難度	sfwusb
@@ -14177,7 +14149,7 @@ encoder:
 華容	shsptl
 華文	shspwp
 華興	shsrkt
-華人	shstet
+華人	shst;
 華燈	shsubu
 華語	shsufl
 華美	shsugd
@@ -14227,8 +14199,8 @@ encoder:
 菠蘿	sivsmw
 草垫	sjdayh
 草雞	sjdevw
-草地	sjdh;
-驀地	sjdh;
+草地	sjdhcy
+驀地	sjdhcy
 草場	sjdhjt
 草藥	sjdsef
 草蓆	sjdsum
@@ -14286,7 +14258,7 @@ encoder:
 厚谊	sjvoom
 厚誼	sjvuom
 募捐	sjxalw
-蓦地	sjxh;
+蓦地	sjxhcy
 蓦然	sjxw;
 募集	sjxwfv
 募股	sjxwqh
@@ -14384,9 +14356,9 @@ encoder:
 卧鋪	smowfu
 夢露	smrdnl
 夢想	smrfmy
+夢到	smrh;
 夢境	smrhiq
 夢神	smrhke
-夢到	smrhmd
 夢思	smrjyi
 夢蝶	smrkhf
 夢中	smrl;
@@ -14631,6 +14603,17 @@ encoder:
 厄難	svisfw
 厄运	svisvp
 厄運	sviygp
+晉職	svjaig
+晉級	svjbvo
+晉朝	svjdjw
+晉代	svjegy
+晉爵	svjema
+晉城	svjhdv
+晉封	svjhha
+晉劇	svjmdm
+晉見	svjmxm
+晉升	svjqsj
+晉身	svjwmw
 冶艶	svlksc
 苔藓	svlsqu
 苔蘚	svlstu
@@ -14788,7 +14771,6 @@ encoder:
 节俭	sxjeti
 节哀	sxjolr
 专横	sxofst
-专刊	sxohmd
 专注	sxoiog
 苏南	sxtdkd
 萧索	sxtdyb
@@ -14825,6 +14807,26 @@ encoder:
 孽障	syvcij
 孽缘	syvvbd
 孽情	syvyhw
+人馬	t;dmd
+人頭	t;flm
+人機	t;fvt
+人幫	t;hhm
+人堆	t;hwi
+人潮	t;idw
+人渣	t;iff
+人間	t;kjr
+人數	t;lde
+人販	t;meb
+人证	t;ofn
+人迹	t;ppd
+人節	t;qxx
+人稱	t;reh
+人街	t;rha
+人蔘	t;svt
+人證	t;ubu
+人參	t;vvt
+人群	t;xqu
+人羣	t;xqu
 昏聩	tajalk
 昏聵	tajalm
 昏厥	tajsue
@@ -14900,26 +14902,6 @@ encoder:
 锋枪	tedftv
 钦佩	teieqm
 锦旗	temoqd
-人馬	tetdmd
-人頭	tetflm
-人機	tetfvt
-人幫	tethhm
-人堆	tethwi
-人潮	tetidw
-人渣	tetiff
-人間	tetkjr
-人數	tetlde
-人販	tetmeb
-人证	tetofn
-人迹	tetppd
-人節	tetqxx
-人稱	tetreh
-人街	tetrha
-人蔘	tetsvt
-人證	tetubu
-人參	tetvvt
-人群	tetxqu
-人羣	tetxqu
 斜線	tfdbek
 斜紋	tfdbpw
 斜阳	tfdcjr
@@ -15092,7 +15074,7 @@ encoder:
 销魂	tmwsvw
 销售	tmwwlv
 锄奸	tmxchg
-锄地	tmxh;
+锄地	tmxhcy
 锄头	tmxsgd
 锄草	tmxsjd
 企業	tnikut
@@ -15150,10 +15132,9 @@ encoder:
 領頭	tomflm
 貪玩	tomgfh
 領班	tomgug
-領地	tomh;
+領到	tomh;
+領地	tomhcy
 領域	tomhgf
-創刊	tomhmd
-領到	tomhmd
 領土	tomhth
 領教	tomhve
 貪汙	tomifa
@@ -15209,7 +15190,7 @@ encoder:
 铁定	tqgofn
 铁拳	tqgugt
 锈蚀	trvrkc
-锚地	tsjh;
+锚地	tsjhcy
 锚固	tsjndg
 锚链	tsjthp
 刽子	tsmvkv
@@ -15289,7 +15270,6 @@ encoder:
 手鐧	tutwkj
 頌揚	tvmajt
 頌歌	tvmale
-创刊	tvmhmd
 頌讀	tvmuhm
 银杏	tvnflv
 银器	tvnlll
@@ -15432,7 +15412,7 @@ encoder:
 證明	ubujwy
 證實	ubuobm
 燈節	ubuqxx
-證人	ubutet
+證人	ubut;
 證券	ubuugb
 證詞	ubuuvl
 證物	ubuwwt
@@ -15451,7 +15431,7 @@ encoder:
 認罰	ubymum
 戀家	ubyods
 戀舊	ubyswr
-戀人	ubytet
+戀人	ubyt;
 認領	ubytom
 認證	ubyubu
 認養	ubyugv
@@ -15640,7 +15620,6 @@ encoder:
 美髮	ugdhso
 庆幸	ugdhud
 关汉	ugdibu
-关汉卿	ugdibutxx
 关注	ugdiog
 美顔	ugdiqm
 关照	ugdjbu
@@ -15675,7 +15654,6 @@ encoder:
 关心	ugdy;
 关怀	ugdydu
 試場	ugfhjt
-試刊	ugfhmd
 試産	ugfiqw
 試映	ugfjkg
 試崗	ugfjkj
@@ -15765,7 +15743,6 @@ encoder:
 養生	ugvwgw
 廚娘	uhacov
 廚櫃	uhafgm
-詩刊	uhahmd
 廚房	uhaiog
 詩賦	uhamfn
 廚具	uhamti
@@ -16150,7 +16127,6 @@ encoder:
 導電	utadkd
 導軌	utagyf
 導致	utaheh
-導刊	utahmd
 導購	utamsh
 讖緯	utfbci
 詮釋	utgqpd
@@ -16239,8 +16215,8 @@ encoder:
 詳情	uugyhw
 詳解	uugytw
 營救	uulfke
-營地	uulh;
 營長	uulhah
+營地	uulhcy
 營部	uulilc
 營房	uuliog
 營壘	uuljjh
@@ -16287,7 +16263,7 @@ encoder:
 談一談	uuuf;uuu
 談天	uuufgd
 熒惑	uuugly
-談到	uuuhmd
+談到	uuuh;
 广泛	uuuiqp
 談吐	uuulht
 熒光	uuumhw
@@ -16425,8 +16401,8 @@ encoder:
 归入	uxlrur
 归葬	uxlsds
 归雁	uxlsew
-唐人	uxltet
-归人	uxltet
+唐人	uxlt;
+归人	uxlt;
 归途	uxltfp
 归公	uxltvv
 归总	uxluly
@@ -16796,7 +16772,7 @@ encoder:
 孕藥	vvksef
 強壓	vvksjh
 強有	vvkswy
-強人	vvktet
+強人	vvkt;
 強留	vvktjt
 強手	vvktut
 強記	vvkubj
@@ -16816,7 +16792,6 @@ encoder:
 強悍	vvkyjh
 书摘	vvoaod
 级联	vvoaug
-书刊	vvohmd
 级别	vvolxm
 级数	vvopce
 级次	vvosei
@@ -17003,7 +16978,7 @@ encoder:
 鐵幕	wdgsjm
 鐵觀	wdgslm
 鐵灰	wdgsuo
-鐵人	wdgtet
+鐵人	wdgt;
 鐵片	wdgtpt
 鐵公	wdgtvv
 鐵公雞	wdgtvvevw
@@ -17137,7 +17112,7 @@ encoder:
 鋪貨	wfuerm
 鋪面	wfugig
 鋪軌	wfugyf
-鋪地	wfuh;
+鋪地	wfuhcy
 鋪平	wfuhue
 鋪墊	wfuhuh
 鋪滿	wfuisr
@@ -17234,7 +17209,6 @@ encoder:
 鑄模	whafsg
 鑄型	whafsh
 特區	whagll
-特刊	whahmd
 特賣	whahmm
 特産	whaiqw
 脹滿	whaisr
@@ -17249,10 +17223,7 @@ encoder:
 特鋼	whawkj
 鑄造	whawlp
 肝胃	whgjwy
-周到	whlhmd
-周刊	whlhmd
 周詳	whluug
-週刊	whphmd
 錶殼	whrhfq
 錶帶	whrsfm
 錶針	whrwdi
@@ -17275,7 +17246,6 @@ encoder:
 鐘錶	wiswhr
 臆測	wiyimm
 胆汁	wjfidi
-旬刊	wjrhmd
 錫紙	wjtbta
 錫礦	wjtdut
 錫杖	wjtfso
@@ -17493,11 +17463,11 @@ encoder:
 進逼	wpdflp
 進貢	wpdfmb
 進球	wpdgfo
+進到	wpdh;
 進城	wpdhdv
 進士	wpdhfh
 進款	wpdhhe
 進境	wpdhiq
-進到	wpdhmd
 進去	wpdhvv
 進户	wpdiei
 進戶	wpdiei
@@ -17592,7 +17562,7 @@ encoder:
 錯亂	wsjebx
 錯位	wsjeid
 錯愛	wsjeye
-錨地	wsjh;
+錨地	wsjhcy
 錯漏	wsjibd
 錯開	wsjkfs
 錯別	wsjlwm
@@ -17730,8 +17700,8 @@ encoder:
 勝任	wuxeen
 勝仗	wuxeso
 勝似	wuxext
-腾地	wuxh;
-勝地	wuxh;
+腾地	wuxhcy
+勝地	wuxhcy
 勝境	wuxhiq
 勝者	wuxhjr
 勝景	wuxjom
@@ -17749,7 +17719,7 @@ encoder:
 勝負	wuxymb
 臘腸	wvbwjt
 躱避	wvfblp
-躱到	wvfhmd
+躱到	wvfh;
 躱開	wvfkfs
 躱閃	wvfkte
 躱在	wvfs;
@@ -17816,7 +17786,7 @@ encoder:
 鑽機	wwmfvt
 鑽勁	wwmfvx
 鑽戒	wwmgsj
-鑽到	wwmhmd
+鑽到	wwmh;
 鑽洞	wwmikl
 鑽空	wwmpfo
 删節	wwmqxx
@@ -17905,7 +17875,6 @@ encoder:
 鍵鈕	wxxwbc
 膽汁	wyuidi
 月頭	wywflm
-月刊	wywhmd
 月産	wywiqw
 月宫	wywoll
 月宮	wywolr
@@ -18006,7 +17975,6 @@ encoder:
 壯大	xhfg;
 畫夾	xhfgtt
 壯士	xhfhfh
-畫刊	xhfhmd
 壯志	xhfhyi
 壯漢	xhfisg
 晝日	xhfjrj
@@ -18027,7 +17995,6 @@ encoder:
 書櫃	xhjfgm
 書櫥	xhjfua
 書場	xhjhjt
-書刊	xhjhmd
 書蟲	xhjkkk
 書冊	xhjncn
 書庫	xhjugc
@@ -18155,8 +18122,6 @@ encoder:
 肅靜	xtfhwv
 验尸	xtibhb
 验货	xtierk
-办到	xtihmd
-办刊	xtihmd
 验明	xtijwy
 验证	xtiofn
 办证	xtiofn
@@ -18318,7 +18283,7 @@ encoder:
 懶覺	yfmrwm
 師資	yfmsem
 懶散	yfmswe
-懶人	yfmtet
+懶人	yfmt;
 師爺	yfmtwc
 懶腰	yfmwdc
 懶惰	yfmysw
@@ -18555,9 +18520,9 @@ encoder:
 触礁	ytkdwu
 觸礁	ytkdwu
 觸擊	ytkgxt
+触到	ytkh;
+觸到	ytkh;
 蟹殼	ytkhfq
-触到	ytkhmd
-觸到	ytkhmd
 觸鬚	ytkhtm
 蟹壳	ytkhyq
 触目	ytkmfm

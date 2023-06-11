@@ -4702,7 +4702,6 @@ columns:
 豇	flf	123
 鬴	flf	17
 橾	flf	4
-亜	flf	1
 鞷	flg	14
 桯	flg	8
 檝	flg	2
@@ -4754,7 +4753,6 @@ columns:
 柺	flx	62
 勅	flx	21
 鹝	fly	2
-悪	fly	1
 慗	fly	0
 槵	fly	0
 栌	fmb	196
@@ -5195,12 +5193,10 @@ columns:
 朩	fvf	2
 桗	fvf	1
 樔	fvf	1
-戩	fvg	2
 杛	fvg	1
 坙	fvh	0
 乶	fvi	0
 朰	fvi	0
-晉	fvj	8
 椔	fvj	0
 李	fvk	1462547
 杍	fvk	2
@@ -6286,7 +6282,7 @@ columns:
 琤	gyv	283
 牵	gyw	132558
 瑦	gyw	3
-地	h;	8804040
+到	h;	11505436
 寺	hac	88284
 邿	hac	2
 長	hah	1565
@@ -6356,7 +6352,7 @@ columns:
 圯	hck	145
 髳	hco	4
 逇	hcp	0
-地	hcy	10000
+地	hcy	8804040
 祂	hcy	837
 髢	hcy	9
 祷	hda	33213
@@ -6743,8 +6739,8 @@ columns:
 責	hmb	128
 垻	hmb	0
 貰	hmb	0
-到	hmd	11505436
 刊	hmd	44631
+到	hmd	10000
 墿	hmd	1
 壉	hmd	0
 夁	hmd	0
@@ -10103,7 +10099,6 @@ columns:
 喳	lff	21141
 啉	lff	258
 呠	lff	11
-唖	lff	2
 槑	lff	1
 吴	lfg	358239
 噤	lfh	6575
@@ -10522,6 +10517,7 @@ columns:
 咘	lsm	4
 囕	lsm	1
 嚂	lsm	0
+唖	lsn	2
 嚦	lsn	0
 吠	lsq	6242
 猆	lsq	0
@@ -15628,6 +15624,7 @@ columns:
 贒	slm	0
 顴	slm	0
 冲	sln	862983
+亜	sln	1
 况	slq	655809
 厑	slr	1
 飌	slr	0
@@ -15642,6 +15639,7 @@ columns:
 蓶	slw	0
 勸	slx	34
 鹳	sly	661
+悪	sly	1
 蕜	sly	0
 甍	sma	130
 繤	smb	26
@@ -16102,10 +16100,12 @@ columns:
 葈	svf	1
 芎	svg	401
 荬	svg	34
+戩	svg	2
 艺	svi	226121
 厄	svi	18380
 艿	svj	330
 菑	svj	79
+晉	svj	8
 葘	svj	1
 顾	svk	523266
 芓	svk	1
@@ -16309,7 +16309,7 @@ columns:
 蕊	syy	43461
 莺	syy	25291
 鹲	syy	0
-个	t;	14789406
+人	t;	18435295
 镊	tab	836
 鯫	tab	0
 邸	tac	15950
@@ -16446,7 +16446,7 @@ columns:
 锤	tes	36163
 鮗	tes	18
 鮲	tes	0
-人	tet	18435295
+人	tet	10000
 臮	tet	0
 铥	tev	2
 钨	tew	939
@@ -16717,7 +16717,7 @@ columns:
 鰮	tnm	0
 鱥	tnm	0
 镋	tnq	23
-个	tns	10000
+个	tns	14789406
 丯	tns	0
 用	tnt	3170468
 鮂	tnt	2
@@ -17088,8 +17088,8 @@ columns:
 迎	txp	276814
 镠	txt	360
 鮙	txu	0
+卿	txv	66819
 键	txx	110933
-卿	txx	66819
 鯽	txx	2
 鰎	txx	2
 铯	tyc	123
@@ -21052,7 +21052,7 @@ columns:
 的确	e;;
 一定	f;;
 大家	g;;
-地上	h;;
+到了	h;;
 没有	i;;
 是否	j;;
 上面	k;;
@@ -21064,7 +21064,7 @@ columns:
 我们	q;;
 得到	r;;
 在于	s;;
-个人	t;;
+人们	t;;
 着急	u;;
 了解	v;;
 然后	w;;
