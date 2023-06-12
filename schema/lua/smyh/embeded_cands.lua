@@ -26,16 +26,17 @@ local separator = " "
 
 -- 讀取 schema.yaml 開關設置:
 local option_name = "embeded_cands"
-local embeded_cands = nil
 
 function embeded_cands_filter.init(env)
+    local embeded = {}
+    env.embeded = embeded
     local handler = function(ctx, name)
         -- 通知回調, 當改變選項值時更新暫存的值
         if name == option_name then
-            embeded_cands = ctx:get_option(name)
-            if embeded_cands == nil then
+            embeded.embeded_cands = ctx:get_option(name)
+            if embeded.embeded_cands == nil then
                 -- 當選項不存在時默認爲啟用狀態
-                embeded_cands = true
+                embeded.embeded_cands = true
             end
         end
     end
@@ -110,7 +111,7 @@ end
 
 -- 過濾器
 function embeded_cands_filter.func(input, env)
-    if not embeded_cands then
+    if not env.embeded.embeded_cands then
         for cand in input:iter() do
             yield(cand)
         end
