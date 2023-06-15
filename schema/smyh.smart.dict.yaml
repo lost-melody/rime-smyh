@@ -2430,9 +2430,7 @@ encoder:
 幹仗	djheso
 幹校	djhfow
 幹勁	djhfvx
-幹戈	djhggg
 幹部	djhilc
-幹涉	djhinm
 幹流	djhioq
 幹活	djhire
 幹嗎	djhldm
@@ -2441,7 +2439,6 @@ encoder:
 幹吼	djhlvx
 幹過	djhnpd
 幹完	djhofh
-幹犯	djhrvi
 趕緊	djhsbb
 幹警	djhswu
 幹道	djhutp
@@ -3077,7 +3074,6 @@ encoder:
 付賬	eacmha
 皂劇	eaimdm
 何妨	ealcog
-何幹	ealdjh
 何況	ealilq
 何時	ealjha
 何足	ealnvn
@@ -3637,15 +3633,11 @@ encoder:
 佔優	emlede
 佔理	emlgkk
 佔地	emlhcy
-佔卦	emlhhm
 佔滿	emlisr
-佔星	emljwg
-佔卜	emlmom
 佔壓	emlsjh
 佔有	emlswy
 佔用	emltnt
 佔領	emltom
-佔庭	emluex
 佔先	emlwqr
 偵聽	emmagy
 偵探	emmayf
@@ -4581,7 +4573,6 @@ encoder:
 天授	fgdaeb
 天陰	fgdctv
 天驕	fgddel
-天幹	fgddjh
 天價	fgdedm
 天使	fgdefw
 天橋	fgdfel
@@ -4889,7 +4880,6 @@ encoder:
 相擾	fmfade
 相随	fmfcsp
 相隨	fmfcsp
-相幹	fmfdjh
 相傳	fmfega
 相信	fmfeua
 相伴	fmfeua
@@ -6299,7 +6289,6 @@ encoder:
 醜話	gwuure
 醜態	gwuvwy
 醜怪	gwuybh
-醜角	gwuytn
 瑤池	gwwicy
 瑤族	gwwoqq
 繫緊	gxbsbb
@@ -7196,8 +7185,8 @@ encoder:
 戶頭	ieiflm
 户型	ieifsh
 戶型	ieifsh
-户內	ieikru
 戶內	ieikru
+户內	ieikru
 户數	ieilde
 戶數	ieilde
 户口	ieilvl
@@ -8462,10 +8451,8 @@ encoder:
 題旨	jfmrjr
 覬覦	jfmtfm
 夥伴	jfreua
-夥房	jfriog
 夥同	jfrkfl
 夥計	jfrudi
-夥食	jfrysy
 豈可	jfua;
 豈不	jfud;
 豈但	jfuejf
@@ -8864,7 +8851,6 @@ encoder:
 閉會	kaqtfj
 閉鎖	kaqwmm
 閉合	kaqyey
-闢邪	kbohcj
 闢謠	kbouww
 邮亭	kcjoan
 邮戳	kcjxxg
@@ -9085,8 +9071,8 @@ encoder:
 內褲	krupug
 內斂	krureh
 內徑	krurff
-內藴	krusbm
 內蘊	krusbm
+內藴	krusbm
 內難	krusfw
 內應	kruuey
 內訌	kruufo
@@ -9851,7 +9837,6 @@ encoder:
 口頭	lvlflm
 口頭禪	lvlflmhld
 口頭語	lvlflmufl
-口喫	lvlldg
 口瘡	lvlptl
 口稱	lvlreh
 口徑	lvlrff
@@ -13058,13 +13043,11 @@ encoder:
 禾苗	rhrsjt
 猜測	rhwimm
 猜拳	rhwugt
-馥鬱	rjefwt
 馥郁	rjeswc
 猥瑣	rjggmm
 猥褻	rjgohr
 旨趣	rjrdab
 香乾	rjrdjv
-香皁	rjredi
 香檳	rjrfom
 香醇	rjrgov
 旨意	rjrijy
@@ -13425,7 +13408,6 @@ encoder:
 後效	rveote
 後衛	rverca
 後衞	rverca
-後街	rverha
 後語	rveufl
 後進	rvewpd
 犯规	rvigkx
@@ -14087,7 +14069,6 @@ encoder:
 厭世	sjshih
 厭煩	sjsudm
 苗頭	sjtflm
-厚樸	sjvfkg
 厚谊	sjvoom
 厚誼	sjvuom
 募捐	sjxalw
@@ -14339,7 +14320,6 @@ encoder:
 厲聲	sskhba
 厲害	sskodl
 厲色	sskycb
-若幹	ssldjh
 藍鳥	ssmror
 藍領	ssmtom
 苷酸	sssgve
@@ -15806,7 +15786,6 @@ encoder:
 託辭	uqaebo
 託辦	uqaoxo
 託夢	uqasmr
-託幼	uqavxk
 託鉢	uqawff
 託缽	uqawff
 訓練	uqcbfu
@@ -16731,7 +16710,6 @@ encoder:
 绿藻	vxksif
 幼苗	vxksjt
 幼师	vxkufm
-幼託	vxkuqa
 幼子	vxkvkv
 幼雛	vxkwxw
 幼師	vxkyfm
@@ -16754,8 +16732,6 @@ encoder:
 缺電	wbtdkd
 缺貨	wbterm
 缺氧	wbtqug
-肥皁	wcbedi
-肥皁劇	wcbedimdm
 肥效	wcbote
 肥腸	wcbwjt
 肥壯	wcbxhf
@@ -17877,7 +17853,6 @@ encoder:
 書亭	xhjoan
 書庫	xhjugc
 牆頭	xhlflm
-劃拳	xhmugt
 裝貨	xhrerm
 裝備	xhrest
 裝機	xhrfvt
@@ -17957,8 +17932,8 @@ encoder:
 羣山	xqujsj
 群星	xqujwg
 羣星	xqujwg
-羣眾	xqumet
 群眾	xqumet
+羣眾	xqumet
 群體	xqumku
 羣體	xqumku
 群團	xqunga
