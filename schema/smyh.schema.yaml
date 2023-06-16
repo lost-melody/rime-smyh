@@ -79,7 +79,7 @@ engine:
     - simplifier@division
 
 speller:
-  alphabet: "qwertyuiopasdfghjklzxcvbnm;'/.:"
+  alphabet: "qwertyuiopasdfghjklzxcvbnm;'/|.:"
   initials: "qwertyuiopasdfghjklzxcvbnm'"
   auto_select: true
   auto_select_unique_candidate: true
