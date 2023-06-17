@@ -74,8 +74,10 @@ local function handle_push(env, ctx, ch)
                 if ch == cZ then
                     -- Z鍵重複上屏
                     ctx:push_input(string.char(ch))
+                    return kAccepted
+                else
+                    return kNoop
                 end
-                return kAccepted
             end
 
             -- 全碼唯一候選, 打斷施法
