@@ -28,15 +28,15 @@ local separator = " "
 local option_name = "embeded_cands"
 
 function embeded_cands_filter.init(env)
-    local embeded = {}
-    env.embeded = embeded
+    local option = {}
+    env.option = option
     local handler = function(ctx, name)
         -- 通知回調, 當改變選項值時更新暫存的值
         if name == option_name then
-            embeded.embeded_cands = ctx:get_option(name)
-            if embeded.embeded_cands == nil then
+            option.embeded_cands = ctx:get_option(name)
+            if option.embeded_cands == nil then
                 -- 當選項不存在時默認爲啟用狀態
-                embeded.embeded_cands = true
+                option.embeded_cands = true
             end
         end
     end
@@ -111,7 +111,7 @@ end
 
 -- 過濾器
 function embeded_cands_filter.func(input, env)
-    if not env.embeded.embeded_cands then
+    if not env.option.embeded_cands then
         for cand in input:iter() do
             yield(cand)
         end

@@ -31,6 +31,9 @@ switches:
   - name: division
     states: [ 隐, 拆 ]
     reset: 0
+  - name: single_char
+    states: [ 智能, 纯单 ]
+    reset: 0
   - name: embeded_cands
     states: [ 普通, 嵌入 ]
     reset: 1
@@ -41,6 +44,7 @@ switches:
 
 engine:
   processors:
+    - lua_processor@*smyh.core_processor
     - ascii_composer
     - recognizer
     - key_binder
@@ -174,6 +178,8 @@ key_binder:
     - {when: has_menu, accept: Tab, send: 3}
     # 拆分提示
     - { when: always, accept: "Control+Shift+C", toggle: division }
+    # 純單候選開關
+    - { when: always, accept: "Control+Shift+S", toggle: single_char }
     # 内嵌候選開關
     - { when: always, accept: "Control+Shift+E", toggle: embeded_cands }
     # 中英文标点

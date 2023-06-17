@@ -4,40 +4,23 @@ local core = {}
 core.input_code = ''
 -- 由translator計算暫存串, 傳遞給filter
 core.stashed_text = ''
+-- 由translator初始化基础碼表數據
+core.base_mem = nil
 
 -- ######## 工具函数 ########
 
--- 单字Z键顶, 记录上屏历史
-core.commit_history = function(input, seg, env)
-    -- if string.match(string.sub(input, 1, 3), "[a-y][z;]z") then
-    --     -- 一简补Z
-    --     input = string.sub(input, 1, 1)..";"
-    -- elseif string.match(string.sub(input, 1, 4), "[a-y][a-y][z;]z") then
-    if string.match(string.sub(input, 1, 4), "[a-y][z;][z;]z") then
-        -- 一简二简词补Z
-        input = string.sub(input, 1, 1)..";;"
-    elseif string.match(string.sub(input, 1, 4), "[a-y][a-y][z;]z") then
-        -- 二简补Z
-        input = string.sub(input, 1, 2)..";"
-    elseif string.match(string.sub(input, 1, 4), "[a-y][a-y][a-z]z") then
-        -- 全码补Z
-        input = string.sub(input, 1, 3)
-    else
-        -- 不满足条件, 不处理
-        return
-    end
-    -- 上屏, 清理编码, 历史候选
-    if env.mem:dict_lookup(input, false, 1) then
-        for entry in env.mem:iter_dict() do
-            env.engine:commit_text(entry.text)
-            env.engine.context:clear()
-            env.engine.context:push_input("z")
-            yield(Candidate("table", seg.start, seg._end, entry.text, ""))
-            yield(Candidate("table", seg.start, seg._end, "", ""))
-            -- 返回真
-            return true
-        end
-    end
+-- 是否單個宇三全碼編碼段, 如: "abc", "a;", "a;;", "ab;"
+function core.single_smyh_seg(input)
+    return string.match(input, "^[a-y][z;]$")       -- 一簡
+        or string.match(input, "^[a-y][z;][z;]$")   -- 一簡詞
+        or string.match(input, "^[a-y][a-y][z;]$")  -- 二簡詞
+        or string.match(input, "^[a-y][a-y][a-y]$") -- 單字全碼
+end
+
+-- 是否合法宇三分詞串
+function core.valid_smyh_input(input)
+    -- 輸入串完全由 [a-z;] 構成, 且不以 [z;] 開頭
+    return string.match(input, "^[a-z;]*$") and not string.match(input, "^[z;]")
 end
 
 -- 计算分词列表
@@ -72,6 +55,7 @@ core.dict_lookup = function(mem, code, count, comp)
     count = count or 1
     comp = comp or false
     local result = {}
+    code = string.gsub(code, "z", ";")
     if mem:dict_lookup(code, comp, count) then
         for entry in mem:iter_dict() do
             table.insert(result, entry)
@@ -99,10 +83,6 @@ core.query_cand_list = function(mem, code_segs, skipfull)
                     index = viewport + 1
                     break
                 elseif viewport == index then
-                    -- 最小viewport无候選, 返回
-                    -- return cand_list, code
-                    -- 最小viewport無候選, 以編碼爲候選
-                    -- table.insert(cand_list, code)
                     -- 最小viewport無候選, 以空串作爲候選
                     table.insert(cand_list, "")
                     index = viewport + 1
