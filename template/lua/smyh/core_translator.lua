@@ -5,6 +5,7 @@ local core = require("smyh.core")
 
 function translator.init(env)
     core.base_mem = Memory(env.engine, Schema("smyh.base"))
+    core.full_mem = Memory(env.engine, Schema("smyh.yuhaofull"))
 end
 
 -- 處理單字輸入
@@ -38,6 +39,13 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     local full_entries = core.dict_lookup(core.base_mem, input, 10)
     if #full_entries > 1 then
         full_entries[2].comment = "↵"
+    end
+
+    if #input == 4 then
+        local entries = core.dict_lookup(core.full_mem, input, 10)
+        for _, entry in ipairs(entries) do
+            table.insert(full_entries, entry)
+        end
     end
 
     -- 查詢分詞串暫存值
@@ -103,7 +111,6 @@ function translator.func(input, seg, env)
 end
 
 function translator.fini(env)
-    core.base_mem = nil
 end
 
 return translator

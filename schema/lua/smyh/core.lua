@@ -30,9 +30,15 @@ core.get_code_segs = function(input)
     local code_segs = {}
     while string.len(input) ~= 0 do
         if string.match(string.sub(input, 1, 2), "[a-y][z;]") then
-            -- 匹配到一简
-            table.insert(code_segs, string.sub(input, 1, 2))
-            input = string.sub(input, 3)
+            if string.match(string.sub(input, 1, 3), "[a-y][z;][z;]") then
+                -- 匹配到一简词
+                table.insert(code_segs, string.sub(input, 1, 3))
+                input = string.sub(input, 4)
+            else
+                -- 匹配到一简
+                table.insert(code_segs, string.sub(input, 1, 2))
+                input = string.sub(input, 3)
+            end
         elseif string.match(string.sub(input, 1, 3), "[a-y][a-y][a-z;]") then
             -- 匹配到全码或二简
             table.insert(code_segs, string.sub(input, 1, 3))

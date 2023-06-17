@@ -48,7 +48,7 @@ end
 
 -- 處理候選文本和延迟串
 local function render_stashcand(seq, stash, text, digested)
-    if string.len(stash) ~= 0 and string.match(text, "^"..stash) then
+    if string.len(stash) ~= 0 and text ~= stash and string.match(text, "^"..stash) then
         if seq == 1 then
             -- 首選含延迟串, 原樣返回
             digested = true
@@ -190,6 +190,7 @@ function embeded_cands_filter.func(input, env)
 end
 
 function embeded_cands_filter.fini(env)
+    env.option = nil
 end
 
 return embeded_cands_filter

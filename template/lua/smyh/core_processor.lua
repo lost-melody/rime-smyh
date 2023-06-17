@@ -22,9 +22,9 @@ end
 
 -- 處理頂字
 local function handle_push(env, ctx, ch)
-    if core.single_smyh_seg(ctx.input) and (ch == cZ or ch == cSC) then
-        if ch == cZ then
-            -- 單字Z鍵頂, 加重複上屏
+    if core.single_smyh_seg(ctx.input) and ((ch == cZ or ch == cSC) or string.match(ctx.input, "[a-y][z;][z;]")) then
+        if ch ~= cSC then
+            -- 單字Z鍵頂, 加重複上屏; 或雙分號一簡詞任意鍵頂
             -- 提交當前候選
             ctx:commit()
             -- 字符 'z' 插入輸入串
