@@ -33,6 +33,16 @@ patch:
     # 回车清空编码
     Return: cancel
   # 解注释以下内容, 并复制rime.lua, 以兼容旧版librime-lua
+  # engine/processors:
+  #   - lua_processor@smyh_core_processor
+  #   - ascii_composer
+  #   - recognizer
+  #   - key_binder
+  #   - speller
+  #   - punctuator
+  #   - selector
+  #   - navigator
+  #   - express_editor
   # engine/translators:
   #   - punct_translator
   #   - table_translator@phrase
