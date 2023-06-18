@@ -259,11 +259,21 @@ encoder:
 持证	ahaofn
 持倉	ahatol
 持證	ahaubu
+擡起	ahhdbj
 擡價	ahhedm
 挂彩	ahheft
+擡愛	ahheye
 擡槓	ahhffm
+擡頭	ahhflm
+擡轎	ahhgel
+擡眼	ahhmvn
+擡高	ahholo
 撓癢	ahhpuv
 撓癢癢	ahhpuvpuv
+擡升	ahhqsj
+擡舉	ahhrsa
+擡腳	ahhwtx
+擡腿	ahhwvp
 挂出	ahhx;
 擡出	ahhx;
 拮据	ahlabd
@@ -405,6 +415,7 @@ encoder:
 摟着	alcu;
 歌劇	alemdm
 歌頌	aletvm
+歌謡	aleuew
 歌詠	aleuok
 操練	alfbfu
 操縱	alfbrn
@@ -1567,6 +1578,7 @@ encoder:
 民调	caiowl
 民辦	caioxo
 民衆	caiqms
+民謡	caiuew
 民幣	caiumm
 民營	caiuul
 民進	caiwpd
@@ -2387,6 +2399,7 @@ encoder:
 驍騎	dhhdgl
 硅藻	dhhsif
 驍將	dhhxwa
+豬頭	dhjflm
 剽掠	dhmaom
 磕頭	dhmflm
 剽窃	dhmpab
@@ -2728,6 +2741,7 @@ encoder:
 驛站	dmdiml
 馬糞	dmdpjt
 馬術	dmdrfa
+馬廏	dmdueq
 驛道	dmdutp
 馬道	dmdutp
 馬群	dmdxqu
@@ -7642,6 +7656,7 @@ encoder:
 潤飾	ikgyqm
 童貞	ikkmmb
 童節	ikkqxx
+童謡	ikkuew
 滷汁	iklidi
 滷水	iklkvk
 滷味	ikllhe
@@ -7813,7 +7828,6 @@ encoder:
 瀕危	inmysv
 溫飽	inmywc
 遍歷	inpsrn
-浒传	iodeso
 淬火	ioduou
 渲染	iofiyf
 房價	iogedm
@@ -8035,6 +8049,7 @@ encoder:
 活页	iredkb
 活檢	irefrl
 瀲灩	ireijm
+瀲灔	ireikc
 活寶	ireogm
 活宝	ireogo
 活節	ireqxx
@@ -8851,6 +8866,7 @@ encoder:
 閉會	kaqtfj
 閉鎖	kaqwmm
 閉合	kaqyey
+闢謡	kbouew
 闢謠	kbouww
 邮亭	kcjoan
 邮戳	kcjxxg
@@ -9270,6 +9286,8 @@ encoder:
 水壩	kvkhdw
 水坝	kvkhkb
 水溫	kvkinm
+水滴	kvkiod
+水浒	kvkiod
 水産	kvkiqw
 水溝	kvkish
 水嶺	kvkjtm
@@ -11244,6 +11262,8 @@ encoder:
 永恒	okvyff
 永恆	okvyff
 诽谤	oliooo
+高挂	oloahh
+高擡	oloahh
 高幹	olodjh
 高價	oloedm
 高郵	oloesc
@@ -12740,6 +12760,7 @@ encoder:
 簾幕	qutsjm
 簾布	qutsmv
 乞讨	qvioac
+么哒	qvvlgp
 雉雞	qwievw
 风采	qwlefv
 风潮	qwlidw
@@ -15324,6 +15345,8 @@ encoder:
 腐朽	uetfsk
 腐渣	uetiff
 腐蚀	uetrkc
+謡傳	uewega
+謡言	uewuau
 庭審	uexoqj
 應援	ueyaeb
 應接	ueyaic
@@ -17196,6 +17219,7 @@ encoder:
 造橋	wlpfel
 造業	wlpkut
 造孽	wlpsyv
+造謡	wlpuew
 造訪	wlpuog
 造句	wlpwlv
 够數	wlrlde
@@ -18128,8 +18152,6 @@ encoder:
 恆星	yffjwg
 恒定	yffofn
 恆定	yffofn
-恒生	yffwgw
-恆生	yffwgw
 恒力	yffxkx
 恆力	yffxkx
 恒心	yffy;
