@@ -1,11 +1,24 @@
 local translator = {}
 local core = require("smyh.core")
 
+-- 讀取 schema.yaml 開關設置:
+local single_char_option_name = "single_char"
+
 -- ######## 翻译器 ########
 
 function translator.init(env)
-    core.base_mem = Memory(env.engine, Schema("smyh.base"))
-    core.full_mem = Memory(env.engine, Schema("smyh.yuhaofull"))
+    -- 初始化碼表
+    if not core.base_mem then
+        core.base_mem = Memory(env.engine, Schema("smyh.base"))
+        core.full_mem = Memory(env.engine, Schema("smyh.yuhaofull"))
+        core.yuhao_mem = Memory(env.engine, Schema("smyh.yuhao"))
+    end
+    -- 構造回調函數
+    local handler = core.get_switch_handler(env, single_char_option_name)
+    -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
+    handler(env.engine.context, single_char_option_name)
+    -- 注册通知回調
+    env.engine.context.option_update_notifier:connect(handler)
 end
 
 local index_indicators = {"¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰"}
@@ -65,7 +78,15 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
 
     if #input == 4 then
-        local entries = core.dict_lookup(core.full_mem, input, 10)
+        local mem
+        if env.option[single_char_option_name] then
+            -- 純單模式, 查詢單字全碼
+            mem = core.full_mem
+        else
+            -- 非純單時, 查詢官宇字詞
+            mem = core.yuhao_mem
+        end
+        local entries = core.dict_lookup(mem, input, 10)
         for _, entry in ipairs(entries) do
             table.insert(full_entries, entry)
         end

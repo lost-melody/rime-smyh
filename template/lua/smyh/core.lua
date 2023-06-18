@@ -6,6 +6,9 @@ core.input_code = ''
 core.stashed_text = ''
 -- 由translator初始化基础碼表數據
 core.base_mem = nil
+-- 附加官宇詞庫
+core.full_mem = nil
+core.yuhao_mem = nil
 
 -- 輸入 "zhelp" 時提供開關管理
 core.helper_code = "zhelp"
@@ -32,6 +35,27 @@ end
 function core.valid_smyh_input(input)
     -- 輸入串完全由 [a-z;] 構成, 且不以 [z;] 開頭
     return string.match(input, "^[a-z;]*$") and not string.match(input, "^[z;]")
+end
+
+-- 構造開關變更回調函數
+function core.get_switch_handler(env, option_name)
+    local option
+    if not env.option then
+        option = {}
+        env.option = option
+    else
+        option = env.option
+    end
+    -- 返回通知回調, 當改變選項值時更新暫存的值
+    return function(ctx, name)
+        if name == option_name then
+            option[name] = ctx:get_option(name)
+            if option[name] == nil then
+                -- 當選項不存在時默認爲啟用狀態
+                option[name] = true
+            end
+        end
+    end
 end
 
 -- 计算分词列表
@@ -72,6 +96,9 @@ core.dict_lookup = function(mem, code, count, comp)
     count = count or 1
     comp = comp or false
     local result = {}
+    if not mem then
+        return result
+    end
     code = string.gsub(code, "z", ";")
     if mem:dict_lookup(code, comp, count) then
         for entry in mem:iter_dict() do

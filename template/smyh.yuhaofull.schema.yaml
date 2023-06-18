@@ -15,3 +15,4 @@ speller:
 
 translator:
   dictionary: smyh.yuhaofull
+  enable_user_dict: false

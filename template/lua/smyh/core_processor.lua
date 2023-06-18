@@ -49,7 +49,8 @@ end
 
 -- 處理開關項調整
 local function handle_switch(env, ctx, idx)
-    ctx:clear()
+    -- 清理預輸入串, 达到調整後複位爲無輸入編碼的效果
+    -- ctx:clear()
     toggle_switch(env, ctx, core.switch_options[idx+1])
     return kAccepted
 end
@@ -73,7 +74,7 @@ local function handle_push(env, ctx, ch)
         local code_segs, remain = core.get_code_segs(ctx.input)
 
         -- 純單字模式
-        if env.option.single_char and #code_segs == 1 and #remain == 1 then
+        if env.option[single_char_option_name] and #code_segs == 1 and #remain == 1 then
             local cands = core.query_cand_list(core.base_mem, code_segs)
             if #cands ~= 0 then
                 ctx:clear()
@@ -158,18 +159,8 @@ local function handle_clean(env, ctx, ch)
 end
 
 function processor.init(env)
-    local option = {}
-    env.option = option
-    local handler = function(ctx, name)
-        -- 通知回調, 當改變選項值時更新暫存的值
-        if name == single_char_option_name then
-            option.single_char = ctx:get_option(name)
-            if option.single_char == nil then
-                -- 當選項不存在時默認爲啟用狀態
-                option.single_char = true
-            end
-        end
-    end
+    -- 構造回調函數
+    local handler = core.get_switch_handler(env, single_char_option_name)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
     handler(env.engine.context, single_char_option_name)
     -- 注册通知回調
