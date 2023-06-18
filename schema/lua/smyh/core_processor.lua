@@ -11,7 +11,7 @@ local kNoop     = 2 -- 無: 請下一個processor繼續看
 local cA  = string.byte("a") -- 字符: 'a'
 local cZ  = string.byte("z") -- 字符: 'z'
 local cSC = string.byte(";") -- 字符: ';'
-local cVS = string.byte("|") -- 字符: '|'
+local cRt = 0xff0d           -- 回車鍵
 
 -- 提交候選文本, 並刷新輸入串
 local function commit_text(env, ctx, text, input)
@@ -158,8 +158,8 @@ function processor.func(key_event, env)
     if ch >= cA and ch <= cZ or ch == cSC then
         -- 按鍵在 'a'~'z' 之間, 或按鍵是分號
         return handle_push(env, ctx, ch)
-    elseif ch == cVS then
-        -- 按鍵是 shift+'\', 卽竪線
+    elseif ch == cRt then
+        -- 按鍵是回車鍵
         return handle_clean(env, ctx, ch)
     end
 
