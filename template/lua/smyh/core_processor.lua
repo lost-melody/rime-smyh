@@ -13,11 +13,45 @@ local cZ  = string.byte("z") -- 字符: 'z'
 local cSC = string.byte(";") -- 字符: ';'
 local cRt = 0xff0d           -- 回車鍵
 
+-- 返回被選中的候選的索引, 來自 librime-lua/sample 示例
+local function select_index(key, env)
+    local ch = key.keycode
+    local index = -1
+    local select_keys = env.engine.schema.select_keys
+    if select_keys ~= nil and select_keys ~= "" and not key.ctrl() and ch >= 0x20 and ch < 0x7f then
+        local pos = string.find(select_keys, string.char(ch))
+        if pos ~= nil then index = pos end
+    elseif ch >= 0x30 and ch <= 0x39 then
+        index = (ch - 0x30 + 9) % 10
+    elseif ch >= 0xffb0 and ch < 0xffb9 then
+        index = (ch - 0xffb0 + 9) % 10
+    elseif ch == 0x20 then
+        index = 0
+    end
+    return index
+end
+
+-- 開關狀態切換
+local function toggle_switch(env, ctx, option_name)
+    if not option_name then
+        return
+    end
+    local current_value = ctx:get_option(option_name)
+    ctx:set_option(option_name, not current_value)
+end
+
 -- 提交候選文本, 並刷新輸入串
 local function commit_text(env, ctx, text, input)
     ctx:clear()
     env.engine:commit_text(text)
     ctx:push_input(input)
+end
+
+-- 處理開關項調整
+local function handle_switch(env, ctx, idx)
+    ctx:clear()
+    toggle_switch(env, ctx, core.switch_options[idx+1])
+    return kAccepted
 end
 
 -- 處理頂字
@@ -155,7 +189,15 @@ function processor.func(key_event, env)
     end
 
     local ch = key_event.keycode
-    if ch >= cA and ch <= cZ or ch == cSC then
+    if ctx.input == core.helper_code then
+        -- 開關管理
+        local idx = select_index(key_event, env)
+        if idx >= 0 then
+            return handle_switch(env, ctx, idx)
+        else
+            return kNoop
+        end
+    elseif ch >= cA and ch <= cZ or ch == cSC then
         -- 按鍵在 'a'~'z' 之間, 或按鍵是分號
         return handle_push(env, ctx, ch)
     elseif ch == cRt then

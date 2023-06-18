@@ -8,6 +8,29 @@ function translator.init(env)
     core.full_mem = Memory(env.engine, Schema("smyh.yuhaofull"))
 end
 
+local index_indicators = {"¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰"}
+
+-- 處理開關管理候選
+local function handle_switch(env, ctx, seg, input)
+    core.input_code = "help "
+    local text_list = {}
+    for idx, option_name in ipairs(core.switch_options) do
+        -- 渲染形如 "■選項¹"
+        local text = ""
+        local current_value = ctx:get_option(option_name)
+        if current_value then
+            text = text.."■"
+        else
+            text = text.."□"
+        end
+        text = text..core.switch_options[option_name]..index_indicators[idx]
+        table.insert(text_list, text)
+    end
+    -- 避免選項翻頁, 直接渲染到首選提示中
+    local cand = Candidate("switch", seg.start, seg._end, "", table.concat(text_list, " "))
+    yield(cand)
+end
+
 -- 處理單字輸入
 local function handle_singlechar(env, ctx, code_segs, remain, seg, input)
     core.input_code = string.gsub(remain, "[z;]", "-")
@@ -82,15 +105,21 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
 end
 
 function translator.func(input, seg, env)
+    local ctx = env.engine.context
     core.input_code = ""
     core.stashed_text = ""
+
+    if input == core.helper_code then
+        -- zhelp 快捷開關
+        handle_switch(env, ctx, seg, input)
+        return
+    end
 
     -- 是否合法宇三編碼
     if not core.valid_smyh_input(input) then
         return
     end
 
-    local ctx = env.engine.context
     local code_segs, remain = core.get_code_segs(input)
     if #remain == 0 then
         remain = table.remove(code_segs)

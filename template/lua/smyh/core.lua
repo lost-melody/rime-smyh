@@ -7,6 +7,17 @@ core.stashed_text = ''
 -- 由translator初始化基础碼表數據
 core.base_mem = nil
 
+-- 輸入 "zhelp" 時提供開關管理
+core.helper_code = "zhelp"
+-- 開關列表
+core.switch_options = {
+    "ascii_punct", "single_char", "embeded_cands", "division",
+    ascii_punct = "英符",
+    single_char = "純單",
+    embeded_cands = "嵌入",
+    division = "拆分",
+}
+
 -- ######## 工具函数 ########
 
 -- 是否單個宇三全碼編碼段, 如: "abc", "a;", "a;;", "ab;"
