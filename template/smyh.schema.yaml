@@ -16,8 +16,6 @@ schema:
     - yuhao_pinyin
     # 基础码表
     - smyh.base
-    # 引号词库
-    - smyh.phrase
     # 全码官宇词库
     - smyh.yuhaofull
     # 官宇字詞碼表
@@ -63,10 +61,6 @@ engine:
     # - fallback_segmentor
   translators:
     - punct_translator
-    # 引号词
-    - table_translator@phrase
-    # 全码官宇
-    - table_translator@yuhaofull
     # 上次上屏历史
     - history_translator@history
     # 反查
@@ -85,8 +79,8 @@ engine:
     - simplifier@division
 
 speller:
-  alphabet: "qwertyuiopasdfghjklzxcvbnm;'/|.:"
-  initials: "qwertyuiopasdfghjklzxcvbnm'"
+  alphabet: "qwertyuiopasdfghjklzxcvbnm;/|.:"
+  initials: "qwertyuiopasdfghjklzxcvbnm"
   auto_select: true
   auto_select_unique_candidate: true
   algebra:
@@ -97,34 +91,6 @@ history:
   size: 1
   initial_quality: 1
 
-# 引号词库
-phrase:
-  tag: phrase
-  dictionary: smyh.phrase
-  prism: smyh.phrase
-  enable_encoder: false
-  enable_completion: true
-  enable_sentence: false
-  enable_user_dict: false
-  strict_spelling: true
-  initial_quality: 0
-  preedit_format:
-    - "xform/^'/*/"
-
-# 全码官宇词库
-yuhaofull:
-  tag: yuhaofull
-  dictionary: smyh.yuhaofull
-  prism: smyh.yuhaofull
-  enable_encoder: false
-  enable_completion: true
-  enable_sentence: false
-  enable_user_dict: false
-  strict_spelling: true
-  initial_quality: 0
-  preedit_format:
-    - "xform|/|_|"
-
 # 拆分提示, 可快捷开关
 division:
   opencc_config: smyh_div.json
@@ -132,7 +98,6 @@ division:
   tips: all
   show_in_comment: true
   comment_format:
-    - xform/;/_/
     - xform/\|/·/
   tags: [ abc ]
 
@@ -143,7 +108,6 @@ rev_div:
   tips: all
   show_in_comment: true
   comment_format:
-    - xform/;/_/
     - xform/\[.*?\|/\[/
   tags: [ rev_pinyin ]
 
@@ -169,14 +133,11 @@ key_binder:
     # 空格清空错码
     - { when: has_menu, accept: space, send: space }
     - { when: composing, accept: space, send: Escape }
-    - { when: has_menu, accept: 1, send: 1 }
-    - { when: composing, accept: 1, send: Escape }
     # 减号、等号翻页
     - { when: paging, accept: minus, send: Page_Up }
     - { when: has_menu, accept: equal, send: Page_Down }
     # 引号、Tab选重。
     - {when: has_menu, accept: apostrophe, send: 2}
-    - {when: has_menu, accept: grave, send: 3}
     - {when: has_menu, accept: Tab, send: 3}
     # 拆分提示
     - { when: always, accept: "Control+Shift+C", toggle: division }
@@ -189,14 +150,10 @@ key_binder:
 
 recognizer:
   patterns:
-    # 引号词模式
-    phrase: "^'[a-y]{0,4}$"
     # 拼音反查模式
     rev_pinyin: "^z[a-z]*$"
     # 符号模式
     punct: '^/([0-9]0?|[A-Za-z]+)$'
-    # 全码官宇模式, 形如 xx/xx 打出官宇全码字
-    yuhaofull: '^[a-y]{2}/[a-y]{0,2}$'
 
 menu:
   page_size: 3

@@ -11,6 +11,7 @@ local kNoop     = 2 -- 無: 請下一個processor繼續看
 local cA  = string.byte("a") -- 字符: 'a'
 local cZ  = string.byte("z") -- 字符: 'z'
 local cSC = string.byte(";") -- 字符: ';'
+local cSp = string.byte(" ") -- 空格鍵
 local cRt = 0xff0d           -- 回車鍵
 
 -- 返回被選中的候選的索引, 來自 librime-lua/sample 示例
@@ -36,8 +37,25 @@ local function toggle_switch(env, ctx, option_name)
     if not option_name then
         return
     end
-    local current_value = ctx:get_option(option_name)
-    ctx:set_option(option_name, not current_value)
+    local option = core.switch_options[option_name]
+    if type(option) == "string" then
+        -- 開關項
+        local current_value = ctx:get_option(option_name)
+        if current_value ~= nil then
+            ctx:set_option(option_name, not current_value)
+        end
+    elseif type(option) == "table" then
+        -- 單選項
+        for i, op in ipairs(option) do
+            local value = ctx:get_option(op)
+            if value then
+                -- 關閉當前選項, 開啓下一選項
+                ctx:set_option(op, not value)
+                ctx:set_option(option[i%#option+1], value)
+                break
+            end
+        end
+    end
 end
 
 -- 提交候選文本, 並刷新輸入串
@@ -183,7 +201,10 @@ function processor.func(key_event, env)
     if ctx.input == core.helper_code then
         -- 開關管理
         local idx = select_index(key_event, env)
-        if idx >= 0 then
+        if ch == cSp or ch == cRt then
+            ctx:clear()
+            return kAccepted
+        elseif idx >= 0 then
             return handle_switch(env, ctx, idx)
         else
             return kNoop
