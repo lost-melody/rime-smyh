@@ -36,8 +36,25 @@ local function toggle_switch(env, ctx, option_name)
     if not option_name then
         return
     end
-    local current_value = ctx:get_option(option_name)
-    ctx:set_option(option_name, not current_value)
+    local option = core.switch_options[option_name]
+    if type(option) == "string" then
+        -- 開關項
+        local current_value = ctx:get_option(option_name)
+        if current_value ~= nil then
+            ctx:set_option(option_name, not current_value)
+        end
+    elseif type(option) == "table" then
+        -- 單選項
+        for i, op in ipairs(option) do
+            local value = ctx:get_option(op)
+            if value then
+                -- 關閉當前選項, 開啓下一選項
+                ctx:set_option(op, not value)
+                ctx:set_option(option[i%#option+1], value)
+                break
+            end
+        end
+    end
 end
 
 -- 提交候選文本, 並刷新輸入串

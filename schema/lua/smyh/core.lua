@@ -14,11 +14,20 @@ core.yuhao_mem = nil
 core.helper_code = "zhelp"
 -- 開關列表
 core.switch_options = {
-    "ascii_punct", "single_char", "embeded_cands", "division",
+    -- 這部分是數組區, 寫入所有出現在候選處的開關名
+    "ascii_punct", "single_char", "embeded_cands", "division", -- "chaifen",
+    -- 開關名對應的顯示文本
     ascii_punct = "英符",
     single_char = "純單",
     embeded_cands = "嵌入",
     division = "拆分",
+    -- 單選開關使用嵌套的table描述
+    chaifen = {
+        "chaifen.off", "chaifen.lv1", "chaifen.lv2",
+        ["chaifen.off"] = "注解關",
+        ["chaifen.lv1"] = "注解一",
+        ["chaifen.lv2"] = "注解二",
+    },
 }
 
 -- ######## 工具函数 ########

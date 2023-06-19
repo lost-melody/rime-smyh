@@ -28,15 +28,31 @@ local function handle_switch(env, ctx, seg, input)
     core.input_code = "help "
     local text_list = {}
     for idx, option_name in ipairs(core.switch_options) do
-        -- 渲染形如 "■選項¹"
         local text = ""
-        local current_value = ctx:get_option(option_name)
-        if current_value then
-            text = text.."■"
-        else
-            text = text.."□"
+        local option = core.switch_options[option_name]
+        if type(option) == "string" then
+            -- 開關項, 渲染形如 "■選項¹"
+            local current_value = ctx:get_option(option_name)
+            if current_value then
+                text = text.."■"
+            else
+                text = text.."□"
+            end
+            text = text..core.switch_options[option_name]..index_indicators[idx]
+        elseif type(option) == "table" then
+            -- 單選項, 渲染形如 "□■□狀態二"
+            local state = ""
+            for _, op in ipairs(option) do
+                local value = ctx:get_option(op)
+                if value then
+                    text = text.."■"
+                    state = option[op]
+                else
+                    text = text.."□"
+                end
+            end
+            text = text..state..index_indicators[idx]
         end
-        text = text..core.switch_options[option_name]..index_indicators[idx]
         table.insert(text_list, text)
     end
     -- 避免選項翻頁, 直接渲染到首選提示中
