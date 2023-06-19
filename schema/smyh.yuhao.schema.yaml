@@ -12,5 +12,5 @@ speller:
   initials: "qwertyuiopasdfghjklxcvbnm"
 
 translator:
-  dictionary: yuhao
+  dictionary: smyh.yuhao
   enable_user_dict: false

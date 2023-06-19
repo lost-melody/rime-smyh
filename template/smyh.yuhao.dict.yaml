@@ -1,0 +1,26 @@
+# rime dictionary: 宇浩三码顶·全码字词
+# encoding: utf-8
+
+---
+name: "smyh.yuhao"
+version: "beta"
+sort: original
+import_tables:
+  - yuhao.words
+  - yuhao_tradition.words
+  - yuhao.words_extended
+  - yuhao.words_literature
+  # - yuhao_tradition.words_extended
+  # - yuhao_tradition.words_literature
+  # - yuhao.quick
+  - yuhao.full
+  # - yuhao.private
+  # - yuhao.symbols
+  # - yuhao.extended
+columns:
+  - text
+  - code
+  - weight
+  - other
+...
+

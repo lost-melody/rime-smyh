@@ -1,4 +1,4 @@
-# rime dictionary: 宇浩三码顶·全码词库
+# rime dictionary: 宇浩三码顶·全码单字
 # encoding: utf-8
 
 ---
@@ -6,7 +6,7 @@ name: "smyh.yuhaofull"
 version: "beta"
 sort: original
 import_tables:
-  - yuhao.quick
+  # - yuhao.quick
   - yuhao.full
 columns:
   - text
