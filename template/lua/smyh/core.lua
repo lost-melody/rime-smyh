@@ -15,11 +15,12 @@ core.helper_code = "zhelp"
 -- 開關列表
 core.switch_options = {
     -- 這部分是數組區, 寫入所有出現在候選處的開關名
-    "ascii_punct", "single_char", "embeded_cands", "division", -- "chaifen",
+    "ascii_punct", "single_char", "embeded_cands", "full_shape", "division", -- "chaifen",
     -- 開關名對應的顯示文本
     ascii_punct = "英符",
     single_char = "純單",
     embeded_cands = "嵌入",
+    full_shape = "全角",
     division = "拆分",
     -- 單選開關使用嵌套的table描述
     chaifen = {
