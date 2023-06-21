@@ -6,8 +6,8 @@ name: "smyh.yuhaofull"
 version: "beta"
 sort: original
 import_tables:
-  # - yuhao.quick
-  - yuhao.full
+  # - yuhao.full                     # 简体单字码表
+  - yuhao_tradition.full             # 繁體單字碼表
 columns:
   - text
   - code
