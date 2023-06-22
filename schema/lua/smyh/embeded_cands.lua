@@ -24,14 +24,11 @@ local first_format = "Stash[候選Seq]CodeComment"
 local next_format = "Stash候選SeqComment"
 local separator = " "
 
--- 讀取 schema.yaml 開關設置:
-local embeded_cands_option_name = "embeded_cands"
-
 function embeded_cands_filter.init(env)
     -- 構造回調函數
-    local handler = core.get_switch_handler(env, embeded_cands_option_name)
+    local handler = core.get_switch_handler(env, core.switch_names.embeded_cands)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
-    handler(env.engine.context, embeded_cands_option_name)
+    handler(env.engine.context, core.switch_names.embeded_cands)
     -- 注册通知回調
     env.engine.context.option_update_notifier:connect(handler)
 end
@@ -101,7 +98,7 @@ end
 
 -- 過濾器
 function embeded_cands_filter.func(input, env)
-    if not env.option[embeded_cands_option_name] and core.input_code ~= "help " then
+    if not env.option[core.switch_names.embeded_cands] and core.input_code ~= "help " then
         for cand in input:iter() do
             yield(cand)
         end

@@ -12,23 +12,41 @@ core.yuhao_mem = nil
 
 -- 輸入 "zhelp" 時提供開關管理
 core.helper_code = "zhelp"
+-- 開關枚舉
+core.switch_types = { switch = 1, radio = 2 }
+core.switch_names = {
+    single_char = "single_char",
+    fullcode_char = "fullcode_char",
+    embeded_cands = "embeded_cands",
+}
+
+-- 新開關
+local function new_switch(name, display)
+    return {
+        type = core.switch_types.switch,
+        name = name,
+        display = display,
+    }
+end
+-- 新單選
+local function new_radio(states)
+    return {
+        type = core.switch_types.radio,
+        states = states,
+    }
+end
 -- 開關列表
 core.switch_options = {
-    -- 這部分是數組區, 寫入所有出現在候選處的開關名
-    "ascii_punct", "single_char", "embeded_cands", "full_shape", "division", -- "chaifen",
-    -- 開關名對應的顯示文本
-    ascii_punct = "英符",
-    single_char = "純單",
-    embeded_cands = "嵌入",
-    full_shape = "全角",
-    division = "拆分",
-    -- 單選開關使用嵌套的table描述
-    chaifen = {
-        "chaifen.off", "chaifen.lv1", "chaifen.lv2",
-        ["chaifen.off"] = "注解關",
-        ["chaifen.lv1"] = "注解一",
-        ["chaifen.lv2"] = "注解二",
-    },
+    new_switch("ascii_punct", {"Punct", "標點"}),
+    new_switch(core.switch_names.single_char, {"純單", "智能"}),
+    new_switch(core.switch_names.fullcode_char, {"全單", "字詞"}),
+    new_switch(core.switch_names.embeded_cands, {"嵌入開", "嵌入關"}),
+    new_switch("full_shape", {"全角", "半角"}),
+    new_radio({
+        { name = "division.off", display = "註解關" },
+        { name = "division.lv1", display = "註解一" },
+        { name = "division.lv2", display = "註解二" },
+    }),
 }
 
 -- ######## 工具函数 ########

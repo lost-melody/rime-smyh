@@ -1,9 +1,6 @@
 local translator = {}
 local core = require("smyh.core")
 
--- 讀取 schema.yaml 開關設置:
-local single_char_option_name = "single_char"
-
 -- ######## 翻译器 ########
 
 function translator.init(env)
@@ -14,9 +11,9 @@ function translator.init(env)
         core.yuhao_mem = Memory(env.engine, Schema("smyh.yuhao"))
     end
     -- 構造回調函數
-    local handler = core.get_switch_handler(env, single_char_option_name)
+    local handler = core.get_switch_handler(env, core.switch_names.fullcode_char)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
-    handler(env.engine.context, single_char_option_name)
+    handler(env.engine.context, core.switch_names.fullcode_char)
     -- 注册通知回調
     env.engine.context.option_update_notifier:connect(handler)
 end
@@ -27,26 +24,28 @@ local index_indicators = {"¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "
 local function handle_switch(env, ctx, seg, input)
     core.input_code = "help "
     local text_list = {}
-    for idx, option_name in ipairs(core.switch_options) do
+    for idx, option in ipairs(core.switch_options) do
         local text = ""
-        local option = core.switch_options[option_name]
-        if type(option) == "string" then
+        if option.type == core.switch_types.switch then
             -- 開關項, 渲染形如 "■選項¹"
-            local current_value = ctx:get_option(option_name)
+            local state = ""
+            local current_value = ctx:get_option(option.name)
             if current_value then
                 text = text.."■"
+                state = option.display[1]
             else
                 text = text.."□"
+                state = option.display[2]
             end
-            text = text..core.switch_options[option_name]..index_indicators[idx]
-        elseif type(option) == "table" then
+            text = text..state..index_indicators[idx]
+        elseif option.type == core.switch_types.radio then
             -- 單選項, 渲染形如 "□■□狀態二"
             local state = ""
-            for _, op in ipairs(option) do
-                local value = ctx:get_option(op)
+            for _, op in ipairs(option.states) do
+                local value = ctx:get_option(op.name)
                 if value then
                     text = text.."■"
-                    state = option[op]
+                    state = op.display
                 else
                     text = text.."□"
                 end
@@ -95,7 +94,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
 
     if #input == 4 then
         local mem
-        if env.option[single_char_option_name] then
+        if env.option[core.switch_names.fullcode_char] then
             -- 純單模式, 查詢單字全碼
             mem = core.full_mem
         else
@@ -177,6 +176,7 @@ function translator.func(input, seg, env)
 end
 
 function translator.fini(env)
+    env.option = nil
 end
 
 return translator

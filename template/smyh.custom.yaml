@@ -22,7 +22,7 @@ patch:
     '@' : '@'
     '#' : '#'
     '%' : '%'
-    '$' : '￥'
+    '$' : '¥'
     '*' : '*'
     '=' : '='
     '[' : '「'
@@ -45,8 +45,6 @@ patch:
   #   - express_editor
   # engine/translators:
   #   - punct_translator
-  #   - table_translator@phrase
-  #   - table_translator@yuhaofull
   #   - history_translator@history
   #   - reverse_lookup_translator@rev_pinyin
   #   - lua_translator@smyh_core_translator
@@ -54,5 +52,7 @@ patch:
   #   - simplifier
   #   - uniquifier
   #   - simplifier@rev_div
+  #   - simplifier@division.lv1
+  #   - simplifier@division.lv2
+  #   - simplifier@division.lv3
   #   - lua_filter@smyh_embeded_cands
-  #   - simplifier@division
