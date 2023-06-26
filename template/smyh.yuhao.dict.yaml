@@ -6,11 +6,11 @@ name: "smyh.yuhao"
 version: "beta"
 sort: original
 import_tables:
+  # - yuhao.full                     # 简体单字码表
+  - yuhao_tradition.full             # 繁體單字碼表
   # - yuhao.private                  # 用户自定義詞庫
   - yuhao.words                      # 简体核心词库
   - yuhao_tradition.words            # 繁體核心詞庫
-  # - yuhao.full                     # 简体单字码表
-  - yuhao_tradition.full             # 繁體單字碼表
   - yuhao.words_extended             # 简体扩展词库
   - yuhao_tradition.words_extended   # 繁體擴展詞庫
   - yuhao.words_literature           # 简体成语诗词词库

@@ -105,6 +105,12 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
         for _, entry in ipairs(entries) do
             table.insert(full_entries, entry)
         end
+        -- 字詞模式下, 詞語前置
+        if not env.option[core.switch_names.fullcode_char] then
+            table.sort(full_entries, function(ca, cb)
+                return utf8.len(ca.text) > 1 and utf8.len(cb.text) <= 1
+            end)
+        end
     end
 
     -- 查詢分詞串暫存值
