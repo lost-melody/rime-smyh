@@ -102,14 +102,18 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
             mem = core.yuhao_mem
         end
         local entries = core.dict_lookup(mem, input, 10)
+        local stashed = {}
+        -- 詞語前置, 單字暫存
         for _, entry in ipairs(entries) do
-            table.insert(full_entries, entry)
+            if utf8.len(entry.text) == 1 then
+                table.insert(stashed, entry)
+            else
+                table.insert(full_entries, entry)
+            end
         end
-        -- 字詞模式下, 詞語前置
-        if not env.option[core.switch_names.fullcode_char] then
-            table.sort(full_entries, function(ca, cb)
-                return utf8.len(ca.text) > 1 and utf8.len(cb.text) <= 1
-            end)
+        -- 收錄暫存候選
+        for _, entry in ipairs(stashed) do
+            table.insert(full_entries, entry)
         end
     end
 
