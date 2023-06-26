@@ -6,6 +6,7 @@ name: "smyh.yuhao"
 version: "beta"
 sort: original
 import_tables:
+  # - yuhao.private                  # 用户自定義詞庫
   - yuhao.words                      # 简体核心词库
   - yuhao_tradition.words            # 繁體核心詞庫
   # - yuhao.full                     # 简体单字码表
@@ -14,10 +15,22 @@ import_tables:
   - yuhao_tradition.words_extended   # 繁體擴展詞庫
   - yuhao.words_literature           # 简体成语诗词词库
   - yuhao_tradition.words_literature # 繁體成語詩詞詞庫
+  # - yuhao.extended                 # 用户擴展詞庫
 columns:
   - text
   - code
   - weight
   - other
+encoder:
+  exclude_patterns:
+    - "^[a-z]$" # 一简
+    - "[^a-z]"
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 20]
+      formula: "AaBaCaZa"
 ...
 
