@@ -51,6 +51,29 @@ core.switch_options = {
 
 -- ######## 工具函数 ########
 
+-- 從方案配置中讀取字符串
+function core.parse_conf_str(env, path, default)
+    local str = env.engine.schema.config:get_string(env.name_space.."/"..path)
+    if not str and default and #default ~= 0 then
+        str = default
+    end
+    return str
+end
+
+-- 從方案配置中讀取字符串列表
+function core.parse_conf_str_list(env, path, default)
+    local list = {}
+    local conf_list = env.engine.schema.config:get_list(env.name_space.."/"..path)
+    if conf_list then
+        for i = 0, conf_list.size-1 do
+            table.insert(list, conf_list:get_value_at(i).value)
+        end
+    elseif default then
+        list = default
+    end
+    return list
+end
+
 -- 是否單個宇三全碼編碼段, 如: "abc", "a;", "a;;", "ab;"
 function core.single_smyh_seg(input)
     return string.match(input, "^[a-y][z;]$")       -- 一簡

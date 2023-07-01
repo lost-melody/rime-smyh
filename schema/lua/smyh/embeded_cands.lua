@@ -20,17 +20,33 @@ local index_indicators = {"¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "
 
 -- 首選/非首選格式定義
 -- Stash: 延迟候選; Seq: 候選序號; Code: 編碼; 候選: 候選文本; Comment: 候選提示
-local first_format = "Stash[候選Seq]CodeComment"
-local next_format = "Stash候選SeqComment"
+local first_format = "${Stash}[${候選}${Seq}]${Code}${Comment}"
+local next_format = "${Stash}${候選}${Seq}${Comment}"
 local separator = " "
 
 function embeded_cands_filter.init(env)
-    -- 構造回調函數
-    local handler = core.get_switch_handler(env, core.switch_names.embeded_cands)
-    -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
-    handler(env.engine.context, core.switch_names.embeded_cands)
-    -- 注册通知回調
-    env.engine.context.option_update_notifier:connect(handler)
+    -- 讀取配置項
+    env.config = {}
+    env.config.index_indicators = core.parse_conf_str_list(env, "index_indicators", index_indicators)
+    env.config.first_format = core.parse_conf_str(env, "first_format", first_format)
+    env.config.next_format = core.parse_conf_str(env, "next_format", next_format)
+    env.config.separator = core.parse_conf_str(env, "separator", separator)
+    env.config.option_name = core.parse_conf_str(env, "option_name")
+
+    -- 是否指定開關
+    if env.config.option_name and #env.config.option_name ~= 0 then
+        -- 構造回調函數
+        local handler = core.get_switch_handler(env, env.config.option_name)
+        -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
+        handler(env.engine.context, env.config.option_name)
+        -- 注册通知回調
+        env.engine.context.option_update_notifier:connect(handler)
+    else
+        -- 未指定開關, 默認啓用
+        env.config.option_name = core.switch_names.embeded_cands
+        env.option = {}
+        env.option[env.config.option_name] = true
+    end
 end
 
 -- 處理候選文本和延迟串
@@ -73,13 +89,13 @@ local function escape_percent(text)
 end
 
 -- 渲染單個候選項
-local function render_cand(seq, code, stashed, text, comment, digested)
+local function render_cand(env, seq, code, stashed, text, comment, digested)
     local cand = ""
     -- 選擇渲染格式
     if seq == 1 then
-        cand = first_format
+        cand = env.config.first_format
     else
-        cand = next_format
+        cand = env.config.next_format
     end
     -- 渲染延迟串與候選文字
     stashed, text, digested = render_stashcand(seq, stashed, text, digested)
@@ -88,17 +104,17 @@ local function render_cand(seq, code, stashed, text, comment, digested)
     end
     -- 渲染提示串
     comment = render_comment(comment)
-    cand = string.gsub(cand, "Seq", index_indicators[seq])
-    cand = string.gsub(cand, "Code", escape_percent(code))
-    cand = string.gsub(cand, "Stash", escape_percent(stashed))
-    cand = string.gsub(cand, "候選", escape_percent(text))
-    cand = string.gsub(cand, "Comment", escape_percent(comment))
+    cand = string.gsub(cand, "%${Seq}", env.config.index_indicators[seq])
+    cand = string.gsub(cand, "%${Code}", escape_percent(code))
+    cand = string.gsub(cand, "%${Stash}", escape_percent(stashed))
+    cand = string.gsub(cand, "%${候選}", escape_percent(text))
+    cand = string.gsub(cand, "%${Comment}", escape_percent(comment))
     return cand, digested
 end
 
 -- 過濾器
 function embeded_cands_filter.func(input, env)
-    if not env.option[core.switch_names.embeded_cands] and core.input_code ~= "help " then
+    if not env.option[env.config.option_name] and core.input_code ~= "help " then
         for cand in input:iter() do
             yield(cand)
         end
@@ -114,7 +130,7 @@ function embeded_cands_filter.func(input, env)
     local digested = false
 
     local function refresh_preedit()
-        first_cand.preedit = table.concat(page_rendered, separator)
+        first_cand.preedit = table.concat(page_rendered, env.config.separator)
         -- 將暫存的一頁候選批次送出
         for _, c in ipairs(page_cands) do
             yield(c)
@@ -150,7 +166,7 @@ function embeded_cands_filter.func(input, env)
         end
 
         -- 帶有暫存串的候選合併同類項
-        preedit, digested = render_cand(index, input_code, core.stashed_text, cand.text, cand.comment, digested)
+        preedit, digested = render_cand(env, index, input_code, core.stashed_text, cand.text, cand.comment, digested)
 
         -- 存入候選
         table.insert(page_cands, cand)

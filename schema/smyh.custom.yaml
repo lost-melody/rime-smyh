@@ -32,6 +32,12 @@ patch:
   editor/bindings/+:
     # 回车清空编码
     Return: cancel
+  embeded_cands/+:
+    # option_name: embeded_cands                               # 嵌入候選開關
+    # index_indicators: [ ¹, ², ³, ⁴, ⁵, ⁶, ⁷, ⁸, ⁹, ⁰ ]       # 嵌入候選的序號顯示格式
+    # first_format: "${Stash}[${候選}${Seq}]${Code}${Comment}" # 首選的渲染格式
+    # next_format: "${Stash}${候選}${Seq}${Comment}"           # 非首選的渲染格式
+    # separator: " "                                           # 候選之間的分隔符
   # 解注释以下内容, 并复制rime.lua, 以兼容旧版librime-lua
   # engine/processors:
   #   - lua_processor@smyh_core_processor
@@ -55,4 +61,4 @@ patch:
   #   - simplifier@division.lv1
   #   - simplifier@division.lv2
   #   - simplifier@division.lv3
-  #   - lua_filter@smyh_embeded_cands
+  #   - lua_filter@smyh_embeded_cands@embeded_cands
