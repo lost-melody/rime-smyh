@@ -29,6 +29,17 @@ local function select_index(key, env)
     return index
 end
 
+-- 設置開關狀態, 並更新保存的配置值
+local function set_option(env, ctx, option_name, value)
+    ctx:set_option(option_name, value)
+    local swt = env.switcher
+    if swt ~= nil then
+        if swt:is_auto_save(option_name) and swt.user_config ~= nil then
+            swt.user_config:set_bool("var/option/"..option_name, value)
+        end
+    end
+end
+
 -- 開關狀態切換
 local function toggle_switch(env, ctx, option)
     if not option then
@@ -38,7 +49,7 @@ local function toggle_switch(env, ctx, option)
         -- 開關項: { type = 1, name = "", display = "" }
         local current_value = ctx:get_option(option.name)
         if current_value ~= nil then
-            ctx:set_option(option.name, not current_value)
+            set_option(env, ctx, option.name, not current_value)
         end
     elseif option.type == core.switch_types.radio then
         -- 單選項: { type = 2, states = {{name="", display=""}, {}} }
@@ -46,8 +57,8 @@ local function toggle_switch(env, ctx, option)
             local value = ctx:get_option(op.name)
             if value then
                 -- 關閉當前選項, 開啓下一選項
-                ctx:set_option(op.name, not value)
-                ctx:set_option(option.states[i%#option.states+1].name, value)
+                set_option(env, ctx, op.name, not value)
+                set_option(env, ctx, option.states[i%#option.states+1].name, value)
                 break
             end
         end
@@ -173,6 +184,9 @@ local function handle_clean(env, ctx, ch)
 end
 
 function processor.init(env)
+    if Switcher ~= nil then
+        env.switcher = Switcher(env.engine)
+    end
     -- 構造回調函數
     local handler = core.get_switch_handler(env, core.switch_names.single_char)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
@@ -217,6 +231,7 @@ function processor.func(key_event, env)
 end
 
 function processor.fini(env)
+    env.switcher = nil
     env.option = nil
 end
 

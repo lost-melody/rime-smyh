@@ -1,6 +1,11 @@
 patch:
   schema/name: 宇浩三码顶
   schema/dependencies/+:
+  # 當開關禁用 reset, 且存在於 default.yaml/switcher/save_options 列表中時,
+  # 通過方案選單或 zhelp 選單更新可記憶配置值, 通過快捷鍵更新則不記憶
+  switches/@3/reset: # 智能·純單
+  switches/@4/reset: # 字詞·純單
+  switches/@5/reset: # 普通·嵌入
   switches/+:
   key_binder/bindings/+:
   ascii_composer/switch_key/+:

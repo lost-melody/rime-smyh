@@ -12,8 +12,6 @@ mkdir -p "${SCHEMA}/opencc"
 
 # 拷贝模板文件
 cp template/smyh.*.yaml "${SCHEMA}/"
-cp template/lua/smyh/*.lua "${SCHEMA}/lua/smyh/"
-cp template/opencc/smyh_*.{json,txt} "${SCHEMA}/opencc/"
 
 cd generator
 # 运行码表生成器
@@ -23,8 +21,6 @@ cd "${WD}"
 # 单字码表
 cat /tmp/char.txt >>"${SCHEMA}/smyh.base.dict.yaml"
 grep -v '#' table/smyh_quick.txt >>"${SCHEMA}/smyh.base.dict.yaml"
-# 引號詩詞成語碼表
-# grep -v '#' table/quote.txt >>"${SCHEMA}/smyh.phrase.dict.yaml"
 # 智能词码表
 cat /tmp/phrase.txt >>"${SCHEMA}/smyh.smart.dict.yaml"
 # 拆分提示
