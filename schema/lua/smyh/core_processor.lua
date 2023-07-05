@@ -9,6 +9,10 @@ local cA  = string.byte("a") -- 字符: 'a'
 local cZ  = string.byte("z") -- 字符: 'z'
 local cSC = string.byte(";") -- 字符: ';'
 local cSp = string.byte(" ") -- 空格鍵
+local cSl = 0xffe1           -- 左Shift
+local cSr = 0xffe2           -- 右Shift
+local cCl = 0xffe3           -- 左Ctrl
+local cCr = 0xffe4           -- 右Ctrl
 local cRt = 0xff0d           -- 回車鍵
 
 -- 返回被選中的候選的索引, 來自 librime-lua/sample 示例
@@ -60,6 +64,22 @@ local function toggle_switch(env, ctx, option)
                 set_option(env, ctx, op.name, not value)
                 set_option(env, ctx, option.states[i%#option.states+1].name, value)
                 break
+            end
+        end
+    end
+end
+
+-- 執行開關同步
+local function sync_switches(env, ctx, key_event)
+    if env.sync_at < core.sync_at then
+        env.sync_at = core.sync_at
+        -- 當總線更新時間比會話晚時, 將總線值同步到會話中
+        for op_name, value in pairs(core.sync_bus.switches) do
+            if env.sync_options[op_name] ~= value then
+                env.sync_options[op_name] = value
+                if ctx:get_option(op_name) ~= value then
+                    ctx:set_option(op_name, value)
+                end
             end
         end
     end
@@ -187,6 +207,35 @@ function processor.init(env)
     if Switcher ~= nil then
         env.switcher = Switcher(env.engine)
     end
+
+    -- 讀取配置項
+    env.config = {}
+    env.config.sync_options = core.parse_conf_str_list(env, "sync_options")
+    env.config.sync_options.synced_at = 0
+
+    -- 讀取需要同步的開關項列表
+    env.sync_at = 0
+    env.sync_options = {}
+    for _, op_name in ipairs(env.config.sync_options) do
+        env.sync_options[op_name] = true
+    end
+    -- 注册回調
+    env.engine.context.option_update_notifier:connect(function(ctx, op_name)
+        if env.sync_options[op_name] ~= nil then
+            -- 當選項在同步列表中時, 將變更同步到總線
+            local value = ctx:get_option(op_name)
+            if env.sync_at == 0 and core.sync_at ~= 0 and core.sync_bus.switches[op_name] ~= nil then
+                -- 當前會話未同步過, 且總線有值, 可能是由 reset 觸發
+            elseif core.sync_bus.switches[op_name] ~= value then
+                -- 同步到總線
+                core.sync_at = os.time()
+                core.sync_bus.switches[op_name] = value
+            end
+            -- 會話值總是賦值爲當前實際值
+            env.sync_options[op_name] = value
+        end
+    end)
+
     -- 構造回調函數
     local handler = core.get_switch_handler(env, core.switch_names.single_char)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
@@ -196,14 +245,14 @@ function processor.init(env)
 end
 
 function processor.func(key_event, env)
-    if key_event:release() or key_event:alt() then
-        -- 不是我關注的鍵按下事件, 棄之
-        return kNoop
-    end
-
     local ctx = env.engine.context
     if #ctx.input == 0 then
-        -- 當前無輸入, 略之
+        -- 開關狀态同步
+        sync_switches(env, ctx, key_event)
+    end
+
+    if #ctx.input == 0 or key_event:release() or key_event:alt() then
+        -- 當前無輸入, 或不是我關注的鍵按下事件, 棄之
         return kNoop
     end
 

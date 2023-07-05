@@ -10,6 +10,13 @@ core.base_mem = nil
 core.full_mem = nil
 core.yuhao_mem = nil
 
+-- 消息同步: 更新時間
+core.sync_at = 0
+-- 消息同步: 總線
+core.sync_bus = {
+    switches = {}, -- 開關狀態
+}
+
 -- 輸入 "zhelp" 時提供開關管理
 core.helper_code = "zhelp"
 -- 開關枚舉

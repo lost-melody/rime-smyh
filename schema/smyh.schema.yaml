@@ -45,7 +45,7 @@ switches:
 
 engine:
   processors:
-    - lua_processor@*smyh.core_processor
+    - lua_processor@*smyh.core_processor@core_proc
     - ascii_composer
     - recognizer
     - key_binder
@@ -66,7 +66,7 @@ engine:
     # 反查
     - reverse_lookup_translator@rev_pinyin
     # 宇浩三码顶主翻译器
-    - lua_translator@*smyh.core_translator
+    - lua_translator@*smyh.core_translator@core_tr
   filters:
     - simplifier
     # 候选去重
@@ -131,6 +131,13 @@ rev_pinyin:
     - xform/;/_/
     - "xform/^/[/"
     - "xform/$/]/"
+
+core_proc:
+  sync_options:
+    # 開關同步列表, 此處列出的開關項會在各個會話中同步狀態
+    - ascii_mode
+
+core_tr:
 
 # 嵌入候選的顯示配置
 # 默認顯示效果爲:

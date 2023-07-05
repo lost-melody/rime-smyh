@@ -1,8 +1,11 @@
 patch:
   schema/name: 宇浩三码顶
   schema/dependencies/+:
-  # 當開關禁用 reset, 且存在於 default.yaml/switcher/save_options 列表中時,
-  # 通過方案選單或 zhelp 選單更新可記憶配置值, 通過快捷鍵更新則不記憶
+  # 當一個開關滿足以下条件時, 其變化值會記憶在 *user.yaml* 中:
+  # 1. 該開關項的 *reset* 字段置空: 字段不存在或不指定值.
+  # 2. 該開關項寫在 *default.yaml* (*default.custom.yaml*) 的 `switcher/save_options` 列表中,
+  #   例如在 *default.custom.yaml* 中寫入: `patch/switcher/save_options: [ single_char, embeded_cands ]`.
+  # 3. 開關項的變動是通過 *方案選單* 或 `zhelp` 操作的; 也就是説如果通過快捷鍵操作, 就不會記憶值.
   switches/@3/reset: # 智能·純單
   switches/@4/reset: # 字詞·純單
   switches/@5/reset: # 普通·嵌入
@@ -45,7 +48,7 @@ patch:
     # separator: " "                                           # 候選之間的分隔符
   # 解注释以下内容, 并复制rime.lua, 以兼容旧版librime-lua
   # engine/processors:
-  #   - lua_processor@smyh_core_processor
+  #   - lua_processor@smyh_core_processor@core_proc
   #   - ascii_composer
   #   - recognizer
   #   - key_binder
@@ -58,7 +61,7 @@ patch:
   #   - punct_translator
   #   - history_translator@history
   #   - reverse_lookup_translator@rev_pinyin
-  #   - lua_translator@smyh_core_translator
+  #   - lua_translator@smyh_core_translator@core_tr
   # engine/filters:
   #   - simplifier
   #   - uniquifier
