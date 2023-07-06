@@ -77,7 +77,7 @@ local function sync_switches(env, ctx, key_event)
         for op_name, value in pairs(core.sync_bus.switches) do
             if env.sync_options[op_name] ~= value then
                 env.sync_options[op_name] = value
-                if ctx:get_option(op_name) ~= value then
+                if not ctx:get_option("unsync_"..op_name) and ctx:get_option(op_name) ~= value then
                     ctx:set_option(op_name, value)
                 end
             end
@@ -226,6 +226,8 @@ function processor.init(env)
             local value = ctx:get_option(op_name)
             if env.sync_at == 0 and core.sync_at ~= 0 and core.sync_bus.switches[op_name] ~= nil then
                 -- 當前會話未同步過, 且總線有值, 可能是由 reset 觸發
+            elseif ctx:get_option("unsync_"..op_name) then
+                -- 當前會話設置禁用了此開關同步
             elseif core.sync_bus.switches[op_name] ~= value then
                 -- 同步到總線
                 core.sync_at = os.time()
