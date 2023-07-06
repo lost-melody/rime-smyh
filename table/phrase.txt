@@ -1,5 +1,8 @@
 即使	xvef
+主义	ogow
+很大	rvgd
 二十	sidi
+有人	swte
 即便	xvef
 字根	ovfv
 字集	ovwf
@@ -6802,7 +6805,6 @@
 也是	cyjf
 现代化	geer
 一面	figi
-主义	ogow
 有力	swxk
 用于	tnfa
 人士	tehf
@@ -28681,7 +28683,6 @@
 千秋大业	wrgk
 笔杆	qrfh
 德意志	rihy
-很大	rvgd
 很好	rvcv
 第七	qvai
 繁花	qbse
@@ -42240,7 +42241,6 @@
 方成	ogdv
 两人	fkte
 不知道	dqut
-有人	swte
 五一	fcfi
 农资	yrse
 文化大革命	pegy
@@ -52373,6 +52373,7 @@
 小鹏	maww
 简词	qpov
 卽使	eref
+主義	oguq
 卽便	eref
 怎麽	qmpq
 測試	imug
@@ -56472,7 +56473,6 @@
 市長	omha
 這時	upjh
 現代化	geer
-主義	oguq
 用於	tnot
 顯著	jvsh
 研製	dfwk
@@ -85217,7 +85217,7 @@
 大戶	gdie
 譽為	rsow
 裡邊	pkto
-睡著	mesh
+睡著	mwsh
 沒事	iwal
 訂閱	uakt
 停產	eops
@@ -85771,7 +85771,7 @@
 傳閱	egkt
 版稅	tsrt
 別號	lwls
-唾罵	lemd
+唾罵	lwmd
 虛脫	mxwt
 偽證	eoub
 說媒	utcs
@@ -86292,7 +86292,7 @@
 遙不可及	wdav
 老有所為	hsio
 沒了	iwvl
-沒睡	iwme
+沒睡	iwmw
 河裡	iapk
 量產	jfps
 口內	lvkr
