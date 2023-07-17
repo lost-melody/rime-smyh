@@ -727,10 +727,16 @@ encoder:
 抑鬱	atxfwt
 拌匀	auawsi
 拌勻	auawsi
+撇下	aueaka
+撇开	auefsj
+撇開	auekfs
 联谊	augoom
 联袂	augpbt
+晋级	aujvvo
 搪塞	aulosh
 搪瓷	aulsea
+严冬	auqesi
+严酷	auqgwl
 拦阻	auscmi
 拦截	ausdgw
 拦住	auseog
@@ -764,6 +770,9 @@ encoder:
 揹負	auwymb
 撈取	auxabu
 撈錢	auxwgg
+聪慧	auyddy
+聪明	auyjwy
+聪敏	auyqbe
 聪颖	auyrrk
 扔棄	avjovh
 扔進	avjwpd
@@ -937,7 +946,6 @@ encoder:
 掃帚	axmxym
 頓飯	axmyeb
 拟订	axtoan
-拙樸	axxfkg
 拙筆	axxqxa
 拙荆	axxsfm
 拙荊	axxsfm
@@ -1099,7 +1107,6 @@ encoder:
 对证	b;ofn
 对调	b;owl
 对弈	b;psj
-純樸	baxfkg
 純淨	baxiev
 純種	baxrwk
 純鋼	baxwkj
@@ -2297,7 +2304,6 @@ encoder:
 感觸	dfyytk
 磚頭	dgaflm
 磚塊	dgahwu
-古樸	dgdfkg
 古训	dgdoqc
 古迹	dgdppd
 古廟	dgdudw
@@ -2507,6 +2513,7 @@ encoder:
 页脚	dkbwhx
 南下	dkdaka
 電抗	dkdaoq
+南亚	dkdaue
 南联	dkdaug
 南聯	dkdavx
 南緯	dkdbci
@@ -2538,7 +2545,6 @@ encoder:
 南天	dkdfgd
 南亞	dkdfja
 電棍	dkdfjr
-南亚	dkdfkg
 電工	dkdfof
 走开	dkdfsj
 南开	dkdfsj
@@ -3258,7 +3264,6 @@ encoder:
 僑資	eelsem
 僑鄉	eelvqc
 僑胞	eelwwc
-質樸	eemfkg
 質檢	eemfrl
 質數	eemlde
 質監	eemsqm
@@ -3295,7 +3300,6 @@ encoder:
 乒乓	efqefo
 乒赛	efqosk
 乒賽	efqosm
-俨然	efqw;
 彩排	eftali
 彩擴	eftaut
 彩扩	eftauu
@@ -3814,7 +3818,6 @@ encoder:
 倾力	erkxkx
 倾心	erky;
 倾情	erkyhw
-儉樸	erlfkg
 傾聽	ermagy
 貨損	ermalm
 貨攤	ermasw
@@ -4653,10 +4656,6 @@ encoder:
 救贖	fkemhm
 救灾	fkeouo
 救護	fkeusb
-樸拙	fkgaxx
-樸素	fkghbs
-樸實	fkgobm
-晋级	fkjvvo
 棗紅	fkkbfo
 棗樹	fkkfha
 棗泥	fkkibr
@@ -4674,8 +4673,6 @@ encoder:
 求告	fkowlv
 求售	fkowlv
 求勝	fkowux
-严冬	fkqesi
-严酷	fkqgwl
 丙級	fktbvo
 两颗	fktjfk
 两党	fktnqr
@@ -5677,7 +5674,6 @@ encoder:
 奏效	gfgote
 奏議	gfguug
 玩伴	gfheua
-輻射	gfjwac
 球隊	gfocud
 球儀	gfoeug
 球檯	gfofhh
@@ -6015,6 +6011,7 @@ encoder:
 戒掉	gsjamj
 弄掉	gsjamj
 戒指	gsjarj
+戒严	gsjauq
 戒刀	gsjbdb
 醋劲	gsjbfx
 戒除	gsjctf
@@ -6022,7 +6019,6 @@ encoder:
 戒备	gsjejt
 戒條	gsjenf
 戒備	gsjest
-戒严	gsjfkq
 醋勁	gsjfvx
 戒毒	gsjhbm
 弄壞	gsjhor
@@ -6444,8 +6440,8 @@ encoder:
 幫腔	hhmwpf
 幫兇	hhmwxq
 幫忙	hhmyuw
+圭亚	hhtaue
 圭亞	hhtfja
-圭亚	hhtfkg
 社區	hhtgll
 圭臬	hhttfv
 社群	hhtxqu
@@ -12336,6 +12332,7 @@ encoder:
 卸責	qfxhmb
 卸妆	qfxucn
 笸籮	qglqmw
+失聪	qguauy
 失傳	qguega
 失檢	qgufrl
 失時	qgujha
@@ -12390,7 +12387,6 @@ encoder:
 鲁番	qjrqpj
 鲲鹏	qjrwwy
 簡練	qkjbfu
-簡樸	qkjfkg
 簡況	qkjilq
 簡稱	qkjreh
 簡歷	qkjsrn
@@ -13982,7 +13978,6 @@ encoder:
 邁進	skpwpd
 邁出	skpx;
 黄页	sktdkb
-黄鹂	sktfky
 黄疸	sktpjf
 黄莺	sktsyy
 蘭亭	skuoan
@@ -15177,7 +15172,6 @@ encoder:
 煩悶	udmkyi
 煩雜	udmotw
 遂願	udpsem
-誠樸	udvfkg
 誠願	udvsem
 廟宇	udwofa
 廟會	udwtfj
