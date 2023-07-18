@@ -136,14 +136,13 @@ local function handle_push(env, ctx, ch)
         if ch == cZ or ch == cSC then
             -- 查詢全碼候選
             local entries = core.dict_lookup(core.base_mem, ctx.input, 2)
-            if #entries > 1 then
-                -- 全碼多重候選
+            if #entries ~= 0 then
                 ctx:clear()
-                env.engine:commit_text(entries[2].text)
+                env.engine:commit_text(entries[1].text) -- 全碼有候選, 分號上屏之
                 return kAccepted
-            elseif #entries == 0 then
+            else
                 -- 全碼無候選
-                local cands = core.query_cand_list(core.base_mem, code_segs)
+                local cands = core.query_first_cand_list(core.base_mem, code_segs)
                 ctx:clear()
                 -- 延迟串逐次上屏, 以便Z重複上屏單字
                 for _, cand in ipairs(cands) do
@@ -159,19 +158,11 @@ local function handle_push(env, ctx, ch)
                     return kNoop
                 end
             end
-
-            -- 全碼唯一候選, 打斷施法
-            local cands, remain = core.query_cand_list(core.base_mem, code_segs, true)
-            if #cands > 1 then
-                local text = table.concat(cands, "", 1, #cands-1)
-                commit_text(env, ctx, text, remain)
-                return kAccepted
-            end
-            return kNoop
         else
             -- 頂字
             local cands, remain = core.query_cand_list(core.base_mem, code_segs)
             if #cands > 1 then
+                local cands = core.query_first_cand_list(core.base_mem, code_segs)
                 local text = table.concat(cands, "", 1, #cands-1)
                 commit_text(env, ctx, text, remain..string.char(ch))
                 return kAccepted

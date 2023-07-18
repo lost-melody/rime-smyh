@@ -166,6 +166,20 @@ core.dict_lookup = function(mem, code, count, comp)
     return result
 end
 
+-- 查詢分詞首選列表
+core.query_first_cand_list = function(mem, code_segs)
+    local cand_list = {}
+    for _, code in ipairs(code_segs) do
+        local entries = core.dict_lookup(mem, code)
+        if #entries ~= 0 then
+            table.insert(cand_list, entries[1].text)
+        else
+            table.insert(cand_list, "")
+        end
+    end
+    return cand_list
+end
+
 -- 最大匹配查詢分詞候選列表
 -- ["dkd", "qgx", "fvt"] -> ["電動", "杨"]
 -- ["dkd", "qgx"]        -> ["南", "動"]

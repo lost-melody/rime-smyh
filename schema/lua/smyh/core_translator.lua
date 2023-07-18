@@ -118,7 +118,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
 
     -- 查詢分詞串暫存值
-    local text_list = core.query_cand_list(core.base_mem, code_segs)
+    local text_list = core.query_first_cand_list(core.base_mem, code_segs)
     if #text_list ~= 0 then
         core.stashed_text = table.concat(text_list, "")
     end
@@ -130,11 +130,17 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
         table.insert(entries, {text="", comment=""})
     end
     if #full_entries == 1 then
-        entries[1].comment = "☯"
+        full_entries[1].comment = "☯"
     end
 
     -- 送出候選
     for _, entry in ipairs(full_entries) do
+        if #input ~= 4 and #entries ~= 0 then
+            -- 單字組合串總是首選, 智能詞次之
+            local entry = table.remove(entries, 1)
+            local cand = Candidate("table", seg.start, seg._end, core.stashed_text..entry.text, entry.comment)
+            yield(cand)
+        end
         local cand = Candidate("table", seg.start, seg._end, entry.text, entry.comment)
         yield(cand)
     end

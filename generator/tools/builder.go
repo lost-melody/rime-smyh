@@ -173,20 +173,7 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 				cPhraseCode += cPhraseChars[i].Code
 			}
 			tip := ""
-			if cFreq, ok := compFreqSet[cPhrase]; ok {
-				// 雙首選也是詞
-				backed := false
-				for _, char := range cPhraseChars {
-					if char.Back {
-						// 雙首選存在後置字, 後置之
-						backed = true
-					}
-				}
-				if backed {
-					cFreq = 0
-				}
-				addPhrase(cPhrase, cPhraseCode, "", cFreq)
-			} else {
+			if _, ok := compFreqSet[cPhrase]; !ok {
 				// 雙首選作爲提示詞
 				tip = cPhrase
 			}
