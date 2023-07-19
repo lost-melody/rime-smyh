@@ -48,6 +48,7 @@ patch:
     # first_format: "${Stash}[${候選}${Seq}]${Code}${Comment}" # 首選的渲染格式
     # next_format: "${Stash}${候選}${Seq}${Comment}"           # 非首選的渲染格式
     # separator: " "                                           # 候選之間的分隔符
+    # stash_placeholder: "~"                                   # 非首選的延遲串占位符
   # 解注释以下内容, 并复制rime.lua, 以兼容旧版librime-lua
   # engine/processors:
   #   - lua_processor@smyh_core_processor@core_proc

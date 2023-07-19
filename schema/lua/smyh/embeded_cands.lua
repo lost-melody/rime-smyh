@@ -23,6 +23,7 @@ local index_indicators = {"¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "
 local first_format = "${Stash}[${候選}${Seq}]${Code}${Comment}"
 local next_format = "${Stash}${候選}${Seq}${Comment}"
 local separator = " "
+local stash_placeholder = "~"
 
 function embeded_cands_filter.init(env)
     -- 讀取配置項
@@ -31,6 +32,7 @@ function embeded_cands_filter.init(env)
     env.config.first_format = core.parse_conf_str(env, "first_format", first_format)
     env.config.next_format = core.parse_conf_str(env, "next_format", next_format)
     env.config.separator = core.parse_conf_str(env, "separator", separator)
+    env.config.stash_placeholder = core.parse_conf_str(env, "stash_placeholder", stash_placeholder)
     env.config.option_name = core.parse_conf_str(env, "option_name")
 
     -- 是否指定開關
@@ -50,7 +52,7 @@ function embeded_cands_filter.init(env)
 end
 
 -- 處理候選文本和延迟串
-local function render_stashcand(seq, stash, text, digested)
+local function render_stashcand(env, seq, stash, text, digested)
     if string.len(stash) ~= 0 and text ~= stash and string.match(text, "^"..stash) then
         if seq == 1 then
             -- 首選含延迟串, 原樣返回
@@ -62,7 +64,8 @@ local function render_stashcand(seq, stash, text, digested)
             stash, text = "["..stash.."]", string.sub(text, string.len(stash)+1)
         else
             -- 非首個候選, 延迟串標記爲空
-            stash, text = "", string.sub(text, string.len(stash)+1)
+            local placeholder = string.gsub(env.config.stash_placeholder, "%${Stash}", stash)
+            stash, text = "", placeholder..string.sub(text, string.len(stash)+1)
         end
     else
         -- 普通候選, 延迟串標記爲空
@@ -98,7 +101,7 @@ local function render_cand(env, seq, code, stashed, text, comment, digested)
         cand = env.config.next_format
     end
     -- 渲染延迟串與候選文字
-    stashed, text, digested = render_stashcand(seq, stashed, text, digested)
+    stashed, text, digested = render_stashcand(env, seq, stashed, text, digested)
     if seq ~= 1 and text == "" then
         return "", digested
     end
