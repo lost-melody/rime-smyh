@@ -12178,6 +12178,7 @@ columns:
 证	ofn	452885
 寁	ofn	0
 讧	ofo	2114
+衰	ofr	46360
 鵍	ofr	0
 寅	oft	16337
 诬	oft	9995
@@ -12275,7 +12276,6 @@ columns:
 谴	olp	12039
 瓤	olq	846
 宺	olq	0
-衰	olr	46360
 襄	olr	27380
 宮	olr	108
 裵	olr	43
@@ -13815,6 +13815,7 @@ columns:
 篅	qjs	2
 屲	qjs	0
 氱	qjt	0
+甶	qjt	0
 篂	qjw	56
 鳎	qjx	208
 鳃	qjy	449
@@ -14572,7 +14573,6 @@ columns:
 狫	rhr	0
 狋	rhs	0
 舆	rht	17587
-甶	rht	0
 秤	rhu	5682
 猜	rhw	185595
 犽	rhy	7
@@ -15804,6 +15804,7 @@ columns:
 墓	sjh	71994
 壓	sjh	172
 蘲	sjh	0
+曹	sjj	183285
 暮	sjj	32619
 菖	sjj	870
 藟	sjj	17
@@ -15817,6 +15818,7 @@ columns:
 葃	sjm	0
 黶	sjn	1
 慕	sjo	186450
+遭	sjp	174294
 逪	sjp	0
 昔	sjr	39983
 菎	sjr	2
@@ -15868,7 +15870,6 @@ columns:
 苒	skh	3850
 冓	skh	10
 黊	skh	0
-曹	skj	183285
 蕳	skj	1
 厘	skk	17464
 觏	skk	64
@@ -15889,7 +15890,6 @@ columns:
 躉	skn	2
 菛	skn	1
 苖	sko	6
-遭	skp	174294
 遘	skp	128
 邁	skp	23
 黆	skq	0
