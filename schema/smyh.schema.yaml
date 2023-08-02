@@ -100,8 +100,8 @@ division.lv1:
   option_name: division.lv1
   comment_format:
     - xform/\[.*?\|/\[/
-    - xlit/12/-+/
-  tags: [ abc ]
+    - xlit/_/-/
+  tags: [ abc, rev_pinyin ]
 
 # 拆分提示, 可快捷开关
 division.lv2:
@@ -109,8 +109,8 @@ division.lv2:
   option_name: division.lv2
   comment_format:
     - xform/\|/·/
-    - xlit/12/-+/
-  tags: [ abc ]
+    - xlit/_/-/
+  tags: [ abc, rev_pinyin ]
 
 # 反查拆分提示, 反查时常显
 rev_div:
@@ -120,7 +120,7 @@ rev_div:
   show_in_comment: true
   comment_format:
     - xform/\[.*?\|/\[/
-    - xlit/12/-+/
+    - xlit/_/-/
   tags: [ rev_pinyin ]
 
 # 拼音反查
@@ -132,9 +132,9 @@ rev_pinyin:
   preedit_format:
     - xform/^`//
   comment_format:
-    - xlit/12/-+/
     - "xform/^/[/"
     - "xform/$/]/"
+    - xlit/_/-/
 
 core_proc:
   sync_options:
