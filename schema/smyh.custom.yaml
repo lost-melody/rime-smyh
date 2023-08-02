@@ -1,5 +1,5 @@
 patch:
-  schema/name: 宇浩三码顶
+  schema/name: 華夫餅
   schema/dependencies/+:
   # 當一個開關滿足以下条件時, 其變化值會記憶在 *user.yaml* 中:
   # 1. 該開關項的 *reset* 字段置空: 字段不存在或不指定值.

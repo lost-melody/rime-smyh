@@ -3,23 +3,24 @@
 
 schema:
   schema_id: smyh
-  name: 宇浩三码顶
+  name: 華夫餅
   version: "alpha"
   author:
     - 宇浩输入法
+    - forFudan
     - 王牌饼干
   description: |
-    宇浩三码顶，基于宇浩输入法制作。
-    宇浩输入法QQ群：735728797
+    華夫饼，基于宇浩輸入法製作。
+    宇浩輸入法QQ群：735728797
   dependencies:
     # 宇浩拼音, 用于反查
     - yuhao_pinyin
     # 基础码表
     - smyh.base
     # 全码官宇词库
-    - smyh.yuhaofull
+    # - smyh.yuhaofull
     # 官宇字詞碼表
-    - smyh.yuhao
+    # - smyh.yuhao
 
 switches:
   - name: ascii_punct
@@ -29,13 +30,13 @@ switches:
     states: [ 半, 全 ]
     reset: 0
   - options: [ division.off, division.lv1, division.lv2 ]
-    states: [ 注解关, 注解一, 注解二 ]
+    states: [ 註解關, 註解一, 註解二 ]
     reset: 0
   - name: single_char
-    states: [ 智能, 纯单 ]
+    states: [ 智能, 純單 ]
     reset: 0
   - name: fullcode_char
-    states: [ 字词, 全单 ]
+    states: [ 字詞, 全單 ]
     reset: 0
   - name: embeded_cands
     states: [ 普通, 嵌入 ]
@@ -65,7 +66,7 @@ engine:
     - history_translator@history
     # 反查
     - reverse_lookup_translator@rev_pinyin
-    # 宇浩三码顶主翻译器
+    # 華夫餅主翻译器
     - lua_translator@*smyh.core_translator@core_tr
   filters:
     - simplifier
