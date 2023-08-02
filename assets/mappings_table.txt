@@ -1,48 +1,48 @@
 	========   Q   ========		========   W   ========		========   E   ========		========   R   ========		========   T   ========	
-	食Qd	戶Qh	户Qh		𠂉Wd	⺮右Wd	竹Wd		𡿨Ei	㇉Ei	乚Ei		向Ra	向框Ra	囟框Ra		大Ta	耳Ti	廴Tj	
-	戸Qh	殳Qi	矢Qj		𧘇Wi	非Wi	气Wj		飛Ej	豕Ek	風En		長Rc	甫Rd	革Re		魚Tj	兀Tk	鳥Tn	
-	䒑Qk	リQk	丬Qk		力Wk	九Wm	丿W_		𡗗Ep	亻Er	生Es		合Rh	髟Ri	亦Rj		鳥上Tn	⺧Tv	牛Tv	
-	丷Qk	缶Qk	身Qn						夊Eu	亡Ew	贏頭Ew		巾Rk	鹵Rl	門Rm		烏Tw	烏上Tw	钅T_	
-	几Qv	习Qx	鱼Qy										乃Rn	镸Rn	互中Ru	
-	彑Ru	母Ru	母框Ru	
-	僉Rv	鬥Rv	人Rw	
+	食   Qd	戶   Qh	户   Qh		𠂉   Wd	⺮右 Wd	竹   Wd		𡿨   Ei	㇉   Ei	乚   Ei		向   Ra	向框 Ra	囟框 Ra		大   Ta	耳   Ti	廴   Tj	
+	戸   Qh	殳   Qi	矢   Qj		𧘇   Wi	非   Wi	气   Wj		飛   Ej	豕   Ek	風   En		長   Rc	甫   Rd	革   Re		魚   Tj	兀   Tk	鳥   Tn	
+	䒑   Qk	リ   Qk	丬   Qk		力   Wk	九   Wm	丿   W_		𡗗   Ep	亻   Er	生   Es		合   Rh	髟   Ri	亦   Rj		鳥上 Tn	⺧   Tv	牛   Tv	
+	丷   Qk	缶   Qk	身   Qn						夊   Eu	亡   Ew	贏頭 Ew		巾   Rk	鹵   Rl	門   Rm		烏   Tw	烏上 Tw	钅   T_	
+	几   Qv	习   Qx	鱼   Qy										乃   Rn	镸   Rn	互中 Ru	
+	彑   Ru	母   Ru	母框 Ru	
+	僉   Rv	鬥   Rv	人   Rw	
 
 	========   Y   ========		========   U   ========		========   I   ========		========   O   ========		========   P   ========	
-	心Yb	门Yd	业Ye		幺Ua	介下Ub	八Ub		匕Ib	乐上Ie	卬左Ie		面Oa	五下Oe	冊Oe		疒Pb	巛Pc	巜Pc	
-	艮Yi	冖Ym	世Ys		亍Ud	夕Ue	羊Ug		卯Ie	卯左Ie	齊右Ie		韋Oe	亠Og	京頭Og		虫Pc	瓦Pd	戈Pe	
-	言Ui	马Um	三Us		⺍Is	兴上Is	氵Is		亮頭Og	高Og	高頭Og		广Pg	弋Pi	工Pj	
-	丆Ut	石Ut	丂U_						女Oh	立Oi	〇Oo		麻Pm	辰Pn	⺀Pr	
-	而Or	辛Ox	丶O_		二Pr	龵Ps	手Ps	
-	鹿Pv	鹿上Pv	戊Pw	
+	心   Yb	门   Yd	业   Ye		幺   Ua	介下 Ub	八   Ub		匕   Ib	乐上 Ie	卬左 Ie		面   Oa	五下 Oe	冊   Oe		疒   Pb	巛   Pc	巜   Pc	
+	艮   Yi	冖   Ym	世   Ys		亍   Ud	夕   Ue	羊   Ug		卯   Ie	卯左 Ie	齊右 Ie		韋   Oe	亠   Og	京頭 Og		虫   Pc	瓦   Pd	戈   Pe	
+	言   Ui	马   Um	三   Us		⺍   Is	兴上 Is	氵   Is		亮頭 Og	高   Og	高頭 Og		广   Pg	弋   Pi	工   Pj	
+	丆   Ut	石   Ut	丂   U_						女   Oh	立   Oi	〇   Oo		麻   Pm	辰   Pn	⺀   Pr	
+	而   Or	辛   Ox	丶   O_		二   Pr	龵   Ps	手   Ps	
+	鹿   Pv	鹿上 Pv	戊   Pw	
 
 	========   A   ========		========   S   ========		========   D   ========		========   F   ========		========   G   ========	
-	丁Ag	亥Ah	己Ai		入Sd	未Se	两撇Sh		白Da	辶Dc	十Di		禺Fi	木Fk	一F_		𠂤Gd	示Gi	毛Go	
-	巴Aj	キAk	ヰAk		彡Sh	癶右Sh	乜Si		雨Dj	刀Dk	爲下Dk						皮Gp	龶Gq	士Gs	
-	七Ak	扌Ak	寸An		也Si	丌Sj	龷Sk		之Ds	讠Dy	亞下D_						穀頭Gs	土Gt	耂Gt	
-	冓上Sk	卄Sk	卅Sk	
-	卌Sk	卝Sk	艹Sk	
-	末Sm	金Sn	左上S_	
+	丁   Ag	亥   Ah	己   Ai		入   Sd	未   Se	两撇 Sh		白   Da	辶   Dc	十   Di		禺   Fi	木   Fk	一   F_		𠂤   Gd	示   Gi	毛   Go	
+	巴   Aj	キ   Ak	ヰ   Ak		彡   Sh	癶右 Sh	乜   Si		雨   Dj	刀   Dk	爲下 Dk						皮   Gp	龶   Gq	士   Gs	
+	七   Ak	扌   Ak	寸   An		也   Si	丌   Sj	龷   Sk		之   Ds	讠   Dy	亞下 D_						穀頭 Gs	土   Gt	耂   Gt	
+	冓上 Sk	卄   Sk	卅   Sk	
+	卌   Sk	卝   Sk	艹   Sk	
+	末   Sm	金   Sn	左上 S_	
 
 	========   H   ========		========   J   ========		========   K   ========		========   L   ========	
-	宀Hb	臼Hj	鸟Hn		早Ja	山Jc	曰Jj		豸Kd	齒Kd	厶Kf		口La	长Lc	丅Li	
-	鸟上Hn	⺆Hr	勹Hr		馬Jk	馬上Jk	日Jr		丄Kg	上Kg	厂Kh		下Li	丑Lk	黽Ln	
-	月Hr	祭上Hr	至Hs						小Kj	龸Kn	尚Kn		龜下Ln	舌Ls	夫Lv	
-	米Ks	饣Ks	虎Kv	
-	虎头Kv	子Kz	了K_	
+	宀   Hb	臼   Hj	鸟   Hn		早   Ja	山   Jc	曰   Jj		豸   Kd	齒   Kd	厶   Kf		口   La	长   Lc	丅   Li	
+	鸟上 Hn	⺆   Hr	勹   Hr		馬   Jk	馬上 Jk	日   Jr		丄   Kg	上   Kg	厂   Kh		下   Li	丑   Lk	黽   Ln	
+	月   Hr	祭上 Hr	至   Hs						小   Kj	龸   Kn	尚   Kn		龜下 Ln	舌   Ls	夫   Lv	
+	米   Ks	饣   Ks	虎   Kv	
+	虎头 Kv	子   Kz	了   K_	
 
 	========   Z   ========		========   X   ========		========   C   ========		========   V   ========		========   B   ========	
-	贝Zb	隹Zi	见Zj		刂Xd	卩Xi	糸Xi		爿Cd	阝Cf	用Cg		彳Vd	微上Vd	骨Vg		臣Be	不Bi	コBj	
-	冂Zk	冂丶Zk	襾Zk		糹Xi	其Xj	犬Xo		叀Ch	專上Ch	車Ch		禾Vh	㔾Vi	𠄎Vi		スBj	マBj	又Bj	
-	西Zk	雋下Zk	〢Zn		文Xp	犭Xq	反彐Xs		𠂭Ci	乂Ci	罒Ck		乁Vi	乙Vi	乛Vi		癶Bj	尸Bs	眉上Bs	
-	〣Zn	丨Zn	丰Zn		彐Xs	肀Xs	囗Xw		皿Cm	乍下Co	卜Co		亅Vi	黑Vk	來Vl		古Bu	尢By	尤By	
-	丩X_	丱X_	凵X_		龍右Co	片Cp	千Cq		川Vn	水Vs	冎Vu	
-	壬Cr	予Cu	卑上Cv		咼Vu	瓜Vu	爪Vz	
-	鬼Cv	龰Cz	止Cz	
+	贝   Zb	隹   Zi	见   Zj		刂   Xd	卩   Xi	糸   Xi		爿   Cd	阝   Cf	用   Cg		彳   Vd	微上 Vd	骨   Vg		臣   Be	不   Bi	コ   Bj	
+	冂   Zk	冂丶 Zk	襾   Zk		糹   Xi	其   Xj	犬   Xo		叀   Ch	專上 Ch	車   Ch		禾   Vh	㔾   Vi	𠄎   Vi		ス   Bj	マ   Bj	又   Bj	
+	西   Zk	雋下 Zk	〢   Zn		文   Xp	犭   Xq	反彐 Xs		𠂭   Ci	乂   Ci	罒   Ck		乁   Vi	乙   Vi	乛   Vi		癶   Bj	尸   Bs	眉上 Bs	
+	〣   Zn	丨   Zn	丰   Zn		彐   Xs	肀   Xs	囗   Xw		皿   Cm	乍下 Co	卜   Co		亅   Vi	黑   Vk	來   Vl		古   Bu	尢   By	尤   By	
+	丩   X_	丱   X_	凵   X_		龍右 Co	片   Cp	千   Cq		川   Vn	水   Vs	冎   Vu	
+	壬   Cr	予   Cu	卑上 Cv		咼   Vu	瓜   Vu	爪   Vz	
+	鬼   Cv	龰   Cz	止   Cz	
 
 	========   N   ========		========   M   ========	
-	欠Na	电Nd	⺁Ne		牙Ma	貝Mb	车Md	
-	斤Ne	弓Nf	干Ng		見Mj	王Mk	且Mq	
-	里Ni	甲Nj	衤Nj		火Ms	灬Ms	目Mv	
-	申Nm	田Nt	由Nv	
+	欠   Na	电   Nd	⺁   Ne		牙   Ma	貝   Mb	车   Md	
+	斤   Ne	弓   Nf	干   Ng		見   Mj	王   Mk	且   Mq	
+	里   Ni	甲   Nj	衤   Nj		火   Ms	灬   Ms	目   Mv	
+	申   Nm	田   Nt	由   Nv	
 
 	vim:	ts=8	lcs=tab\:\ \ \│	

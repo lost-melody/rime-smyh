@@ -31,10 +31,11 @@ def get_row_data(key, line, cols) -> str:
 for line in sys.stdin.readlines():
     code, comp = line.strip().split('\t')[:2]
     key = code[0]
-    if mappings.get(key):
-        mappings[key].append(comp.replace("{", "").replace("}", "") + code) # code[1])
-    else:
-        mappings[key] = [comp.replace("{", "").replace("}", "") + code] # code[1]]
+    comp = comp.strip("{}")
+    if not mappings.get(key):
+        mappings[key] = []
+    # │食   Qd│戶   Qh│户   Qh│
+    mappings[key].append(comp + " "*(5-len(comp)*2) + code)
 
 for row in ["QWERT", "YUIOP", "ASDFG", "HJKL", "ZXCVB", "NM"]:
     # suppose that every table has 10 rows, then filter the empty ones
