@@ -290,8 +290,9 @@ func getCodeSupplement(code string) (supp string) {
 	// 使用雙寫小碼方式
 	// supp = string(code[len(code)-1])
 	// 使用重複大碼方式
-	supp = string(code[0])
+	// supp = string(code[0])
 	// 使用分号
 	// supp = ";"
+	supp = "1"
 	return
 }
