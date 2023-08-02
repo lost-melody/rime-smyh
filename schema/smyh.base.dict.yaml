@@ -1398,7 +1398,6 @@ columns:
 牐	cch	10
 爻	cci	3448
 ⽘	cci	0
-歨	cci	0
 罩	ccj	120318
 騭	ccj	0
 陟	cck	836
@@ -1416,6 +1415,7 @@ columns:
 罞	ccw	68
 轘	ccw	43
 阯	ccz	37
+歨	ccz	0
 爿	cd1	1035
 ⽙	cd1	0
 歧	cdb	26398
@@ -1565,7 +1565,6 @@ columns:
 牎	chy	1
 醬	chz	11
 乂	ci1	418
-龰	ci1	0
 軝	cia	1
 此	cib	2725965
 觜	cic	236
@@ -2046,6 +2045,7 @@ columns:
 罹	cyz	1763
 止	cz1	472691
 ⽌	cz1	0
+龰	cz1	0
 陦	cza	0
 贞	czb	49540
 魍	cze	1420
@@ -14896,8 +14896,6 @@ columns:
 艾	sci	212019
 薨	sci	839
 茈	sci	92
-辵	sci	2
-⾡	sci	0
 藣	sci	0
 薯	scj	10341
 蔯	scj	1
@@ -14967,7 +14965,9 @@ columns:
 芷	scz	18836
 蓣	scz	16
 蘿	scz	16
+辵	scz	2
 鑼	scz	2
+⾡	scz	0
 入	sd1	1472056
 ⼊	sd1	0
 葩	sda	2209
@@ -18475,9 +18475,7 @@ columns:
 疍	vcf	26
 郲	vcf	0
 胥	vch	5376
-疋	vci	225
 骴	vci	9
-⽦	vci	0
 穢	vck	13
 徏	vck	4
 點	vcl	2411
@@ -18495,7 +18493,9 @@ columns:
 衝	vcu	164
 沀	vcu	0
 穗	vcy	13995
+疋	vcz	225
 ⺪	vcz	0
+⽦	vcz	0
 𤴔	vcz	0
 彳	vd1	148
 ⼻	vd1	0
