@@ -17,8 +17,8 @@ core.sync_bus = {
     switches = {}, -- 開關狀態
 }
 
--- 輸入 "zhelp" 時提供開關管理
-core.helper_code = "zhelp"
+-- 輸入 "/help" 時提供開關管理
+core.helper_code = "/help"
 -- 開關枚舉
 core.switch_types = { switch = 1, radio = 2 }
 core.switch_names = {
@@ -81,18 +81,17 @@ function core.parse_conf_str_list(env, path, default)
     return list
 end
 
--- 是否單個宇三全碼編碼段, 如: "abc", "a;", "a;;", "ab;"
+-- 是否單個編碼段, 如: "abc", "ab_", "a;", "a_"
 function core.single_smyh_seg(input)
-    return string.match(input, "^[a-y][z;]$")       -- 一簡
-        or string.match(input, "^[a-y][z;][z;]$")   -- 一簡詞
-        or string.match(input, "^[a-y][a-y][z;]$")  -- 二簡詞
-        or string.match(input, "^[a-y][a-y][a-y]$") -- 單字全碼
+    return string.match(input, "^[a-z][ ;]$")       -- 一簡
+        or string.match(input, "^[a-z][a-z] ;$")    -- 二簡
+        or string.match(input, "^[a-z][a-z][a-z]$") -- 單字全碼
 end
 
 -- 是否合法宇三分詞串
 function core.valid_smyh_input(input)
-    -- 輸入串完全由 [a-z;] 構成, 且不以 [z;] 開頭
-    return string.match(input, "^[a-z;]*$") and not string.match(input, "^[z;]")
+    -- 輸入串完全由 [a-z_;] 構成, 且不以 [_;] 開頭
+    return string.match(input, "^[a-z ;]*$") and not string.match(input, "^[ ;]")
 end
 
 -- 構造開關變更回調函數
@@ -122,23 +121,14 @@ end
 core.get_code_segs = function(input)
     local code_segs = {}
     while string.len(input) ~= 0 do
-        if string.match(string.sub(input, 1, 2), "[a-y][z;]") then
-            if string.match(string.sub(input, 1, 3), "[a-y][z;][z;]") then
-                -- 匹配到一简词
-                table.insert(code_segs, string.sub(input, 1, 3))
-                input = string.sub(input, 4)
-            else
-                -- 匹配到一简
-                table.insert(code_segs, string.sub(input, 1, 2))
-                input = string.sub(input, 3)
-            end
-        elseif string.match(string.sub(input, 1, 3), "[a-y][a-y][a-z;]") then
+        if string.match(string.sub(input, 1, 2), "[a-z][ ;]") then
+            -- 匹配到一简
+            table.insert(code_segs, string.sub(input, 1, 2))
+            input = string.sub(input, 3)
+        elseif string.match(string.sub(input, 1, 3), "[a-z][a-z][a-z ;]") then
             -- 匹配到全码或二简
             table.insert(code_segs, string.sub(input, 1, 3))
             input = string.sub(input, 4)
-        -- elseif input == ";" then
-        --     -- 匹配到冗余分号
-        --     break
         else
             -- 不完整或不合法分词输入串
             return code_segs, input
@@ -157,7 +147,7 @@ core.dict_lookup = function(mem, code, count, comp)
     if not mem then
         return result
     end
-    code = string.gsub(code, "z", ";")
+    -- code = string.gsub(code, "z", ";")
     if mem:dict_lookup(code, comp, count) then
         for entry in mem:iter_dict() do
             table.insert(result, entry)

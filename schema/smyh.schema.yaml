@@ -81,7 +81,7 @@ engine:
     - lua_filter@*smyh.embeded_cands@embeded_cands
 
 speller:
-  alphabet: "qwertyuiopasdfghjklzxcvbnm;/|.:"
+  alphabet: "qwertyuiopasdfghjklzxcvbnm ;|.:"
   initials: "qwertyuiopasdfghjklzxcvbnm"
   auto_select: true
   auto_select_unique_candidate: true
@@ -99,6 +99,7 @@ division.lv1:
   option_name: division.lv1
   comment_format:
     - xform/\[.*?\|/\[/
+    - xlit/12/-+/
   tags: [ abc ]
 
 # 拆分提示, 可快捷开关
@@ -107,6 +108,7 @@ division.lv2:
   option_name: division.lv2
   comment_format:
     - xform/\|/·/
+    - xlit/12/-+/
   tags: [ abc ]
 
 # 反查拆分提示, 反查时常显
@@ -117,18 +119,19 @@ rev_div:
   show_in_comment: true
   comment_format:
     - xform/\[.*?\|/\[/
+    - xlit/12/-+/
   tags: [ rev_pinyin ]
 
 # 拼音反查
 rev_pinyin:
   tag: rev_pinyin
-  prefix: "z"
+  prefix: "`"
   dictionary: yuhao_pinyin
   tips: "[拼音]"
   preedit_format:
-    - xform/^z//
+    - xform/^`//
   comment_format:
-    - xform/;/_/
+    - xlit/12/-+/
     - "xform/^/[/"
     - "xform/$/]/"
 
@@ -162,9 +165,9 @@ key_binder:
     # 减号、等号翻页
     - { when: paging, accept: minus, send: Page_Up }
     - { when: has_menu, accept: equal, send: Page_Down }
-    # 引号、Tab选重。
-    - {when: has_menu, accept: apostrophe, send: 2}
-    - {when: has_menu, accept: Tab, send: 3}
+    # 分号、引号选重
+    - {when: has_menu, accept: semicolon, send: 2}
+    - {when: has_menu, accept: apostrophe, send: 3}
     # 拆分提示
     - { when: always, accept: "Control+Shift+C", toggle: division.off }
     - { when: has_menu, accept: "/", toggle: division.off }
@@ -178,7 +181,7 @@ key_binder:
 recognizer:
   patterns:
     # 拼音反查模式
-    rev_pinyin: "^z[a-z]*$"
+    rev_pinyin: "^`[a-z]*$"
     # 符号模式
     punct: '^/([0-9]0?|[A-Za-z]+)$'
 

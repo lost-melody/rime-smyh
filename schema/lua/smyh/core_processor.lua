@@ -8,11 +8,13 @@ local kNoop     = 2 -- 無: 請下一個processor繼續看
 local cA  = string.byte("a") -- 字符: 'a'
 local cZ  = string.byte("z") -- 字符: 'z'
 local cSC = string.byte(";") -- 字符: ';'
+local cSl = string.byte("/") -- 字符: '/'
+local cGr = string.byte("`") -- 字符: '`'
 local cSp = string.byte(" ") -- 空格鍵
-local cSl = 0xffe1           -- 左Shift
-local cSr = 0xffe2           -- 右Shift
-local cCl = 0xffe3           -- 左Ctrl
-local cCr = 0xffe4           -- 右Ctrl
+local cSL = 0xffe1           -- 左Shift
+local cSR = 0xffe2           -- 右Shift
+local cCL = 0xffe3           -- 左Ctrl
+local cCR = 0xffe4           -- 右Ctrl
 local cRt = 0xff0d           -- 回車鍵
 
 -- 返回被選中的候選的索引, 來自 librime-lua/sample 示例
@@ -102,19 +104,7 @@ end
 
 -- 處理頂字
 local function handle_push(env, ctx, ch)
-    if core.single_smyh_seg(ctx.input) and ((ch == cZ or ch == cSC) or string.match(ctx.input, "[a-y][z;][z;]")) then
-        if ch ~= cSC then
-            -- 單字Z鍵頂, 加重複上屏; 或雙分號一簡詞任意鍵頂
-            -- 提交當前候選
-            ctx:commit()
-            -- 字符 'z' 插入輸入串
-            ctx:push_input(string.char(ch))
-            return kAccepted
-        else
-            -- 分號頂, 空碼卽可, 無須處理
-            return kNoop
-        end
-    elseif core.valid_smyh_input(ctx.input) then
+    if core.valid_smyh_input(ctx.input) then
         -- 輸入串分詞列表
         local code_segs, remain = core.get_code_segs(ctx.input)
 
@@ -122,57 +112,63 @@ local function handle_push(env, ctx, ch)
         if env.option[core.switch_names.single_char] and #code_segs == 1 and #remain == 1 then
             local cands = core.query_cand_list(core.base_mem, code_segs)
             if #cands ~= 0 then
-                ctx:clear()
-                env.engine:commit_text(cands[1])
-                ctx:push_input(remain..string.char(ch))
+                commit_text(env, ctx, cands[1], remain..string.char(ch))
             end
             return kAccepted
         end
 
-        if #remain ~= 0 then
-            return kNoop
-        end
-
-        if ch == cZ or ch == cSC then
-            -- 查詢全碼候選
-            local entries = core.dict_lookup(core.base_mem, ctx.input, 2)
+        if #remain == 0 and #code_segs > 1 then
+            local entries = core.dict_lookup(core.base_mem, code_segs[1], 1)
+            local text = ""
             if #entries ~= 0 then
-                ctx:clear()
-                env.engine:commit_text(entries[1].text) -- 全碼有候選, 分號上屏之
-                return kAccepted
-            else
-                -- 全碼無候選
-                local cands = core.query_first_cand_list(core.base_mem, code_segs)
-                ctx:clear()
-                -- 延迟串逐次上屏, 以便Z重複上屏單字
-                for _, cand in ipairs(cands) do
-                    if #cand ~= 0 then
-                        env.engine:commit_text(cand)
-                    end
-                end
-                if ch == cZ then
-                    -- Z鍵重複上屏
-                    ctx:push_input(string.char(ch))
-                    return kAccepted
-                else
-                    return kNoop
-                end
+                text = entries[1].text
             end
-        else
-            -- 頂字
-            local cands, remain = core.query_cand_list(core.base_mem, code_segs)
-            if #cands > 1 then
-                local cands = core.query_first_cand_list(core.base_mem, code_segs)
-                local text = table.concat(cands, "", 1, #cands-1)
-                commit_text(env, ctx, text, remain..string.char(ch))
-                return kAccepted
-            end
-            return kNoop
+            commit_text(env, ctx, text, code_segs[2]..string.char(ch))
+            return kAccepted
         end
-
-        return kNoop
     end
+    return kNoop
+end
 
+-- 處理空格分號選字
+local function handle_select(env, ctx, ch)
+    if core.valid_smyh_input(ctx.input) then
+        -- 輸入串分詞列表
+        local _, remain = core.get_code_segs(ctx.input)
+        if string.match(remain, "^[a-z][a-z]?$") then
+            if #remain == 1 then
+                -- "a"
+                if ch == cSp then
+                    -- "a_"
+                    ctx:push_input(" ")
+                    return kAccepted
+                elseif ch == cSC then
+                    -- "a;"
+                    ctx:push_input(";")
+                    return kAccepted
+                end
+            else
+                -- "ab"
+                if ch == cSp then
+                    -- "ab_"
+                    ctx:push_input(" ")
+                    return kAccepted
+                elseif ch == cSC then
+                    -- "ab;"
+                    ctx:push_input(";")
+                    return kAccepted
+                end
+            end
+        end
+    end
+    return kNoop
+end
+
+local function handle_fullcode(env, ctx, ch)
+    if #ctx.input == 4 and ch == cSl then
+        ctx:commit()
+        return kAccepted
+    end
     return kNoop
 end
 
@@ -261,11 +257,17 @@ function processor.func(key_event, env)
         else
             return kNoop
         end
-    elseif ch >= cA and ch <= cZ or ch == cSC then
-        -- 按鍵在 'a'~'z' 之間, 或按鍵是分號
+    elseif ch >= cA and ch <= cZ then
+        -- 'a'~'z'
         return handle_push(env, ctx, ch)
+    elseif ch == cSp or ch == cSC then
+        -- 空格, 分號
+        return handle_select(env, ctx, ch)
+    elseif ch == cSl then
+        -- 斜缐
+        return handle_fullcode(env, ctx, ch)
     elseif ch == cRt then
-        -- 按鍵是回車鍵
+        -- 回車
         return handle_clean(env, ctx, ch)
     end
 

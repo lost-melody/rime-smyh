@@ -20,6 +20,12 @@ end
 
 local index_indicators = {"¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰"}
 
+local function display_input(input)
+    input = string.gsub(input, " ", "-")
+    input = string.gsub(input, ";", "+")
+    return input
+end
+
 -- 處理開關管理候選
 local function handle_switch(env, ctx, seg, input)
     core.input_code = "help "
@@ -61,7 +67,7 @@ end
 
 -- 處理單字輸入
 local function handle_singlechar(env, ctx, code_segs, remain, seg, input)
-    core.input_code = string.gsub(remain, "[z;]", "-")
+    core.input_code = display_input(remain)
 
     -- 查询最多一百個候選
     local entries = core.dict_lookup(core.base_mem, remain, 100, true)
@@ -84,13 +90,10 @@ end
 
 -- 處理含延遲串的編碼
 local function handle_delayed(env, ctx, code_segs, remain, seg, input)
-    core.input_code = string.gsub(remain, "[z;]", "-")
+    core.input_code = display_input(remain)
 
     -- 先查出全串候選列表
     local full_entries = core.dict_lookup(core.base_mem, input, 10)
-    if #full_entries > 1 then
-        full_entries[2].comment = "↵"
-    end
 
     if #input == 4 then
         local mem
@@ -129,9 +132,6 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
         -- 以空串爲空碼候選
         table.insert(entries, {text="", comment=""})
     end
-    if #full_entries == 1 then
-        full_entries[1].comment = "☯"
-    end
 
     -- 送出候選
     for _, entry in ipairs(full_entries) do
@@ -162,7 +162,7 @@ function translator.func(input, seg, env)
     core.stashed_text = ""
 
     if input == core.helper_code then
-        -- zhelp 快捷開關
+        -- "/help" 快捷開關
         handle_switch(env, ctx, seg, input)
         return
     end

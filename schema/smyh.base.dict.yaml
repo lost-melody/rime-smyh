@@ -6,7 +6,7 @@ name: "smyh.base"
 version: "beta"
 sort: original
 import_tables:
-  - smyh.smart
+  # - smyh.smart
 columns:
   - text
   - code
@@ -14,7 +14,7 @@ columns:
 
 ...
 
-可	a;	7069176
+可	a1	7069176
 攝	aaa	28
 聶	aaa	3
 摄	aab	80547
@@ -899,7 +899,7 @@ columns:
 抛	ayx	111366
 掵	ayx	0
 鸷	ayy	1189
-对	b;	6195038
+对	b1	6195038
 緅	bab	4
 对	bac	10000
 紂	bac	0
@@ -1526,7 +1526,7 @@ columns:
 鵋	byr	3
 繺	byu	0
 繲	byw	1
-好	c;	7259684
+好	c1	7259684
 陬	cab	146
 娵	cab	9
 敯	cab	1
@@ -2230,7 +2230,7 @@ columns:
 隖	cyw	0
 嬆	cyx	0
 隐	cyy	466049
-不	d;	29858097
+不	d1	29858097
 趣	dab	278572
 砌	dab	11088
 駵	dab	0
@@ -3277,7 +3277,7 @@ columns:
 趋	dyx	40579
 鹁	dyy	100
 愂	dyy	0
-的	e;	76938354
+的	e1	76938354
 付	eac	342108
 倻	eac	22
 寽	eac	7
@@ -4140,7 +4140,7 @@ columns:
 健	exx	168908
 慇	exy	13
 鿘	exy	0
-爱	ey;	1516399
+爱	ey1	1516399
 舜	eya	7460
 受	eyb	1388441
 爱	eyb	10000
@@ -4165,7 +4165,7 @@ columns:
 傕	eyw	2207
 㑇	eyx	0
 您	eyy	523541
-一	f;	35278860
+一	f1	35278860
 欇	faa	0
 棷	fab	1
 桺	fab	0
@@ -5430,7 +5430,7 @@ columns:
 榷	fyw	1857
 檞	fyw	100
 椧	fyx	0
-大	g;	10828984
+大	g1	10828984
 甎	gaa	0
 敧	gab	22
 攲	gab	9
@@ -6395,7 +6395,7 @@ columns:
 琤	gyv	283
 牵	gyw	132558
 瑦	gyw	3
-到	h;	11505436
+到	h1	11505436
 寺	hac	88284
 邿	hac	2
 長	hah	1565
@@ -7362,7 +7362,7 @@ columns:
 亄	hyx	0
 懿	hyy	11429
 悫	hyy	105
-没	i;	7560391
+没	i1	7560391
 灄	iaa	0
 沏	iab	4304
 滠	iab	74
@@ -8685,7 +8685,7 @@ columns:
 潝	iyx	19
 労	iyx	3
 鸴	iyy	21
-是	j;	31422712
+是	j1	31422712
 最	jab	2582957
 时	jac	8207119
 晣	jae	33
@@ -9435,7 +9435,7 @@ columns:
 嶰	jyw	2
 嵨	jyw	0
 嶖	jyx	0
-上	k;	11918291
+上	k1	11918291
 蟶	kag	0
 蛲	kah	74
 畁	kaj	0
@@ -10115,7 +10115,7 @@ columns:
 螐	kyw	2
 蠏	kyw	2
 闟	kyx	1
-中	l;	7680869
+中	l1	7680869
 咑	laa	15
 囁	laa	7
 嗫	lab	6049
@@ -10536,7 +10536,7 @@ columns:
 囉	lmw	156
 勛	lmx	4
 哯	lmx	0
-嗯	ln;	179528
+嗯	ln1	179528
 喎	lna	5
 嘿	lne	319099
 嘓	lnf	8
@@ -10834,7 +10834,7 @@ columns:
 鹃	lwy	14136
 唿	lwy	1366
 肙	lwy	0
-吗	lx;	2028487
+吗	lx1	2028487
 噚	lxa	0
 唚	lxb	12
 噿	lxd	2
@@ -10881,7 +10881,7 @@ columns:
 嗚	lyw	32
 噏	lyx	35
 喼	lyy	2
-小	m;	6383822
+小	m1	6383822
 齱	mab	0
 小	mam	10000
 ⺌	mam	0
@@ -11588,7 +11588,7 @@ columns:
 罹	myw	1763
 肻	myw	0
 髉	myw	0
-回	n;	3608341
+回	n1	3608341
 躡	naa	6
 蹑	nab	12942
 踙	nab	0
@@ -12062,7 +12062,7 @@ columns:
 跪	nyv	121795
 踭	nyv	0
 蹹	nyx	2
-为	o;	7309300
+为	o1	7309300
 诹	oab	346
 守	oac	470593
 讨	oac	282187
@@ -12283,7 +12283,7 @@ columns:
 谔	ols	958
 识	olt	826907
 勷	olx	12
-就	om;	11305679
+就	om1	11305679
 京	oma	399657
 敲	omb	148518
 賌	omb	0
@@ -12654,7 +12654,7 @@ columns:
 诤	oyv	785
 寜	oyv	1
 诌	oyx	3056
-这	p;	17648808
+这	p1	17648808
 襵	paa	0
 窃	pab	47730
 黀	pab	0
@@ -13484,7 +13484,7 @@ columns:
 襜	pyu	31
 癚	pyu	9
 䦶	pyv	0
-我	q;	29569261
+我	q1	29569261
 箨	qaa	34
 鲰	qab	9
 箃	qab	0
@@ -14287,7 +14287,7 @@ columns:
 簷	qyu	42
 筝	qyv	20129
 篧	qyw	0
-得	r;	7186260
+得	r1	7186260
 彻	rab	168415
 狾	rae	0
 桀	raf	10702
@@ -14684,7 +14684,7 @@ columns:
 爂	rku	3
 汆	rkv	182
 臖	rkw	0
-和	rl;	6252031
+和	rl1	6252031
 玁	rle	7
 程	rlg	590619
 徎	rlg	1
@@ -15215,7 +15215,7 @@ columns:
 狰	ryv	19977
 獬	ryw	453
 稳	ryy	203430
-在	s;	19195987
+在	s1	19195987
 萚	saa	1
 苆	sab	2
 菆	sab	1
@@ -16622,7 +16622,7 @@ columns:
 蕊	syy	43461
 莺	syy	25291
 鹲	syy	0
-人	t;	18435295
+人	t1	18435295
 镊	tab	836
 鯫	tab	0
 邸	tac	15950
@@ -17449,7 +17449,7 @@ columns:
 铮	tyv	29527
 鮠	tyv	0
 鰞	tyw	1
-着	u;	11165468
+着	u1	11165468
 讘	uaa	0
 叛	uab	97192
 諏	uab	6
@@ -17706,7 +17706,7 @@ columns:
 床	ufv	465801
 杗	ufv	1
 炑	ufv	0
-关	ug;	1675433
+关	ug1	1675433
 尊	uga	260962
 券	ugb	21437
 炬	ugb	6448
@@ -18646,7 +18646,7 @@ columns:
 廨	uyw	206
 熓	uyw	0
 熻	uyx	0
-了	v;	34812434
+了	v1	34812434
 那	vac	9929703
 纣	vac	5710
 敢	vae	782369
@@ -19097,7 +19097,7 @@ columns:
 纨	vyo	6138
 缒	vyp	268
 绉	vyx	3377
-然	w;	7339938
+然	w1	7339938
 鑷	waa	2
 鋷	wab	0
 射	wac	386983
@@ -20447,7 +20447,7 @@ columns:
 ⺼	wyw	0
 ⼓	wyw	0
 ⽉	wyw	0
-出	x;	8294943
+出	x1	8294943
 彟	xab	244
 寻	xac	328045
 骁	xah	6831
@@ -20709,7 +20709,7 @@ columns:
 糱	xyp	3
 孼	xyv	7
 驺	xyx	256
-心	y;	6555833
+心	y1	6555833
 懾	yaa	5
 慑	yab	20266
 冣	yab	0
@@ -21508,635 +21508,635 @@ columns:
 懈	yyw	20521
 㤘	yyx	0
 惢	yyy	3
-可以	a;;
-对于	b;;
-好像	c;;
-不知道	d;;
-的确	e;;
-一定	f;;
-大家	g;;
-到了	h;;
-没有	i;;
-是否	j;;
-上面	k;;
-中间	l;;
-小时	m;;
-回来	n;;
-为什么	o;;
-这样	p;;
-我们	q;;
-得到	r;;
-在于	s;;
-人们	t;;
-着急	u;;
-了解	v;;
-然后	w;;
-出来	x;;
-心里	y;;
-打开	aa;
-取得	ab;
-把握	ac;
-顶级	ad;
-摇头	ae;
-捕捉	af;
-找到	ag;
-持续	ah;
-接受	ai;
-提高	aj;
-下来	ak;
-事情	al;
-东西	am;
-捉住	an;
-按照	ao;
-过去	ap;
-才能	aq;
-指出	ar;
-措施	as;
-抑制	at;
-严重	au;
-违反	av;
-推动	aw;
-报告	ax;
-势力	ay;
-对象	ba;
-双方	bb;
-丑陋	bc;
-居住	bd;
-改变	be;
-登记	bf;
-戏曲	bg;
-屋里	bh;
-已经	bi;
-己见	bj;
-观察	bk;
-避免	bl;
-母亲	bm;
-尽量	bo;
-屡次	bp;
-属于	bq;
-尾巴	br;
-展示	bs;
-通过	bt;
-又是	bu;
-局面	bv;
-难道	bw;
-劝说	bx;
-鸡蛋	by;
-导致	ca;
-努力	cb;
-她们	cc;
-姑娘	cd;
-附近	ce;
-隔离	cf;
-姨妈	cg;
-妹妹	ch;
-陪伴	ci;
-阳光	cj;
-妯娌	ck;
-如果	cl;
-姐姐	cm;
-女人	cn;
-防止	co;
-嫉妒	cp;
-柔软	cq;
-陛下	cr;
-随时	cs;
-除非	ct;
-予以	cu;
-始终	cv;
-阴谋	cw;
-妈妈	cx;
-也是	cy;
-趣味	da;
-起来	db;
-要求	dc;
-歹徒	dd;
-故事	de;
-感到	df;
-古代	dg;
-基本	dh;
-十分	di;
-其他	dj;
-走到	dk;
-否定	dl;
-真正	dm;
-丰富	dn;
-尤其	do;
-还是	dp;
-克服	dq;
-覆盖	dr;
-需要	ds;
-零件	dt;
-碰到	du;
-成为	dv;
-期间	dw;
-甚至	dx;
-确定	dy;
-何况	ea;
-反应	eb;
-他们	ec;
-什么	ed;
-任何	ee;
-条件	ef;
-代表	eg;
-倒是	eh;
-位置	ei;
-但是	ej;
-伸出	ek;
-各种	el;
-处理	em;
-促进	en;
-仿佛	eo;
-近代	ep;
-作用	eq;
-化学	er;
-传统	es;
-价格	et;
-信息	eu;
-仍然	ev;
-遥远	ew;
-似乎	ex;
-你们	ey;
-三个	fa;
-权利	fb;
-五十	fc;
-无法	fd;
-攻击	fe;
-本身	ff;
-天气	fg;
-标准	fh;
-一样	fi;
-更加	fj;
-两个	fk;
-整个	fl;
-相同	fm;
-正确	fn;
-工作	fo;
-来到	fp;
-机会	fq;
-死亡	fr;
-开始	fs;
-检查	ft;
-样子	fu;
-根据	fv;
-构成	fw;
-功能	fx;
-枕头	fy;
-奇怪	ga;
-巨大	gb;
-靶子	gc;
-环境	gd;
-革命	ge;
-玩笑	gf;
-替代	gg;
-鞋子	gh;
-面前	gi;
-春天	gj;
-现在	gk;
-或者	gl;
-划分	gm;
-王朝	gn;
-太阳	go;
-达到	gp;
-医生	gq;
-大多数	gr;
-弄清	gs;
-珍惜	gt;
-夫人	gu;
-酸味	gv;
-区域	gw;
-擊打	gx;
-牵连	gy;
-寺院	ha;
-声音	hb;
-地方	hc;
-城市	hd;
-未来	he;
-辅助	hf;
-干活	hg;
-社会	hh;
-世界	hi;
-都是	hj;
-至于	hk;
-喜欢	hl;
-到了	hm;
-较为	ho;
-连续	hp;
-轶事	hq;
-表现	hr;
-转化	hs;
-输出	ht;
-增加	hu;
-却是	hv;
-均匀	hw;
-礼物	hx;
-轨迹	hy;
-河流	ia;
-汉语	ib;
-池塘	ic;
-立刻	id;
-所以	ie;
-新闻	if;
-汇报	ig;
-法律	ih;
-意思	ij;
-测量	ik;
-部分	il;
-消息	im;
-遍布	in;
-注意	io;
-浏览	ip;
-产生	iq;
-活动	ir;
-满足	is;
-溜走	it;
-淡淡	iu;
-治疗	iv;
-沟通	iw;
-浸泡	ix;
-学习	iy;
-时候	ja;
-照片	jb;
-早上	jd;
-暖和	je;
-果然	jf;
-畏惧	jg;
-晴朗	jh;
-暗示	ji;
-晶莹	jj;
-显然	jk;
-晃动	jm;
-影响	jo;
-崆峒	jp;
-昨天	jq;
-日子	jr;
-山区	js;
-界限	jt;
-旷工	ju;
-幽默	jv;
-明天	jw;
-男女	jx;
-思想	jy;
-财产	ka;
-贝壳	kb;
-虫子	kc;
-电子	kd;
-申请	ke;
-同时	kf;
-业务	kg;
-赔偿	ki;
-螺旋	kj;
-里面	kk;
-蜗牛	kl;
-叔叔	km;
-螳螂	kn;
-由于	ko;
-遇到	kp;
-贬义	kq;
-蝌蚪	kr;
-内容	kt;
-赚钱	ku;
-水平	kv;
-刚才	kw;
-见到	kx;
-愚昧	ky;
-叮嘱	la;
-叹气	lb;
-吧台	lc;
-喊道	ld;
-听到	le;
-呆板	lf;
-呈现	lg;
-味道	lh;
-非常	li;
-喝酒	lj;
-虽然	lk;
-品种	ll;
-吵架	lm;
-嘴里	ln;
-咳嗽	lo;
-斐然	lp;
-吃饭	lq;
-响起	lr;
-号码	ls;
-只有	lt;
-兄弟姐妹	lu;
-哪里	lv;
-史学	lw;
-叫做	lx;
-哈哈	ly;
-小事	ma;
-瞪大	mb;
-小姑娘	mc;
-置换	md;
-睡觉	me;
-目前	mf;
-光线	mh;
-瞳孔	mi;
-桌面	mj;
-帽子	mk;
-战争	ml;
-帖子	mm;
-罚款	mo;
-虔诚	mp;
-少数	mq;
-逻辑	mr;
-瞒着	ms;
-具体	mt;
-眼睛	mv;
-瞧瞧	mw;
-当然	mx;
-睁开	my;
-团结	na;
-坚持	nb;
-囡囡	nc;
-固定	nd;
-黑色	ne;
-困难	nf;
-因为	ng;
-墨水	nh;
-止步	ni;
-旧式	nj;
-赏识	nk;
-回复	nl;
-常常	nm;
-趾甲	nn;
-踪影	no;
-過去	np;
-四周	nq;
-此外	nr;
-尚且	ns;
-掌握	nt;
-圈子	nu;
-足以	nv;
-肯定	nw;
-躍居	nx;
-跪下	ny;
-讨论	oa;
-记者	ob;
-安排	oc;
-家庭	od;
-夜晚	oe;
-语言	of;
-方法	og;
-诗歌	oh;
-谚语	oi;
-课程	oj;
-永远	ok;
-就是	om;
-颤抖	on;
-议论	oo;
-谜语	op;
-许多	oq;
-它们	or;
-实现	os;
-认为	ot;
-说明	ou;
-充分	ov;
-调整	ow;
-辛苦	ox;
-密切	oy;
-麻烦	pa;
-变化	pb;
-数字	pc;
-糊涂	pd;
-之后	pe;
-空气	pf;
-类型	pg;
-精神	ph;
-亦可	pi;
-间接	pj;
-袖子	pk;
-问题	pl;
-补充	pm;
-门口	pn;
-粮食	po;
-迷惑	pp;
-疾病	pq;
-窗外	pr;
-突然	ps;
-容易	pt;
-阅读	pu;
-被动	pv;
-文化	pw;
-离开	px;
-究竟	py;
-年代	qa;
-每个	qb;
-川菜	qc;
-顺利	qd;
-符合	qe;
-策略	qf;
-失去	qg;
-等等	qh;
-篇章	qi;
-几个	qj;
-舰队	qk;
-知道	ql;
-怎么	qm;
-延长	qn;
-管理	qo;
-简单	qp;
-气候	qq;
-儿子	qr;
-逃跑	qs;
-签字	qt;
-瓜果	qu;
-第一	qv;
-风格	qw;
-笃信	qx;
-答应	qy;
-行为	ra;
-径直	rb;
-委托	rc;
-德国	rd;
-敌人	re;
-微笑	rf;
-狭窄	rg;
-街道	rh;
-匕首	ri;
-香味	rj;
-独立	rk;
-程度	rl;
-外面	rm;
-向前	rn;
-往往	ro;
-适应	rp;
-疑惑	rq;
-多少	rr;
-科学	rs;
-徐州	rt;
-入口	ru;
-很多	rv;
-饱和	rw;
-律师	rx;
-称为	ry;
-耐心	sa;
-薅羊毛	sc;
-斗争	sd;
-原则	se;
-左右	sf;
-头上	sg;
-压力	sh;
-范围	si;
-莫非	sj;
-英雄	sk;
-冲突	sl;
-布置	sm;
-存在	sn;
-丈夫	so;
-蘑菇	sp;
-而且	sr;
-某些	ss;
-进行	st;
-灰色	su;
-运动	sv;
-准备	sw;
-历史	sx;
-带来	sy;
-昏迷	ta;
-分析	tb;
-人民币	tc;
-针对	td;
-人们	te;
-途径	tf;
-全部	tg;
-长期	th;
-镜头	ti;
-留下	tj;
-自己	tk;
-钟头	tl;
-看见	tm;
-用于	tn;
-今天	to;
-片面	tp;
-铁路	tq;
-铭记	tr;
-会议	ts;
-从而	tt;
-手段	tu;
-创造	tv;
-父亲	tw;
-迎接	tx;
-息怒	ty;
-判断	ua;
-羞愧	ub;
-序列	uc;
-烦恼	ud;
-腐朽	ue;
-差别	uf;
-关系	ug;
-应该	ui;
-单位	uj;
-普通	uk;
-总是	ul;
-盲目	um;
-火车	uo;
-熔点	up;
-炸弹	uq;
-将来	ur;
-并且	us;
-道德	ut;
-广大	uu;
-弟弟	uv;
-前面	uw;
-归来	ux;
-忘记	uy;
-那么	va;
-经过	vb;
-弛缓	vc;
-迅速	vd;
-终于	ve;
-红色	vf;
-参加	vg;
-结果	vh;
-编辑	vi;
-细节	vj;
-子女	vk;
-强调	vl;
-组织	vm;
-引起	vn;
-孩子	vo;
-退出	vp;
-乡村	vq;
-绣花	vr;
-飞机	vs;
-费用	vt;
-弹性	vu;
-书籍	vv;
-能够	vw;
-纠正	vx;
-绝对	vy;
-射击	wa;
-缺少	wb;
-包子	wc;
-卑鄙	wd;
-胳膊	we;
-集中	wf;
-生活	wg;
-特别	wh;
-臆想	wi;
-金子	wj;
-重要	wk;
-告诉	wl;
-身体	wm;
-牛奶	wn;
-丹麦	wo;
-脑袋	wp;
-先生	wq;
-脂肪	wr;
-希望	ws;
-忽然	wt;
-焦虑	wu;
-腿脚	wv;
-物体	ww;
-服务	wx;
-月亮	wy;
-建议	xa;
-发生	xb;
-驰骋	xc;
-办不到	xd;
-收到	xe;
-卫生	xf;
-骑车	xg;
-以至于	xh;
-骗人	xi;
-翼展	xj;
-力量	xk;
-加强	xl;
-马上	xm;
-以此类推	xn;
-以后	xo;
-边缘	xp;
-群体	xq;
-出租车	xr;
-办法	xt;
-习惯	xu;
-即使	xv;
-驳斥	xw;
-出现	xx;
-加拿大	xy;
-鸟类	ya;
-快乐	yb;
-色彩	yc;
-怀疑	yd;
-合作	ye;
-杂志	yf;
-惬意	yg;
-情况	yh;
-憧憬	yi;
-慢慢	yj;
-负责	yk;
-免费	yl;
-悄悄	ym;
-惊人	yo;
-追求	yp;
-必须	yq;
-懊悔	yr;
-食物	ys;
-解决	yt;
-忙碌	yu;
-惨痛	yv;
-性格	yw;
-争斗	yx;
-恰当	yy;
+可以	a2
+对于	b2
+好像	c2
+不知道	d2
+的确	e2
+一定	f2
+大家	g2
+到了	h2
+没有	i2
+是否	j2
+上面	k2
+中间	l2
+小时	m2
+回来	n2
+为什么	o2
+这样	p2
+我们	q2
+得到	r2
+在于	s2
+人们	t2
+着急	u2
+了解	v2
+然后	w2
+出来	x2
+心里	y2
+打开	aa1
+取得	ab1
+把握	ac1
+顶级	ad1
+摇头	ae1
+捕捉	af1
+找到	ag1
+持续	ah1
+接受	ai1
+提高	aj1
+下来	ak1
+事情	al1
+东西	am1
+捉住	an1
+按照	ao1
+过去	ap1
+才能	aq1
+指出	ar1
+措施	as1
+抑制	at1
+严重	au1
+违反	av1
+推动	aw1
+报告	ax1
+势力	ay1
+对象	ba1
+双方	bb1
+丑陋	bc1
+居住	bd1
+改变	be1
+登记	bf1
+戏曲	bg1
+屋里	bh1
+已经	bi1
+己见	bj1
+观察	bk1
+避免	bl1
+母亲	bm1
+尽量	bo1
+屡次	bp1
+属于	bq1
+尾巴	br1
+展示	bs1
+通过	bt1
+又是	bu1
+局面	bv1
+难道	bw1
+劝说	bx1
+鸡蛋	by1
+导致	ca1
+努力	cb1
+她们	cc1
+姑娘	cd1
+附近	ce1
+隔离	cf1
+姨妈	cg1
+妹妹	ch1
+陪伴	ci1
+阳光	cj1
+妯娌	ck1
+如果	cl1
+姐姐	cm1
+女人	cn1
+防止	co1
+嫉妒	cp1
+柔软	cq1
+陛下	cr1
+随时	cs1
+除非	ct1
+予以	cu1
+始终	cv1
+阴谋	cw1
+妈妈	cx1
+也是	cy1
+趣味	da1
+起来	db1
+要求	dc1
+歹徒	dd1
+故事	de1
+感到	df1
+古代	dg1
+基本	dh1
+十分	di1
+其他	dj1
+走到	dk1
+否定	dl1
+真正	dm1
+丰富	dn1
+尤其	do1
+还是	dp1
+克服	dq1
+覆盖	dr1
+需要	ds1
+零件	dt1
+碰到	du1
+成为	dv1
+期间	dw1
+甚至	dx1
+确定	dy1
+何况	ea1
+反应	eb1
+他们	ec1
+什么	ed1
+任何	ee1
+条件	ef1
+代表	eg1
+倒是	eh1
+位置	ei1
+但是	ej1
+伸出	ek1
+各种	el1
+处理	em1
+促进	en1
+仿佛	eo1
+近代	ep1
+作用	eq1
+化学	er1
+传统	es1
+价格	et1
+信息	eu1
+仍然	ev1
+遥远	ew1
+似乎	ex1
+你们	ey1
+三个	fa1
+权利	fb1
+五十	fc1
+无法	fd1
+攻击	fe1
+本身	ff1
+天气	fg1
+标准	fh1
+一样	fi1
+更加	fj1
+两个	fk1
+整个	fl1
+相同	fm1
+正确	fn1
+工作	fo1
+来到	fp1
+机会	fq1
+死亡	fr1
+开始	fs1
+检查	ft1
+样子	fu1
+根据	fv1
+构成	fw1
+功能	fx1
+枕头	fy1
+奇怪	ga1
+巨大	gb1
+靶子	gc1
+环境	gd1
+革命	ge1
+玩笑	gf1
+替代	gg1
+鞋子	gh1
+面前	gi1
+春天	gj1
+现在	gk1
+或者	gl1
+划分	gm1
+王朝	gn1
+太阳	go1
+达到	gp1
+医生	gq1
+大多数	gr1
+弄清	gs1
+珍惜	gt1
+夫人	gu1
+酸味	gv1
+区域	gw1
+擊打	gx1
+牵连	gy1
+寺院	ha1
+声音	hb1
+地方	hc1
+城市	hd1
+未来	he1
+辅助	hf1
+干活	hg1
+社会	hh1
+世界	hi1
+都是	hj1
+至于	hk1
+喜欢	hl1
+到了	hm1
+较为	ho1
+连续	hp1
+轶事	hq1
+表现	hr1
+转化	hs1
+输出	ht1
+增加	hu1
+却是	hv1
+均匀	hw1
+礼物	hx1
+轨迹	hy1
+河流	ia1
+汉语	ib1
+池塘	ic1
+立刻	id1
+所以	ie1
+新闻	if1
+汇报	ig1
+法律	ih1
+意思	ij1
+测量	ik1
+部分	il1
+消息	im1
+遍布	in1
+注意	io1
+浏览	ip1
+产生	iq1
+活动	ir1
+满足	is1
+溜走	it1
+淡淡	iu1
+治疗	iv1
+沟通	iw1
+浸泡	ix1
+学习	iy1
+时候	ja1
+照片	jb1
+早上	jd1
+暖和	je1
+果然	jf1
+畏惧	jg1
+晴朗	jh1
+暗示	ji1
+晶莹	jj1
+显然	jk1
+晃动	jm1
+影响	jo1
+崆峒	jp1
+昨天	jq1
+日子	jr1
+山区	js1
+界限	jt1
+旷工	ju1
+幽默	jv1
+明天	jw1
+男女	jx1
+思想	jy1
+财产	ka1
+贝壳	kb1
+虫子	kc1
+电子	kd1
+申请	ke1
+同时	kf1
+业务	kg1
+赔偿	ki1
+螺旋	kj1
+里面	kk1
+蜗牛	kl1
+叔叔	km1
+螳螂	kn1
+由于	ko1
+遇到	kp1
+贬义	kq1
+蝌蚪	kr1
+内容	kt1
+赚钱	ku1
+水平	kv1
+刚才	kw1
+见到	kx1
+愚昧	ky1
+叮嘱	la1
+叹气	lb1
+吧台	lc1
+喊道	ld1
+听到	le1
+呆板	lf1
+呈现	lg1
+味道	lh1
+非常	li1
+喝酒	lj1
+虽然	lk1
+品种	ll1
+吵架	lm1
+嘴里	ln1
+咳嗽	lo1
+斐然	lp1
+吃饭	lq1
+响起	lr1
+号码	ls1
+只有	lt1
+兄弟姐妹	lu1
+哪里	lv1
+史学	lw1
+叫做	lx1
+哈哈	ly1
+小事	ma1
+瞪大	mb1
+小姑娘	mc1
+置换	md1
+睡觉	me1
+目前	mf1
+光线	mh1
+瞳孔	mi1
+桌面	mj1
+帽子	mk1
+战争	ml1
+帖子	mm1
+罚款	mo1
+虔诚	mp1
+少数	mq1
+逻辑	mr1
+瞒着	ms1
+具体	mt1
+眼睛	mv1
+瞧瞧	mw1
+当然	mx1
+睁开	my1
+团结	na1
+坚持	nb1
+囡囡	nc1
+固定	nd1
+黑色	ne1
+困难	nf1
+因为	ng1
+墨水	nh1
+止步	ni1
+旧式	nj1
+赏识	nk1
+回复	nl1
+常常	nm1
+趾甲	nn1
+踪影	no1
+過去	np1
+四周	nq1
+此外	nr1
+尚且	ns1
+掌握	nt1
+圈子	nu1
+足以	nv1
+肯定	nw1
+躍居	nx1
+跪下	ny1
+讨论	oa1
+记者	ob1
+安排	oc1
+家庭	od1
+夜晚	oe1
+语言	of1
+方法	og1
+诗歌	oh1
+谚语	oi1
+课程	oj1
+永远	ok1
+就是	om1
+颤抖	on1
+议论	oo1
+谜语	op1
+许多	oq1
+它们	or1
+实现	os1
+认为	ot1
+说明	ou1
+充分	ov1
+调整	ow1
+辛苦	ox1
+密切	oy1
+麻烦	pa1
+变化	pb1
+数字	pc1
+糊涂	pd1
+之后	pe1
+空气	pf1
+类型	pg1
+精神	ph1
+亦可	pi1
+间接	pj1
+袖子	pk1
+问题	pl1
+补充	pm1
+门口	pn1
+粮食	po1
+迷惑	pp1
+疾病	pq1
+窗外	pr1
+突然	ps1
+容易	pt1
+阅读	pu1
+被动	pv1
+文化	pw1
+离开	px1
+究竟	py1
+年代	qa1
+每个	qb1
+川菜	qc1
+顺利	qd1
+符合	qe1
+策略	qf1
+失去	qg1
+等等	qh1
+篇章	qi1
+几个	qj1
+舰队	qk1
+知道	ql1
+怎么	qm1
+延长	qn1
+管理	qo1
+简单	qp1
+气候	qq1
+儿子	qr1
+逃跑	qs1
+签字	qt1
+瓜果	qu1
+第一	qv1
+风格	qw1
+笃信	qx1
+答应	qy1
+行为	ra1
+径直	rb1
+委托	rc1
+德国	rd1
+敌人	re1
+微笑	rf1
+狭窄	rg1
+街道	rh1
+匕首	ri1
+香味	rj1
+独立	rk1
+程度	rl1
+外面	rm1
+向前	rn1
+往往	ro1
+适应	rp1
+疑惑	rq1
+多少	rr1
+科学	rs1
+徐州	rt1
+入口	ru1
+很多	rv1
+饱和	rw1
+律师	rx1
+称为	ry1
+耐心	sa1
+薅羊毛	sc1
+斗争	sd1
+原则	se1
+左右	sf1
+头上	sg1
+压力	sh1
+范围	si1
+莫非	sj1
+英雄	sk1
+冲突	sl1
+布置	sm1
+存在	sn1
+丈夫	so1
+蘑菇	sp1
+而且	sr1
+某些	ss1
+进行	st1
+灰色	su1
+运动	sv1
+准备	sw1
+历史	sx1
+带来	sy1
+昏迷	ta1
+分析	tb1
+人民币	tc1
+针对	td1
+人们	te1
+途径	tf1
+全部	tg1
+长期	th1
+镜头	ti1
+留下	tj1
+自己	tk1
+钟头	tl1
+看见	tm1
+用于	tn1
+今天	to1
+片面	tp1
+铁路	tq1
+铭记	tr1
+会议	ts1
+从而	tt1
+手段	tu1
+创造	tv1
+父亲	tw1
+迎接	tx1
+息怒	ty1
+判断	ua1
+羞愧	ub1
+序列	uc1
+烦恼	ud1
+腐朽	ue1
+差别	uf1
+关系	ug1
+应该	ui1
+单位	uj1
+普通	uk1
+总是	ul1
+盲目	um1
+火车	uo1
+熔点	up1
+炸弹	uq1
+将来	ur1
+并且	us1
+道德	ut1
+广大	uu1
+弟弟	uv1
+前面	uw1
+归来	ux1
+忘记	uy1
+那么	va1
+经过	vb1
+弛缓	vc1
+迅速	vd1
+终于	ve1
+红色	vf1
+参加	vg1
+结果	vh1
+编辑	vi1
+细节	vj1
+子女	vk1
+强调	vl1
+组织	vm1
+引起	vn1
+孩子	vo1
+退出	vp1
+乡村	vq1
+绣花	vr1
+飞机	vs1
+费用	vt1
+弹性	vu1
+书籍	vv1
+能够	vw1
+纠正	vx1
+绝对	vy1
+射击	wa1
+缺少	wb1
+包子	wc1
+卑鄙	wd1
+胳膊	we1
+集中	wf1
+生活	wg1
+特别	wh1
+臆想	wi1
+金子	wj1
+重要	wk1
+告诉	wl1
+身体	wm1
+牛奶	wn1
+丹麦	wo1
+脑袋	wp1
+先生	wq1
+脂肪	wr1
+希望	ws1
+忽然	wt1
+焦虑	wu1
+腿脚	wv1
+物体	ww1
+服务	wx1
+月亮	wy1
+建议	xa1
+发生	xb1
+驰骋	xc1
+办不到	xd1
+收到	xe1
+卫生	xf1
+骑车	xg1
+以至于	xh1
+骗人	xi1
+翼展	xj1
+力量	xk1
+加强	xl1
+马上	xm1
+以此类推	xn1
+以后	xo1
+边缘	xp1
+群体	xq1
+出租车	xr1
+办法	xt1
+习惯	xu1
+即使	xv1
+驳斥	xw1
+出现	xx1
+加拿大	xy1
+鸟类	ya1
+快乐	yb1
+色彩	yc1
+怀疑	yd1
+合作	ye1
+杂志	yf1
+惬意	yg1
+情况	yh1
+憧憬	yi1
+慢慢	yj1
+负责	yk1
+免费	yl1
+悄悄	ym1
+惊人	yo1
+追求	yp1
+必须	yq1
+懊悔	yr1
+食物	ys1
+解决	yt1
+忙碌	yu1
+惨痛	yv1
+性格	yw1
+争斗	yx1
+恰当	yy1
