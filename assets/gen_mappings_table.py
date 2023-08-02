@@ -40,10 +40,10 @@ for line in sys.stdin.readlines():
 for row in ["QWERT", "YUIOP", "ASDFG", "HJKL", "ZXCVB", "NM"]:
     # suppose that every table has 10 rows, then filter the empty ones
     for i in range(0, 10):
-        line = ""
+        line = []
         for key in row:
-            line += "\t" + get_row_data(key, i, 3)
-        line = line.strip("\t")
+            line.append(get_row_data(key, i, 3))
+        line = "\t".join(line).rstrip("\t")
         if len(line) != 0:
             print("\t", line, "\t", sep="")
     print()
