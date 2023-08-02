@@ -71,7 +71,7 @@ func ReadCompMap(filepath string) (mappings map[string]string, err error) {
 			continue
 		}
 		line := strings.Split(strings.TrimSpace(line), "\t")
-		code, comp := line[0], line[1]
+		code, comp := strings.ReplaceAll(line[0], "_", "1"), line[1]
 		mappings[comp] = code
 	}
 

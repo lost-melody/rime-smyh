@@ -11,7 +11,7 @@ speller:
   alphabet: "qwertyuiopasdfghjklxcvbnm"
   initials: "qwertyuiopasdfghjklxcvbnm"
   algebra:
-    - xlit/_12/  ;/
+    - xlit/12/ ;/
 
 translator:
   dictionary: smyh.base
