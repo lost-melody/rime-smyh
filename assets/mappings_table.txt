@@ -1,0 +1,48 @@
+	========   Q   ========		========   W   ========		========   E   ========		========   R   ========		========   T   ========	
+	食Qd	戶Qh	户Qh		𠂉Wd	⺮右Wd	竹Wd		𡿨Ei	㇉Ei	乚Ei		向Ra	向框Ra	囟框Ra		大Ta	耳Ti	廴Tj	
+	戸Qh	殳Qi	矢Qj		𧘇Wi	非Wi	气Wj		飛Ej	豕Ek	風En		長Rc	甫Rd	革Re		魚Tj	兀Tk	鳥Tn	
+	䒑Qk	リQk	丬Qk		力Wk	九Wm	丿W_		𡗗Ep	亻Er	生Es		合Rh	髟Ri	亦Rj		鳥上Tn	⺧Tv	牛Tv	
+	丷Qk	缶Qk	身Qn						夊Eu	亡Ew	贏頭Ew		巾Rk	鹵Rl	門Rm		烏Tw	烏上Tw	钅T_	
+	几Qv	习Qx	鱼Qy										乃Rn	镸Rn	互中Ru	
+	彑Ru	母Ru	母框Ru	
+	僉Rv	鬥Rv	人Rw	
+
+	========   Y   ========		========   U   ========		========   I   ========		========   O   ========		========   P   ========	
+	心Yb	门Yd	业Ye		幺Ua	介下Ub	八Ub		匕Ib	乐上Ie	卬左Ie		面Oa	五下Oe	冊Oe		疒Pb	巛Pc	巜Pc	
+	艮Yi	冖Ym	世Ys		亍Ud	夕Ue	羊Ug		卯Ie	卯左Ie	齊右Ie		韋Oe	亠Og	京頭Og		虫Pc	瓦Pd	戈Pe	
+	言Ui	马Um	三Us		⺍Is	兴上Is	氵Is		亮頭Og	高Og	高頭Og		广Pg	弋Pi	工Pj	
+	丆Ut	石Ut	丂U_						女Oh	立Oi	〇Oo		麻Pm	辰Pn	⺀Pr	
+	而Or	辛Ox	丶O_		二Pr	龵Ps	手Ps	
+	鹿Pv	鹿上Pv	戊Pw	
+
+	========   A   ========		========   S   ========		========   D   ========		========   F   ========		========   G   ========	
+	丁Ag	亥Ah	己Ai		入Sd	未Se	两撇Sh		白Da	辶Dc	十Di		禺Fi	木Fk	一F_		𠂤Gd	示Gi	毛Go	
+	巴Aj	キAk	ヰAk		彡Sh	癶右Sh	乜Si		雨Dj	刀Dk	爲下Dk						皮Gp	龶Gq	士Gs	
+	七Ak	扌Ak	寸An		也Si	丌Sj	龷Sk		之Ds	讠Dy	亞下D_						穀頭Gs	土Gt	耂Gt	
+	冓上Sk	卄Sk	卅Sk	
+	卌Sk	卝Sk	艹Sk	
+	末Sm	金Sn	左上S_	
+
+	========   H   ========		========   J   ========		========   K   ========		========   L   ========	
+	宀Hb	臼Hj	鸟Hn		早Ja	山Jc	曰Jj		豸Kd	齒Kd	厶Kf		口La	长Lc	丅Li	
+	鸟上Hn	⺆Hr	勹Hr		馬Jk	馬上Jk	日Jr		丄Kg	上Kg	厂Kh		下Li	丑Lk	黽Ln	
+	月Hr	祭上Hr	至Hs						小Kj	龸Kn	尚Kn		龜下Ln	舌Ls	夫Lv	
+	米Ks	饣Ks	虎Kv	
+	虎头Kv	子Kz	了K_	
+
+	========   Z   ========		========   X   ========		========   C   ========		========   V   ========		========   B   ========	
+	贝Zb	隹Zi	见Zj		刂Xd	卩Xi	糸Xi		爿Cd	阝Cf	用Cg		彳Vd	微上Vd	骨Vg		臣Be	不Bi	コBj	
+	冂Zk	冂丶Zk	襾Zk		糹Xi	其Xj	犬Xo		叀Ch	專上Ch	車Ch		禾Vh	㔾Vi	𠄎Vi		スBj	マBj	又Bj	
+	西Zk	雋下Zk	〢Zn		文Xp	犭Xq	反彐Xs		𠂭Ci	乂Ci	罒Ck		乁Vi	乙Vi	乛Vi		癶Bj	尸Bs	眉上Bs	
+	〣Zn	丨Zn	丰Zn		彐Xs	肀Xs	囗Xw		皿Cm	乍下Co	卜Co		亅Vi	黑Vk	來Vl		古Bu	尢By	尤By	
+	丩X_	丱X_	凵X_		龍右Co	片Cp	千Cq		川Vn	水Vs	冎Vu	
+	壬Cr	予Cu	卑上Cv		咼Vu	瓜Vu	爪Vz	
+	鬼Cv	龰Cz	止Cz	
+
+	========   N   ========		========   M   ========	
+	欠Na	电Nd	⺁Ne		牙Ma	貝Mb	车Md	
+	斤Ne	弓Nf	干Ng		見Mj	王Mk	且Mq	
+	里Ni	甲Nj	衤Nj		火Ms	灬Ms	目Mv	
+	申Nm	田Nt	由Nv	
+
+	vim:	ts=8	lcs=tab\:\ \ \│	
