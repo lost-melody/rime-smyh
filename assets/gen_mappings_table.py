@@ -9,23 +9,24 @@ import sys
 # {"Q": ["食Qd", "户Qh", ...], "W": [...]}
 mappings: dict[str, list[str]] = {}
 
-def get_row_data(key, line, cols) -> str:
+def get_row_data(key: str, line: int, cols: int) -> str:
     '''
     generate a row of data from mappings of key
     '''
     if line == 0:
         # head line
         return "="*8 + " "*3 + key + " "*3 + "="*8 + "\t"
+    offset, limit = (line-1)*cols, cols
     comps = mappings[key]
-    if line*cols <= len(comps):
+    if offset + limit <= len(comps):
         # a\tb\tc\t
-        return "\t".join(comps[(line-1)*cols:line*cols]) + "\t"
-    elif line*cols < len(comps):
+        return "\t".join(comps[offset:offset+limit]) + "\t"
+    elif offset < len(comps):
         # a\tb\t\t
-        return "\t".join(comps[(line-1)*cols:len(comps)]) + "\t"*(line*cols-len(comps))
+        return "\t".join(comps[offset:len(comps)]) + "\t"*(offset+limit+1-len(comps))
     else:
         # \t\t\t
-        return "\t"*cols
+        return "\t"*limit
 
 # read all mappings from stdin
 for line in sys.stdin.readlines():
@@ -37,7 +38,7 @@ for line in sys.stdin.readlines():
     # │食   Qd│戶   Qh│户   Qh│
     mappings[key].append(comp + " "*(5-len(comp)*2) + code)
 
-for row in ["QWERT", "YUIOP", "ASDFG", "HJKL", "ZXCVB", "NM"]:
+for row in ["QWERT", "YUIOP", "ASDFG", "HJKL", "XCVB", "NM"]:
     # suppose that every table has 10 rows, then filter the empty ones
     for i in range(0, 10):
         line = []
