@@ -4220,6 +4220,8 @@
 鴌	[一大鳥|F1TjTn]
 株	[木牛八|FkThUb]
 桍	[木大丂|FkTjU1]
+㈱	[木牛八|FkThUb]
+㊑	[木牛八|FkThUb]
 沗	[一大水|F1TjVs]
 槬	[木大瓜|FkTjVu]
 櫯	[木魚禾|FkTjVh]
