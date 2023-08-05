@@ -21,11 +21,14 @@ cd "${WD}"
 # 单字码表
 cat /tmp/char.txt >>"${SCHEMA}/smyh.base.dict.yaml"
 grep -v '#' table/smyh_quick.txt >>"${SCHEMA}/smyh.base.dict.yaml"
+# 单字四码码表
 cat /tmp/fullcode.txt >>"${SCHEMA}/smyh.yuhaofull.dict.yaml"
 # 智能词码表
 cat /tmp/phrase.txt >>"${SCHEMA}/smyh.smart.dict.yaml"
 # 拆分提示
 cat /tmp/div.txt >"${SCHEMA}/opencc/smyh_div.txt"
+# 生成字根表
+cat table/smyh_map.txt | assets/gen_mappings_table.py >assets/mappings_table.txt
 
 # 清理生成文件
 rm /tmp/{char,fullcode,div,phrase}.txt
