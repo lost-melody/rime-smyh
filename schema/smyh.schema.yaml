@@ -18,7 +18,7 @@ schema:
     # 基础码表
     - smyh.base
     # 全码官宇词库
-    # - smyh.yuhaofull
+    - smyh.yuhaofull
     # 官宇字詞碼表
     # - smyh.yuhao
 

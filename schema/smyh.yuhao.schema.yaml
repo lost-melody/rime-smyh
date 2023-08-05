@@ -8,8 +8,8 @@ schema:
     辅助方案，不能打字。
 
 speller:
-  alphabet: "qwertyuiopasdfghjklxcvbnm"
-  initials: "qwertyuiopasdfghjklxcvbnm"
+  alphabet: "qwertyuiopasdfghjklzxcvbnm"
+  initials: "qwertyuiopasdfghjklzxcvbnm"
 
 translator:
   dictionary: smyh.yuhao

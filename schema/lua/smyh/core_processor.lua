@@ -16,6 +16,9 @@ local cSR = 0xffe2           -- 右Shift
 local cCL = 0xffe3           -- 左Ctrl
 local cCR = 0xffe4           -- 右Ctrl
 local cRt = 0xff0d           -- 回車鍵
+local cTb = 0xff09           -- Tab
+
+local cSelectFull = cTb -- 使用Tab出四码
 
 -- 返回被選中的候選的索引, 來自 librime-lua/sample 示例
 local function select_index(key, env)
@@ -165,7 +168,7 @@ local function handle_select(env, ctx, ch)
 end
 
 local function handle_fullcode(env, ctx, ch)
-    if #ctx.input == 4 and ch == cSl then
+    if #ctx.input == 4 and ch == cSelectFull then
         ctx:commit()
         return kAccepted
     end
@@ -263,8 +266,8 @@ function processor.func(key_event, env)
     elseif ch == cSp or ch == cSC then
         -- 空格, 分號
         return handle_select(env, ctx, ch)
-    elseif ch == cSl then
-        -- 斜缐
+    elseif ch == cSelectFull then
+        -- 四码单字
         return handle_fullcode(env, ctx, ch)
     elseif ch == cRt then
         -- 回車
