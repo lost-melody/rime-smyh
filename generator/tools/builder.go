@@ -71,6 +71,59 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 	return
 }
 
+// BuildFullCodeMetaList 构造字符四码全码编码列表
+func BuildFullCodeMetaList(table map[string][]*types.Division, mappings map[string]string, freqSet map[string]int64, charMetaMap map[string][]*types.CharMeta) (charMetaList []*types.CharMeta) {
+	charMetaList = make([]*types.CharMeta, 0, len(table))
+	// 遍历字符表
+	for char, divs := range table {
+		// 遍历字符的所有拆分表
+		for _, div := range divs {
+			if len(div.Divs) < 2 {
+				// 跳过单根字
+				continue
+			}
+			full, code := calcFullCodeByDiv(div.Divs, mappings)
+			charMeta := types.CharMeta{
+				Char: char,
+				Full: full,
+				Code: code,
+				Freq: freqSet[char],
+			}
+			charMetaList = append(charMetaList, &charMeta)
+		}
+	}
+
+	// 按字频编号
+	sort.SliceStable(charMetaList, func(i, j int) bool {
+		a, b := charMetaList[i], charMetaList[j]
+		return a.Freq > b.Freq ||
+			a.Freq == b.Freq && a.Char < b.Char
+	})
+	for i, charMeta := range charMetaList {
+		charMeta.Seq = i
+	}
+
+	getSel := func(char string) (sel int) {
+		sel = -1
+		for _, charMeta := range charMetaMap[char] {
+			if sel == -1 || sel > charMeta.Sel {
+				sel = charMeta.Sel
+			}
+		}
+		return
+	}
+
+	// 按编码排序
+	sort.SliceStable(charMetaList, func(i, j int) bool {
+		a, b := charMetaList[i], charMetaList[j]
+		selA, selB := getSel(a.Char), getSel(b.Char)
+		return a.Code < b.Code ||
+			a.Code == b.Code && (selA != 0 && selB == 0 || (selA != 0 || selB == 0) && a.Seq < b.Seq)
+	})
+
+	return
+}
+
 // BuildCharMetaMap 构造字符编码集合
 func BuildCharMetaMap(charMetaList []*types.CharMeta) (charMetaMap map[string][]*types.CharMeta) {
 	charMetaMap = map[string][]*types.CharMeta{}
@@ -261,6 +314,9 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 }
 
 func calcCodeByDiv(div []string, mappings map[string]string) (full string, code string) {
+	if len(div) > 3 {
+		div = []string{div[0], div[1], div[len(div)-1]}
+	}
 	for _, comp := range div {
 		compCode := mappings[comp]
 		code += compCode[:1]
@@ -276,6 +332,19 @@ func calcCodeByDiv(div []string, mappings map[string]string) (full string, code 
 		// full += supp
 	}
 
+	code = strings.ToLower(code)
+	return
+}
+
+func calcFullCodeByDiv(div []string, mappings map[string]string) (full string, code string) {
+	stack := ""
+	for _, comp := range div {
+		compCode := mappings[comp]
+		code += compCode[:1]
+		stack = compCode[1:] + stack
+		full += compCode
+	}
+	code += stack[:4-len(code)]
 	code = strings.ToLower(code)
 	return
 }

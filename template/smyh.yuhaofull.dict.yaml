@@ -1,0 +1,14 @@
+# rime dictionary: 華夫餅·全碼單字
+# encoding: utf-8
+
+---
+name: "smyh.yuhaofull"
+version: "beta"
+sort: original
+columns:
+  - text
+  - code
+  - weight
+  - other
+...
+

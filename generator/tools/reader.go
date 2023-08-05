@@ -23,10 +23,6 @@ func ReadDivisionTable(filepath string) (table map[string][]*types.Division, err
 			Char: line[0],
 			Divs: strings.Split(line[1], " "),
 		}
-		if len(div.Divs) > 3 {
-			div.Divs[2] = div.Divs[len(div.Divs)-1]
-			div.Divs = div.Divs[:3]
-		}
 		table[div.Char] = append(table[div.Char], &div)
 	}
 

@@ -49,8 +49,10 @@ func main() {
 	charMetaList := tools.BuildCharMetaList(divTable, simpTable, compMap, freqSet)
 	charMetaMap := tools.BuildCharMetaMap(charMetaList)
 	codeCharMetaMap := tools.BuildCodeCharMetaMap(charMetaList)
+	fullCodeMetaList := tools.BuildFullCodeMetaList(divTable, compMap, freqSet, charMetaMap)
 	phraseMetaList, phraseTipList := tools.BuildSmartPhraseList(charMetaMap, codeCharMetaMap, phraseFreqSet)
 	fmt.Println("charMetaList:", len(charMetaList))
+	fmt.Println("fullCodeMetaList:", len(fullCodeMetaList))
 	fmt.Println("charMetaMap:", len(charMetaMap))
 	fmt.Println("codeCharMetaMap:", len(codeCharMetaMap))
 	fmt.Println("phraseFreqSet:", len(phraseFreqSet))
@@ -60,10 +62,21 @@ func main() {
 	buffer := bytes.Buffer{}
 
 	// CHAR
+	buffer.Truncate(0)
 	for _, charMeta := range charMetaList {
 		buffer.WriteString(fmt.Sprintf("%s\t%s\t%d\n", charMeta.Char, charMeta.Code, charMeta.Freq))
 	}
 	err = os.WriteFile("/tmp/char.txt", buffer.Bytes(), 0644)
+	if err != nil {
+		log.Fatalln(err)
+	}
+
+	// FULLCHAR
+	buffer.Truncate(0)
+	for _, charMeta := range fullCodeMetaList {
+		buffer.WriteString(fmt.Sprintf("%s\t%s\n", charMeta.Char, charMeta.Code))
+	}
+	err = os.WriteFile("/tmp/fullcode.txt", buffer.Bytes(), 0644)
 	if err != nil {
 		log.Fatalln(err)
 	}
