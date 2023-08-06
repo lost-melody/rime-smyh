@@ -88,6 +88,7 @@
 没	iq1
 沉	iy1
 时	ja1
+题	jf1
 明	jh1
 事	jl1
 最	jt1
@@ -102,6 +103,7 @@
 光	ky1
 呢	lb1
 啊	lc1
+品	ll1
 听	ln1
 只	lu1
 别	lw1
@@ -112,6 +114,7 @@
 眼	my1
 现	mz1
 经	nb1
+略	ne1
 后	nf1
 张	nl1
 给	nr1
@@ -121,7 +124,7 @@
 如	ol1
 主	om1
 她	os1
-为	ow1
+衣	ow1
 感	pf1
 动	pk1
 次	pn1
@@ -136,7 +139,6 @@
 关	qt1
 将	qu1
 起	ra1
-全	rm1
 领	ro1
 会	rp1
 从	rr1
