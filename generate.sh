@@ -28,7 +28,7 @@ cat /tmp/phrase.txt >>"${SCHEMA}/smyh.smart.dict.yaml"
 # 拆分提示
 cat /tmp/div.txt >"${SCHEMA}/opencc/smyh_div.txt"
 # 生成字根表
-cat table/smyh_map.txt | assets/gen_mappings_table.py >assets/mappings_table.txt
+cat table/smyh_map.txt | python assets/gen_mappings_table.py >assets/mappings_table.txt
 
 # 清理生成文件
 rm /tmp/{char,fullcode,div,phrase}.txt
