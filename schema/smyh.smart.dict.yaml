@@ -82,8 +82,6 @@ encoder:
 拋離	abwxxz
 拋進	abwzdn
 拋售	abwzla
-拥趸	accfhb
-拥塞	acchsg
 插敍	achrfb
 插敘	achrfe
 擺盪	aciijc
@@ -94,6 +92,8 @@ encoder:
 掉渣	acjiff
 掉幀	acjrcm
 搬迁	acqcdn
+拥趸	acufhb
+拥塞	acuhsg
 技嘉	adbgll
 摁釦	adgsla
 切換	adkayt
@@ -288,7 +288,7 @@ encoder:
 拉锯	aoutbb
 拉維	aouyzi
 擁塞	aozhsg
-擁躉	aozsfb
+擁躉	aozsjb
 抖擞	apdake
 振盪	apeijc
 振铃	apetrb
@@ -501,9 +501,9 @@ encoder:
 換牙	aytcy1
 換妻	aytdxo
 換個	aytedb
-換偶	aytefl
 換貨	ayteim
 換來	aytej1
+換偶	ayteja
 換位	ayteou
 換代	aytepy
 換件	aytett
@@ -1123,7 +1123,7 @@ encoder:
 皁白	ddids1
 皁隸	ddifgv
 皁片	ddiwp1
-皁角	ddiycc
+皁角	ddiycu
 图铃	deptrb
 困獸	dfhllx
 语塞	dflhsg
@@ -1537,7 +1537,7 @@ encoder:
 傾翻	eimwkq
 傾力	eimwo1
 傾情	eimy1
-傾角	eimycc
+傾角	eimycu
 傾覆	eimzve
 低槓	eiofpm
 低峯	eiojez
@@ -1570,7 +1570,7 @@ encoder:
 倾翻	eizwkq
 倾力	eizwo1
 倾情	eizy1
-倾角	eizycc
+倾角	eizycu
 倾覆	eizzve
 來臨	ej1bwl
 偉績	ejgygm
@@ -1783,7 +1783,6 @@ encoder:
 樹膠	fgahqs
 檯燈	fghmbq
 檯鐘	fghson
-愚癡	fgppit
 杜撰	fgtaau
 隸屬	fgvbvm
 隸字	fgvhkv
@@ -2394,6 +2393,7 @@ encoder:
 老妪	gibokc
 老嫗	gibokl
 老鷹	gibpet
+老邁	gibsjd
 老茧	gibsmc
 老繭	gibszm
 老爺	gibucc
@@ -3110,6 +3110,7 @@ encoder:
 激憤	ideydm
 洄游	idliik
 洄遊	idliwd
+淒厲	idoksj
 泗阳	idqcjk
 泗陽	idqcjs
 澀味	idtlsj
@@ -3641,6 +3642,25 @@ encoder:
 照燈	jdmmbq
 照辦	jdmowo
 照錄	jdmsrv
+違抗	jdnaoq
+違拗	jdnauw
+違例	jdnefx
+違禁	jdnffg
+違者	jdngjk
+違心	jdngp1
+違憲	jdnhzg
+違法	jdnigk
+違規	jdnlmr
+違反	jdnnbj
+違章	jdnojv
+違背	jdnqih
+違礙	jdnuit
+違誤	jdnult
+違和	jdnvla
+違建	jdnxay
+違犯	jdnxvi
+違紀	jdnyai
+違約	jdnyho
 星尘	jehkgt
 星塵	jehpgt
 峯頂	jezaum
@@ -3692,6 +3712,7 @@ encoder:
 時薪	jgason
 時蔬	jgasvq
 晴綸	jghyro
+愚癡	jgppit
 驍勇	jgybcw
 驍騎	jgyjtl
 驍龍	jgyohc
@@ -3806,11 +3827,11 @@ encoder:
 显豁	jyyhzl
 豔歌	jzcaln
 豔陽	jzccjs
-豔遇	jzcfdn
 豔麗	jzcfzp
 豔福	jzcgfn
 酆都	jzcgjc
 豔照	jzcjdm
+豔遇	jzcjdn
 豔事	jzcjlx
 豔豔	jzcjzc
 豔史	jzclci
@@ -3988,10 +4009,15 @@ encoder:
 米麪	ks1eev
 米倉	ks1rol
 米芾	ks1sfr
+厲聲	ksjgbt
+厲鬼	ksjgm1
+厲害	ksjhzl
+厲色	ksjyaj
 粪坑	ksugoq
 彪炳	ksymfr
 尖椒	ktjfkb
 尖峯	ktjjez
+尖厲	ktjksj
 尖銳	ktjsuq
 参禅	ktsgqd
 虎凳	ku1bfq
@@ -4067,7 +4093,6 @@ encoder:
 噁心	lfggp1
 呆滞	lfhisr
 呆滯	lfhisr
-喁喁	lfllfl
 喇嘛	lfxlpa
 喇叭	lfxlus
 嘟噥	lgclzp
@@ -4103,6 +4128,7 @@ encoder:
 长膘	li1hzg
 长崎	li1jtl
 叱咤	liblha
+嗶嘰	ljalur
 唱喏	ljjlsl
 咔噠	lkclgd
 咔嚓	lkclhg
@@ -4176,6 +4202,7 @@ encoder:
 單槓	lldfpm
 單產	lldxke
 嚴冬	lleepr
+嚴厲	lleksj
 嚴辦	lleowo
 嚴懲	llevfg
 替換	lljayt
@@ -4356,6 +4383,7 @@ encoder:
 燈絲	mbqyyz
 炔烃	mbrmbp
 炔烴	mbrmfp
+睽違	mbtjdn
 虫卵	mc1ioo
 燦然	mckh2
 燦燦	mckmck
@@ -4570,7 +4598,6 @@ encoder:
 丟包	mkfhae
 丟官	mkfhbb
 丟臉	mkfhrd
-蠣子	mkfkv1
 丟光	mkfkyr
 丟棄	mkfoks
 丟開	mkfrfs
@@ -5087,6 +5114,7 @@ encoder:
 颤栗	odzzfh
 豪橫	oenfsu
 豪賭	oenmgj
+豪邁	oensjd
 夜叉	oeoboo
 夜燈	oeombq
 夜鶯	oeommt
@@ -5109,6 +5137,7 @@ encoder:
 衰朽	ofwfuo
 衰殘	ofwfup
 衰敗	ofwmeu
+衰邁	ofwsjd
 姥爺	ogiucc
 褻瀆	ogwigm
 褻玩	ogwmfy
@@ -5467,6 +5496,7 @@ encoder:
 痔瘡	pgaprl
 痔疮	pgaprv
 廚衞	pgavjj
+凌厲	pgeksj
 凌虐	pgekxj
 魔宮	pgmhlr
 魔獸	pgmllx
@@ -5572,7 +5602,6 @@ encoder:
 疲沓	ptpvjk
 进逼	pudfld
 磨蹭	puhbqj
-磨礪	puhukf
 磨砺	puhukh
 磨牀	puhwfh
 麼噠	pujlgd
@@ -6006,6 +6035,7 @@ encoder:
 走穩	ry1vvg
 帷幄	rzirbh
 在辦	s1owo
+有違	s2jdn
 有勞	s2mmw
 鋸條	sbbezf
 鋸開	sbbrfs
@@ -6040,6 +6070,7 @@ encoder:
 鏈球	scdmfo
 鏈式	scdppj
 鏈鎖	scdskm
+蓮藕	scdszj
 鏈結	scdygl
 鍾華	scnsns
 鍾愛	scnvye
@@ -6114,9 +6145,6 @@ encoder:
 苯基	sffxgt
 苯酚	sffzud
 莱塞	sfkhsg
-萬畝	sflono
-萬籟	sflwfm
-萬維	sflyzi
 顢頇	sfmnum
 燕趙	sfmrkh
 鍊鋼	sfqszj
@@ -6230,6 +6258,22 @@ encoder:
 蕩起	sisrai
 蕩過	sisvdn
 菠萝	sitscu
+萬畝	sjaono
+萬籟	sjawfm
+萬維	sjayzi
+邁拓	sjdauh
+邁克	sjdbqr
+邁阿	sjdcal
+邁動	sjdcnw
+邁騰	sjdhqj
+邁上	sjdk2
+邁瑞	sjdmjo
+邁向	sjdrs1
+邁入	sjdsl1
+邁步	sjdtkj
+邁過	sjdvdn
+邁出	sjdx2
+邁進	sjdzdn
 葦塘	sjggpl
 墓塋	sjgmmg
 葦蓆	sjgspr
@@ -6295,6 +6339,7 @@ encoder:
 芙蕖	slvsif
 茧子	smckv1
 茧丝	smcnnc
+莲藕	smdszj
 鎳幣	smfqrr
 鎳氫	smfwfp
 灰尘	smskgt
@@ -6460,7 +6505,7 @@ encoder:
 銳利	suqvxd
 銳氣	suqwks
 銳敏	suqwre
-銳角	suqycc
+銳角	suqycu
 共產	susxke
 菜肴	svfcsh
 菜乾	svfdjv
@@ -6548,17 +6593,21 @@ encoder:
 鋼渣	szjiff
 鋼印	szjifx
 鋼料	szjkpd
+藕粉	szjkud
 鋼球	szjmfo
 鋼煉	szjmfq
 鋼炮	szjmha
 鋼琴	szjmmv
 鋼珠	szjmtu
+藕丝	szjnnc
 鋼廠	szjpke
 鋼瓶	szjqss
+藕合	szjrh1
 鋼釘	szjsag
 鋼鋸	szjsbb
 鋼針	szjsdi
 鋼鐵	szjsdm
+藕荷	szjsel
 鋼鑄	szjsga
 鋼錠	szjsht
 鋼盔	szjsmc
@@ -6572,10 +6621,12 @@ encoder:
 鋼筋	szjwhw
 鋼架	szjwlf
 鋼筆	szjwxa
+藕色	szjyaj
 鋼纜	szjybm
 鋼結	szjygl
 鋼結構	szjyglfsg
 鋼絲	szjyyz
+藕絲	szjyyz
 鋼絲牀	szjyyzwfh
 存栏	szkfqp
 存貯	szkmha
@@ -6645,7 +6696,6 @@ encoder:
 特鋼	tgaszj
 特產	tgaxke
 鰭豚	tgjhen
-牡蠣	tgtmkf
 镕基	thlxgt
 铵盐	thogcc
 钥匙	thrjfi
@@ -6938,7 +6988,6 @@ encoder:
 羞澀	uicidt
 羞憤	uicydm
 詆譭	uiouhq
-砥礪	uioukf
 砥砺	uioukh
 謾駡	ujbllj
 謁見	ujemr1
@@ -7384,6 +7433,7 @@ encoder:
 年休	wakefh
 年宮	wakhlr
 年鑑	waksbc
+年邁	waksjd
 年薪	wakson
 年產	wakxke
 龜鑑	wamsbc
@@ -7399,6 +7449,7 @@ encoder:
 篾席	wcopsr
 篾片	wcowp1
 衆籌	wcpwga
+甪直	wcudmq
 午休	wdiefh
 边塞	wdnhsg
 笨猪	wffxgj
@@ -7814,10 +7865,6 @@ encoder:
 怪獸	ybgllx
 怪譎	ybgucl
 慳吝	ybgxla
-角櫃	yccfkm
-角膜	ycchst
-角獸	yccllx
-角鋼	yccszj
 邂逅	ycdnfd
 運鏢	ycdszg
 運籌	ycdwga
@@ -7870,7 +7917,7 @@ encoder:
 觸礁	ycmuzm
 觸點	ycmvcl
 觸犯	ycmxvi
-觸角	ycmycc
+觸角	ycmycu
 觸網	ycmyze
 觸雷	ycmznd
 觸電	ycmzyw
@@ -7880,6 +7927,10 @@ encoder:
 皸裂	yctfuw
 解悶	yctrgp
 解釦	yctsla
+角櫃	ycufkm
+角膜	ycuhst
+角獸	ycullx
+角鋼	ycuszj
 鳏寡	ycvhud
 鳏夫	ycvlv1
 絕續	ydaygm
@@ -8045,7 +8096,7 @@ encoder:
 慘景	yksjok
 慘了	yksk1
 慘劇	ykskex
-慘厲	yksksf
+慘厲	yksksj
 慘叫	ykslxs
 慘敗	yksmeu
 慘痛	ykspbc
@@ -8101,6 +8152,7 @@ encoder:
 鲸鱼	yokya1
 惊悚	yokyfl
 憧憬	yonyjk
+久違	yoojdn
 久矣	yookqj
 統攬	yoqabm
 統籌	yoqwga
@@ -8153,8 +8205,8 @@ encoder:
 恰似	yrheer
 恰像	yrheye
 恰逢	yrhezd
-恰遇	yrhfdn
 恰是	yrhj1
+恰遇	yrhjdn
 恰當	yrhknd
 恰当	yrhkxj
 恰好	yrhok1
@@ -8318,7 +8370,7 @@ encoder:
 凸透	zffvrd
 凸版	zffwnb
 凸出	zffx2
-凸角	zffycc
+凸角	zffycu
 凸凹	zffzfi
 栗子	zfhkv1
 集羣	zfhxwu
