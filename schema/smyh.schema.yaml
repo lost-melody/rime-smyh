@@ -3,14 +3,15 @@
 
 schema:
   schema_id: smyh
-  name: 華夫餅
+  name: 吉旦餅
   version: "alpha"
   author:
     - 宇浩输入法
+    - 阿吉
     - forFudan
     - 王牌饼干
   description: |
-    華夫饼，基于宇浩輸入法製作。
+    吉旦餅，基于宇浩輸入法製作。
     宇浩輸入法QQ群：735728797
   dependencies:
     # 宇浩拼音, 用于反查
@@ -66,7 +67,7 @@ engine:
     - history_translator@history
     # 反查
     - reverse_lookup_translator@rev_pinyin
-    # 華夫餅主翻译器
+    # 主翻译器
     - lua_translator@*smyh.core_translator@core_tr
   filters:
     - simplifier
@@ -82,15 +83,15 @@ engine:
     - lua_filter@*smyh.embeded_cands@embeded_cands
 
 speller:
-  alphabet: "qwertyuiopasdfghjklzxcvbnm ;|.:"
-  initials: "qwertyuiopasdfghjklzxcvbnm"
+  alphabet: "qwertyuiopasdfghjklzxcvbnm ;`|.:"
+  initials: "qwertyuiopasdfghjklzxcvbnm`"
   auto_select: true
   auto_select_unique_candidate: true
   algebra:
 
 # 重复上次上屏
 history:
-  input: z
+  input: '`'
   size: 1
   initial_quality: 1
 
