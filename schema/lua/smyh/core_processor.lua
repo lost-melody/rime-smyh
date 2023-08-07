@@ -18,7 +18,8 @@ local cCR = 0xffe4           -- 右Ctrl
 local cRt = 0xff0d           -- 回車鍵
 local cTb = 0xff09           -- Tab
 
-local cSelectFull = cTb -- 使用Tab出四码
+local cSelectFull = cTb -- 使用Tab出四碼
+local cBreakSmart = cTb -- 使用Tab打斷施法
 
 -- 返回被選中的候選的索引, 來自 librime-lua/sample 示例
 local function select_index(key, env)
@@ -93,7 +94,9 @@ end
 -- 提交候選文本, 並刷新輸入串
 local function commit_text(env, ctx, text, input)
     ctx:clear()
-    env.engine:commit_text(text)
+    if #text ~= 0 then
+        env.engine:commit_text(text)
+    end
     ctx:push_input(input)
 end
 
@@ -120,14 +123,13 @@ local function handle_push(env, ctx, ch)
             return kAccepted
         end
 
+        -- 智能詞延遲頂
         if #remain == 0 and #code_segs > 1 then
-            local entries = core.dict_lookup(core.base_mem, code_segs[1], 1)
-            local text = ""
-            if #entries ~= 0 then
-                text = entries[1].text
+            local entries, remain = core.query_cand_list(core.base_mem, code_segs)
+            if #entries > 1 then
+                commit_text(env, ctx, entries[1], remain..string.char(ch))
+                return kAccepted
             end
-            commit_text(env, ctx, text, code_segs[2]..string.char(ch))
-            return kAccepted
         end
     end
     return kNoop
@@ -171,6 +173,23 @@ local function handle_fullcode(env, ctx, ch)
     if #ctx.input == 4 and ch == cSelectFull then
         ctx:commit()
         return kAccepted
+    end
+    return kNoop
+end
+
+local function handle_break(env, ctx, ch)
+    if ch == cBreakSmart then
+        -- 輸入串分詞列表
+        local code_segs, remain = core.get_code_segs(ctx.input)
+        if #remain == 0 then
+            remain = table.remove(code_segs)
+        end
+        -- 打斷施法
+        if code_segs ~= 0 then
+            local text_list = core.query_first_cand_list(core.base_mem, code_segs)
+            commit_text(env, ctx, table.concat(text_list, ""), remain)
+            return kAccepted
+        end
     end
     return kNoop
 end
@@ -266,12 +285,20 @@ function processor.func(key_event, env)
     elseif ch == cSp or ch == cSC then
         -- 空格, 分號
         return handle_select(env, ctx, ch)
-    elseif ch == cSelectFull then
-        -- 四码单字
-        return handle_fullcode(env, ctx, ch)
     elseif ch == cRt then
         -- 回車
         return handle_clean(env, ctx, ch)
+    else
+        local res = kNoop
+        if res == kNoop and ch == cSelectFull then
+            -- 四碼單字
+            res = handle_fullcode(env, ctx, ch)
+        end
+        if res == kNoop and ch == cBreakSmart then
+            -- 打斷施法
+            res = handle_break(env, ctx, ch)
+        end
+        return res
     end
 
     return kNoop

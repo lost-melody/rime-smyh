@@ -7,7 +7,7 @@ import (
 	"smyh_gen/types"
 )
 
-const fallBackFreq = 10000
+const fallBackFreq = 100
 
 var (
 	leftHandKeys   = []byte("qwertasdfgzxcvb")

@@ -26,6 +26,12 @@ local function display_input(input)
     return input
 end
 
+local function display_comment(comment)
+    comment = string.gsub(comment, "1", "␣")
+    comment = string.gsub(comment, "2", "⌥")
+    return comment
+end
+
 -- 處理開關管理候選
 local function handle_switch(env, ctx, seg, input)
     core.input_code = "help "
@@ -77,6 +83,7 @@ local function handle_singlechar(env, ctx, code_segs, remain, seg, input)
 
     -- 依次送出候選
     for _, entry in ipairs(entries) do
+        entry.comment = display_comment(entry.comment)
         local cand = Candidate("table", seg.start, seg._end, entry.text, entry.comment)
         yield(cand)
     end
@@ -94,6 +101,9 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
 
     -- 先查出全串候選列表
     local full_entries = core.dict_lookup(core.base_mem, input, 10)
+    if #full_entries ~= 0 then
+        full_entries[1].comment = "☯"
+    end
 
     if #input == 4 then
         local mem
@@ -121,7 +131,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
 
     -- 查詢分詞串暫存值
-    local text_list = core.query_first_cand_list(core.base_mem, code_segs)
+    local text_list = core.query_cand_list(core.base_mem, code_segs)
     if #text_list ~= 0 then
         core.stashed_text = table.concat(text_list, "")
     end
@@ -135,16 +145,12 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
 
     -- 送出候選
     for _, entry in ipairs(full_entries) do
-        if #input ~= 4 and #entries ~= 0 then
-            -- 單字組合串總是首選, 智能詞次之
-            local entry = table.remove(entries, 1)
-            local cand = Candidate("table", seg.start, seg._end, core.stashed_text..entry.text, entry.comment)
-            yield(cand)
-        end
+        entry.comment = display_comment(entry.comment)
         local cand = Candidate("table", seg.start, seg._end, entry.text, entry.comment)
         yield(cand)
     end
     for _, entry in ipairs(entries) do
+        entry.comment = display_comment(entry.comment)
         local cand = Candidate("table", seg.start, seg._end, core.stashed_text..entry.text, entry.comment)
         yield(cand)
     end
