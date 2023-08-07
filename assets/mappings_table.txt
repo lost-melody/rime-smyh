@@ -33,8 +33,8 @@
 
        │========   Z   ========│       │========   X   ========│       │========   C   ========│       │========   V   ========│       │========   B   ========│
        │〢   Zh│丨   Zh│〣   Zh│       │川   Xc│刂   Xd│其   Xi│       │𠂭   Ci│乂   Ci│車   Cj│       │微上 Vc│彳   Vc│瓜   Vg│       │尤   Bd│尢   Bd│眉上 Bi│
-       │隹   Zi│雨   Zj│冂丶 Zk│       │彐   Xj│肀   Xj│卩   Xj│       │叀   Cj│專上 Cj│舟   Ck│       │黑   Vh│㔾   Vi│乁   Vi│       │尸   Bi│マ   Bj│又   Bj│
-       │酉   Zk│冂   Zk│雋下 Zk│       │反彐 Xj│门   Xm│毛   Xn│       │壬   Ck│皿   Cm│乍下 Co│       │乛   Vi│亅   Vi│乙   Vi│       │コ   Bj│ス   Bj│癶   Bj│
+       │隹   Zi│雨   Zj│冂丶 Zk│       │彐   Xj│肀   Xj│卩   Xj│       │叀   Cj│專上 Cj│壬   Ck│       │黑   Vh│㔾   Vi│乁   Vi│       │尸   Bi│マ   Bj│又   Bj│
+       │酉   Zk│冂   Zk│雋下 Zk│       │反彐 Xj│门   Xm│毛   Xn│       │舟   Cl│皿   Cm│乍下 Co│       │乛   Vi│亅   Vi│乙   Vi│       │コ   Bj│ス   Bj│癶   Bj│
        │夭   Zm│丰   Zn│见   Zp│       │犬   Xo│文   Xp│犭   Xq│       │卜   Co│龍右 Co│阝   Cp│       │𠄎   Vi│爪   Vk│冎   Vn│       │下   Bk│丅   Bk│足   Bn│
        │襾   Zu│西   Zu│贝   Zv│       │丩   Xs│丱   Xs│凵   Xs│       │千   Cr│用   Cu│予   Cv│       │咼   Vn│禾   Vn│水   Vu│       │臣   Bs│古   Bu│
        │       │       │       │       │屮   Xs│豸   Xz│       │       │罒   Cw│牙   Cy│       │       │骨   Vw│

@@ -955,10 +955,9 @@ encoder:
 桌燈	cjfmbq
 罵陣	cjrccj
 陽燈	cjsmbq
-舟楫	ck1flt
-壬辰	ck1pe1
 丢棄	ckfoks
 罷休	ckiefh
+舟楫	cl1flt
 战栗	clpzfh
 輯錄	cltsrv
 貞操	cmfalf
@@ -3205,7 +3204,7 @@ encoder:
 淤滯	iipisr
 瀏覽	iixbwm
 瀏陽	iixcjs
-盪舟	ijcck1
+盪舟	ijccl1
 盪漾	ijciuv
 温習	ijcqqd
 温驯	ijcuxc
@@ -3506,7 +3505,7 @@ encoder:
 涵藴	ivxsyc
 泛指	iwdaij
 遊蹤	iwdbvt
-泛舟	iwdck1
+泛舟	iwdcl1
 泛读	iwdddt
 泛型	iwdfsg
 泛泛	iwdiwd

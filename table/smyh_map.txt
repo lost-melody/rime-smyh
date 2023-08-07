@@ -29,8 +29,8 @@ Ci	乂
 Cj	車
 Cj	叀
 Cj	{專上}
-Ck	舟
 Ck	壬
+Cl	舟
 Cm	皿
 Co	{乍下}
 Co	卜
