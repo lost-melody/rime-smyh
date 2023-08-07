@@ -7,6 +7,8 @@ import (
 	"smyh_gen/types"
 )
 
+const fallBackFreq = 10000
+
 var (
 	leftHandKeys   = []byte("qwertasdfgzxcvb")
 	leftHandKeySet = map[byte]struct{}{}
@@ -41,7 +43,7 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 					charMetaList = append(charMetaList, &cm)
 				}
 				// 全码后置
-				charMeta.Freq = 10000
+				charMeta.Freq = fallBackFreq
 				charMeta.Back = true
 				charMetaList = append(charMetaList, &charMeta)
 			} else {
@@ -74,6 +76,16 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 // BuildFullCodeMetaList 构造字符四码全码编码列表
 func BuildFullCodeMetaList(table map[string][]*types.Division, mappings map[string]string, freqSet map[string]int64, charMetaMap map[string][]*types.CharMeta) (charMetaList []*types.CharMeta) {
 	charMetaList = make([]*types.CharMeta, 0, len(table))
+	getSel := func(char string) (sel int) {
+		sel = -1
+		for _, charMeta := range charMetaMap[char] {
+			if sel == -1 || sel > charMeta.Sel {
+				sel = charMeta.Sel
+			}
+		}
+		return
+	}
+
 	// 遍历字符表
 	for char, divs := range table {
 		// 遍历字符的所有拆分表
@@ -89,6 +101,9 @@ func BuildFullCodeMetaList(table map[string][]*types.Division, mappings map[stri
 				Code: code,
 				Freq: freqSet[char],
 			}
+			if getSel(char) == 0 {
+				charMeta.Freq = fallBackFreq
+			}
 			charMetaList = append(charMetaList, &charMeta)
 		}
 	}
@@ -103,22 +118,11 @@ func BuildFullCodeMetaList(table map[string][]*types.Division, mappings map[stri
 		charMeta.Seq = i
 	}
 
-	getSel := func(char string) (sel int) {
-		sel = -1
-		for _, charMeta := range charMetaMap[char] {
-			if sel == -1 || sel > charMeta.Sel {
-				sel = charMeta.Sel
-			}
-		}
-		return
-	}
-
 	// 按编码排序
 	sort.SliceStable(charMetaList, func(i, j int) bool {
 		a, b := charMetaList[i], charMetaList[j]
-		selA, selB := getSel(a.Char), getSel(b.Char)
 		return a.Code < b.Code ||
-			a.Code == b.Code && (selA != 0 && selB == 0 || (selA != 0 || selB == 0) && a.Seq < b.Seq)
+			a.Code == b.Code && a.Seq < b.Seq
 	})
 
 	return
