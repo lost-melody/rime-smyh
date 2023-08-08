@@ -43,6 +43,8 @@ patch:
     Return: cancel
   core_proc/sync_options/+:
     - ascii_mode
+  core_tr/+:
+    # enable_completion: false
   embeded_cands/+:
     first_format: "${Stash}[${候選}]${Code}${Comment}" # 首選的渲染格式
     # option_name: embeded_cands                               # 嵌入候選開關

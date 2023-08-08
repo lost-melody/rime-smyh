@@ -6,6 +6,9 @@ local schemas = nil
 -- ######## 翻译器 ########
 
 function translator.init(env)
+    env.config = {}
+    env.config.comp = core.parse_conf_bool(env, "enable_completion")
+
     -- 初始化碼表
     if not schemas then
         schemas = {
@@ -101,7 +104,7 @@ local function handle_singlechar(env, ctx, code_segs, remain, seg, input)
     core.input_code = display_input(remain)
 
     -- 查询最多一百個候選
-    local entries = core.dict_lookup(core.base_mem, remain, 100, true)
+    local entries = core.dict_lookup(core.base_mem, remain, 100, env.config.comp)
     if #entries == 0 then
         table.insert(entries, {text="", comment=""})
     end
@@ -165,7 +168,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
 
     -- 查詢活動輸入串候選列表
-    local entries = core.dict_lookup(core.base_mem, remain, 100 - #full_entries, true)
+    local entries = core.dict_lookup(core.base_mem, remain, 100 - #full_entries, env.config.comp)
     if #entries == 0 then
         -- 以空串爲空碼候選
         table.insert(entries, {text="", comment=""})

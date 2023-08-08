@@ -148,6 +148,7 @@ core_proc:
     # - ascii_mode
 
 core_tr:
+  enable_completion: true
 
 # 嵌入候選的顯示配置
 # 默認顯示效果爲:

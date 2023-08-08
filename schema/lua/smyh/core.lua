@@ -58,6 +58,10 @@ core.switch_options = {
 }
 
 -- ######## 工具函数 ########
+function core.parse_conf_bool(env, path)
+    local value = env.engine.schema.config:get_bool(env.name_space.."/"..path)
+    return value and true or false
+end
 
 -- 從方案配置中讀取字符串
 function core.parse_conf_str(env, path, default)
