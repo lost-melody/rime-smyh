@@ -24,6 +24,7 @@ core.switch_names = {
     single_char = "single_char",
     fullcode_char = "fullcode_char",
     embeded_cands = "embeded_cands",
+    smyh_tc = "smyh_tc"
 }
 
 -- 新開關
@@ -47,6 +48,7 @@ core.switch_options = {
     new_switch(core.switch_names.single_char, {"純單", "智能"}),
     new_switch(core.switch_names.fullcode_char, {"全單", "字詞"}),
     new_switch(core.switch_names.embeded_cands, {"嵌入開", "嵌入關"}),
+    new_switch(core.switch_names.smyh_tc, {"傳統字", "簡化字"}),
     new_switch("full_shape", {"全角", "半角"}),
     new_radio({
         { name = "division.off", display = "註解關" },

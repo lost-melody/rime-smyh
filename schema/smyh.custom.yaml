@@ -9,6 +9,7 @@ patch:
   switches/@3/reset: # 智能·純單
   switches/@4/reset: # 字詞·全單
   switches/@5/reset: # 普通·嵌入
+  switches/@6/reset: # 簡體·繁體
   switches/+:
   key_binder/bindings/+:
   ascii_composer/switch_key/+:

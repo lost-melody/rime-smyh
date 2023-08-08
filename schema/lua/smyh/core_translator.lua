@@ -1,14 +1,40 @@
 local translator = {}
 local core = require("smyh.core")
 
+local schemas = nil
+
 -- ######## 翻译器 ########
 
 function translator.init(env)
     -- 初始化碼表
-    if not core.base_mem then
-        core.base_mem = Memory(env.engine, Schema("smyh.base"))
-        core.full_mem = Memory(env.engine, Schema("smyh.yuhaofull"))
+    if not schemas then
+        schemas = {
+            smyh_base = Memory(env.engine, Schema("smyh.base")),
+            smyh_full = Memory(env.engine, Schema("smyh.yuhaofull")),
+            smyh_tc_base = Memory(env.engine, Schema("smyh_tc.base")),
+            smyh_tc_full = Memory(env.engine, Schema("smyh_tc.yuhaofull")),
+        }
     end
+    if not core.base_mem then
+        core.base_mem = schemas.smyh_base
+        core.full_mem = schemas.smyh_full
+    end
+
+    local function schema_switcher(ctx, name)
+        if name == core.switch_names.smyh_tc then
+            local value = ctx:get_option(name)
+            if value then
+                core.base_mem = schemas.smyh_tc_base
+                core.full_mem = schemas.smyh_tc_full
+            else
+                core.base_mem = schemas.smyh_base
+                core.full_mem = schemas.smyh_full
+            end
+        end
+    end
+    schema_switcher(env.engine.context, core.switch_names)
+    env.engine.context.option_update_notifier:connect(schema_switcher)
+
     -- 構造回調函數
     local handler = core.get_switch_handler(env, core.switch_names.fullcode_char)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler

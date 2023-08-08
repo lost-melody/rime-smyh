@@ -2,46 +2,48 @@ package main
 
 import (
 	"bytes"
-	"flag"
 	"fmt"
 	"log"
 	"os"
 	"strings"
 
 	"smyh_gen/tools"
-	"smyh_gen/types"
+	"smyh_gen/utils"
 )
 
 type Args struct {
-	Foo string
+	Div    string `flag:"d" usage:"smyh_div.txt"  default:"../table/smyh_div.txt"`
+	Simp   string `flag:"s" usage:"smyh_simp.txt" default:"../table/smyh_simp.txt"`
+	Map    string `flag:"m" usage:"smyh_map.txt"  default:"../table/smyh_map.txt"`
+	Freq   string `flag:"f" usage:"freq.txt"      default:"../table/freq.txt"`
+	Phrase string `flag:"p" usage:"phrase.txt"    default:"../table/phrase.txt"`
 }
 
-var (
-	_    interface{} = (fmt.Stringer)(nil)
-	_    interface{} = (*types.CharMeta)(nil)
-	args Args
-)
+var args Args
 
 func main() {
-	parseFlags()
+	err := utils.ParseFlags(&args)
+	if err != nil {
+		return
+	}
 
-	divTable, err := tools.ReadDivisionTable("../table/smyh_div.txt")
+	divTable, err := tools.ReadDivisionTable(args.Div)
 	if err != nil {
 		log.Fatalln(err)
 	}
-	simpTable, err := tools.ReadCharSimpTable("../table/smyh_simp.txt")
+	simpTable, err := tools.ReadCharSimpTable(args.Simp)
 	if err != nil {
 		log.Fatalln(err)
 	}
-	compMap, err := tools.ReadCompMap("../table/smyh_map.txt")
+	compMap, err := tools.ReadCompMap(args.Map)
 	if err != nil {
 		log.Fatalln(err)
 	}
-	freqSet, err := tools.ReadCharFreq("../table/freq.txt")
+	freqSet, err := tools.ReadCharFreq(args.Freq)
 	if err != nil {
 		log.Fatalln(err)
 	}
-	phraseFreqSet, err := tools.ReadPhraseFreq("../table/phrase.txt")
+	phraseFreqSet, err := tools.ReadPhraseFreq(args.Phrase)
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -66,7 +68,7 @@ func main() {
 	for _, charMeta := range charMetaList {
 		buffer.WriteString(fmt.Sprintf("%s\t%s\t%d\n", charMeta.Char, charMeta.Code, charMeta.Freq))
 	}
-	err = os.WriteFile("/tmp/char.txt", buffer.Bytes(), 0644)
+	err = os.WriteFile("/tmp/char.txt", buffer.Bytes(), 0o644)
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -76,7 +78,7 @@ func main() {
 	for _, charMeta := range fullCodeMetaList {
 		buffer.WriteString(fmt.Sprintf("%s\t%s\n", charMeta.Char, charMeta.Code))
 	}
-	err = os.WriteFile("/tmp/fullcode.txt", buffer.Bytes(), 0644)
+	err = os.WriteFile("/tmp/fullcode.txt", buffer.Bytes(), 0o644)
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -94,7 +96,7 @@ func main() {
 			buffer.WriteString(fmt.Sprintf("%s\t[%s|%s]\n", charMeta.Char, div, charMeta.Full))
 		}
 	}
-	err = os.WriteFile("/tmp/div.txt", buffer.Bytes(), 0644)
+	err = os.WriteFile("/tmp/div.txt", buffer.Bytes(), 0o644)
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -104,7 +106,7 @@ func main() {
 	for _, phraseMeta := range phraseMetaList {
 		buffer.WriteString(fmt.Sprintf("%s\t%s\n", phraseMeta.Phrase, phraseMeta.Code))
 	}
-	err = os.WriteFile("/tmp/phrase.txt", buffer.Bytes(), 0644)
+	err = os.WriteFile("/tmp/phrase.txt", buffer.Bytes(), 0o644)
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -121,9 +123,4 @@ func main() {
 	// if err != nil {
 	// 	log.Fatalln(err)
 	// }
-}
-
-func parseFlags() {
-	flag.StringVar(&args.Foo, "foo", "bar", "nothing here")
-	flag.Parse()
 }

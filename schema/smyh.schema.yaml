@@ -20,6 +20,10 @@ schema:
     - smyh.base
     # 全码官宇词库
     - smyh.yuhaofull
+    # 基础码表
+    - smyh_tc.base
+    # 全码官宇词库
+    - smyh_tc.yuhaofull
 
 switches:
   - name: ascii_punct
@@ -40,6 +44,9 @@ switches:
   - name: embeded_cands
     states: [ 普通, 嵌入 ]
     reset: 1
+  - name: smyh_tc
+    states: [ 簡化字, 傳統字 ]
+    reset: 0
   - name: ascii_mode
     reset: 0
 

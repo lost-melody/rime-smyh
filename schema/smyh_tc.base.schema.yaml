@@ -1,0 +1,18 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: smyh_tc.base
+  name: 吉旦餅·基礎碼表
+  description: |
+    辅助方案，不能打字。
+
+speller:
+  alphabet: "qwertyuiopasdfghjklzxcvbnm"
+  initials: "qwertyuiopasdfghjklzxcvbnm"
+  algebra:
+    - xlit/12/ ;/
+
+translator:
+  dictionary: smyh_tc.base
+  enable_user_dict: false
