@@ -18,7 +18,7 @@ func ReadDivisionTable(filepath string) (table map[string][]*types.Division, err
 		if len(line) == 0 || strings.HasPrefix(line, "#") {
 			continue
 		}
-		line := strings.Split(strings.TrimSpace(line), "\t")
+		line := strings.Split(strings.TrimRight(line, "\r\n"), "\t")
 		div := types.Division{
 			Char: line[0],
 			Divs: strings.Split(line[1], " "),
@@ -40,7 +40,7 @@ func ReadCharSimpTable(filepath string) (table map[string][]*types.CharSimp, err
 		if len(line) == 0 || strings.HasPrefix(line, "#") {
 			continue
 		}
-		line := strings.Split(strings.TrimSpace(line), "\t")
+		line := strings.Split(strings.TrimRight(line, "\r\n"), "\t")
 		simp := types.CharSimp{
 			Char: line[0],
 			Simp: line[1],
@@ -62,7 +62,7 @@ func ReadCompMap(filepath string) (mappings map[string]string, err error) {
 		if len(line) == 0 || strings.HasPrefix(line, "#") {
 			continue
 		}
-		line := strings.Split(strings.TrimSpace(line), "\t")
+		line := strings.Split(strings.TrimRight(line, "\r\n"), "\t")
 		code, comp := strings.ReplaceAll(line[0], "_", "1"), line[1]
 		mappings[comp] = code
 	}
@@ -81,7 +81,7 @@ func ReadCharFreq(filepath string) (freqSet map[string]int64, err error) {
 		if len(line) == 0 || strings.HasPrefix(line, "#") {
 			continue
 		}
-		line := strings.Split(strings.TrimSpace(line), "\t")
+		line := strings.Split(strings.TrimRight(line, "\r\n"), "\t")
 		char, freqStr := line[0], line[1]
 		freq, _ := strconv.ParseFloat(freqStr, 64)
 		freqSet[char] = int64(freq * 1e8)
@@ -102,7 +102,7 @@ func ReadPhraseFreq(filepath string) (freqSet map[string]int64, err error) {
 		if len(line) == 0 || strings.HasPrefix(line, "#") {
 			continue
 		}
-		line := strings.Split(strings.TrimSpace(line), "\t")
+		line := strings.Split(strings.TrimRight(line, "\r\n"), "\t")
 		// phrase, freqStr := line[0], line[1]
 		// freqSet[phrase], _ = strconv.ParseInt(freqStr, 10, 64)
 		phrase := line[0]
