@@ -5,10 +5,21 @@
 name: "smyh.yuhaofull"
 version: "beta"
 sort: original
+import_tables:
+  - smyh.yuhaowords
 columns:
   - text
   - code
   - weight
   - other
+encoder:
+  exclude_patterns:
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 20]
+      formula: "AaBaCaZa"
 ...
 

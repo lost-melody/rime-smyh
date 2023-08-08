@@ -8,7 +8,6 @@ core.stashed_text = ''
 core.base_mem = nil
 -- 附加官宇詞庫
 core.full_mem = nil
-core.yuhao_mem = nil
 
 -- 消息同步: 更新時間
 core.sync_at = 0

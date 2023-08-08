@@ -8,7 +8,6 @@ function translator.init(env)
     if not core.base_mem then
         core.base_mem = Memory(env.engine, Schema("smyh.base"))
         core.full_mem = Memory(env.engine, Schema("smyh.yuhaofull"))
-        core.yuhao_mem = Memory(env.engine, Schema("smyh.yuhao"))
     end
     -- 構造回調函數
     local handler = core.get_switch_handler(env, core.switch_names.fullcode_char)
@@ -106,22 +105,19 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
 
     if #input == 4 then
-        local mem
-        if env.option[core.switch_names.fullcode_char] then
-            -- 純單模式, 查詢單字全碼
-            mem = core.full_mem
-        else
-            -- 非純單時, 查詢官宇字詞
-            mem = core.yuhao_mem
-        end
-        local entries = core.dict_lookup(mem, input, 10)
+        local fullcode_char = env.option[core.switch_names.fullcode_char] or false
+        local entries = core.dict_lookup(core.full_mem, input, 10)
         local stashed = {}
         -- 詞語前置, 單字暫存
         for _, entry in ipairs(entries) do
             if utf8.len(entry.text) == 1 then
                 table.insert(stashed, entry)
             else
-                table.insert(full_entries, entry)
+                -- 全單模式, 詞語過濾
+                -- 字詞模式, 詞語前置
+                if not fullcode_char then
+                    table.insert(full_entries, entry)
+                end
             end
         end
         -- 收錄暫存候選

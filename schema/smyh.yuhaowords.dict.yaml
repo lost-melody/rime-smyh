@@ -1,0 +1,16 @@
+# rime dictionary: 吉旦餅·全碼詞語
+# encoding: utf-8
+
+---
+name: "smyh.yuhaowords"
+version: "beta"
+sort: original
+columns:
+  - text
+  - code
+  - weight
+  - other
+...
+
+# 自動編碼詞組
+吉旦餅
