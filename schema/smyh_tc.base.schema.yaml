@@ -11,6 +11,8 @@ speller:
   alphabet: "qwertyuiopasdfghjklzxcvbnm"
   initials: "qwertyuiopasdfghjklzxcvbnm"
   algebra:
+    - derive/^([a-z]+)1$/$1/
+    - derive/^([a-z]+)2$/$1/
     - xlit/12/ ;/
 
 translator:

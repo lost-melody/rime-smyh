@@ -273,7 +273,7 @@ encoder:
 拂曉	anujgy
 拂煦	anujhm
 拂尘	anukgt
-拂袖	anunyn
+拂袖	anunyb
 拂面	anuot1
 拂衣	anuowh
 拂塵	anupgt
@@ -515,12 +515,12 @@ encoder:
 拙荆	axxsfx
 拙荊	axxsfx
 撬门	axxxm1
+抽搐	aybaon
+抽换	aybayt
+抽換	aybayt
+抽繹	aybycd
 揮灑	aycifp
 撲閃	aylrrw
-抽搐	aynaon
-抽换	aynayt
-抽換	aynayt
-抽繹	aynycd
 挽幛	ayqroj
 换掉	aytacj
 換掉	aytacj
@@ -1646,7 +1646,6 @@ encoder:
 倒敘	ehxrfe
 倒爺	ehxucc
 化宮	eibhlr
-化鈾	eibsyn
 化鈉	eibszr
 偕行	eidvjs
 偕同	eidzfl
@@ -2197,7 +2196,7 @@ encoder:
 横阻	fsucmq
 橫阻	fsucmq
 橫隊	fsucqe
-橫軸	fsucyn
+橫軸	fsucyb
 横刀	fsudk1
 橫刀	fsudk1
 横截	fsudpz
@@ -2280,8 +2279,8 @@ encoder:
 横版	fsuwnb
 橫版	fsuwnb
 橫筆	fsuwxa
-横笛	fsuwyn
-橫笛	fsuwyn
+横笛	fsuwyb
+橫笛	fsuwyb
 橫線	fsuydv
 橫縱	fsuyvt
 橫紋	fsuyxp
@@ -2473,7 +2472,7 @@ encoder:
 橋墩	fzlgoe
 桐城	fzlgpv
 橋堍	fzlgyo
-桐油	fzliyn
+桐油	fzliyb
 枣阳	fzpcjk
 枣树	fzpfba
 枣泥	fzpibi
@@ -3734,8 +3733,8 @@ encoder:
 滾動	iowcnw
 滚輪	iowcro
 滾輪	iowcro
-滚軸	iowcyn
-滾軸	iowcyn
+滚軸	iowcyb
+滾軸	iowcyb
 滚刀	iowdk1
 滾刀	iowdk1
 滚回	iowdla
@@ -3945,6 +3944,9 @@ encoder:
 旋塞	iwthsg
 浸漬	ixbigm
 漓江	ixkipj
+油桐	iybfzl
+油漬	iybigm
+油燈	iybmbq
 深壑	iyfcyg
 深坑	iyfgoq
 泻肚	iyfhgt
@@ -3954,9 +3956,6 @@ encoder:
 泻火	iyfms1
 深閨	iyfrgg
 泻药	iyfsno
-油桐	iynfzl
-油漬	iynigm
-油燈	iynmbq
 沈殿	iyqbsq
 沈阳	iyqcjk
 沉静	iyqghv
@@ -4012,7 +4011,6 @@ encoder:
 濃妝	izpwoh
 濃情	izpy1
 濃縮	izpyhj
-濃縮鈾	izpyhjsyn
 濃霧	izpzcw
 濃霜	izpzfm
 濃艶	izpzsa
@@ -4815,7 +4813,7 @@ encoder:
 蝦醬	mbbwhz
 辍笔	mbbwxn
 辗转	mbkmpo
-焗油	mbliyn
+焗油	mbliyb
 轻拂	mbpanu
 烃基	mbpxgt
 燈捻	mbqarg
@@ -4830,7 +4828,7 @@ encoder:
 燈心	mbqgp1
 燈塔	mbqgsr
 燈泡	mbqiha
-燈油	mbqiyn
+燈油	mbqiyb
 燈影	mbqjos
 燈台	mbqkla
 燈光	mbqkyr
@@ -5248,7 +5246,7 @@ encoder:
 蚁兽	mocqnl
 蚁力	mocwo1
 蚁群	mocxwu
-蠔油	moeiyn
+蠔油	moeiyb
 燉菜	moesvf
 燉肉	moezrr
 螃蟹	moiycm
@@ -5985,8 +5983,8 @@ encoder:
 辛勞	ox1mmw
 郎猫	oxcxsn
 郎貓	oxcxsn
+妯娌	oyboni
 良驹	oyiuhl
-妯娌	oynoni
 嬌寵	ozlhoc
 嬌豔	ozljzc
 嬌癡	ozlpit
@@ -7166,7 +7164,7 @@ encoder:
 葷腥	sychje
 蘊涵	sycivx
 藴涵	sycivx
-葷油	syciyn
+葷油	syciyb
 蘊育	sycokh
 藴育	sycokh
 蘊含	sycrol
@@ -7187,7 +7185,7 @@ encoder:
 銀燈	syimbq
 荧屏	symbqs
 荤腥	symhje
-荤油	symiyn
+荤油	symiyb
 荧光	symkyr
 荧惑	symplg
 荧幕	symsjr
@@ -7569,7 +7567,6 @@ encoder:
 頒發	udmbnq
 頒佈	udmesr
 貧瘠	udmpph
-貧鈾	udmsyn
 頒證	udmubq
 頒行	udmvjs
 頒奬	udmwht
@@ -7603,7 +7600,7 @@ encoder:
 硅脂	ugghij
 硅胶	ugghoc
 硅膠	ugghqs
-硅油	uggiyn
+硅油	uggiyb
 誌哀	uggowh
 硅鐵	uggsdm
 硅藻	uggsif
@@ -8309,7 +8306,7 @@ encoder:
 氯碱	wxvupl
 節哀	wxxowh
 節錄	wxxsrv
-笛膜	wynhst
+笛膜	wybhst
 筒燈	wzlmbq
 笑靥	wzmkxo
 笑駡	wzmllj
@@ -8368,7 +8365,7 @@ encoder:
 猪窝	xgjhlr
 猪肝	xgjhns
 猪脑	xgjhxx
-猪油	xgjiyn
+猪油	xgjiyb
 猪崽	xgjjng
 猪手	xgjpg1
 猪瘟	xgjpjc
@@ -8404,7 +8401,7 @@ encoder:
 產卵	xkeioo
 產於	xkeirp
 產婆	xkeito
-產油	xkeiyn
+產油	xkeiyb
 產量	xkejfn
 產能	xkekhi
 產糧	xkekjn
