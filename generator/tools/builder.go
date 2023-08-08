@@ -90,10 +90,6 @@ func BuildFullCodeMetaList(table map[string][]*types.Division, mappings map[stri
 	for char, divs := range table {
 		// 遍历字符的所有拆分表
 		for _, div := range divs {
-			if len(div.Divs) < 2 {
-				// 跳过单根字
-				continue
-			}
 			full, code := calcFullCodeByDiv(div.Divs, mappings)
 			charMeta := types.CharMeta{
 				Char: char,
@@ -341,7 +337,7 @@ func calcCodeByDiv(div []string, mappings map[string]string) (full string, code 
 }
 
 func calcFullCodeByDiv(div []string, mappings map[string]string) (full string, code string) {
-	stack := ""
+	stack := "11"
 	for _, comp := range div {
 		compCode := mappings[comp]
 		code += compCode[:1]

@@ -441,6 +441,8 @@ encoder:
 𢱢	adyy
 揇	adzd
 擜	adzx
+巳	ae11
+⺒	ae11
 拊	aeah
 捧	aeak
 𢭎	aeak
@@ -631,6 +633,7 @@ encoder:
 𪭵	afzr
 𪮁	afzx
 𰓬	afzz
+丁	ag11
 持	agah
 𭔲	agah
 𢷺	agcm
@@ -728,6 +731,8 @@ encoder:
 𢲄	agyr
 㨞	agyz
 𢹿	agzq
+寸	ah11
+⼨	ah11
 𪾑	ahac
 抱	ahae
 抱	ahae
@@ -911,6 +916,8 @@ encoder:
 𢰻	ahzu
 𢸾	ahzu
 𢵷	ahzx
+己	ai11
+⼰	ai11
 捪	aiaj
 扺	aiak
 㧕	aiak
@@ -989,6 +996,7 @@ encoder:
 𢶥	aizd
 𫾘	aizj
 𢱛	aizu
+巴	aj11
 𫼥	ajai
 𭠼	ajaj
 𰎕	ajaj
@@ -1080,6 +1088,14 @@ encoder:
 攜	ajzl
 㩗	ajzr
 𢹂	ajzz
+七	ak11
+扌	ak11
+⺘	ak11
+キ	ak11
+ヰ	ak11
+㐄	ak11
+𫠠	ak11
+𰀁	ak11
 拒	akbj
 挊	akbk
 抠	akci
@@ -1224,6 +1240,7 @@ encoder:
 𢷿	akzp
 𬢈	akzp
 𫼶	akzv
+已	al11
 𪢦	alaa
 𠾥	alab
 𨝆	alac
@@ -1343,6 +1360,9 @@ encoder:
 𰓻	alzp
 𱟽	alzr
 损	alzv
+⿌	am11
+黽	am11
+𪚴	am11
 搏	amah
 𢯵	ambr
 𫽤	amcb
@@ -3346,6 +3366,11 @@ encoder:
 𨁗	bcyj
 𬦤	bcyn
 𨇽	bcyz
+尤	bd11
+尢	bd11
+⺐	bd11
+⼪	bd11
+尢	bd11
 𡱍	bdai
 𨀖	bdan
 跂	bdbj
@@ -3817,6 +3842,9 @@ encoder:
 跮	bhzn
 𫵪	bhzu
 𨇫	bhzv
+尸	bi11
+⼫	bi11
+𠃜	bi11
 𮛨	biaj
 䟗	biak
 𱫞	biam
@@ -3877,6 +3905,16 @@ encoder:
 𭕵	bizg
 𨿊	bizi
 𮥻	bizi
+又	bj11
+⼜	bj11
+⽨	bj11
+コ	bj11
+ス	bj11
+マ	bj11
+ュ	bj11
+ユ	bj11
+癶	bj11
+龴	bj11
 𨄸	bjan
 𮛵	bjan
 𮛴	bjcm
@@ -3929,6 +3967,8 @@ encoder:
 𡰋	bjzi
 𨄍	bjzi
 𨁧	bjzr
+下	bk11
+丅	bk11
 𭆦	bkaj
 𠀝	bkak
 距	bkbj
@@ -4252,6 +4292,10 @@ encoder:
 䠗	bmxo
 𫵇	bmyk
 𥌏	bmyu
+足	bn11
+⻊	bn11
+⾜	bn11
+𧾷	bn11
 𧿵	bnan
 𡯘	bnbj
 𧿨	bnbj
@@ -4823,6 +4867,10 @@ encoder:
 𬦡	brzh
 躙	brzi
 𨾕	brzi
+臣	bs11
+⾂	bs11
+𦣝	bs11
+𦣞	bs11
 𲃩	bsah
 𨅱	bsaj
 𱱶	bsbj
@@ -5028,6 +5076,7 @@ encoder:
 𨄁	btyq
 㞄	btyw
 𨂁	btyw
+古	bu11
 𨃥	buaf
 𪨘	bual
 𫵤	buan
@@ -6741,6 +6790,9 @@ encoder:
 𨏥	chzg
 輊	chzj
 轄	chzl
+乂	ci11
+㐅	ci11
+𠂭	ci11
 𤘏	ciaj
 𨋖	ciaj
 𨌲	ciaj
@@ -6802,6 +6854,10 @@ encoder:
 𦩨	cixa
 𨋕	cixj
 𦪉	cizi
+車	cj11
+⾞	cj11
+叀	cj11
+車	cj11
 𫔿	cjag
 𦋂	cjah
 𬮿	cjai
@@ -6954,6 +7010,8 @@ encoder:
 𨏳	cjzl
 𨺷	cjzl
 𰕠	cjzn
+壬	ck11
+𡈼	ck11
 𬙕	ckaw
 𦊐	ckbj
 𨻉	ckbp
@@ -7112,6 +7170,8 @@ encoder:
 𨼋	ckyy
 䑠	ckzl
 𪟽	ckzo
+舟	cl11
+⾈	cl11
 𡭏	clah
 𠮣	clai
 軎	claj
@@ -7216,6 +7276,8 @@ encoder:
 𫧯	clzr
 陨	clzv
 𨌼	clzz
+皿	cm11
+⽫	cm11
 𨍭	cmah
 𮥎	cmah
 𮥕	cmah
@@ -7450,6 +7512,9 @@ encoder:
 𩀧	cnzi
 𨤯	cnzl
 𬠆	cnzm
+卜	co11
+⺊	co11
+⼘	co11
 𨺱	coag
 䧚	coap
 㕟	cobj
@@ -7579,6 +7644,9 @@ encoder:
 𨻫	coyw
 𨺊	coza
 𨼛	coza
+阝	cp11
+⻏	cp11
+⻖	cp11
 𨸽	cpbj
 𨊩	cpcj
 𦨰	cpcp
@@ -7840,6 +7908,7 @@ encoder:
 𨺧	cqzk
 𦌚	cqzt
 𬯚	cqzt
+千	cr11
 䧭	crcg
 𨻀	crci
 𨍓	crcj
@@ -8279,6 +8348,8 @@ encoder:
 罨	ctyw
 𨌧	ctyw
 𨺍	ctyw
+用	cu11
+⽤	cu11
 𢀸	cuae
 𱀐	cuae
 𱀧	cuag
@@ -8410,6 +8481,8 @@ encoder:
 𣧕	cuzm
 𦚛	cuzr
 预	cuzv
+予	cv11
+𠄔	cv11
 𫡖	cvak
 𬐙	cvak
 𬨀	cvas
@@ -8530,6 +8603,9 @@ encoder:
 𫕋	cvzg
 𩀚	cvzi
 𨺻	cvzj
+⺫	cw11
+⺲	cw11
+罒	cw11
 𫏹	cwaa
 𡬢	cwah
 𦨎	cwak
@@ -8954,6 +9030,8 @@ encoder:
 𦪲	cxzf
 𦪺	cxzf
 𰮎	cxzr
+牙	cy11
+⽛	cy11
 𦊳	cyae
 𫏸	cyae
 𦋝	cyah
@@ -9186,6 +9264,7 @@ encoder:
 艭	czzb
 䡺	czzg
 轊	czzx
+亥	da11
 囻	daak
 𬤥	daau
 𰵕	dabj
@@ -9618,6 +9697,9 @@ encoder:
 𫍲	dhzb
 𡇓	dhzw
 𰅁	dhzx
+十	di11
+⼗	di11
+𬂛	di11
 𱖀	diaj
 𡆿	diak
 𪓨	diam
@@ -9679,6 +9761,7 @@ encoder:
 皍	dixj
 𡷦	dixj
 𭍰	dizi
+之	dj11
 皑	djai
 韩	djav
 谩	djcb
@@ -9793,6 +9876,8 @@ encoder:
 𭽒	djzh
 皠	djzi
 𨿨	djzi
+刀	dk11
+⼑	dk11
 𤼿	dkas
 让	dkay
 讵	dkbj
@@ -10113,6 +10198,11 @@ encoder:
 𤾭	dmxj
 𡈟	dmyi
 𪪱	dmyj
+辶	dn11
+⻌	dn11
+⻍	dn11
+⻎	dn11
+辶	dn11
 㘡	dnaw
 𲂆	dnay
 皈	dnbj
@@ -10498,6 +10588,8 @@ encoder:
 𣭃	drxn
 𢅞	drxv
 𢄗	drzl
+白	ds11
+⽩	ds11
 𤾴	dsar
 𠦄	dsdi
 𠦡	dsdi
@@ -10805,6 +10897,8 @@ encoder:
 𰵭	dvxd
 𤿃	dvya
 皧	dvye
+囗	dw11
+⼞	dw11
 讬	dwak
 𭽉	dwak
 皒	dwap
@@ -10891,6 +10985,8 @@ encoder:
 𣰗	dxxx
 𬤛	dxyh
 𠦙	dxzu
+讠	dy11
+⻈	dy11
 𦫙	dyaj
 𣕣	dybf
 𤾈	dycj
@@ -11896,6 +11992,24 @@ encoder:
 㑂	efzr
 俪	efzz
 𠍷	efzz
+⺃	eg11
+㇂	eg11
+㇄	eg11
+㇉	eg11
+㇗	eg11
+㇙	eg11
+㇛	eg11
+㇜	eg11
+㇞	eg11
+㇟	eg11
+乚	eg11
+𠃉	eg11
+𠃊	eg11
+𠃋	eg11
+𠃑	eg11
+𠄌	eg11
+𡿨	eg11
+𬼂	eg11
 侍	egah
 儥	egcm
 俾	egdi
@@ -12009,6 +12123,8 @@ encoder:
 𦚘	egzr
 𲉐	egzu
 债	egzv
+生	eh11
+⽣	eh11
 𨙆	ehad
 佨	ehae
 颮	ehae
@@ -12268,6 +12384,8 @@ encoder:
 𬾣	eiyk
 𰂲	eiym
 货	eizv
+來	ej11
+來	ej11
 𱎶	ejak
 偶	ejar
 僈	ejcb
@@ -12396,6 +12514,8 @@ encoder:
 㒞	ejzz
 𧲑	ejzz
 㒞	ejzz
+風	ek11
+⾵	ek11
 仩	ekar
 佢	ekbj
 𱎦	ekbk
@@ -12668,6 +12788,7 @@ encoder:
 仲	elzh
 雒	elzi
 𱎯	elzv
+亡	em11
 傅	emah
 𧱹	emah
 𠋾	embk
@@ -12777,6 +12898,10 @@ encoder:
 𠋬	emxo
 𠌒	emxp
 侢	emzk
+豕	en11
+⾗	en11
+𧰨	en11
+豕	en11
 𪜺	enah
 𠈊	enaj
 𠇺	enar
@@ -13016,6 +13141,7 @@ encoder:
 𩗖	eoyi
 𠍡	eoyw
 𫣏	eoyw
+𡗗	ep11
 𪝊	epaf
 傉	epah
 𠍨	epar
@@ -13291,6 +13417,8 @@ encoder:
 𠆰	eqzh
 僱	eqzi
 偤	eqzk
+亻	er11
+⺅	er11
 𠇫	erak
 𫣂	erbc
 𨇓	erbn
@@ -13729,6 +13857,12 @@ encoder:
 𩗷	etyw
 𠌱	etzi
 𪄾	etzt
+夂	eu11
+攵	eu11
+⺙	eu11
+⼡	eu11
+⼢	eu11
+夊	eu11
 傑	euaf
 𱏚	euag
 傠	euah
@@ -13845,6 +13979,8 @@ encoder:
 𠆺	euzh
 𩀕	euzi
 㑔	euzv
+飛	ev11
+⾶	ev11
 㑚	evac
 𫢐	evak
 𠏢	evbe
@@ -15366,6 +15502,10 @@ encoder:
 榡	fgyz
 𣙯	fgzi
 𣠲	fgzq
+木	fh11
+⽊	fh11
+朩	fh11
+𣎳	fh11
 枹	fhae
 柠	fhag
 𣑋	fhah
@@ -15543,6 +15683,11 @@ encoder:
 𱤶	fhzm
 𬃤	fhzu
 𬅊	fhzu
+一	fi11
+⼀	fi11
+㇀	fi11
+㇐	fi11
+𪛙	fi11
 𣐘	fiag
 柳	fiah
 柳	fiah
@@ -19495,6 +19640,8 @@ encoder:
 𩵇	gcyz
 𮂩	gcyz
 祯	gczv
+𠂤	gd11
+㠯	gd11
 𪣝	gdak
 垓	gdat
 𮁷	gdav
@@ -21290,6 +21437,9 @@ encoder:
 祸	glzr
 埚	glzr
 埙	glzv
+鬼	gm11
+⻤	gm11
+⿁	gm11
 㙛	gmah
 禣	gmah
 蛗	gmcd
@@ -21377,6 +21527,7 @@ encoder:
 𩳵	gmxo
 𱖝	gmzk
 𰊕	gmzl
+世	gn11
 𩲳	gnam
 𡊠	gnat
 𬒱	gnav
@@ -21609,6 +21760,8 @@ encoder:
 𪣱	goyz
 𮂔	gozn
 𡌾	gozp
+心	gp11
+⼼	gp11
 城	gpag
 𡏌	gpah
 𥛑	gpah
@@ -21721,6 +21874,7 @@ encoder:
 𭷤	gpyt
 𥘒	gpyv
 𱖭	gpzv
+龶	gq11
 𡎃	gqag
 塮	gqah
 𥛖	gqah
@@ -22055,6 +22209,8 @@ encoder:
 𥜊	grwu
 壛	gryh
 𱵎	gryv
+士	gs11
+⼠	gs11
 𭔭	gsah
 𭐌	gsbc
 鿆	gsbj
@@ -22191,6 +22347,10 @@ encoder:
 𥜲	gszm
 𡍝	gszr
 𡎘	gszt
+土	gt11
+⺹	gt11
+⼟	gt11
+耂	gt11
 𱖡	gtah
 埼	gtal
 䄎	gtal
@@ -22534,6 +22694,11 @@ encoder:
 祃	guyv
 𬁥	guzs
 𱆚	guzv
+示	gv11
+礻	gv11
+⺬	gv11
+⺭	gv11
+⽰	gv11
 𡌈	gvac
 埒	gvah
 埓	gvah
@@ -23334,6 +23499,8 @@ encoder:
 窀	haxs
 𦢟	hayl
 𦝾	hazr
+宀	hb11
+⼧	hb11
 𡬮	hbba
 窡	hbbb
 腏	hbbb
@@ -23485,6 +23652,8 @@ encoder:
 𰍅	hbxx
 𦚀	hbzb
 𦟗	hbzi
+穴	hc11
+⽳	hc11
 膞	hcah
 胪	hcbi
 𥥜	hcbj
@@ -24736,6 +24905,10 @@ encoder:
 𡪜	hiyf
 𱼌	hiyq
 𦡤	hizd
+臼	hj11
+⺽	hj11
+⾅	hj11
+𦥑	hj11
 寓	hjab
 𥧆	hjac
 𥝇	hjaj
@@ -26050,6 +26223,14 @@ encoder:
 𥨸	hqzv
 𫆨	hqzx
 𥨣	hqzz
+月	hr11
+⺆	hr11
+⺝	hr11
+⺼	hr11
+⼓	hr11
+⽉	hr11
+勹	hr11
+𱼀	hr11
 𦥳	hrbb
 𦝚	hrbc
 𥦐	hrbk
@@ -27357,6 +27538,8 @@ encoder:
 寏	hyzt
 𡨡	hyzt
 𦝝	hyzt
+至	hz11
+⾄	hz11
 𰯍	hzae
 𰗇	hzag
 𡬯	hzah
@@ -27561,6 +27744,9 @@ encoder:
 𱼰	hzzv
 𫳯	hzzx
 𫴤	hzzx
+卯	ia11
+𠂎	ia11
+𱍸	ia11
 𭰌	iaaa
 𤂿	iaad
 𢛣	iaag
@@ -27699,6 +27885,9 @@ encoder:
 沌	iaxs
 𨾛	iazi
 𤁡	iazj
+匕	ib11
+⼔	ib11
+𠤎	ib11
 𪷨	ibag
 㳔	ibah
 泽	ibak
@@ -27849,6 +28038,13 @@ encoder:
 漏	ibzj
 漏	ibzj
 𤂝	ibzv
+丑	ic11
+氵	ic11
+⺍	ic11
+⺡	ic11
+ッ	ic11
+𠁼	ic11
+𭕄	ic11
 漙	icah
 𮳄	icak
 𣶰	ical
@@ -30550,6 +30746,8 @@ encoder:
 𣾡	iqzj
 湭	iqzk
 𣾇	iqzt
+方	ir11
+⽅	ir11
 𭱔	irah
 溋	irbc
 𣷷	irbj
@@ -31344,6 +31542,8 @@ encoder:
 𬉳	iuyt
 𤅇	iuyy
 顷	iuzv
+不	iv11
+不	iv11
 𱦒	ivag
 浖	ivah
 㶁	ivak
@@ -32259,6 +32459,7 @@ encoder:
 瀖	izzi
 𰜳	izzo
 𪈯	izzt
+禺	ja11
 㟭	jaaj
 㬆	jaaj
 岷	jaak
@@ -33209,6 +33410,9 @@ encoder:
 昞	jfzr
 𮩺	jfzr
 𱢦	jfzz
+韋	jg11
+⾱	jg11
+𫝀	jg11
 峙	jgah
 時	jgah
 㫭	jgah
@@ -33742,6 +33946,7 @@ encoder:
 岇	jixj
 𡵙	jixj
 𬁋	jixk
+曰	jj11
 𥝉	jjaa
 𱛬	jjah
 𬀱	jjai
@@ -33967,6 +34172,10 @@ encoder:
 㠦	jjzq
 𡾿	jjzq
 𩧎	jjzz
+日	jk11
+⽇	jk11
+⽈	jk11
+𫩏	jk11
 㫔	jkak
 𭥿	jkak
 𭗕	jkbb
@@ -35026,6 +35235,8 @@ encoder:
 𡺚	jqzk
 𡹫	jqzl
 𡼓	jqzt
+馬	jr11
+⾺	jr11
 𡺡	jrbc
 𡺦	jrbc
 𭦻	jrbc
@@ -35236,6 +35447,7 @@ encoder:
 𮱫	jrxj
 𡷁	jrxp
 𢅇	jrxx
+亍	js11
 𰻐	jsad
 㪤	jsae
 𱄟	jsae
@@ -35589,6 +35801,8 @@ encoder:
 𮪖	jtzu
 㫼	jtzx
 𪰮	jtzx
+山	ju11
+⼭	ju11
 䮪	juaf
 嵥	juaf
 𭥸	juah
@@ -35752,6 +35966,8 @@ encoder:
 𡽛	juzi
 颙	juzv
 𮲜	juzv
+早	jv11
+𬺰	jv11
 𡷙	jvac
 䮑	jvah
 𱛭	jvah
@@ -36454,6 +36670,9 @@ encoder:
 㔒	jzzx
 暳	jzzx
 𩏚	jzzx
+上	ka11
+丄	ka11
+𪛚	ka11
 𥺕	kaaj
 𭆃	kaak
 馔	kaau
@@ -36606,6 +36825,8 @@ encoder:
 𥺷	kbxx
 𱜝	kbym
 𢀥	kbzc
+厂	kc11
+⼚	kc11
 䊜	kcah
 𡦕	kcah
 𠥍	kcal
@@ -36933,6 +37154,8 @@ encoder:
 𮘻	kezu
 虪	kezv
 赝	kezz
+厶	kf11
+⼛	kf11
 𮞭	kfbd
 𠬡	kfbj
 𢿧	kfcb
@@ -37324,6 +37547,10 @@ encoder:
 𱃸	khzs
 𫃈	khzu
 𭅙	khzv
+尚	ki11
+尙	ki11
+龸	ki11
+𫩠	ki11
 䉻	kiak
 𠥯	kiak
 𠨿	kiak
@@ -37386,6 +37613,11 @@ encoder:
 𨓑	kixd
 𥸾	kixj
 匯	kizi
+小	kj11
+⺌	kj11
+⼩	kj11
+𡭔	kj11
+𣥂	kj11
 𬖞	kjah
 𱃹	kjai
 𥻑	kjas
@@ -38677,6 +38909,10 @@ encoder:
 𧆮	krxs
 𫨼	krzb
 𩀯	krzi
+米	ks11
+饣	ks11
+⻠	ks11
+⽶	ks11
 𭆙	ksbj
 𥹔	ksbo
 𡦮	ksbq
@@ -38951,6 +39187,11 @@ encoder:
 𠬏	ktze
 𪠉	ktzh
 𨠒	ktzk
+虎	ku11
+⻁	ku11
+⾌	ku11
+虍	ku11
+𮓗	ku11
 𨞁	kuaa
 𡰚	kuab
 鄰	kuac
@@ -39084,6 +39325,13 @@ encoder:
 𥽸	kuyy
 𬖩	kuzh
 𱂧	kuzv
+子	kv11
+匚	kv11
+⼕	kv11
+⼖	kv11
+⼦	kv11
+匸	kv11
+𠥓	kv11
 𥹽	kvah
 𧇛	kvah
 𠪔	kvbb
@@ -39662,6 +39910,9 @@ encoder:
 𱹒	kyzt
 𭓂	kyzv
 𰃕	kyzy
+了	kz11
+了	kz11
+𠄏	kz11
 𥺅	kzah
 𥻬	kzbj
 𥽶	kzde
@@ -39761,6 +40012,8 @@ encoder:
 𠥥	kzzi
 𥽥	kzzi
 𪧀	kzzo
+口	la11
+⼝	la11
 咑	laag
 㗃	laaj
 𠴙	laaj
@@ -40607,6 +40860,8 @@ encoder:
 唡	lfzr
 𠰳	lfzr
 𫪃	lfzz
+舌	lg11
+⾆	lg11
 𠱾	lgah
 𰇦	lgax
 𠴢	lgbi
@@ -40911,6 +41166,8 @@ encoder:
 𡁍	lhzn
 𡃳	lhzu
 𱔣	lhzx
+长	li11
+⻓	li11
 𠰭	liaa
 𱒓	liag
 𱓍	liah
@@ -42954,6 +43211,7 @@ encoder:
 嘦	luzo
 𠽆	luzr
 𬱠	luzv
+夫	lv11
 哪	lvac
 哷	lvah
 𠵺	lvaj
@@ -43915,6 +44173,8 @@ encoder:
 𤤏	mbzb
 𪹠	mbzi
 𤧱	mbzl
+虫	mc11
+⾍	mc11
 䁣	mcah
 瑼	mcah
 𤍿	mcah
@@ -44366,6 +44626,10 @@ encoder:
 蜖	mdzp
 𤩽	mdzx
 𰺠	mdzx
+王	me11
+⺩	me11
+𤣩	me11
+王	me11
 蚹	meah
 𤤕	meah
 𮙼	meah
@@ -44566,6 +44830,8 @@ encoder:
 𥈌	mezs
 𦤜	mezs
 𬠡	mezs
+貝	mf11
+⾙	mf11
 𤤞	mfbd
 𭴊	mfbd
 𰲫	mfbd
@@ -46175,6 +46441,8 @@ encoder:
 𰝶	mkzs
 琐	mkzv
 𭾙	mkzv
+车	ml11
+⻋	ml11
 𰇩	mlaf
 𧋾	mlaj
 𨚊	mlaj
@@ -47672,6 +47940,7 @@ encoder:
 𬠈	mpzv
 𱫐	mpzv
 𧌵	mpzx
+且	mq11
 𭵪	mqah
 眫	mqak
 𧉻	mqak
@@ -47909,6 +48178,9 @@ encoder:
 𧍮	mqzl
 𭵚	mqzl
 𬠝	mqzx
+見	mr11
+⾒	mr11
+見	mr11
 𱯣	mrac
 𥈱	mrbc
 𤊰	mrbj
@@ -48179,6 +48451,8 @@ encoder:
 𥆥	mryv
 𦣿	mrzh
 𱪧	mrzh
+火	ms11
+⽕	ms11
 蝆	msak
 𪻸	msal
 𤓆	msbc
@@ -48578,6 +48852,7 @@ encoder:
 煐	mszt
 䁐	mszt
 蝧	mszt
+甫	mt11
 𦤑	mtak
 琦	mtal
 䗁	mtal
@@ -48977,6 +49252,8 @@ encoder:
 顼	muzv
 烦	muzv
 𱂩	muzv
+目	mv11
+⽬	mv11
 𤥶	mvac
 𬠌	mvac
 𭴴	mvac
@@ -49218,6 +49495,10 @@ encoder:
 㷔	mvzj
 𥈺	mvzj
 𥅀	mvzp
+自	mw11
+⺣	mw11
+⾃	mw11
+灬	mw11
 灹	mwak
 虴	mwak
 𤆚	mwak
@@ -50106,6 +50387,7 @@ encoder:
 㻰	mzzx
 𫐕	mzzx
 𮔷	mzzx
+甲	na11
 缗	naaj
 㢯	naak
 𤱕	naak
@@ -50241,6 +50523,8 @@ encoder:
 𭛅	nbzc
 𧜾	nbzj
 𫩍	nbzn
+纟	nc11
+⺰	nc11
 𢏍	ncae
 𮉡	ncbi
 𱝜	ncbi
@@ -50315,6 +50599,8 @@ encoder:
 𮖼	ncym
 𧘪	ncyy
 𧟌	ncyz
+田	nd11
+⽥	nd11
 𰬓	ndac
 畡	ndad
 𮖀	nday
@@ -50904,6 +51190,9 @@ encoder:
 𧜅	nhzl
 𬘻	nhzl
 䘭	nhzy
+里	ni11
+⾥	ni11
+里	ni11
 𦈏	niaj
 纸	niak
 衹	niak
@@ -51217,6 +51506,10 @@ encoder:
 𮉨	nlzr
 𮶲	nlzv
 𰬚	nlzv
+斤	nm11
+⺁	nm11
+⽄	nm11
+𠂆	nm11
 缚	nmah
 䙏	nmah
 𧙽	nmcy
@@ -51264,6 +51557,8 @@ encoder:
 黒	nmwi
 𰳾	nmwo
 𮕼	nmwy
+鸟	nn11
+⻦	nn11
 𬏈	nnag
 𤳴	nnal
 䘥	nnay
@@ -51453,6 +51748,10 @@ encoder:
 𫄝	nnzh
 𤴒	nnzn
 𰣞	nnzn
+弓	no11
+⼸	no11
+𢎗	no11
+𢎜	no11
 缟	noac
 𬏐	noad
 𣂴	noag
@@ -51901,6 +52200,8 @@ encoder:
 𢎢	nrwo
 𧝰	nrwu
 𧞄	nrwu
+干	ns11
+⼲	ns11
 𬡞	nsaj
 𧟋	nsbc
 𭺿	nsbj
@@ -52231,6 +52532,8 @@ encoder:
 颀	nuzv
 费	nuzv
 顸	nuzv
+欠	nv11
+⽋	nv11
 𫸶	nvac
 𮖍	nvac
 𱺢	nvac
@@ -52306,6 +52609,7 @@ encoder:
 𠢛	nvyw
 𪫁	nvzg
 𬘮	nvzp
+乌	nw11
 𤰦	nwak
 𧘐	nwak
 𪟡	nwal
@@ -52541,6 +52845,8 @@ encoder:
 𬙁	nxyh
 𰬛	nxzc
 𨔕	nxzd
+衤	ny11
+⻂	ny11
 𫦌	nyad
 绝	nyaj
 𰰕	nyaj
@@ -52717,6 +53023,8 @@ encoder:
 𤳬	nzzl
 缨	nzzo
 𩱶	nzzz
+高	oa11
+⾼	oa11
 㛰	oaaj
 𬽗	oaaj
 䇇	oaak
@@ -53464,6 +53772,9 @@ encoder:
 嫊	ogyz
 𡤠	ogzq
 𰌇	ogzv
+女	oh11
+⼥	oh11
+女	oh11
 㚿	ohae
 靤	ohae
 竚	ohag
@@ -54718,6 +55029,15 @@ encoder:
 𥪎	onzd
 𡛅	onzh
 𧘨	onzw
+丶	oo11
+⼂	oo11
+〇	oo11
+㇃	oo11
+㇏	oo11
+㇔	oo11
+㇝	oo11
+㇣	oo11
+乀	oo11
 婷	ooag
 𥪜	ooag
 𡠀	ooah
@@ -55205,6 +55525,8 @@ encoder:
 𠞶	oqzx
 𣯵	oqzx
 𨢞	oqzz
+⼇	or11
+亠	or11
 𡟚	orbc
 𩍯	orbr
 𱙩	orce
@@ -55516,6 +55838,8 @@ encoder:
 𫲔	oszm
 媖	oszt
 𪙯	oszw
+面	ot11
+⾯	ot11
 婍	otal
 𮄲	otal
 娵	otbj
@@ -55604,6 +55928,9 @@ encoder:
 㛪	otyw
 𩈯	otyw
 𩀋	otzi
+立	ou11
+⽴	ou11
+立	ou11
 𨌤	ouac
 椉	ouaf
 𩫤	ouaf
@@ -55790,6 +56117,8 @@ encoder:
 𥾻	ouyz
 𪥾	ouyz
 𰃥	ouzo
+而	ov11
+⽽	ov11
 娜	ovac
 𩈩	ovac
 𮧍	ovac
@@ -56043,6 +56372,9 @@ encoder:
 𮕺	owzl
 𧞥	owzo
 𮶰	owzr
+辛	ox11
+⾟	ox11
+𨐋	ox11
 𬔝	oxae
 𡞹	oxay
 𨚃	oxcp
@@ -56249,6 +56581,9 @@ encoder:
 㛟	oyzt
 𡞵	oyzt
 𫱱	oyzz
+冊	oz11
+𠕁	oz11
+𠕋	oz11
 𫝩	ozah
 𮵣	ozah
 𫱓	ozai
@@ -56368,6 +56703,9 @@ encoder:
 孇	ozzb
 𡣺	ozzg
 𫝭	ozzo
+麻	pa11
+⿇	pa11
+麻	pa11
 𢧸	paaj
 𤸅	paaj
 冺	paak
@@ -56434,6 +56772,8 @@ encoder:
 𬯮	pazi
 𨠾	pazk
 𦛹	pazr
+⽧	pb11
+疒	pb11
 𪞝	pbak
 凞	pbam
 𠘑	pbam
@@ -56524,6 +56864,9 @@ encoder:
 瘺	pbzj
 𢀪	pbzr
 𢧿	pbzr
+巜	pc11
+⼮	pc11
+巛	pc11
 𤹵	pcah
 痾	pcal
 㢌	pcal
@@ -56657,6 +57000,7 @@ encoder:
 㿚	pcyz
 𰔿	pcyz
 𫥒	pczt
+戊	pd11
 痎	pdab
 庋	pdbj
 㽻	pdbj
@@ -56783,6 +57127,9 @@ encoder:
 𣁹	pdzk
 𰏸	pdzp
 𢊸	pdzv
+辰	pe11
+⾠	pe11
+辰	pe11
 𢜆	peag
 府	peah
 㾈	peah
@@ -57151,6 +57498,9 @@ encoder:
 𫹊	pfzs
 𪽲	pfzt
 𤷫	pfzx
+手	pg11
+⼿	pg11
+龵	pg11
 痔	pgah
 庤	pgah
 𢇽	pgbj
@@ -57417,6 +57767,8 @@ encoder:
 𤼈	phzu
 庢	phzx
 𢎆	phzy
+戈	pi11
+⼽	pi11
 𤵠	piab
 䣌	piac
 𢇼	piae
@@ -57494,6 +57846,9 @@ encoder:
 𱝌	pixi
 𢊖	piyf
 𭼎	piyw
+工	pj11
+⼯	pj11
+𪛜	pj11
 𤸒	pjab
 𥜿	pjac
 庽	pjax
@@ -58697,6 +59052,14 @@ encoder:
 𢉷	pqzk
 𤸈	pqzk
 𱬛	pqzm
+二	pr11
+⺀	pr11
+⼆	pr11
+⼎	pr11
+冫	pr11
+𠄞	pr11
+𠄟	pr11
+𠄠	pr11
 𪧹	prah
 𤹱	prbb
 痮	prcb
@@ -59519,6 +59882,9 @@ encoder:
 𢉟	pvyi
 𢋉	pvyo
 𭼬	pvze
+鹿	pw11
+⿅	pw11
+鹿	pw11
 㡯	pwak
 𢇠	pwak
 𢩷	pwak
@@ -59635,6 +60001,8 @@ encoder:
 𤷞	pwxg
 癤	pwxx
 𭡻	pwzm
+广	px11
+⼴	px11
 㡽	pxak
 冿	pxak
 𰓪	pxak
@@ -59786,6 +60154,8 @@ encoder:
 𭙧	pxzo
 𫸀	pxzs
 𢋟	pxzv
+弋	py11
+⼷	py11
 𤶋	pyaj
 𤼞	pybd
 𬏴	pybg
@@ -60568,6 +60938,11 @@ encoder:
 𩞵	qgyp
 饐	qgyq
 𩝥	qgyz
+几	qh11
+⺇	qh11
+⼏	qh11
+𠘧	qh11
+𠘨	qh11
 飽	qhae
 𭠆	qhae
 䍆	qhag
@@ -60675,6 +61050,13 @@ encoder:
 𩝛	qhzl
 𨉯	qhzu
 𫗛	qhzx
+食	qi11
+⻝	qi11
+⻞	qi11
+⻟	qi11
+⾷	qi11
+飠	qi11
+𩙿	qi11
 飹	qiai
 𠤖	qiak
 𢨺	qiak
@@ -60785,6 +61167,8 @@ encoder:
 𥀅	qiyt
 𰜾	qizj
 𰮔	qizr
+矢	qj11
+⽮	qj11
 𫜉	qjap
 饅	qjcb
 𪉽	qjcb
@@ -60887,6 +61271,13 @@ encoder:
 罎	qjzk
 䭨	qjzl
 𩟥	qjzz
+户	qk11
+丬	qk11
+丷	qk11
+戸	qk11
+⺦	qk11
+リ	qk11
+䒑	qk11
 𰃊	qkar
 榘	qkbf
 𩰤	qkbi
@@ -61187,6 +61578,8 @@ encoder:
 𠕧	qlzl
 𨉂	qlzu
 𨢰	qlzu
+殳	qm11
+⽎	qm11
 𬳚	qmab
 餺	qmah
 𦉊	qmah
@@ -61289,6 +61682,8 @@ encoder:
 𱮁	qmxo
 𩠮	qmyb
 𩠰	qmye
+身	qn11
+⾝	qn11
 𩚲	qnai
 𪾗	qnbc
 飯	qnbj
@@ -61364,6 +61759,8 @@ encoder:
 剃	qnzx
 𫸽	qnzy
 𨿝	qnzz
+缶	qo11
+⽸	qo11
 𨉬	qoag
 𩝝	qoai
 𥏹	qoaj
@@ -61474,6 +61871,8 @@ encoder:
 𩛡	qoyi
 𭠌	qozd
 扁	qozk
+鹵	qp11
+⿄	qp11
 𱍖	qpbk
 𬲁	qpdd
 戽	qpdi
@@ -61915,6 +62314,9 @@ encoder:
 𦒄	qqzx
 𭯪	qqzx
 𩁙	qqzz
+儿	qr11
+⼉	qr11
+𫶧	qr11
 餦	qrci
 𨉮	qrci
 躼	qrcn
@@ -62342,6 +62744,8 @@ encoder:
 𲄯	quwp
 𬲝	quza
 酱	quzk
+戶	qv11
+⼾	qv11
 𩛝	qvah
 奨	qvat
 醤	qvaz
@@ -62568,6 +62972,7 @@ encoder:
 㝺	qxzw
 𫡁	qxzy
 𫡂	qxzy
+习	qy11
 𨉆	qyaj
 𨂝	qybn
 𠁜	qybw
@@ -62780,6 +63185,8 @@ encoder:
 𧽈	rayw
 𲃐	rayw
 𬦗	razu
+髟	rb11
+⾽	rb11
 𬦘	rbae
 𡬴	rbah
 𱁳	rbak
@@ -62894,6 +63301,9 @@ encoder:
 𩋎	rbxx
 𩭪	rbxx
 𱜭	rbxx
+長	rc11
+⻑	rc11
+⾧	rc11
 𧽢	rcah
 𨵌	rcal
 敆	rcbj
@@ -63045,6 +63455,9 @@ encoder:
 𩎊	rcyz
 𰁺	rczc
 帧	rczv
+僉	rd11
+⻒	rd11
+镸	rd11
 𮧙	rdal
 閡	rdam
 䞚	rdbj
@@ -63774,6 +64187,8 @@ encoder:
 𮧞	rgzk
 帻	rgzv
 𲃏	rgzv
+合	rh11
+𪛗	rh11
 鞄	rhae
 髱	rhae
 𢁼	rhag
@@ -63938,6 +64353,8 @@ encoder:
 𱁼	rhzl
 𨴗	rhzm
 𩎑	rhzm
+鬥	ri11
+⾾	ri11
 閽	riaj
 赿	riak
 𢁤	riak
@@ -64024,6 +64441,9 @@ encoder:
 䩕	rixj
 𨷉	riyj
 𩭶	riyn
+亦	rj11
+丌	rj11
+𰁜	rj11
 𩮐	rjab
 幔	rjcb
 鬘	rjcb
@@ -64162,6 +64582,8 @@ encoder:
 𩯷	rjzp
 𧾳	rjzq
 𩍺	rjzz
+巾	rk11
+⼱	rk11
 𫝙	rkas
 𠆳	rkaw
 𥁶	rkbc
@@ -64343,6 +64765,8 @@ encoder:
 𬴬	rkzl
 𧾢	rkzp
 𩯰	rkzp
+革	rl11
+⾰	rl11
 𲌚	rlab
 𫝁	rlaj
 𮟺	rlaj
@@ -64465,6 +64889,8 @@ encoder:
 𫔚	rlzh
 𠎘	rlzk
 𨵓	rlzz
+門	rm11
+⾨	rm11
 䰊	rmah
 𩌏	rmah
 𭘰	rmah
@@ -64574,6 +65000,7 @@ encoder:
 𠐗	rmyi
 𬮕	rmzg
 𧾕	rmzi
+乃	rn11
 𬰤	rnah
 𩉾	rnal
 閘	rnam
@@ -65498,6 +65925,8 @@ encoder:
 𢪽	rrzp
 𨵼	rrzr
 𠕞	rrzz
+向	rs11
+𰃦	rs11
 𩯐	rsaj
 𮤕	rsaj
 𧾲	rsbc
@@ -65820,6 +66249,9 @@ encoder:
 𩋊	rtyw
 𠑂	rtzc
 𢅯	rtzn
+母	ru11
+⺟	ru11
+彑	ru11
 𨶩	rucm
 𧻏	ruco
 𨳿	ruco
@@ -66076,6 +66508,9 @@ encoder:
 閿	rvyb
 𧽃	rvzg
 𨵻	rvzj
+人	rw11
+⼈	rw11
+𠆢	rw11
 𨴞	rwak
 鬮	rwam
 𨷺	rwam
@@ -66287,6 +66722,8 @@ encoder:
 𢃞	rxyr
 𮫌	rxyr
 𧼋	rxzy
+走	ry11
+⾛	ry11
 𩊋	ryae
 𩋰	ryah
 𨷟	ryam
@@ -68908,6 +69345,8 @@ encoder:
 𨯵	shzu
 𠟽	shzx
 𦺧	shzx
+也	si11
+乜	si11
 𬫌	siaf
 𢤌	siag
 𦭑	siag
@@ -69260,6 +69699,7 @@ encoder:
 𦰚	sizm
 𧀡	sizm
 𦵜	sizu
+未	sj11
 莳	sjah
 𡬭	sjah
 䒻	sjai
@@ -69566,6 +70006,21 @@ encoder:
 𦴤	sjzt
 𫊅	sjzu
 䥴	sjzz
+卅	sk11
+艹	sk11
+廾	sk11
+⺾	sk11
+⺿	sk11
+⻀	sk11
+⼶	sk11
+卄	sk11
+卌	sk11
+卝	sk11
+龷	sk11
+艹	sk11
+艹	sk11
+𠀎	sk11
+廾	sk11
 𮏁	skaa
 䒙	skak
 𨩞	skak
@@ -69862,6 +70317,8 @@ encoder:
 𧃷	skzu
 𮎼	skzz
 茝	skzz
+入	sl11
+⼊	sl11
 䓃	slaj
 𨦺	slaj
 𱏲	slaj
@@ -70074,6 +70531,7 @@ encoder:
 莴	slzr
 𬫚	slzr
 𪄘	slzt
+末	sm11
 𮐊	smaa
 蒪	smah
 鎛	smah
@@ -70283,6 +70741,10 @@ encoder:
 𧃀	smzb
 𫇶	smzk
 𧂒	smzm
+金	sn11
+⾦	sn11
+釒	sn11
+金	sn11
 荮	snah
 𦭖	snak
 鉀	snan
@@ -71602,6 +72064,7 @@ encoder:
 藺	srzi
 藺	srzi
 𱾏	srzm
+𠂇	ss11
 𨨭	ssbb
 𨰗	ssbc
 𦳺	ssbd
@@ -72619,6 +73082,8 @@ encoder:
 䕴	svzm
 𬝣	svzt
 𦬌	svzw
+瓦	sw11
+⽡	sw11
 䤜	swak
 𦬃	swak
 𦮴	swak
@@ -73006,6 +73471,9 @@ encoder:
 𫉬	sxzb
 蔺	sxzi
 𮐴	sxzi
+⼺	sy11
+彡	sy11
+𰀪	sy11
 𨥹	syae
 𦬪	syag
 葤	syah
@@ -74135,6 +74603,8 @@ encoder:
 𰾂	tdzr
 𫙪	tdzt
 𰾾	tdzx
+耳	te11
+⽿	te11
 鮒	teah
 𰽮	teah
 𩷄	teak
@@ -74955,6 +75425,10 @@ encoder:
 鿐	tizk
 胔	tizr
 赀	tizv
+大	tj11
+钅	tj11
+⻐	tj11
+⼤	tj11
 𩷥	tjah
 𬌠	tjah
 铠	tjai
@@ -75305,6 +75779,7 @@ encoder:
 𩾒	tkzm
 𩵌	tkzn
 锁	tkzv
+烏	tl11
 𦔻	tlae
 䱒	tlaj
 夻	tlaj
@@ -75441,6 +75916,8 @@ encoder:
 𪢡	tlzl
 锅	tlzr
 𩶍	tlzu
+鳥	tm11
+⿃	tm11
 镈	tmah
 𤚽	tmah
 𤛀	tmah
@@ -75563,6 +76040,8 @@ encoder:
 𡙵	tmyi
 𢌨	tmyj
 𲌴	tmzk
+魚	tn11
+⿂	tn11
 钾	tnaj
 𩷁	tnaj
 𩿼	tnam
@@ -75851,6 +76330,8 @@ encoder:
 𡘳	toyi
 𩷕	toyi
 𰠵	toyi
+皮	tp11
+⽪	tp11
 𤚾	tpah
 𬭦	tpah
 𤜓	tpam
@@ -76511,6 +76992,7 @@ encoder:
 鯐	tryn
 𡗟	trzh
 𬵧	trzi
+龰	ts11
 𩽭	tsbc
 𩵼	tsbj
 𬷀	tsbj
@@ -76697,6 +77179,11 @@ encoder:
 锳	tszt
 𩹅	tszt
 𬚡	tszt
+牛	tt11
+⺧	tt11
+⽜	tt11
+牜	tt11
+𠂒	tt11
 𩶮	ttak
 犄	ttal
 锜	ttal
@@ -77153,6 +77640,9 @@ encoder:
 𩸣	tvyb
 𰾭	tvyb
 鱫	tvye
+止	tw11
+⽌	tw11
+𱤻	tw11
 𩸼	twai
 魠	twak
 𤘛	twak
@@ -78230,6 +78720,8 @@ encoder:
 𭁋	udzr
 贫	udzv
 𮘾	udzx
+夕	ue11
+⼣	ue11
 驸	ueah
 䂤	ueah
 詂	ueah
@@ -78489,6 +78981,11 @@ encoder:
 𧦿	ufzr
 𱳴	ufzr
 骊	ufzz
+羊	ug11
+⺶	ug11
+⺷	ug11
+⽺	ug11
+𦍌	ug11
 詩	ugah
 𪿚	ugah
 𠂵	ugak
@@ -78612,6 +79109,9 @@ encoder:
 䛾	ugyz
 𧮓	ugzi
 碛	ugzv
+石	uh11
+⽯	uh11
+丆	uh11
 砲	uhae
 䛌	uhae
 詝	uhag
@@ -78830,6 +79330,9 @@ encoder:
 𥗰	uhzp
 𮁕	uhzu
 𫘠	uhzy
+言	ui11
+⾔	ui11
+訁	ui11
 𮀐	uiah
 碈	uiaj
 諙	uiaj
@@ -78900,6 +79403,9 @@ encoder:
 𧥴	uixj
 𨘁	uiyd
 𮁍	uizd
+幺	uj11
+⺓	uj11
+⼳	uj11
 礪	ujah
 𥔘	ujah
 硙	ujai
@@ -79638,6 +80144,7 @@ encoder:
 𧫖	unyz
 𥓓	unzd
 訠	unzh
+丂	uo11
 碠	uoag
 諪	uoag
 𩨆	uoag
@@ -80408,6 +80915,8 @@ encoder:
 𦍏	urwg
 讇	uryh
 𭔿	urza
+八	us11
+⼋	us11
 𦍸	usah
 𧪆	usal
 礷	usbc
@@ -81195,6 +81704,7 @@ encoder:
 𮙀	uvye
 𧩺	uvyi
 𮘦	uvzj
+三	uw11
 䣡	uwac
 託	uwak
 矺	uwak
@@ -81431,6 +81941,8 @@ encoder:
 誛	uxyb
 𰵁	uxyi
 𦎋	uxzg
+马	uy11
+⻢	uy11
 鲝	uyag
 𥒍	uyaj
 𧧘	uyaj
@@ -81936,6 +82448,8 @@ encoder:
 𰠆	vbzs
 𤔧	vbzu
 𰴝	vbzz
+彳	vc11
+⼻	vc11
 𡬳	vcah
 𥡵	vcah
 𪫖	vcah
@@ -82434,6 +82948,8 @@ encoder:
 𬓥	vfzn
 穲	vfzp
 𰨟	vfzp
+瓜	vg11
+⽠	vg11
 𲅪	vgad
 𱝸	vgaf
 待	vgah
@@ -82552,6 +83068,8 @@ encoder:
 䘘	vgyj
 𮃇	vgzk
 𱶌	vgzv
+黑	vh11
+⿊	vh11
 爮	vhae
 瓟	vhae
 骲	vhae
@@ -82723,6 +83241,37 @@ encoder:
 𤔱	vhzs
 𮃴	vhzu
 𥢫	vhzx
+乙	vi11
+⺂	vi11
+⺄	vi11
+⺋	vi11
+⼄	vi11
+⼅	vi11
+㇅	vi11
+㇆	vi11
+㇇	vi11
+㇈	vi11
+㇊	vi11
+㇋	vi11
+㇌	vi11
+㇍	vi11
+㇎	vi11
+㇕	vi11
+㇖	vi11
+㇘	vi11
+㇚	vi11
+㇠	vi11
+㇡	vi11
+㇢	vi11
+㔾	vi11
+乁	vi11
+乛	vi11
+亅	vi11
+𠃌	vi11
+𠃍	vi11
+𠃎	vi11
+𠄎	vi11
+乁	vi11
 𥟴	viaj
 𪑕	viaj
 𰐲	viaj
@@ -83032,6 +83581,13 @@ encoder:
 𩡝	vjzj
 𩪺	vjzk
 𪓂	vjzk
+爪	vk11
+⺤	vk11
+⺥	vk11
+⽖	vk11
+爫	vk11
+爫	vk11
+𫜵	vk11
 𱝫	vkac
 𠀄	vkai
 秬	vkbj
@@ -83403,6 +83959,11 @@ encoder:
 䨂	vmzi
 醔	vmzk
 𭶭	vmzk
+禾	vn11
+⽲	vn11
+冎	vn11
+咼	vn11
+𥝌	vn11
 𭶫	vnak
 𰨡	vnan
 𩨹	vnaw
@@ -84372,6 +84933,10 @@ encoder:
 𱅰	vtyw
 𥞗	vtzk
 𱝱	vtzx
+水	vu11
+氺	vu11
+⺢	vu11
+⽔	vu11
 𥠹	vuaf
 𥞢	vuak
 𧧞	vubj
@@ -84646,6 +85211,9 @@ encoder:
 书	vvzo
 𮃎	vvzp
 𡚕	vvzt
+骨	vw11
+⻣	vw11
+⾻	vw11
 秅	vwak
 𩨛	vwak
 𪐞	vwak
@@ -86192,6 +86760,8 @@ encoder:
 𰠟	wgzk
 箦	wgzv
 𱭜	wgzv
+九	wh11
+𧘇	wh11
 𨄚	whab
 𫦔	whad
 笣	whae
@@ -86373,6 +86943,8 @@ encoder:
 𬌐	whzu
 𪗻	whzw
 𬕲	whzx
+非	wi11
+⾮	wi11
 𥫽	wiak
 𪘢	wial
 笷	wiau
@@ -86477,6 +87049,8 @@ encoder:
 𱸊	wiyn
 𥲱	wizi
 𮆨	wizj
+气	wj11
+⽓	wj11
 齵	wjaw
 𡳽	wjbh
 𥲑	wjcb
@@ -86572,6 +87146,11 @@ encoder:
 𥵒	wjym
 𬕳	wjyz
 𤗯	wjzi
+丿	wk11
+⼃	wk11
+㇁	wk11
+㇒	wk11
+㇓	wk11
 释	wkba
 䶙	wkbj
 𥬙	wkbj
@@ -87216,6 +87795,9 @@ encoder:
 䇙	wnzh
 第	wnzw
 𫦒	wnzx
+力	wo11
+⼒	wo11
+力	wo11
 𤗞	woag
 𥯢	woag
 𲌖	woao
@@ -87394,6 +87976,10 @@ encoder:
 𰠖	wozl
 𥵭	wozm
 𫕣	wozx
+片	wp11
+爿	wp11
+⽙	wp11
+⽚	wp11
 𫂟	wpau
 䉬	wpbq
 𤖔	wpbs
@@ -88083,6 +88669,11 @@ encoder:
 𰜂	wtyv
 𤗎	wtyw
 𥯃	wtyw
+竹	wu11
+⺮	wu11
+⽵	wu11
+𠂉	wu11
+𥫗	wu11
 𥱬	wuai
 𥬫	wuak
 𬔷	wuco
@@ -88278,6 +88869,8 @@ encoder:
 𥸣	wvyu
 𥴢	wvzi
 𥸠	wvzq
+齒	ww11
+⿒	ww11
 𥫬	wwak
 𪘐	wwap
 𬕆	wwap
@@ -88859,6 +89452,7 @@ encoder:
 𤟎	xbxx
 𱡦	xbxx
 𱮘	xbzi
+川	xc11
 𱭸	xcai
 𬮰	xcal
 𰡄	xcbi
@@ -88929,6 +89523,8 @@ encoder:
 犽	xcyq
 玀	xcyz
 𣱀	xcyz
+刂	xd11
+⺉	xd11
 阂	xdam
 𱭺	xdaq
 𱭴	xdbj
@@ -89494,6 +90090,7 @@ encoder:
 𱡧	xhzm
 𤞂	xhzq
 𫛆	xhzt
+其	xi11
 阍	xiaj
 𭛍	xiaj
 𰡙	xiaj
@@ -89536,6 +90133,18 @@ encoder:
 𧴝	xiss
 𮤷	xisu
 𤟽	xiws
+肀	xj11
+⺕	xj11
+⺺	xj11
+⼙	xj11
+⼹	xj11
+卩	xj11
+彐	xj11
+𫜹	xj11
+𬼖	xj11
+𰀂	xj11
+𰀄	xj11
+𰆊	xj11
 闿	xjai
 䦸	xjam
 𣮨	xjan
@@ -89863,6 +90472,8 @@ encoder:
 𬮭	xlzp
 𰡏	xlzr
 𰡐	xlzv
+门	xm11
+⻔	xm11
 𰔥	xmaa
 猼	xmah
 𧳵	xmah
@@ -89963,6 +90574,8 @@ encoder:
 𰄖	xmzf
 𨿗	xmzi
 𤞕	xmzk
+毛	xn11
+⽑	xn11
 𢑖	xnaj
 闸	xnam
 狎	xnaq
@@ -90035,6 +90648,8 @@ encoder:
 猕	xnyk
 𤡂	xnyz
 𤝠	xnzh
+犬	xo11
+⽝	xo11
 𣯖	xoan
 𪯪	xoap
 𤠖	xoaq
@@ -90144,6 +90759,8 @@ encoder:
 𮯏	xoyw
 𱥤	xoyw
 𫿯	xozp
+文	xp11
+⽂	xp11
 𣯋	xpah
 𬌽	xpah
 𬍄	xpaq
@@ -90238,6 +90855,8 @@ encoder:
 𱮝	xpxv
 𫎊	xpyz
 𤢪	xpzd
+犭	xq11
+⺨	xq11
 𤠭	xqah
 𪻇	xqal
 𨸊	xqbr
@@ -90408,6 +91027,18 @@ encoder:
 𤢌	xrxk
 𧴐	xrxk
 𧼌	xryz
+凵	xs11
+⼐	xs11
+⼬	xs11
+䶹	xs11
+丩	xs11
+丱	xs11
+屮	xs11
+屮	xs11
+𠂈	xs11
+𠙴	xs11
+凵	xs11
+屮	xs11
 𱭾	xsah
 𤝜	xsbo
 𧲯	xsbo
@@ -91296,6 +91927,8 @@ encoder:
 紊	xyzp
 𪵠	xyzr
 㪱	xyzt
+豸	xz11
+⾘	xz11
 﨎	xzbj
 𪯩	xzbj
 𨛟	xzcp
@@ -91382,6 +92015,8 @@ encoder:
 𩒌	xzzm
 𰡢	xzzo
 𧯽	xzzq
+鱼	ya11
+⻥	ya11
 𦇗	yaad
 惽	yaaj
 緡	yaaj
@@ -92856,6 +93491,8 @@ encoder:
 𢤽	yhzu
 恎	yhzx
 絰	yhzz
+艮	yi11
+⾉	yi11
 惛	yiaj
 緍	yiaj
 𫘖	yiaj
@@ -92950,6 +93587,8 @@ encoder:
 𱟌	yiym
 𱞶	yiyz
 䲤	yizk
+廴	yj11
+⼵	yj11
 𱈂	yjaa
 鲥	yjah
 恺	yjai
@@ -93539,6 +94178,10 @@ encoder:
 𭁽	ylzm
 𫚜	ylzp
 𠕗	ylzz
+⺈	ym11
+⼍	ym11
+冖	ym11
+𠂊	ym11
 縛	ymah
 愽	ymah
 𫃦	ymbj
@@ -93631,6 +94274,7 @@ encoder:
 𢢥	ymxg
 𫺻	ymyi
 𡅀	ymyl
+由	yn11
 𱇟	ynaa
 𠖌	ynah
 𢘉	ynax
@@ -94302,6 +94946,9 @@ encoder:
 緧	yqzk
 𦅆	yqzt
 𢢕	yqzx
+兀	yr11
+⺎	yr11
+兀	yr11
 𬏌	yrai
 䋼	yrbc
 𬗅	yrbj
@@ -94474,6 +95121,7 @@ encoder:
 𦇲	yrzg
 𮫹	yrzg
 𥾓	yrzh
+申	ys11
 𦂭	ysal
 鲅	ysbo
 紱	ysbo
@@ -95099,6 +95747,7 @@ encoder:
 𮉆	yvze
 𢜻	yvzg
 𫺼	yvzh
+电	yw11
 𢖲	ywak
 𥾑	ywak
 𦀅	ywak
@@ -95230,6 +95879,8 @@ encoder:
 𢞖	ywzm
 𥿙	ywzn
 𪬻	ywzp
+忄	yx11
+⺖	yx11
 鲟	yxah
 𢙪	yxah
 𬗔	yxah
@@ -95375,6 +96026,7 @@ encoder:
 雏	yxzi
 𢚵	yxzx
 絼	yxzz
+业	yy11
 㔃	yyad
 絶	yyaj
 𢙚	yyaj
@@ -95514,6 +96166,10 @@ encoder:
 愌	yyzt
 𢚾	yyzt
 絲	yyzz
+糸	yz11
+⺯	yz11
+⽷	yz11
+糹	yz11
 㤽	yzah
 𦀳	yzah
 𩾂	yzah
@@ -96414,6 +97070,11 @@ encoder:
 𬯴	zgzi
 𫌬	zgzp
 𦛂	zgzr
+丨	zh11
+⼁	zh11
+〢	zh11
+〣	zh11
+㇑	zh11
 雹	zhae
 𨠖	zhae
 𮶿	zhag
@@ -96491,6 +97152,8 @@ encoder:
 𩃡	zhzh
 𬰒	zhzl
 𩇀	zhzp
+隹	zi11
+⾫	zi11
 𩂞	ziaj
 𮦘	ziaj
 𨟾	ziak
@@ -96607,6 +97270,9 @@ encoder:
 𱁙	zizm
 𮦽	zizp
 𱁩	zizq
+雨	zj11
+⻗	zj11
+⾬	zj11
 𨢥	zjcb
 𩅍	zjcb
 醖	zjcm
@@ -96679,6 +97345,10 @@ encoder:
 𩀽	zjzi
 𣇱	zjzj
 靊	zjzq
+酉	zk11
+冂	zk11
+⼌	zk11
+⾣	zk11
 𩂒	zkae
 円	zkak
 𰼃	zkak
@@ -96874,6 +97544,7 @@ encoder:
 𣯹	zlzx
 𫦙	zlzx
 𠿻	zlzy
+夭	zm11
 赙	zmah
 𧌙	zmcj
 𨝱	zmcp
@@ -96945,6 +97616,7 @@ encoder:
 𨣐	zmzk
 𧖝	zmzm
 𱬳	zmzm
+丰	zn11
 𩂘	znaj
 𮦞	znaj
 贩	znbj
@@ -97126,6 +97798,8 @@ encoder:
 𩄱	zoyw
 𩀄	zozi
 𭒍	zozm
+见	zp11
+⻅	zp11
 𲆵	zpah
 𲊇	zpaj
 𪓘	zpam
@@ -97776,6 +98450,11 @@ encoder:
 𣦴	ztzt
 𧾭	ztzt
 𨡘	ztzx
+西	zu11
+⻃	zu11
+⻄	zu11
+襾	zu11
+覀	zu11
 𦓨	zuae
 耓	zuag
 𫑼	zuah
@@ -98003,6 +98682,8 @@ encoder:
 𫅻	zuzs
 犫	zuzt
 𱂭	zuzv
+贝	zv11
+⻉	zv11
 𰼈	zvac
 酹	zvah
 𫡗	zvak
