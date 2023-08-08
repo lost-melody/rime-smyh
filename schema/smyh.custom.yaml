@@ -43,6 +43,7 @@ patch:
   core_proc/sync_options/+:
     - ascii_mode
   embeded_cands/+:
+    first_format: "${Stash}[${候選}]${Code}${Comment}" # 首選的渲染格式
     # option_name: embeded_cands                               # 嵌入候選開關
     # index_indicators: [ ¹, ², ³, ⁴, ⁵, ⁶, ⁷, ⁸, ⁹, ⁰ ]       # 嵌入候選的序號顯示格式
     # first_format: "${Stash}[${候選}${Seq}]${Code}${Comment}" # 首選的渲染格式

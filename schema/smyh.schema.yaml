@@ -20,8 +20,6 @@ schema:
     - smyh.base
     # 全码官宇词库
     - smyh.yuhaofull
-    # 官宇字詞碼表
-    # - smyh.yuhao
 
 switches:
   - name: ascii_punct

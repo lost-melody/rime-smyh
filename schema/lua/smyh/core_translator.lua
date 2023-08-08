@@ -105,6 +105,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
 
     if #input == 4 then
+        local fullcode_cands = 0
         local fullcode_char = env.option[core.switch_names.fullcode_char] or false
         local entries = core.dict_lookup(core.full_mem, input, 10)
         local stashed = {}
@@ -112,17 +113,22 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
         for _, entry in ipairs(entries) do
             if utf8.len(entry.text) == 1 then
                 table.insert(stashed, entry)
+                fullcode_cands = fullcode_cands + 1
             else
                 -- 全單模式, 詞語過濾
                 -- 字詞模式, 詞語前置
                 if not fullcode_char then
                     table.insert(full_entries, entry)
+                    fullcode_cands = fullcode_cands + 1
                 end
             end
         end
         -- 收錄暫存候選
         for _, entry in ipairs(stashed) do
             table.insert(full_entries, entry)
+        end
+        if fullcode_cands ~= 0 then
+            core.input_code = display_input(input)
         end
     end
 
