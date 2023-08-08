@@ -1,6 +1,6 @@
 可	a1
 下	b1
-還	c1
+要	c1
 的	d1
 他	e1
 一	f1
@@ -23,26 +23,21 @@
 我	w1
 出	x1
 對	y1
-要	z1
+還	z1
 搶	ar1
 授	av1
 避	bl1
 臨	bw1
 跟	by1
-陣	cc1
-降	ce1
-買	cm1
 回	dl1
 因	dt1
 何	ea1
 做	eb1
 什	ed1
 便	ef1
-貨	ei1
 冬	ep1
 　	ey1
 查	fj1
-来	fk1
 頭	fl1
 想	fm1
 型	fs1
@@ -61,9 +56,7 @@
 沉	iy1
 凱	jf1
 韋	jg1
-堂	kg1
 品	ll1
-略	ne1
 質	nn1
 衣	ow1
 式	pp1
@@ -74,15 +67,11 @@
 藍	sb1
 散	sh1
 鐘	so1
-鋼	sz1
-爸	uc1
 貧	ud1
 謙	uq1
 三	uw1
 委	vo1
 稱	vv1
 　	wc1
-笑	wz1
-觸	yc1
 續	yg1
 ·	jg2
