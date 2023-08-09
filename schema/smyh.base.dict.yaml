@@ -5787,8 +5787,8 @@ columns:
 𨁗	bzy	0
 𬦤	bzy	0
 𫵚	bzz	0
-点	c1	188639
-用	c2	171968
+要	c1	408050
+见	c2	164087
 𩃧	caa	0
 𠬸	cab	0
 𮞉	cad	0
@@ -6145,7 +6145,6 @@ columns:
 醞	cdz	101
 觢	cdz	0
 𨜒	cdz	0
-降	ce1	13825
 𩂛	cea	0
 𩃳	cea	0
 𩄴	cea	0
@@ -95651,8 +95650,8 @@ columns:
 𨛥	yzz	0
 𫺶	yzz	0
 𮬛	yzz	0
-要	z1	408050
-见	z2	164087
+点	z1	188639
+用	z2	171968
 罠	zaa	2
 䡑	zaa	0
 𮥌	zab	0
@@ -96068,6 +96067,7 @@ columns:
 𨛹	zdz	0
 𪾏	zdz	0
 𫜊	zdz	0
+降	ze1	13825
 附	zea	12397
 降	zea	100
 䑧	zea	0
@@ -99128,6 +99128,7 @@ columns:
 可以	a2
 可能	a2
 下午	b2
+要么	c2
 一个	f2
 一些	f2
 地上	g2
@@ -99141,16 +99142,15 @@ columns:
 这个	x2
 这样	x2
 情况	y2
-要么	z2
 已经	al2
 因为	dt2
 什么	ed2
 冬天	ep2
-两个	fz2
+两个	fc2
 喜爱	gl2
 没有	iq2
 时候	ja2
 意思	oj2
 知道	ql2
 三个	uw2
-刚刚	zc2
+刚刚	cz2

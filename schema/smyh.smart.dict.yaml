@@ -393,7 +393,6 @@ encoder:
 頂燈	aummbq
 拓寬	authso
 援护	avbaqk
-援用	avbc2
 援救	avbfve
 援敌	avbleu
 援助	avbmwo
@@ -410,6 +409,7 @@ encoder:
 援建	avbxay
 援军	avbymd
 援軍	avbyzj
+援用	avbz2
 拯救	avffve
 採辦	avfowo
 採錄	avfsrv
@@ -920,6 +920,9 @@ encoder:
 卧撐	bzoakz
 卧牀	bzowfh
 勇奪	bzwtca
+要塞	c1hsg
+要隘	c1zqz
+见习	c2ql1
 配齊	canoqp
 肾盂	cbhfjz
 霹靂	cbockt
@@ -966,12 +969,6 @@ encoder:
 赎金	cdtsn1
 赎买	cdtvpt
 赎罪	cdtzwi
-降臨	ce1bwl
-降尘	ce1kgi
-降塵	ce1pgi
-降薪	ce1son
-降频	ce1tkc
-凸点	cffc1
 凸凹	cffcfk
 凸顯	cffjum
 凸显	cffjyy
@@ -987,6 +984,7 @@ encoder:
 凸版	cffwnb
 凸出	cffx2
 凸角	cffyzu
+凸点	cffz1
 凸輪	cffzro
 栗子	cfhkv1
 集群	cfhxwu
@@ -1145,6 +1143,7 @@ encoder:
 谐和	didvla
 兜攬	diqabm
 旣已	diqal1
+旣要	diqc1
 旣來	diqej1
 旣然	diqh2
 旣定	diqhft
@@ -1157,7 +1156,6 @@ encoder:
 旣往	diqvom
 旣非	diqwi1
 旣無	diqwsm
-旣要	diqz1
 之冬	dj1epr
 圍擋	djgakn
 圍殲	djgfuf
@@ -1411,6 +1409,7 @@ encoder:
 僵硬	effufz
 休提	efhajt
 休克	efhbqr
+休要	efhc1
 休谟	efhdst
 休妻	efhdxo
 休假	efhebb
@@ -1442,7 +1441,6 @@ encoder:
 休斯	efhxnt
 休業	efhyuu
 休业	efhyy1
-休要	efhz1
 休战	efhzlp
 伍佰	efjeuj
 侍衛	egavjj
@@ -1708,7 +1706,6 @@ encoder:
 傳喚	ezalyt
 佔據	ezlake
 佔居	ezlbbu
-佔用	ezlc2
 佔便	ezlef1
 佔優	ezleue
 佔地	ezlg1
@@ -1728,6 +1725,7 @@ encoder:
 佔分	ezludk
 佔爲	ezlvsl
 佔線	ezlydv
+佔用	ezlz2
 偵辦	ezmowo
 仆人	ezorw1
 仆街	ezovgj
@@ -2869,6 +2867,7 @@ encoder:
 字频	hkvtkc
 字獄	hkvxux
 窥探	hlcayf
+窥见	hlcc2
 窥伺	hlcevl
 肿块	hlcgbr
 窥视	hlcgcp
@@ -2879,7 +2878,6 @@ encoder:
 肿瘤	hlcpin
 肿大	hlct1
 窥镜	hlctoq
-窥见	hlcz2
 宮殿	hlrbsq
 窝内	hlrcrw
 宮内	hlrcrw
@@ -2960,7 +2958,6 @@ encoder:
 丹蔘	horsks
 腼腆	hothcu
 脉络	hovnel
-寵用	hozc2
 寵信	hozeui
 寵壞	hozgow
 寵幸	hozgqd
@@ -2971,6 +2968,7 @@ encoder:
 寵物	hozths
 寵愛	hozvye
 寵慣	hozyrm
+寵用	hozz2
 空擋	hpiakn
 肛裂	hpifuw
 空泛	hpiiwd
@@ -3273,13 +3271,13 @@ encoder:
 潑水	ibqvu1
 濫捕	ibzamt
 濫發	ibzbnq
-濫用	ibzc2
 濫伐	ibzeps
 濫權	ibzfsc
 濫交	ibzouz
 濫加	ibzwla
 濫情	ibzy1
 濫觴	ibzyzs
+濫用	ibzz2
 濫殺	ibzzfq
 湮灭	icgfms
 湮没	icgi2
@@ -4859,7 +4857,6 @@ encoder:
 蛇蜕	mhimqq
 蛇蛻	mhimuq
 熔接	mhlaoo
-熔点	mhlc1
 熔体	mhleff
 熔化	mhleib
 瞎侃	mhlelq
@@ -4884,6 +4881,7 @@ encoder:
 熔點	mhlvzl
 熔漿	mhlwhv
 熔解	mhlyzt
+熔点	mhlz1
 燃燈	mhmmbq
 瑤臺	mhqglh
 瑤池	mhqisi
@@ -5290,12 +5288,12 @@ encoder:
 缨络	nconel
 纳妾	ncrooh
 衲衣	ncrowh
+纲要	nczc1
 纲常	nczkrk
 纲目	nczmv1
 纲纪	ncznan
 纲手	nczpg1
 纲领	nczroc
-纲要	nczz1
 初冬	ndkepr
 盾構	ndmfsg
 近況	ndnilq
@@ -5560,8 +5558,6 @@ encoder:
 烹制	okmtcx
 烹調	okmuhl
 充塞	okqhsg
-弃用	oksc2
-棄用	oksc2
 弃之	oksdj1
 棄之	oksdj1
 棄權	oksfsc
@@ -5581,6 +5577,8 @@ encoder:
 棄舊	okssch
 棄絕	oksyda
 棄絶	oksyya
+弃用	oksz2
+棄用	oksz2
 弃置	okszdm
 棄置	okszdm
 弃船	okszql
@@ -6126,7 +6124,6 @@ encoder:
 户羣	qk1xwu
 矩陣	qkbzzj
 飴糖	qklkpl
-习用	ql1c2
 习俗	ql1eul
 习作	ql1ewz
 习武	ql1fpt
@@ -6141,6 +6138,7 @@ encoder:
 习性	ql1yei
 知性	ql1yei
 习惯	ql1yrc
+习用	ql1z2
 启迪	qlaydn
 豢养	qleqlu
 豢養	qleqly
@@ -6172,7 +6170,6 @@ encoder:
 餞別	qpplhx
 餞别	qpplwx
 餞行	qppvjs
-習用	qqdc2
 習俗	qqdeul
 習作	qqdewz
 習武	qqdfpt
@@ -6186,6 +6183,7 @@ encoder:
 習氣	qqdwks
 習性	qqdyei
 習慣	qqdyrm
+習用	qqdz2
 躲閃	qqfrrw
 戳记	qqpdan
 戳穿	qqphzy
@@ -6987,7 +6985,6 @@ encoder:
 錄播	srvawn
 錄下	srvb1
 錄屏	srvbqs
-錄用	srvc2
 錄供	srvesu
 錄像	srveye
 錄相	srvfmv
@@ -6997,6 +6994,7 @@ encoder:
 錄入	srvsl1
 錄取	srvtbj
 錄製	srvtcw
+錄用	srvz2
 茬兒	ssghqr
 茬子	ssgkv1
 茬口	ssgla1
@@ -7598,7 +7596,6 @@ encoder:
 驮轿	utjmcu
 驮运	utjpkd
 讚譽	utmhuu
-骤降	utpce1
 骤雨	utpcj1
 骤增	utpgqj
 骤然	utph2
@@ -7614,6 +7611,7 @@ encoder:
 破瓜	utpvy1
 骤升	utpwsk
 破產	utpxke
+骤降	utpze1
 破陣	utpzzj
 硃批	utuaii
 誅仙	utuejl
@@ -8923,6 +8921,7 @@ encoder:
 悯惜	yxxysj
 絲瓜	yycvy1
 絲綢	yycyhl
+纔要	yyoc1
 纔剛	yyocqx
 纔來	yyoej1
 纔是	yyoj1
@@ -8938,7 +8937,6 @@ encoder:
 冤獄	yyoxux
 纔怪	yyoybg
 纔對	yyoyua
-纔要	yyoz1
 邂逅	yzdnfd
 運鏢	yzdscg
 運籌	yzdwga
@@ -9023,9 +9021,6 @@ encoder:
 角膜	yzuhst
 角獸	yzullx
 角鋼	yzuscj
-要塞	z1hsg
-要隘	z1zqz
-见习	z2ql1
 專櫃	zahfkm
 專橫	zahfsu
 陈坤	zakgys
@@ -9057,6 +9052,11 @@ encoder:
 迁移	zdnvuu
 迁出	zdnx2
 連續	zdnygm
+降臨	ze1bwl
+降尘	ze1kgi
+降塵	ze1pgi
+降薪	ze1son
+降频	ze1tkc
 附錄	zeasrv
 附註	zeauom
 附骥	zeauqu
