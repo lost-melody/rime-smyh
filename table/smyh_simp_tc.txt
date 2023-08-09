@@ -13,7 +13,7 @@
 自	m1
 平	n1
 好	o1
-看	p1
+對	p1
 道	q1
 人	r1
 在	s1
@@ -22,46 +22,40 @@
 爲	v1
 我	w1
 出	x1
-對	y1
+看	y1
 還	z1
 搶	ar1
 授	av1
 避	bl1
+跟	bp1
 臨	bw1
-跟	by1
 回	dl1
 因	dt1
 何	ea1
 做	eb1
 什	ed1
 便	ef1
-冬	ep1
-　	ey1
+　	ep1
+冬	ey1
 查	fj1
-頭	fl1
 想	fm1
 型	fs1
 椅	ft1
 烈	fu1
 喜	gl1
-境	go1
 赤	gu1
 宗	hg1
 忽	hs1
 與	hu1
 液	io1
+沉	ip1
 　	iq1
 灌	is1
 遊	iw1
-沉	iy1
 凱	jf1
 韋	jg1
 品	ll1
-質	nn1
-衣	ow1
-式	pp1
 　	ql1
-習	qq1
 途	rf1
 領	ro1
 藍	sb1
@@ -73,5 +67,5 @@
 委	vo1
 稱	vv1
 　	wc1
-續	yg1
+式	yy1
 ·	jg2
