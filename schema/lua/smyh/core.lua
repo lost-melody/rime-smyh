@@ -158,7 +158,7 @@ core.dict_lookup = function(mem, code, count, comp)
         for entry in mem:iter_dict() do
             local exist = res_set[entry.text]
             if not exist then
-                exist = entry
+                res_set[entry.text] = entry
                 table.insert(result, entry)
             elseif #exist.comment == 0 then
                 exist.comment = entry.comment
