@@ -25,6 +25,36 @@ local next_format = "${Stash}${候選}${Seq}${Comment}"
 local separator = " "
 local stash_placeholder = "~"
 
+local function compile_formatter(format)
+    -- "${Stash}[${候選}${Seq}]${Code}${Comment}"
+    -- => "%s[%s%s]%s%s"
+    -- => {"${Stash}", "${...}", "${...}", ...}
+    local pattern = "%$%{[^{}]+%}"
+    local verbs = {}
+    for s in string.gmatch(format, pattern) do
+        table.insert(verbs, s)
+    end
+
+    local res = {
+        format = string.gsub(format, pattern, "%%s"),
+        verbs = verbs,
+    }
+    local meta = { __index = function() return "" end }
+
+    -- {"${v1}", "${v2}", ...} + {v1: a1, v2: a2, ...} = {a1, a2, ...}
+    -- string.format("%s[%s%s]%s%s", a1, a2, ...)
+    function res:build(dict)
+        setmetatable(dict, meta)
+        local args = {}
+        for _, pat in ipairs(self.verbs) do
+            table.insert(args, dict[pat])
+        end
+        return string.format(self.format, table.unpack(args))
+    end
+
+    return res
+end
+
 function embeded_cands_filter.init(env)
     -- 讀取配置項
     env.config = {}
@@ -34,6 +64,10 @@ function embeded_cands_filter.init(env)
     env.config.separator = core.parse_conf_str(env, "separator", separator)
     env.config.stash_placeholder = core.parse_conf_str(env, "stash_placeholder", stash_placeholder)
     env.config.option_name = core.parse_conf_str(env, "option_name")
+
+    env.formatter = {}
+    env.formatter.first = compile_formatter(env.config.first_format)
+    env.formatter.next = compile_formatter(env.config.next_format)
 
     -- 是否指定開關
     if env.config.option_name and #env.config.option_name ~= 0 then
@@ -86,19 +120,14 @@ local function render_comment(comment)
     return comment
 end
 
-local function escape_percent(text)
-    text = string.gsub(text, "%%", "%%%%")
-    return text
-end
-
 -- 渲染單個候選項
 local function render_cand(env, seq, code, stashed, text, comment, digested)
-    local cand = ""
+    local formatter
     -- 選擇渲染格式
     if seq == 1 then
-        cand = env.config.first_format
+        formatter = env.formatter.first
     else
-        cand = env.config.next_format
+        formatter = env.formatter.next
     end
     -- 渲染延迟串與候選文字
     stashed, text, digested = render_stashcand(env, seq, stashed, text, digested)
@@ -107,11 +136,13 @@ local function render_cand(env, seq, code, stashed, text, comment, digested)
     end
     -- 渲染提示串
     comment = render_comment(comment)
-    cand = string.gsub(cand, "%${Seq}", env.config.index_indicators[seq])
-    cand = string.gsub(cand, "%${Code}", escape_percent(code))
-    cand = string.gsub(cand, "%${Stash}", escape_percent(stashed))
-    cand = string.gsub(cand, "%${候選}", escape_percent(text))
-    cand = string.gsub(cand, "%${Comment}", escape_percent(comment))
+    local cand = formatter:build({
+        ["${Seq}"]     = env.config.index_indicators[seq],
+        ["${Code}"]    = code,
+        ["${Stash}"]   = stashed,
+        ["${候選}"]    = text,
+        ["${Comment}"] = comment,
+    })
     return cand, digested
 end
 

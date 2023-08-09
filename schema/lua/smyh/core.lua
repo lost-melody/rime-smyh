@@ -152,10 +152,17 @@ core.dict_lookup = function(mem, code, count, comp)
     if not mem then
         return result
     end
-    -- code = string.gsub(code, "z", ";")
     if mem:dict_lookup(code, comp, count) then
+        -- 根據 entry.text 聚合去重
+        local res_set = {}
         for entry in mem:iter_dict() do
-            table.insert(result, entry)
+            local exist = res_set[entry.text]
+            if not exist then
+                exist = entry
+                table.insert(result, entry)
+            elseif #exist.comment == 0 then
+                exist.comment = entry.comment
+            end
         end
     end
     return result
