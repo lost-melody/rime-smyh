@@ -186,7 +186,7 @@ local function handle_break(env, ctx, ch)
         end
         -- 打斷施法
         if code_segs ~= 0 then
-            local text_list = core.query_first_cand_list(core.base_mem, code_segs)
+            local text_list = core.query_cand_list(core.base_mem, code_segs, true)
             commit_text(env, ctx, table.concat(text_list, ""), remain)
             return kAccepted
         end
