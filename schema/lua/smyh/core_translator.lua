@@ -23,10 +23,11 @@ function translator.init(env)
         core.full_mem = schemas.smyh_full
     end
 
+    -- 同步開關狀態, 更新碼表
     local function schema_switcher(ctx, name)
         if name == core.switch_names.smyh_tc then
-            local value = ctx:get_option(name)
-            if value then
+            local enabled = ctx:get_option(name)
+            if enabled then
                 core.base_mem = schemas.smyh_tc_base
                 core.full_mem = schemas.smyh_tc_full
             else
