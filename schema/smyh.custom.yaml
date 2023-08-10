@@ -51,6 +51,8 @@ patch:
     - smyh_tc
   core_tr/+:
     # enable_completion: false # 是否允許編碼補全
+  # menu/page_size: 5 # Change number of candidates
+  # style/layout/margin_x: -1 # Hide candidates bar
   embeded_cands/+:
     first_format: "${Stash}[${候選}]${Code}${Comment}"
   # 解注释以下内容, 并复制rime.lua, 以兼容旧版librime-lua
