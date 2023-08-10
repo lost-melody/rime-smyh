@@ -9,10 +9,10 @@
 不	i1
 是	j1
 了	k1
-中	l1
+好	l1
 自	m1
 平	n1
-好	o1
+中	o1
 對	p1
 道	q1
 人	r1
@@ -25,47 +25,18 @@
 看	y1
 還	z1
 搶	ar1
-授	av1
-避	bl1
-跟	bp1
-臨	bw1
-回	dl1
-因	dt1
-何	ea1
-做	eb1
+回	do1
 什	ed1
 便	ef1
 　	ep1
-冬	ey1
-查	fj1
-想	fm1
-型	fs1
-椅	ft1
-烈	fu1
-喜	gl1
-赤	gu1
-宗	hg1
 忽	hs1
-與	hu1
-液	io1
-沉	ip1
 　	iq1
-灌	is1
 遊	iw1
 凱	jf1
-韋	jg1
-品	ll1
+·	jg1
+品	oo1
+纔	pp1
 　	ql1
-途	rf1
-領	ro1
-藍	sb1
-散	sh1
-鐘	so1
-貧	ud1
-謙	uq1
 三	uw1
-委	vo1
 稱	vv1
 　	wc1
-式	yy1
-·	jg2
