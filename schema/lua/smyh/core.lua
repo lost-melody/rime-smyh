@@ -207,9 +207,6 @@ core.query_cand_list = function(mem, code_segs, skipfull)
                     table.insert(cand_list, "")
                     index = viewport + 1
                     break
-                else
-                    -- impossible
-                    return cand_list, code
                 end
             end
         end
