@@ -192,7 +192,9 @@ core.query_cand_list = function(mem, code_segs, skipfull)
     while index <= #code_segs do
         -- 最大匹配
         for viewport = #code_segs, index, -1 do
-            if not skipfull or viewport-index+1 < #code_segs then
+            if skipfull and viewport-index+1 >= #code_segs and #code_segs > 1 then
+                -- continue
+            else
                 code = table.concat(code_segs, "", index, viewport)
                 local entries = core.dict_lookup(mem, code)
                 if entries[1] then
@@ -205,6 +207,9 @@ core.query_cand_list = function(mem, code_segs, skipfull)
                     table.insert(cand_list, "")
                     index = viewport + 1
                     break
+                else
+                    -- impossible
+                    return cand_list, code
                 end
             end
         end
