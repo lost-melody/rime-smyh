@@ -79,6 +79,7 @@ encoder:
 推擋	aciakn
 推搪	aciayl
 推諉	aciuvo
+推广	aciyt1
 技嘉	adbgll
 摁釦	adgsla
 切换	adkapt
@@ -694,6 +695,7 @@ encoder:
 胡椒	bhrfkb
 胡纏	bhrpyg
 胡茬	bhrssg
+胡瓜	bhrvp1
 尼迪	bibpdn
 屁顛	biidmm
 蹦迪	bjhpdn
@@ -713,10 +715,10 @@ encoder:
 劈山	bldjl1
 劈啪	bldlad
 劈面	bldot1
-劈头	bldpt1
 避開	bldrfs
 劈開	bldrfs
 劈柴	bldtif
+劈头	bldyt1
 劈手	bldyu1
 劈杀	bldzfi
 劈殺	bldzfq
@@ -1056,6 +1058,7 @@ encoder:
 西宮	cu1hlr
 西曬	cu1jfy
 西郊	cu1ouz
+西瓜	cu1vp1
 乔迁	cuszdn
 耒阳	cuszjk
 耒陽	cuszjs
@@ -1097,6 +1100,7 @@ encoder:
 南鋼	dcdscj
 南蠻	dcdupv
 南孚	dcdvkv
+南瓜	dcdvp1
 献祭	dcxhgo
 皁白	ddids1
 皁隸	ddifgv
@@ -1470,6 +1474,7 @@ encoder:
 倾吐	eiclgi
 倾听	eiclnc
 倾轧	eicmeg
+倾情	eicp1
 倾角	eicpzu
 倾斜	eicrfd
 倾向	eicrs1
@@ -1480,7 +1485,6 @@ encoder:
 倾卸	eicwfx
 倾翻	eicwkq
 倾力	eicwo1
-倾情	eicy1
 倾巢	eicyjf
 偕同	eidcfl
 偕行	eidvjs
@@ -1498,6 +1502,7 @@ encoder:
 傾注	eimiom
 傾洩	eimipw
 傾吐	eimlgi
+傾情	eimp1
 傾角	eimpzu
 傾斜	eimrfd
 貨倉	eimrol
@@ -1512,7 +1517,6 @@ encoder:
 傾卸	eimwfx
 傾翻	eimwkq
 傾力	eimwo1
-傾情	eimy1
 傾巢	eimyjf
 傾軋	eimzeg
 低槓	eiofym
@@ -1585,6 +1589,7 @@ encoder:
 併吞	eqsftl
 伶俜	erbepu
 傻逼	erefld
+傻瓜	erevp1
 傻猪	erexgj
 俭朴	erifzo
 俭省	erikwm
@@ -1610,6 +1615,7 @@ encoder:
 秦殇	evnfus
 秦殤	evnfus
 秦篆	evnwre
+倭瓜	evovp1
 泰迪	evupdn
 泰銖	evustu
 佚名	ewlula
@@ -1663,6 +1669,7 @@ encoder:
 冬訓	eyruxh
 冬季	eyrvkv
 冬瓜	eyrvp1
+仁爱	eyrvp1
 冬裝	eyrwgw
 冬筍	eyrwhj
 冬笋	eyrwxw
@@ -1670,6 +1677,7 @@ encoder:
 冬闲	eyrxfi
 冬运	eyrykd
 冬防	eyrzir
+袋瓜	eywvp1
 傳喚	ezalpt
 佔據	ezlake
 佔居	ezlbbu
@@ -1737,7 +1745,7 @@ encoder:
 棗陽	fcczjs
 棘輪	fcczro
 榫頭	fcdflm
-榫头	fcdpt1
+榫头	fcdyt1
 標燈	fcgmbq
 標註	fcguom
 桐柏	fclfds
@@ -1761,6 +1769,8 @@ encoder:
 丙級	fcrpro
 丙綸	fcrpro
 丙申	fcrpx1
+两头	fcryt1
+两广	fcryt1
 栖居	fcubbu
 栖霞	fcucbb
 桥栏	fcufqy
@@ -1821,6 +1831,7 @@ encoder:
 木櫃	fi1fkm
 木墩	fi1goe
 木塞	fi1hsg
+木瓜	fi1vp1
 木牀	fi1wfi
 亘古	fjfbu1
 查覈	fjfcde
@@ -1874,6 +1885,7 @@ encoder:
 李維	fkvpci
 李銳	fkvsuq
 李詠	fkvuov
+李广	fkvyt1
 杏仁	flaeyr
 杏树	flafba
 杏林	flaffi
@@ -1966,7 +1978,7 @@ encoder:
 校覈	fozcde
 榔頭	fozflm
 校辦	fozowo
-榔头	fozpt1
+榔头	fozyt1
 远眺	fpdmqy
 远郊	fpdouz
 橡膠	fpehqs
@@ -2287,6 +2299,7 @@ encoder:
 槓精	fymkgh
 槓子	fymkv1
 槓鈴	fymsrb
+武广	fytyt1
 橢圓	fzhdlm
 椭球	fzhmfo
 橢球	fzhmfo
@@ -2301,6 +2314,7 @@ encoder:
 地窖	g1htl
 地燈	g1mbq
 地磚	g1uza
+地瓜	g1vp1
 地蠟	g1vyd
 地產	g1xke
 地獄	g1xux
@@ -2376,6 +2390,7 @@ encoder:
 青燈	ghrmbq
 青貯	ghrmha
 青葱	ghrshg
+青瓜	ghrvp1
 鰲頭	ghtflm
 静下	ghvb1
 靜下	ghvb1
@@ -2533,7 +2548,7 @@ encoder:
 示燈	go1mbq
 示錄	go1srv
 墩布	goesrk
-墒情	goly1
+墒情	golp1
 坑木	goqfi1
 坑害	goqhcl
 坑窪	goqhig
@@ -2707,6 +2722,7 @@ encoder:
 肚泻	hgiipf
 密匙	hgjjfi
 密钥	hgjthr
+密瓜	hgjvp1
 周瑜	hglmrx
 周薪	hglson
 祭扫	hgoaxj
@@ -2883,6 +2899,7 @@ encoder:
 寵用	hozz2
 脆棗	hpvfcc
 脆枣	hpvfcy
+脆瓜	hpvvp1
 脓肿	hpwhlc
 胖墩	hqagoe
 遙控	hqdahy
@@ -2894,9 +2911,9 @@ encoder:
 遙祭	hqdhgo
 遙遙	hqdhqd
 遙測	hqdimx
-遙看	hqdp1
 遙知	hqdql1
 遙聞	hqdrte
+遙看	hqdy1
 遙感	hqdyfg
 肌群	hqhxwu
 肌羣	hqhxwu
@@ -2965,6 +2982,7 @@ encoder:
 赛迪	hs1pdn
 宽泛	hsciwd
 宽频	hsctkc
+宽广	hscyt1
 朦胧	hsehbw
 朦朧	hsehoz
 塞進	hsgcdn
@@ -3085,6 +3103,7 @@ encoder:
 皺褶	hxtnqd
 脑膜	hxxhst
 芻蕘	hxxsgp
+脑瓜	hxxvp1
 空擋	hyiakn
 肛裂	hyifuw
 空泛	hyiiwd
@@ -3119,6 +3138,7 @@ encoder:
 勻出	hyrx2
 腦殘	hyzfuy
 腦膜	hyzhst
+腦瓜	hyzvp1
 學習	hzkqqd
 學錄	hzksrv
 學銜	hzkvsj
@@ -3161,8 +3181,9 @@ encoder:
 滩地	ibcg1
 漏洩	ibcipw
 滩涂	ibcirf
-滩头	ibcpt1
+滩头	ibcyt1
 湖滨	ibhihu
+湖广	ibhyt1
 泥坑	ibigoq
 泥滩	ibiibc
 泥泞	ibiiha
@@ -3183,9 +3204,9 @@ encoder:
 濫伐	ibzeys
 濫權	ibzfsc
 濫交	ibzouz
+濫情	ibzp1
 濫觴	ibzpzs
 濫加	ibzwla
-濫情	ibzy1
 濫用	ibzz2
 濫殺	ibzzfq
 湮灭	icgfms
@@ -3209,13 +3230,13 @@ encoder:
 濃豔	icyjcz
 濃厚	icykjk
 濃煙	icymcg
+濃情	icyp1
 濃縮	icyphj
 濃郁	icyshz
 濃茶	icysrf
 濃蔭	icyszk
 濃香	icyvjk
 濃妝	icywoh
-濃情	icyy1
 濃度	icyysb
 濃重	icyzni
 激盪	ideijz
@@ -3594,6 +3615,7 @@ encoder:
 泻火	ipfms1
 深閨	ipfrgg
 泻药	ipfsno
+深广	ipfyt1
 深壑	ipfzpg
 浑浊	ipmivv
 沈殿	ipqbsq
@@ -3795,6 +3817,7 @@ encoder:
 豔事	jczjlx
 豔史	jczlzi
 豔女	jczoh1
+豔情	jczp1
 豔紅	jczpyi
 豔花	jczsei
 豔慕	jczsjo
@@ -3802,7 +3825,6 @@ encoder:
 豔裝	jczwgw
 豔妝	jczwoh
 豔舞	jczwsa
-豔情	jczy1
 豔冶	jczykl
 豔陽	jczzjs
 照拂	jdmanu
@@ -4224,6 +4246,7 @@ encoder:
 虐杀	kxjzfi
 虐殺	kxjzfq
 糖苷	kylssy
+糖瓜	kylvp1
 掌櫃	kyufkm
 掌燈	kyumbq
 糠秕	kyvvii
@@ -4274,6 +4297,7 @@ encoder:
 噁心	lfggy1
 呆滞	lfiisr
 呆滯	lfiisr
+呆瓜	lfivp1
 吴淞	lftifk
 喇叭	lfxlus
 喇嘛	lfxlyg
@@ -4389,7 +4413,7 @@ encoder:
 遺症	lkdyft
 唆使	lkeef2
 噱頭	lkeflm
-噱头	lkept1
+噱头	lkeyt1
 哐當	lkmkne
 哐当	lkmkxj
 嗩呐	lkmlcr
@@ -4516,6 +4540,7 @@ encoder:
 貓癬	lsnytu
 哄逗	lsufld
 唠嗑	lswlgz
+甜瓜	lsyvp1
 喹啉	ltglff
 嚕囌	ltjlsv
 鳴鏑	ltmsob
@@ -4950,11 +4975,11 @@ encoder:
 玉鐲	mooszv
 炕梢	moqfkh
 炕頭	moqflm
-炕头	moqpt1
 炕几	moqqh1
 炕幾	moquur
 炕牀	moqwfi
 炕床	moqyfi
+炕头	moqyt1
 炕桌	moqzjf
 眩晕	moujpm
 眩暈	moujpz
@@ -4966,6 +4991,7 @@ encoder:
 炫铃	moutrb
 眩惑	mouylg
 熾燈	moymbq
+较广	mozyt1
 瓊瑤	mpemhq
 眼膠	mpshqs
 眼膜	mpshst
@@ -5166,6 +5192,7 @@ encoder:
 補習	nmtqqd
 補碘	nmtucu
 補註	nmtuom
+丝瓜	nncvp1
 裡橫	nnifsu
 褫奪	nnktca
 疊字	nnmhkv
@@ -5351,6 +5378,7 @@ encoder:
 京杭	okjfoq
 京郊	okjouz
 京畿	okjuun
+京广	okjyt1
 烹调	okmdhl
 烹饪	okmkzk
 熟络	okmnel
@@ -5442,7 +5470,7 @@ encoder:
 姦污	oooifu
 姦淫	oooivz
 姦夫	ooolv1
-姦情	oooy1
+姦情	ooop1
 姦殺	ooozfq
 妯娌	opboni
 良驹	opsuhl
@@ -5642,7 +5670,12 @@ encoder:
 站擼	ozlatj
 婀娜	ozlovz
 站穩	ozlvvg
-看齊	p1oqy
+情殇	p1fus
+情殤	p1fus
+情況	p1ilq
+情愫	p1pgp
+情癡	p1yit
+快閃	p2rrw
 鱼叉	pa1boo
 鱼卵	pa1ioo
 鱼鳔	pa1pcg
@@ -5846,6 +5879,7 @@ encoder:
 暢達	pjsgud
 暢遊	pjsiwd
 暢旺	pjsjme
+暢快	pjsp2
 暢飲	pjsqnv
 暢敍	pjsrfb
 暢敘	pjsrfe
@@ -5855,7 +5889,6 @@ encoder:
 暢談	pjsumm
 暢行	pjsvjs
 暢順	pjsxum
-暢快	pjsy2
 憐憫	pkaprx
 憐惜	pkapsj
 憐恤	pkapwz
@@ -5961,6 +5994,7 @@ encoder:
 絞殺	pozzfq
 絞車	pozzj1
 絲綢	ppcphl
+絲瓜	ppcvp1
 纔要	ppoc1
 纔剛	ppocqx
 纔來	ppoej1
@@ -6017,7 +6051,6 @@ encoder:
 憫惜	prxpsj
 惜敗	psjmeu
 懵懂	psmpsn
-头禅	pt1gqd
 對換	puaapt
 對沖	puailc
 對峙	puajga
@@ -6595,6 +6628,7 @@ encoder:
 苦恋	sburgy
 苦悶	sburgy
 苦蔘	sbusks
+苦瓜	sbuvp1
 茏葱	sbwshg
 鑑權	sbzfsc
 鑑定	sbzhft
@@ -6770,21 +6804,21 @@ encoder:
 蒜泥	sggibi
 蒜瓣	sggovo
 蒜毫	sggoxn
-蒜头	sggpt1
 蒜薹	sggsgh
 蒜苔	sggskl
 蒜苗	sggsne
 蒜黄	sggspu
 蒜黃	sggsyu
+蒜头	sggyt1
 孽债	sgkegc
 孽債	sgkegm
 孽根	sgkfps
 孽缘	sgknre
 孽畜	sgkoun
+孽情	sgkp1
 孽緣	sgkpre
 孽种	sgkvlc
 孽種	sgkvzn
-孽情	sgky1
 孽障	sgkzoj
 錶鏈	sgwszd
 散悶	sh1rgy
@@ -6794,7 +6828,6 @@ encoder:
 蔡駿	shgjke
 葱绿	shgnxv
 葱綠	shgprv
-葱头	shgpt1
 葱翠	shgqqd
 葱茏	shgsbw
 葱花	shgsei
@@ -6803,6 +6836,7 @@ encoder:
 葱蘢	shgsoz
 葱黄	shgspu
 葱黃	shgsyu
+葱头	shgyt1
 驚豔	shjjcz
 荀子	shjkv1
 驚嚇	shjlgu
@@ -6956,6 +6990,7 @@ encoder:
 金鐘	sn1son
 金铃	sn1trb
 金磚	sn1uza
+金瓜	sn1vp1
 金蝉	sn1vqd
 金猪	sn1xgj
 金鷹	sn1yet
@@ -7022,6 +7057,7 @@ encoder:
 黄芪	spusia
 藓苔	spuskl
 黄芩	spusrv
+黄瓜	spuvp1
 黄疸	spuyjf
 黄巢	spuyjf
 錚錚	spvspv
@@ -7115,6 +7151,7 @@ encoder:
 菜乾	svfdjv
 菜窖	svfhtl
 菜蔬	svfsvq
+菜瓜	svfvp1
 菜肴	svfzsh
 蔬果	svqjfi
 蔬菜	svqsvf
@@ -7173,6 +7210,7 @@ encoder:
 蘑菇	syusob
 黃芩	syusrv
 黃鱔	syutul
+黃瓜	syuvp1
 黃蠟	syuvyd
 黃疸	syuyjf
 黃巢	syuyjf
@@ -7194,12 +7232,12 @@ encoder:
 鏈式	szdyyi
 鏈輪	szdzro
 鏈軌	szdzwh
+鍾情	sznp1
 鍾華	sznsns
 鍾愛	sznvpe
 鍾馗	sznwqm
 鍾書	sznxgj
 鍾離	sznxxc
-鍾情	szny1
 萝岗	szujcz
 夢魘	szukjg
 夢遺	szulkd
@@ -7378,6 +7416,7 @@ encoder:
 太倉	toorol
 太鋼	tooscj
 太爺	toouzz
+太广	tooyt1
 犒赏	tovkcv
 犒賞	tovkml
 犒勞	tovmmw
@@ -7623,6 +7662,7 @@ encoder:
 蠻勁	upvfyw
 蠻子	upvkv1
 蠻兵	upvnfu
+蠻快	upvp2
 蠻久	upvpoo
 蠻纏	upvpyg
 諍友	upvsbj
@@ -7632,7 +7672,6 @@ encoder:
 諍諫	upvufq
 詭譎	upvuzl
 蠻力	upvwo1
-蠻快	upvy2
 諢號	upzluk
 諢名	upzula
 矾土	uqogi1
@@ -7702,6 +7741,7 @@ encoder:
 骤起	utyran
 骤变	utyrbj
 破鑼	utyszc
+破瓜	utyvp1
 骤升	utywsk
 破產	utyxke
 骤减	utyyyl
@@ -7917,6 +7957,7 @@ encoder:
 香豔	vjkjcz
 香閨	vjkrgg
 香蕈	vjkscj
+香瓜	vjkvp1
 秈米	vjlks1
 秈稻	vjlvvh
 蠍子	vjnkv1
@@ -7946,6 +7987,7 @@ encoder:
 和麪	vlaeev
 和宮	vlahlr
 和暢	vlapjs
+种瓜	vlcvp1
 种猪	vlcxgj
 螻蛄	vlovbu
 愁惨	vmgpks
@@ -7983,6 +8025,26 @@ encoder:
 蛟龙	vozbwk
 蛟河	vozial
 蛟龍	vozohz
+瓜農	vp1csy
+瓜仁	vp1eyr
+瓜棚	vp1fhh
+瓜果	vp1jfi
+瓜类	vp1kt1
+瓜子	vp1kv1
+爱子	vp1kv1
+瓜類	vp1kxm
+瓜叶	vp1ldi
+瓜田	vp1ne1
+爱妾	vp1ooh
+瓜农	vp1pwh
+瓜葉	vp1sgf
+瓜葛	vp1sje
+瓜苗	vp1sne
+瓜皮	vp1ty1
+瓜多	vp1u2
+瓜分	vp1udk
+爱驹	vp1uhl
+瓜片	vp1wn1
 受援	vpbavb
 受寵	vpbhoz
 受虐	vpbkxj
@@ -7997,6 +8059,7 @@ encoder:
 很濃	vpsicy
 很惨	vpspks
 很慘	vpspks
+很广	vpsyt1
 蟾宮	vpuhlr
 螟蛉	vpuvrb
 蟾蜍	vpuvrf
@@ -8148,8 +8211,6 @@ encoder:
 爭豔	vxvjcz
 爭辦	vxvowo
 爭奪	vxvtca
-爱妾	vy1ooh
-爱驹	vy1uhl
 蠟白	vydds1
 蠟像	vydepe
 蠟板	vydfnb
@@ -8180,6 +8241,7 @@ encoder:
 點倉	vzlrol
 點鐘	vzlson
 點陣	vzlzzj
+種瓜	vznvp1
 種群	vznxwu
 種羣	vznxwu
 蚜虫	vzpvv1
@@ -8198,6 +8260,7 @@ encoder:
 笑駡	wcmllj
 午休	wdiefi
 边塞	wdnhsg
+笨瓜	wffvp1
 笨猪	wffxgj
 牀位	wfieou
 牀榻	wfifjq
@@ -8268,6 +8331,7 @@ encoder:
 旮旯	wjkjwh
 笸籮	wklwzc
 笸箩	wklwzu
+番瓜	wknvp1
 翻滚	wkqiow
 翻滾	wkqiow
 翻曬	wkqjfy
@@ -8422,7 +8486,6 @@ encoder:
 猪脑	xgjhxx
 猪油	xgjipb
 猪崽	xgjjng
-猪头	xgjpt1
 猪舍	xgjrnl
 書錄	xgjsrv
 書皮	xgjty1
@@ -8432,6 +8495,7 @@ encoder:
 猪狗	xgjxhl
 猪猡	xgjxzu
 猪瘟	xgjyjz
+猪头	xgjyt1
 猪手	xgjyu1
 狞笑	xhawcm
 獰笑	xhawcm
@@ -8571,6 +8635,8 @@ encoder:
 羣裏	xwuonw
 群交	xwuouz
 羣交	xwuouz
+群情	xwup1
+羣情	xwup1
 群組	xwupmq
 羣組	xwupmq
 群起	xwuran
@@ -8605,8 +8671,6 @@ encoder:
 羣舞	xwuwsa
 群衆	xwuwzy
 羣衆	xwuwzy
-群情	xwuy1
-羣情	xwuy1
 群眾	xwuzer
 羣眾	xwuzer
 離休	xxcefi
@@ -8630,12 +8694,7 @@ encoder:
 獨擋	xzvakn
 獨佔	xzvezl
 獨吞	xzvftl
-情殇	y1fus
-情殤	y1fus
-情況	y1ilq
-情愫	y1pgp
-情癡	y1yit
-快閃	y2rrw
+看齊	y1oqy
 辱駡	yahllj
 疤瘌	yaiyfx
 冻僵	yakeff
@@ -8688,6 +8747,7 @@ encoder:
 病貓	yfrlsn
 病牀	yfrwfi
 病癒	yfryrg
+麻瓜	yg1vp1
 廚櫃	ygafkm
 廚衛	ygavjj
 廚衞	ygavjj
@@ -8733,11 +8793,11 @@ encoder:
 凝滯	yitisr
 癡迷	yitkdn
 癡呆	yitlfi
+癡情	yitp1
 癡線	yitpdv
 癡戀	yitupg
 癡笑	yitwcm
 癡狂	yitxme
-癡情	yity1
 癡癡	yityit
 憑眺	yjgmqy
 憑弔	yjgncn
@@ -8789,7 +8849,46 @@ encoder:
 遮瑕	ysdmbb
 鹧鸪	ysnbnn
 廣泛	ysuiwd
+广东	yt1akj
+广播	yt1awn
+广辟	yt1blo
+广西	yt1cu1
+广园	yt1dfp
+广博	yt1dma
+广本	yt1ffk
+广元	yt1fpr
+头禅	yt1gqd
+广场	yt1gvs
+广域	yt1gyf
+广安	yt1hoh
+广源	yt1ikk
+广深	yt1ipf
+广漠	yt1ist
 广泛	yt1iwd
+广州	yt1ixh
+广医	yt1kqj
+广纳	yt1ncr
+广岛	yt1njl
+广韵	yt1ojy
+广交	yt1ouz
+广为	yt1owo
+广义	yt1ozi
+广袤	yt1ozw
+广电	yt1pd1
+广角	yt1pzu
+头角	yt1pzu
+广大	yt1t1
+头大	yt1t1
+广达	yt1tdn
+广告	yt1tla
+广铁	yt1twl
+广德	yt1vdg
+广受	yt1vpb
+广收	yt1xeu
+广阔	yt1xil
+广顺	yt1xuc
+广度	yt1ysb
+广陵	yt1zge
 疵瑕	ytimbb
 疲睏	ytymdf
 疲勞	ytymmw

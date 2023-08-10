@@ -9538,7 +9538,6 @@ columns:
 皎	doz	471
 𭃠	doz	0
 𰵦	doz	0
-讲	dp1	24219
 𦫙	dpa	0
 𦫛	dpa	0
 𣀍	dpb	0
@@ -10190,6 +10189,7 @@ columns:
 𭃉	dxy	0
 郪	dxz	0
 𬐢	dxz	0
+讲	dy1	24219
 𤾖	dya	0
 𨚵	dya	0
 𢿎	dyb	0
@@ -54819,7 +54819,8 @@ columns:
 𰁞	ozy	0
 妤	ozz	344
 𥃐	ozz	0
-看	p1	404707
+情	p1	202111
+快	p2	95556
 鱼	pa1	13661
 ⻥	pa1	0
 䋋	paa	0
@@ -57881,7 +57882,6 @@ columns:
 𢣜	psz	0
 𭝣	psz	0
 𱟉	psz	0
-头	pt1	228219
 慑	ptb	961
 冣	ptb	0
 緅	ptb	0
@@ -83792,6 +83792,7 @@ columns:
 𱎋	voz	0
 𱶞	voz	0
 𲁝	voz	0
+爱	vp1	71893
 瓜	vp1	6841
 ⽠	vp1	0
 舜	vpa	500
@@ -85516,7 +85517,6 @@ columns:
 𬠨	vxz	0
 𮃘	vxz	0
 𲀉	vxz	0
-爱	vy1	71893
 䅊	vya	0
 䅶	vya	0
 𡭑	vya	0
@@ -92411,8 +92411,7 @@ columns:
 𨛺	xzy	0
 𤝉	xzz	0
 𤞡	xzz	0
-情	y1	202111
-快	y2	95556
+看	y1	404707
 冺	yaa	0
 𤵤	yaa	0
 𤸟	yaa	0
@@ -95067,6 +95066,7 @@ columns:
 𫸋	ysz	0
 𱝈	ysz	0
 𲆑	ysz	0
+头	yt1	228219
 广	yt1	17777
 ⼴	yt1	0
 𪪔	yta	0
@@ -99135,17 +99135,17 @@ columns:
 不是	i2
 不过	i2
 好的	o2
+情况	p2
 大家	t2
 大概	t2
 我们	w2
 我的	w2
 这个	x2
 这样	x2
-情况	y2
 已经	al2
 因为	dt2
 什么	ed2
-冬天	ep2
+冬天	ey2
 两个	fc2
 喜爱	gl2
 没有	iq2
