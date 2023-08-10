@@ -1,41 +1,41 @@
        │========   Q   ========│       │========   W   ========│       │========   E   ========│       │========   R   ========│       │========   T   ========│
-       │缶   Qe│几   Qh│习   Qi│       │𧘇   Wh│九   Wh│非   Wi│       │㇉   Eg│𡿨   Eg│乚   Eg│       │長   Ra│僉   Rd│合   Rh│       │耳   Te│大   Tj│牛   Tl│
-       │矢   Qj│戸   Qk│户   Qk│       │气   Wj│齒   Wk│丿   Wk│       │川   Eh│生   Ei│來   Ej│       │鬥   Ri│亦   Rj│巾   Rk│       │⺧   Tl│鳥   Tm│鳥上 Tm│
-       │食   Ql│殳   Qm│身   Qn│       │力   Wl│爿   Wm│片   Wn│       │風   Ek│亻   El│亡   Em│       │走   Rl│門   Rm│乃   Rn│       │魚   Tn│龰   To│烏上 To│
-       │丷   Qo│丬   Qo│䒑   Qo│       │𠂉   Wo│竹   Wo│⺮右 Wo│       │贏頭 Em│豕   En│飛   Eo│       │革   Ro│丌   Rp│囟框 Rs│       │烏   To│钅   Tu│止   Tw│
-       │リ   Qo│戶   Qp│荒下 Qr│       │皮   Wu│       │       │       │𡗗   Es│夊   Eu│       │       │向框 Rs│向   Rs│互中 Ru│
+       │缶   Qe│几   Qh│习   Qi│       │𧘇   Wh│九   Wh│非   Wi│       │㇉   Eg│𡿨   Eg│乚   Eg│       │長   Ra│僉   Rd│合   Rh│       │耳   Te│大   Tj│止   Tk│
+       │矢   Qj│戸   Qk│户   Qk│       │气   Wj│齒   Wk│丿   Wk│       │川   Eh│生   Ei│來   Ej│       │鬥   Ri│亦   Rj│巾   Rk│       │⺧   Tl│牛   Tl│鳥   Tm│
+       │食   Ql│殳   Qm│身   Qn│       │力   Wl│片   Wn│𠂉   Wo│       │風   Ek│亻   El│亡   Em│       │走   Rl│門   Rm│乃   Rn│       │鳥上 Tm│魚   Tn│烏   To│
+       │丷   Qo│丬   Qo│䒑   Qo│       │竹   Wo│⺮右 Wo│爿   Wp│       │贏頭 Em│豕   En│飛   Eo│       │革   Ro│丌   Rp│囟框 Rs│       │烏上 To│龰   To│钅   Tu│
+       │リ   Qo│戶   Qp│荒下 Qr│       │皮   Wu│       │       │       │𡗗   Ep│夊   Eu│       │       │向框 Rs│向   Rs│互中 Ru│
        │儿   Qr│鹵   Qu│       │       │       │       │       │       │       │       │       │       │母框 Ru│镸   Ru│彑   Ru│
        │       │       │       │       │       │       │       │       │       │       │       │       │母   Ru│人   Rw│髟   Ry│
 
        │========   Y   ========│       │========   U   ========│       │========   I   ========│       │========   O   ========│       │========   P   ========│
-       │疒   Ya│麻   Yc│戊   Yd│       │丂   Ua│夕   Ue│羊   Ug│       │匕   Ib│黽   Ic│氵   Ic│       │豸   Od│鼠下 Od│口   Oi│       │由   Pb│糸   Pc│糹   Pc│
+       │疒   Yb│麻   Yc│戊   Yd│       │丂   Ua│夕   Ue│羊   Ug│       │匕   Ib│黽   Ic│氵   Ic│       │豸   Od│鼠下 Od│口   Oi│       │由   Pb│糸   Pc│糹   Pc│
        │辰   Ye│手   Yg│龵   Yg│       │言   Ui│瓦   Uk│幺   Uo│       │兴上 Ic│⺍   Ic│龜下 Ic│       │〇   Oo│长   Os│舌   Ox│       │电   Pd│鱼   Pe│业   Pf│
-       │工   Yp│弋   Yq│二   Yr│       │八   Us│介下 Us│石   Ut│       │專上 Ie│叀   Ie│車   Ie│       │       │       │       │       │冖   Pg│忄   Pk│兀   Pr│
-       │⺀   Yr│戈   Ys│鹿上 Yv│       │丆   Ut│马   Uv│三   Uw│       │乐上 Ij│齊右 Ij│卯左 Ij│       │       │       │       │       │艮   Ps│廴   Pu│申   Px│
+       │工   Yp│弋   Yq│二   Yr│       │八   Us│介下 Us│丆   Ut│       │專上 Ie│叀   Ie│車   Ie│       │       │       │       │       │冖   Pg│忄   Pk│兀   Pr│
+       │⺀   Yr│戈   Ys│鹿上 Yv│       │石   Ut│马   Uv│三   Uw│       │乐上 Ij│齊右 Ij│卯左 Ij│       │       │       │       │       │艮   Ps│廴   Pw│申   Px│
        │鹿   Yv│广   Yw│巜   Yz│       │       │       │       │       │卯   Ij│卬左 Ij│方   Ir│
        │巛   Yz│       │       │       │       │       │       │       │不   Iv│
 
        │========   A   ========│       │========   S   ========│       │========   D   ========│       │========   F   ========│       │========   G   ========│
-       │巳   Ae│丁   Ah│寸   Ai│       │左上 Sh│乜   Si│也   Si│       │亥   Da│囗   Ddf│十   Di│       │木   Fi│一   Fk│       │       │龶   Gh│土   Gi│耂   Gi│
-       │巴   Aj│キ   Ak│ヰ   Ak│       │金   Sj│卝   Sk│艹   Sk│       │之   Dj│刀   Dk│辶   Dn│       │       │       │       │       │示   Gl│鬼   Gm│卑上 Gm│
-       │扌   Ak│七   Ak│己   An│       │未   Sk│龷   Sk│卌   Sk│       │白   Ds│讠   Du│夫   Dw│       │       │       │       │       │世   Gn│𠂤   Gs│士   Gu│
+       │巳   Ae│丁   Ah│寸   Ai│       │左上 Sh│乜   Si│也   Si│       │亥   Da│囗   Ddf│十   Di│       │木   Fi│一   Fk│       │       │𠂤   Gd│龶   Gh│土   Gi│
+       │巴   Aj│キ   Ak│ヰ   Ak│       │金   Sj│卝   Sk│艹   Sk│       │之   Dj│刀   Dk│辶   Dn│       │       │       │       │       │耂   Gi│示   Gl│鬼   Gm│
+       │扌   Ak│七   Ak│己   An│       │未   Sk│龷   Sk│卌   Sk│       │白   Ds│讠   Du│夫   Dw│       │       │       │       │       │卑上 Gm│世   Gn│士   Gu│
        │已   Ao│       │       │       │卅   Sk│卄   Sk│冓上 Sk│       │       │       │       │       │       │       │       │       │穀頭 Gu│心   Gy│
        │       │       │       │       │末   Sm│两撇 Sn│癶右 Sn│
        │       │       │       │       │彡   Sn│入   So│丑   Sp│
 
        │========   H   ========│       │========   J   ========│       │========   K   ========│       │========   L   ========│
-       │至   Hc│臼   Hd│宀   Hf│       │早   Ja│乍下 Jd│卜   Jd│       │厂   Ka│畏下 Kc│了   Kc│       │冎   La│咼   La│女   Lc│
+       │宀   Hb│至   Hc│臼   Hd│       │早   Ja│乍下 Jd│卜   Jd│       │厂   Ka│畏下 Kc│了   Kc│       │冎   La│咼   La│女   Lc│
        │祭上 Hr│⺆   Hr│月   Hr│       │爲下 Jd│龍右 Jd│山   Je│       │匚   Kc│亞中 Kc│亞下 Kc│       │而   Le│丶   Ll│乀   Ll│
        │勹   Hr│穴   Hv│       │       │曰   Jf│日   Jk│馬   Jr│       │龸   Kd│尚   Kd│厶   Kf│       │面   Lt│立   Lu│高頭 Lv│
-       │       │       │       │       │馬上 Jr│于下 Jv│亍   Jw│       │上   Kg│丄   Kg│小   Kj│       │高   Lv│京頭 Lv│亮頭 Lv│
-       │       │       │       │       │韋   Jx│五下 Jx│       │       │虎头 Kk│虎   Kk│米   Ks│       │亠   Lw│冊   Lw│辛   Lx│
-       │       │       │       │       │       │       │       │       │子   Kv│饣   Kw│
+       │       │       │       │       │馬上 Jr│于下 Jv│亍   Jw│       │上   Kg│丄   Kg│饣   Ki│       │高   Lv│京頭 Lv│亮頭 Lv│
+       │       │       │       │       │五下 Jx│韋   Jx│       │       │小   Kj│虎头 Kk│虎   Kk│       │亠   Lw│冊   Lw│辛   Lx│
+       │       │       │       │       │       │       │       │       │米   Ks│子   Kv│
 
        │========   Z   ========│       │========   X   ========│       │========   C   ========│       │========   V   ========│       │========   B   ========│
-       │罒   Zh│𠂭   Zi│乂   Zi│       │舟   Xc│刂   Xd│毛   Xe│       │隹   Ci│酉   Ck│冂   Ck│       │禺   Ve│黑   Vh│㔾   Vi│       │臣   Bc│尢   Bd│尤   Bd│
-       │予   Zj│壬   Zk│阝   Zl│       │其   Xi│肀   Xj│反彐 Xj│       │雋下 Ck│冂丶 Ck│夭   Cm│       │乁   Vi│乛   Vi│亅   Vi│       │癶   Bj│ス   Bj│コ   Bj│
-       │皿   Zm│千   Zo│牙   Zp│       │彐   Xj│门   Xk│犭   Xl│       │〢   Cn│丨   Cn│丰   Cn│       │𠄎   Vi│乙   Vi│微上 Vj│       │又   Bj│マ   Bj│下   Bk│
-       │用   Zu│       │       │       │犬   Xl│卩   Xo│文   Xr│       │〣   Cn│雨   Co│西   Cu│       │彳   Vj│爪   Vk│禾   Vn│       │丅   Bk│足   Bn│眉上 Bo│
+       │𠂭   Zi│乂   Zi│予   Zj│       │刂   Xd│毛   Xe│其   Xi│       │隹   Ci│酉   Ck│冂   Ck│       │禺   Ve│黑   Vh│㔾   Vi│       │臣   Bc│尢   Bd│尤   Bd│
+       │壬   Zk│阝   Zl│皿   Zm│       │肀   Xj│反彐 Xj│彐   Xj│       │雋下 Ck│冂丶 Ck│夭   Cm│       │乁   Vi│乛   Vi│亅   Vi│       │癶   Bj│ス   Bj│コ   Bj│
+       │罒   Zn│千   Zo│牙   Zp│       │门   Xk│犭   Xl│犬   Xl│       │〢   Cn│丨   Cn│丰   Cn│       │𠄎   Vi│乙   Vi│微上 Vj│       │又   Bj│マ   Bj│下   Bk│
+       │用   Zu│       │       │       │卩   Xo│舟   Xo│文   Xr│       │〣   Cn│雨   Co│西   Cu│       │彳   Vj│爪   Vk│禾   Vn│       │丅   Bk│足   Bn│眉上 Bo│
        │       │       │       │       │凵   Xs│屮   Xs│丱   Xs│       │襾   Cu│贝   Cv│见   Cy│       │骨   Vo│瓜   Vs│水   Vu│       │尸   Bo│古   Bu│
        │       │       │       │       │丩   Xs│       │       │       │       │       │       │       │虫   Vv│
 

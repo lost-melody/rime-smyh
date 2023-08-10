@@ -901,7 +901,7 @@
 集團	cfdi
 彷彿	vivn
 年齡	wawr
-停止	eltw
+停止	eltk
 大約	tjph
 持續	agpg
 道理	qmmn
@@ -1497,7 +1497,7 @@
 數據	odak
 工具	ypmu
 效率	lulu
-防止	zitw
+防止	zitk
 貧困	uddf
 北方	qiir
 失敗	wdme
@@ -1765,7 +1765,7 @@
 參考	kkgu
 難免	sfpo
 珍惜	mrps
-阻止	zmtw
+阻止	zmtk
 擴展	aybs
 中原	ockd
 喫驚	ocsh
@@ -1894,7 +1894,7 @@
 屬性	bvpe
 無窮	wshq
 蝴蝶	vbvg
-終止	petw
+終止	petk
 寶貝	hmmo
 颱風	ekek
 集合	cfrh
@@ -2304,7 +2304,7 @@
 整頓	foax
 士兵	gunf
 善於	uqir
-禁止	fftw
+禁止	fftk
 個别	edow
 人均	rwgh
 車輛	ieif
@@ -3485,7 +3485,7 @@
 激發	idbn
 帶頭	sffo
 昆明	jijh
-制止	tctw
+制止	tctk
 來訪	ejui
 倡導	ejqm
 新加坡	lwgw
@@ -3522,7 +3522,7 @@
 債務	egzw
 空軍	hypi
 公社	ukgg
-爲止	vjtw
+爲止	vjtk
 前夕	qhue
 護士	usgu
 水果	vujf
@@ -3580,7 +3580,7 @@
 華僑	snec
 利率	vxlu
 向上	rskg
-不止	ivtw
+不止	ivtk
 保健	eoex
 好多	lkuu
 凌晨	ygjy
@@ -4188,7 +4188,7 @@
 尋覓	xyvm
 沉澱	ipib
 工序	ypyz
-舉止	hutw
+舉止	hutk
 索取	dptb
 迎合	ixrh
 真空	dmhy
@@ -9632,7 +9632,7 @@
 請示	uggl
 興旺	hcjm
 下場	bkgj
-截止	dytw
+截止	dytk
 輪胎	irhk
 鎮靜	sdgh
 諸位	ugel
@@ -9737,7 +9737,7 @@
 審訊	hwuv
 寫照	hhjd
 絲綢	ppph
-靜止	ghtw
+靜止	ghtk
 圍剿	djyj
 千千萬萬	zzss
 公家	ukhe
@@ -14942,7 +14942,7 @@
 清點	igvj
 驅散	jksh
 鍾愛	szvp
-何止	eatw
+何止	eatk
 浮腫	ivhz
 牢房	htqi
 隨處	zske
@@ -15510,7 +15510,7 @@
 滚蛋	ilvt
 花圃	sedm
 螺絲	vnpp
-止血	twwz
+止血	tkwz
 朝拜	djyf
 古裝	buwg
 滿分	isud
@@ -17728,7 +17728,7 @@
 失手	wdyg
 排場	awgj
 世襲	gnlh
-止步	twtk
+止步	tktk
 慈悲	quwg
 費心	nugy
 虎口	kkoi
@@ -19554,9 +19554,9 @@
 服務器	hzoo
 情誼	pguh
 修路	ecbe
-廢止	ybtw
+廢止	ybtk
 網民	pcaa
-中止	octw
+中止	octk
 敘事	rfjo
 佈滿	esis
 能耗	khcu
@@ -19726,7 +19726,7 @@
 摇曳	avpw
 照舊	jdsc
 回訪	doui
-龍舟	lhxc
+龍舟	lhxo
 菜農	svcs
 當月	knhr
 幾經	uupf
@@ -20368,7 +20368,7 @@
 訓話	ueuo
 會商	rflq
 求人	fvrw
-休止	eftw
+休止	eftk
 紅燒	pymg
 石墨	utvg
 災禍	ymgl
@@ -20747,7 +20747,7 @@
 賢惠	bbig
 相投	fmaq
 倒戈	ehys
-方舟	irxc
+方舟	irxo
 洗滌劑	iilq
 淋浴	ifiu
 聲部	gblo
@@ -20820,7 +20820,7 @@
 玄妙	lulk
 白搭	dsas
 訛詐	ueuw
-泛舟	iwxc
+泛舟	iwxo
 和美	vout
 飄摇	cgav
 認領	udrl
@@ -21761,7 +21761,7 @@
 千百萬	zusv
 甜味	osos
 般若	xqss
-舟山	xcje
+舟山	xoje
 船頭	xqfo
 造物	toth
 算作	wmew
@@ -22581,7 +22581,7 @@
 角膜	pzhs
 教士	gkgu
 賣力	gzwl
-豈止	jftw
+豈止	jftk
 取信於民	teia
 書稿	xgvl
 相親	fmlf
@@ -24737,7 +24737,7 @@
 應得	yevj
 樹脂	fghi
 盈餘	rbqr
-止境	twgl
+止境	tkgl
 助學金	mhsj
 八哥	usao
 爹孃	uzll
@@ -25152,7 +25152,7 @@
 心性	gype
 物慾	thur
 陰間	zrrj
-止痛	twyb
+止痛	tkyb
 專刊	ianx
 理髮店	mryj
 棲身	fdqn
@@ -25777,7 +25777,7 @@
 上肢	kghd
 腥臭	hjmx
 姨娘	ltll
-抑止	aitw
+抑止	aitk
 陳規陋習	zdzq
 掛彩	agvf
 家傳	heei
@@ -27895,7 +27895,7 @@
 風吹日曬	eojj
 年曆	wakv
 扭送	asqt
-輕舟	ifxc
+輕舟	ifxo
 削髮	khrs
 自勉	mcpo
 總機	prfu
@@ -31670,7 +31670,7 @@
 財閥	mjre
 層巒疊嶂	bunj
 燈草	mbsj
-獨木舟	xfxc
+獨木舟	xfxo
 巨擘	kbbo
 葉輪	sgir
 扎堆	aegc
@@ -32194,7 +32194,7 @@
 上屆	kgbg
 上船	kgxq
 上位	kgel
-止住	twel
+止住	tkel
 督軍	kkpi
 桌球	jjmf
 點睛	vjmg
@@ -33893,7 +33893,7 @@
 互爲因果	fvdj
 一夜之間	
 頗有	wush
-止咳	twod
+止咳	tkod
 卡鉗	kjss
 舊貌	scod
 滿地	isgs
@@ -36602,7 +36602,7 @@
 代金	eysj
 焊條	mjec
 狐仙	xvej
-勸止	sotw
+勸止	sotk
 油泥	ipib
 招認	adud
 假案	ebhl
@@ -38011,7 +38011,7 @@
 介乎	ruwq
 豈但	jfej
 勤雜	rylr
-行止	vjtw
+行止	vjtk
 疾速	yqfo
 義勇	uwbz
 飲泣	qnil
@@ -38039,7 +38039,7 @@
 扶正祛邪	afgz
 聲名鵲起	gusr
 洋奴	iulb
-舟楫	xcfo
+舟楫	xofo
 做鬼	ebgm
 不好惹	ilss
 盜掘	inab
@@ -38541,7 +38541,7 @@
 也能	sikh
 也想	sifm
 也行	sivj
-孤舟	kvxc
+孤舟	kvxo
 附贈	zemq
 勁草	fysj
 驅蚊	jkvx
@@ -38970,7 +38970,7 @@
 它的	hidh
 神甫	gpmt
 禮包	gcha
-神舟	gpxc
+神舟	gpxo
 視差	gmuy
 社保	ggeo
 視作	gmew
@@ -39367,7 +39367,7 @@
 在册	schh
 南麓	dcff
 堅冰	bbyv
-觀止	sotw
+觀止	sotk
 監事	bwjo
 追記	gdua
 嚶嚶	omom
@@ -41090,7 +41090,7 @@
 竈君	hgxw
 採種	avvz
 醜行	cgvj
-盪舟	ijxc
+盪舟	ijxo
 商圈	lqdq
 縮微	phvf
 烘烘	msms
@@ -41621,7 +41621,7 @@
 虎豹	kkoh
 虎皮	kkwu
 上院	kgzh
-止渴	twij
+止渴	tkij
 卡號	kjou
 卡紙	kjpi
 步出	tkxx
@@ -42940,7 +42940,7 @@
 眼藥水	msvu
 虎嘯	kkox
 盱眙	mfmk
-止於	twir
+止於	tkir
 上移	kgvu
 眼淚汪汪	miii
 步幅	tkrf
@@ -43689,7 +43689,7 @@
 灌裝	iswg
 正誤	ftuo
 乏術	wdvf
-起止	ratw
+起止	ratk
 上綱上線	kpkp
 裹脅	ljww
 送檢	qtfr
@@ -44809,7 +44809,7 @@
 激變	idup
 嬸母	lhru
 戴高帽	dlrc
-覆舟	cvxc
+覆舟	cvxo
 夾衣	trlw
 諍友	upsb
 開屏	rfbq
@@ -46196,7 +46196,7 @@
 用人不疑	zrii
 腦波	hyiw
 載滿	dyis
-載舟	dyxc
+載舟	dyxo
 南聯盟	dtjh
 卻有	ursh
 支起	dbra
@@ -46271,7 +46271,7 @@
 上奏	kgef
 上元	kgfp
 上站	kglj
-止癢	twyq
+止癢	tkyq
 舊車	scie
 舊的	scdh
 舊稱	scvv
@@ -48540,7 +48540,7 @@
 監押	bwan
 癖性	ybpe
 耍奸	llln
-限止	zptw
+限止	zptk
 扶病	adyf
 門額	rmhe
 皮筏	wuwe

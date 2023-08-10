@@ -475,7 +475,17 @@ encoder:
 拱衛	asuvjj
 拱衞	asuvjj
 拱猪	asuxgj
+撩撥	atkabq
+撩拨	atkaxl
 撩逗	atkfod
+撩开	atkfsk
+扯开	atkfsk
+撩妹	atklsk
+撩起	atkran
+撩開	atkrfs
+扯開	atkrfs
+撩人	atkrw1
+撩惹	atkssg
 攝錄	attsrv
 扮靚	audghm
 頂峰	aumjec
@@ -1391,7 +1401,7 @@ encoder:
 休养	efiqdu
 休所	efiqnc
 休閒	efirhr
-休止	efitw1
+休止	efitk1
 休謨	efiust
 休闲	efixfi
 休斯	efixnc
@@ -2172,6 +2182,8 @@ encoder:
 天爺	ftjuzz
 天籁	ftjwfc
 天籟	ftjwfm
+正宮	ftkhor
+正畸	ftknto
 檉柳	ftmfij
 吞掉	ftoajj
 吞下	ftob1
@@ -2195,8 +2207,6 @@ encoder:
 吞并	ftoqsk
 吞金	ftosj1
 株連	ftuidn
-正宮	ftwhor
-正畸	ftwnto
 椰棗	ftzfcc
 椰枣	ftzfcy
 鄢陵	ftzzge
@@ -2365,7 +2375,7 @@ encoder:
 麦迪	geupdn
 麦茬	geussg
 麦秸	geuvgo
-福祉	gfngtw
+福祉	gfngtk
 師爺	gfruzz
 穀倉	gfvrlo
 封為	ggaljd
@@ -2460,9 +2470,9 @@ encoder:
 靜觀	ghvsom
 静物	ghvths
 靜物	ghvths
+静止	ghvtk1
+靜止	ghvtk1
 靜聽	ghvtmg
-静止	ghvtw1
-靜止	ghvtw1
 靜謐	ghvugz
 静美	ghvutj
 靜美	ghvutj
@@ -2637,7 +2647,7 @@ encoder:
 毒癮	gruyzg
 坩堝	gsygla
 坩埚	gsygor
-址栏	gtwfqy
+址栏	gtkfqy
 考覈	guacde
 考纲	guancz
 考績	guapgm
@@ -2805,6 +2815,7 @@ encoder:
 蜜饯	hgvkfy
 蜜餞	hgvqyy
 脚凳	hgxbfq
+脚镣	hgxttk
 窒塞	hhchsg
 窒息	hhcmgy
 删改	hhxaeu
@@ -2920,7 +2931,7 @@ encoder:
 宮牆	horwgo
 宮廟	horydh
 宮院	horzhp
-宮廷	horzpu
+宮廷	horzpw
 腭裂	houfuw
 够嗆	houoro
 够呛	houorv
@@ -3112,6 +3123,7 @@ encoder:
 腳燈	huxmbq
 腳貓	huxosn
 腳釦	huxsoi
+腳鐐	huxstk
 腳鐲	huxszv
 腳註	huxulm
 寢宮	hwbhor
@@ -3582,7 +3594,7 @@ encoder:
 温習	ijzqqd
 温驯	ijzueh
 温牀	ijzwfi
-盪舟	ijzxc1
+盪舟	ijzxo1
 淑静	ikbghv
 淑靜	ikbghv
 滙豐	ikcjcq
@@ -4031,7 +4043,7 @@ encoder:
 泛称	iwdvpk
 泛稱	iwdvvg
 泛出	iwdx2
-泛舟	iwdxc1
+泛舟	iwdxo1
 淵博	iwfdma
 淵潭	iwficj
 淵源	iwfikk
@@ -4161,7 +4173,7 @@ encoder:
 豈會	jfqrfj
 豈有	jfqs2
 豈肯	jfqthr
-豈止	jfqtw1
+豈止	jfqtk1
 豈敢	jfqvte
 豈非	jfqwi1
 曬乾	jfydjv
@@ -4651,7 +4663,7 @@ encoder:
 為著	ljdsgj
 為大	ljdt1
 為此	ljdtib
-為止	ljdtw1
+為止	ljdtk1
 為着	ljdu1
 為證	ljdubq
 為誰	ljduci
@@ -5792,8 +5804,8 @@ encoder:
 遺禍	okdgla
 遗毒	okdgru
 遺毒	okdgru
-遗址	okdgtw
-遺址	okdgtw
+遗址	okdgtk
+遺址	okdgtk
 遗容	okdhro
 遺容	okdhro
 遗腹	okdhwe
@@ -7469,6 +7481,7 @@ encoder:
 錨鏈	ssnsid
 鈕釦	sspsoi
 苷酸	ssycke
+鐐銬	stksgu
 鈦金	stlsj1
 蘋果	stmjfi
 鑽牀	stmwfi
@@ -7828,6 +7841,7 @@ encoder:
 龃龉	trmtro
 夾註	trrulm
 鮁魚	tsltn1
+镣铐	ttktgu
 鮮膜	tughst
 鮮豔	tugjcz
 铭瑄	tuomhf
@@ -8742,7 +8756,6 @@ encoder:
 发嗲	xblouu
 发蔫	xblsfm
 发薪	xblsln
-舟楫	xc1fot
 毛蚴	xe1vuw
 毛笋	xe1wxw
 甚矣	xegkqj
@@ -8861,6 +8874,7 @@ encoder:
 猥瑣	xnkmkm
 猕猴	xnkxeq
 狸貓	xntosn
+舟楫	xo1fot
 吝啬	xoidqo
 吝嗇	xoigro
 吝惜	xoipsj
