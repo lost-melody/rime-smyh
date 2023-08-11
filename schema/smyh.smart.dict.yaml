@@ -223,7 +223,7 @@ encoder:
 熨平	bgmnqo
 熨帖	bgmrjo
 熨斗	bgmydi
-蹿红	bhcnyp
+蹿红	bhcnyx
 胡椒	bhrfkb
 尼迪	bibpdn
 蹦迪	bjhpdn
@@ -637,7 +637,7 @@ encoder:
 枣树	fcyfba
 枣泥	fcyibi
 枣子	fcykv1
-枣红	fcynyp
+枣红	fcynyx
 枣庄	fcyygi
 柬埔	fdqgmt
 禁锢	ffgtdb
@@ -819,7 +819,7 @@ encoder:
 求援	fvlavb
 杨浦	fvsimt
 槓桿	fymfjn
-杠铃	fyptrb
+杠铃	fyxtrb
 橢圓	fzhdom
 攀援	fzyavb
 地膜	g1hst
@@ -959,7 +959,7 @@ encoder:
 興辦	hculwl
 割捨	hcxaro
 胭脂	hdthij
-胭红	hdtnyp
+胭红	hdtnyx
 肤浅	hdwify
 家眷	henqdm
 胳臂	heoboh
@@ -1049,7 +1049,7 @@ encoder:
 脓肿	hpwhoc
 胖墩	hqagle
 股肱	hqmhsk
-脱肛	hqqhyp
+脱肛	hqqhyx
 脱鉤	hqqsho
 膠捲	hqsaqv
 膠囊	hqsdow
@@ -1103,11 +1103,11 @@ encoder:
 肋骨	hwlvo1
 審覈	hwncde
 脑膜	hxxhst
-空泛	hypiwd
-肛交	hypluz
-肛門	hyprm1
-肛门	hypxk1
-空门	hypxk1
+空泛	hyxiwd
+肛交	hyxluz
+肛門	hyxrm1
+肛门	hyxxk1
+空门	hyxxk1
 學習	hzkqqd
 不休	i1efi
 不朽	i1fua
@@ -1205,7 +1205,7 @@ encoder:
 浅显	ifyjpf
 浅近	ifyndn
 浅绿	ifynxv
-浅红	ifynyp
+浅红	ifynyx
 浅色	ifypaj
 浅蓝	ifyscz
 浅薄	ifysia
@@ -1403,7 +1403,7 @@ encoder:
 施捨	iwsaro
 施虐	iwskxj
 旋塞	iwthsg
-漓江	ixkiyp
+漓江	ixkiyx
 擊敗	ixymeu
 淄博	iyndma
 时薪	j2sln
@@ -1574,7 +1574,7 @@ encoder:
 褒貶	lewmwd
 亲眷	lfiqdm
 嫣然	lfmh2
-嫣红	lfmnyp
+嫣红	lfmnyx
 新穎	lfnivm
 辣椒	lfofkb
 衰朽	lfwfua
@@ -1587,7 +1587,7 @@ encoder:
 韶山	ljoje1
 韶光	ljokpr
 韶关	ljoqtj
-竣工	lkeyp1
+竣工	lkeyx1
 京杭	lkjflq
 京郊	lkjluz
 烹调	lkmdho
@@ -1772,8 +1772,8 @@ encoder:
 懸殊	mkgfuu
 悬案	mkghlf
 懸案	mkghlf
-悬空	mkghyp
-懸空	mkghyp
+悬空	mkghyx
+懸空	mkghyx
 悬浮	mkgivk
 懸浮	mkgivk
 悬崖	mkgjkg
@@ -1810,7 +1810,7 @@ encoder:
 勞碌	mmwuxv
 勞力	mmwwl1
 勞資	mmwynm
-勞工	mmwyp1
+勞工	mmwyx1
 勞動	mmwznw
 勞務	mmwzww
 鼻塞	mnrhsg
@@ -1922,12 +1922,12 @@ encoder:
 複習	nweqqd
 男仆	nwlejd
 纨绔	nwlntu
-红枣	nypfcy
-红杏	nypfoi
-红壤	nypglw
-红肿	nyphoc
-红尘	nypkgi
-红苕	nypsdo
+红枣	nyxfcy
+红杏	nyxfoi
+红壤	nyxglw
+红肿	nyxhoc
+红尘	nyxkgi
+红苕	nyxsdo
 弱碱	nyyuyo
 野炊	nzjmnv
 野獸	nzjoox
@@ -2165,9 +2165,9 @@ encoder:
 纏綿	pygpdr
 纏繞	pygpgp
 緘默	pyovxl
-紅棗	pypfcc
-紅燈	pypmbq
-紅塵	pypygi
+紅棗	pyxfcc
+紅燈	pyxmbq
+紅塵	pyxygi
 邮戳	pzlqqy
 角膜	pzuhst
 触摸	pzvast
@@ -2488,7 +2488,6 @@ encoder:
 鍍金	sybsj1
 葳蕤	sylsee
 蔗糖	symkyo
-左倾	sypeic
 蒺藜	syqsvv
 甘休	syrefi
 甘孜	syrkeu
@@ -2497,6 +2496,7 @@ encoder:
 黃連	syuidn
 黃鶯	syummt
 蘑菇	syuslb
+左倾	syxeic
 邯鄲	syzooz
 鑼鼓	szcgob
 鍾愛	sznvpe
@@ -2693,11 +2693,11 @@ encoder:
 誹謗	uwiuli
 破崙	uwujrl
 碱性	uyopei
-差遣	uypokd
 誣衊	uyrwzl
 誠懇	uyvopg
 矿坑	uywglq
 矿渣	uywiff
+差遣	uyxokd
 爺爺	uzzuzz
 衚衕	vbjvcj
 嵇康	vbjyxv
@@ -2800,11 +2800,11 @@ encoder:
 利浦	vxdimt
 默哀	vxllwh
 爭奪	vxvtca
-虹膜	vyphst
-虹燈	vypmbq
 飞泻	vyripf
 飞翔	vyruqq
 飞蝗	vyrvdm
+虹膜	vyxhst
+虹燈	vyxmbq
 蚜虫	vzpvv1
 年宮	wakhor
 年薪	waksln
@@ -2916,7 +2916,7 @@ encoder:
 隶书	xvuvvl
 闽南	xvvdcd
 独吞	xvvfto
-闽江	xvviyp
+闽江	xvviyx
 闽菜	xvvsvf
 猙獰	xvvxha
 肅靜	xwfghv
@@ -2976,7 +2976,6 @@ encoder:
 廓清	ylzigh
 痰盂	ymmfjz
 癌肿	yojhoc
-工薪	yp1sln
 恐嚇	yqgogu
 巩膜	yqlhst
 冷静	yrbghv
@@ -3006,6 +3005,7 @@ encoder:
 疲勞	ywummw
 疲沓	ywuvjk
 疙瘩	ywvysr
+工薪	yx1sln
 废渣	yxliff
 瘠薄	yyhsia
 减薪	yyosln

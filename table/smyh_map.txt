@@ -316,7 +316,6 @@ Yd	戊
 Ye	辰
 Yg	龵
 Yg	手
-Yp	工
 Yq	弋
 Yr	⺀
 Yr	二
@@ -324,6 +323,7 @@ Ys	戈
 Yv	鹿
 Yv	{鹿上}
 Yw	广
+Yx	工
 Yz	巜
 Yz	巛
 Zi	乂

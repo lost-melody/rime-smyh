@@ -18,7 +18,7 @@
 那個	vaed
 遊戲	iwkf
 可以	aoel
-工作	ypew
+工作	yxew
 這些	udti
 什麽	edyw
 社會	ggrf
@@ -765,7 +765,7 @@
 醫生	kqei
 成立	yvlu
 充分	lkud
-工程	ypvo
+工程	yxvo
 原則	kdmx
 同樣	cffu
 隊伍	zqef
@@ -788,7 +788,7 @@
 理想	mnfm
 雙方	ccir
 恢復	psvw
-工業	yppu
+工業	yxpu
 音樂	ljdu
 法國	igdy
 階段	zieu
@@ -1314,7 +1314,7 @@
 創作	rlew
 聯繫	tuix
 目的	mvdh
-工人	yprw
+工人	yxrw
 制度	tcys
 下午	bkwd
 老人	girw
@@ -1392,7 +1392,7 @@
 交流	luil
 學者	hzgj
 嚴格	oofe
-工資	ypyn
+工資	yxyn
 至少	hckw
 産業	lwpu
 監督	bwkk
@@ -1440,7 +1440,7 @@
 讀書	ugxg
 綠色	prpa
 採訪	avui
-加工	woyp
+加工	woyx
 顯然	juhx
 心情	gypg
 導致	qmhe
@@ -1495,7 +1495,7 @@
 法規	igdm
 官員	hbom
 數據	odak
-工具	ypmu
+工具	yxmu
 效率	lulu
 防止	zitk
 貧困	uddf
@@ -1622,7 +1622,7 @@
 陷入	zpso
 脱離	hqxx
 衝擊	vzix
-人工	rwyp
+人工	rwyx
 技能	adkh
 法官	ighb
 到達	hxgu
@@ -2105,7 +2105,7 @@
 大量	tjjf
 批評	aiun
 開展	rfbs
-職工	tlyp
+職工	tlyx
 深刻	ipdx
 主張	lmnr
 堅決	bbib
@@ -2239,7 +2239,7 @@
 中華	ocsn
 指標	aifc
 兩岸	frjk
-工廠	ypyk
+工廠	yxyk
 不必	ivgw
 通信	bzeu
 少數	kwod
@@ -2366,7 +2366,7 @@
 設置	uqzd
 進口	cdoi
 感染	yfiw
-工藝	ypsg
+工藝	yxsg
 局勢	bvgu
 往來	vlej
 貨物	eith
@@ -2549,7 +2549,7 @@
 太子	tlkv
 對抗	pual
 描述	asfl
-工夫	ypdw
+工夫	yxdw
 打聽	aatm
 奬金	whsj
 回收	doxe
@@ -3274,7 +3274,7 @@
 動力	znwl
 院長	zhra
 發行	bnvj
-施工	iwyp
+施工	iwyx
 衆多	wzuu
 違法	jdig
 浙江	iaiy
@@ -3329,7 +3329,7 @@
 千萬	zosv
 住房	elqi
 影片	jlwn
-工會	yprf
+工會	yxrf
 成效	yvlu
 福建	gfxa
 太太	tltl
@@ -3575,7 +3575,7 @@
 珍貴	mrok
 縮小	phkj
 便利	efvx
-分工	udyp
+分工	udyx
 農場	csgj
 華僑	snec
 利率	vxlu
@@ -3608,7 +3608,7 @@
 七月	akhr
 六月	luhr
 收益	xequ
-化工	eiyp
+化工	eiyx
 營業	mmpu
 幽默	juvx
 技巧	adyu
@@ -4004,7 +4004,7 @@
 厭惡	kjfk
 責備	gmes
 敵對	lqpu
-手工	ygyp
+手工	ygyx
 急切	pxad
 起飛	raeo
 下水	bkvu
@@ -4157,7 +4157,7 @@
 樣本	fuff
 好漢	lkis
 半天	qaft
-罷工	zkyp
+罷工	zkyx
 明月	jhhr
 夢幻	szuv
 捨得	arvj
@@ -4188,7 +4188,7 @@
 天使	ftef
 尋覓	xyvm
 沉澱	ipib
-工序	ypyz
+工序	yxyz
 舉止	hutk
 索取	dptb
 迎合	ixrh
@@ -4970,7 +4970,7 @@
 列入	fuso
 尋求	xyfv
 極端	fklj
-工地	ypgs
+工地	yxgs
 支援	dbav
 當選	knaa
 處分	keud
@@ -4995,7 +4995,7 @@
 保衛	eovj
 演講	ihus
 醫藥	kqsd
-民工	aayp
+民工	aayx
 實質	hrnn
 增多	gquu
 表彰	gwlj
@@ -5033,7 +5033,7 @@
 民兵	aanf
 徵求	vffv
 所得	qnvj
-開工	rfyp
+開工	rfyx
 海南	iwdc
 一體	
 限度	zpys
@@ -5228,7 +5228,7 @@
 山水	jevu
 上游	kgii
 花卉	seds
-竣工	lkyp
+竣工	lkyx
 途中	rfoc
 小學生	khei
 傾聽	eitm
@@ -5354,7 +5354,7 @@
 水分	vuud
 保守	eoha
 祖父	gmuz
-女工	lcyp
+女工	lcyx
 河道	iaqm
 辯論	luur
 持有	agsh
@@ -6248,7 +6248,7 @@
 牀鋪	wfsm
 漩渦	iiil
 語重心長	uzgr
-工匠	ypkn
+工匠	yxkn
 捨棄	arlk
 捕獲	amxs
 試探	uyap
@@ -6850,7 +6850,7 @@
 要是	cljf
 高原	lvkd
 失業	wdpu
-工商	yplq
+工商	yxlq
 帶有	sfsh
 創造性	rtpe
 小雨	kjco
@@ -6860,7 +6860,7 @@
 英語	scuf
 開闢	rfrb
 及其	rlxi
-員工	omyp
+員工	omyx
 美術	utvf
 處在	kesc
 人力	rwwl
@@ -6924,7 +6924,7 @@
 特大	tgtj
 年初	wand
 譴責	uogm
-打工	aayp
+打工	aayx
 消防	ikzi
 受理	vpmn
 村莊	fasw
@@ -9889,7 +9889,7 @@
 心得	gyvj
 貧乏	udwd
 放置	iezd
-做工	ebyp
+做工	ebyx
 山河	jeia
 夏日	umjk
 臉孔	hrke
@@ -10062,7 +10062,7 @@
 捷徑	afvf
 孤零零	kccr
 買主	zmlm
-停工	elyp
+停工	elyx
 頭皮	fowu
 爽朗	tzlx
 拉力	alwl
@@ -11473,7 +11473,7 @@
 上當	kgkn
 報銷	gqsk
 機動	fuzn
-完工	hfyp
+完工	hfyx
 自立	mclu
 本土	ffgi
 驚異	shns
@@ -11574,10 +11574,10 @@
 史學	ozhz
 嘉賓	gohf
 必要性	gcpe
-動工	znyp
+動工	znyx
 呐喊	ocoy
 男朋友	nhsb
-工錢	ypsy
+工錢	yxsy
 橡膠	fphq
 淡化	imei
 種地	vzgs
@@ -11843,7 +11843,7 @@
 批量	aijf
 鋭氣	sqwk
 在乎	scwq
-電工	cpyp
+電工	cpyx
 根治	fpik
 下沉	bkip
 算命	wmrx
@@ -11888,7 +11888,7 @@
 順暢	eupj
 火爐	msmk
 蒼老	srgi
-工友	ypsb
+工友	yxsb
 探究	aphw
 岳母	nfru
 家教	hegk
@@ -13782,7 +13782,7 @@
 保全	eorm
 日程	jkvo
 秀美	vrut
-勞工	mmyp
+勞工	mmyx
 票價	cgec
 豐厚	jckj
 樂團	dudi
@@ -13933,7 +13933,7 @@
 乘機	vqfu
 地層	gsbq
 解體	pzvc
-工農	ypcs
+工農	yxcs
 氣槪	wkfd
 經紀人	pprw
 培植	glfd
@@ -13974,7 +13974,7 @@
 事態	jokh
 留念	inrl
 銷路	skbe
-工期	ypxh
+工期	yxxh
 機車	fuie
 關押	ruan
 闡釋	rowk
@@ -14359,7 +14359,7 @@
 遺物	okth
 涵養	ivqd
 涼水	ilvu
-長工	rayp
+長工	rayx
 湊合	ierh
 前門	qhrm
 歉意	qxlj
@@ -15752,7 +15752,7 @@
 絶交	pplu
 包車	haie
 反手	nbyg
-工薪	ypsl
+工薪	yxsl
 卸貨	wfei
 得法	vjig
 苦瓜	sbvs
@@ -16038,7 +16038,7 @@
 中西合璧	ocrb
 光宗耀祖	khkg
 橫溢	fsiq
-美工	utyp
+美工	utyx
 文人相輕	xrfi
 固步自封	dtmg
 取決	tbib
@@ -17218,7 +17218,7 @@
 老孃	gill
 起先	ratq
 不起眼	irmp
-工分	ypud
+工分	yxud
 迴旋	doiw
 中游	ocii
 草帽	sjrc
@@ -17800,7 +17800,7 @@
 憑弔	yjnc
 棋子	fxkv
 對壘	punn
-收工	xeyp
+收工	xeyx
 啜泣	obil
 芳草	sisj
 奢華	tgsn
@@ -18083,7 +18083,7 @@
 凌駕	ygwo
 冒犯	cyxv
 措辭	asvb
-僱工	eqyp
+僱工	eqyx
 哭哭啼啼	oooo
 效勞	lumm
 銀河系	siwp
@@ -18563,7 +18563,7 @@
 不以爲意	ievl
 餐車	juie
 吊燈	ormb
-返工	nbyp
+返工	nbyx
 莅臨	sebw
 山色	jepa
 血紅蛋白	wpvd
@@ -19859,7 +19859,7 @@
 調任	uhez
 現時	mmjg
 綢緞	phpe
-臨時工	bjyp
+臨時工	bjyx
 政令	ftrl
 法紀	igpa
 輕工業	iypu
@@ -20523,7 +20523,7 @@
 鈴鐺	srsk
 聲色	gbpa
 踏板	bvfn
-特工	tgyp
+特工	tgyx
 楊梅	fjfw
 自習	mcqq
 掉隊	ajzq
@@ -20629,7 +20629,7 @@
 絲絨	pppy
 下風	bkek
 螢火蟲	mmvv
-幫工	ggyp
+幫工	ggyx
 仿古	eibu
 扶梯	adfq
 命中註定	rouh
@@ -20818,7 +20818,7 @@
 再婚	mcli
 車牀	iewf
 多心	uugy
-工科	ypvy
+工科	yxvy
 女色	lcpa
 相勸	fmso
 疑團	iqdi
@@ -21150,7 +21150,7 @@
 拱門	asrm
 黑體	vhvc
 離隊	xxzq
-理工	mnyp
+理工	mnyx
 尿道	bvqm
 慪氣	pkwk
 夜宵	lehk
@@ -21236,7 +21236,7 @@
 烈女	fulc
 送命	qtrx
 轉租	iivm
-復工	vwyp
+復工	vwyx
 隔夜	zfle
 幻燈	uvmb
 嫉恨	lypp
@@ -21750,7 +21750,7 @@
 臥牀不起	bwir
 洪福齊天	iglf
 輕諾寡信	iuhe
-工裝	ypwg
+工裝	yxwg
 節後	qevu
 某種	syvz
 東莞	fjsh
@@ -22060,7 +22060,7 @@
 帷幕	rcsj
 物質文明	tnxj
 畜牧業	ltpu
-務工	zwyp
+務工	zwyx
 老區	giko
 特困	tgdf
 音樂會	ldrf
@@ -22165,7 +22165,7 @@
 帶隊	sfzq
 育種	lkvz
 患有	oosh
-礦工	uyyp
+礦工	uyyx
 外交官	ulhb
 閒置	rhzd
 已知	aoqo
@@ -22235,7 +22235,7 @@
 至上	hckg
 檢閲	frrq
 幹流	djil
-軍工	piyp
+軍工	piyx
 軍國主義	pdlu
 免職	potl
 破解	uwpz
@@ -22703,12 +22703,12 @@
 未婚	skli
 藥用	sdzu
 針線	sdpd
-出工	xxyp
+出工	xxyx
 牛馬	tljr
 信條	euec
 濛濛	isis
 案頭	hlfo
-工頭	ypfo
+工頭	yxfo
 共處	suke
 夾擊	trix
 學生會	herf
@@ -22734,7 +22734,7 @@
 外間	ujrj
 異鄉	nsnw
 眨巴	mwaj
-工兵	ypnf
+工兵	yxnf
 丈人	slrw
 餛飩	qjqa
 簡練	wrpf
@@ -22747,7 +22747,7 @@
 終場	pegj
 黑壓壓	vkkj
 量刑	jffs
-木工	fiyp
+木工	fiyx
 損毁	aohy
 溫熱	idgu
 行頭	vjfo
@@ -22920,7 +22920,7 @@
 陰冷	zryr
 大齡	tjwr
 定局	hfbv
-工場	ypgj
+工場	yxgj
 渾厚	ipkj
 龍眼	lhmp
 生物圈	etdq
@@ -23046,7 +23046,7 @@
 短評	qfun
 廢料	ybky
 甘苦	sysb
-工時	ypjg
+工時	yxjg
 弓箭	nawq
 泥塑	ibqx
 先賢	tqbb
@@ -23179,7 +23179,7 @@
 絢麗多彩	pfuv
 羽翼	qqqq
 宗法	hgig
-清潔工	iiyp
+清潔工	iiyx
 自傲	mceg
 坐等	rrwg
 哀怨	lwuv
@@ -23370,7 +23370,7 @@
 景况	jlyo
 牢靠	htto
 香油	vjip
-工整	ypfo
+工整	yxfo
 飢寒	qqhs
 屈居	bxbb
 得勢	vjgu
@@ -23554,7 +23554,7 @@
 紅撲撲	paap
 選項	aayu
 作陪	ewzl
-監工	bwyp
+監工	bwyx
 推脱	achq
 穴位	hvel
 藥效	sdlu
@@ -24983,7 +24983,7 @@
 閉幕式	rsyy
 高祖	lvgm
 全集	rmcf
-技工	adyp
+技工	adyx
 不可或缺	iayq
 經濟作物	piet
 少不了	kikc
@@ -25040,7 +25040,7 @@
 熱水器	gvoo
 民族主義	ailu
 猛增	xkgq
-招工	adyp
+招工	adyx
 主旨	lmij
 衣袋	lwey
 心腹	gyhw
@@ -25796,7 +25796,7 @@
 冒火	cyms
 熔鑄	mhsg
 受辱	vpya
-小工	kjyp
+小工	kjyx
 結餘	pgqr
 派系	inwp
 拾遺	arok
@@ -25897,7 +25897,7 @@
 一哄而上	
 郵遞員	znom
 絆腳石	phut
-車工	ieyp
+車工	ieyx
 肥水	havu
 娶親	tblf
 三線	uwpd
@@ -26293,7 +26293,7 @@
 别號	owou
 打坐	aarr
 官階	hbzi
-合同工	rcyp
+合同工	rcyx
 膠布	hqsr
 來由	ejpb
 能歌善舞	kauw
@@ -26312,7 +26312,7 @@
 拖沓	awvj
 唾駡	ozoo
 賢人	bbrw
-船工	xqyp
+船工	xqyx
 緩急	pvpx
 盤古	xqbu
 調諧	uhui
@@ -26377,7 +26377,7 @@
 遮陽	yszj
 獨生女	xelc
 浮塵	ivyg
-曠工	jyyp
+曠工	jyyx
 纜繩	pbpi
 冷寂	yrhk
 奶頭	lrfo
@@ -26405,7 +26405,7 @@
 站隊	ljzq
 對質	punn
 科班	vymq
-苦工	sbyp
+苦工	sbyx
 累人	nprw
 全盛	rmyv
 沙包	ikha
@@ -26495,7 +26495,7 @@
 聒噪	tooo
 痛擊	ybix
 纖纖	prpr
-怠工	koyp
+怠工	koyx
 燈絲	mbpp
 負離子	pxkv
 急不可耐	pial
@@ -26999,7 +26999,7 @@
 喫閉門羹	orru
 電療	cpyt
 淨利	ivvx
-工本	ypff
+工本	yxff
 礦脉	uyhl
 默讀	vxug
 蒜泥	sgib
@@ -27729,7 +27729,7 @@
 惟恐	pcyq
 老式	giyy
 居室	bbhh
-工種	ypvz
+工種	yxvz
 泥石流	iuil
 相撞	fmal
 港元	isfp
@@ -27758,7 +27758,7 @@
 釦子	sokv
 滿眼	ismp
 集約	cfph
-農工	csyp
+農工	csyx
 老字號	ghou
 敵機	lqfu
 兑付	qoea
@@ -27908,7 +27908,7 @@
 新紀元	lpfp
 小字	kjhk
 二老	yrgi
-工齡	ypwr
+工齡	yxwr
 次第	ynwn
 看不慣	yipr
 演藝	ihsg
@@ -28048,7 +28048,7 @@
 兀自	prmc
 掂量	ayjf
 改選	aeaa
-童工	lnyp
+童工	lnyx
 應承	yevv
 難熬	sfgh
 宗廟	hgyd
@@ -28375,7 +28375,7 @@
 傷腦筋	ehwh
 小圈子	kdkv
 干係	nsew
-工區	ypko
+工區	yxko
 散居	shbb
 閉路電視	rbcg
 出苗	xxsn
@@ -28519,7 +28519,7 @@
 幽怨	juuv
 傳熱	eigu
 旦夕	jfue
-工筆	ypwx
+工筆	yxwx
 寄信	hteu
 榔頭	flfo
 偏轉	eqii
@@ -28794,7 +28794,7 @@
 根莖	fpsf
 公休	ukef
 官辦	hblw
-精工	kgyp
+精工	kgyx
 影評	jlun
 被服	nwhx
 村姑	falb
@@ -28897,7 +28897,7 @@
 知了	qokc
 忠言	ocui
 裱糊	ngkb
-工蜂	ypve
+工蜂	yxve
 黑頭	vhfo
 假扮	ebau
 駕臨	wobw
@@ -29022,7 +29022,7 @@
 粗笨	kmwf
 蝗災	vdym
 拉票	alcg
-零工	cryp
+零工	cryx
 滅門	iyrm
 内勤	crry
 水平面	vnlt
@@ -29985,7 +29985,7 @@
 全長	rmra
 農機	csfu
 著作權	sefs
-用工	zuyp
+用工	zuyx
 編者按	pgah
 中青年	ogwa
 入户	soqk
@@ -29993,7 +29993,7 @@
 預案	zuhl
 立項	luyu
 足額	bnhe
-工傷	ypew
+工傷	yxew
 公開賽	urhs
 一時間	
 網友	pcsb
@@ -30108,7 +30108,7 @@
 會徽	rfvf
 防病	ziyf
 大款	tjgg
-政工	ftyp
+政工	ftyx
 領銜	rlvs
 世世代代	ggee
 看守所	yhqn
@@ -30279,7 +30279,7 @@
 支吾	dbfj
 志士	gggu
 起兵	ranf
-工事	ypjo
+工事	yxjo
 山風	jeek
 桃樹	fqfg
 席間	ysrj
@@ -30445,7 +30445,7 @@
 梨樹	vxfg
 治罪	ikzw
 財貿	mjim
-工貿	ypim
+工貿	yxim
 截面	dylt
 劈頭	bofo
 傳達室	eghh
@@ -30776,7 +30776,7 @@
 退職	pdtl
 蹉跎	bubh
 高蛋白	lvds
-工段	ypeu
+工段	yxeu
 滑頭	ivfo
 鉗子	sskv
 外電	ujcp
@@ -31060,7 +31060,7 @@
 文弱	xnny
 啞然	ofhx
 白露	dscb
-短工	qfyp
+短工	qfyx
 飛輪	eoir
 非分	wiud
 嬌美	lcut
@@ -31478,7 +31478,7 @@
 玄奧	lurw
 珠翠	mtqq
 阻抗	zmal
-費工	nuyp
+費工	nuyx
 絞刑	plfs
 解約	pzph
 鉅細	skpn
@@ -32222,7 +32222,7 @@
 隨之	zsdj
 三代	uwey
 腳踏車	hbie
-教職工	gtyp
+教職工	gtyx
 不客氣	ihwk
 不知其二	iqxy
 目不交睫	milm
@@ -32235,7 +32235,7 @@
 處理器	kmoo
 旁觀者	lsgj
 普魯士	qtgu
-修理工	emyp
+修理工	emyx
 劉少奇	ikta
 切實可行	ahav
 孫子兵法	kkni
@@ -32571,7 +32571,7 @@
 京華	lksn
 門鎖	rmsk
 誤國	uody
-工棚	ypfh
+工棚	yxfh
 鉀肥	snha
 冠以	pfel
 哭叫	ooox
@@ -32958,7 +32958,7 @@
 後撤	vual
 進貢	cdym
 一把抓	
-包工	hayp
+包工	hayx
 報界	gqnr
 本心	ffgy
 簍子	wokv
@@ -33081,7 +33081,7 @@
 廝打	yxaa
 夜鶯	lemm
 又紅又專	bpbi
-焊工	mjyp
+焊工	mjyx
 年譜	wauq
 棄置	lkzd
 聽診器	tuoo
@@ -33336,7 +33336,7 @@
 菲薄	swsi
 粉白	kuds
 烽火臺	mmgo
-工件	ypet
+工件	yxet
 肌腱	hqhx
 窺測	hdim
 困守	dfha
@@ -33590,7 +33590,7 @@
 初雪	ndcx
 惡鬥	fkri
 改錯	aess
-趕工	rjyp
+趕工	rjyx
 虎威	kkyf
 精進	kgcd
 奴性	lbpe
@@ -33820,7 +33820,7 @@
 倒栽蔥	edsr
 簡况	wryo
 糨糊	knkb
-金工	sjyp
+金工	sjyx
 捲尺	aqbl
 樹膠	fghq
 險象	zrpo
@@ -33845,7 +33845,7 @@
 毛糙	xekt
 暮氣沉沉	swii
 玷辱	mjya
-工料	ypky
+工料	yxky
 警匪片	skwn
 清册	ighh
 順服	euhx
@@ -33989,7 +33989,7 @@
 久聞大名	prtu
 光風霽月	kech
 淺斟低唱	ixeo
-工黨	ypkv
+工黨	yxkv
 基隆	xgze
 其一	
 惹火	ssms
@@ -34488,7 +34488,7 @@
 誤點	uovj
 爲輔	vjim
 爲準	vjic
-高工	lvyp
+高工	lvyx
 高新	lvlf
 肩上	qhkg
 詞綴	uvpb
@@ -34920,7 +34920,7 @@
 人販子	rmkv
 雙刃劍	cdrx
 唁電	oucp
-鉗工	ssyp
+鉗工	ssyx
 劃界	xgnr
 汪汪	imim
 賦詩	mfug
@@ -35211,7 +35211,7 @@
 益智	quqo
 積德	vgvd
 求新	fvlf
-誤工	uoyp
+誤工	uoyx
 下浮	bkiv
 引退	ncpd
 大氣候	twec
@@ -35606,7 +35606,7 @@
 兑奬	qowh
 附小	zekj
 紅果	pyjf
-交工	luyp
+交工	luyx
 舊習	scqq
 曠達	jygu
 了斷	kcuu
@@ -36012,7 +36012,7 @@
 接骨	alvo
 金磚	sjui
 女優	lceu
-鐵工	sdyp
+鐵工	sdyx
 吸鐵石	osut
 蓋棺論定	sfuh
 諢號	upou
@@ -37433,7 +37433,7 @@
 急電	pxcp
 熟稔	lkvr
 運輸線	pipd
-總工	pryp
+總工	pryx
 猛醒	xkcj
 咂嘴	okot
 尊卑	qcgd
@@ -37643,7 +37643,7 @@
 覆没	cviq
 全名	rmuo
 試紙	uypi
-瓦工	ukyp
+瓦工	ukyx
 咏歎	olsf
 樟木	flfi
 短槍	qffr
@@ -37753,7 +37753,7 @@
 千恩萬謝	zdsu
 神不守舍	gihr
 生辰八字	eyuh
-雙職工	ctyp
+雙職工	ctyx
 象牙之塔	pzdg
 白銅	dssc
 比翼齊飛	iqle
@@ -37823,7 +37823,7 @@
 排頭	awfo
 史話	ozuo
 燧石	mqut
-傭工	eyyp
+傭工	eyyx
 正極	ftfk
 跛腳	bwhu
 車况	ieyo
@@ -38221,7 +38221,7 @@
 爛醉	mrcl
 清湯寡水	iihv
 秋遊	vmiw
-窩工	hlyp
+窩工	hlyx
 撞針	alsd
 安土重遷	hgzc
 含飴弄孫	rqmk
@@ -38302,7 +38302,7 @@
 心急如火	gplm
 男女老幼	nlgu
 淡定	imhf
-工行	ypvj
+工行	yxvj
 戒條	ysec
 若有	sssh
 甚好	xelk
@@ -38601,7 +38601,7 @@
 只讀	ouug
 中紀委	opvl
 嚎叫	olox
-輕工	ifyp
+輕工	ifyx
 輕靈	ifco
 駕駛證	wjub
 轉用	iizu
@@ -38877,7 +38877,7 @@
 女屍	lcbf
 女娃	lclg
 妒恨	lqpp
-代工	eyyp
+代工	eyyx
 創出	rlxx
 保險費	eznu
 僅存	ersc
@@ -39339,7 +39339,7 @@
 華西	sncu
 壓縮機	kpfu
 動手術	zyvf
-工礦	ypuy
+工礦	yxuy
 後半夜	vqle
 至極	hcfk
 鹽湖	bwib
@@ -39977,7 +39977,7 @@
 表功	gwyw
 腸衣	hjlw
 炒飯	mkqn
-工房	ypqi
+工房	yxqi
 過手	ldyg
 酒氣	icwk
 全日	rmjk
@@ -40858,7 +40858,7 @@
 守住	hael
 定子	hfkv
 冗餘	pqqr
-農民工	cayp
+農民工	cayx
 之列	djfu
 之家	djhe
 之處	djke
@@ -41764,7 +41764,7 @@
 濟貧	ilud
 戰例	ooef
 濟世	ilgn
-教工	gkyp
+教工	gkyx
 物價指數	teao
 風馬牛不相及	ejtr
 甲冑	nfpc
@@ -42165,7 +42165,7 @@
 搶答	arwr
 人丁興旺	rahj
 咽炎	odmm
-義工	uwyp
+義工	uwyx
 北極光	qfkp
 敞篷	kewe
 耳廓	teyl
@@ -43255,7 +43255,7 @@
 亮出	lqxx
 毫安	lxhl
 義肢	uwhd
-磨工	yuyp
+磨工	yuyx
 磨碎	yuul
 牀前	wfqh
 州官	iehb
@@ -43497,7 +43497,7 @@
 模擬器	faoo
 相結合	fprh
 西方人	cirw
-辭工	vbyp
+辭工	vbyx
 和田	vone
 知名人士	qurg
 怎麽會	wyrf
@@ -43684,7 +43684,7 @@
 主因	lmdt
 密使	hgef
 在册	schh
-工效	yplu
+工效	yxlu
 乳製品	vtoo
 南麓	dcff
 人文科學	rxvh
@@ -44218,7 +44218,7 @@
 拓印	auif
 魚鷹	tnye
 垂暮	zssj
-工潮	ypid
+工潮	yxid
 活菩薩	issz
 警號	shou
 色拉油	paip
@@ -44462,7 +44462,7 @@
 蝕刻	qvdx
 死牢	fuht
 歇宿	jhhe
-兵工	nfyp
+兵工	nfyx
 敵臺	lqgo
 惘然若失	phsw
 炒貨	mkei
@@ -46636,7 +46636,7 @@
 活龍活現	ilim
 福地洞天	ggif
 言必有據	ugsa
-工部	yplo
+工部	yxlo
 戎馬一生	
 惹怒	sslb
 某時	syjg
@@ -46928,7 +46928,7 @@
 常抓不懈	kaip
 激賞	idkm
 小白鼠	kdho
-漆工	ifyp
+漆工	ifyx
 淋濕	ifij
 酒桶	icfb
 酒香	icvj
@@ -48130,7 +48130,7 @@
 狸猫	xnxs
 脉脉	hlhl
 血量	wzjf
-畫工	xgyp
+畫工	xgyx
 説白了	udkc
 洗衣店	ilyj
 心勁	gyfy
@@ -48316,7 +48316,7 @@
 獨幕劇	xske
 犯事	xvjo
 鋼索	scdp
-工長	ypra
+工長	yxra
 河蚌	iavc
 見諸	mrug
 孑遺	kfok
@@ -48356,7 +48356,7 @@
 女奴	lclb
 消愁	ikvm
 打擂	aaac
-工讀	ypug
+工讀	yxug
 怕生	pdei
 媾和	lsvo
 柔滑	zwiv
@@ -49568,7 +49568,7 @@
 地學	gshz
 吉姆	golr
 獻辭	kfvb
-青工	ghyp
+青工	ghyx
 天懸地隔	fmgz
 一幅	
 不渝	ivir
@@ -49615,7 +49615,7 @@
 操切	aoad
 白毛女	dxlc
 橫過	fsld
-機工	fuyp
+機工	fuyx
 梅蘭芳	fssi
 長庚	rayx
 智能卡	qkkj
@@ -50135,7 +50135,7 @@
 聊以	tiel
 三相	uwfm
 上緊	kgbb
-男工	nwyp
+男工	nwyx
 淅瀝	ifik
 一炮打響	
 照排	jdaw
@@ -50230,7 +50230,7 @@
 桑葚	bbsx
 頭雁	foke
 兇橫	zxfs
-工於	ypir
+工於	yxir
 皓齒	dtwk
 斜睨	rfmh
 房費	qinu
@@ -51473,7 +51473,7 @@
 耳鼻喉科	tmov
 孔繁森	kwff
 耳聞目見	trmm
-險工	zryp
+險工	zryx
 出言無狀	xuww
 柔腸百結	zhup
 馬倌	jreh
@@ -52008,7 +52008,7 @@
 異姓	nsle
 允准	kqyc
 刻毒	dxgr
-勤雜工	rlyp
+勤雜工	rlyx
 硬功夫	uydw
 拾級而上	aplk
 務請	zwug
@@ -53023,7 +53023,7 @@
 透入	vrso
 徒有	vrsh
 德法	vdig
-重工	znyp
+重工	znyx
 乍見	wjmr
 自憐	mcpk
 各區	eoko
@@ -53107,7 +53107,7 @@
 好聞	lkrt
 卽成	diyv
 旣已	diao
-建工	xayp
+建工	xayx
 尋醫	xykq
 那臺	vago
 嬉皮	lgwu
@@ -53951,7 +53951,7 @@
 妻弟	dxqn
 豬瘟	egyj
 補綴	nmpb
-工蟻	ypvu
+工蟻	yxvu
 懇摯	opgq
 鳴冤	otpp
 水綠	vupr
@@ -54184,7 +54184,7 @@
 西元	cufp
 羞臊	usho
 圓房	doqi
-月工	hryp
+月工	hryx
 拔火罐	amqs
 丙綸	fcpr
 襯映	nljc
@@ -54376,7 +54376,7 @@
 月供	hres
 肝腎	hnbb
 愛才如命	vjlr
-助工	mwyp
+助工	mwyx
 且有	mfsh
 胚乳	hivk
 甩頭	hefo
@@ -54509,7 +54509,7 @@
 潰膿	iohc
 澠池	iiis
 敞露	kecb
-泥工	ibyp
+泥工	ibyx
 漏了	ibkc
 水火不容	vmih
 水色山光	vpjk
@@ -55227,7 +55227,7 @@
 座落	yrsi
 宇文	hfxn
 官網	hbpc
-社工	ggyp
+社工	ggyx
 神魔	gpyg
 社科	ggvy
 魚湯	tnij
@@ -55569,7 +55569,7 @@
 坐椅	rrft
 磚石	uiut
 頎長	nura
-鐘點工	svyp
+鐘點工	svyx
 萬方	svir
 熱軋	guie
 男足	nwbn
@@ -55832,14 +55832,14 @@
 繭絲	scpp
 鎖頭	skfo
 歇涼	jhil
-學徒工	hvyp
+學徒工	hvyx
 燈籠褲	mwny
 封鏡	ggsl
 憑仗	yjes
 雉雞	qcvu
 班期	mqxh
 癡笑	yiwc
-工細	yppn
+工細	yxpn
 滚沸	ilin
 絳紫	peti
 力薦	wlsy
@@ -55932,12 +55932,12 @@
 脱漏	hqib
 筆套	wxtr
 打小算盤	akwx
-試工	uyyp
+試工	uyyx
 望風捕影	eeaj
 喜眉笑眼	gbwm
 皺痕	hxyp
 冰室	yvhh
-工力	ypwl
+工力	yxwl
 尿壺	bvgp
 欠資	nvyn
 臆説	hluq
@@ -57271,7 +57271,7 @@
 糰子	kdkv
 宮牆	howg
 頭牌	fowg
-下工	bkyp
+下工	bkyx
 再議	mcuu
 觀賽	sohs
 耳墜	tezq
@@ -57454,7 +57454,7 @@
 悠哉遊哉	edid
 雜牌軍	lwpi
 東鄉族	fniw
-工巧	ypyu
+工巧	yxyu
 手下敗將	ybmw
 大端	tjlj
 奠基石	qxut
@@ -57674,7 +57674,7 @@
 隘路	zqbe
 除霜	zrcf
 預繳	zupd
-雙工	ccyp
+雙工	ccyx
 疊字	nnhk
 桑麻	bbyc
 通神	bzgp
@@ -58209,7 +58209,7 @@
 説事	uqjo
 良馬	lpjr
 讖緯	urpj
-熟練工	lpyp
+熟練工	lpyx
 方臉	irhr
 文號	xnou
 京廣線	lypd
@@ -59034,7 +59034,7 @@
 雲際	cyzh
 探察	aphh
 右首	soqm
-工日	ypjk
+工日	yxjk
 駭異	jdns
 年刊	wanx
 搶點	arvj
@@ -59215,7 +59215,7 @@
 訪尋	uixy
 前仇	qhew
 穹廬	hnyk
-散工	shyp
+散工	shyx
 生恐	eiyq
 聲符	gbwe
 懸心	mkgy
@@ -60522,7 +60522,7 @@
 偷眼	ermp
 名不見經傳	uime
 外鄉人	unrw
-深加工	iwyp
+深加工	iwyx
 合議	rhuu
 注射液	iqil
 御駕	vwwo
@@ -60673,7 +60673,7 @@
 兒女親家	hllh
 納貢	pcym
 輕軟	ifin
-歇工	jhyp
+歇工	jhyx
 歇腿	jhhp
 村野	fanz
 放達	iegu
@@ -60780,7 +60780,7 @@
 走水	ryvu
 炒冷飯	myqn
 嫡出	llxx
-工運	yppi
+工運	yxpi
 河清海晏	iiij
 轟趕	iirj
 回跌	dobw
@@ -61441,7 +61441,7 @@
 泥足巨人	ibkr
 洞達	icgu
 没到	iqhx
-學工	hzyp
+學工	hzyx
 沉冤莫白	ipsd
 滴淚	iliq
 滴溜	ilii
@@ -61951,7 +61951,7 @@
 這就是	uljf
 鄧小平理論	bknu
 夥子	jfkv
-護工	usyp
+護工	usyx
 治污	ikif
 一改	
 黨總支	kpdb
@@ -62125,7 +62125,7 @@
 壓腿	kjhp
 補休	nmef
 帶話	sfuo
-換工	apyp
+換工	apyx
 零七八碎	cauu
 掩鼻	atmn
 鴆毒	pqgr
@@ -62646,7 +62646,7 @@
 妙麗	lkfc
 如歸	logt
 如入	loso
-刀工	dkyp
+刀工	dkyx
 刀斧	dkuz
 刀刻	dkdx
 靈明	cojh
@@ -62914,7 +62914,7 @@
 得幸	vjgq
 得瑟	vjmm
 程朱	votu
-管工	whyp
+管工	whyx
 剩的	vqdh
 將勤補拙	wrna
 親眼目睹	lmmm
@@ -64080,7 +64080,7 @@
 老蚌生珠	gvem
 老營	gimm
 開園	rfdg
-天工	ftyp
+天工	ftyx
 靜場	ghgj
 玩到	mfhx
 一出	
@@ -64698,7 +64698,7 @@
 搭班	asmq
 皮張	wunr
 儼如	eolo
-工賊	ypmy
+工賊	yxmy
 雨靴	core
 找零	aycr
 傻里傻氣	enew
@@ -64729,7 +64729,7 @@
 失密	wdhg
 糟心	ksgy
 飛瀉	eoih
-工價	ypec
+工價	yxec
 護養	usqd
 口杯	oifi
 凝想	yifm
@@ -64935,7 +64935,7 @@
 同形	cffs
 嶄露	jicb
 山尖	jekt
-見工	mryp
+見工	mryx
 刴肉	rfcr
 幾元	uufp
 貶責	mwgm
@@ -65881,7 +65881,7 @@
 寵用	hlzu
 螺絲帽	vprc
 違礙	jdui
-壯工	wgyp
+壯工	wgyx
 求售	fvco
 線呢	pdob
 勇毅	bzle
@@ -65943,7 +65943,7 @@
 但願人長久	ekrp
 舊瓶裝新酒	sqwi
 出污泥而不染	xiii
-工卡	ypkj
+工卡	yxkj
 若説	ssuq
 牙尖	zpkt
 菌素	sdgp
@@ -66341,13 +66341,13 @@
 食相	qlfm
 引理	ncmn
 紗櫥	pkfy
-織工	plyp
+織工	plyx
 紹介	pdru
 維柯	pcfa
 比干	iins
 詫愕	uhpo
 庭上	yzkg
-工學	yphz
+工學	yxhz
 藏鋒	syse
 雅間	zcrj
 燕雀安知鴻鵠之志	skhg
@@ -66505,7 +66505,7 @@
 記要	uacl
 放歸	iegt
 夜路	lebe
-工大	yptj
+工大	yxtj
 荆楚	sfff
 藍莓	sbsw
 藍帶	sbsf
@@ -66749,7 +66749,7 @@
 家兄	heoq
 書生氣	xewk
 西曆	cukv
-夜工	leyp
+夜工	leyx
 雄居	skbb
 掐指	apai
 利錢	vxsy
@@ -67880,7 +67880,7 @@
 留鳥	intm
 流量計	ijud
 血證	wzub
-鑄工	sgyp
+鑄工	sgyx
 募化	sjei
 羌笛	uewp
 死麪	fuee
@@ -68148,8 +68148,8 @@
 麗雅	fczc
 轉上	iikg
 鎳氫電池	swci
-工模	ypfs
-工間	yprj
+工模	yxfs
+工間	yxrj
 蔭棚	szfh
 苦藥	sbsd
 花朝月夕	sdhu
@@ -68959,7 +68959,7 @@
 雪菜	cxsv
 玉指	mlai
 上軌	kgiw
-督工	kkyp
+督工	kkyx
 漢詩	isug
 潮熱	idgu
 添滿	ifis
@@ -69978,7 +69978,7 @@
 分章	udlj
 緩繳	pvpd
 談説	umuq
-工緻	ypph
+工緻	yxph
 期日	xhjk
 散錢	shsy
 牙婆	zpiw
@@ -70244,7 +70244,7 @@
 訂出	uaxx
 爲德不卒	vvil
 諳達	ulgu
-工位	ypel
+工位	yxel
 蒸蛋	svvt
 薦引	sync
 臥槽	brfs
@@ -71824,7 +71824,7 @@
 以蠡測海	erii
 煩冗	mupq
 類乎	kxwq
-粗工	kmyp
+粗工	kmyx
 烤盤	mgxq
 精金	kgsj
 斷髮文身	urxq
@@ -71896,7 +71896,7 @@
 自剄	mcfy
 箔條	wiec
 奧姆	rwlr
-翻工	wkyp
+翻工	wkyx
 釋惑	wkyo
 造福於民	tgia
 管湧	whib
@@ -72670,7 +72670,7 @@
 案宗	hlhg
 竄犯	hhxv
 危篤	pkwj
-外來工	ueyp
+外來工	ueyx
 鯨鬚	tlrs
 鈍響	sanw
 急來抱佛腳	peah
@@ -72791,7 +72791,7 @@
 膏油	lhip
 譜牒	uqwg
 文類	xnkx
-工號	ypou
+工號	yxou
 散人	shrw
 蓄力	slwl
 出櫃	xxfk
@@ -72902,7 +72902,7 @@
 房卡	qikj
 玄鐵	lusd
 戒色	yspa
-工控	ypah
+工控	yxah
 苦經	sbpf
 七雄	aksk
 慕斯	sjxn
@@ -73131,7 +73131,7 @@
 淨盡	ivxf
 複雜勞動	nlmz
 生産過剩	ellv
-攬工	abyp
+攬工	abyx
 秫秸	vfvg
 秉筆	vxwx
 外親	ujlf
@@ -73311,7 +73311,7 @@
 敢做敢爲	vevv
 煙雨濛濛	mcii
 永不退縮	lipp
-工架	ypwo
+工架	yxwo
 斯達康	xgyx
 菜青	svgh
 勒出	rwxx
@@ -73533,7 +73533,7 @@
 戀棧不去	ufig
 放鞭	iere
 玄理	lumn
-工楷	ypfi
+工楷	yxfi
 蒸食	svql
 藝齡	sgwr
 恐高	yqlv
@@ -73864,7 +73864,7 @@
 尼龍襪	blns
 稍頃	vkiu
 私商	vklq
-牧工	teyp
+牧工	teyx
 圖籍	dowc
 會剿	rfyj
 凍餒	yfqv
@@ -74227,7 +74227,7 @@
 衣食不周	lqih
 率同	lucf
 文質	xnnn
-工單	ypoo
+工單	yxoo
 七古	akbu
 英籍	scwc
 蒙版	spwn
@@ -74592,7 +74592,7 @@
 吹拍	onad
 耳生	teei
 匪盜	kwin
-工尺	ypbl
+工尺	yxbl
 淮劇	icke
 正座	ftyr
 歹念	furl
@@ -74937,7 +74937,7 @@
 中州韻	oilj
 輕卡	ifkj
 園囿	dgds
-軟工	inyp
+軟工	inyx
 酆都	jcgj
 貼條	mjec
 貽誤軍機	mupf
@@ -75066,7 +75066,7 @@
 輝瑞	kpmj
 沂南	indc
 學生票	hecg
-暑期工	jxyp
+暑期工	jxyx
 題幹	jfdj
 星湖	jeib
 臨邑	bwoa
@@ -75213,7 +75213,7 @@
 優遇	euvd
 草標	sjfc
 底墒	yigl
-細工	pnyp
+細工	pnyx
 海蠣子	ivkv
 咕嘰	obou
 賠小心	mkgy
@@ -75574,7 +75574,7 @@
 帝嚳	lqhz
 説我	uqwa
 説她	uqls
-工勤	ypry
+工勤	yxry
 茂縣	symk
 黃玫瑰	smmg
 雅克	zcbq
@@ -76645,7 +76645,7 @@
 抗炎	almm
 李靖	fklg
 李俊	fkek
-柳工	fiyp
+柳工	fiyx
 焚林而田	ffln
 梓潼	flil
 椎體	fcvc
@@ -77135,7 +77135,7 @@
 工間操	yrao
 抽水站	avlj
 原子武器	kkfo
-替工	ddyp
+替工	ddyx
 冠子	pfkv
 匪禍	kwgl
 徽劇	vfke
@@ -77147,7 +77147,7 @@
 金閃閃	srrr
 皮猴兒	wxhq
 驗覈	jrcd
-架子工	wkyp
+架子工	wkyx
 隨風倒	zeeh
 簿籍	wiwc
 超假	rdeb
@@ -77507,7 +77507,7 @@
 秋種	vmvz
 有盼	shmu
 黨八股	kuhq
-季節工	vqyp
+季節工	vqyx
 聯合戰線	trop
 間接選舉	raah
 防空壕	zhgl
@@ -77546,7 +77546,7 @@
 一塊石頭落地	
 言必信行必果	ugej
 一是一二是二	
-工頻	yptk
+工頻	yxtk
 散攤	shas
 薄絨	sipy
 蒙冤受屈	spvb
@@ -77656,7 +77656,7 @@
 度理	ysmn
 離格	xxfe
 讀譜	uguq
-評工	unyp
+評工	unyx
 就枕	lkfp
 亮斑	lqmx
 壅蔽	lnsq
@@ -78329,7 +78329,7 @@
 南汽	dciw
 赫敏	guwr
 索隆	dpze
-正式工	fyyp
+正式工	fyyx
 天聖	ftto
 盂縣	fjmk
 玩酷	mfct
@@ -78604,7 +78604,7 @@
 罐區	qsko
 墊江	gqiy
 招嫖	adlc
-操作工	aeyp
+操作工	aeyx
 杏色	fopa
 板料	fnky
 第二集	wycf
@@ -78867,7 +78867,7 @@
 壓而不服	klih
 一瞬卽逝	
 鋤暴安良	sjhl
-管子工	wkyp
+管子工	wkyx
 引而伸之	nled
 百星不如一月	ujih
 老而不死是爲賊	glim
@@ -79344,7 +79344,7 @@
 宇浩輸入法	hiii
 小鵬	kjhh
 簡詞	wruv
-工殘	ypfu
+工殘	yxfu
 荆花	sfse
 蕩過	sild
 薄霜	sicf
@@ -79878,7 +79878,7 @@
 軟媒	inls
 曲種	csvz
 由打	pbaa
-網工	pcyp
+網工	pcyx
 敗勢	megu
 幽隱	juzv
 幽宛	juhu
@@ -80220,7 +80220,7 @@
 南鋼	dcsc
 南泉	dcdv
 南校	dcfl
-專工	iayp
+專工	iayx
 赤血	guwz
 過級	ldpr
 無刷	wsbr
@@ -80505,7 +80505,7 @@
 白寧	dshg
 白牛	dstl
 插片	azwn
-熱工	guyp
+熱工	guyx
 熱控	guah
 撤櫃	alfk
 李陽	fkzj

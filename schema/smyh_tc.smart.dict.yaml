@@ -310,7 +310,7 @@ encoder:
 内框	crwfkm
 内澇	crwimw
 内愧	crwpgm
-内訌	crwuyp
+内訌	crwuyx
 曲阜	cskgdi
 曲軸	cskipb
 酣然	csyhxm
@@ -529,7 +529,7 @@ encoder:
 棘輪	fccirl
 棗子	fcckv1
 棗強	fccnkv
-棗紅	fccpyp
+棗紅	fccpyx
 棗莊	fccswg
 棘手	fccyg1
 棗陽	fcczjs
@@ -612,7 +612,7 @@ encoder:
 杏子	foikv1
 杏眼	foimps
 杏色	foipaj
-杏紅	foipyp
+杏紅	foipyx
 杏花	foisei
 杏黃	foisyu
 樓榭	folfqa
@@ -871,7 +871,7 @@ encoder:
 够戧	hourly
 脆棗	hpvfcc
 股肱	hqmhsk
-脱肛	hqqhyp
+脱肛	hqqhyx
 脱繮	hqqpff
 脱鉤	hqqsho
 胼胝	hqshil
@@ -906,15 +906,15 @@ encoder:
 腱鞘	hxprkh
 皺褶	hxwnqd
 芻蕘	hxxsgp
-肛裂	hypfuw
-空壕	hypgle
-空泛	hypiwd
-肛交	hypluz
-空倉	hyprlo
-肛門	hyprm1
-空門	hyprm1
-肛瘻	hypyol
 毁謗	hyquli
+肛裂	hyxfuw
+空壕	hyxgle
+空泛	hyxiwd
+肛交	hyxluz
+空倉	hyxrlo
+肛門	hyxrm1
+空門	hyxrm1
+肛瘻	hyxyol
 不賴	i1fom
 不渝	i1irx
 不輸	i1irx
@@ -941,7 +941,7 @@ encoder:
 澄澈	ibqile
 澄淨	ibqivv
 澄海	ibqiwr
-澄江	ibqiyp
+澄江	ibqiyx
 澄明	ibqjhr
 澱粉	ibqkud
 澄碧	ibqmdu
@@ -1082,7 +1082,7 @@ encoder:
 浦西	imtcu1
 浦東	imtfjk
 浦城	imtgyv
-浦江	imtiyp
+浦江	imtiyx
 浦口	imtoi1
 澇害	imwhco
 澇災	imwyms
@@ -1192,7 +1192,7 @@ encoder:
 泛音	iwdljk
 泛亮	iwdlqh
 泛綠	iwdprv
-泛紅	iwdpyp
+泛紅	iwdpyx
 泛起	iwdran
 軼聞	iwdrte
 泛黃	iwdsyu
@@ -1213,10 +1213,10 @@ encoder:
 輜重	iynznt
 減倉	iyorlo
 減薪	iyosln
-江豚	iyphen
 轆轤	iyvikz
 漉漉	iyviyv
 轆轆	iyviyv
+江豚	iyxhen
 淺灘	iyyisc
 豐腴	jcqhhr
 豐稔	jcqvrg
@@ -1404,7 +1404,7 @@ encoder:
 嫣然	lfmhxm
 親暱	lfmjko
 親睹	lfmmgj
-嫣紅	lfmpyp
+嫣紅	lfmpyx
 辣燙	lfoijm
 婊子	lgwkv1
 膏腴	lhrhhr
@@ -1414,7 +1414,7 @@ encoder:
 贛南	ljmdcd
 贛榆	ljmfrx
 贛州	ljmieh
-贛江	ljmiyp
+贛江	ljmiyx
 贛劇	ljmkex
 站擼	ljoatj
 韶涵	ljoivx
@@ -1425,7 +1425,7 @@ encoder:
 韶華	ljosns
 韶秀	ljovrn
 就殲	lkbfuf
-竣工	lkeyp1
+竣工	lkeyx1
 京郊	lkjluz
 京畿	lkjuun
 烹飪	lkmqzk
@@ -1506,7 +1506,7 @@ encoder:
 珞巴	meoaj1
 烙燙	meoijm
 玫瑰	meumgm
-玫紅	meupyp
+玫紅	meupyx
 玳瑁	meymcm
 烜赫	mffguu
 盱眙	mfjmko
@@ -1931,11 +1931,11 @@ encoder:
 憾事	pygjox
 緘口	pyooi1
 緘默	pyovxl
-紅棗	pypfcc
-紅杏	pypfoi
-紅壤	pypglw
-紅軸	pypipb
-紅苕	pypsdo
+紅棗	pyxfcc
+紅杏	pyxfoi
+紅壤	pyxglw
+紅軸	pyxipb
+紅苕	pyxsdo
 邂逅	pzdnfd
 解釦	pztsoi
 角獸	pzuoox
@@ -1971,7 +1971,7 @@ encoder:
 所轄	qnciho
 飲譽	qnvhuu
 普洱	qpjite
-翟紅	qqcpyp
+翟紅	qqcpyx
 翠柏	qqdfds
 翠湖	qqdibh
 翠山	qqdje1
@@ -2214,7 +2214,7 @@ encoder:
 鏈球	sidmfl
 鏈結	sidpgo
 鏈鎖	sidskm
-鏈式	sidyyp
+鏈式	sidyyx
 鉚接	sijall
 鉚釘	sijsah
 落寞	siohst
@@ -2363,8 +2363,6 @@ encoder:
 蔗渣	symiff
 蔗糖	symkyo
 鍼砭	syouwd
-左傾	sypeim
-左袒	sypnjf
 甘霖	syrcff
 甘孜	syrkeu
 甘蔗	syrsym
@@ -2382,6 +2380,8 @@ encoder:
 黃鱔	syutuo
 黃疸	syuyjf
 黃巢	syuyjf
+左傾	syxeim
+左袒	syxnjf
 邯鄲	syzooz
 鑼聲	szcgbt
 鑼鼓	szcgob
@@ -2591,7 +2591,7 @@ encoder:
 誅心	utugy1
 誅連	utuidn
 誅滅	utuiym
-硃紅	utupyp
+硃紅	utupyx
 誅戮	utuqqy
 硃砂	utuukw
 硃筆	utuwxa
@@ -2612,11 +2612,11 @@ encoder:
 誹謗	uwiuli
 破繭	uwuscv
 破鑼	uwuszc
-差遣	uypokd
 誣賴	uyrfom
 礦鹽	uyubwz
 礦渣	uyuiff
 誠樸	uyvfpd
+差遣	uyxokd
 那顆	v1jfm
 衚衕	vbjvcj
 嵇康	vbjyxv
@@ -2718,7 +2718,7 @@ encoder:
 黔西	vrvcu1
 黔南	vrvdcd
 黔東	vrvfjk
-黔江	vrviyp
+黔江	vrviyx
 黔劇	vrvkex
 蟒袍	vssnha
 蟒蛇	vssvhi
@@ -2901,7 +2901,6 @@ encoder:
 痰盂	ymmfjz
 瘰癧	ynpykt
 瘻管	yolwhb
-工薪	yp1sln
 冷燙	yrbijm
 冷噤	yrbofg
 癒合	yrgrh1
@@ -2920,6 +2919,7 @@ encoder:
 疲睏	ywumdf
 疲沓	ywuvjk
 疙瘩	ywvysr
+工薪	yx1sln
 癰疽	yycymf
 摩羯	yyguje
 瘠薄	yyhsia
