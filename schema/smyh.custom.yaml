@@ -41,6 +41,22 @@ patch:
   editor/bindings/+:
     # 回车清空编码
     Return: cancel
+  # 自定義宏
+  macros:
+    repo:
+      - type: tip
+        name: ⚛訪問倉庫
+      - type: shell
+        name: 吉旦餅
+        cmd: xdg-open https://github.com/lost-melody/rime-smyh/tree/wafel
+      - type: shell
+        name: 宇浩
+        cmd: xdg-open https://github.com/forfudan/yuhao
+  core_proc/macros/+:
+    __include: patch/macros
+  core_tr/macros/+:
+    __include: patch/macros
+  # 開關同步
   core_proc/sync_options/+:
     - ascii_mode
     - division.off

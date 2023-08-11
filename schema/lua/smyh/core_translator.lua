@@ -8,6 +8,7 @@ local schemas = nil
 function translator.init(env)
     env.config = {}
     env.config.comp = core.parse_conf_bool(env, "enable_completion")
+    env.config.macros = core.parse_conf_macro_list(env)
 
     -- 初始化碼表
     if not schemas then
@@ -61,43 +62,18 @@ local function display_comment(comment)
     return comment
 end
 
--- 處理開關管理候選
-local function handle_switch(env, ctx, seg, input)
-    core.input_code = "help "
-    local text_list = {}
-    for idx, option in ipairs(core.switch_options) do
-        local text = ""
-        if option.type == core.switch_types.switch then
-            -- 開關項, 渲染形如 "■選項¹"
-            local state = ""
-            local current_value = ctx:get_option(option.name)
-            if current_value then
-                text = text.."■"
-                state = option.display[1]
-            else
-                text = text.."□"
-                state = option.display[2]
-            end
-            text = text..state..index_indicators[idx]
-        elseif option.type == core.switch_types.radio then
-            -- 單選項, 渲染形如 "□■□狀態二"
-            local state = ""
-            for _, op in ipairs(option.states) do
-                local value = ctx:get_option(op.name)
-                if value then
-                    text = text.."■"
-                    state = op.display
-                else
-                    text = text.."□"
-                end
-            end
-            text = text..state..index_indicators[idx]
+-- 處理宏
+local function handle_macros(env, ctx, seg, input)
+    local macro = env.config.macros[input]
+    if macro then
+        core.input_code = ":" .. input .. " "
+        local text_list = {}
+        for i, m in ipairs(macro) do
+            table.insert(text_list, m:display(ctx) .. index_indicators[i])
         end
-        table.insert(text_list, text)
+        local cand = Candidate("macro", seg.start, seg._end, "", table.concat(text_list, " "))
+        yield(cand)
     end
-    -- 避免選項翻頁, 直接渲染到首選提示中
-    local cand = Candidate("switch", seg.start, seg._end, "", table.concat(text_list, " "))
-    yield(cand)
 end
 
 -- 處理單字輸入
@@ -199,9 +175,8 @@ function translator.func(input, seg, env)
     core.input_code = ""
     core.stashed_text = ""
 
-    if input == core.helper_code then
-        -- "/help" 快捷開關
-        handle_switch(env, ctx, seg, input)
+    if string.match(input, "^/") then
+        handle_macros(env, ctx, seg, string.sub(input, 2))
         return
     end
 

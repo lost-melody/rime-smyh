@@ -146,9 +146,50 @@ core_proc:
   sync_options:
     # 開關同步列表, 此處列出的開關項會在各個會話中同步狀態
     # - ascii_mode
+  macros:
+    help:
+      - type: tip
+        name: 配置中心
+      - type: switch
+        name: single_char
+        states: [ 純單, 智能 ]
+      - type: switch
+        name: fullcode_char
+        states: [ 全單, 字詞 ]
+      - type: switch
+        name: embeded_cands
+        states: [ 嵌入開, 嵌入關 ]
+      - type: switch
+        name: smyh_tc
+        states: [ 傳統字, 簡化字 ]
+      - type: radio
+        names: [ division.off, division.lv1, division.lv2 ]
+        states: [ 註解關, 註解一, 註解二 ]
+    div:
+      - type: radio
+        names: [ division.off, division.lv1, division.lv2 ]
+        states: [ 註解關, 註解一, 註解二 ]
+    embed:
+      - type: switch
+        name: embeded_cands
+        states: [ 嵌入開, 嵌入關 ]
+    full:
+      - type: switch
+        name: fullcode_char
+        states: [ 全單, 字詞 ]
+    smart:
+      - type: switch
+        name: single_char
+        states: [ 純單, 智能 ]
+    trad:
+      - type: switch
+        name: smyh_tc
+        states: [ 傳統字, 簡化字 ]
 
 core_tr:
   enable_completion: true
+  macros:
+    __include: core_proc/macros
 
 # 嵌入候選的顯示配置
 # 默認顯示效果爲:

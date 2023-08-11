@@ -39,42 +39,6 @@ local function select_index(key, env)
     return index
 end
 
--- 設置開關狀態, 並更新保存的配置值
-local function set_option(env, ctx, option_name, value)
-    ctx:set_option(option_name, value)
-    local swt = env.switcher
-    if swt ~= nil then
-        if swt:is_auto_save(option_name) and swt.user_config ~= nil then
-            swt.user_config:set_bool("var/option/"..option_name, value)
-        end
-    end
-end
-
--- 開關狀態切換
-local function toggle_switch(env, ctx, option)
-    if not option then
-        return
-    end
-    if option.type == core.switch_types.switch then
-        -- 開關項: { type = 1, name = "", display = "" }
-        local current_value = ctx:get_option(option.name)
-        if current_value ~= nil then
-            set_option(env, ctx, option.name, not current_value)
-        end
-    elseif option.type == core.switch_types.radio then
-        -- 單選項: { type = 2, states = {{name="", display=""}, {}} }
-        for i, op in ipairs(option.states) do
-            local value = ctx:get_option(op.name)
-            if value then
-                -- 關閉當前選項, 開啓下一選項
-                set_option(env, ctx, op.name, not value)
-                set_option(env, ctx, option.states[i%#option.states+1].name, value)
-                break
-            end
-        end
-    end
-end
-
 -- 執行開關同步
 local function sync_switches(env, ctx, key_event)
     if env.sync_at < core.sync_at then
@@ -100,12 +64,15 @@ local function commit_text(env, ctx, text, input)
     ctx:push_input(input)
 end
 
--- 處理開關項調整
-local function handle_switch(env, ctx, idx)
-    -- 清理預輸入串, 达到調整後複位爲無輸入編碼的效果
-    -- ctx:clear()
-    toggle_switch(env, ctx, core.switch_options[idx+1])
-    return kAccepted
+local function handle_macros(env, ctx, input, idx)
+    local macro = env.config.macros[input]
+    if macro then
+        if macro[idx] then
+            macro[idx]:trigger(env, ctx)
+        end
+        return kAccepted
+    end
+    return kNoop
 end
 
 -- 處理頂字
@@ -221,6 +188,7 @@ function processor.init(env)
     env.config = {}
     env.config.sync_options = core.parse_conf_str_list(env, "sync_options")
     env.config.sync_options.synced_at = 0
+    env.config.macros = core.parse_conf_macro_list(env)
 
     -- 讀取需要同步的開關項列表
     env.sync_at = 0
@@ -268,14 +236,13 @@ function processor.func(key_event, env)
     end
 
     local ch = key_event.keycode
-    if ctx.input == core.helper_code then
-        -- 開關管理
+    if string.match(ctx.input, "^/") then
         local idx = select_index(key_event, env)
-        if ch == cSp or ch == cRt then
+        if ch == cRt then
             ctx:clear()
             return kAccepted
         elseif idx >= 0 then
-            return handle_switch(env, ctx, idx)
+            return handle_macros(env, ctx, string.sub(ctx.input, 2), idx+1)
         else
             return kNoop
         end

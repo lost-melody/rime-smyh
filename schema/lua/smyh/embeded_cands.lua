@@ -148,7 +148,7 @@ end
 
 -- 過濾器
 function embeded_cands_filter.func(input, env)
-    if not env.option[env.config.option_name] and core.input_code ~= "help " then
+    if not env.option[env.config.option_name] and not string.match(core.input_code, "^:") then
         for cand in input:iter() do
             yield(cand)
         end
