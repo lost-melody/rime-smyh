@@ -8,26 +8,26 @@
        │       │       │       │       │       │       │       │       │       │       │       │       │人   Rw│走   Ry│髟   Ry│
 
        │========   Y   ========│       │========   U   ========│       │========   I   ========│       │========   O   ========│       │========   P   ========│
-       │疒   Yb│麻   Yc│戊   Yd│       │丂   Ua│夕   Ue│羊   Ug│       │匕   Ib│黽   Ic│氵   Ic│       │豸   Od│鼠下 Od│口   Oi│       │由   Pb│糸   Pc│糹   Pc│
-       │辰   Ye│龵   Yg│手   Yg│       │言   Ui│瓦   Uk│幺   Uo│       │兴上 Ic│⺍   Ic│龜下 Ic│       │〇   Oo│长   Os│舌   Ox│       │电   Pd│鱼   Pe│业   Pf│
-       │工   Yp│弋   Yq│⺀   Yr│       │八   Us│介下 Us│丆   Ut│       │專上 Ie│叀   Ie│車   Ie│       │       │       │       │       │冖   Pg│兀   Pr│艮   Ps│
-       │二   Yr│戈   Ys│鹿   Yv│       │石   Ut│马   Uv│三   Uw│       │乐上 Ij│齊右 Ij│卯左 Ij│       │       │       │       │       │忄   Pu│廴   Pw│申   Px│
-       │鹿上 Yv│广   Yw│巜   Yz│       │       │       │       │       │卯   Ij│卬左 Ij│方   Ir│
+       │疒   Yb│麻   Yc│戊   Yd│       │丂   Ua│夕   Ue│羊   Ug│       │匕   Ib│⺍   Ic│氵   Ic│       │豸   Od│鼠下 Od│口   Oi│       │由   Pb│糸   Pc│糹   Pc│
+       │辰   Ye│龵   Yg│手   Yg│       │言   Ui│瓦   Uk│幺   Uo│       │龜下 Ic│黽   Ic│兴上 Ic│       │〇   Oo│长   Os│舌   Ox│       │电   Pd│鱼   Pe│业   Pf│
+       │工   Yp│弋   Yq│⺀   Yr│       │八   Us│介下 Us│丆   Ut│       │叀   Ie│專上 Ie│車   Ie│       │       │       │       │       │冖   Pg│兀   Pr│艮   Ps│
+       │二   Yr│戈   Ys│鹿   Yv│       │石   Ut│马   Uv│三   Uw│       │卬左 Ij│乐上 Ij│卯   Ij│       │       │       │       │       │忄   Pu│廴   Pw│申   Px│
+       │鹿上 Yv│广   Yw│巜   Yz│       │       │       │       │       │齊右 Ij│卯左 Ij│方   Ir│
        │巛   Yz│       │       │       │       │       │       │       │不   Iv│
 
        │========   A   ========│       │========   S   ========│       │========   D   ========│       │========   F   ========│       │========   G   ========│
        │巳   Ae│丁   Ah│寸   Ai│       │左上 Sh│也   Si│乜   Si│       │亥   Da│囗   Dd│十   Di│       │木   Fi│一   Fk│       │       │𠂤   Gd│龶   Gh│土   Gi│
-       │巴   Aj│キ   Ak│ヰ   Ak│       │金   Sj│龷   Sk│卝   Sk│       │之   Dj│刀   Dk│辶   Dn│       │       │       │       │       │耂   Gi│示   Gl│鬼   Gm│
-       │扌   Ak│七   Ak│己   An│       │未   Sk│艹   Sk│冓上 Sk│       │白   Ds│讠   Du│夫   Dw│       │       │       │       │       │卑上 Gm│世   Gn│士   Gu│
+       │巴   Aj│キ   Ak│ヰ   Ak│       │金   Sj│龷   Sk│卝   Sk│       │之   Dj│刀   Dk│辶   Dn│       │       │       │       │       │耂   Gi│鬼   Gm│卑上 Gm│
+       │扌   Ak│七   Ak│己   An│       │未   Sk│艹   Sk│冓上 Sk│       │白   Ds│讠   Du│夫   Dw│       │       │       │       │       │世   Gn│示   Gp│士   Gu│
        │已   Ao│       │       │       │卅   Sk│卌   Sk│卄   Sk│       │       │       │       │       │       │       │       │       │穀頭 Gu│心   Gy│
        │       │       │       │       │末   Sm│两撇 Sn│癶右 Sn│
        │       │       │       │       │彡   Sn│入   So│丑   Sp│
 
        │========   H   ========│       │========   J   ========│       │========   K   ========│       │========   L   ========│
-       │宀   Hb│至   Hc│臼   Hd│       │早   Ja│乍下 Jd│卜   Jd│       │厂   Ka│畏下 Kc│了   Kc│       │冎   La│咼   La│女   Lc│
-       │祭上 Hr│⺆   Hr│月   Hr│       │爲下 Jd│龍右 Jd│山   Je│       │匚   Kc│亞中 Kc│亞下 Kc│       │而   Le│丶   Ll│乀   Ll│
-       │勹   Hr│穴   Hv│       │       │曰   Jf│日   Jk│馬   Jr│       │龸   Kd│尚   Kd│饣   Ke│       │面   Lt│立   Lu│高頭 Lv│
-       │       │       │       │       │馬上 Jr│于下 Jv│亍   Jw│       │厶   Kf│上   Kg│丄   Kg│       │高   Lv│京頭 Lv│亮頭 Lv│
+       │宀   Hb│至   Hc│臼   Hd│       │早   Ja│亍   Jc│龍右 Jd│       │厂   Ka│匚   Kc│亞下 Kc│       │冎   La│咼   La│女   Lc│
+       │祭上 Hr│月   Hr│⺆   Hr│       │乍下 Jd│卜   Jd│爲下 Jd│       │亞中 Kc│了   Kc│畏下 Kc│       │而   Le│乀   Ll│丶   Ll│
+       │勹   Hr│穴   Hv│       │       │山   Je│日   Jk│馬上 Jr│       │尚   Kd│龸   Kd│饣   Ke│       │面   Lt│立   Lu│高頭 Lv│
+       │       │       │       │       │馬   Jr│于下 Jv│曰   Jw│       │厶   Kf│丄   Kg│上   Kg│       │高   Lv│京頭 Lv│亮頭 Lv│
        │       │       │       │       │五下 Jx│韋   Jx│       │       │小   Kj│虎头 Kk│虎   Kk│       │亠   Lw│冊   Lw│辛   Lx│
        │       │       │       │       │       │       │       │       │米   Ks│子   Kv│
 

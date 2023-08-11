@@ -59,7 +59,7 @@
 特别	tgow
 發展	bnbs
 公司	ukvf
-表示	gwgl
+表示	gwgp
 如何	loea
 先生	tqei
 完全	hfrm
@@ -867,7 +867,7 @@
 危險	pkzr
 説話	uquo
 報紙	gqpi
-顯示	jugl
+顯示	jugp
 馬上	jrkg
 西方	cuir
 商業	lqpu
@@ -1857,7 +1857,7 @@
 側面	emlt
 日後	jkvu
 來回	ejdo
-暗示	jlgl
+暗示	jlgp
 心願	gykd
 恰好	prlk
 寧靜	hggh
@@ -2371,7 +2371,7 @@
 往來	vlej
 貨物	eith
 追究	gdhw
-示範	glwi
+示範	gpwi
 發射	bnqa
 垃圾	glgr
 大局	tjbv
@@ -3286,7 +3286,7 @@
 吸收	orxe
 種種	vzvz
 生動	eizn
-展示	bsgl
+展示	bsgp
 教學	gkhz
 隊長	zqra
 公安	ukhl
@@ -3928,7 +3928,7 @@
 基督教	xkgk
 八路軍	ubpi
 特地	tggs
-提示	ajgl
+提示	ajgp
 折騰	anhq
 在家	sche
 放寬	iehs
@@ -4858,7 +4858,7 @@
 蘇聯	sttu
 運動員	pzom
 推行	acvj
-指示	aigl
+指示	aigp
 新型	lffs
 藥品	sdoo
 調動	uhzn
@@ -7485,7 +7485,7 @@
 貫通	rdbz
 男生	nwei
 所得税	qvvq
-示意	gllj
+示意	gplj
 萬歲	svty
 照相	jdfm
 放學	iehz
@@ -9311,7 +9311,7 @@
 裝修	wgec
 獲獎	xswh
 獲奬	xswh
-啓示	qegl
+啓示	qegp
 空前	hyqh
 國人	dyrw
 判處	qake
@@ -9391,7 +9391,7 @@
 介入	ruso
 年間	warj
 柏林	fdff
-示威	glyf
+示威	gpyf
 漏洞	ibic
 皮鞋	wurg
 消費品	inoo
@@ -9630,7 +9630,7 @@
 讓步	ultk
 條文	ecxn
 陷阱	zpzy
-請示	uggl
+請示	uggp
 興旺	hcjm
 下場	bkgj
 截止	dytk
@@ -11283,7 +11283,7 @@
 堅實	bbhr
 逝世	angn
 節能	qekh
-揭示	ajgl
+揭示	ajgp
 提交	ajlu
 政務	ftzw
 運營	pimm
@@ -14472,7 +14472,7 @@
 論著	ursg
 柔道	zwqm
 虚幻	kpuv
-告示	togl
+告示	togp
 罷休	zkef
 初夏	ndum
 淚花	iqse
@@ -15079,7 +15079,7 @@
 迥異	cons
 絶境	ppgl
 老婆婆	giiw
-示弱	glny
+示弱	gpny
 耗盡	cuxf
 幻影	uvjl
 流放	ilie
@@ -16627,7 +16627,7 @@
 曼谷	jzur
 港澳	isir
 轉型	iifs
-批示	aigl
+批示	aigp
 民國	aady
 公報	ukgq
 醫護	kqus
@@ -16927,7 +16927,7 @@
 打官司	ahvf
 銅錢	scsy
 兒媳	hqlm
-演示	ihgl
+演示	ihgp
 愈加	rfwo
 商討	lqua
 種群	vzxw
@@ -22244,7 +22244,7 @@
 平平	nqnq
 分批	udai
 一動不動	
-預示	zugl
+預示	zugp
 繁育	wrlk
 診治	urik
 絶非	ppwi
@@ -22298,7 +22298,7 @@
 問話	rouo
 下身	bkqn
 相伴	fmeq
-昭示	jdgl
+昭示	jdgp
 看樣子	yfkv
 無暇	wsjb
 失聲	wdgb
@@ -23162,7 +23162,7 @@
 迫擊炮	dimh
 水性	vupe
 提貨	ajei
-標示	fcgl
+標示	fcgp
 長眠	rama
 電扇	cpqq
 徑自	vfmc
@@ -24865,7 +24865,7 @@
 名將	uowh
 億萬	elsv
 憑着	yjum
-警示	shgl
+警示	shgp
 在校	scfl
 三通	uwbz
 機電	fucp
@@ -24989,7 +24989,7 @@
 少不了	kikc
 特派員	tiom
 主力軍	lwpi
-出示	xxgl
+出示	xxgp
 歷年	kvwa
 嚴正	ooft
 足足	bnbn
@@ -26725,7 +26725,7 @@
 芥菜	srsv
 秋波	vmiw
 賞金	kmsj
-圖示	dogl
+圖示	dogp
 脱脂	hqhi
 蔚然	sbhx
 香精	vjkg
@@ -27996,7 +27996,7 @@
 會聚	rftb
 子系統	kwpl
 趁勢	rrgu
-示衆	glwz
+示衆	gpwz
 運動場	pzgj
 致殘	hefu
 滔天	ivft
@@ -29409,7 +29409,7 @@
 期考	xhgu
 左道旁門	sqlr
 坐地分贓	rgum
-示例	glef
+示例	gpef
 老於世故	gigb
 龍吟虎嘯	loko
 過目成誦	lmyu
@@ -30530,7 +30530,7 @@
 驍勇	jgbz
 考量	gujf
 熱源	guik
-明示	jhgl
+明示	jhgp
 水汪汪	viim
 微光	vfkp
 流光溢彩	ikiv
@@ -32604,7 +32604,7 @@
 技校	adfl
 軍旗	piiw
 日見	jkmr
-宣示	hfgl
+宣示	hfgp
 交道	luqm
 木樁	fife
 相悖	fmpd
@@ -34575,7 +34575,7 @@
 常有	krsh
 網路	pcbe
 惟獨	pcxz
-以示	elgl
+以示	elgp
 爬上	vakg
 扭轉乾坤	aidg
 郴州	ffie
@@ -35694,7 +35694,7 @@
 集大成	ctyv
 絶筆	ppwx
 沙丁魚	iatn
-示愛	glvp
+示愛	gpvp
 熟路	lkbe
 雪梨	cxvx
 獨門	xzrm
@@ -39982,7 +39982,7 @@
 酒氣	icwk
 全日	rmjk
 拾荒	arse
-示警	glsh
+示警	gpsh
 下注	bkil
 鑿鑿	pqpq
 座鐘	yrsl
@@ -43527,7 +43527,7 @@
 嫌疑人	lirw
 純收入	pxso
 作主	ewlm
-公示	ukgl
+公示	ukgp
 從實	vrhr
 版次	wnyn
 大棚	tjfh
@@ -43853,7 +43853,7 @@
 求勝	fvhq
 石油氣	uiwk
 外派	ujin
-訓示	uegl
+訓示	uegp
 藏胞	syhh
 匯價	kiec
 火攻	msye
@@ -46660,7 +46660,7 @@
 共進	sucd
 花枝	sefd
 陝甘寧	zshg
-子曰	kvjf
+子曰	kvjw
 隨喜	zsgo
 阻尼	zmbi
 陰狠	zrxp
@@ -47138,7 +47138,7 @@
 魚頭	tnfo
 外角	ujpz
 鋰電池	scis
-名曰	uojf
+名曰	uojw
 名車	uoie
 兔毛	poxe
 鏈式	siyy
@@ -47194,7 +47194,7 @@
 抽走	apry
 投來	aqej
 所受	qnvp
-所示	qngl
+所示	qngp
 扭斷	asuu
 所欠	qnnv
 所迫	qndd
@@ -52494,7 +52494,7 @@
 矇昧無知	mjwq
 莫愁	sjvm
 劃傷	xgew
-或曰	yojf
+或曰	yojw
 功放	ywie
 黃精	sykg
 警匪	shkw
@@ -55561,7 +55561,7 @@
 主戰	lmoo
 報憂	gquh
 堂上	kgkg
-示人	glrw
+示人	gprw
 長親	ralf
 關係網	repc
 評優	uneu
@@ -56083,7 +56083,7 @@
 真貨	dmei
 未開	skrf
 超塵拔俗	ryae
-示好	gllk
+示好	gplk
 救市	fvlr
 進廠	cdyk
 韓元	djfp
@@ -56109,7 +56109,7 @@
 孝經	gkpf
 喪母	doru
 武大	fytj
-開示	rfgl
+開示	rfgp
 開灤	rfiu
 形神	fsgp
 屯紮	axfe
@@ -58087,7 +58087,7 @@
 重生父母	zeur
 魏徵	vlvf
 徐來	vrej
-答曰	wrjf
+答曰	wrjw
 籤批	wrai
 繫上	ixkg
 入腦	sohy
@@ -60813,7 +60813,7 @@
 起搏器	raoo
 私學	vkhz
 銷勢	skgu
-炫示	mlgl
+炫示	mlgp
 煙色	mcpa
 白礬	dsfz
 扯腿	athp
@@ -62347,7 +62347,7 @@
 原田	kdne
 原屬	kdbv
 奇山	taje
-故曰	bejf
+故曰	bejw
 雁北	keqi
 龍陽	lhzj
 龍種	lhvz
@@ -62468,7 +62468,7 @@
 中西方	ocir
 中高層	olbq
 轉碼	iiuj
-默示	vxgl
+默示	vxgp
 黑星	vhje
 墨翟	vgqq
 車匪	iekw
@@ -66988,7 +66988,7 @@
 昭顯	jdju
 堅信不疑	beii
 吸到	orhx
-呈示	omgl
+呈示	omgp
 遺珠	okmt
 吊門	orrm
 叫冤	oxpp
@@ -71964,7 +71964,7 @@
 市樹	lrfg
 廟主	ydlm
 諾丁漢	uais
-諺曰	uljf
+諺曰	uljw
 文君新寡	xxlh
 鞋城	rggy
 東胡	fjbh
@@ -74556,7 +74556,7 @@
 絮聒	loto
 啓行	qevj
 數來寶	oehm
-曉示	jggl
+曉示	jggp
 令人捧腹	rrah
 刮地皮	ogwu
 儘先	extq
@@ -79662,7 +79662,7 @@
 亂泥	vbib
 矮仔	qvek
 透切	vrad
-透示	vrgl
+透示	vrgp
 透映	vrjc
 秀頎	vrnu
 盤柱	xqfl
