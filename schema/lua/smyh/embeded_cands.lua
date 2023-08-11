@@ -16,7 +16,7 @@ key_binder:
     - { when: always, accept: "Control+Shift+E", toggle: embeded_cands }
 --]]
 
-local index_indicators = {"¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰"}
+local index_indicators = { "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰" }
 
 -- 首選/非首選格式定義
 -- Stash: 延迟候選; Seq: 候選序號; Code: 編碼; 候選: 候選文本; Comment: 候選提示
@@ -87,19 +87,19 @@ end
 
 -- 處理候選文本和延迟串
 local function render_stashcand(env, seq, stash, text, digested)
-    if string.len(stash) ~= 0 and text ~= stash and string.match(text, "^"..stash) then
+    if string.len(stash) ~= 0 and text ~= stash and string.match(text, "^" .. stash) then
         if seq == 1 then
             -- 首選含延迟串, 原樣返回
             digested = true
-            stash, text = stash, string.sub(text, string.len(stash)+1)
+            stash, text = stash, string.sub(text, string.len(stash) + 1)
         elseif not digested then
             -- 首選不含延迟串, 其他候選含延迟串, 標記之
             digested = true
-            stash, text = "["..stash.."]", string.sub(text, string.len(stash)+1)
+            stash, text = "[" .. stash .. "]", string.sub(text, string.len(stash) + 1)
         else
             -- 非首個候選, 延迟串標記爲空
             local placeholder = string.gsub(env.config.stash_placeholder, "%${Stash}", stash)
-            stash, text = "", placeholder..string.sub(text, string.len(stash)+1)
+            stash, text = "", placeholder .. string.sub(text, string.len(stash) + 1)
         end
     else
         -- 普通候選, 延迟串標記爲空
@@ -137,10 +137,10 @@ local function render_cand(env, seq, code, stashed, text, comment, digested)
     -- 渲染提示串
     comment = render_comment(comment)
     local cand = formatter:build({
-        ["${Seq}"]     = env.config.index_indicators[seq],
-        ["${Code}"]    = code,
-        ["${Stash}"]   = stashed,
-        ["${候選}"]    = text,
+        ["${Seq}"] = env.config.index_indicators[seq],
+        ["${Code}"] = code,
+        ["${Stash}"] = stashed,
+        ["${候選}"] = text,
         ["${Comment}"] = comment,
     })
     return cand, digested

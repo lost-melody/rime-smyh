@@ -20,14 +20,20 @@ core.sync_bus = {
 }
 
 -- 宏類型枚舉
-core.macro_types = { tip = "tip", switch = "switch", radio = "radio", shell = "shell" }
+core.macro_types = {
+    tip    = "tip",
+    switch = "switch",
+    radio  = "radio",
+    shell  = "shell",
+    eval   = "eval",
+}
 
 -- 開關枚舉
 core.switch_names = {
-    single_char = "single_char",
+    single_char   = "single_char",
     fullcode_char = "fullcode_char",
     embeded_cands = "embeded_cands",
-    smyh_tc = "smyh_tc"
+    smyh_tc       = "smyh_tc"
 }
 
 -- 設置開關狀態, 並更新保存的配置值
@@ -36,7 +42,7 @@ local function set_option(env, ctx, option_name, value)
     local swt = env.switcher
     if swt ~= nil then
         if swt:is_auto_save(option_name) and swt.user_config ~= nil then
-            swt.user_config:set_bool("var/option/"..option_name, value)
+            swt.user_config:set_bool("var/option/" .. option_name, value)
         end
     end
 end
@@ -50,9 +56,11 @@ local function new_tip(name)
     function tip:display(ctx)
         return self.name
     end
+
     function tip:trigger(env, ctx)
         ctx:clear()
     end
+
     return tip
 end
 
@@ -75,12 +83,14 @@ local function new_switch(name, states)
         end
         return state
     end
+
     function switch:trigger(env, ctx)
         local current_value = ctx:get_option(self.name)
         if current_value ~= nil then
             set_option(env, ctx, self.name, not current_value)
         end
     end
+
     return switch
 end
 
@@ -88,7 +98,7 @@ end
 ---@param states table
 local function new_radio(states)
     local radio = {
-        type = core.macro_types.radio,
+        type   = core.macro_types.radio,
         states = states,
     }
     function radio:display(ctx)
@@ -96,25 +106,27 @@ local function new_radio(states)
         for _, op in ipairs(self.states) do
             local value = ctx:get_option(op.name)
             if value then
-                symbol = symbol.."■"
+                symbol = symbol .. "■"
                 state = op.display
             else
-                symbol = symbol.."□"
+                symbol = symbol .. "□"
             end
         end
         return symbol .. state
     end
+
     function radio:trigger(env, ctx)
         for i, op in ipairs(self.states) do
             local value = ctx:get_option(op.name)
             if value then
                 -- 關閉當前選項, 開啓下一選項
                 set_option(env, ctx, op.name, not value)
-                set_option(env, ctx, self.states[i%#self.states+1].name, value)
+                set_option(env, ctx, self.states[i % #self.states + 1].name, value)
                 break
             end
         end
     end
+
     return radio
 end
 
@@ -124,29 +136,57 @@ local function new_shell(name, cmd)
     local shell = {
         type = core.macro_types.tip,
         name = name,
-        cmd = cmd,
+        cmd  = cmd,
     }
     function shell:display(ctx)
-        return "⌘" .. self.name
+        return self.name
     end
+
     function shell:trigger(env, ctx)
         io.popen(cmd)
         ctx:clear()
     end
+
     return shell
+end
+
+local function new_eval(name, expr)
+    local f = load(string.format("return (%s)", expr))
+    local function get_text()
+        local text = f and f()
+        return text and type(text) == "string" and #text ~= 0 and text or ""
+    end
+    local eval = {
+        type = core.macro_types.eval,
+        name = name,
+        get_text = get_text,
+    }
+    function eval:display(ctx)
+        return #self.name ~= 0 and self.name or self.get_text()
+    end
+
+    function eval:trigger(env, ctx)
+        local text = self.get_text()
+        if #text ~= 0 then
+            env.engine:commit_text(text)
+        end
+        ctx:clear()
+    end
+
+    return eval
 end
 
 -- ######## 工具函数 ########
 
 -- 從方案配置中讀取布爾值
 function core.parse_conf_bool(env, path)
-    local value = env.engine.schema.config:get_bool(env.name_space.."/"..path)
+    local value = env.engine.schema.config:get_bool(env.name_space .. "/" .. path)
     return value and true or false
 end
 
 -- 從方案配置中讀取字符串
 function core.parse_conf_str(env, path, default)
-    local str = env.engine.schema.config:get_string(env.name_space.."/"..path)
+    local str = env.engine.schema.config:get_string(env.name_space .. "/" .. path)
     if not str and default and #default ~= 0 then
         str = default
     end
@@ -156,9 +196,9 @@ end
 -- 從方案配置中讀取字符串列表
 function core.parse_conf_str_list(env, path, default)
     local list = {}
-    local conf_list = env.engine.schema.config:get_list(env.name_space.."/"..path)
+    local conf_list = env.engine.schema.config:get_list(env.name_space .. "/" .. path)
     if conf_list then
-        for i = 0, conf_list.size-1 do
+        for i = 0, conf_list.size - 1 do
             table.insert(list, conf_list:get_value_at(i):get_string())
         end
     elseif default then
@@ -171,83 +211,78 @@ end
 function core.parse_conf_macro_list(env)
     local macros = {}
     local macro_map = env.engine.schema.config:get_map(env.name_space .. "/macros")
-    if macro_map then
-        -- macros:
-        for _, key in ipairs(macro_map:keys()) do
-            local cands = {}
-            local cand_list = macro_map:get(key):get_list()
-            if cand_list then
-                -- macros/help:
-                for i = 0, cand_list.size-1 do
-                    local key_map = cand_list:get_at(i):get_map()
-                    if key_map then
-                        -- macros/help[1]/type:
-                        if key_map:has_key("type") then
-                            local type = key_map:get_value("type"):get_string()
-                            if type == core.macro_types.tip then
-                                -- {type: tip, name: foo}
-                                if key_map:has_key("name") then
-                                    local name = key_map:get_value("name"):get_string()
-                                    table.insert(cands, new_tip(name))
-                                end
-                            elseif type == core.macro_types.switch then
-                                -- {type: switch, name: single_char, states: []}
-                                if key_map:has_key("name") and key_map:has_key("states") then
-                                    local name = key_map:get_value("name"):get_string()
-                                    local states = {}
-                                    local state_list = key_map:get("states"):get_list()
-                                    if state_list then
-                                        for idx = 0, state_list.size-1 do
-                                            table.insert(states, state_list:get_value_at(idx):get_string())
-                                        end
-                                    end
-                                    if #name ~= 0 and #states > 1 then
-                                        table.insert(cands, new_switch(name, states))
-                                    end
-                                end
-                            elseif type == core.macro_types.radio then
-                                -- {type: radio, names: [], states: []}
-                                if key_map:has_key("names") and key_map:has_key("states") then
-                                    local names, states = {}, {}
-                                    local name_list = key_map:get("names"):get_list()
-                                    if name_list then
-                                        for idx = 0, name_list.size-1 do
-                                            table.insert(names, name_list:get_value_at(idx):get_string())
-                                        end
-                                    end
-                                    local state_list = key_map:get("states"):get_list()
-                                    if state_list then
-                                        for idx = 0, state_list.size-1 do
-                                            table.insert(states, state_list:get_value_at(idx):get_string())
-                                        end
-                                    end
-                                    if #names > 1 and #names == #states then
-                                        local radio = {}
-                                        for idx, name in ipairs(names) do
-                                            if #name ~= 0 and #states[idx] ~= 0 then
-                                                table.insert(radio, { name = name, display = states[idx] })
-                                            end
-                                        end
-                                        table.insert(cands, new_radio(radio))
-                                    end
-                                end
-                            elseif type == core.macro_types.shell then
-                                -- {type: shell, name: foo, cmd: "echo hello"}
-                                if key_map:has_key("name") and key_map:has_key("cmd") then
-                                    local name = key_map:get_value("name"):get_string()
-                                    local cmd = key_map:get_value("cmd"):get_string()
-                                    if #name ~= 0 and #cmd ~= 0 then
-                                        table.insert(cands, new_shell(name, cmd))
-                                    end
-                                end
+    -- macros:
+    for _, key in ipairs(macro_map and macro_map:keys() or {}) do
+        local cands = {}
+        local cand_list = macro_map:get(key):get_list() or { size = 0 }
+        -- macros/help:
+        for i = 0, cand_list.size - 1 do
+            local key_map = cand_list:get_at(i):get_map()
+            -- macros/help[1]/type:
+            local type = key_map and key_map:has_key("type") and key_map:get_value("type"):get_string() or ""
+            if type == core.macro_types.tip then
+                -- {type: tip, name: foo}
+                if key_map:has_key("name") then
+                    local name = key_map:get_value("name"):get_string()
+                    table.insert(cands, new_tip(name))
+                end
+            elseif type == core.macro_types.switch then
+                -- {type: switch, name: single_char, states: []}
+                if key_map:has_key("name") and key_map:has_key("states") then
+                    local name = key_map:get_value("name"):get_string()
+                    local states = {}
+                    local state_list = key_map:get("states"):get_list() or { size = 0 }
+                    for idx = 0, state_list.size - 1 do
+                        table.insert(states, state_list:get_value_at(idx):get_string())
+                    end
+                    if #name ~= 0 and #states > 1 then
+                        table.insert(cands, new_switch(name, states))
+                    end
+                end
+            elseif type == core.macro_types.radio then
+                -- {type: radio, names: [], states: []}
+                if key_map:has_key("names") and key_map:has_key("states") then
+                    local names, states = {}, {}
+                    local name_list = key_map:get("names"):get_list() or { size = 0 }
+                    for idx = 0, name_list.size - 1 do
+                        table.insert(names, name_list:get_value_at(idx):get_string())
+                    end
+                    local state_list = key_map:get("states"):get_list() or { size = 0 }
+                    for idx = 0, state_list.size - 1 do
+                        table.insert(states, state_list:get_value_at(idx):get_string())
+                    end
+                    if #names > 1 and #names == #states then
+                        local radio = {}
+                        for idx, name in ipairs(names) do
+                            if #name ~= 0 and #states[idx] ~= 0 then
+                                table.insert(radio, { name = name, display = states[idx] })
                             end
                         end
+                        table.insert(cands, new_radio(radio))
+                    end
+                end
+            elseif type == core.macro_types.shell then
+                -- {type: shell, name: foo, cmd: "echo hello"}
+                if key_map:has_key("name") and key_map:has_key("cmd") then
+                    local name = key_map:get_value("name"):get_string()
+                    local cmd = key_map:get_value("cmd"):get_string()
+                    if #name ~= 0 and #cmd ~= 0 then
+                        table.insert(cands, new_shell(name, cmd))
+                    end
+                end
+            elseif type == core.macro_types.eval then
+                -- {type: eval, name: foo, expr: "os.date()"}
+                if key_map:has_key("expr") then
+                    local name = key_map:has_key("name") and key_map:get_value("name"):get_string() or ""
+                    local expr = key_map:get_value("expr"):get_string()
+                    if #expr ~= 0 then
+                        table.insert(cands, new_eval(name, expr))
                     end
                 end
             end
-            if #cands ~= 0 then
-                macros[key] = cands
-            end
+        end
+        if #cands ~= 0 then
+            macros[key] = cands
         end
     end
     return macros
@@ -359,7 +394,7 @@ core.query_cand_list = function(mem, code_segs, skipfull)
     while index <= #code_segs do
         -- 最大匹配
         for viewport = #code_segs, index, -1 do
-            if skipfull and viewport-index+1 >= #code_segs and #code_segs > 1 then
+            if skipfull and viewport - index + 1 >= #code_segs and #code_segs > 1 then
                 -- continue
             else
                 code = table.concat(code_segs, "", index, viewport)

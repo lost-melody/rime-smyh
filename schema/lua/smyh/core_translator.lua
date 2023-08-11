@@ -48,7 +48,7 @@ function translator.init(env)
     env.engine.context.option_update_notifier:connect(handler)
 end
 
-local index_indicators = {"¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰"}
+local index_indicators = { "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰" }
 
 local function display_input(input)
     input = string.gsub(input, " ", "-")
@@ -83,7 +83,7 @@ local function handle_singlechar(env, ctx, code_segs, remain, seg, input)
     -- 查询最多一百個候選
     local entries = core.dict_lookup(core.base_mem, remain, 100, env.config.comp)
     if #entries == 0 then
-        table.insert(entries, {text="", comment=""})
+        table.insert(entries, { text = "", comment = "" })
     end
 
     -- 依次送出候選
@@ -148,7 +148,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     local entries = core.dict_lookup(core.base_mem, remain, 100 - #full_entries, env.config.comp)
     if #entries == 0 then
         -- 以空串爲空碼候選
-        table.insert(entries, {text="", comment=""})
+        table.insert(entries, { text = "", comment = "" })
     end
 
     -- 送出候選
@@ -159,7 +159,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
     for _, entry in ipairs(entries) do
         entry.comment = display_comment(entry.comment)
-        local cand = Candidate("table", seg.start, seg._end, core.stashed_text..entry.text, entry.comment)
+        local cand = Candidate("table", seg.start, seg._end, core.stashed_text .. entry.text, entry.comment)
         yield(cand)
     end
 

@@ -1,25 +1,25 @@
-local processor = {}
-local core = require("smyh.core")
+local processor   = {}
+local core        = require("smyh.core")
 
-local kRejected = 0 -- 拒: 不作響應, 由操作系統做默認處理
-local kAccepted = 1 -- 收: 由rime響應該按鍵
-local kNoop     = 2 -- 無: 請下一個processor繼續看
+local kRejected   = 0        -- 拒: 不作響應, 由操作系統做默認處理
+local kAccepted   = 1        -- 收: 由rime響應該按鍵
+local kNoop       = 2        -- 無: 請下一個processor繼續看
 
-local cA  = string.byte("a") -- 字符: 'a'
-local cZ  = string.byte("z") -- 字符: 'z'
-local cSC = string.byte(";") -- 字符: ';'
-local cSl = string.byte("/") -- 字符: '/'
-local cGr = string.byte("`") -- 字符: '`'
-local cSp = string.byte(" ") -- 空格鍵
-local cSL = 0xffe1           -- 左Shift
-local cSR = 0xffe2           -- 右Shift
-local cCL = 0xffe3           -- 左Ctrl
-local cCR = 0xffe4           -- 右Ctrl
-local cRt = 0xff0d           -- 回車鍵
-local cTb = 0xff09           -- Tab
+local cA          = string.byte("a") -- 字符: 'a'
+local cZ          = string.byte("z") -- 字符: 'z'
+local cSC         = string.byte(";") -- 字符: ';'
+local cSl         = string.byte("/") -- 字符: '/'
+local cGr         = string.byte("`") -- 字符: '`'
+local cSp         = string.byte(" ") -- 空格鍵
+local cSL         = 0xffe1   -- 左Shift
+local cSR         = 0xffe2   -- 右Shift
+local cCL         = 0xffe3   -- 左Ctrl
+local cCR         = 0xffe4   -- 右Ctrl
+local cRt         = 0xff0d   -- 回車鍵
+local cTb         = 0xff09   -- Tab
 
-local cSelectFull = cTb -- 使用Tab出四碼
-local cBreakSmart = cTb -- 使用Tab打斷施法
+local cSelectFull = cTb      -- 使用Tab出四碼
+local cBreakSmart = cTb      -- 使用Tab打斷施法
 
 -- 返回被選中的候選的索引, 來自 librime-lua/sample 示例
 local function select_index(key, env)
@@ -47,7 +47,7 @@ local function sync_switches(env, ctx, key_event)
         for op_name, value in pairs(core.sync_bus.switches) do
             if env.sync_options[op_name] ~= value then
                 env.sync_options[op_name] = value
-                if not ctx:get_option("unsync_"..op_name) and ctx:get_option(op_name) ~= value then
+                if not ctx:get_option("unsync_" .. op_name) and ctx:get_option(op_name) ~= value then
                     ctx:set_option(op_name, value)
                 end
             end
@@ -85,7 +85,7 @@ local function handle_push(env, ctx, ch)
         if env.option[core.switch_names.single_char] and #code_segs == 1 and #remain == 1 then
             local cands = core.query_cand_list(core.base_mem, code_segs)
             if #cands ~= 0 then
-                commit_text(env, ctx, cands[1], remain..string.char(ch))
+                commit_text(env, ctx, cands[1], remain .. string.char(ch))
             end
             return kAccepted
         end
@@ -94,7 +94,7 @@ local function handle_push(env, ctx, ch)
         if #remain == 0 and #code_segs > 1 then
             local entries, remain = core.query_cand_list(core.base_mem, code_segs)
             if #entries > 1 then
-                commit_text(env, ctx, entries[1], remain..string.char(ch))
+                commit_text(env, ctx, entries[1], remain .. string.char(ch))
                 return kAccepted
             end
         end
@@ -203,7 +203,7 @@ function processor.init(env)
             local value = ctx:get_option(op_name)
             if env.sync_at == 0 and core.sync_at ~= 0 and core.sync_bus.switches[op_name] ~= nil then
                 -- 當前會話未同步過, 且總線有值, 可能是由 reset 觸發
-            elseif ctx:get_option("unsync_"..op_name) then
+            elseif ctx:get_option("unsync_" .. op_name) then
                 -- 當前會話設置禁用了此開關同步
             elseif core.sync_bus.switches[op_name] ~= value then
                 -- 同步到總線
@@ -242,7 +242,7 @@ function processor.func(key_event, env)
             ctx:clear()
             return kAccepted
         elseif idx >= 0 then
-            return handle_macros(env, ctx, string.sub(ctx.input, 2), idx+1)
+            return handle_macros(env, ctx, string.sub(ctx.input, 2), idx + 1)
         else
             return kNoop
         end

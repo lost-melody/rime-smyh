@@ -165,6 +165,12 @@ core_proc:
       - type: radio
         names: [ division.off, division.lv1, division.lv2 ]
         states: [ 註解關, 註解一, 註解二 ]
+    time:
+      - type: eval
+        name: 日期時間
+        expr: os.date("%Y-%m-%d %H:%M:%S")
+      - type: eval
+        expr: os.date("%Y%m%d%H%M")
     div:
       - type: radio
         names: [ division.off, division.lv1, division.lv2 ]

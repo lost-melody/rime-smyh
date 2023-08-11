@@ -45,12 +45,12 @@ patch:
   macros:
     repo:
       - type: tip
-        name: ⚛訪問倉庫
+        name: 訪問倉庫
       - type: shell
-        name: 吉旦餅
+        name: ⚛吉旦餅
         cmd: xdg-open https://github.com/lost-melody/rime-smyh/tree/wafel
       - type: shell
-        name: 宇浩
+        name: ⚛宇浩
         cmd: xdg-open https://github.com/forfudan/yuhao
   core_proc/macros/+:
     __include: patch/macros
