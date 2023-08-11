@@ -16,7 +16,7 @@
        │巛   Yz│       │       │       │       │       │       │       │不   Iv│
 
        │========   A   ========│       │========   S   ========│       │========   D   ========│       │========   F   ========│       │========   G   ========│
-       │巳   Ae│丁   Ah│寸   Ai│       │左上 Sh│乜   Si│也   Si│       │亥   Da│囗  Ddf│十   Di│       │木   Fi│一   Fk│       │       │𠂤   Gd│龶   Gh│土   Gi│
+       │巳   Ae│丁   Ah│寸   Ai│       │左上 Sh│乜   Si│也   Si│       │亥   Da│囗   Dd│十   Di│       │木   Fi│一   Fk│       │       │𠂤   Gd│龶   Gh│土   Gi│
        │巴   Aj│キ   Ak│ヰ   Ak│       │金   Sj│卝   Sk│艹   Sk│       │之   Dj│刀   Dk│辶   Dn│       │       │       │       │       │耂   Gi│示   Gl│鬼   Gm│
        │扌   Ak│七   Ak│己   An│       │未   Sk│龷   Sk│卌   Sk│       │白   Ds│讠   Du│夫   Dw│       │       │       │       │       │卑上 Gm│世   Gn│士   Gu│
        │已   Ao│       │       │       │卅   Sk│卄   Sk│冓上 Sk│       │       │       │       │       │       │       │       │       │穀頭 Gu│心   Gy│

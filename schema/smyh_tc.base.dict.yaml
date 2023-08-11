@@ -8667,6 +8667,8 @@ columns:
 𤽛	dcy	0
 𠁴	dcz	0
 𬤔	dcz	0
+囗	dd1	2
+⼞	dd1	0
 该	dda	7118
 𰤗	dda	0
 𢺻	ddb	0
@@ -8693,8 +8695,6 @@ columns:
 𲂐	ddd	0
 㔺	dde	0
 皦	dde	0
-囗	ddf	2
-⼞	ddf	0
 皪	ddf	0
 𠦔	ddf	0
 𠦠	ddf	0
@@ -99146,3 +99146,7 @@ columns:
 出去	x3
 看到	y3
 還有	z3
+·	jg1
+！	tt1
+？	ww1
+　	kg1

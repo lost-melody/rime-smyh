@@ -38,7 +38,7 @@ Cu	襾
 Cv	贝
 Cy	见
 Da	亥
-Ddf	囗
+Dd	囗
 Di	十
 Dj	之
 Dk	刀

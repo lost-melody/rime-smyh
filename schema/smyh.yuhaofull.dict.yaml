@@ -8672,6 +8672,8 @@ encoder:
 𭄡	dcyw
 𣰣	dcyx
 𠁴	dczz
+囗	dd11
+⼞	dd11
 𰤗	ddas
 该	ddau
 𢺻	ddbj
@@ -8698,8 +8700,6 @@ encoder:
 𤾪	dddt
 𫛘	dddt
 㔺	ddeg
-囗	ddf1
-⼞	ddf1
 𩰿	ddfc
 𤾏	ddfi
 𲂋	ddfi
@@ -78232,7 +78232,6 @@ encoder:
 𮘾	udcx
 𢺹	uddb
 𥒢	uddd
-𫩑	uddf
 𥗇	uddi
 譛	uddj
 𦏋	uddj
@@ -78244,6 +78243,7 @@ encoder:
 𰧪	uddm
 𨑷	uddn
 𬨟	uddn
+𫩑	uddt
 𧥨	udeg
 攽	udeu
 𠔢	udfb
@@ -87204,11 +87204,11 @@ encoder:
 䈒	wdcd
 𨾟	wdci
 𨾤	wdci
-𬔭	wddf
 簮	wddj
 𮆫	wddm
 迭	wddn
 迕	wddn
+𬔭	wddo
 𠅐	wdem
 䇱	wdeu
 𥲢	wdff
