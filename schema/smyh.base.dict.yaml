@@ -8697,6 +8697,8 @@ columns:
 𲂐	ddd	0
 皦	dde	1
 㔺	dde	0
+囗	ddf	27
+⼞	ddf	0
 皪	ddf	0
 𠦔	ddf	0
 𠦠	ddf	0
@@ -8807,8 +8809,6 @@ columns:
 𭽖	dey	0
 𱱾	dey	0
 𬣯	dez	0
-囗	df1	27
-⼞	df1	0
 𡆶	dfb	0
 𢻞	dfb	0
 𡆵	dfc	0
@@ -78288,6 +78288,7 @@ columns:
 𥓈	udd	0
 𥔯	udd	0
 𨑷	udd	0
+𫩑	udd	0
 𬨟	udd	0
 𮁏	udd	0
 𱳫	udd	0
@@ -78308,7 +78309,6 @@ columns:
 𥔟	udf	0
 𥕏	udf	0
 𧭥	udf	0
-𫩑	udf	0
 𬴎	udf	0
 𰄱	udf	0
 認	udg	9343
@@ -87263,6 +87263,7 @@ columns:
 迕	wdd	2
 䈒	wdd	0
 𢆏	wdd	0
+𬔭	wdd	0
 𭅦	wdd	0
 𰋣	wdd	0
 䇱	wde	0
@@ -87275,7 +87276,6 @@ columns:
 𥮮	wdf	0
 𥲢	wdf	0
 𥶭	wdf	0
-𬔭	wdf	0
 𮅉	wdf	0
 𱸫	wdf	0
 怣	wdg	0

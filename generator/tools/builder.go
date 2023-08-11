@@ -327,21 +327,14 @@ func calcCodeByDiv(div []string, mappings map[string]string) (full string, code 
 	if len(div) > 3 {
 		div = []string{div[0], div[1], div[len(div)-1]}
 	}
+	stack := "1"
 	for _, comp := range div {
 		compCode := mappings[comp]
 		code += compCode[:1]
+		stack = compCode[1:] + stack
 		full += compCode
 	}
-	if len(code) < 3 {
-		code += full[len(full)-1:]
-	}
-
-	if len(code) == 2 {
-		supp := getCodeSupplement(full)
-		code += supp
-		// full += supp
-	}
-
+	code += stack[:3-len(code)]
 	code = strings.ToLower(code)
 	return
 }
@@ -356,22 +349,5 @@ func calcFullCodeByDiv(div []string, mappings map[string]string) (full string, c
 	}
 	code += stack[:4-len(code)]
 	code = strings.ToLower(code)
-	return
-}
-
-func getCodeSupplement(code string) (supp string) {
-	// 使用互擊EI方式
-	// if _, ok := leftHandKeySet[strings.ToLower(code)[1]]; ok {
-	// 	supp = "y"
-	// } else {
-	// 	supp = "k"
-	// }
-	// 使用雙寫小碼方式
-	// supp = string(code[len(code)-1])
-	// 使用重複大碼方式
-	// supp = string(code[0])
-	// 使用分号
-	// supp = ";"
-	supp = "1"
 	return
 }
