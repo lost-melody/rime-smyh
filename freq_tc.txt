@@ -1,3 +1,0 @@
-# simp: freq_simp.txt
-# trad: freq_trad.txt
-# prop: 0.10:0.90

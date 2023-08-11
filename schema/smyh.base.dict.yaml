@@ -41785,6 +41785,7 @@ columns:
 𪦳	ljz	0
 𰥊	ljz	0
 𱲡	ljz	0
+好	lk1	370272
 嫾	lka	0
 𡢙	lka	0
 𡬱	lka	0
@@ -53466,7 +53467,6 @@ columns:
 嗢	ojz	0
 𠳱	ojz	0
 𫬇	ojz	0
-好	ok1	370272
 噒	oka	0
 𠯸	oka	0
 𠾇	oka	0
@@ -99133,9 +99133,9 @@ columns:
 一个	f2
 一些	f2
 地上	g2
+好的	l2
 不是	i2
 不过	i2
-好的	o2
 情况	p2
 大家	t2
 大概	t2
@@ -99152,6 +99152,5 @@ columns:
 没有	iq2
 时候	ja2
 意思	lj2
-知道	ql2
-三个	uw2
+知道	qo2
 刚刚	cz2
