@@ -54,9 +54,16 @@ function translator.init(env)
     env.engine.context.option_update_notifier:connect(schema_switcher)
 
     -- 構造回調函數
-    local handler = core.get_switch_handler(env, core.switch_names.fullcode_char)
+    local option_names = {
+        core.switch_names.full_word,
+        core.switch_names.full_char,
+        core.switch_names.full_off,
+    }
+    local handler = core.get_switch_handler(env, option_names)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
-    handler(env.engine.context, core.switch_names.fullcode_char)
+    for _, name in ipairs(option_names) do
+        handler(env.engine.context, name)
+    end
     -- 注册通知回調
     env.engine.context.option_update_notifier:connect(handler)
 end
@@ -121,9 +128,9 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
         full_entries[1].comment = "☯"
     end
 
-    if #input == 4 then
+    if not env.option[core.switch_names.full_off] and #input == 4 then
         local fullcode_cands = 0
-        local fullcode_char = env.option[core.switch_names.fullcode_char] or false
+        local fullcode_char = env.option[core.switch_names.full_char]
         local entries = core.dict_lookup(core.full_mem, input, 10)
         local stashed = {}
         -- 詞語前置, 單字暫存

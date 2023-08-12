@@ -31,7 +31,9 @@ core.macro_types = {
 -- 開關枚舉
 core.switch_names = {
     single_char   = "single_char",
-    fullcode_char = "fullcode_char",
+    full_word     = "full.word",
+    full_char     = "full.char",
+    full_off      = "full.off",
     embeded_cands = "embeded_cands",
     smyh_tc       = "smyh_tc"
 }
@@ -124,9 +126,11 @@ local function new_radio(states)
                 -- 關閉當前選項, 開啓下一選項
                 set_option(env, ctx, op.name, not value)
                 set_option(env, ctx, self.states[i % #self.states + 1].name, value)
-                break
+                return
             end
         end
+        -- 全都没開, 那就開一下第一個吧
+        set_option(env, ctx, self.states[1].name, true)
     end
 
     return radio
@@ -315,17 +319,20 @@ function core.valid_smyh_input(input)
 end
 
 -- 構造開關變更回調函數
-function core.get_switch_handler(env, option_name)
-    local option
-    if not env.option then
-        option = {}
-        env.option = option
-    else
-        option = env.option
+---@param option_names table
+function core.get_switch_handler(env, option_names)
+    env.option = env.option or {}
+    local option = env.option
+    local name_set = {}
+    if option_names and #option_names ~= 0 then
+        for _, name in ipairs(option_names) do
+            name_set[name] = true
+        end
     end
     -- 返回通知回調, 當改變選項值時更新暫存的值
+    ---@param name string
     return function(ctx, name)
-        if name == option_name then
+        if name_set[name] then
             option[name] = ctx:get_option(name)
             if option[name] == nil then
                 -- 當選項不存在時默認爲啟用狀態

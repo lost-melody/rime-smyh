@@ -38,8 +38,8 @@ switches:
   - name: single_char
     states: [ 智能, 純單 ]
     reset: 0
-  - name: fullcode_char
-    states: [ 字詞, 全單 ]
+  - options: [ full.word, full.char, full.off ]
+    states: [ 字詞, 全單, 三碼 ]
     reset: 0
   - name: embeded_cands
     states: [ 普通, 嵌入 ]
@@ -172,9 +172,9 @@ macros:
     - type: switch
       name: single_char
       states: [ □智能, ■純單 ]
-    - type: switch
-      name: fullcode_char
-      states: [ □字詞, ■全單 ]
+    - type: radio
+      names: [ full.word, full.char, full.off ]
+      states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ]
     - type: switch
       name: embeded_cands
       states: [ ☐嵌入, ☑嵌入 ]
@@ -199,9 +199,9 @@ macros:
       name: embeded_cands
       states: [ ☐嵌入, ☑嵌入 ]
   full:
-    - type: switch
-      name: fullcode_char
-      states: [ □字詞, ■全單 ]
+    - type: radio
+      names: [ full.word, full.char, full.off ]
+      states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ]
   smart:
     - type: switch
       name: single_char

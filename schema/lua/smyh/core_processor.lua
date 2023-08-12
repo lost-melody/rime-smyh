@@ -147,7 +147,7 @@ local function handle_select(env, ctx, ch)
 end
 
 local function handle_fullcode(env, ctx, ch)
-    if #ctx.input == 4 and ch == cSelectFull then
+    if not env.option[core.switch_names.full_off] and #ctx.input == 4 and ch == cSelectFull then
         ctx:commit()
         return kAccepted
     end
@@ -229,9 +229,15 @@ function processor.init(env)
     end)
 
     -- 構造回調函數
-    local handler = core.get_switch_handler(env, core.switch_names.single_char)
+    local option_names = {
+        core.switch_names.single_char,
+        core.switch_names.full_off,
+    }
+    local handler = core.get_switch_handler(env, option_names)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
-    handler(env.engine.context, core.switch_names.single_char)
+    for _, name in ipairs(option_names) do
+        handler(env.engine.context, name)
+    end
     -- 注册通知回調
     env.engine.context.option_update_notifier:connect(handler)
 end

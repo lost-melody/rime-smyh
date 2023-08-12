@@ -80,19 +80,27 @@ function embeded_cands_filter.init(env)
     config.formatter.next = compile_formatter(config.next_format)
     namespaces:set_config(env, config)
 
+    local option_names = {}
+
     -- 是否指定開關
     if namespaces:config(env).option_name and #namespaces:config(env).option_name ~= 0 then
-        -- 構造回調函數
-        local handler = core.get_switch_handler(env, namespaces:config(env).option_name)
-        -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
-        handler(env.engine.context, namespaces:config(env).option_name)
-        -- 注册通知回調
-        env.engine.context.option_update_notifier:connect(handler)
+        table.insert(option_names, namespaces:config(env).option_name)
     else
         -- 未指定開關, 默認啓用
         namespaces:config(env).option_name = core.switch_names.embeded_cands
         env.option = {}
         env.option[namespaces:config(env).option_name] = true
+    end
+
+    if #option_names ~= 0 then
+        -- 構造回調函數
+        local handler = core.get_switch_handler(env, option_names)
+        -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
+        for _, name in ipairs(option_names) do
+            handler(env.engine.context, name)
+        end
+        -- 注册通知回調
+        env.engine.context.option_update_notifier:connect(handler)
     end
 end
 

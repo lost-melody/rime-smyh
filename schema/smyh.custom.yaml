@@ -7,7 +7,7 @@ patch:
   #   例如在 *default.custom.yaml* 中寫入: `patch/switcher/save_options: [ single_char, embeded_cands ]`.
   # 3. 開關項的變動是通過 *方案選單* 或 `zhelp` 操作的; 也就是説如果通過快捷鍵操作, 就不會記憶值.
   switches/@3/reset: # 智能·純單
-  switches/@4/reset: # 字詞·全單
+  switches/@4/reset: # 字詞·全單·三碼
   switches/@5/reset: # 普通·嵌入
   switches/@6/reset: # 簡體·繁體
   switches/+:
@@ -100,7 +100,9 @@ patch:
     - division.off
     - division.lv1
     - division.lv2
-    - fullcode_char
+    - full.word
+    - full.char
+    - full.off
     - single_char
     - smyh_tc
   core_tr/+:
