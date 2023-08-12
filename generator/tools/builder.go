@@ -27,7 +27,7 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 	for char, divs := range table {
 		// 遍历字符的所有拆分表
 		for _, div := range divs {
-			full, code := calcCodeByDiv(div.Divs, mappings)
+			full, code := calcCodeByDiv(div.Divs, mappings, freqSet[char])
 			charMeta := types.CharMeta{
 				Char: char,
 				Full: full,
@@ -323,11 +323,14 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 	return
 }
 
-func calcCodeByDiv(div []string, mappings map[string]string) (full string, code string) {
+func calcCodeByDiv(div []string, mappings map[string]string, freq int64) (full string, code string) {
 	if len(div) > 3 {
 		div = []string{div[0], div[1], div[len(div)-1]}
 	}
 	stack := "1"
+	if freq < 10 {
+		stack = "3"
+	}
 	for _, comp := range div {
 		compCode := mappings[comp]
 		code += compCode[:1]

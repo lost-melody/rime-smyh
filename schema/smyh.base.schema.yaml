@@ -12,7 +12,7 @@ speller:
   initials: "qwertyuiopasdfghjklzxcvbnm"
   algebra:
     - "derive/^(\\w{1,2})[12]$/$1/"
-    - xlit/12/ ;/
+    - xlit/123/ ; /
 
 translator:
   dictionary: smyh.base
