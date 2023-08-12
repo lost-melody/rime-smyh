@@ -147,55 +147,12 @@ core_proc:
     # 開關同步列表, 此處列出的開關項會在各個會話中同步狀態
     # - ascii_mode
   macros:
-    help:
-      - type: tip
-        name: 配置中心
-      - type: switch
-        name: single_char
-        states: [ 純單, 智能 ]
-      - type: switch
-        name: fullcode_char
-        states: [ 全單, 字詞 ]
-      - type: switch
-        name: embeded_cands
-        states: [ 嵌入開, 嵌入關 ]
-      - type: switch
-        name: smyh_tc
-        states: [ 傳統字, 簡化字 ]
-      - type: radio
-        names: [ division.off, division.lv1, division.lv2 ]
-        states: [ 註解關, 註解一, 註解二 ]
-    time:
-      - type: eval
-        name: 日期時間
-        expr: os.date("%Y-%m-%d %H:%M:%S")
-      - type: eval
-        expr: os.date("%Y%m%d%H%M")
-    div:
-      - type: radio
-        names: [ division.off, division.lv1, division.lv2 ]
-        states: [ 註解關, 註解一, 註解二 ]
-    embed:
-      - type: switch
-        name: embeded_cands
-        states: [ 嵌入開, 嵌入關 ]
-    full:
-      - type: switch
-        name: fullcode_char
-        states: [ 全單, 字詞 ]
-    smart:
-      - type: switch
-        name: single_char
-        states: [ 純單, 智能 ]
-    trad:
-      - type: switch
-        name: smyh_tc
-        states: [ 傳統字, 簡化字 ]
+    __include: macros
 
 core_tr:
   enable_completion: true
   macros:
-    __include: core_proc/macros
+    __include: macros
 
 # 嵌入候選的顯示配置
 # 默認顯示效果爲:
@@ -207,6 +164,52 @@ embeded_cands:
   next_format: "${Stash}${候選}${Seq}${Comment}"           # 非首選的渲染格式
   separator: " "                                           # 候選之間的分隔符
   stash_placeholder: "~"                                   # 非首選的延遲串占位符, 支持 ${Stash} 變量
+
+macros:
+  help:
+    - type: tip
+      name: ❖配置中心
+    - type: switch
+      name: single_char
+      states: [ □智能, ■純單 ]
+    - type: switch
+      name: fullcode_char
+      states: [ □字詞, ■全單 ]
+    - type: switch
+      name: embeded_cands
+      states: [ ☐嵌入, ☑嵌入 ]
+    - type: switch
+      name: smyh_tc
+      states: [ □簡化字, ■傳統字 ]
+    - type: radio
+      names: [ division.off, division.lv1, division.lv2 ]
+      states: [ ☐☐註解, ☐☑註解, ☑☑註解 ]
+  time:
+    - type: eval
+      name: ⌚日期時間
+      expr: return os.date("%Y-%m-%d %H:%M:%S")
+    - type: eval
+      expr: return os.date("%Y%m%d%H%M")
+  div:
+    - type: radio
+      names: [ division.off, division.lv1, division.lv2 ]
+      states: [ ☐☐註解, ☐☑註解, ☑☑註解 ]
+  embed:
+    - type: switch
+      name: embeded_cands
+      states: [ ☐嵌入, ☑嵌入 ]
+  full:
+    - type: switch
+      name: fullcode_char
+      states: [ □字詞, ■全單 ]
+  smart:
+    - type: switch
+      name: single_char
+      states: [ □智能, ■純單 ]
+  trad:
+    - type: switch
+      name: smyh_tc
+      states: [ □簡化字, ■傳統字 ]
 
 # 标点
 punctuator:

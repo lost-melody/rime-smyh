@@ -3,12 +3,25 @@ local core = require("smyh.core")
 
 local schemas = nil
 
+-- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
+local namespaces = {}
+function namespaces:set_config(env, config)
+    namespaces[env.name_space] = namespaces[env.name_space] or {}
+    namespaces[env.name_space].config = config
+end
+function namespaces:config(env)
+    return namespaces[env.name_space] and namespaces[env.name_space].config
+end
+
 -- ######## 翻译器 ########
 
 function translator.init(env)
-    env.config = {}
-    env.config.comp = core.parse_conf_bool(env, "enable_completion")
-    env.config.macros = core.parse_conf_macro_list(env)
+    if not namespaces:config(env) then
+        local config = {}
+        config.comp = core.parse_conf_bool(env, "enable_completion")
+        config.macros = core.parse_conf_macro_list(env)
+        namespaces:set_config(env, config)
+    end
 
     -- 初始化碼表
     if not schemas then
@@ -51,20 +64,18 @@ end
 local index_indicators = { "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰" }
 
 local function display_input(input)
-    input = string.gsub(input, " ", "-")
-    input = string.gsub(input, ";", "+")
+    input = string.gsub(string.gsub(input, " ", "-"), ";", "+")
     return input
 end
 
 local function display_comment(comment)
-    comment = string.gsub(comment, "1", "␣")
-    comment = string.gsub(comment, "2", "⌥")
+    comment = string.gsub(string.gsub(comment, "1", "␣"), "2", "⌥")
     return comment
 end
 
 -- 處理宏
 local function handle_macros(env, ctx, seg, input)
-    local macro = env.config.macros[input]
+    local macro = namespaces:config(env).macros[input]
     if macro then
         core.input_code = ":" .. input .. " "
         local text_list = {}
@@ -81,7 +92,7 @@ local function handle_singlechar(env, ctx, code_segs, remain, seg, input)
     core.input_code = display_input(remain)
 
     -- 查询最多一百個候選
-    local entries = core.dict_lookup(core.base_mem, remain, 100, env.config.comp)
+    local entries = core.dict_lookup(core.base_mem, remain, 100, namespaces:config(env).comp)
     if #entries == 0 then
         table.insert(entries, { text = "", comment = "" })
     end
@@ -145,7 +156,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
 
     -- 查詢活動輸入串候選列表
-    local entries = core.dict_lookup(core.base_mem, remain, 100 - #full_entries, env.config.comp)
+    local entries = core.dict_lookup(core.base_mem, remain, 100 - #full_entries, namespaces:config(env).comp)
     if #entries == 0 then
         -- 以空串爲空碼候選
         table.insert(entries, { text = "", comment = "" })

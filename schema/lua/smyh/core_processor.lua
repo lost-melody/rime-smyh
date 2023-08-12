@@ -21,6 +21,16 @@ local cTb         = 0xff09   -- Tab
 local cSelectFull = cTb      -- 使用Tab出四碼
 local cBreakSmart = cTb      -- 使用Tab打斷施法
 
+-- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
+local namespaces = {}
+function namespaces:set_config(env, config)
+    namespaces[env.name_space] = namespaces[env.name_space] or {}
+    namespaces[env.name_space].config = config
+end
+function namespaces:config(env)
+    return namespaces[env.name_space] and namespaces[env.name_space].config
+end
+
 -- 返回被選中的候選的索引, 來自 librime-lua/sample 示例
 local function select_index(key, env)
     local ch = key.keycode
@@ -65,7 +75,7 @@ local function commit_text(env, ctx, text, input)
 end
 
 local function handle_macros(env, ctx, input, idx)
-    local macro = env.config.macros[input]
+    local macro = namespaces:config(env).macros[input]
     if macro then
         if macro[idx] then
             macro[idx]:trigger(env, ctx)
@@ -185,15 +195,18 @@ function processor.init(env)
     end
 
     -- 讀取配置項
-    env.config = {}
-    env.config.sync_options = core.parse_conf_str_list(env, "sync_options")
-    env.config.sync_options.synced_at = 0
-    env.config.macros = core.parse_conf_macro_list(env)
+    if not namespaces:config(env) then
+        local config = {}
+        config.sync_options = core.parse_conf_str_list(env, "sync_options")
+        config.sync_options.synced_at = 0
+        config.macros = core.parse_conf_macro_list(env)
+        namespaces:set_config(env, config)
+    end
 
     -- 讀取需要同步的開關項列表
     env.sync_at = 0
     env.sync_options = {}
-    for _, op_name in ipairs(env.config.sync_options) do
+    for _, op_name in ipairs(namespaces:config(env).sync_options) do
         env.sync_options[op_name] = true
     end
     -- 注册回調

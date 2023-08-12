@@ -25,6 +25,16 @@ local next_format = "${Stash}${候選}${Seq}${Comment}"
 local separator = " "
 local stash_placeholder = "~"
 
+-- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
+local namespaces = {}
+function namespaces:set_config(env, config)
+    namespaces[env.name_space] = namespaces[env.name_space] or {}
+    namespaces[env.name_space].config = config
+end
+function namespaces:config(env)
+    return namespaces[env.name_space] and namespaces[env.name_space].config
+end
+
 local function compile_formatter(format)
     -- "${Stash}[${候選}${Seq}]${Code}${Comment}"
     -- => "%s[%s%s]%s%s"
@@ -57,31 +67,32 @@ end
 
 function embeded_cands_filter.init(env)
     -- 讀取配置項
-    env.config = {}
-    env.config.index_indicators = core.parse_conf_str_list(env, "index_indicators", index_indicators)
-    env.config.first_format = core.parse_conf_str(env, "first_format", first_format)
-    env.config.next_format = core.parse_conf_str(env, "next_format", next_format)
-    env.config.separator = core.parse_conf_str(env, "separator", separator)
-    env.config.stash_placeholder = core.parse_conf_str(env, "stash_placeholder", stash_placeholder)
-    env.config.option_name = core.parse_conf_str(env, "option_name")
+    local config = {}
+    config.index_indicators = core.parse_conf_str_list(env, "index_indicators", index_indicators)
+    config.first_format = core.parse_conf_str(env, "first_format", first_format)
+    config.next_format = core.parse_conf_str(env, "next_format", next_format)
+    config.separator = core.parse_conf_str(env, "separator", separator)
+    config.stash_placeholder = core.parse_conf_str(env, "stash_placeholder", stash_placeholder)
+    config.option_name = core.parse_conf_str(env, "option_name")
 
-    env.formatter = {}
-    env.formatter.first = compile_formatter(env.config.first_format)
-    env.formatter.next = compile_formatter(env.config.next_format)
+    config.formatter = {}
+    config.formatter.first = compile_formatter(config.first_format)
+    config.formatter.next = compile_formatter(config.next_format)
+    namespaces:set_config(env, config)
 
     -- 是否指定開關
-    if env.config.option_name and #env.config.option_name ~= 0 then
+    if namespaces:config(env).option_name and #namespaces:config(env).option_name ~= 0 then
         -- 構造回調函數
-        local handler = core.get_switch_handler(env, env.config.option_name)
+        local handler = core.get_switch_handler(env, namespaces:config(env).option_name)
         -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
-        handler(env.engine.context, env.config.option_name)
+        handler(env.engine.context, namespaces:config(env).option_name)
         -- 注册通知回調
         env.engine.context.option_update_notifier:connect(handler)
     else
         -- 未指定開關, 默認啓用
-        env.config.option_name = core.switch_names.embeded_cands
+        namespaces:config(env).option_name = core.switch_names.embeded_cands
         env.option = {}
-        env.option[env.config.option_name] = true
+        env.option[namespaces:config(env).option_name] = true
     end
 end
 
@@ -98,7 +109,7 @@ local function render_stashcand(env, seq, stash, text, digested)
             stash, text = "[" .. stash .. "]", string.sub(text, string.len(stash) + 1)
         else
             -- 非首個候選, 延迟串標記爲空
-            local placeholder = string.gsub(env.config.stash_placeholder, "%${Stash}", stash)
+            local placeholder = string.gsub(namespaces:config(env).stash_placeholder, "%${Stash}", stash)
             stash, text = "", placeholder .. string.sub(text, string.len(stash) + 1)
         end
     else
@@ -125,9 +136,9 @@ local function render_cand(env, seq, code, stashed, text, comment, digested)
     local formatter
     -- 選擇渲染格式
     if seq == 1 then
-        formatter = env.formatter.first
+        formatter = namespaces:config(env).formatter.first
     else
-        formatter = env.formatter.next
+        formatter = namespaces:config(env).formatter.next
     end
     -- 渲染延迟串與候選文字
     stashed, text, digested = render_stashcand(env, seq, stashed, text, digested)
@@ -137,7 +148,7 @@ local function render_cand(env, seq, code, stashed, text, comment, digested)
     -- 渲染提示串
     comment = render_comment(comment)
     local cand = formatter:build({
-        ["${Seq}"] = env.config.index_indicators[seq],
+        ["${Seq}"] = namespaces:config(env).index_indicators[seq],
         ["${Code}"] = code,
         ["${Stash}"] = stashed,
         ["${候選}"] = text,
@@ -148,7 +159,7 @@ end
 
 -- 過濾器
 function embeded_cands_filter.func(input, env)
-    if not env.option[env.config.option_name] and not string.match(core.input_code, "^:") then
+    if not env.option[namespaces:config(env).option_name] and not string.match(core.input_code, "^:") then
         for cand in input:iter() do
             yield(cand)
         end
@@ -164,7 +175,7 @@ function embeded_cands_filter.func(input, env)
     local digested = false
 
     local function refresh_preedit()
-        first_cand.preedit = table.concat(page_rendered, env.config.separator)
+        first_cand.preedit = table.concat(page_rendered, namespaces:config(env).separator)
         -- 將暫存的一頁候選批次送出
         for _, c in ipairs(page_cands) do
             yield(c)

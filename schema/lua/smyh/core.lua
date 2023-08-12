@@ -48,16 +48,20 @@ local function set_option(env, ctx, option_name, value)
 end
 
 ---@param name string
-local function new_tip(name)
+local function new_tip(name, text)
     local tip = {
         type = core.macro_types.tip,
         name = name,
+        text = text,
     }
     function tip:display(ctx)
         return self.name
     end
 
     function tip:trigger(env, ctx)
+        if #text ~= 0 then
+            env.engine:commit_text(text)
+        end
         ctx:clear()
     end
 
@@ -77,9 +81,9 @@ local function new_switch(name, states)
         local state = ""
         local current_value = ctx:get_option(self.name)
         if current_value then
-            state = "■" .. self.states[1]
+            state = self.states[2]
         else
-            state = "□" .. self.states[2]
+            state = self.states[1]
         end
         return state
     end
@@ -102,17 +106,15 @@ local function new_radio(states)
         states = states,
     }
     function radio:display(ctx)
-        local symbol, state = "", ""
+        local state = ""
         for _, op in ipairs(self.states) do
             local value = ctx:get_option(op.name)
             if value then
-                symbol = symbol .. "■"
                 state = op.display
-            else
-                symbol = symbol .. "□"
+                break
             end
         end
-        return symbol .. state
+        return state
     end
 
     function radio:trigger(env, ctx)
@@ -132,7 +134,8 @@ end
 
 ---@param name string
 ---@param cmd string
-local function new_shell(name, cmd)
+---@param text boolean
+local function new_shell(name, cmd, text)
     local shell = {
         type = core.macro_types.tip,
         name = name,
@@ -143,7 +146,15 @@ local function new_shell(name, cmd)
     end
 
     function shell:trigger(env, ctx)
-        io.popen(cmd)
+        if text then
+            local t = io.popen(cmd):read('a')
+            t = string.gsub(string.gsub(t, "^%s+", ""), "%s+$", "")
+            if #t ~= 0 then
+                env.engine:commit_text(t)
+            end
+        else
+            io.popen(cmd)
+        end
         ctx:clear()
     end
 
@@ -151,7 +162,7 @@ local function new_shell(name, cmd)
 end
 
 local function new_eval(name, expr)
-    local f = load(string.format("return (%s)", expr))
+    local f = load(expr)
     local function get_text()
         local text = f and f()
         return text and type(text) == "string" and #text ~= 0 and text or ""
@@ -224,7 +235,8 @@ function core.parse_conf_macro_list(env)
                 -- {type: tip, name: foo}
                 if key_map:has_key("name") then
                     local name = key_map:get_value("name"):get_string()
-                    table.insert(cands, new_tip(name))
+                    local text = key_map:has_key("text") and key_map:get_value("text"):get_string() or ""
+                    table.insert(cands, new_tip(name, text))
                 end
             elseif type == core.macro_types.switch then
                 -- {type: switch, name: single_char, states: []}
@@ -266,8 +278,9 @@ function core.parse_conf_macro_list(env)
                 if key_map:has_key("name") and key_map:has_key("cmd") then
                     local name = key_map:get_value("name"):get_string()
                     local cmd = key_map:get_value("cmd"):get_string()
+                    local text = key_map:has_key("text") and key_map:get_value("text"):get_bool() or false
                     if #name ~= 0 and #cmd ~= 0 then
-                        table.insert(cands, new_shell(name, cmd))
+                        table.insert(cands, new_shell(name, cmd, text))
                     end
                 end
             elseif type == core.macro_types.eval then

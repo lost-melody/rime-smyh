@@ -42,6 +42,30 @@ patch:
     # 回车清空编码
     Return: cancel
   # 自定義宏
+  # 先为宏命名, 如 *mymacro*, 则將其添加到 *macros* 下,
+  # 再在 *mymacro* 下添加若干候選宏, 每個候選宏都需指定一個 *type*.
+  # 当前支持的宏類型:
+  # *tip*:    {type: tip,    name: display,     text: commit},                     其中 *text* 为可選項.
+  # *switch*: {type: switch, name: switch_name, states: [off_display,on_display]}, 類似 *schema/switches*.
+  # *radio*:  {type: radio,  names: [s1,s2,s3], states: [d1,d2,d3]},               類似 *schema/switches* 之 *options*.
+  # *shell*:  {type: shell,  name: display,     cmd: shell_cmd,   text: true},     選中时執行 *shell_cmd* 命令, *text* 可選, 設为 true 時收集並提交命令輸出
+  # *eval*:   {type: eval,   name: display,     expr: "local a='bar'; return a"},  其中 *name* 为可選項, *expr* 必須是個 *return* 語句, 蓋 *lua* 將以 "function() <expr> end" 方式組裝函數並調用.
+  # 例:
+  # macros:
+  #   mymacro:
+  #     - type: tip
+  #       name: 僅提示
+  #     - type: tip
+  #       name: 快捷短語
+  #       text: 這是短語内容
+  #     - type: switch
+  #       name: ascii_mode
+  #       states: [ 漢字, 英文 ]
+  #     - type: shell
+  #       name: 執行shell命令
+  #       cmd: /bin/sh -c "date >/tmp/date.txt"
+  #     - type: eval
+  #       expr: return tostring(os.time())
   macros:
     repo:
       - type: tip
@@ -52,6 +76,20 @@ patch:
       - type: shell
         name: ⚛宇浩
         cmd: xdg-open https://github.com/forfudan/yuhao
+    quick:
+      - type: tip
+        name: 快捷短語
+      - type: tip
+        name: ☎郵箱
+        text: lost__melody@163.com
+      - type: tip
+        name: ☏群號
+        text: "695190831"
+    user:
+      - type: shell
+        name: ☘用户名
+        cmd: whoami
+        text: true
   core_proc/macros/+:
     __include: patch/macros
   core_tr/macros/+:
