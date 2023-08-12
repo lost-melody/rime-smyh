@@ -72,7 +72,7 @@ Gn	世
 Gp	示
 Gu	{穀頭}
 Gu	士
-Gy	心
+Gv	心
 Hb	宀
 Hc	至
 Hd	臼

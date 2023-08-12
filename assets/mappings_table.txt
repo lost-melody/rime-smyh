@@ -19,7 +19,7 @@
        │巳   Ae│丁   Ah│寸   Ai│       │左上 Sh│乜   Si│也   Si│       │亥   Da│囗   Dd│十   Di│       │木   Fi│一   Fk│       │       │𠂤   Gd│龶   Gg│耂   Gi│
        │巴   Aj│扌   Ak│ヰ   Ak│       │金   Sj│未   Sk│艹   Sk│       │之   Dj│刀   Dk│辶   Dn│       │       │       │       │       │土   Gi│鬼   Gm│卑上 Gm│
        │七   Ak│キ   Ak│己   An│       │龷   Sk│卄   Sk│卌   Sk│       │白   Ds│讠   Du│夫   Dw│       │       │       │       │       │世   Gn│示   Gp│穀頭 Gu│
-       │已   Ao│       │       │       │卅   Sk│卝   Sk│冓上 Sk│       │       │       │       │       │       │       │       │       │士   Gu│心   Gy│
+       │已   Ao│       │       │       │卅   Sk│卝   Sk│冓上 Sk│       │       │       │       │       │       │       │       │       │士   Gu│心   Gv│
        │       │       │       │       │末   Sm│彡   Sn│两撇 Sn│
        │       │       │       │       │癶右 Sn│入   So│丑   Sp│
 
