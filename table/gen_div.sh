@@ -10,7 +10,6 @@
 # 將"{TAB}"轉回"\t" => 分離拆分以空格分隔 => 去除無用的空格
 sed 's/\t/{TAB}/g' | \
     grep '{TAB}' | \
-    grep -v 'CJK-' | \
     grep -v '兼容' | \
     sed 's/{TAB}\[\?\([^,]*\),.*/{TAB}\1/g' | \
     grep -v '{TAB}$' | \

@@ -19,11 +19,11 @@ schema:
     # 基础码表
     - smyh.base
     # 全码官宇词库
-    - smyh.yuhaofull
+    - smyh.yuhaowords
     # 基础码表
     - smyh_tc.base
     # 全码官宇词库
-    - smyh_tc.yuhaofull
+    - smyh_tc.yuhaowords
 
 switches:
   - name: ascii_punct

@@ -27,9 +27,9 @@ function translator.init(env)
     if not schemas then
         schemas = {
             smyh_base = Memory(env.engine, Schema("smyh.base")),
-            smyh_full = Memory(env.engine, Schema("smyh.yuhaofull")),
+            smyh_full = Memory(env.engine, Schema("smyh.yuhaowords")),
             smyh_tc_base = Memory(env.engine, Schema("smyh_tc.base")),
-            smyh_tc_full = Memory(env.engine, Schema("smyh_tc.yuhaofull")),
+            smyh_tc_full = Memory(env.engine, Schema("smyh_tc.yuhaowords")),
         }
     end
     if not core.base_mem then

@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: smyh.yuhaofull
+  schema_id: smyh_tc.yuhaowords
   name: 吉旦餅·全碼官宇詞庫
   description: |
     辅助方案，不能打字。
@@ -12,5 +12,5 @@ speller:
   initials: "qwertyuiopasdfghjklzxcvbnm"
 
 translator:
-  dictionary: smyh.yuhaofull
+  dictionary: smyh_tc.yuhaowords
   enable_user_dict: false
