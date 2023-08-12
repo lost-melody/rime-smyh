@@ -1234,7 +1234,7 @@
 衆所周知	wqhq
 黑白	vhds
 參數	kkod
-蒼蠅	srvi
+蒼蠅	srvw
 大王	tjme
 自力更生	mwfe
 江湖	iyib
@@ -3923,7 +3923,7 @@
 流氓	ilea
 親友	lfsb
 直徑	dmvf
-繩子	pikv
+繩子	pwkv
 解答	pzwr
 基督教	xkgk
 八路軍	ubpi
@@ -7983,7 +7983,7 @@
 灌輸	isir
 聽覺	tmhz
 灑脱	ifhq
-烏龜	towi
+烏龜	toww
 雜草	lrsj
 名貴	uook
 眼球	mpmf
@@ -8018,7 +8018,7 @@
 駁斥	jznl
 琳琅滿目	mmim
 鯊魚	iktn
-繩索	pidp
+繩索	pwdp
 官府	hbye
 保暖	eojv
 過期	ldxh
@@ -17865,7 +17865,7 @@
 同窗	cfhr
 同性戀	cpup
 辭呈	vbom
-海龜	iwwi
+海龜	iwww
 亂糟糟	vkks
 美名	utuo
 門道	rmqm
@@ -18087,7 +18087,7 @@
 哭哭啼啼	oooo
 效勞	lumm
 銀河系	siwp
-準繩	icpi
+準繩	icpw
 槪述	fdfl
 賠本	mlff
 四鄰	dqku
@@ -20022,7 +20022,7 @@
 永生	lvei
 古書	buxg
 回話	douo
-鹹菜	qysv
+鹹菜	mysv
 前言	qhui
 哈達	orgu
 平添	nqif
@@ -20984,7 +20984,7 @@
 辯白	luds
 明處	jhke
 太平間	tnrj
-跳繩	bqpi
+跳繩	bqpw
 愛神	vpgp
 春遊	ejiw
 低能	eikh
@@ -21266,7 +21266,7 @@
 阡陌	zzzu
 舌戰	oxoo
 順耳	eute
-龜裂	wifu
+龜裂	wwfu
 死訊	fuuv
 總價	prec
 重生	znei
@@ -21587,7 +21587,7 @@
 七拼八湊	aaui
 拖後腿	avhp
 心懷叵測	gpki
-龜頭	wifo
+龜頭	wwfo
 千夫所指	zdqa
 瓊樓玉宇	mfmh
 人多嘴雜	ruol
@@ -23926,7 +23926,7 @@
 牛黃	tlsy
 組曲	pmcs
 多快好省	uplk
-鋼絲繩	sppi
+鋼絲繩	sppw
 後腦	vuhy
 柳絮	filo
 明細	jhpn
@@ -25364,7 +25364,7 @@
 山腰	jehc
 相接	fmal
 輝映	kpjc
-鹼性	qrpe
+鹼性	mrpe
 當差	knuy
 亂世	vbgn
 表面文章	glxl
@@ -25436,7 +25436,7 @@
 離職	xxtl
 充飢	lkqq
 複印件	niet
-繮繩	pfpi
+繮繩	pfpw
 經文	pfxn
 申辯	pxlu
 硬骨頭	uvfo
@@ -26378,7 +26378,7 @@
 獨生女	xelc
 浮塵	ivyg
 曠工	jyyx
-纜繩	pbpi
+纜繩	pbpw
 冷寂	yrhk
 奶頭	lrfo
 皮匠	wukn
@@ -26683,7 +26683,7 @@
 潮氣	idwk
 黑手黨	vykv
 滅口	iyoi
-鹹魚	qytn
+鹹魚	mytn
 相認	fmud
 卓絶	jjpp
 呈遞	omnk
@@ -28843,7 +28843,7 @@
 耳熟	telk
 芳心	sigy
 廣漠	ysis
-滷水	iqvu
+滷水	imvu
 墨魚	vgtn
 球技	mfad
 水晶宮	vjho
@@ -29061,7 +29061,7 @@
 亡魂	emyk
 變節	upqe
 冬筍	eywh
-龜縮	wiph
+龜縮	wwph
 宿敵	helq
 謄寫	hqhh
 星象	jepo
@@ -29400,7 +29400,7 @@
 見財起意	mmrl
 借古諷今	ebur
 開齋	rflq
-繩梯	pifq
+繩梯	pwfq
 星號	jeou
 英制	sctc
 月曆	hrkv
@@ -29490,7 +29490,7 @@
 東郭	fjlk
 藍牙	sbzp
 莫名	sjuo
-草繩	sjpi
+草繩	sjpw
 警民	shaa
 薩拉熱窩	sagh
 欺善怕惡	xupf
@@ -30251,7 +30251,7 @@
 囁嚅	otoc
 他日	esjk
 小傢伙	keem
-麻繩	ycpi
+麻繩	ycpw
 枇杷	fifa
 惘然	pchx
 體校	vcfl
@@ -33309,7 +33309,7 @@
 手雷	ygcn
 隨行就市	zvll
 停飛	eleo
-頭繩	fopi
+頭繩	fopw
 兄嫂	oqlh
 逸聞	port
 板斧	fnuz
@@ -34087,7 +34087,7 @@
 博大	dmtj
 二等	yrwg
 十八	dius
-鹽鹼	bwqr
+鹽鹼	bwmr
 鹽城	bwgy
 走光	rykp
 遠渡重洋	gizi
@@ -34827,7 +34827,7 @@
 前驅	qhjk
 入院	sozh
 遐邇	byfu
-鹽鹼地	bqgs
+鹽鹼地	bmgs
 辭書	vbxg
 南北朝	dqdj
 臥房	brqi
@@ -35765,7 +35765,7 @@
 套管	trwh
 夜明珠	ljmt
 責編	gmpq
-純鹼	paqr
+純鹼	pamr
 盒裝	rzwg
 可人	aorw
 啓明星	qjje
@@ -38025,7 +38025,7 @@
 玉照	mljd
 蜂王漿	vmwh
 恭祝	sugo
-龜甲	winf
+龜甲	wwnf
 奸笑	lnwc
 六畜	lulu
 清燉	igml
@@ -38255,7 +38255,7 @@
 雪盲	cxem
 襯布	nlsr
 耻骨	ttvo
-滷味	iqos
+滷味	imos
 妙訣	lkub
 目次	mvyn
 軟水	invu
@@ -40027,7 +40027,7 @@
 飛蟲	eovv
 課税	ujvq
 戎馬倥傯	yjee
-燒鹼	mgqr
+燒鹼	mgmr
 險遭	zrsj
 相許	fmuw
 眼眉	mpbm
@@ -40224,7 +40224,7 @@
 殺人不見血	zriw
 悠遊	eciw
 拐帶	aosf
-火繩	mspi
+火繩	mspw
 倫常	erkr
 天塌地陷	fggz
 續聘	pgtp
@@ -40964,7 +40964,7 @@
 樹上	fgkg
 頂禮	augc
 棒打	feaa
-酸鹼度	cqys
+酸鹼度	cmys
 極速	fkfo
 極差	fkuy
 極強	fknk
@@ -42371,7 +42371,7 @@
 貴庚	okyx
 化凍	eiyf
 嬌客	lche
-滷菜	iqsv
+滷菜	imsv
 貌不驚人	oisr
 軟骨病	ivyf
 雪藏	cxsy
@@ -42559,8 +42559,8 @@
 有誤	shuo
 百老匯	ugki
 硬殼	ufgf
-鹹水	qyvu
-鹹味	qyos
+鹹水	myvu
+鹹味	myos
 三等	uwwg
 在此	scti
 秦淮河	eiia
@@ -43838,7 +43838,7 @@
 前襟	qhnf
 餘光	qrkp
 合十	rhdi
-蚊蠅	vxvi
+蚊蠅	vxvw
 亞非拉	fwal
 精當	kgkn
 慎之又慎	pdbp
@@ -46209,7 +46209,7 @@
 文具盒	xmrz
 吸濕	orij
 養兵	qdnf
-蠅頭	vifo
+蠅頭	vwfo
 御花園	vsdg
 佛牙	enzp
 高腳杯	lhfi
@@ -46237,7 +46237,7 @@
 無冕之王	wcdm
 竹節	woqe
 秉燭	vxmz
-井繩	yupi
+井繩	yupw
 舊學	schz
 砍價	unec
 拿獲	ryxs
@@ -46538,7 +46538,7 @@
 薪餉	slqr
 雨景	cojl
 蒼耳	srte
-茶鹼	srqr
+茶鹼	srmr
 陳貨	zfei
 刀豆	dkfo
 疊韻	nnlj
@@ -46729,7 +46729,7 @@
 牽絆	lupq
 有神論	sgur
 威爾士	yfgu
-鹹魚翻身	qtwq
+鹹魚翻身	mtwq
 願景	kdjl
 原産	kdlw
 秦樓楚館	effq
@@ -47234,7 +47234,7 @@
 棱柱	fgfl
 本土化	fgei
 杜比	fgii
-酸鹼	ckqr
+酸鹼	ckmr
 酵素	cggp
 核裂變	ffup
 相國	fmdy
@@ -47441,7 +47441,7 @@
 約有	phsh
 紀檢委	pfvl
 張江	nriy
-弱鹼	nyqr
+弱鹼	nymr
 弱電	nycp
 彈撥	noab
 綠竹	prwo
@@ -48766,7 +48766,7 @@
 脣邊	yhmh
 壓鑄	kjsg
 三元	uwfp
-鹹蛋	qyvt
+鹹蛋	myvt
 砰然	unhx
 廚娘	ygll
 豐臺	jcgo
@@ -49341,7 +49341,7 @@
 問斬	roin
 沖掉	ioaj
 沖模	iofs
-沖繩	iopi
+沖繩	iopw
 總説	pruq
 曾對	qjpu
 曾是	qjjf
@@ -50013,7 +50013,7 @@
 史論	ozur
 遥控器	vaoo
 飽經	qhpf
-果蠅	jfvi
+果蠅	jfvw
 過甚	ldxe
 表演賽	gihs
 大滿貫	tird
@@ -50163,7 +50163,7 @@
 偷換	erap
 萬丈深淵	ssii
 違拗	jdau
-鹵素	qugp
+鹵素	mugp
 麥粒	eekl
 水害	vuhc
 餘威	qryf
@@ -50723,7 +50723,7 @@
 百日維新	ujpl
 大跌眼鏡	tbms
 右路	sobe
-耐鹼	laqr
+耐鹼	lamr
 面朝	ltdj
 面霜	ltcf
 布點	srvj
@@ -50947,7 +50947,7 @@
 嚥下	osbk
 另闢	owrb
 吊起	orra
-吊繩	orpi
+吊繩	orpw
 聽聲	tmgb
 喫法	ocig
 喫着	ocum
@@ -51033,7 +51033,7 @@
 鑿開	pqrf
 粘住	kjel
 炒賣	mkgz
-菸鹼	siqr
+菸鹼	simr
 斷貨	uuei
 熔解	mhpz
 料斗	kyyd
@@ -51362,7 +51362,7 @@
 練琴	pfmm
 級聯	prtu
 組圖	pmdo
-結繩	pgpi
+結繩	pgpw
 純平	panq
 引爲	ncvj
 細數	pnod
@@ -51669,7 +51669,7 @@
 印臺	ifgo
 魚竿	tnwn
 銅管	scwh
-金龜	sjwi
+金龜	sjww
 多選	uuaa
 多病	uuyf
 金鳳	sjqf
@@ -52338,7 +52338,7 @@
 飄曳	cgpw
 欠安	nvhl
 退親	pdlf
-鹹水湖	qvib
+鹹水湖	mvib
 硬頂	ufau
 正手	ftyg
 弛緩	nspv
@@ -52562,7 +52562,7 @@
 有靈	shco
 破土而出	uglx
 三江	uwiy
-鹹濕	qyij
+鹹濕	myij
 三日	uwjk
 有理數	smod
 石欄	utfr
@@ -54507,7 +54507,7 @@
 波爾	iwfu
 消協	ikdw
 潰膿	iohc
-澠池	iiis
+澠池	iwis
 敞露	kecb
 泥工	ibyx
 漏了	ibkc
@@ -55858,7 +55858,7 @@
 水蛇腰	vvhc
 意在言外	lsuu
 抽縮	apph
-龜背	wiqi
+龜背	wwqi
 極頂	fkau
 間苗	rjsn
 金橘	sjfz
@@ -56159,7 +56159,7 @@
 貞德	jmvd
 餐椅	juft
 盯防	mazi
-鹵化物	qeth
+鹵化物	meth
 港式	isyy
 江堤	iygj
 匯到	kihx
@@ -57421,7 +57421,7 @@
 偶或	evyo
 五代十國	fedd
 鮮麗	tufc
-鹹淡	qyim
+鹹淡	myim
 凶煞	zxpx
 選曲	aacs
 彩練	vfpf
@@ -57517,7 +57517,7 @@
 海獺	iwxf
 僭越	ekry
 拼音字母	alhr
-纖繩	prpi
+纖繩	prpw
 賽期	hsxh
 郵袋	zsey
 地龍	gslh
@@ -57574,7 +57574,7 @@
 愚蒙	vgsp
 主廚	lmyg
 追補	gdnm
-棕繩	fhpi
+棕繩	fhpw
 組辦	pmlw
 白斬雞	divu
 讒害	uphc
@@ -57985,7 +57985,7 @@
 印模	iffs
 鋪貨	smei
 久治不愈	piir
-龜殼	wigf
+龜殼	wwgf
 名臣	uobc
 鏈鎖	sisk
 負荆	pmsf
@@ -60997,7 +60997,7 @@
 上道	kgqm
 桌腳	jjhu
 佔壓	ejkj
-滷汁	iqid
+滷汁	imid
 舊恨新仇	sple
 瞎蒙	mhsp
 點鈔機	vsfu
@@ -62187,7 +62187,7 @@
 交電	lucp
 精忠	kgoc
 柳杉	fifs
-滷肉	iqcr
+滷肉	imcr
 瞞哄	msos
 鬆氣	rfwk
 坐守	rrha
@@ -62218,7 +62218,7 @@
 晾臺	jlgo
 討賬	uamr
 誤期	uoxh
-鹽滷	bwiq
+鹽滷	bwim
 得虧	vjkc
 遞升	nkws
 匯費	kinu
@@ -62269,7 +62269,7 @@
 打春	aaej
 典押	csan
 附後	zevu
-龜板	wifn
+龜板	wwfn
 家慈	hequ
 姘夫	lqdw
 寢具	hwmu
@@ -63601,7 +63601,7 @@
 放情	iepg
 回漲	doin
 降塵	zeyg
-繩墨	pivg
+繩墨	pwvg
 譫妄	upel
 寶號	hmou
 稿源	vlik
@@ -65218,7 +65218,7 @@
 舊好	sclk
 戰成	ooyv
 點校	vjfl
-鹵化	quei
+鹵化	muei
 滿肚	ishg
 港九	iswh
 濫砍濫伐	iuie
@@ -66294,7 +66294,7 @@
 官田	hbne
 補西牆	ncwg
 鱗波	tkiw
-龜山	wije
+龜山	wwje
 釘帽	sarc
 措大	astj
 拜識	yful
@@ -66366,7 +66366,7 @@
 雞婆	vuiw
 左肋	syhw
 左圖	sydo
-鹼土	qrgi
+鹼土	mrgi
 大堆	tjgc
 有恩	shdt
 奔雷	tdcn
@@ -66583,7 +66583,7 @@
 肯塔基	tgxg
 步步高	ttlv
 上海話	kiuo
-滷蛋	iqvt
+滷蛋	imvt
 紫霞	ticb
 紫氣	tiwk
 江都	iygj
@@ -67451,7 +67451,7 @@
 安卓	hljj
 怨念	uvrl
 然也	hxsi
-龜速	wifo
+龜速	wwfo
 餓狼	qwxl
 包年	hawa
 金蟬	sjvo
@@ -67553,7 +67553,7 @@
 百盛	ujyv
 成品油	yoip
 原因是	kdjf
-鹹鴨蛋	qnvt
+鹹鴨蛋	mnvt
 萬花	svse
 碗麪	uhee
 邦迪	czpd
@@ -67788,7 +67788,7 @@
 油綠	ippr
 嘴快	otpb
 邪火	zzms
-線繩	pdpi
+線繩	pdpw
 戰略物資	onty
 樁子	fekv
 披閲	awrq
@@ -68678,7 +68678,7 @@
 寧安	hghl
 安踏	hlbv
 福清	gfig
-神龜	gpwi
+神龜	gpww
 鎮平	sdnq
 樂透	duvr
 鐘山	slje
@@ -68990,7 +68990,7 @@
 案首	hlqm
 忽左忽右	hshs
 銷煙	skmc
-龜兔	wipo
+龜兔	wwpo
 殺盡	zfxf
 留隊	inzq
 指雞駡狗	avox
@@ -69230,7 +69230,7 @@
 鶴鳴	pcot
 錯看	ssym
 錳鋼	sksc
-龜鑑	wisb
+龜鑑	wwsb
 鏈結	sipg
 負屈含冤	pbrp
 錢可通神	sabg
@@ -69402,7 +69402,7 @@
 捅進	abcd
 把妹	aals
 殺雞給猴看	zvpy
-掛繩	agpi
+掛繩	agpw
 爬樓	vafo
 抄表	akgw
 手足情深	ybpi
@@ -70369,7 +70369,7 @@
 頒證	udub
 偷腥	erhj
 人設	rwuq
-紅繩	pypi
+紅繩	pypw
 試練	uypf
 主格	lmfe
 課長	ujra
@@ -70833,7 +70833,7 @@
 僅容	erhr
 頷聯	rltu
 俯拍	eyad
-繩纜	pipb
+繩纜	pwpb
 畢至	jshc
 纏緊	pybb
 編就	pqlk
@@ -71770,7 +71770,7 @@
 上樑不正	kfif
 點戲	vjkf
 佔居	ejbb
-滷鴨	iqnt
+滷鴨	imnt
 治廠	ikyk
 活頁紙	iupi
 清瑩	igmm
@@ -72339,7 +72339,7 @@
 氣洶洶	wiih
 小陽春	kzej
 針葉樹	ssfg
-火鹼	msqr
+火鹼	msmr
 繃子	pjkv
 路堤	begj
 蒲劇	sike
@@ -73173,7 +73173,7 @@
 閩劇	rvke
 喚頭	opfo
 田契	necd
-蠅子	vikv
+蠅子	vwkv
 鬱郁蒼蒼	fsss
 村學	fahz
 便桶	effb
@@ -73450,7 +73450,7 @@
 拜盟	yfjh
 持衡	agvp
 丘墓	nfsj
-牛蠅	tlvi
+牛蠅	tlvw
 年尊	waqc
 年經	wapf
 控申	ahpx
@@ -73542,7 +73542,7 @@
 限行	zpvj
 雙性	ccpe
 聖騎	tojt
-石龜	utwi
+石龜	utww
 砂壺	ukgp
 原碼	kduj
 膩蟲	hyvv
@@ -75793,7 +75793,7 @@
 襯紙	nlpi
 覈審	cdhw
 條條塊塊	eegg
-蠅拍	viad
+蠅拍	vwad
 縈繫	mmix
 有職無權	stwf
 採精	avkg
@@ -76190,7 +76190,7 @@
 逝者已矣	agak
 捕鳥	amtm
 年卡	wakj
-氯鹼	wxqr
+氯鹼	wxmr
 挖槽	ahfs
 報名表	gugw
 手機費	yfnu
@@ -76579,7 +76579,7 @@
 麗珠	fcmt
 瑞祥	mjgu
 皮料	wuky
-皮繩	wupi
+皮繩	wupw
 卡密	kjhg
 上意	kglj
 卡費	kjnu
@@ -76993,7 +76993,7 @@
 原陽	kdzj
 原電	kdcp
 春梅	ejfw
-龍龜	lhwi
+龍龜	lhww
 愛寶	vphm
 腰鏈	hcsi
 用户組	zqpm
@@ -77302,7 +77302,7 @@
 結籽	pgkk
 結欠	pgnv
 紗幕	pksj
-繩圈	pidq
+繩圈	pwdq
 強抑	nkai
 絶才	ppjw
 紛落	pusi
@@ -78523,7 +78523,7 @@
 軟飲	inqn
 懶癌	pfyo
 官紗	hbpk
-龜孫	wikw
+龜孫	wwkw
 金團	sjdi
 搭戲	askf
 看攤	ymas
@@ -78578,7 +78578,7 @@
 滷製品	itoo
 港航	isxl
 小事情	kjpg
-小烏龜	ktwi
+小烏龜	ktww
 滄口	iroi
 渝北	irqi
 晨早	jyja
@@ -79404,7 +79404,7 @@
 縣院	mkzh
 助惡	mwfk
 懸燈	mkmb
-腥鹹	hjqy
+腥鹹	hjmy
 臊臭	homx
 脅制	wwtc
 彩夢	vfsz
@@ -79550,7 +79550,7 @@
 燒陶	mgzh
 糞臭	knmx
 精警	kgsh
-糟滷	ksiq
+糟滷	ksim
 粘質	kjnn
 炒票	mkcg
 火竈	mshg
