@@ -11418,6 +11418,7 @@ columns:
 𠃋	eg3	0
 𠃑	eg3	0
 𠄌	eg3	0
+𡗗	eg3	0
 𡿨	eg3	0
 𬼂	eg3	0
 侍	ega	4039
@@ -12595,7 +12596,6 @@ columns:
 𫢓	eoz	0
 𱏇	eoz	0
 你	ep1	426660
-𡗗	ep3	0
 𠈜	epa	0
 𠏮	epa	0
 𬾸	epa	0
@@ -16808,7 +16808,7 @@ columns:
 𢂏	frr	0
 𫷃	frr	0
 𮲪	frr	0
-兩	frs	116864
+兩	frs	100
 㰘	frs	0
 兩	frs	0
 𢍦	frs	0
@@ -16821,6 +16821,7 @@ columns:
 𭫃	frs	0
 㰘	frs	0
 𱣫	frs	0
+兩	frs1	116864
 鳾	frt	0
 𣚪	frt	0
 𩿍	frt	0
@@ -19587,6 +19588,7 @@ columns:
 禰	gfz	0
 𥙴	gfz	0
 𲆗	gfz	0
+龶	gg3	0
 封	gga	19154
 禱	gga	1621
 壔	gga	0
@@ -19816,7 +19818,6 @@ columns:
 邽	ggz	0
 𡏖	ggz	0
 𥛐	ggz	0
-龶	gh3	0
 靘	gha	1
 坾	gha	0
 垉	gha	0
@@ -23399,6 +23400,7 @@ columns:
 𭓭	hef	0
 𰩏	hef	0
 甩	heg	1880
+実	heg	0
 愙	heg	0
 𡍶	heg	0
 𡑫	heg	0
@@ -23454,7 +23456,6 @@ columns:
 𫳌	heo	0
 𭨸	heo	0
 𮙐	heo	0
-実	hep	0
 腶	heq	0
 𡧽	heq	0
 𡩇	heq	0
@@ -42522,6 +42523,7 @@ columns:
 𬐷	lnz	0
 𬪘	lnz	0
 𮠄	lnz	0
+如	lo1	226469
 㛕	loa	0
 郶	loa	0
 𠅔	loa	0
@@ -42586,7 +42588,6 @@ columns:
 㖜	loi	0
 㖲	loi	0
 咅	loi	0
-如	loi1	226469
 㐯	loj	0
 𩣉	loj	0
 𩫭	loj	0
@@ -87577,6 +87578,7 @@ columns:
 劜	weg	0
 齓	weg	0
 𤖨	weg	0
+𥬟	weg	0
 氚	weh	1
 篟	weh	0
 𥫨	weh	0
@@ -87624,7 +87626,6 @@ columns:
 𪘊	weo	0
 𫂕	weo	0
 𭉘	weo	0
-𥬟	wep	0
 𮅿	wep	0
 篌	weq	66
 𥱌	weq	0
@@ -99325,8 +99326,6 @@ columns:
 已經	ao2
 授予	av2
 回來	do2
-也是	si2
-條件	ecf2
 四個	dq2
 國家	dy2
 什麽	ed2
@@ -99344,38 +99343,41 @@ columns:
 漸漸	ii2
 没有	iq2
 方法	ir2
+而且	le2
 衣服	lw2
 纔是	pp2
 知道	qo2
-影響	jls2
 問題	ro2
-而且	le2
+也是	si2
 三個	uw2
 稱爲	vv2
 降落	ze2
 發現	bnq2
-需要	cle2
-爲了	vjd2
 進行	cdn2
+需要	cle2
 因爲	dtj2
+條件	ecf2
 但是	ejf2
+以後	elr2
 老師	gib2
+影響	jls2
+過程	ldn2
 就是	lkb2
 主要	lme2
-許多	uwd2
-如果	loi2
+如果	lo2
 現在	mmr2
-過程	ldn2
 經濟	pfy2
 情况	pgh2
 所以	qnc2
 並且	qpf2
 起來	ran2
 關係	rux2
+許多	uwd2
+爲了	vjd2
 怎麽	wjg2
 成功	yvi2
 重要	znt2
-以後	elr2
+兩個	frs2
 可能	a2
 要是	c2
 他的	e2

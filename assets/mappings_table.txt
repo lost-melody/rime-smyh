@@ -1,8 +1,8 @@
        │========   Q   ========│       │========   W   ========│       │========   E   ========│       │========   R   ========│       │========   T   ========│
        │缶   Qf│几   Qh│习   Qi│       │九   Wh│𧘇   Wh│非   Wi│       │乚   Eg│𡿨   Eg│㇉   Eg│       │長   Ra│僉   Rd│革   Re│       │耳   Te│大   Tj│止   Tk│
-       │矢   Qj│户   Qk│戸   Qk│       │气   Wj│丿   Wk│齒   Wk│       │川   Eh│生   Ei│來   Ej│       │合   Rh│鬥   Ri│亦   Rj│       │牛   Tl│⺧   Tl│鳥   Tm│
-       │食   Ql│殳   Qm│身   Qn│       │力   Wl│龜下 Wm│黽   Wm│       │風   Ek│亡   Em│贏頭 Em│       │巾   Rk│門   Rm│乃   Rn│       │鳥上 Tm│魚   Tn│烏   To│
-       │丷   Qo│丬   Qo│リ   Qo│       │片   Wn│⺮右 Wo│𠂉   Wo│       │豕   En│飛   Eo│𡗗   Ep│       │髟   Ro│丌   Rp│囟框 Rs│       │烏上 To│龰   To│钅   Tu│
+       │矢   Qj│户   Qk│戸   Qk│       │气   Wj│丿   Wk│齒   Wk│       │𡗗   Eg│川   Eh│生   Ei│       │合   Rh│鬥   Ri│亦   Rj│       │牛   Tl│⺧   Tl│鳥   Tm│
+       │食   Ql│殳   Qm│身   Qn│       │力   Wl│龜下 Wm│黽   Wm│       │來   Ej│風   Ek│亡   Em│       │巾   Rk│門   Rm│乃   Rn│       │鳥上 Tm│魚   Tn│烏   To│
+       │丷   Qo│丬   Qo│リ   Qo│       │片   Wn│⺮右 Wo│𠂉   Wo│       │贏頭 Em│豕   En│飛   Eo│       │髟   Ro│丌   Rp│囟框 Rs│       │烏上 To│龰   To│钅   Tu│
        │䒑   Qo│戶   Qp│儿   Qr│       │竹   Wo│爿   Wp│皮   Wu│       │亻   Er│夊   Eu│       │       │向   Rs│向框 Rs│母   Ru│
        │荒下 Qr│       │       │       │       │       │       │       │       │       │       │       │彑   Ru│互中 Ru│母框 Ru│
        │       │       │       │       │       │       │       │       │       │       │       │       │镸   Ru│人   Rw│走   Ry│
@@ -16,7 +16,7 @@
        │工   Yx│
 
        │========   A   ========│       │========   S   ========│       │========   D   ========│       │========   F   ========│       │========   G   ========│
-       │巳   Ae│丁   Ah│寸   Ai│       │左上 Sh│乜   Si│也   Si│       │亥   Da│囗   Dd│十   Di│       │木   Fi│一   Fk│       │       │𠂤   Gd│龶   Gh│耂   Gi│
+       │巳   Ae│丁   Ah│寸   Ai│       │左上 Sh│乜   Si│也   Si│       │亥   Da│囗   Dd│十   Di│       │木   Fi│一   Fk│       │       │𠂤   Gd│龶   Gg│耂   Gi│
        │巴   Aj│扌   Ak│ヰ   Ak│       │金   Sj│未   Sk│艹   Sk│       │之   Dj│刀   Dk│辶   Dn│       │       │       │       │       │土   Gi│鬼   Gm│卑上 Gm│
        │七   Ak│キ   Ak│己   An│       │龷   Sk│卄   Sk│卌   Sk│       │白   Ds│讠   Du│夫   Dw│       │       │       │       │       │世   Gn│示   Gp│穀頭 Gu│
        │已   Ao│       │       │       │卅   Sk│卝   Sk│冓上 Sk│       │       │       │       │       │       │       │       │       │士   Gu│心   Gy│

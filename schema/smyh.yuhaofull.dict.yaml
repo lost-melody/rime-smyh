@@ -10515,16 +10515,16 @@ columns:
 𠉝	eajk
 豝	eajn
 𠇕	eajr
+奉	eakg
+𫯠	eakg
 㑈	eakj
-奉	eakp
-𫯠	eakp
 夅	eaku
 𡕖	eaku
 姇	ealc
 㑜	eanc
 𩗙	eanc
+𪩫	eang
 𱉜	eann
-𪩫	eanp
 𮯲	eanr
 𢚨	eaog
 何	eaoi
@@ -10863,9 +10863,9 @@ columns:
 什	edir
 什	edir
 㑡	edix
+𡘕	edjg
 𠎫	edjh
 𩖳	edjk
-𡘕	edjp
 䫸	edkk
 𫢈	edkr
 𪥷	edlc
@@ -11164,6 +11164,7 @@ columns:
 𩻯	eetn
 𧱺	eeto
 𪋽	eeua
+𡕤	eeug
 𤯛	eeui
 麥	eeuj
 ⿆	eeuj
@@ -11173,7 +11174,6 @@ columns:
 𢻬	eeum
 𪍶	eeuo
 𬹃	eeuo
-𡕤	eeup
 𪝒	eeuq
 𰁦	eeur
 𪌫	eeuu
@@ -11398,6 +11398,7 @@ columns:
 𠃋	eg11
 𠃑	eg11
 𠄌	eg11
+𡗗	eg11
 𡿨	eg11
 𬼂	eg11
 侍	egai
@@ -11478,7 +11479,7 @@ columns:
 𩸔	egot
 傃	egpc
 𩘣	egpc
-𥘿	egpp
+𥘿	egpg
 豷	egpq
 𠍼	egpq
 𠇣	egpr
@@ -11536,7 +11537,7 @@ columns:
 𬾔	ehcm
 侄	ehcr
 𫤂	ehcu
-舂	ehdp
+舂	ehdg
 𠍊	ehej
 𩘰	ehej
 傢	ehen
@@ -11880,11 +11881,11 @@ columns:
 𠨅	ejjl
 𰁐	ejjz
 𱎢	ejkc
+春	ejkg
 𬿕	ejkg
 䫻	ejkk
 𤌮	ejkm
 𠊀	ejkn
-春	ejkp
 𪝚	ejkp
 𬽪	ejkr
 𣅈	ejku
@@ -12327,9 +12328,9 @@ columns:
 𬿰	emum
 俱	emus
 颶	emus
+𰥖	emvg
 眚	emvi
 盲	emvm
-𰥖	emvp
 𪜮	emvr
 𠍥	emwd
 𧱑	emwl
@@ -12489,8 +12490,8 @@ columns:
 𦙃	eohr
 𫡻	eohr
 𭟶	eohy
+𠰫	eoig
 吂	eoim
-𠰫	eoip
 㐰	eoir
 𠂝	eoir
 各	eoiu
@@ -12571,7 +12572,6 @@ columns:
 𨔃	eoyd
 𠇝	eoyr
 𫢓	eozi
-𡗗	ep11
 𰂠	epai
 𠈜	epaj
 伷	epbr
@@ -12999,7 +12999,7 @@ columns:
 𧰯	eskf
 𩖢	eskf
 𦫵	eskg
-𱝔	eskp
+𱝔	eskg
 佅	eskr
 𮇓	esks
 𫣦	esla
@@ -13145,8 +13145,8 @@ columns:
 𠌵	etmr
 侇	etna
 𧱅	etna
+𩶓	etng
 𩼊	etnm
-𩶓	etnp
 俈	etoi
 𠏄	etom
 𬼵	etoo
@@ -13369,8 +13369,8 @@ columns:
 偢	evms
 𩘌	evms
 𠋠	evnb
+秦	evng
 𥢵	evnm
-秦	evnp
 𪜰	evnr
 𠍂	evof
 俰	evoi
@@ -13402,23 +13402,23 @@ columns:
 偦	evth
 𫎈	evtj
 𠈀	evud
+泰	evug
 𭱁	evuj
 𰛾	evuj
 𩖱	evuk
 𫖨	evum
 𱶥	evum
-泰	evup
 㲻	evur
 傒	evut
 豯	evut
 𧈞	evvg
+𧉾	evvg
 𰁭	evvi
 𮨩	evvk
 蠃	evvm
 䖟	evvm
 𥠼	evvn
 𧋠	evvn
-𧉾	evvp
 𠉹	evvu
 𠊥	evvu
 𧈸	evvu
@@ -13748,9 +13748,9 @@ columns:
 㑵	eyqj
 代	eyqr
 𠊴	eyqx
+𡗫	eyrg
 帒	eyrk
 𢁹	eyrk
-𡗫	eyrp
 仁	eyrr
 𠀉	eyrr
 冬	eyru
@@ -15515,7 +15515,7 @@ columns:
 櫉	fkga
 𣓪	fkgf
 𣔦	fkgg
-𦤳	fkgh
+𦤳	fkgg
 堊	fkgi
 樘	fkgi
 𪱲	fkgi
@@ -19012,7 +19012,7 @@ columns:
 𩳆	gcus
 𫀇	gcus
 𰉩	gcus
-责	gcvh
+责	gcvg
 坝	gcvi
 贳	gcvn
 𱗏	gcwc
@@ -19086,7 +19086,7 @@ columns:
 𨽱	gdjq
 墘	gdjv
 𱀖	gdke
-𭃌	gdkh
+𭃌	gdkg
 切	gdki
 𥘉	gdkp
 𱀂	gdkv
@@ -19317,8 +19317,8 @@ columns:
 𱋄	geua
 𥘶	geud
 𪯌	geud
-麦	geuh
-⻨	geuh
+麦	geug
+⻨	geug
 坆	geui
 𡕟	geui
 𬹎	geuo
@@ -19555,6 +19555,7 @@ columns:
 𩳍	gfyy
 𲆗	gfzl
 𥜳	gfzy
+龶	gg11
 堼	ggag
 封	ggai
 𭎒	ggai
@@ -19771,7 +19772,7 @@ columns:
 隸	ggxv
 隷	ggxv
 𪤤	ggxv
-𢗣	ggyh
+𢗣	ggyg
 𡉾	ggyi
 𢖽	ggyi
 𱞉	ggyn
@@ -19784,7 +19785,6 @@ columns:
 䀅	ggzm
 䄣	ggzm
 𰊻	ggzm
-龶	gh11
 垉	ghae
 𫀆	ghae
 坾	ghah
@@ -19943,9 +19943,9 @@ columns:
 𫮗	ghqt
 𭏆	ghqy
 𩇙	ghrb
-青	ghrh
-⻘	ghrh
-𫠤	ghrh
+青	ghrg
+⻘	ghrg
+𫠤	ghrg
 𪢻	ghri
 𡓤	ghrm
 𩲞	ghrm
@@ -20752,7 +20752,7 @@ columns:
 𡑍	gmmw
 𪤨	gmnr
 𣤈	gmnv
-責	gmoh
+責	gmog
 垻	gmoi
 𲌩	gmom
 貰	gmon
@@ -21211,7 +21211,7 @@ columns:
 䄂	gpbp
 𧔓	gpbv
 𪤩	gpce
-素	gpch
+素	gpcg
 𡋔	gpci
 𬓋	gpct
 𡔫	gpdf
@@ -21730,7 +21730,7 @@ columns:
 𭏾	grte
 𪣼	grtj
 𬓍	grtj
-毒	gruh
+毒	grug
 坶	grui
 祄	grus
 魀	grus
@@ -22322,7 +22322,7 @@ columns:
 𥛎	gvut
 𡍅	gvva
 蛗	gvvd
-𧉉	gvvh
+𧉉	gvvg
 𡏈	gvvm
 𰳒	gvvm
 𧉺	gvvn
@@ -22387,7 +22387,7 @@ columns:
 𫮦	gwgy
 𰑒	gwgy
 𪤖	gwha
-表	gwhh
+表	gwhg
 𬚉	gwhi
 𥙡	gwhl
 𧸈	gwhm
@@ -23363,6 +23363,7 @@ columns:
 腠	heft
 𦥇	heft
 𦦅	heft
+実	hegb
 𡑫	hegg
 𡨱	hegg
 𡍶	hegi
@@ -23418,7 +23419,6 @@ columns:
 𪃭	heot
 𭃺	heox
 𫟭	heoz
-実	hepb
 𫓓	heps
 𡧽	heqr
 𦙐	herf
@@ -26712,7 +26712,7 @@ columns:
 𱷊	hxfb
 𦞲	hxfv
 䐸	hxgf
-𱚈	hxgh
+𱚈	hxgg
 𡪈	hxgi
 𦥌	hxgj
 𫆷	hxgn
@@ -32120,7 +32120,7 @@ columns:
 濜	ixfz
 澅	ixgf
 𣻱	ixgf
-𣳫	ixgh
+𣳫	ixgg
 𤁿	ixgh
 𣻺	ixgi
 潴	ixgj
@@ -48244,10 +48244,10 @@ columns:
 𤪨	mtdx
 珥	mtee
 辄	mteg
+𤊖	mteg
 𥆍	mteg
 𧶋	mteg
 𰷀	mteo
-𤊖	mtep
 𪸥	mtes
 眲	mtev
 𥉼	mtfi
@@ -68891,6 +68891,7 @@ columns:
 𦼑	shed
 𪯗	shed
 𦱉	sheg
+𮢖	sheg
 蓿	shej
 鏥	shej
 𮑚	shel
@@ -68898,7 +68899,6 @@ columns:
 𮐃	shen
 𦴦	sheo
 𫒴	sheo
-𮢖	shep
 𰱵	sher
 𮣂	shes
 散	sheu
@@ -71010,7 +71010,7 @@ columns:
 𮎳	sofv
 𤲽	sofw
 𨕸	sogd
-𦰌	sogh
+𦰌	sogg
 𮎹	sogi
 𮒱	sogj
 懖	sogy
@@ -87503,6 +87503,7 @@ columns:
 齓	wegk
 劜	wegl
 𤖨	wegn
+𥬟	wego
 𮆝	wehd
 氚	wehj
 𥲠	wehm
@@ -87547,7 +87548,6 @@ columns:
 𥰈	weom
 𭉘	weoo
 𥵜	wepd
-𥬟	wepo
 𥱭	wera
 𪙸	wery
 𮅅	wesi
@@ -89122,7 +89122,7 @@ columns:
 𭫹	wofo
 筽	woft
 𭈆	wofw
-𥭤	wogh
+𥭤	wogg
 㤎	wogy
 𥭞	wohr
 𦙺	wohr

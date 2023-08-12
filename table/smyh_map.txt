@@ -49,6 +49,7 @@ Dw	夫
 Eg	乚
 Eg	𡿨
 Eg	㇉
+Eg	𡗗
 Eh	川
 Ei	生
 Ej	來
@@ -57,13 +58,12 @@ Em	亡
 Em	{贏頭}
 En	豕
 Eo	飛
-Ep	𡗗
 Er	亻
 Eu	夊
 Fi	木
 Fk	一
 Gd	𠂤
-Gh	龶
+Gg	龶
 Gi	耂
 Gi	土
 Gm	鬼

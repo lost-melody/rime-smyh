@@ -11414,6 +11414,7 @@ columns:
 𠃋	eg3	0
 𠃑	eg3	0
 𠄌	eg3	0
+𡗗	eg3	0
 𡿨	eg3	0
 𬼂	eg3	0
 侍	ega	6974
@@ -12587,7 +12588,6 @@ columns:
 𭟶	eoy	0
 𫢓	eoz	0
 𱏇	eoz	0
-𡗗	ep3	0
 𠈜	epa	0
 𠏮	epa	0
 𬾸	epa	0
@@ -19575,6 +19575,7 @@ columns:
 禰	gfz	0
 𥙴	gfz	0
 𲆗	gfz	0
+龶	gg3	0
 封	gga	17803
 禱	gga	257
 壔	gga	0
@@ -19804,7 +19805,6 @@ columns:
 䀅	ggz	0
 𡏖	ggz	0
 𥛐	ggz	0
-龶	gh3	0
 靘	gha	5
 垞	gha	2
 坾	gha	0
@@ -23385,6 +23385,7 @@ columns:
 𭓭	hef	0
 𰩏	hef	0
 甩	heg	4887
+実	heg	2
 愙	heg	0
 𡍶	heg	0
 𡑫	heg	0
@@ -23440,7 +23441,6 @@ columns:
 𫳌	heo	0
 𭨸	heo	0
 𮙐	heo	0
-実	hep	2
 腶	heq	0
 𡧽	heq	0
 𡩇	heq	0
@@ -87552,6 +87552,7 @@ columns:
 劜	weg	0
 齓	weg	0
 𤖨	weg	0
+𥬟	weg	0
 氚	weh	5
 篟	weh	0
 𥫨	weh	0
@@ -87599,7 +87600,6 @@ columns:
 𪘊	weo	0
 𫂕	weo	0
 𭉘	weo	0
-𥬟	wep	0
 𮅿	wep	0
 篌	weq	25
 𥱌	weq	0
