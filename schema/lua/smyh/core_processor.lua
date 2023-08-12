@@ -155,7 +155,7 @@ local function handle_fullcode(env, ctx, ch)
 end
 
 local function handle_break(env, ctx, ch)
-    if ch == cBreakSmart then
+    if core.valid_smyh_input(ctx.input) and ch == cBreakSmart then
         -- 輸入串分詞列表
         local code_segs, remain = core.get_code_segs(ctx.input)
         if #remain == 0 then
@@ -166,6 +166,25 @@ local function handle_break(env, ctx, ch)
             local text_list = core.query_cand_list(core.base_mem, code_segs)
             commit_text(env, ctx, table.concat(text_list, ""), remain)
             return kAccepted
+        end
+    end
+    return kNoop
+end
+
+local function handle_repeat(env, ctx, ch)
+    if core.valid_smyh_input(ctx.input) then
+        -- 查詢當前首選項
+        local code_segs, remain = core.get_code_segs(ctx.input)
+        local text_list, _ = core.query_cand_list(core.base_mem, code_segs)
+        local text = table.concat(text_list, "")
+        if #remain ~= 0 then
+            local entries = core.dict_lookup(core.base_mem, remain, 1)
+            text = text .. (entries[1] and entries[1].text or "")
+        end
+        -- 逐個上屏
+        ctx:clear()
+        for _, c in utf8.codes(text) do
+            env.engine:commit_text(utf8.char(c))
         end
     end
     return kNoop
@@ -274,6 +293,8 @@ function processor.func(key_event, env)
     elseif ch == cRt then
         -- 回車
         return handle_clean(env, ctx, ch)
+    elseif ch == cGr then
+        return handle_repeat(env, ctx, ch)
     else
         local res = kNoop
         if res == kNoop and ch == cSelectFull then

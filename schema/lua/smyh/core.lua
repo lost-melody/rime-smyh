@@ -345,7 +345,7 @@ end
 -- 计算分词列表
 -- "dkdqgxfvt;" -> ["dkd","qgx","fvt"], ";"
 -- "d;nua"     -> ["d;", "nua"]
-core.get_code_segs = function(input)
+function core.get_code_segs(input)
     local code_segs = {}
     while string.len(input) ~= 0 do
         if string.match(string.sub(input, 1, 2), "[a-z][ ;]") then
@@ -366,7 +366,7 @@ end
 
 -- 查询编码对应候选列表
 -- "dkd" -> ["南", "電"]
-core.dict_lookup = function(mem, code, count, comp)
+function core.dict_lookup(mem, code, count, comp)
     -- 是否补全编码
     count = count or 1
     comp = comp or false
@@ -391,15 +391,11 @@ core.dict_lookup = function(mem, code, count, comp)
 end
 
 -- 查詢分詞首選列表
-core.query_first_cand_list = function(mem, code_segs)
+function core.query_first_cand_list(mem, code_segs)
     local cand_list = {}
     for _, code in ipairs(code_segs) do
         local entries = core.dict_lookup(mem, code)
-        if #entries ~= 0 then
-            table.insert(cand_list, entries[1].text)
-        else
-            table.insert(cand_list, "")
-        end
+        table.insert(cand_list, entries[1] and entries[1].text or "")
     end
     return cand_list
 end
@@ -407,7 +403,7 @@ end
 -- 最大匹配查詢分詞候選列表
 -- ["dkd", "qgx", "fvt"] -> ["電動", "杨"]
 -- ["dkd", "qgx"]        -> ["南", "動"]
-core.query_cand_list = function(mem, code_segs, skipfull)
+function core.query_cand_list(mem, code_segs, skipfull)
     local index = 1
     local cand_list = {}
     local code = table.concat(code_segs, "", index)
