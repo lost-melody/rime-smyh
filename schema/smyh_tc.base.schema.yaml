@@ -11,7 +11,7 @@ speller:
   alphabet: "qwertyuiopasdfghjklzxcvbnm"
   initials: "qwertyuiopasdfghjklzxcvbnm"
   algebra:
-    - "derive/^(\\w{1,2})[123]$/$1/"
+    - "derive/^(\\w{1,3})[123]$/$1/"
     - xlit/12/ ;/
 
 translator:
