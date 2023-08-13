@@ -305,6 +305,27 @@ function core.parse_conf_macro_list(env)
     return macros
 end
 
+-- 從方案配置中讀取功能鍵配置
+function core.parse_conf_funckeys(env)
+    local funckeys = {
+        fullci     = {},
+        ["break"]  = {},
+        ["repeat"] = {},
+        clearact   = {},
+        macro      = {},
+    }
+    local keys_map = env.engine.schema.config:get_map(env.name_space .. "/funckeys")
+    for _, key in ipairs(keys_map and keys_map:keys() or {}) do
+        if funckeys[key] then
+            local char_list = keys_map:get(key):get_list() or { size = 0 }
+            for i = 0, char_list.size - 1 do
+                funckeys[key][char_list:get_value_at(i):get_int() or 0] = true
+            end
+        end
+    end
+    return funckeys
+end
+
 -- 是否單個編碼段, 如: "abc", "ab_", "a;", "a_"
 function core.single_smyh_seg(input)
     return string.match(input, "^[a-z][ ;]$")       -- 一簡

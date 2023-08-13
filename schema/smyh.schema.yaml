@@ -143,6 +143,17 @@ rev_pinyin:
     - xlit/_/-/
 
 core_proc:
+  funckeys:
+    # under linux, cat /usr/include/X11/keysymdef.h
+    # or visit: https://gitlab.freedesktop.org/xorg/proto/xorgproto/-/blob/master/include/X11/keysymdef.h
+    # frequently used:
+    # - functional keys: escape: 0xff1b; return: 0xff0d; tabular: 0xff09;
+    # - ascii characters: space: 0x20; semicolon: 0x3b; slash: 0x2f; grave: 0x60;
+    macro: [ 0x2f ]      # 以這些字符開頭, 則認爲是宏調用
+    fullci: [ 0xff09 ]   # 碼長爲四時, 輸入此串上屏首選
+    break: [ 0xff09 ]    # 打斷施法
+    repeat: [ 0x60 ]     # 重複上屏
+    clearact: [ 0xff0d ] # 清除活動編碼
   sync_options:
     # 開關同步列表, 此處列出的開關項會在各個會話中同步狀態
     # - ascii_mode

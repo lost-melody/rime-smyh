@@ -94,6 +94,8 @@ patch:
     __include: patch/macros
   core_tr/macros/+:
     __include: patch/macros
+  core_proc/funckeys/+:
+    clearact/+: [ 0xff1b ]
   # 開關同步
   core_proc/sync_options/+:
     - ascii_mode

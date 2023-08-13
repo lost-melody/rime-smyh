@@ -148,7 +148,7 @@ local function handle_select(env, ctx, ch)
 end
 
 local function handle_fullcode(env, ctx, ch)
-    if not env.option[core.switch_names.full_off] and #ctx.input == 4 and ch == cSelectFull then
+    if not env.option[core.switch_names.full_off] and #ctx.input == 4 then
         ctx:commit()
         return kAccepted
     end
@@ -156,7 +156,7 @@ local function handle_fullcode(env, ctx, ch)
 end
 
 local function handle_break(env, ctx, ch)
-    if core.valid_smyh_input(ctx.input) and ch == cBreakSmart then
+    if core.valid_smyh_input(ctx.input) then
         -- 輸入串分詞列表
         local code_segs, remain = core.get_code_segs(ctx.input)
         if #remain == 0 then
@@ -220,6 +220,7 @@ function processor.init(env)
         config.sync_options = core.parse_conf_str_list(env, "sync_options")
         config.sync_options.synced_at = 0
         config.macros = core.parse_conf_macro_list(env)
+        config.funckeys = core.parse_conf_funckeys(env)
         namespaces:set_config(env, config)
     end
 
@@ -275,9 +276,11 @@ function processor.func(key_event, env)
     end
 
     local ch = key_event.keycode
-    if string.match(ctx.input, "^/") then
+    local funckeys = namespaces:config(env).funckeys
+    if funckeys.macro[string.byte(string.sub(ctx.input, 1, 1))] then
+        -- starts with funckeys/macro set
         local idx = select_index(key_event, env)
-        if ch == cRt then
+        if funckeys.clearact[ch] then
             ctx:clear()
             return kAccepted
         elseif idx >= 0 then
@@ -285,31 +288,35 @@ function processor.func(key_event, env)
         else
             return kNoop
         end
-    elseif ch >= cA and ch <= cZ then
-        -- 'a'~'z'
-        return handle_push(env, ctx, ch)
-    elseif ch == cSp or ch == cSC then
-        -- 空格, 分號
-        return handle_select(env, ctx, ch)
-    elseif ch == cRt or ch == cEs then
-        -- 回車, Esc 清除活動編碼
-        return handle_clean(env, ctx, ch)
-    elseif ch == cGr then
-        return handle_repeat(env, ctx, ch)
-    else
-        local res = kNoop
-        if res == kNoop and ch == cSelectFull then
-            -- 四碼單字
-            res = handle_fullcode(env, ctx, ch)
-        end
-        if res == kNoop and ch == cBreakSmart then
-            -- 打斷施法
-            res = handle_break(env, ctx, ch)
-        end
-        return res
     end
 
-    return kNoop
+    if ch >= cA and ch <= cZ then
+        -- 'a'~'z'
+        return handle_push(env, ctx, ch)
+    end
+
+    local res = kNoop
+    if res == kNoop and ch == cSp or ch == cSC then
+        -- 簡碼
+        res = handle_select(env, ctx, ch)
+    end
+    if res == kNoop and funckeys.fullci[ch] then
+        -- 四碼單字
+        res = handle_fullcode(env, ctx, ch)
+    end
+    if res == kNoop and funckeys["break"][ch] then
+        -- 打斷施法
+        res = handle_break(env, ctx, ch)
+    end
+    if res == kNoop and funckeys["repeat"][ch] then
+        -- 重複上屏
+        res = handle_repeat(env, ctx, ch)
+    end
+    if res == kNoop and funckeys.clearact[ch] then
+        -- 清除活動編碼
+        res = handle_clean(env, ctx, ch)
+    end
+    return res
 end
 
 function processor.fini(env)
