@@ -1462,7 +1462,6 @@ columns:
 𢮆	and	0
 𢶿	and	0
 𭡕	and	0
-𰓆	and	0
 𰤙	and	0
 𱡊	and	0
 𢱩	ane	0
@@ -1566,6 +1565,7 @@ columns:
 𢫽	anw	0
 𪘔	anw	0
 𫽲	anw	0
+𰓆	anw	0
 搦	any	38
 𢮼	anz	0
 𧣯	anz	0
@@ -2491,6 +2491,7 @@ columns:
 㩐	awa	0
 摪	awa	0
 𢩺	awa	0
+𢪫	awa	0
 𢫅	awa	0
 𢬧	awa	0
 𢴩	awa	0
@@ -2606,7 +2607,6 @@ columns:
 絷	awp	5
 挻	awp	2
 㩯	awp	0
-𢪫	awp	0
 𢭁	awp	0
 𢷩	awp	0
 𢹈	awp	0
@@ -10264,6 +10264,7 @@ columns:
 夫	dw1	47545
 讬	dwa	22
 𭽉	dwa	0
+𰉎	dwa	0
 𫭎	dwc	0
 许	dwd	61609
 𬐆	dwd	0
@@ -10292,7 +10293,6 @@ columns:
 𭽌	dwn	0
 𮶼	dwn	0
 诞	dwp	2098
-𰉎	dwp	0
 𤽪	dwq	0
 𦒌	dwq	0
 诲	dwr	394
@@ -12372,7 +12372,6 @@ columns:
 伒	enc	0
 𠇁	enc	0
 邍	end	0
-𠆿	end	0
 𠉔	end	0
 𠎻	end	0
 𨘡	end	0
@@ -12444,6 +12443,7 @@ columns:
 𣢡	env	0
 甥	enw	372
 侽	enw	1
+𠆿	enw	0
 𤳇	enw	0
 𱰘	enw	0
 𠈷	enx	0
@@ -15954,7 +15954,6 @@ columns:
 𣜲	fnd	0
 𮞆	fnd	0
 𮞝	fnd	0
-𱣂	fnd	0
 𲅚	fnd	0
 橼	fne	5
 㮨	fne	0
@@ -16031,6 +16030,7 @@ columns:
 㭛	fnw	0
 㭷	fnw	0
 𭚨	fnw	0
+𱣂	fnw	0
 画	fnx	17058
 榒	fny	0
 𣔆	fnz	0
@@ -18111,6 +18111,7 @@ columns:
 𣛆	fwa	0
 𣟔	fwa	0
 𣠊	fwa	0
+𤕫	fwa	0
 𪴅	fwa	0
 𭬾	fwa	0
 𰘎	fwa	0
@@ -18225,7 +18226,6 @@ columns:
 梴	fwp	0
 𣛐	fwp	0
 𣠹	fwp	0
-𤕫	fwp	0
 𱤨	fwp	0
 𣏆	fwq	0
 𤕺	fwq	0
@@ -20831,7 +20831,6 @@ columns:
 鬿	gnc	2
 祈	gnc	0
 𰉞	gnc	0
-坞	gnd	471
 𡌨	gnd	0
 𩲔	gnd	0
 𫑓	gnd	0
@@ -20918,6 +20917,7 @@ columns:
 𫮬	gnv	0
 𮂏	gnv	0
 𰳎	gnv	0
+坞	gnw	471
 𥙎	gnw	0
 𱗥	gnw	0
 𥛇	gny	0
@@ -24879,7 +24879,6 @@ columns:
 𦙨	hnc	0
 𱂸	hnc	0
 𦜉	hnd	0
-𫲻	hnd	0
 𰮰	hnd	0
 甸	hne	1303
 𪧈	hne	0
@@ -24934,6 +24933,7 @@ columns:
 脈	hnw	2
 𠡪	hnw	0
 𦥶	hnw	0
+𫲻	hnw	0
 𭔔	hnw	0
 𰮅	hnw	0
 𰯺	hnw	0
@@ -26528,6 +26528,7 @@ columns:
 𥤭	hwa	0
 𦘴	hwa	0
 𦣈	hwa	0
+𪧇	hwa	0
 𫳻	hwa	0
 𭩐	hwa	0
 寢	hwb	179
@@ -26649,7 +26650,6 @@ columns:
 𱚚	hwo	0
 㝚	hwp	0
 脠	hwp	0
-𪧇	hwp	0
 𫧅	hwp	0
 𥨼	hwq	0
 𩝩	hwq	0
@@ -38729,7 +38729,6 @@ columns:
 𠩶	knd	0
 𥺛	knd	0
 𬩖	knd	0
-𰲟	knd	0
 𰻋	knd	0
 當	kne	18524
 畨	kne	0
@@ -38815,6 +38814,7 @@ columns:
 𥀵	knw	0
 𧇙	knw	0
 虜	knw	0
+𰲟	knw	0
 劏	knx	0
 𥻜	knx	0
 𥽙	knx	0
@@ -47021,7 +47021,6 @@ columns:
 𧵆	mnc	0
 𪖿	mnc	0
 𰶻	mnc	0
-𤆡	mnd	0
 𥇐	mnd	0
 𪖘	mnd	0
 𪖶	mnd	0
@@ -47206,6 +47205,7 @@ columns:
 眽	mnw	2
 齉	mnw	2
 鼽	mnw	0
+𤆡	mnw	0
 𧡇	mnw	0
 𧡒	mnw	0
 𧵬	mnw	0
@@ -49712,7 +49712,6 @@ columns:
 盄	ncz	0
 𥁜	ncz	0
 𮉦	ncz	0
-乌	nd1	8040
 畡	nda	0
 𮖀	nda	0
 𰬓	nda	0
@@ -51703,6 +51702,7 @@ columns:
 𫸶	nvz	0
 𮖍	nvz	0
 𱺢	nvz	0
+乌	nw1	8040
 𤰦	nwa	0
 𤴆	nwa	0
 𧘐	nwa	0
@@ -54123,7 +54123,6 @@ columns:
 吲	onc	2
 𠰀	onc	0
 𫪪	onc	0
-呜	ond	4676
 𠶌	ond	0
 𠽂	ond	0
 𡀷	ond	0
@@ -54198,6 +54197,7 @@ columns:
 𣵯	onv	0
 𭉹	onv	0
 𰇡	onv	0
+呜	onw	4676
 哌	onw	4
 𠲸	onw	0
 𠼊	onw	0
@@ -65186,6 +65186,8 @@ columns:
 𨷐	rmz	0
 𱲑	rmz	0
 乃	rn1	8042
+⻒	rn3	0
+镸	rn3	0
 弯	rna	6192
 䩑	rna	0
 𢁠	rna	0
@@ -65204,7 +65206,6 @@ columns:
 𱆄	rnc	0
 𱎥	rnc	0
 𢄛	rnd	0
-𰏓	rnd	0
 畣	rne	0
 𨳸	rne	0
 𰣅	rne	0
@@ -65291,6 +65292,7 @@ columns:
 𩌾	rnv	0
 𮤉	rnv	0
 𭘴	rnw	0
+𰏓	rnw	0
 𩊎	rnx	0
 舒	rnz	13465
 䦳	rnz	0
@@ -66239,9 +66241,7 @@ columns:
 𫎿	rtz	0
 母	ru1	43946
 ⺟	ru3	0
-⻒	ru3	0
 彑	ru3	0
-镸	ru3	0
 𨶃	rua	0
 𰏥	rua	0
 𨱹	rub	0
@@ -76070,7 +76070,6 @@ columns:
 𬬱	tnc	0
 𭭜	tnc	0
 𰽣	tnc	0
-钨	tnd	44
 𫙧	tnd	0
 𫡛	tnd	0
 奋	tne	12788
@@ -76150,6 +76149,7 @@ columns:
 𩵢	tnv	0
 𩼞	tnv	0
 𫆁	tnv	0
+钨	tnw	44
 𰋢	tnw	0
 𰽸	tnw	0
 𱘲	tnw	0
@@ -76757,6 +76757,7 @@ columns:
 𬺌	trm	0
 𭑠	trm	0
 𱌳	trm	0
+套	trn	14648
 㰰	trn	0
 龂	trn	0
 𩾖	trn	0
@@ -76816,7 +76817,6 @@ columns:
 𪄤	trt	0
 𪅣	trt	0
 𬺓	trt	0
-套	tru	14648
 㼪	tru	0
 牳	tru	0
 魪	tru	0
@@ -80039,7 +80039,6 @@ columns:
 𥓓	und	0
 𥕈	und	0
 𭁏	und	0
-𱳳	und	0
 謖	une	0
 鿬	une	0
 𤰧	une	0
@@ -80118,6 +80117,7 @@ columns:
 𣢄	unv	0
 𭭋	unv	0
 𮘌	unw	0
+𱳳	unw	0
 𮀶	uny	0
 幺	uo1	850
 ⺓	uo3	0
@@ -80697,6 +80697,7 @@ columns:
 鹆	urn	5
 䚮	urn	0
 𣢲	urn	0
+𤭖	urn	0
 𥗮	urn	0
 𬣖	urn	0
 𮘅	urn	0
@@ -80767,7 +80768,6 @@ columns:
 砪	uru	0
 谼	uru	0
 𤭏	uru	0
-𤭖	uru	0
 𧮹	uru	0
 𩧦	uru	0
 𪼾	uru	0
@@ -86986,6 +86986,8 @@ columns:
 𫑲	vzz	0
 我	w1	1499795
 么	w2	461222
+爿	wa1	65
+⽙	wa3	0
 筢	waa	27
 笢	waa	2
 箨	waa	2
@@ -89304,8 +89306,6 @@ columns:
 𬪊	woz	0
 𭽿	woz	0
 𲆝	woz	0
-爿	wp1	65
-⽙	wp3	0
 䈙	wpa	0
 𥲛	wpa	0
 𥳵	wpa	0
@@ -98208,7 +98208,6 @@ columns:
 𮡕	znc	0
 𨔝	znd	0
 𫯳	znd	0
-𬮻	znd	0
 䧃	zne	0
 𦌂	znf	0
 𨤹	znf	0
@@ -98270,6 +98269,7 @@ columns:
 𫦿	znw	0
 𬙪	znw	0
 𬙫	znw	0
+𬮻	znw	0
 𲇄	znw	0
 𠝤	znx	0
 𫼂	zny	0
