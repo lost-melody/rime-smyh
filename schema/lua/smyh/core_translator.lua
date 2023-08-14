@@ -71,13 +71,25 @@ end
 
 local index_indicators = { "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰" }
 
+local display_map = {
+    ["1"] = "-",
+    ["2"] = "+",
+    ["3"] = "=",
+}
+
+local comment_map = {
+    ["1"] = "␣",
+    ["2"] = "⌥",
+    ["3"] = "⌃",
+}
+
 local function display_input(input)
-    input = string.gsub(string.gsub(input, " ", "-"), ";", "+")
+    input = string.gsub(input, "([1-3])", display_map)
     return input
 end
 
 local function display_comment(comment)
-    comment = string.gsub(string.gsub(comment, "1", "␣"), "2", "⌥")
+    comment = string.gsub(comment, "([1-3])", comment_map)
     return comment
 end
 
@@ -130,7 +142,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
         full_entries[1].comment = "☯"
     end
 
-    if not env.option[core.switch_names.full_off] and #input == 4 then
+    if not env.option[core.switch_names.full_off] and #input == 4 and not string.match(input, "[^a-z]") then
         local fullcode_cands = 0
         local fullcode_char = env.option[core.switch_names.full_char]
         local entries = core.dict_lookup(core.full_mem, input, 10)
@@ -154,6 +166,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
             table.insert(full_entries, entry)
         end
         if fullcode_cands ~= 0 then
+            full_entries[1].comment = "⇥"
             core.input_code = display_input(input)
         end
     end
@@ -195,7 +208,8 @@ function translator.func(input, seg, env)
     core.input_code = ""
     core.stashed_text = ""
 
-    if string.match(input, "^/") then
+    local funckeys = namespaces:config(env).funckeys
+    if funckeys.macro[string.byte(string.sub(ctx.input, 1, 1))] then
         handle_macros(env, ctx, seg, string.sub(input, 2))
         return
     end
@@ -208,11 +222,6 @@ function translator.func(input, seg, env)
     local code_segs, remain = core.get_code_segs(input)
     if #remain == 0 then
         remain = table.remove(code_segs)
-    end
-
-    -- 活動串不是合法宇三編碼, 空碼
-    if not core.valid_smyh_input(remain) then
-        return
     end
 
     if #code_segs == 0 then

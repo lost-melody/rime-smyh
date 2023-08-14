@@ -88,7 +88,7 @@ engine:
     - lua_filter@*smyh.embeded_cands@embeded_cands
 
 speller:
-  alphabet: "qwertyuiopasdfghjklzxcvbnm ;`|.:"
+  alphabet: "qwertyuiopasdfghjklzxcvbnm `|.:"
   initials: "qwertyuiopasdfghjklzxcvbnm`"
   auto_select: true
   auto_select_unique_candidate: true
@@ -150,6 +150,9 @@ core_proc:
     # - functional keys: escape: 0xff1b; return: 0xff0d; tabular: 0xff09;
     # - ascii characters: space: 0x20; semicolon: 0x3b; slash: 0x2f; grave: 0x60;
     macro: [ 0x2f ]      # 以這些字符開頭, 則認爲是宏調用
+    primary: [ 0x20 ]    # 首要簡碼鍵
+    secondary: [ 0x3b ]  # 次要簡碼鍵
+    tertiary: []         # 次次簡碼鍵
     fullci: [ 0xff09 ]   # 碼長爲四時, 輸入此串上屏首選
     break: [ 0xff09 ]    # 打斷施法
     repeat: [ 0x60 ]     # 重複上屏

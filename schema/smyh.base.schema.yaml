@@ -11,8 +11,8 @@ speller:
   alphabet: "qwertyuiopasdfghjklzxcvbnm"
   initials: "qwertyuiopasdfghjklzxcvbnm"
   algebra:
-    - "derive/^(\\w{1,2})[12]$/$1/"
-    - xlit/123/ ; /
+    - derive/^([a-z]{1,2})[12]$/$1/
+    - xform/3/1/
 
 translator:
   dictionary: smyh.base

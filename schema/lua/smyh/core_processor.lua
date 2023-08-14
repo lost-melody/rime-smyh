@@ -7,20 +7,7 @@ local kNoop       = 2        -- 無: 請下一個processor繼續看
 
 local cA          = string.byte("a") -- 字符: 'a'
 local cZ          = string.byte("z") -- 字符: 'z'
-local cSC         = string.byte(";") -- 字符: ';'
-local cSl         = string.byte("/") -- 字符: '/'
-local cGr         = string.byte("`") -- 字符: '`'
-local cSp         = string.byte(" ") -- 空格鍵
-local cSL         = 0xffe1   -- 左Shift
-local cSR         = 0xffe2   -- 右Shift
-local cCL         = 0xffe3   -- 左Ctrl
-local cCR         = 0xffe4   -- 右Ctrl
-local cRt         = 0xff0d   -- 回車鍵
-local cEs         = 0xff1b   -- Escape
-local cTb         = 0xff09   -- Tab
-
-local cSelectFull = cTb      -- 使用Tab出四碼
-local cBreakSmart = cTb      -- 使用Tab打斷施法
+local cBs         = 0xff08           -- 退格
 
 -- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
 local namespaces = {}
@@ -72,7 +59,7 @@ local function commit_text(env, ctx, text, input)
     if #text ~= 0 then
         env.engine:commit_text(text)
     end
-    ctx:push_input(input)
+    ctx:push_input(core.input_restore_funckeys(input))
 end
 
 local function handle_macros(env, ctx, input, idx)
@@ -115,33 +102,20 @@ local function handle_push(env, ctx, ch)
 end
 
 -- 處理空格分號選字
-local function handle_select(env, ctx, ch)
+local function handle_select(env, ctx, ch, funckeys)
     if core.valid_smyh_input(ctx.input) then
         -- 輸入串分詞列表
         local _, remain = core.get_code_segs(ctx.input)
         if string.match(remain, "^[a-z][a-z]?$") then
-            if #remain == 1 then
-                -- "a"
-                if ch == cSp then
-                    -- "a_"
-                    ctx:push_input(" ")
-                    return kAccepted
-                elseif ch == cSC then
-                    -- "a;"
-                    ctx:push_input(";")
-                    return kAccepted
-                end
-            else
-                -- "ab"
-                if ch == cSp then
-                    -- "ab_"
-                    ctx:push_input(" ")
-                    return kAccepted
-                elseif ch == cSC then
-                    -- "ab;"
-                    ctx:push_input(";")
-                    return kAccepted
-                end
+            if funckeys.primary[ch] then
+                ctx:push_input(core.funckeys_map.primary)
+                return kAccepted
+            elseif funckeys.secondary[ch] then
+                ctx:push_input(core.funckeys_map.secondary)
+                return kAccepted
+            elseif funckeys.tertiary[ch] then
+                ctx:push_input(core.funckeys_map.tertiary)
+                return kAccepted
             end
         end
     end
@@ -149,7 +123,7 @@ local function handle_select(env, ctx, ch)
 end
 
 local function handle_fullcode(env, ctx, ch)
-    if not env.option[core.switch_names.full_off] and #ctx.input == 4 then
+    if not env.option[core.switch_names.full_off] and #ctx.input == 4 and not string.match(ctx.input, "[^a-z]") then
         ctx:commit()
         return kAccepted
     end
@@ -206,7 +180,7 @@ local function handle_clean(env, ctx, ch)
     end
 
     -- 回删活動串
-    ctx:pop_input(#remain)
+    ctx:pop_input(#core.input_restore_funckeys(remain))
     return kAccepted
 end
 
@@ -299,10 +273,16 @@ function processor.func(key_event, env)
         return handle_push(env, ctx, ch)
     end
 
+    if ch == cBs then
+        if string.match(ctx.input, " [a-c]$") then
+            ctx:pop_input(1)
+        end
+        return kNoop
+    end
+
     local res = kNoop
-    if res == kNoop and ch == cSp or ch == cSC then
-        -- 簡碼
-        res = handle_select(env, ctx, ch)
+    if res == kNoop and (funckeys.primary[ch] or funckeys.secondary[ch] or funckeys.tertiary[ch]) then
+        res = handle_select(env, ctx, ch, funckeys)
     end
     if res == kNoop and funckeys.fullci[ch] then
         -- 四碼單字

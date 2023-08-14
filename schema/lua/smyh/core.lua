@@ -38,6 +38,34 @@ core.switch_names = {
     smyh_tc       = "smyh_tc"
 }
 
+core.funckeys_map = {
+    primary   = " a",
+    secondary = " b",
+    tertiary  = " c",
+}
+
+local funckeys_replacer = {
+    a = "1",
+    b = "2",
+    c = "3",
+}
+
+local funckeys_restorer = {
+    ["1"] = " a",
+    ["2"] = " b",
+    ["3"] = " c",
+}
+
+---@param input string
+function core.input_replace_funckeys(input)
+    return string.gsub(input, " ([a-c])", funckeys_replacer)
+end
+
+---@param input string
+function core.input_restore_funckeys(input)
+    return string.gsub(input, "([1-3])", funckeys_restorer)
+end
+
 -- 設置開關狀態, 並更新保存的配置值
 local function set_option(env, ctx, option_name, value)
     ctx:set_option(option_name, value)
@@ -340,11 +368,14 @@ end
 -- 從方案配置中讀取功能鍵配置
 function core.parse_conf_funckeys(env)
     local funckeys = {
+        macro      = {},
+        primary    = {},
+        secondary  = {},
+        tertiary   = {},
         fullci     = {},
         ["break"]  = {},
         ["repeat"] = {},
         clearact   = {},
-        macro      = {},
     }
     local keys_map = env.engine.schema.config:get_map(env.name_space .. "/funckeys")
     for _, key in ipairs(keys_map and keys_map:keys() or {}) do
@@ -367,8 +398,8 @@ end
 
 -- 是否合法宇三分詞串
 function core.valid_smyh_input(input)
-    -- 輸入串完全由 [a-z_;] 構成, 且不以 [_;] 開頭
-    return string.match(input, "^[a-z ;]*$") and not string.match(input, "^[ ;]")
+    -- 輸入串完全由 [a-z_] 構成, 且不以 [_] 開頭
+    return string.match(input, "^[a-z ]*$") and not string.match(input, "^[ ]")
 end
 
 -- 構造開關變更回調函數
@@ -399,13 +430,14 @@ end
 -- "dkdqgxfvt;" -> ["dkd","qgx","fvt"], ";"
 -- "d;nua"     -> ["d;", "nua"]
 function core.get_code_segs(input)
+    input = core.input_replace_funckeys(input)
     local code_segs = {}
     while string.len(input) ~= 0 do
-        if string.match(string.sub(input, 1, 2), "[a-z][ ;]") then
+        if string.match(string.sub(input, 1, 2), "[a-z][1-3]") then
             -- 匹配到一简
             table.insert(code_segs, string.sub(input, 1, 2))
             input = string.sub(input, 3)
-        elseif string.match(string.sub(input, 1, 3), "[a-z][a-z][a-z ;]") then
+        elseif string.match(string.sub(input, 1, 3), "[a-z][a-z][a-z1-3]") then
             -- 匹配到全码或二简
             table.insert(code_segs, string.sub(input, 1, 3))
             input = string.sub(input, 4)
