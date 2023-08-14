@@ -76,10 +76,11 @@ local function commit_text(env, ctx, text, input)
 end
 
 local function handle_macros(env, ctx, input, idx)
-    local macro = namespaces:config(env).macros[input]
+    local name, args = core.get_macro_args(input, namespaces:config(env).funckeys.macro)
+    local macro = namespaces:config(env).macros[name]
     if macro then
         if macro[idx] then
-            macro[idx]:trigger(env, ctx)
+            macro[idx]:trigger(env, ctx, args)
         end
         return kAccepted
     end
@@ -285,6 +286,9 @@ function processor.func(key_event, env)
             return kAccepted
         elseif idx >= 0 then
             return handle_macros(env, ctx, string.sub(ctx.input, 2), idx + 1)
+        elseif funckeys.macro[ch] then
+            ctx:push_input(string.char(ch))
+            return kAccepted
         else
             return kNoop
         end

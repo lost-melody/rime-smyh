@@ -21,6 +21,8 @@ patch:
     Caps_Lock: clear
     Eisu_toggle: clear
   recognizer/patterns/+:
+    echo: "^/echo(/[a-z]*)*$" # starts with `/echo`, containing several `/abc` parts
+    len: "^/len(/[a-z]*)*$"   # starts with `/len`, containing several `/abc` parts
   punctuator/half_shape/+:
     '<' : '《'
     '>' : '》'
@@ -90,12 +92,36 @@ patch:
         name: ☘用户名
         cmd: whoami
         text: true
+    len:
+      # 含參 lua 語句示例, 需返回一個 function(args) ... end -> string 函數
+      # 對於 :len/hello/world, 其 args 值爲 {"hello", "world"}
+      # 注意需要配合 recognizer
+      - type: eval
+        expr: return
+          function(args)
+            local lens = {}
+            for _, str in ipairs(args) do
+              table.insert(lens, string.len(str))
+            end
+            return table.concat(lens, ",")
+          end
+    echo:
+      # 含參 shell 命令示例, 參数會依次傳遞給命令
+      # 對於 :echo/eng/hello, 其最終執行的 shell 命令爲 echo eng hello
+      # 注意需要配合 recognizer
+      - type: shell
+        cmd: echo
+        text: true
   core_proc/macros/+:
     __include: patch/macros
   core_tr/macros/+:
     __include: patch/macros
-  core_proc/funckeys/+:
+  funckeys:
     clearact/+: [ 0xff1b ]
+  core_proc/funckeys/+:
+    __include: patch/funckeys
+  core_tr/funckeys/+:
+    __include: patch/funckeys
   # 開關同步
   core_proc/sync_options/+:
     - ascii_mode

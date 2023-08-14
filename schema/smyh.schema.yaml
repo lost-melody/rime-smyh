@@ -162,6 +162,8 @@ core_proc:
 
 core_tr:
   enable_completion: true
+  funckeys:
+    __include: core_proc/funckeys
   macros:
     __include: macros
 
@@ -195,12 +197,23 @@ macros:
     - type: radio
       names: [ division.off, division.lv1, division.lv2 ]
       states: [ ☐☐註解, ☐☑註解, ☑☑註解 ]
+  date:
+    - type: eval
+      name: ☀日期
+      expr: return os.date("%Y-%m-%d")
+    - type: eval
+      name: ⛅年月日
+      expr: return os.date("%Y年%m月%d日")
   time:
     - type: eval
-      name: ⌚日期時間
-      expr: return os.date("%Y-%m-%d %H:%M:%S")
+      name: ⌚時間
+      expr: return os.date("%H:%M:%S")
     - type: eval
+      name: Ⓣ時間
       expr: return os.date("%Y%m%d%H%M")
+    - type: eval
+      name: Ⓢ時間戳
+      expr: return tostring(os.time())
   div:
     - type: radio
       names: [ division.off, division.lv1, division.lv2 ]

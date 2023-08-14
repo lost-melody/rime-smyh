@@ -20,6 +20,7 @@ function translator.init(env)
         local config = {}
         config.comp = core.parse_conf_bool(env, "enable_completion")
         config.macros = core.parse_conf_macro_list(env)
+        config.funckeys = core.parse_conf_funckeys(env)
         namespaces:set_config(env, config)
     end
 
@@ -82,12 +83,13 @@ end
 
 -- 處理宏
 local function handle_macros(env, ctx, seg, input)
-    local macro = namespaces:config(env).macros[input]
+    local name, args = core.get_macro_args(input, namespaces:config(env).funckeys.macro)
+    local macro = namespaces:config(env).macros[name]
     if macro then
         core.input_code = ":" .. input .. " "
         local text_list = {}
         for i, m in ipairs(macro) do
-            table.insert(text_list, m:display(ctx) .. index_indicators[i])
+            table.insert(text_list, m:display(ctx, args) .. index_indicators[i])
         end
         local cand = Candidate("macro", seg.start, seg._end, "", table.concat(text_list, " "))
         yield(cand)

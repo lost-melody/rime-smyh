@@ -140,19 +140,28 @@ end
 ---@param cmd string
 ---@param text boolean
 local function new_shell(name, cmd, text)
+    local function get_text(args)
+        local cmdline = cmd
+        for _, arg in ipairs(args) do
+            cmdline = cmdline .. " \"" .. arg .. "\""
+        end
+        local t = io.popen(cmdline, 'r'):read('a')
+        t = string.gsub(string.gsub(t, "^%s+", ""), "%s+$", "")
+        return t
+    end
+
     local shell = {
         type = core.macro_types.tip,
         name = name,
-        cmd  = cmd,
     }
-    function shell:display(ctx)
-        return self.name
+
+    function shell:display(ctx, args)
+        return #self.name ~= 0 and self.name or text and get_text(args)
     end
 
-    function shell:trigger(env, ctx)
+    function shell:trigger(env, ctx, args)
         if text then
-            local t = io.popen(cmd):read('a')
-            t = string.gsub(string.gsub(t, "^%s+", ""), "%s+$", "")
+            local t = get_text(args)
             if #t ~= 0 then
                 env.engine:commit_text(t)
             end
@@ -167,21 +176,25 @@ end
 
 local function new_eval(name, expr)
     local f = load(expr)
-    local function get_text()
+    local function get_text(args)
         local text = f and f()
+        if type(text) == "function" then
+            text = text(args)
+        end
         return text and type(text) == "string" and #text ~= 0 and text or ""
     end
+
     local eval = {
         type = core.macro_types.eval,
         name = name,
-        get_text = get_text,
     }
-    function eval:display(ctx)
-        return #self.name ~= 0 and self.name or self.get_text()
+
+    function eval:display(ctx, args)
+        return #self.name ~= 0 and self.name or get_text(args)
     end
 
-    function eval:trigger(env, ctx)
-        local text = self.get_text()
+    function eval:trigger(env, ctx, args)
+        local text = get_text(args)
         if #text ~= 0 then
             env.engine:commit_text(text)
         end
@@ -192,6 +205,25 @@ local function new_eval(name, expr)
 end
 
 -- ######## 工具函数 ########
+
+---@param input string
+---@param keylist table
+function core.get_macro_args(input, keylist)
+    local sepset = ""
+    for key in pairs(keylist) do
+        -- only ascii keys
+        sepset = key >= 0x20 and key <= 0x7f and sepset .. string.char(key) or sepset
+    end
+    -- matches "[^/]"
+    local pattern = "[^" .. (#sepset ~= 0 and sepset or " ") .. "]*"
+    local args = {}
+    -- "echo/hello/world" -> "/hello", "/world"
+    for str in string.gmatch(input, "/" .. pattern) do
+        table.insert(args, string.sub(str, 2))
+    end
+    -- "echo/hello/world" -> "echo"
+    return string.match(input, pattern) or "", args
+end
 
 -- 從方案配置中讀取布爾值
 function core.parse_conf_bool(env, path)
@@ -279,11 +311,11 @@ function core.parse_conf_macro_list(env)
                 end
             elseif type == core.macro_types.shell then
                 -- {type: shell, name: foo, cmd: "echo hello"}
-                if key_map:has_key("name") and key_map:has_key("cmd") then
-                    local name = key_map:get_value("name"):get_string()
+                if key_map:has_key("cmd") and (key_map:has_key("name") or key_map:has_key("text")) then
                     local cmd = key_map:get_value("cmd"):get_string()
+                    local name = key_map:has_key("name") and key_map:get_value("name"):get_string() or ""
                     local text = key_map:has_key("text") and key_map:get_value("text"):get_bool() or false
-                    if #name ~= 0 and #cmd ~= 0 then
+                    if #cmd ~= 0 and (#name ~= 0 or text) then
                         table.insert(cands, new_shell(name, cmd, text))
                     end
                 end
