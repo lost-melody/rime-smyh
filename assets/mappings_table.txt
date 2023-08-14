@@ -2,16 +2,16 @@
        │缶   Qf│几   Qh│习   Qi│       │爿   Wa│九   Wh│𧘇   Wh│       │乚   Eg│𡿨   Eg│㇉   Eg│       │長   Ra│僉   Rd│革   Re│       │耳   Te│大   Tj│止   Tk│
        │矢   Qj│户   Qk│戸   Qk│       │非   Wi│气   Wj│丿   Wk│       │𡗗   Eg│川   Eh│生   Ei│       │合   Rh│鬥   Ri│亦   Rj│       │牛   Tl│⺧   Tl│鳥   Tm│
        │食   Ql│殳   Qm│身   Qn│       │齒   Wk│力   Wl│龜下 Wm│       │來   Ej│風   Ek│亡   Em│       │巾   Rk│門   Rm│乃   Rn│       │鳥上 Tm│魚   Tn│烏   To│
-       │丷   Qo│丬   Qo│リ   Qo│       │黽   Wm│片   Wn│𠂉   Wo│       │贏頭 Em│豕   En│飛   Eo│       │镸   Rn│髟   Ro│丌   Rp│       │烏上 To│龰   To│钅   Tu│
-       │䒑   Qo│戶   Qp│儿   Qr│       │⺮右 Wo│竹   Wo│皮   Wu│       │亻   Er│夊   Eu│       │       │囟框 Rs│向   Rs│向框 Rs│
+       │リ   Qo│丬   Qo│䒑   Qo│       │黽   Wm│片   Wn│𠂉   Wo│       │贏頭 Em│豕   En│飛   Eo│       │镸   Rn│髟   Ro│丌   Rp│       │烏上 To│龰   To│钅   Tu│
+       │丷   Qo│戶   Qp│儿   Qr│       │⺮右 Wo│竹   Wo│皮   Wu│       │亻   Er│夊   Eu│       │       │囟框 Rs│向   Rs│向框 Rs│
        │荒下 Qr│       │       │       │       │       │       │       │       │       │       │       │母   Ru│彑   Ru│互中 Ru│
        │       │       │       │       │       │       │       │       │       │       │       │       │母框 Ru│人   Rw│走   Ry│
 
        │========   Y   ========│       │========   U   ========│       │========   I   ========│       │========   O   ========│       │========   P   ========│
        │巛   Ya│巜   Ya│疒   Yb│       │丂   Ua│夕   Ue│羊   Ug│       │匕   Ib│⺍   Ic│氵   Ic│       │豸   Od│鼠下 Od│口   Oi│       │冖   Pa│由   Pb│糸   Pc│
        │麻   Yc│戊   Yd│辰   Ye│       │言   Ui│瓦   Uk│幺   Uo│       │兴上 Ic│專上 Ie│叀   Ie│       │〇   Oo│长   Os│舌   Ox│       │糹   Pc│电   Pd│鱼   Pe│
-       │手   Yg│龵   Yg│弋   Yq│       │八   Us│介下 Us│丆   Ut│       │車   Ie│卬左 Ij│乐上 Ij│       │       │       │       │       │业   Pf│兀   Pr│艮   Ps│
-       │⺀   Yr│二   Yr│戈   Ys│       │石   Ut│马   Uv│三   Uw│       │卯   Ij│齊右 Ij│卯左 Ij│       │       │       │       │       │忄   Pu│廴   Pw│申   Px│
+       │手   Yg│龵   Yg│弋   Yq│       │八   Us│介下 Us│丆   Ut│       │車   Ie│卬左 Ij│乐上 Ij│       │       │       │       │       │业   Pf│廴   Pn│艮   Ps│
+       │⺀   Yr│二   Yr│戈   Ys│       │石   Ut│马   Uv│三   Uw│       │卯   Ij│齊右 Ij│卯左 Ij│       │       │       │       │       │忄   Pu│兀   Pw│申   Px│
        │鹿上 Yv│鹿   Yv│广   Yw│       │       │       │       │       │方   Ir│不   Iv│
        │工   Yx│
 

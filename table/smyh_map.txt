@@ -179,10 +179,10 @@ Pc	糹
 Pd	电
 Pe	鱼
 Pf	业
-Pr	兀
+Pn	廴
 Ps	艮
 Pu	忄
-Pw	廴
+Pw	兀
 Px	申
 Qf	缶
 Qh	几
@@ -193,10 +193,10 @@ Qk	戸
 Ql	食
 Qm	殳
 Qn	身
-Qo	丷
-Qo	丬
 Qo	リ
+Qo	丬
 Qo	䒑
+Qo	丷
 Qp	戶
 Qr	儿
 Qr	{荒下}

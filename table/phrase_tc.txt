@@ -331,7 +331,7 @@
 這個	uded
 現在	mmsc
 許多	uwuu
-一定	
+一定	fkhf
 就是	lkjf
 北京	qilk
 歷史	kvoz
@@ -348,7 +348,7 @@
 組織	pmpl
 革命	rerx
 上海	kgiw
-一起	
+一起	fkra
 辦法	lwig
 感到	yfhx
 存在	scsc
@@ -662,12 +662,12 @@
 歸根到底	gfhy
 形形色色	ffpp
 各式各樣	eyef
-一模一樣	
+一模一樣	ffff
 眼花繚亂	mspv
 楊柳	fjfi
 總而言之	plud
 徹頭徹尾	vfvb
-唯一	
+唯一	ocfk
 不同	ivcf
 退出	pdxx
 他們	eser
@@ -679,17 +679,17 @@
 文化	xnei
 領導	rlqm
 政府	ftye
-一切	
+一切	fkad
 認識	udul
 學校	hzfl
 由於	pbir
 正在	ftsc
-一樣	
+一樣	fkfu
 教育	gklk
 藝術	sgvf
 參加	kkwo
 甚至	xehc
-一般	
+一般	fkxq
 或者	yogj
 各種	eovz
 其他	xies
@@ -840,7 +840,7 @@
 合理	rhmn
 普通	qpbz
 競爭	lovx
-一致	
+一致	fkhe
 組成	pmyv
 網絡	pcpe
 成果	yvjf
@@ -988,7 +988,7 @@
 類似	kxee
 見面	mrlt
 等待	wgvg
-一行	
+一行	fkvj
 隨時	zsjg
 打算	aawm
 簡直	wrdm
@@ -1249,7 +1249,7 @@
 傳送	eiqt
 應運而生	yple
 兇手	zxyg
-大喫一驚	
+大喫一驚	tofs
 相輔相成	fify
 自然而然	mhlh
 觸目驚心	pmsg
@@ -1269,7 +1269,7 @@
 得心應手	vgyy
 人山人海	rjri
 出其不意	xxil
-混爲一談	
+混爲一談	ivfu
 美人	utrw
 美不勝收	uihx
 右手	soyg
@@ -1283,7 +1283,7 @@
 女孩	lckd
 絶不	ppiv
 這邊	udmh
-第一	
+第一	wnfk
 幹部	djlo
 城市	gylr
 主要	lmcl
@@ -1325,7 +1325,7 @@
 心裏	gvln
 婦女	lxlc
 軍事	pijo
-統一	
+統一	plfk
 重新	znlf
 考慮	gukn
 材料	fjky
@@ -1708,7 +1708,7 @@
 期望	xheh
 無奈	wstg
 微微	vfvf
-舒服	rnhx
+舒服	rohx
 千方百計	ziuu
 廚房	ygqi
 連忙	idpe
@@ -2012,14 +2012,14 @@
 順理成章	emyl
 戰戰兢兢	oobb
 賞心悦目	kgpm
-一針見血	
+一針見血	fsmw
 水落石出	vsux
 躍躍欲試	bbuu
 適得其反	lvxn
 措手不及	ayir
 不亦樂乎	irdw
 前無古人	qwbr
-别具一格	
+别具一格	omff
 海燕	iwsf
 崇山峻嶺	jjjj
 肝膽相照	hhfj
@@ -2027,7 +2027,7 @@
 川流不息	eiim
 瞬息萬變	mmsu
 皇上	dmkg
-首屈一指	
+首屈一指	qbfa
 愛不釋手	viwy
 蛛絲馬跡	vpjb
 叱吒風雲	ooec
@@ -2050,7 +2050,7 @@
 巴勒斯坦	arxg
 厦門	kurm
 露出	cbxx
-一旦	
+一旦	fkjf
 下次	bkyn
 緊緊	bbbb
 只能	oukh
@@ -2070,10 +2070,10 @@
 分開	udrf
 紐約	psph
 放過	ield
-一些	
+一些	fkti
 政治	ftik
 十分	diud
-一直	
+一直	fkdm
 不斷	ivuu
 青年	ghwa
 作者	ewgj
@@ -2450,7 +2450,7 @@
 清晰	igjf
 可愛	aovp
 馬路	jrbe
-宿舍	hern
+宿舍	hero
 年紀	wapa
 從中	vroc
 高潮	lvid
@@ -2576,7 +2576,7 @@
 通用	bzzu
 安定	hlhf
 等候	wgec
-一身	
+一身	fkqn
 響應	nwye
 策略	wfne
 停留	elin
@@ -2729,7 +2729,7 @@
 舌頭	oxfo
 寒冷	hsyr
 短暫	qfin
-一共	
+一共	fksu
 真相	dmfm
 行走	vjry
 茶葉	srsg
@@ -3001,7 +3001,7 @@
 對峙	pujg
 北極	qifk
 迷失	kdwd
-舒暢	rnpj
+舒暢	ropj
 可惡	aofk
 浪花	ilse
 昏暗	iajl
@@ -3039,7 +3039,7 @@
 取長補短	trnq
 杜鵑	fgoh
 海風	iwek
-獨一無二	
+獨一無二	xfwy
 上天	kgft
 堂堂正正	kkff
 鄙視	odgm
@@ -3052,7 +3052,7 @@
 微不足道	vibq
 金剛	sjcq
 暖流	jvil
-一成不變	
+一成不變	fyiu
 撥亂反正	avnf
 寄生蟲	hevv
 肉眼	crmp
@@ -3106,10 +3106,10 @@
 花團錦簇	sdsw
 心服口服	ghoh
 頂天立地	aflg
-不可一世	
+不可一世	iafg
 大千世界	tzgn
 滅頂之災	iady
-如出一轍	
+如出一轍	lxfi
 自欺欺人	mxxr
 輕重緩急	izpp
 無人問津	wrri
@@ -3127,7 +3127,7 @@
 後起之秀	vrdv
 海闊天空	irfh
 斤斤計較	nnui
-孤注一擲	
+孤注一擲	kifa
 分道揚鑣	uqas
 嚴陣以待	ozev
 所向披靡	qray
@@ -3136,7 +3136,7 @@
 行雲流水	vciv
 前功盡棄	qyxl
 信誓旦旦	eajj
-背水一戰	
+背水一戰	qvfo
 甜言蜜語	ouhu
 指日可待	ajav
 焦頭爛額	cfmh
@@ -3198,7 +3198,7 @@
 以來	elej
 受到	vphx
 以上	elkg
-一下	
+一下	fkbk
 變成	upyv
 小時	kjjg
 指出	aixx
@@ -3236,19 +3236,19 @@
 公共	uksu
 主題	lmjf
 運輸	piir
-一生	
+一生	fkei
 足球	bnmf
 醫療	kqyt
 涉及	itrl
 趨勢	rhgu
 紀念	parl
-一方面	
+一方面	filt
 日益	jkqu
 武裝	fywg
 選舉	aahu
 進展	cdbs
 切實	adhr
-一陣	
+一陣	fkzi
 作戰	ewoo
 進程	cdvo
 石油	utip
@@ -3341,7 +3341,7 @@
 情節	pgqe
 營養	mmqd
 上市	kglr
-一律	
+一律	fkvx
 援助	avmw
 普及	qprl
 審查	hwfj
@@ -3349,7 +3349,7 @@
 乃至	rnhc
 遊客	iwhe
 發揚	bnaj
-一路	
+一路	fkbe
 居住	bbel
 含量	rljf
 合格	rhfe
@@ -3531,7 +3531,7 @@
 計劃生育	uxel
 心頭	gvfo
 發育	bnlk
-一線	
+一線	fkpd
 出國	xxdy
 代理	eymn
 爲此	vjti
@@ -3570,7 +3570,7 @@
 延長	wtra
 防禦	zivw
 太原	tlkd
-單一	
+單一	oofk
 感慨	yfye
 珍貴	mrok
 縮小	phkj
@@ -3704,7 +3704,7 @@
 中醫	ockq
 便於	efir
 婦人	lxrw
-一旁	
+一旁	fklq
 對照	pujd
 哪怕	ovpd
 官方	hbir
@@ -3750,7 +3750,7 @@
 動機	znfu
 信譽	euhu
 栽培	dygl
-舒適	rnlq
+舒適	rolq
 來不及	eirl
 護理	usmn
 不堪	ivgx
@@ -4318,7 +4318,7 @@
 馬虎	jrkk
 金黃	sjsy
 仰望	eieh
-耳目一新	
+耳目一新	tmfl
 不動聲色	izgp
 高瞻遠矚	lmgm
 刻不容緩	dihp
@@ -4347,7 +4347,7 @@
 小偷	kjer
 背誦	qiub
 燕子	sfkv
-煥然一新	
+煥然一新	mhfl
 紫外線	tupd
 名列前茅	ufqs
 光合作用	krez
@@ -4401,7 +4401,7 @@
 傳導	eiqm
 軍火	pims
 鱷魚	tmtn
-一帆風順	
+一帆風順	free
 方興未艾	ihss
 默默無聞	vvwr
 阻塞	zmhs
@@ -4480,11 +4480,11 @@
 水泄不通	viib
 夜以繼日	lepj
 揚長避短	arbq
-不拘一格	
+不拘一格	iaff
 千變萬化	zuse
 事半功倍	jqye
 救死扶傷	ffae
-缺一不可	
+缺一不可	qfia
 勇往直前	bvdq
 火線	mspd
 呆板	offn
@@ -4509,7 +4509,7 @@
 手足無措	ybwa
 精打細算	kapw
 夜深人靜	lirg
-舉一反三	
+舉一反三	hfnu
 目不轉睛	miim
 衣食住行	lqev
 土生土長	gegr
@@ -4578,7 +4578,7 @@
 風馳電掣	ejct
 鱗次櫛比	tyfi
 傾家蕩産	ehsl
-不一而足	
+不一而足	iflb
 自食其力	mqxw
 罪魁禍首	zggq
 世外桃源	gufi
@@ -4610,7 +4610,7 @@
 就事論事	ljuj
 當機立斷	kflu
 窮盡	hqxf
-一鳴驚人	
+一鳴驚人	fosr
 因材施教	dfig
 左右爲難	ssvs
 粉身碎骨	kquv
@@ -4619,7 +4619,7 @@
 前赴後繼	qrvp
 隨波逐流	ziei
 名不虚傳	uike
-曇花一現	
+曇花一現	jsfm
 望而生畏	elen
 言簡意賅	uwlm
 青黃不接	gsia
@@ -4680,7 +4680,7 @@
 操之過急	adlp
 火眼金睛	mmsm
 抛頭露面	afcl
-數一數二	
+數一數二	ofoy
 化險爲夷	ezvt
 神出鬼没	gxgi
 彈力	nowl
@@ -4695,7 +4695,7 @@
 心潮澎湃	giii
 風吹草動	eosz
 循規蹈矩	vdbq
-功虧一簣	
+功虧一簣	ykfw
 橫衝直撞	fvda
 星星之火	jjdm
 嘘寒問暖	ohrj
@@ -4715,7 +4715,7 @@
 畫龍點睛	xlvm
 衆矢之的	wqdd
 功成名就	yyul
-獨當一面	
+獨當一面	xkfl
 投其所好	axql
 穩紮穩打	vfva
 初出茅廬	nxsy
@@ -4756,7 +4756,7 @@
 財迷心竅	mkgh
 埋頭苦幹	gfsd
 明明白白	jjdd
-日復一日	
+日復一日	jvfj
 恰到好處	phlk
 早出晚歸	jxjg
 堆積如山	gvlj
@@ -4806,11 +4806,11 @@
 部隊	lozq
 越來越	rery
 心理	gvmn
-之一	
+之一	djfk
 面前	ltqh
 之中	djoc
 不得	ivvj
-一邊	
+一邊	fkmh
 她們	lser
 形勢	fsgu
 各地	eogs
@@ -4984,7 +4984,7 @@
 統籌	plwg
 國土	dygi
 北部	qilo
-一口氣	
+一口氣	fowk
 評估	uneb
 評選	unaa
 封建	ggxa
@@ -5000,13 +5000,13 @@
 增多	gquu
 表彰	gwlj
 全民	rmaa
-一貫	
+一貫	fkrd
 裝置	wgzd
 專用	iazu
 鋼鐵	scsd
 爲期	vjxh
 優先	eutq
-一道	
+一道	fkqm
 力爭	wlvx
 奠定	qchf
 名單	uooo
@@ -5035,7 +5035,7 @@
 所得	qnvj
 開工	rfyx
 海南	iwdc
-一體	
+一體	fkvc
 限度	zpys
 上漲	kgin
 臨牀	bwwf
@@ -5060,7 +5060,7 @@
 妥善	vluq
 物品	thoo
 敢於	vtir
-一度	
+一度	fkys
 鄭州	qcie
 爭奪	vxtc
 擔保	apeo
@@ -5074,7 +5074,7 @@
 公約	ukph
 壯大	wgtj
 法人	igrw
-一代	
+一代	fkey
 線路	pdbe
 自殺	mczf
 綱領	pcrl
@@ -5395,7 +5395,7 @@
 外科	ujvy
 摧毁	ajhy
 陸地	zggs
-一心	
+一心	fkgv
 吸菸	orsi
 美德	utvd
 雨水	covu
@@ -5700,7 +5700,7 @@
 喃喃	odod
 滑稽	ivvb
 超額	rdhe
-一槪	
+一槪	fkfd
 關門	rurm
 共鳴	suot
 高貴	lvok
@@ -6020,7 +6020,7 @@
 澄清	ibig
 夢境	szgl
 底層	yibq
-舒展	rnbs
+舒展	robs
 搗亂	atvb
 主宰	lmhl
 外形	ujfs
@@ -6296,7 +6296,7 @@
 衰弱	lfny
 離别	xxow
 壞蛋	glvt
-有朝一日	
+有朝一日	sdfj
 暴風雨	jeco
 割裂	hcfu
 取而代之	tled
@@ -6331,7 +6331,7 @@
 獨奏	xzef
 鋒芒	sese
 嗅覺	omhz
-一無所有	
+一無所有	fwqs
 自以爲是	mevj
 色素	pagp
 百家爭鳴	uhvo
@@ -6365,7 +6365,7 @@
 濃密	ichg
 殘存	fusc
 無緣無故	wpwb
-始終如一	
+始終如一	lplf
 當之無愧	kdwp
 歐陽	kozj
 宇航	hfxl
@@ -6374,7 +6374,7 @@
 千差萬别	zuso
 無微不至	wvih
 嫦娥	lklw
-獨樹一幟	
+獨樹一幟	xffr
 奮不顧身	tiqq
 異軍突起	nphr
 蕩然無存	shws
@@ -6429,8 +6429,8 @@
 放大鏡	itsl
 不同凡響	icqn
 箭頭	wqfo
-奄奄一息	
-一往無前	
+奄奄一息	ttfm
+一往無前	fvwq
 説三道四	uuqd
 似是而非	ejlw
 不速之客	ifdh
@@ -6459,7 +6459,7 @@
 煞費苦心	pnsg
 分門别類	urok
 人來人往	rerv
-摇身一變	
+摇身一變	aqfu
 策動	wfzn
 漫山遍野	ijqn
 紅豆	pyfo
@@ -6475,7 +6475,7 @@
 運籌帷幄	pwrr
 畢恭畢敬	jsjs
 深信不疑	ieii
-一見鍾情	
+一見鍾情	fmsp
 防微杜漸	zvfi
 風雨同舟	eccx
 今非昔比	rwsi
@@ -6499,7 +6499,7 @@
 有求必應	sfgy
 怪罪	pbzw
 繪聲繪色	pgpp
-一往情深	
+一往情深	fvpi
 十全十美	drdu
 暗算	jlwm
 心照不宣	gjih
@@ -6508,7 +6508,7 @@
 生龍活虎	elik
 惟妙惟肖	plpk
 安身立命	hqlr
-一觸卽發	
+一觸卽發	fpdb
 引以爲戒	nevy
 摩拳擦掌	yqak
 千瘡百孔	zyuk
@@ -6532,7 +6532,7 @@
 海市蜃樓	ilyf
 單槍匹馬	ofpj
 至理名言	hmuu
-九死一生	
+九死一生	wffe
 排山倒海	ajei
 捕風捉影	aeaj
 大發雷霆	tbcc
@@ -6565,7 +6565,7 @@
 起早貪黑	rjrv
 勢不兩立	gifl
 落花流水	ssiv
-一言難盡	
+一言難盡	fusx
 三心二意	ugyl
 爲非作歹	vwef
 各顯神通	ejgb
@@ -6580,13 +6580,13 @@
 招摇過市	aall
 東拉西扯	faca
 無稽之談	wvdu
-一日千里	
+一日千里	fjzn
 滿載而歸	idlg
 骨瘦如柴	vylt
 事在人爲	jsrv
 淺嘗輒止	ikit
 晴天霹靂	jfcc
-一筆勾銷	
+一筆勾銷	fwhs
 重見天日	zmfj
 心靈手巧	gcyy
 堅如磐石	blxu
@@ -6623,7 +6623,7 @@
 信手拈來	eyae
 始作俑者	leeg
 轉彎抹角	iuap
-各執一詞	
+各執一詞	egfu
 魂飛魄散	yeds
 狼狽爲奸	xxvl
 時來運轉	jepi
@@ -6647,11 +6647,11 @@
 昭然若揭	jhsa
 怪模怪樣	pfpf
 難捨難分	sasu
-天各一方	
+天各一方	fefi
 裝聾作啞	wleo
 草木皆兵	sfin
 五大三粗	ftuk
-一箭雙鵰	
+一箭雙鵰	fwch
 爾虞我詐	fkwu
 喪盡天良	dxfl
 朝令夕改	drua
@@ -6668,7 +6668,7 @@
 大智若愚	tqsv
 地久天長	gpfr
 趨炎附勢	rmzg
-一手遮天	
+一手遮天	fyyf
 物極必反	tfgn
 相見恨晚	fmpj
 夜長夢多	lrsu
@@ -6693,7 +6693,7 @@
 物以類聚	tekt
 雞犬升天	vxwf
 郎才女貌	ljlo
-一諾千金	
+一諾千金	fuzs
 貽笑大方	mwti
 半斤八兩	qnuf
 初露鋒芒	ncss
@@ -6730,18 +6730,18 @@
 猶豫不決	xzii
 接連不斷	aiiu
 繁榮富強	wmhn
-不顧一切	
+不顧一切	iqfa
 沉默寡言	ivhu
 盡力而爲	xwlv
 明辨是非	jljw
 暴露無遺	jcwo
-不堪一擊	
+不堪一擊	igfi
 捫心自問	agmr
-一絲一毫	
+一絲一毫	fpfl
 名利雙收	uvcx
 琴棋書畫	mfxx
 碌碌無爲	ddwv
-一本萬利	
+一本萬利	ffsv
 過目不忘	lmie
 花好月圓	slhd
 龍飛鳳舞	leqw
@@ -6764,7 +6764,7 @@
 朝着	djum
 雷鋒	cnse
 霸權主義	cflu
-一點	
+一點	fkvj
 下車	bkie
 不肯	ivth
 瑞士	mjgu
@@ -6809,7 +6809,7 @@
 不可	ivao
 也是	sijf
 現代化	meei
-一面	
+一面	fklt
 有力	shwl
 用於	zuir
 人士	rwgu
@@ -6830,7 +6830,7 @@
 環保	mzeo
 城鄉	gynw
 林業	ffpu
-一手	
+一手	fkyg
 優良	eulp
 公安局	uhbv
 諮詢	uyuh
@@ -6846,7 +6846,7 @@
 審議	hwuu
 不禁	ivff
 中外	ocuj
-一帶	
+一帶	fksf
 要是	cljf
 高原	lvkd
 失業	wdpu
@@ -6893,7 +6893,7 @@
 擁護	alus
 水利	vuvx
 領先	rltq
-一輩子	
+一輩子	fwkv
 論述	urfl
 陣地	zigs
 新建	lfxa
@@ -7038,7 +7038,7 @@
 力求	wlfv
 主編	lmpq
 創立	rllu
-萬一	
+萬一	svfk
 隧道	zqqm
 流傳	ilei
 濃厚	ickj
@@ -7213,7 +7213,7 @@
 料到	kyhx
 鳥類	tmkx
 購置	mszd
-一如旣往	
+一如旣往	fldv
 架子	wokv
 填補	gdnm
 入侵	soex
@@ -7550,7 +7550,7 @@
 漆黑	ifvh
 塵土	yggi
 飲酒	qnic
-一心一意	
+一心一意	fgfl
 搏鬥	amri
 手帕	ygrd
 坦率	gjlu
@@ -7603,14 +7603,14 @@
 早餐	jaju
 漢人	isrw
 手心	yggv
-校舍	flrn
+校舍	flro
 靜悄悄	gppk
 午後	wdvu
 誘發	uvbn
 年限	wazp
 排練	awpf
 信徒	euvr
-一連串	
+一連串	fioo
 招手	adyg
 教養	gkqd
 美女	utlc
@@ -7619,7 +7619,7 @@
 虚心	kpgv
 專科	iavy
 領隊	rlzq
-一天到晚	
+一天到晚	ffhj
 大頭	tjfo
 祭祀	hgga
 破爛	uwmr
@@ -7829,14 +7829,14 @@
 光照	kpjd
 説謊	uqus
 推崇	acjh
-萬衆一心	
+萬衆一心	swfg
 締結	plpg
 管理員	wmom
 可耻	aott
 星系	jewp
 刺刀	fcdk
 兇猛	zxxk
-一絲不苟	
+一絲不苟	fpis
 悠閒	ecrh
 失效	wdlu
 生命線	erpd
@@ -7903,7 +7903,7 @@
 侵襲	exlh
 天邊	ftmh
 推算	acwm
-一視同仁	
+一視同仁	fgce
 可悲	aowg
 精巧	kgyu
 飄蕩	cgsi
@@ -8108,7 +8108,7 @@
 遷就	ctlk
 情侶	pgeo
 海鮮	iwtu
-萬無一失	
+萬無一失	swfw
 前臺	qhgo
 滿不在乎	iisw
 墨水	vgvu
@@ -8132,7 +8132,7 @@
 獨裁	xzdy
 山腳	jehu
 可乘之機	avdf
-一技之長	
+一技之長	fadr
 垂頭喪氣	zfdw
 紗布	pksr
 抵消	aiik
@@ -8152,9 +8152,9 @@
 烹調	lkuh
 貌似	odee
 血漿	wzwh
-一蹴而就	
+一蹴而就	fbll
 沙皇	ikdm
-一望無際	
+一望無際	fewz
 安逸	hlpo
 格格不入	ffis
 坡度	gwys
@@ -8190,15 +8190,15 @@
 驚慌失措	spwa
 馬不停蹄	jieb
 失戀	wdup
-一意孤行	
+一意孤行	flkv
 投射	aqqa
-不屑一顧	
+不屑一顧	ibfq
 野人	nzrw
 血戰	wzoo
 千軍萬馬	zpsj
 圖騰	dohq
 無聲無息	wgwm
-一籌莫展	
+一籌莫展	fwsb
 着迷	umkd
 暗處	jlke
 船艙	xqxr
@@ -8243,7 +8243,7 @@
 生鐵	eisd
 重合	znrh
 直言不諱	duiu
-千篇一律	
+千篇一律	zwfv
 曾幾何時	quej
 趁早	rrja
 立竿見影	lwmj
@@ -8252,14 +8252,14 @@
 折舊	ansc
 鄭重其事	qzxj
 派生	inei
-一勞永逸	
+一勞永逸	fmlp
 愁眉苦臉	vbsh
 唾液	ozil
 恩賜	dtmj
 口頭禪	ofgo
 年富力強	whwn
 痛心疾首	ygyq
-一塵不染	
+一塵不染	fyii
 零食	crql
 肉食	crql
 布達拉宮	sgah
@@ -8302,7 +8302,7 @@
 受寵若驚	vhss
 不能自拔	ikma
 如釋重負	lwzp
-一舉兩得	
+一舉兩得	fhfv
 麥克風	ebek
 揚長而去	arlg
 本位	ffel
@@ -8321,7 +8321,7 @@
 武林	fyff
 執迷不悟	gkip
 融會貫通	frrb
-一波三折	
+一波三折	fiua
 指手畫腳	ayxh
 衆目睽睽	wmmm
 充血	lkwz
@@ -8334,12 +8334,12 @@
 交頭接耳	lfat
 綠茶	prsr
 想入非非	fsww
-一事無成	
+一事無成	fjwy
 紫菜	tisv
 白癡	dsyi
 赤手空拳	gyhq
 望子成龍	ekyl
-一網打盡	
+一網打盡	fpax
 耿耿於懷	ttip
 旁若無人	lswr
 大摇大擺	tata
@@ -8392,7 +8392,7 @@
 急中生智	poeq
 軒然大波	ihti
 天方夜譚	filu
-一氣呵成	
+一氣呵成	fwoy
 擔驚受怕	asvp
 束之高閣	fdlr
 置之度外	zdyu
@@ -8423,7 +8423,7 @@
 女權	lcfs
 蓬頭垢面	sfgl
 四分五裂	duff
-一蹶不振	
+一蹶不振	fbia
 誠惶誠恐	upuy
 禍國殃民	gdfa
 危在旦夕	psju
@@ -8440,7 +8440,7 @@
 得意忘形	vlef
 價廉物美	eytu
 摇頭晃腦	afjh
-一敗塗地	
+一敗塗地	fmig
 釜底抽薪	uyas
 名存實亡	ushe
 忍辱負重	dypz
@@ -8448,13 +8448,13 @@
 無足輕重	wbiz
 不可救藥	iafs
 高枕無憂	lfwu
-一竅不通	
+一竅不通	fhib
 反比	nbii
 開天闢地	rfrg
 懦夫	pcdw
 水漲船高	vixl
 國泰民安	deah
-一落千丈	
+一落千丈	fszs
 週而復始	hlvl
 胡作非爲	bewv
 矯揉造作	qate
@@ -8493,11 +8493,11 @@
 令行禁止	rvft
 青紅皁白	gpdd
 死於非命	fiwr
-一見如故	
+一見如故	fmlb
 浩如煙海	ilmi
 回味無窮	dowh
 萬家燈火	shmm
-一臂之力	
+一臂之力	fbdw
 不毛之地	ixdg
 豐衣足食	jlbq
 十萬火急	dsmp
@@ -8507,7 +8507,7 @@
 自慚形穢	mpfv
 牽腸掛肚	lhah
 先聲奪人	tgtr
-一貧如洗	
+一貧如洗	fuli
 鬼使神差	gegu
 死氣沉沉	fwii
 亦步亦趨	rtrr
@@ -8524,7 +8524,7 @@
 魚米之鄉	tkdn
 罪大惡極	ztff
 急轉直下	pidb
-千鈞一髮	
+千鈞一髮	zsfr
 人浮於事	riij
 銅牆鐵壁	swsb
 平行線	nvpd
@@ -8532,20 +8532,20 @@
 耀武揚威	kfay
 大義凜然	tuyh
 兩全其美	frxu
-網開一面	
+網開一面	prfl
 道聽途説	qtru
 胡言亂語	buvu
 明哲保身	jaeq
 容光煥發	hkmb
 無堅不摧	wbia
-一盤散沙	
+一盤散沙	fxsi
 不可理喻	iamo
 有心	shgv
 足智多謀	bquu
 改朝換代	adae
 杞人憂天	fruf
 自圓其説	mdxu
-多此一舉	
+多此一舉	utfh
 深謀遠慮	iugk
 低聲下氣	egbw
 過關斬將	lriw
@@ -8574,7 +8574,7 @@
 難解難分	spsu
 逢場作戲	egek
 壽終正寢	gpfh
-一錘定音	
+一錘定音	fshl
 包羅萬象	hzsp
 成家立業	yhlp
 大喜過望	tgle
@@ -8585,7 +8585,7 @@
 空中樓閣	hofr
 入木三分	sfuu
 損人利己	arva
-一知半解	
+一知半解	fqqp
 觸景生情	pjep
 價值連城	eeig
 同流合污	ciri
@@ -8607,7 +8607,7 @@
 嬌生慣養	lepq
 六親不認	lliu
 拐彎抹角	auap
-決一死戰	
+決一死戰	iffo
 南征北戰	dvqo
 石破天驚	uufs
 鐵石心腸	sugh
@@ -8667,7 +8667,7 @@
 前因後果	qdvj
 三頭六臂	uflb
 朝思暮想	dnsf
-當頭一棒	
+當頭一棒	kfff
 短兵相接	qnfa
 改邪歸正	azgf
 喜新厭舊	glks
@@ -8683,7 +8683,7 @@
 委曲求全	vcfr
 心直口快	gdop
 忙裏偷閒	pler
-目空一切	
+目空一切	mhfa
 所向無敵	qrwl
 呆若木雞	osfv
 道貌岸然	qojh
@@ -8736,7 +8736,7 @@
 四面楚歌	dlfa
 天府之國	fydd
 虚無縹緲	kwpp
-一命嗚呼	
+一命嗚呼	froo
 答非所問	wwqr
 顛沛流離	diix
 恨之入骨	pdsv
@@ -8747,9 +8747,9 @@
 顛三倒四	dued
 迴光返照	dknj
 居心叵測	bgki
-説一不二	
+説一不二	ufiy
 夜郎自大	llmt
-一路順風	
+一路順風	fbee
 珠光寶氣	mkhw
 獨具匠心	xmkg
 虎頭蛇尾	kfvb
@@ -8775,7 +8775,7 @@
 洗耳恭聽	itst
 掩耳盜鈴	atis
 易如反掌	jlnk
-表裏如一	
+表裏如一	gllf
 登堂入室	bksh
 孤苦伶仃	ksee
 黑燈瞎火	vmmm
@@ -8831,7 +8831,7 @@
 面黃肌瘦	lshy
 小家碧玉	khmm
 當頭棒喝	kffo
-風靡一時	
+風靡一時	eyfj
 氣吞山河	wfji
 心狠手辣	gxyl
 背信棄義	qelu
@@ -8899,7 +8899,7 @@
 因禍得福	dgvg
 引火燒身	nmmq
 藏龍臥虎	slbk
-一毛不拔	
+一毛不拔	fxia
 兵臨城下	nbgb
 多事之秋	ujdv
 飛檐走壁	efrb
@@ -8950,7 +8950,7 @@
 東施效顰	filt
 離群索居	xxdb
 鳴鑼開道	osrq
-殺一儆百	
+殺一儆百	zfeu
 天誅地滅	fugi
 貌合神離	orgx
 人面獸心	rlog
@@ -8972,10 +8972,10 @@
 得隴望蜀	vzez
 地老天荒	ggfs
 拈花惹草	asss
-九牛一毛	
+九牛一毛	wtfx
 黔驢技窮	vjah
 大放厥詞	tiku
-略勝一籌	
+略勝一籌	nhfw
 棄暗投明	ljaj
 形影相弔	fjfn
 儀態萬方	eksi
@@ -8987,7 +8987,7 @@
 旁門左道	lrsq
 忠言逆耳	ouqt
 愛屋及烏	vbrt
-一丘之貉	
+一丘之貉	fndo
 隔牆有耳	zwst
 棋逢對手	fepy
 唾手可得	oyav
@@ -9009,7 +9009,7 @@
 間不容髮	rihr
 口蜜腹劍	ohhr
 龍潭虎穴	likh
-一目十行	
+一目十行	fmdv
 匹夫之勇	pddb
 上下其手	kbxy
 沉魚落雁	itsk
@@ -9021,7 +9021,7 @@
 漏洞百出	iiux
 接踵而至	ablh
 有利可圖	svad
-年復一年	
+年復一年	wvfw
 水土不服	vgih
 人去樓空	rgfh
 接踵而來	able
@@ -9083,7 +9083,7 @@
 無線	wspd
 開封	rfgg
 天山	ftje
-一個	
+一個	fked
 整整齊齊	ffll
 不能	ivkh
 不住	ivel
@@ -9149,11 +9149,11 @@
 毫無疑問	lwir
 不要	ivcl
 家裏	heln
-進一步	
+進一步	cftk
 委員會	vorf
 爲主	vjlm
-一部分	
-一半	
+一部分	flud
+一半	fkqa
 案件	hlet
 多種	uuvz
 正文	ftxn
@@ -9164,7 +9164,7 @@
 人數	rwod
 大多數	tuod
 青少年	gkwa
-一時	
+一時	fkjg
 防治	ziik
 在内	sccr
 種植	vzfd
@@ -9194,7 +9194,7 @@
 紀錄	pasr
 筆者	wxgj
 倒是	ehjf
-一系列	
+一系列	fwfu
 與此同時	htcj
 或是	yojf
 法治	igik
@@ -9225,10 +9225,10 @@
 眼下	mpbk
 變爲	upvj
 奪得	tcvj
-一同	
+一同	fkcf
 組長	pmra
 含有	rlsh
-一再	
+一再	fkmc
 特區	tgko
 辦學	lwhz
 周邊	hgmh
@@ -9290,7 +9290,7 @@
 拆遷	anct
 擊敗	ixme
 華北	snqi
-一齊	
+一齊	fklq
 化解	eipz
 地域	gsgy
 拍賣	adgz
@@ -9343,7 +9343,7 @@
 進取	cdtb
 任職	eztl
 做人	ebrw
-一頭	
+一頭	fkfo
 份額	euhe
 南寧	dchg
 大半	tjqa
@@ -9403,7 +9403,7 @@
 極力	fkwl
 體操	vcao
 頗爲	wuvj
-一番	
+一番	fkwk
 想來	fmej
 導師	qmgf
 牧民	teaa
@@ -9893,12 +9893,12 @@
 山河	jeia
 夏日	umjk
 臉孔	hrke
-一脉相承	
+一脉相承	fhfv
 多情	uupg
 醬油	whip
 萌發	sjbn
 露面	cblt
-一刹那	
+一刹那	fzva
 預約	zuph
 陡然	zrhx
 税金	vqsj
@@ -9961,7 +9961,7 @@
 搗毁	athy
 消磨	ikyu
 光陰	kpzr
-歡聚一堂	
+歡聚一堂	stfk
 深秋	ipvm
 心腸	gvhj
 厚望	kjeh
@@ -10003,11 +10003,11 @@
 書生	xgei
 没落	iqsi
 存心	scgv
-三位一體	
+三位一體	uefv
 純真	padm
 追捕	gdam
 美滿	utis
-一目瞭然	
+一目瞭然	fmmh
 充電	lkcp
 孫女	kwlc
 花白	seds
@@ -10178,7 +10178,7 @@
 幼苗	uwsn
 傳教	eigk
 勾引	hknc
-一無所知	
+一無所知	fwqq
 烽火	mems
 櫻花	fmse
 頭像	foep
@@ -10213,7 +10213,7 @@
 棕色	fhpa
 模塊	fsgg
 瞥見	qrmr
-一本正經	
+一本正經	fffp
 待命	vgrx
 模具	fsmu
 求婚	fvli
@@ -10234,7 +10234,7 @@
 頽廢	vqyb
 腎臟	bbhs
 穩重	vvzn
-一應俱全	
+一應俱全	fyer
 尊貴	qcok
 還擊	zfix
 寬恕	hslo
@@ -10264,7 +10264,7 @@
 獲救	xsfv
 突起	hxra
 求證	fvub
-一清二楚	
+一清二楚	fiyf
 抽空	aphy
 生路	eibe
 運費	pinu
@@ -10309,7 +10309,7 @@
 掛念	agrl
 沉溺	ipin
 千姿百態	zyuk
-一氧化碳	
+一氧化碳	fweu
 磁力	uqwl
 室溫	hhid
 鬱悶	fqrg
@@ -10330,14 +10330,14 @@
 圖文並茂	dxqs
 乾杯	djfi
 叛逆	qaqx
-打成一片	
+打成一片	ayfw
 惡霸	fkcr
 風塵	ekyg
 鄉音	nwlj
 校對	flpu
 雌雄	tisk
 外貌	ujod
-一分爲二	
+一分爲二	fuvy
 東張西望	fnce
 囚禁	drff
 稻米	vvks
@@ -10403,7 +10403,7 @@
 修行	ecvj
 開鑿	rfpq
 疤痕	yayp
-一朝一夕	
+一朝一夕	fdfu
 腸胃	hjnh
 戀情	uppg
 三令五申	urfp
@@ -10433,7 +10433,7 @@
 盾牌	ndwg
 發情	bnpg
 局外人	burw
-一乾二淨	
+一乾二淨	fdyi
 不可告人	iatr
 刻度	dxys
 拍手稱快	ayvp
@@ -10443,14 +10443,14 @@
 舉國上下	hdkb
 女裝	lcwg
 罪孽	zwsg
-渾然一體	
+渾然一體	ihfv
 電風扇	ceqq
 駭人聽聞	jrtr
 療程	ytvo
-一鼓作氣	
+一鼓作氣	fgew
 經絡	pfpe
 緩步	pvtk
-一無所獲	
+一無所獲	fwqx
 並聯	qptu
 猝不及防	xirz
 守望	haeh
@@ -10490,7 +10490,7 @@
 好大喜功	ltgy
 杜撰	fgaa
 泄密	ighg
-一門心思	
+一門心思	frgn
 不置可否	izai
 挖空心思	ahgn
 叫苦不迭	osiw
@@ -10523,7 +10523,7 @@
 循循善誘	vvuu
 走南闖北	rdrq
 麒麟	yxyk
-一紙空文	
+一紙空文	fphx
 人才濟濟	rjii
 相安無事	fhwj
 過客	ldhe
@@ -10558,13 +10558,13 @@
 鐵面無私	slwv
 不三不四	iuid
 焦距	cmbk
-一年半載	
+一年半載	fwqd
 振聾發聵	albt
 大惑不解	tyip
 青天白日	gfdj
 肛門	hyrm
 三長兩短	urfq
-一反常態	
+一反常態	fnkk
 冤魂	ppyk
 對白	puds
 花冠	sepf
@@ -10613,13 +10613,13 @@
 雀斑	kcmx
 人跡罕至	rbph
 依然如故	ehlb
-濟濟一堂	
+濟濟一堂	iifk
 開源節流	riqi
 神采奕奕	gvrr
 笑逐顔開	welr
 身經百戰	qpuo
 神女	gplc
-一拍卽合	
+一拍卽合	fadr
 遥相呼應	vfoy
 和盤托出	vxax
 入情入理	spsm
@@ -10653,7 +10653,7 @@
 無惡不作	wfie
 肥美	haut
 昏昏欲睡	iium
-一槪而論	
+一槪而論	fflu
 不歡而散	isls
 斷奶	uulr
 反覆無常	ncwk
@@ -10662,7 +10662,7 @@
 步履維艱	tbps
 秋高氣爽	vlwt
 興師動衆	hgzw
-一刀兩斷	
+一刀兩斷	fdfu
 獨攬	xzab
 口若懸河	osmi
 天長日久	frjp
@@ -10672,7 +10672,7 @@
 無所不包	wqih
 行規	vjdm
 三足鼎立	ubml
-一語道破	
+一語道破	fuqu
 克敵制勝	blth
 休慼相關	eyfr
 陽奉陰違	zezj
@@ -10683,7 +10683,7 @@
 似懂非懂	epwp
 探頭探腦	afah
 言聽計從	utuv
-毁於一旦	
+毁於一旦	hifj
 哈密瓜	ohvs
 互通有無	fbsw
 巧奪天工	ytfy
@@ -10695,7 +10695,7 @@
 勤學苦練	rhsp
 傾盆大雨	eutc
 窗明几淨	hjqi
-一無是處	
+一無是處	fwjk
 作威作福	eyeg
 飽經風霜	qpec
 獨佔鰲頭	xegf
@@ -10713,7 +10713,7 @@
 客串	heoo
 平分秋色	nuvp
 點頭哈腰	vfoh
-沆瀣一氣	
+沆瀣一氣	iifw
 毛遂自薦	xqms
 如臨大敵	lbtl
 隨聲附和	zgzv
@@ -10792,7 +10792,7 @@
 欺世盜名	xgiu
 氣壯山河	wwji
 心力交瘁	gwly
-一瀉千里	
+一瀉千里	fizn
 以訛傳訛	eueu
 善男信女	unel
 坐享其成	rlxy
@@ -10828,7 +10828,7 @@
 空頭支票	hfdc
 披星戴月	ajdh
 妄自尊大	emqt
-一擲千金	
+一擲千金	fazs
 各就各位	elee
 揮金如土	aslg
 舉手之勞	hydm
@@ -10844,7 +10844,7 @@
 摧枯拉朽	afaf
 阿諛奉承	zuev
 擀麪杖	aefs
-一呼百應	
+一呼百應	fouy
 翻江倒海	wiei
 割愛	hcvp
 瓜熟蒂落	vlss
@@ -10852,15 +10852,15 @@
 手下留情	ybip
 爲虎作倀	vkee
 言而無信	ulwe
-一笑置之	
+一笑置之	fwzd
 朝朝暮暮	ddss
 不拘小節	iakq
 進退維谷	cppu
 怒火中燒	lmom
 養精蓄鋭	qkss
-一步登天	
+一步登天	ftbf
 飲鴆止渴	qpti
-百裏挑一	
+百裏挑一	ulaf
 改弦易轍	anji
 厚顔無耻	klwt
 生殺予奪	ezzt
@@ -10895,11 +10895,11 @@
 天造地設	ftgu
 言之鑿鑿	udpp
 自吹自擂	moma
-從一而終	
+從一而終	vflp
 借刀殺人	edzr
 手不釋卷	yiwq
 舞文弄墨	wxmv
-一了百了	
+一了百了	fkuk
 非親非故	wlwb
 窮山惡水	hjfv
 無可奉告	waet
@@ -10913,10 +10913,10 @@
 曲高和寡	clvh
 無關痛癢	wryy
 興師問罪	hgrz
-一念之差	
+一念之差	frdu
 不打自招	iama
 黨同伐異	kcen
-倒打一耙	
+倒打一耙	eafc
 叫苦連天	osif
 噤若寒蟬	oshv
 七老八十	agud
@@ -10930,7 +10930,7 @@
 兩肋插刀	fhad
 披肝瀝膽	ahih
 群龍無首	xlwq
-一決雌雄	
+一決雌雄	fits
 砸鍋賣鐵	usgs
 平鋪直敘	nsdr
 對答如流	pwli
@@ -10954,7 +10954,7 @@
 人老珠黃	rgms
 如臨深淵	lbii
 相敬如賓	fslh
-一面之詞	
+一面之詞	fldu
 鶯歌燕舞	masw
 油頭粉面	ifkl
 抽風	apek
@@ -10993,7 +10993,7 @@
 防患未然	zosh
 功德圓滿	yvdi
 縮頭縮腦	pfph
-滄海一粟	
+滄海一粟	iifc
 二進制	yctc
 功成身退	yyqp
 海枯石爛	ifum
@@ -11025,7 +11025,7 @@
 血海深仇	wiie
 鍾靈毓秀	scwv
 金玉良言	smlu
-南柯一夢	
+南柯一夢	dffs
 日月如梭	jhlf
 挑三揀四	auad
 百步穿楊	uthf
@@ -11060,12 +11060,12 @@
 樑上君子	fkxk
 明珠暗投	jmja
 明察暗訪	jhju
-一舉一動	
+一舉一動	fhfz
 議論紛紛	uupp
 大江南北	tidq
 支支吾吾	ddff
 長途跋涉	rrbi
-一擁而上	
+一擁而上	falk
 不可磨滅	iayi
 不依不饒	ieiq
 勤勤懇懇	rroo
@@ -11143,9 +11143,9 @@
 井岡山	ycje
 幹什麽	deyw
 弄清	msig
-一月	
-一塊	
-一刻	
+一月	fkhr
+一塊	fkgg
+一刻	fkdx
 不對	ivpu
 還給	zfpr
 不變	ivup
@@ -11167,7 +11167,7 @@
 團長	dira
 四月	dqhr
 連長	idra
-同一	
+同一	cffk
 屈原	bxkd
 侷限性	ezpe
 必不可少	giak
@@ -11271,7 +11271,7 @@
 綱要	pccl
 獲悉	xswk
 拓展	aubs
-一向	
+一向	fkrs
 享有	lksh
 污水	ifvu
 處長	kera
@@ -11321,7 +11321,7 @@
 凝聚力	ytwl
 後勤	vury
 大户	tjqk
-一國兩制	
+一國兩制	fdft
 旣是	dijf
 祝願	gokd
 助理	mwmn
@@ -11350,7 +11350,7 @@
 拉薩	alsz
 股東	hqfj
 烈士	fugu
-一舉	
+一舉	fkhu
 戰後	oovu
 郵票	zscg
 達標	gufc
@@ -11416,7 +11416,7 @@
 陣容	zihr
 救治	fvik
 誠意	uylj
-一連	
+一連	fkid
 變遷	upct
 理財	mnmj
 機械化	ffei
@@ -11467,7 +11467,7 @@
 南海	dciw
 本色	ffpa
 認知	udqo
-一早	
+一早	fkja
 訂閲	uarq
 站長	ljra
 上當	kgkn
@@ -11609,7 +11609,7 @@
 日月	jkhr
 雲集	cycf
 清單	igoo
-一條龍	
+一條龍	felh
 正中	ftoc
 負債	pmeg
 長嘆	raos
@@ -11671,7 +11671,7 @@
 看上	ymkg
 不得了	ivkc
 敬佩	sheq
-初一	
+初一	ndfk
 厚重	kjzn
 忙於	peir
 瀏覽	iibw
@@ -12003,7 +12003,7 @@
 叛亂	qavb
 鯉魚	tntn
 領空	rlhy
-一瞬	
+一瞬	fkmv
 接應	alye
 口水	oivu
 礦泉水	udvu
@@ -12163,7 +12163,7 @@
 不配	ivca
 激增	idgq
 主幹	lmdj
-清一色	
+清一色	ifpa
 熱誠	guuy
 皺眉	hxbm
 畫廊	xgyl
@@ -12396,7 +12396,7 @@
 尾隨	bxzs
 進化論	ceur
 壞處	glke
-一言一行	
+一言一行	fufv
 累贅	npgh
 質變	nnup
 恩怨	dtuv
@@ -12449,7 +12449,7 @@
 緩衝	pvvz
 兇殘	zxfu
 揪心	avgv
-一塌糊塗	
+一塌糊塗	fgki
 涼快	ilpb
 防風	ziek
 炎症	mmyf
@@ -12579,7 +12579,7 @@
 合約	rhph
 觸發	pzbn
 省略	kwne
-一窩蜂	
+一窩蜂	fhve
 橄欖	fvfb
 貴客	okhe
 後路	vube
@@ -12702,7 +12702,7 @@
 音量	ljjf
 輕飄飄	iccg
 閒逛	rhxm
-一廂情願	
+一廂情願	fypk
 應驗	yejr
 前哨	qhok
 要價	clec
@@ -12739,7 +12739,7 @@
 跪拜	bpyf
 蒸餾	svqi
 凌厲	ygks
-一統天下	
+一統天下	fpfb
 殫精竭慮	fklk
 紅顔	pylw
 尿布	bvsr
@@ -12826,7 +12826,7 @@
 不省人事	ikrj
 敦厚	lkkj
 合謀	rhus
-一馬當先	
+一馬當先	fjkt
 感光	yfkp
 孤身	kvqn
 光彩奪目	kvtm
@@ -12839,12 +12839,12 @@
 毛皮	xewu
 大打出手	taxy
 見利忘義	mveu
-一來二去	
+一來二去	feyg
 冰激凌	yiyg
 各行其是	evxj
 林林總總	ffpp
 門徒	rmvr
-一絲不掛	
+一絲不掛	fpia
 沽名釣譽	iush
 師弟	gfqn
 想當然	fkhx
@@ -12902,7 +12902,7 @@
 吹風	onek
 獨闢蹊徑	xrbv
 火龍	mslh
-一言爲定	
+一言爲定	fuvh
 緊箍咒	bwoo
 大雅之堂	tzdk
 排骨	awvo
@@ -12971,7 +12971,7 @@
 從長計議	vruu
 發福	bngf
 軟硬兼施	iuqi
-一團和氣	
+一團和氣	fdvw
 遊手好閒	iylr
 作弄	ewms
 出軌	xxiw
@@ -13023,7 +13023,7 @@
 玩偶	mfev
 聞風而動	relz
 顧慮重重	qkzz
-捏一把汗	
+捏一把汗	afai
 死結	fupg
 替罪羊	dzug
 大錯特錯	tsts
@@ -13034,13 +13034,13 @@
 居所	bbqn
 利令智昏	vrqi
 隻字不提	chia
-衆口一詞	
+衆口一詞	wofu
 斷頭臺	ufgo
 防毒	zigr
 峰迴路轉	jdbi
 含情脉脉	rphh
 帥氣	grwk
-一衣帶水	
+一衣帶水	flsv
 告白	tods
 果不其然	jixh
 洪水猛獸	ivxo
@@ -13048,7 +13048,7 @@
 切膚之痛	akdy
 天之驕子	fdjk
 心亂如麻	gvly
-一舉成名	
+一舉成名	fhyu
 英姿颯爽	sylt
 脣齒相依	ywfe
 負隅頑抗	pzfa
@@ -13067,7 +13067,7 @@
 塗脂抹粉	ihak
 大敵當前	tlkq
 萬象更新	spfl
-一股腦兒	
+一股腦兒	fhhh
 掌上明珠	kkjm
 打頭陣	afzi
 東瀛	fjie
@@ -13083,7 +13083,7 @@
 大義滅親	tuil
 吸塵器	oyoo
 營私舞弊	mvwq
-串通一氣	
+串通一氣	obfw
 剛柔相濟	czfi
 日久天長	jpfr
 吹灰之力	osdw
@@ -13097,7 +13097,7 @@
 先知先覺	tqth
 備查	esfj
 出言不遜	xuik
-付之一炬	
+付之一炬	edfm
 弧度	nvys
 指名道姓	auql
 陳詞濫調	zuiu
@@ -13117,7 +13117,7 @@
 量體裁衣	jvdl
 馬蜂窩	jvhl
 不求甚解	ifxp
-反戈一擊	
+反戈一擊	nyfi
 分崩離析	ujxf
 風雨交加	eclw
 魂不守舍	yihr
@@ -13139,7 +13139,7 @@
 字斟句酌	hxhc
 油腔滑調	ihiu
 大徹大悟	tvtp
-一掃而空	
+一掃而空	falh
 大腹便便	thee
 盜墓	insj
 目光短淺	mkqi
@@ -13160,7 +13160,7 @@
 内外交困	culd
 生吞活剝	efir
 孝子賢孫	gkbk
-以防萬一	
+以防萬一	ezsf
 反客爲主	nhvl
 風流韻事	eilj
 溜之大吉	idtg
@@ -13199,13 +13199,13 @@
 謀財害命	umhr
 三皇五帝	udfl
 壽比南山	gidj
-一息尚存	
+一息尚存	fmks
 除暴安良	zjhl
 彈盡糧絶	nxkp
 逆時針	qjsd
 下里巴人	bnar
-一言九鼎	
-付之一笑	
+一言九鼎	fuwm
+付之一笑	edfw
 狗仗人勢	xerg
 求偶	fvev
 數典忘祖	oceg
@@ -13250,7 +13250,7 @@
 撒旦	asjf
 白日做夢	djes
 故態復萌	bkvs
-決一雌雄	
+決一雌雄	ifts
 虚與委蛇	khvv
 以怨報德	eugv
 結黨營私	pkmv
@@ -13280,7 +13280,7 @@
 投桃報李	afgf
 斷垣殘壁	ugfb
 禍從天降	gvfz
-一面之交	
+一面之交	fldl
 藏頭露尾	sfcb
 各持己見	eaam
 斯文掃地	xxag
@@ -13300,7 +13300,7 @@
 賊頭賊腦	mfmh
 勾魂攝魄	hyad
 色厲内荏	pkcs
-一字千金	
+一字千金	fhzs
 丢三落四	zusd
 甕中之鱉	lodq
 邪門歪道	zriq
@@ -13319,12 +13319,12 @@
 孺子可教	kkag
 八拜之交	uydl
 泰山北斗	ejqy
-九九歸一	
+九九歸一	wwgf
 惡性循環	fpvm
 半壁江山	qbij
 聲勢浩大	ggit
 開花結果	rspj
-一言不發	
+一言不發	fuib
 所見所聞	qmqr
 振奮人心	atrg
 朝夕相處	dufk
@@ -13333,7 +13333,7 @@
 平安無事	nhwj
 酣暢淋漓	cpii
 保家衛國	ehvd
-一草一木	
+一草一木	fsff
 矢口否認	qoiu
 原封不動	kgiz
 不遠萬里	igsn
@@ -13353,7 +13353,7 @@
 淚如雨下	ilcb
 兩手空空	fyhh
 衣食父母	lqur
-一飛沖天	
+一飛沖天	feif
 喬裝打扮	cwaa
 連綿不斷	ipiu
 勃然大怒	dhtl
@@ -13368,7 +13368,7 @@
 智者見智	qgmq
 從中作梗	voef
 黑白分明	vduj
-一葉障目	
+一葉障目	fszm
 固執己見	dgam
 山崩地裂	jjgf
 作惡多端	eful
@@ -13435,7 +13435,7 @@
 雷鳴	cnot
 無用	wszu
 不能不	ikiv
-一天	
+一天	fkft
 平平淡淡	nnii
 下雪	bkcx
 不理	ivmn
@@ -13528,7 +13528,7 @@
 急急忙忙	pppp
 北京大學	qlth
 陌生人	zerw
-更進一步	
+更進一步	fcft
 自然資源	mhyi
 重要性	zcpe
 冰淇淋	yiif
@@ -13536,7 +13536,7 @@
 天文學	fxhz
 國民經濟	dapi
 戲劇	kfke
-一會兒	
+一會兒	frhq
 縣委	mkvl
 總書記	pxua
 黨支部	kdlo
@@ -13673,7 +13673,7 @@
 方略	irne
 國務卿	dzix
 此地	tigs
-第一線	
+第一線	wfpd
 只顧	ouqc
 右派	soin
 公款	ukgg
@@ -13722,7 +13722,7 @@
 聞名	rtuo
 穩健	vvex
 藍圖	sbdo
-老一輩	
+老一輩	gfwi
 高聲	lvgb
 樹枝	fgfd
 前年	qhwa
@@ -13839,7 +13839,7 @@
 騙取	jqtb
 剷除	lwzr
 國務	dyzw
-一陣子	
+一陣子	fzkv
 急救	pxfv
 煙花	mcse
 躋身	blqn
@@ -14419,7 +14419,7 @@
 長者	ragj
 功利	ywvx
 體諒	vcul
-一席之地	
+一席之地	fydg
 右側	soem
 蹤跡	bvbr
 喘氣	ojwk
@@ -15268,12 +15268,12 @@
 酷熱	ctgu
 思慮	ngkn
 牙刷	zpbr
-靈機一動	
+靈機一動	cffz
 明鏡	jhsl
 休眠	efma
 籍貫	wcrd
 懶散	pfsh
-一五一十	
+一五一十	fffd
 在案	schl
 溺愛	invp
 險峻	zrjk
@@ -15665,7 +15665,7 @@
 跳蚤	bqbl
 彈片	nown
 恆溫	pfid
-一覽無餘	
+一覽無餘	fbwq
 成婚	yvli
 鎖鏈	sksi
 害處	hcke
@@ -15930,7 +15930,7 @@
 糞土	kngi
 封口	ggoi
 官能	hbkh
-一窮二白	
+一窮二白	fhyd
 有機可乘	sfav
 傳宗接代	ehae
 五花大綁	fstp
@@ -16015,12 +16015,12 @@
 假名	ebuo
 闢謡	rbuv
 闢謠	rbuh
-一鬨而散	
+一鬨而散	frls
 恩澤	dtiz
 龍騰虎躍	lhkb
 血肉橫飛	wcfe
 幾時	uujg
-孑然一身	
+孑然一身	khfq
 倒轉	ehii
 巋然不動	jhiz
 良宵	lphk
@@ -16116,13 +16116,13 @@
 抱頭鼠竄	afhh
 風流倜儻	eiee
 嚴絲合縫	oprp
-一唱一和	
+一唱一和	fofv
 節操	qeao
-漆黑一團	
+漆黑一團	ivfd
 曲徑通幽	cvbj
 被套	nwtr
 烏七八糟	tauk
-一馬平川	
+一馬平川	fjne
 裝神弄鬼	wgmg
 擺闊	azri
 拆穿	anhz
@@ -16130,8 +16130,8 @@
 瓢潑大雨	citc
 火併	mseq
 欺人太甚	xrtx
-一家之言	
-一語雙關	
+一家之言	fhdu
+一語雙關	fucr
 變色龍	uplh
 唱反調	onuh
 單數	oood
@@ -16197,7 +16197,7 @@
 橫蠻	fsup
 老羞成怒	guyl
 萬全之策	srdw
-一手包辦	
+一手包辦	fyhl
 裏通外國	lbud
 有眼無珠	smwm
 關門大吉	rrtg
@@ -16223,7 +16223,7 @@
 月下老人	hbgr
 根絶	fppp
 氣貫長虹	wrrv
-一文不名	
+一文不名	fxiu
 有口無心	sowg
 反目成仇	nmye
 搞鬼	algm
@@ -16274,7 +16274,7 @@
 掐頭去尾	afgb
 珠圓玉潤	mdmi
 橫生枝節	fefq
-一石二鳥	
+一石二鳥	fuyt
 閉月羞花	rhus
 餓虎撲食	qkaq
 路不拾遺	biao
@@ -16300,7 +16300,7 @@
 獨木難支	xfsd
 縱虎歸山	pkgj
 公報私仇	ugve
-可見一斑	
+可見一斑	amfm
 數以萬計	oesu
 遍地開花	qgrs
 慕名而來	sule
@@ -16332,7 +16332,7 @@
 心浮氣躁	giwb
 冰凍三尺	yyub
 麻雀雖小	ykok
-一路平安	
+一路平安	fbnh
 子子孫孫	kkkk
 精神煥發	kgmb
 蠱惑人心	vyrg
@@ -16408,11 +16408,11 @@
 老本	giff
 天道	ftqm
 玩意	mflj
-一來	
+一來	fkej
 不願	ivkd
 不問	ivro
 曹操	sjao
-一句話	
+一句話	fhuo
 珠海	mtiw
 玻利維亞	mvpf
 肯尼亞	tbfk
@@ -16529,7 +16529,7 @@
 毫不猶豫	lixz
 大幅度	trys
 有利於	svir
-十一月	
+十一月	dfhr
 省政府	kfye
 哺乳動物	ovzt
 儘可能	eakh
@@ -16559,7 +16559,7 @@
 用人	zurw
 平方公里	niun
 會晤	rfjf
-一流	
+一流	fkil
 百分點	uuvj
 議員	uuom
 錦標賽	sfhs
@@ -16582,7 +16582,7 @@
 旨在	ijsc
 未經	skpf
 超市	rdlr
-統一戰線	
+統一戰線	pfop
 狠抓	xpav
 民心	aagv
 本月	ffhr
@@ -16603,10 +16603,10 @@
 年會	warf
 機動車	fzie
 衚衕	vbvc
-一派	
-一把手	
+一派	fkin
+一把手	fayg
 機組	fupm
-一世	
+一世	fkgn
 測繪	impr
 重任	znez
 遊人	iwrw
@@ -16690,7 +16690,7 @@
 荒山	seje
 南亞	dcfk
 人質	rwnn
-一味	
+一味	fkos
 不比	ivii
 赤字	guhk
 受賄	vpms
@@ -16837,7 +16837,7 @@
 偷渡	eriy
 離休	xxef
 圖謀	dous
-一大早	
+一大早	ftja
 列席	fuys
 散打	shaa
 每每	wrwr
@@ -16957,7 +16957,7 @@
 殷切	nxad
 專線	iapd
 出息	xxmg
-融爲一體	
+融爲一體	fvfv
 惦記	pyua
 意象	ljpo
 穿行	hzvj
@@ -17277,7 +17277,7 @@
 族人	iwrw
 並行	qpvj
 進退	cdpd
-一刀切	
+一刀切	fdad
 着裝	umwg
 懼怕	pmpd
 山歌	jeao
@@ -17849,7 +17849,7 @@
 謙恭	uqsu
 吞吐	ftog
 心扉	gvqw
-一溜煙	
+一溜煙	fimc
 碰巧	uqyu
 恰似	pree
 商榷	lqfp
@@ -18519,7 +18519,7 @@
 貪財	rlmj
 退避	pdbo
 養傷	qdew
-一生一世	
+一生一世	fefg
 專修	iaec
 悲歌	wgao
 酬謝	ciuq
@@ -18785,7 +18785,7 @@
 水槍	vufr
 湯匙	ijjf
 笑柄	wcff
-一團糟	
+一團糟	fdks
 馳名中外	juou
 道賀	qmwo
 紅糖	pyky
@@ -18804,7 +18804,7 @@
 冰霜	yvcf
 斷交	uulu
 對開	purf
-高人一等	
+高人一等	lrfw
 光斑	kpmx
 批註	aiul
 由表及裏	pgrl
@@ -18846,7 +18846,7 @@
 曲面	cslt
 頭昏眼花	fims
 藥性	sdpe
-一病不起	
+一病不起	fyir
 音質	ljnn
 齋戒	lqys
 菜色	svpa
@@ -19019,7 +19019,7 @@
 以儆效尤	eelb
 手足之情	ybdp
 速記	foua
-一潭死水	
+一潭死水	fifv
 官樣文章	hfxl
 金雞獨立	svxl
 削足適履	kblb
@@ -19086,7 +19086,7 @@
 窮奢極欲	htfu
 仗勢欺人	egxr
 乘龍快婿	vlpl
-掛一漏萬	
+掛一漏萬	afis
 光標	kpfc
 雞零狗碎	vcxu
 雞犬不留	vxii
@@ -19103,7 +19103,7 @@
 傾巢出動	eyxz
 望聞問切	erra
 尾大不掉	btia
-一鱗半爪	
+一鱗半爪	ftqv
 仗義疏財	euvm
 置之腦後	zdhv
 殘兵敗將	fnmw
@@ -19125,7 +19125,7 @@
 志大才疏	gtjv
 行貨	vjei
 鴻運	iypi
-略遜一籌	
+略遜一籌	nkfw
 仰人鼻息	ermm
 玉潔冰清	miyi
 明槍暗箭	jfjw
@@ -19148,9 +19148,9 @@
 淚流滿面	iiil
 蠻不講理	uium
 受益匪淺	vqki
-步調一致	
+步調一致	tufh
 物歸原主	tgkl
-言行一致	
+言行一致	uvfh
 赤子之心	gkdg
 萬事俱備	sjee
 燈火輝煌	mmkm
@@ -19165,12 +19165,12 @@
 捧腹大笑	ahtw
 年輕力壯	wiww
 後繼無人	vpwr
-一文不值	
+一文不值	fxie
 獨來獨往	xexv
 病從口入	yvos
 不冷不熱	iyig
 心事重重	gjzz
-言行不一	
+言行不一	uvif
 百年樹人	uwfr
 滅絶人性	iprp
 長生不老	reig
@@ -19269,7 +19269,7 @@
 開羅	rfzp
 天竺	ftwy
 靜聽	ghtm
-一下子	
+一下子	fbkv
 不見	ivmr
 不好	ivlk
 事兒	johq
@@ -19413,7 +19413,7 @@
 現階段	mzeu
 事實上	jhkg
 流動資金	izys
-另一方面	
+另一方面	ofil
 被告人	ntrw
 解放前	piqh
 簡簡單單	wwoo
@@ -19450,7 +19450,7 @@
 評議	unuu
 互利	frvx
 整合	forh
-八一	
+八一	usfk
 歐元	kofp
 研發	ufbn
 融資	foyn
@@ -19500,7 +19500,7 @@
 編者	pqgj
 掙錢	avsy
 源於	ikir
-一角	
+一角	fkpz
 檢察官	fhhb
 位居	elbb
 激起	idra
@@ -19600,7 +19600,7 @@
 防務	zizw
 低價	eiec
 不屑	ivbk
-一併	
+一併	fkeq
 單方面	oilt
 就讀	lkug
 責成	gmyv
@@ -19614,7 +19614,7 @@
 假使	ebef
 開國	rfdy
 匱乏	kowd
-合一	
+合一	rhfk
 訪談	uium
 特邀	tgdi
 磕頭	ugfo
@@ -19745,7 +19745,7 @@
 選中	aaoc
 攻堅戰	yboo
 就餐	lkju
-一晃	
+一晃	fkjk
 僞軍	evpi
 出師	xxgf
 僵化	efei
@@ -19989,7 +19989,7 @@
 犛牛	setl
 慘白	pkds
 彷徨	vivd
-舒心	rngv
+舒心	rogv
 好意思	llng
 根系	fpwp
 正宗	fthg
@@ -20062,7 +20062,7 @@
 佩戴	eqdy
 大度	tjys
 快遞	pbnk
-一點一滴	
+一點一滴	fvfi
 對敵	pulq
 古詩	buug
 撫育	awlk
@@ -20191,7 +20191,7 @@
 有緣	shpr
 活捉	ioab
 全副	rmfo
-舒坦	rngj
+舒坦	rogj
 菸斗	siyd
 洞房	icqi
 荒草	sesj
@@ -20247,7 +20247,7 @@
 光大	kptj
 污泥	ifib
 頽然	vqhx
-舒緩	rnpv
+舒緩	ropv
 聽信	tmeu
 將帥	whgr
 油水	ipvu
@@ -20722,7 +20722,7 @@
 溫水	idvu
 掩藏	atsy
 葉綠素	spgp
-一掃而光	
+一掃而光	falk
 作伴	eweq
 便飯	efqn
 奉陪	eazl
@@ -20948,7 +20948,7 @@
 補缺	nmqb
 電鈕	cpss
 狐狸精	xxkg
-嫣然一笑	
+嫣然一笑	lhfw
 舵手	xhyg
 古板	bufn
 金庫	sjyi
@@ -21006,9 +21006,9 @@
 瓦片	ukwn
 胸罩	hhzj
 鹽分	bwud
-一錢不值	
+一錢不值	fsie
 荷槍實彈	sfhn
-莫衷一是	
+莫衷一是	slfj
 絨布	pysr
 松濤	fuig
 銷魂	skyk
@@ -21103,7 +21103,7 @@
 乳名	vkuo
 勝算	hqwm
 休學	efhz
-一般見識	
+一般見識	fxmu
 責罰	gmzu
 插足	azbn
 鼓手	goyg
@@ -21671,7 +21671,7 @@
 辭舊迎新	vsil
 負債累累	penn
 海納百川	ipue
-一口咬定	
+一口咬定	fooh
 交口稱讚	lovu
 電閃雷鳴	crco
 避而不談	bliu
@@ -21685,7 +21685,7 @@
 簡明扼要	wjac
 惺惺相惜	ppfp
 推而廣之	alyd
-上下一心	
+上下一心	kbfg
 不聲不響	igin
 不可限量	iazj
 群雄逐鹿	xsey
@@ -21693,13 +21693,13 @@
 言無不盡	uwix
 大吉大利	tgtv
 十面埋伏	dlge
-魔高一丈	
+魔高一丈	ylfs
 開懷暢飲	rppq
 滔天罪行	ifzv
-水天一色	
-一顰一笑	
+水天一色	vffp
+一顰一笑	ftfw
 招賢納士	abpg
-一官半職	
+一官半職	fhqt
 蒼松翠柏	sfqf
 比翼雙飛	iqce
 衝昏頭腦	vifh
@@ -21739,7 +21739,7 @@
 親痛仇快	lyep
 財運亨通	mplb
 卑鄙無耻	gowt
-百無一用	
+百無一用	uwfz
 圖窮匕見	dhim
 當斷不斷	kuiu
 有勇無謀	sbwu
@@ -21799,9 +21799,9 @@
 天驕	ftjc
 天壇	ftgl
 玩命	mfrx
-一不小心	
+一不小心	fikg
 來來往往	eevv
-一端	
+一端	fklj
 不大	ivtj
 帶走	sfry
 帶給	sfpr
@@ -21809,7 +21809,7 @@
 來過	ejld
 來看	ejym
 死於	fuir
-一年四季	
+一年四季	fwdv
 麥田	eene
 天秤座	fvyr
 素服	gphx
@@ -21964,7 +21964,7 @@
 顫音	ldlj
 調回	uhdo
 敲門	ljrm
-爲之一振	
+爲之一振	vdfa
 這次	udyn
 摩爾	yyfu
 旅長	iwra
@@ -21975,7 +21975,7 @@
 有所作爲	sqev
 盡心盡力	xgxw
 按捺不住	aaie
-轟動一時	
+轟動一時	izfj
 熱血沸騰	gwih
 疲憊不堪	yeig
 波濤洶湧	iiii
@@ -21991,7 +21991,7 @@
 醫學院	khzh
 醫療費	kynu
 湖北省	iqkw
-星期一	
+星期一	jxfk
 星期五	jxfj
 烏克蘭	tbsr
 反對派	npin
@@ -22018,14 +22018,14 @@
 選擇性	aape
 僅次於	eyir
 比如説	iluq
-十一	
+十一	difk
 人次	rwyn
 上年	kgwa
 邪教	zzgk
 檢察院	fhzh
 實事	hrjo
 本屆	ffbg
-一級	
+一級	fkpr
 大都	tjgj
 高速公路	lfub
 民營	aamm
@@ -22035,7 +22035,7 @@
 賽事	hsjo
 開幕式	rsyy
 磋商	uulq
-一大批	
+一大批	ftai
 印尼	ifbi
 年前	waqh
 不僅僅	ieer
@@ -22064,11 +22064,11 @@
 老區	giko
 特困	tgdf
 音樂會	ldrf
-一次性	
+一次性	fype
 良種	lpvz
 和談	voum
 假冒僞劣	ecek
-一塊兒	
+一塊兒	fghq
 現任	mmez
 個個	eded
 大使館	teqh
@@ -22140,7 +22140,7 @@
 常駐	krjl
 紀念碑	prug
 鏈接	sial
-一瞬間	
+一瞬間	fmrj
 大潮	tjid
 配送	caqt
 礦業	uypu
@@ -22224,7 +22224,7 @@
 清洗	igit
 斬首	inqm
 總監	prbw
-逐一	
+逐一	edfk
 專場	iagj
 過重	ldzn
 名次	uoyn
@@ -22243,7 +22243,7 @@
 寶珠	hmmt
 平平	nqnq
 分批	udai
-一動不動	
+一動不動	fziz
 預示	zugp
 繁育	wrlk
 診治	urik
@@ -22492,7 +22492,7 @@
 軍屬	pibv
 山口	jeoi
 腔調	hhuh
-一攬子	
+一攬子	fakv
 漠視	isgm
 死屍	fubf
 敬老院	sgzh
@@ -22528,7 +22528,7 @@
 忠心	ocgv
 迫於	ddir
 五官	fjhb
-一席話	
+一席話	fyuo
 執筆	gqwx
 營利	mmvx
 正午	ftwd
@@ -22798,13 +22798,13 @@
 小生	kjei
 遺失	okwd
 暴利	jsvx
-一年到頭	
+一年到頭	fwhf
 布衣	srlw
 二話没説	yuiu
 甲方	nfir
 切入	adso
 燒酒	mgic
-突兀	hxpr
+突兀	hxpw
 發愣	bnpz
 接手	alyg
 筆跡	wxbr
@@ -23727,7 +23727,7 @@
 紕漏	piib
 行刺	vjfc
 雅號	zcou
-一覽	
+一覽	fkbw
 暴政	jsft
 豐潤	jcir
 怪獸	pboo
@@ -23845,7 +23845,7 @@
 急不可待	piav
 氣數	wkod
 情網	pgpc
-一場空	
+一場空	fghy
 膽寒	hphs
 盤纏	xqpy
 胖乎乎	hwwq
@@ -23887,7 +23887,7 @@
 草蓆	sjsy
 赤貧	guud
 歡暢	sopj
-舒張	rnnr
+舒張	ronr
 雙簧	ccws
 煙幕	mcsj
 妖嬈	lclg
@@ -23945,7 +23945,7 @@
 從犯	vrxv
 二郎腿	ylhp
 梗槪	fffd
-合而爲一	
+合而爲一	rlvf
 開方	rfir
 吭氣	olwk
 素雅	gpzc
@@ -23964,7 +23964,7 @@
 冷僻	yreb
 龍骨	lhvo
 鏤空	sohy
-一走了之	
+一走了之	frkd
 海産	iwlw
 借調	esuh
 烙鐵	mesd
@@ -24111,8 +24111,8 @@
 鐵定	sdhf
 晚景	jpjl
 修身養性	eqqp
-一板一眼	
-一見傾心	
+一板一眼	fffm
+一見傾心	fmeg
 賊船	myxq
 坐墊	rrgq
 根由	fppb
@@ -24136,7 +24136,7 @@
 原色	kdpa
 滑膩	ivhy
 舌根	oxfp
-盛極一時	
+盛極一時	yffj
 私房錢	vqsy
 退燒	pdmg
 浴盆	iuud
@@ -24187,7 +24187,7 @@
 螞蟥	vjvs
 貨艙	eixr
 禁慾	ffur
-略知一二	
+略知一二	nqfy
 頻度	tkys
 生僻	eieb
 守財奴	hmlb
@@ -24341,7 +24341,7 @@
 内秀	crvr
 潤筆	irwx
 夜場	legj
-一張一弛	
+一張一弛	fnfn
 愚人節	vrqe
 衆怒難犯	wlsx
 寸土必爭	aggv
@@ -24410,11 +24410,11 @@
 雞胸	vuhh
 囊空如洗	dhli
 劈叉	bobl
-不名一文	
+不名一文	iufx
 文胸	xnhh
 忌口	agoi
 如鳥獸散	ltos
-一髮千鈞	
+一髮千鈞	frzs
 臨淵羨魚	biut
 如花似錦	lses
 舐犢情深	otpi
@@ -24476,7 +24476,7 @@
 蓬蓽生輝	ssek
 人窮志短	rhgq
 雙宿雙飛	chce
-決一勝負	
+決一勝負	ifhp
 萬頭攢動	sfaz
 歲寒三友	thus
 鋤強扶弱	snan
@@ -24541,7 +24541,7 @@
 下設	bkuq
 不予	ivzj
 不息	ivmg
-一日三秋	
+一日三秋	fjuv
 更是	fjjf
 豆芽	fosz
 帶到	sfhx
@@ -24782,13 +24782,13 @@
 蘇格蘭	sfsr
 走上	rykg
 顛鸞倒鳳	dueq
-一家	
+一家	fkhe
 江蘇省	iskw
 津巴布韋	iasj
 渡過	iyld
 米蘭	kssr
 自上而下	mklb
-差一點	
+差一點	ufvj
 資本論	yfur
 總産量	pljf
 警長	shra
@@ -24823,7 +24823,7 @@
 代表團	egdi
 會議室	ruhh
 别的	owdh
-一套	
+一套	fktr
 他人	esrw
 市政府	lfye
 研討會	uurf
@@ -24873,7 +24873,7 @@
 老爺子	gukv
 互訪	frui
 儘早	exja
-一經	
+一經	fkpf
 臺下	gobk
 多元	uufp
 出版物	xwth
@@ -24909,7 +24909,7 @@
 羽毛球	qxmf
 京師	lkgf
 總值	pred
-一側	
+一側	fkem
 硬是	ufjf
 學堂	hzkg
 素有	gpsh
@@ -25578,7 +25578,7 @@
 瞭然	mthx
 内情	crpg
 先遣	tqok
-一小撮	
+一小撮	fkaj
 義演	uwih
 緋紅	pwpy
 土星	gije
@@ -25881,7 +25881,7 @@
 養母	qdru
 音韻	ljlj
 魚雷	tncn
-專一	
+專一	iafk
 撞見	almr
 風景畫	ejxg
 烙餅	meqq
@@ -25894,7 +25894,7 @@
 納涼	pcil
 沙俄	ikew
 退票	pdcg
-一哄而上	
+一哄而上	folk
 郵遞員	znom
 絆腳石	phut
 車工	ieyx
@@ -26417,7 +26417,7 @@
 歌女	aolc
 涼拌	ilaq
 爐膛	mkhk
-茅舍	szrn
+茅舍	szro
 妙用	lkzu
 扒竊	auhw
 窗花	hrse
@@ -26592,7 +26592,7 @@
 肉搏	cram
 辱没	yaiq
 騰躍	hqbq
-一揮而就	
+一揮而就	fall
 不可終日	iapj
 燈油	mbip
 姑嫂	lblh
@@ -26606,7 +26606,7 @@
 舌苔	oxsk
 兇暴	zxjs
 懸樑	mkfi
-不值一提	
+不值一提	iefa
 高妙	lvlk
 詬病	unyf
 寡言	huui
@@ -26665,7 +26665,7 @@
 廣種薄收	yvsx
 荒村	sefa
 奶孃	lrll
-一覽表	
+一覽表	fbgw
 早班	jamq
 驟變	jtup
 保底	eoyi
@@ -26699,7 +26699,7 @@
 宗祠	hggv
 變天	upft
 黨蔘	kvsk
-獨具一格	
+獨具一格	xmff
 二線	yrpd
 琴鍵	mmsx
 娓娓動聽	llzt
@@ -26763,7 +26763,7 @@
 槍膛	frhk
 全才	rmjw
 查覈	fjcd
-寒舍	hsrn
+寒舍	hsro
 苦行僧	sveq
 皮囊	wudo
 如來	loej
@@ -26781,7 +26781,7 @@
 胯骨	htvo
 世仇	gnew
 萬福	svgf
-自成一家	
+自成一家	myfh
 身教	qngk
 唱高調	oluh
 空喊	hyoy
@@ -26855,7 +26855,7 @@
 鵝毛大雪	wxtc
 堅果	bbjf
 條分縷析	eupf
-一團漆黑	
+一團漆黑	fdiv
 逐次	edyn
 分機	udfu
 速決	foib
@@ -26991,7 +26991,7 @@
 釣餌	shqt
 聚沙成塔	tiyg
 年利	wavx
-一清二白	
+一清二白	fiyd
 筆走龍蛇	wrlv
 冒號	cyou
 童女	lnlc
@@ -27003,7 +27003,7 @@
 礦脉	uyhl
 默讀	vxug
 蒜泥	sgib
-表裏不一	
+表裏不一	glif
 骨鯁在喉	vtso
 心膽俱裂	ghef
 對眼	pump
@@ -27032,7 +27032,7 @@
 星移斗轉	jvyi
 好聲好氣	lglw
 尋章摘句	xlah
-一葉知秋	
+一葉知秋	fsqv
 大顯神通	tjgb
 靈異	cons
 不落窠臼	ishh
@@ -27068,7 +27068,7 @@
 不敢苟同	ivsc
 殺人放火	zrim
 悔之晚矣	pdjk
-道高一尺	
+道高一尺	qlfb
 破舊立新	usll
 精忠報國	kogd
 物華天寶	tsfh
@@ -27078,7 +27078,7 @@
 招財進寶	amch
 飛蛾撲火	evam
 浩氣長存	iwrs
-一星半點	
+一星半點	fjqv
 人神共憤	rgsp
 旭日東昇	wjfj
 枯枝敗葉	ffms
@@ -27087,7 +27087,7 @@
 出人意表	xrlg
 流年不利	iwiv
 外柔内剛	uzcc
-回眸一笑	
+回眸一笑	dmfw
 柔情蜜意	zphl
 話中有話	uosu
 始亂終棄	lvpl
@@ -27124,9 +27124,9 @@
 驕兵必敗	jngm
 倉皇失措	rdwa
 不亢不卑	ilig
-一身是膽	
+一身是膽	fqjh
 人中之龍	rodl
-聰明一世	
+聰明一世	tjfg
 散户	shqk
 莎士比亞	sgif
 臣子	bckv
@@ -27410,7 +27410,7 @@
 斜紋	rfpx
 他媽的	eldh
 偷走	erry
-低人一等	
+低人一等	erfw
 領軍	rlpi
 今夜	rlle
 維吾爾	pffu
@@ -27437,7 +27437,7 @@
 放在	iesc
 説完	uqhf
 方始	irlk
-天下第一	
+天下第一	fbwf
 本來面目	felm
 己所不欲	aqiu
 感激不盡	yiix
@@ -27489,7 +27489,7 @@
 安安靜靜	hhgg
 白鴿	dsrt
 長長	rara
-告一段落	
+告一段落	tfes
 身着	qnum
 冷冷	yryr
 好球	lkmf
@@ -27501,7 +27501,7 @@
 威尼斯	ybxn
 動力學	zwhz
 規章制度	dlty
-一致性	
+一致性	fhpe
 玻璃杯	mmfi
 刺激性	fipe
 更深	fjip
@@ -27531,7 +27531,7 @@
 年均	wagh
 申辦	pxlw
 跨國公司	bduv
-一家人	
+一家人	fhrw
 嚴打	ooaa
 合作社	regg
 生産資料	elyk
@@ -27912,7 +27912,7 @@
 次第	ynwn
 看不慣	yipr
 演藝	ihsg
-一家子	
+一家子	fhkv
 聚衆	tbwz
 水塘	vugy
 中路	ocbe
@@ -28045,7 +28045,7 @@
 風姿	ekyn
 高爾夫球	lfdm
 畏縮	nkph
-兀自	prmc
+兀自	pwmc
 掂量	ayjf
 改選	aeaa
 童工	lnyx
@@ -28097,7 +28097,7 @@
 構架	fswo
 約見	phmr
 對勁	pufy
-農舍	csrn
+農舍	csro
 上乘	kgvq
 五星	fjje
 犯不着	xium
@@ -28152,7 +28152,7 @@
 無垠	wsgp
 毋庸置疑	ryzi
 下蛋	bkvt
-一條心	
+一條心	fegv
 車行	ievj
 黑板報	vfgq
 直説	dmuq
@@ -28256,7 +28256,7 @@
 單幹	oodj
 統考	plgu
 衛國	vjdy
-一步到位	
+一步到位	fthe
 船身	xqqn
 失措	wdas
 除塵	zryg
@@ -28950,7 +28950,7 @@
 作梗	ewff
 大放異彩	tinv
 鬥氣	riwk
-風行一時	
+風行一時	evfj
 乾洗	djit
 冷宮	yrho
 盛譽	yvhu
@@ -28996,7 +28996,7 @@
 補益	nmqu
 參照物	kjth
 貂皮	odwu
-名噪一時	
+名噪一時	uofj
 驅邪	jkzz
 涮羊肉	iucr
 庸碌	yxdb
@@ -29077,7 +29077,7 @@
 師孃	gfll
 水門	vurm
 啞謎	ofuk
-一望無垠	
+一望無垠	fewg
 自討没趣	muir
 長生	raei
 底邊	yimh
@@ -29243,7 +29243,7 @@
 筆誤	wxuo
 截稿	dyvl
 金箍棒	swfe
-一語中的	
+一語中的	fuod
 支派	dbin
 喫不開	oirf
 大而無當	tlwk
@@ -29354,7 +29354,7 @@
 豆蔻	fosh
 花花腸子	sshk
 破戒	uwys
-棋高一着	
+棋高一着	flfu
 怵目驚心	pmsg
 煉乳	mfvk
 寥落	hqsi
@@ -29362,7 +29362,7 @@
 繞嘴	pgot
 提手	ajyg
 文員	xnom
-一時半刻	
+一時半刻	fjqd
 雲蒸霞蔚	cscs
 重巒疊嶂	zunj
 惠顧	igqc
@@ -29384,7 +29384,7 @@
 煩請	muug
 秘傳	vgei
 俠肝義膽	ehuh
-心口如一	
+心口如一	golf
 門派	rmin
 蹉跎歲月	bbth
 分子式	ukyy
@@ -29426,10 +29426,10 @@
 有則改之	smad
 綠草如茵	psls
 反躬自省	nqmk
-一面之緣	
+一面之緣	fldp
 如鯁在喉	ltso
 百年好合	uwlr
-虚晃一槍	
+虚晃一槍	kjff
 不徇私情	ivvp
 常勝將軍	khwp
 有勇有謀	sbsu
@@ -29440,7 +29440,7 @@
 此起彼落	trvs
 花紅柳綠	spfp
 等閒之輩	wrdw
-高出一籌	
+高出一籌	lxfw
 百年難遇	uwsv
 明修棧道	jefq
 淡然處之	ihkd
@@ -29448,7 +29448,7 @@
 天理難容	fmsh
 似水流年	eviw
 玉樹臨風	mfbe
-黃粱一夢	
+黃粱一夢	sifs
 逐鹿中原	eyok
 闖蕩江湖	rsii
 節哀順變	qleu
@@ -29472,7 +29472,7 @@
 陰曹地府	zsgy
 神思恍惚	gnpp
 士别三日	gouj
-一枕黃粱	
+一枕黃粱	ffsi
 形銷骨立	fsvl
 瞞上欺下	mkxb
 敬若神明	ssgj
@@ -29572,15 +29572,15 @@
 到貨	hxei
 天台	ftko
 再而三	mluw
-一而再	
+一而再	flmc
 天池	ftis
 亞歷山大	fkjt
 天狗	ftxh
 青石	ghut
 表舅	gwhn
 靚仔	ghek
-一號	
-一片	
+一號	fkou
+一片	fkwn
 正南	ftdc
 還好	zflk
 理學	mnhz
@@ -29674,7 +29674,7 @@
 較真	ildm
 輪到	irhx
 曲率	cslu
-週一	
+週一	hgfk
 贖回	mgdo
 同志們	cger
 貝爾	mofu
@@ -29881,7 +29881,7 @@
 雲南省	cdkw
 起到	rahx
 兩天曬網	ffjp
-一等奬	
+一等奬	fwwh
 洪都拉斯	igax
 波恩	iwdt
 海牙	iwzp
@@ -29903,7 +29903,7 @@
 毛主席	xlys
 進場	cdgj
 平平安安	nnhh
-死路一條	
+死路一條	fbfe
 再生父母	meur
 瞧瞧	mcmc
 混水摸魚	ivat
@@ -29930,9 +29930,9 @@
 大江	tjiy
 友誼賽	suhs
 教育局	glbv
-不一定	
+不一定	ifhf
 玻璃窗	mmhr
-整齊劃一	
+整齊劃一	flxf
 小燕子	kskv
 河南省	idkw
 湖南省	idkw
@@ -29956,7 +29956,7 @@
 組成部分	pylu
 鄉鎮企業	nsrp
 廢棄物	ylth
-一口	
+一口	fkoi
 招待會	avrf
 不下	ivbk
 信訪	euui
@@ -29968,7 +29968,7 @@
 國企	dyrt
 不已	ivao
 入世	sogn
-一眼	
+一眼	fkmp
 土司	givf
 股份制	hetc
 中等	ocwg
@@ -29981,7 +29981,7 @@
 女足	lcbn
 直升機	dwfu
 味兒	oshq
-如一	
+如一	lofk
 全長	rmra
 農機	csfu
 著作權	sefs
@@ -29995,7 +29995,7 @@
 足額	bnhe
 工傷	yxew
 公開賽	urhs
-一時間	
+一時間	fjrj
 網友	pcsb
 述職	fltl
 大計	tjud
@@ -30067,7 +30067,7 @@
 下頭	bkfo
 選區	aako
 預備役	zevq
-不一	
+不一	ivfk
 擊劍	ixrx
 見於	mrir
 班禪	mqgo
@@ -30081,7 +30081,7 @@
 惠及	igrl
 小册子	khkv
 重鎮	znsd
-一如	
+一如	fklo
 老祖宗	gghg
 觸目	pzmv
 萬象	svpo
@@ -30438,7 +30438,7 @@
 壯實	wghr
 重罰	znzu
 充溢	lkiq
-非同一般	
+非同一般	wcfx
 矮子	qvkv
 煙盒	mcrz
 冬小麥	ekee
@@ -31460,7 +31460,7 @@
 紗線	pkpd
 託夢	uwsz
 羞赧	usgu
-一定之規	
+一定之規	fhdd
 語感	ufyf
 寒衣	hslw
 畫舫	xgxi
@@ -31474,7 +31474,7 @@
 陰毒	zrgr
 滄海橫流	iifi
 精誠	kguy
-面目一新	
+面目一新	lmfl
 玄奧	lurw
 珠翠	mtqq
 阻抗	zmal
@@ -31502,7 +31502,7 @@
 首級	qmpr
 選錄	aasr
 藥棉	sdfd
-一表人才	
+一表人才	fgrj
 吊桶	orfb
 合照	rhjd
 狼瘡	xlyr
@@ -31649,7 +31649,7 @@
 頭油	foip
 比翼鳥	iqtm
 開快車	rpie
-亂作一團	
+亂作一團	vefd
 正比例	fief
 薄脆	sihp
 屎殼郎	bglx
@@ -31673,11 +31673,11 @@
 色魔	payg
 桃仁	fqey
 徒孫	vrkw
-一觸卽潰	
+一觸卽潰	fpdi
 煅燒	memg
 絶色	pppa
 窮極無聊	hfwt
-一片冰心	
+一片冰心	fwyg
 勇冠三軍	bpup
 冰肌玉骨	yhmv
 回頭率	dflu
@@ -31706,11 +31706,11 @@
 綠水青山	pvgj
 絮絮叨叨	lloo
 昏迷不醒	ikic
-一以貫之	
+一以貫之	ferd
 追根溯源	gfii
 八方支援	uida
 喃喃自語	oomu
-一己之私	
+一己之私	fadv
 見不得人	mivr
 獲益匪淺	xqki
 百年之後	uwdv
@@ -31735,13 +31735,13 @@
 圖財害命	dmhr
 罪責難逃	zgsq
 金無足赤	swbg
-一柱擎天	
+一柱擎天	ffsf
 王侯將相	mewf
 黃粱美夢	sius
 離題萬里	xjsn
 法力無邊	iwwm
 生拉硬扯	eaua
-心口不一	
+心口不一	goif
 血債累累	wenn
 逝者如斯	aglx
 綠林好漢	pfli
@@ -31749,7 +31749,7 @@
 耳根清淨	tfii
 班師回朝	mgdd
 俯首聽命	eqtr
-一曝十寒	
+一曝十寒	fjdh
 蠶食鯨吞	kqtf
 美人遲暮	urbs
 環肥燕瘦	mhsy
@@ -31761,7 +31761,7 @@
 風中之燭	eodm
 肉眼凡胎	cmqh
 豺狼當道	oxkq
-一無可取	
+一無可取	fwat
 悔之不及	pdir
 出没無常	xiwk
 授受不親	avil
@@ -31866,13 +31866,13 @@
 天府	ftye
 曹雪芹	scsn
 玩法	mfig
-一幕	
-一萬	
+一幕	fksj
+一萬	fksv
 五四	fjdq
-一批	
+一批	fkai
 理事長	mjra
-一次	
-一段	
+一次	fkyn
+一段	fkeu
 下線	bkpd
 不難	ivsf
 不到	ivhx
@@ -32197,7 +32197,7 @@
 磨磨蹭蹭	yybb
 廣島	ystj
 言詞	uiuv
-一年一度	
+一年一度	fwfy
 茁壯成長	swyr
 彌留之際	nidz
 有利有弊	svsq
@@ -32205,13 +32205,13 @@
 久别重逢	poze
 興趣盎然	hrch
 浪跡天涯	ibfi
-振臂一呼	
+振臂一呼	abfo
 不留餘地	iiqg
 欲加之罪	uwdz
 種瓜得瓜	vvvv
 尺有所短	bsqq
 故作高深	beli
-一言旣出	
+一言旣出	fudx
 哭天喊地	ofog
 神色自若	gpms
 大發慈悲	tbqw
@@ -32276,7 +32276,7 @@
 腦力勞動	hwmz
 走到	ryhx
 真身	dmqn
-一氣	
+一氣	fkwk
 不久前	ipqh
 水泡	vuih
 少年兒童	kwhl
@@ -32318,7 +32318,7 @@
 報告會	gtrf
 轄區	ihko
 市裏	lrln
-一點兒	
+一點兒	fvhq
 城市化	glei
 知識産權	qulf
 禁毒	ffgr
@@ -32328,7 +32328,7 @@
 企業界	rpnr
 頭兒	fohq
 大夥兒	tjhq
-一回事	
+一回事	fdjo
 議定書	uhxg
 核電	fdcp
 防汛	ziiv
@@ -32348,7 +32348,7 @@
 擁軍	alpi
 珠峰	mtje
 央行	ctvj
-一整套	
+一整套	fftr
 全球性	rmpe
 交易會	ljrf
 談及	umrl
@@ -32412,7 +32412,7 @@
 王室	mehh
 截住	dyel
 持槍	agfr
-一瞥	
+一瞥	fkqr
 不祥	ivgu
 中小型	okfs
 陪審員	zhom
@@ -32443,7 +32443,7 @@
 評介	unru
 帝制	lqtc
 後背	vuqi
-一色	
+一色	fkpa
 諸君	ugxw
 人治	rwik
 分校	udfl
@@ -32477,7 +32477,7 @@
 築路	wybe
 足見	bnmr
 大敗	tjme
-一聲不響	
+一聲不響	fgin
 院牆	zhwg
 作協	ewdw
 出欄	xxfr
@@ -32591,7 +32591,7 @@
 手跡	ygbr
 黑洞洞	viic
 掃清	axig
-房舍	qirn
+房舍	qiro
 妓院	ldzh
 金髮	sjrs
 原始社會	klgr
@@ -32727,7 +32727,7 @@
 過眼	ldmp
 人氏	rwia
 聲威	gbyf
-一盤棋	
+一盤棋	fxfx
 自刎	mchs
 初六	ndlu
 焦黃	cmsy
@@ -32808,7 +32808,7 @@
 凸出	cfxx
 巷口	suoi
 雪水	cxvu
-一邊倒	
+一邊倒	fmeh
 皈依	dnel
 生疑	eiiq
 飯鋪	qnsm
@@ -32957,7 +32957,7 @@
 佈設	esuq
 後撤	vual
 進貢	cdym
-一把抓	
+一把抓	faav
 包工	hayx
 報界	gqnr
 本心	ffgv
@@ -33255,7 +33255,7 @@
 暈厥	jpkq
 至誠	hcuy
 採辦	avlw
-劃一	
+劃一	xgfk
 受戒	vpys
 艶福	csgf
 憂憤	uhpd
@@ -33584,7 +33584,7 @@
 高徒	lvvr
 巨擘	kbbo
 葉輪	sgir
-以一當十	
+以一當十	efkd
 扎堆	aegc
 暗喜	jlgo
 初雪	ndcx
@@ -33672,7 +33672,7 @@
 逃課	qyuj
 頭寸	foai
 壓陣	kjzi
-一無所得	
+一無所得	fwqv
 口服心服	ohgh
 噴濺	odim
 青春痘	geyf
@@ -33770,7 +33770,7 @@
 口譯	oiuz
 奎寧	tghg
 晚班	jpmq
-一脉相傳	
+一脉相傳	fhfe
 園圃	dgdm
 擇善而從	aulv
 長袖善舞	rnuw
@@ -33925,7 +33925,7 @@
 童子雞	lkvu
 微末	vfsm
 織補	plnm
-别樹一幟	
+别樹一幟	offr
 瞌睡蟲	mmvv
 片酬	wnci
 聲卡	gbkj
@@ -33944,16 +33944,16 @@
 天上人間	fkrr
 舊病復發	syvb
 得意之作	vlde
-一線生機	
+一線生機	fpef
 禮儀之邦	gedc
-千人一面	
+千人一面	zrfl
 枯燥無味	fmwo
 民富國強	ahdn
 晚節不保	jqie
 自身難保	mqse
-罪加一等	
+罪加一等	zwfw
 授人以柄	aref
-一鼻子灰	
+一鼻子灰	fmks
 箇中滋味	woio
 九泉之下	wddb
 光陰荏苒	kzss
@@ -33991,7 +33991,7 @@
 淺斟低唱	ixeo
 工黨	yxkv
 基隆	xgze
-其一	
+其一	xifk
 惹火	ssms
 菜籃	svwb
 蕪湖	swib
@@ -34024,7 +34024,7 @@
 院方	zhir
 陳獨秀	zxvr
 陝西省	zckw
-孤身一人	
+孤身一人	kqfr
 聯大	tutj
 除數	zrod
 防爆	zimj
@@ -34051,7 +34051,7 @@
 布什	sred
 佈線	espd
 成龍	yvlh
-春宵一刻	
+春宵一刻	ehfd
 達官	guhb
 大魚大肉	tttc
 古希臘	bzhy
@@ -34112,14 +34112,14 @@
 開燈	rfmb
 天晴	ftjg
 天門	ftrm
-一堆	
-一則	
-一千	
-一種	
-一群	
-一絲	
-一遍	
-一説	
+一堆	fkgc
+一則	fkmx
+一千	fkzo
+一種	fkvz
+一群	fkxw
+一絲	fkpp
+一遍	fkql
+一説	fkuq
 正切	ftad
 丐幫	bfgg
 下盤	bkxq
@@ -34136,12 +34136,12 @@
 刺穿	fchz
 開發商	rblq
 來者	ejgj
-一年級	
+一年級	fwpr
 平頂山	naje
 不復存在	ivss
-一番話	
+一番話	fwuo
 平白	nqds
-一個個	
+一個個	feed
 互聯	frtu
 毒酒	gric
 皮草	wusj
@@ -34547,7 +34547,7 @@
 常委會	kvrf
 明道	jhqm
 日喀則	jomx
-另一個	
+另一個	ofed
 中國隊	odzq
 嗜殺成性	ozyp
 肉彈	crno
@@ -34638,7 +34638,7 @@
 黨建	kvxa
 再就業	mlpu
 大幅	tjrf
-七一	
+七一	akfk
 反恐	nbyq
 理事會	mjrf
 禽流感	riyf
@@ -35009,7 +35009,7 @@
 祭文	hgxn
 動漫	znij
 製成品	tyoo
-空無一人	
+空無一人	hwfr
 立憲	luhc
 默唸	vxor
 鐵打	sdaa
@@ -35066,7 +35066,7 @@
 無際	wszh
 探礦	apuy
 無物	wsth
-一轉眼	
+一轉眼	fimp
 乾淨利落	divs
 課間	ujrj
 吊裝	orwg
@@ -35372,7 +35372,7 @@
 強渡	nkiy
 上鎖	kgsk
 倜儻	ehek
-一專多能	
+一專多能	fiuk
 軋鋼	iesc
 自娛自樂	mlmd
 步態	tkkh
@@ -35550,7 +35550,7 @@
 定規	hfdm
 短平快	qnpb
 分册	udhh
-技高一籌	
+技高一籌	alfw
 屍檢	bffr
 閉鎖	rjsk
 磁極	uqfk
@@ -35979,7 +35979,7 @@
 紅運	pypi
 淨重	ivzn
 空載	hydy
-略見一斑	
+略見一斑	nmfm
 脉象	hlpo
 姘居	lqbb
 香波	vjiw
@@ -36123,9 +36123,9 @@
 函購	vvms
 黏性	vrpe
 憨態可掬	vkaa
-一字一句	
+一字一句	fhfh
 頭痛醫頭	fykf
-一問三不知	
+一問三不知	fruq
 養老送終	qgqp
 頭暈眼花	fjms
 開國元勳	rdfz
@@ -36138,7 +36138,7 @@
 笑口常開	wokr
 身體髮膚	qvrk
 山高水長	jlvr
-稍遜一籌	
+稍遜一籌	vkfw
 降格以求	zfef
 風俗人情	eerp
 以身殉國	eqfd
@@ -36162,9 +36162,9 @@
 刀槍劍戟	dfrd
 親如手足	llyb
 歸根結蒂	gfps
-一日不見	
+一日不見	fjim
 豁達大度	hgty
-君子一言	
+君子一言	xkfu
 死不足惜	fibp
 太平盛世	tnyg
 峨冠博帶	jpds
@@ -36299,12 +36299,12 @@
 弄到	mshx
 開班	rfmq
 天波	ftiw
-一百	
-一團	
-一類	
-一條	
-一例	
-一統	
+一百	fkuj
+一團	fkdi
+一類	fkkx
+一條	fkec
+一例	fkef
+一統	fkpl
 下毒	bkgr
 下屆	bkbg
 下單	bkoo
@@ -36327,7 +36327,7 @@
 不定期	ihxh
 不可能	iakh
 互爲因果	fvdj
-一夜之間	
+一夜之間	fldr
 頗有	wush
 止咳	tkod
 卡鉗	kjss
@@ -36341,7 +36341,7 @@
 遊戲人間	ikrr
 源碼	ikuj
 活脱脱	ihhq
-洗劫一空	
+洗劫一空	igfh
 淺黃	iysy
 小不點兒	kivh
 淺水	iyvu
@@ -36765,7 +36765,7 @@
 愛民如子	valk
 江東父老	ifug
 君子好逑	xklf
-一着不慎	
+一着不慎	fuip
 不分勝負	iuhp
 人生如夢	rels
 有頭無尾	sfwb
@@ -36785,21 +36785,21 @@
 藥廠	sdyk
 阿基米德	zxkv
 阿波羅	zizp
-有一天	
+有一天	sfft
 克格勃	bfdp
-三分之一	
+三分之一	uudf
 博茨瓦納	dsup
 雲開見日	crmj
 五大洲	ftii
-一路上	
-一代風流	
+一路上	fbkg
+一代風流	feei
 上列	kgfu
 法拉	igal
 小商	kjlq
 浙江省	iikw
 曼德拉	jval
 足球隊	bmzq
-喫一塹	
+喫一塹	ofin
 國際主義	dzlu
 加農炮	wcmh
 燒着	mgum
@@ -36865,10 +36865,10 @@
 需求量	cfjf
 不對勁	ipfy
 環境污染	mgii
-一點點	
+一點點	fvvj
 帶上	sfkg
 珠穆朗瑪	mvlm
-一個勁	
+一個勁	fefy
 滿腔熱情	ihgp
 海洋生物	iiet
 清晰度	ijys
@@ -36903,7 +36903,7 @@
 爲數不多	voiu
 高等院校	lwzf
 有的	shdh
-一日	
+一日	fkjk
 發展中國家	bboh
 小孩兒	kkhq
 税費	vqnu
@@ -36915,7 +36915,7 @@
 中醫藥	oksd
 綜合國力	prdw
 離退休	xpef
-下一步	
+下一步	bftk
 怕是	pdjf
 數字化	ohei
 增值税	gevq
@@ -36927,7 +36927,7 @@
 幹群	djxw
 大奬賽	twhs
 總收入	pxso
-下一代	
+下一代	bfey
 沙塵暴	iyjs
 中巴	ocaj
 上將	kgwh
@@ -37170,7 +37170,7 @@
 莊稼地	svgs
 乘隙	vqzk
 堪憂	gxuh
-一準	
+一準	fkic
 救亡	fvem
 幼時	uwjg
 透頂	vrau
@@ -37333,7 +37333,7 @@
 海鹽	iwbw
 嘶鳴	oxot
 外史	ujoz
-一般化	
+一般化	fxei
 飽覽	qhbw
 幻夢	uvsz
 那麽些	vyti
@@ -37345,7 +37345,7 @@
 鹽池	bwis
 正點	ftvj
 高小	lvkj
-老一套	
+老一套	gftr
 昏黑	iavh
 亂麻	vbyc
 塑性	qxpe
@@ -37371,7 +37371,7 @@
 香燭	vjmz
 依傍	elel
 車組	iepm
-村舍	farn
+村舍	faro
 紅土	pygi
 夷爲平地	tvng
 遠房	goqi
@@ -37604,7 +37604,7 @@
 帽檐	rcfp
 俗名	euuo
 完勝	hfhq
-一頭霧水	
+一頭霧水	ffcv
 置信	zdeu
 後孃	vull
 狂怒	xmlb
@@ -37710,7 +37710,7 @@
 指示燈	agmb
 暗道	jlqm
 純然	pahx
-合二爲一	
+合二爲一	ryvf
 毛蟲	xevv
 挑夫	aqdw
 感恩節	ydqe
@@ -38038,7 +38038,7 @@
 遊學	iwhz
 編年體	pwvc
 病案	yfhl
-反咬一口	
+反咬一口	nofo
 冷櫃	yrfk
 盤曲	xqcs
 洗染	itiw
@@ -38199,7 +38199,7 @@
 面洽	ltir
 尾骨	bxvo
 藥皂	sdda
-一孔之見	
+一孔之見	fkdm
 暫用	inzu
 折戟沉沙	adii
 參量	kkjf
@@ -38262,11 +38262,11 @@
 回車鍵	disx
 舊調重彈	suzn
 腋臭	hlmx
-惟一	
-更上一層樓	
+惟一	pcfk
+更上一層樓	fkff
 乘勝追擊	vhgi
 衣衫襤褸	lnnn
-一笑了之	
+一笑了之	fwkd
 知易行難	qjvs
 桃李滿天下	ffib
 混淆是非	iijw
@@ -38461,18 +38461,18 @@
 表兄	gwoq
 玩過	mfld
 不刊之論	indu
-一隅	
-一對	
-一款	
+一隅	fkzv
+一對	fkpu
+一款	fkgg
 五十	fjdi
-一場	
-一無	
-一步	
-一回	
-一週	
-一門	
-一夥	
-一份	
+一場	fkgj
+一無	fkws
+一步	fktk
+一回	fkdo
+一週	fkhg
+一門	fkrm
+一夥	fkjf
+一份	fkeu
 正北	ftqi
 正像	ftep
 不遠	ivgo
@@ -38496,7 +38496,7 @@
 王安石	mhut
 殘聯	futu
 兩相情願	ffpk
-一枝獨秀	
+一枝獨秀	ffxv
 理想主義	mflu
 麥加	eewo
 平頂	nqau
@@ -38803,7 +38803,7 @@
 得不到	vihx
 重罪	znzw
 自帶	mcsf
-千慮一失	
+千慮一失	zkfw
 自編	mcpq
 稍有	vksh
 血淚史	wioz
@@ -38844,7 +38844,7 @@
 意志力	lgwl
 裝入	wgso
 美眉	utbm
-新一代	
+新一代	lfey
 冰水	yvvu
 冰柱	yvfl
 單擊	ooix
@@ -38992,12 +38992,12 @@
 庸庸碌碌	yydd
 相貌堂堂	fokk
 風吹浪打	eoia
-獨霸一方	
+獨霸一方	xcfi
 求仁得仁	feve
 人爲財死	rvmf
 千門萬户	zrsq
 不吝賜教	ixmg
-只知其一	
+只知其一	oqxf
 言出法隨	uxiz
 巫山雲雨	yjcc
 瓦釜雷鳴	uuco
@@ -39064,7 +39064,7 @@
 起程	ravo
 南沙	dcik
 天罡	ftzf
-一發	
+一發	fkbn
 天時地利	fjgv
 殘障	fuzl
 戰神	oogp
@@ -39098,7 +39098,7 @@
 好走	lkry
 郡主	xwlm
 會不會	rirf
-舍利	rnvx
+舍利	rovx
 保質	eonn
 仙桃	ejfq
 坐在	rrsc
@@ -39121,7 +39121,7 @@
 嘉慶	goyv
 表達式	ggyy
 五臟俱全	fher
-一聲令下	
+一聲令下	fgrb
 副主席	flys
 卡住	kjel
 涉水	itvu
@@ -39168,14 +39168,14 @@
 設計者	uugj
 碼表	ujgw
 領導班子	rqmk
-一方	
+一方	fkir
 女孩兒	lkhq
-一體化	
+一體化	fvei
 國家隊	dhzq
 向着	rsum
 多項	uuyu
 不絶	ivpp
-一新	
+一新	fklf
 團中央	doct
 小將	kjwh
 洽談會	iurf
@@ -39279,7 +39279,7 @@
 採暖	avjv
 屯兵	axnf
 鋭意進取	slct
-一個勁兒	
+一個勁兒	fefh
 換位	apel
 田頭	nefo
 疏於	vtir
@@ -39430,7 +39430,7 @@
 肉製品	ctoo
 油庫	ipyi
 諦聽	ultm
-無一例外	
+無一例外	wfeu
 胸悶	hhrg
 玳瑁	memc
 統管	plwh
@@ -39685,7 +39685,7 @@
 書案	xghl
 威儀	yfeu
 吸熱	orgu
-銷售一空	
+銷售一空	scfh
 綽約	pjph
 名茶	uosr
 熱心腸	gghj
@@ -39813,7 +39813,7 @@
 牌價	wgec
 收羅	xezp
 田鼠	neho
-一鍋粥	
+一鍋粥	fsnk
 有喜	shgo
 字彙	hkrp
 電賀	cpwo
@@ -39867,7 +39867,7 @@
 豈知	jfqo
 氣息奄奄	wmtt
 勸誡	souy
-日甚一日	
+日甚一日	jxfj
 雙柺	ccfo
 印信	ifeu
 飛散	eosh
@@ -39888,7 +39888,7 @@
 刊印	nxif
 滿門	isrm
 奇麗	tafc
-天人合一	
+天人合一	frrf
 通例	bzef
 蕪雜	swlr
 錫礦	sjuy
@@ -40050,7 +40050,7 @@
 收服	xehx
 疏解	vtpz
 校歌	flao
-一吐爲快	
+一吐爲快	fovp
 依此類推	etka
 月半	hrqa
 怔忡	pfpo
@@ -40446,7 +40446,7 @@
 加官進爵	whcv
 山摇地動	jagz
 垂手可得	zyav
-略高一籌	
+略高一籌	nlfw
 打鐵趁熱	asrg
 人心叵測	rgki
 翩翩公子	qquk
@@ -40623,7 +40623,7 @@
 零活	crio
 動彈不得	zniv
 開解	rfpz
-一陣陣	
+一陣陣	fzzi
 到校	hxfl
 天成	ftyv
 天朝	ftdj
@@ -40633,16 +40633,16 @@
 靜音	ghlj
 表語	gwuf
 王者	megj
-一頓	
-一顆	
-一圈	
-一曲	
-一朶	
-一枚	
-一根	
-一篇	
-一張	
-一夜	
+一頓	fkax
+一顆	fkjf
+一圈	fkdq
+一曲	fkcs
+一朶	fkrf
+一枚	fkfe
+一根	fkfp
+一篇	fkwq
+一張	fknr
+一夜	fkle
 下院	bkzh
 還能	zfkh
 還需	zfcl
@@ -40662,8 +40662,8 @@
 兩情相悦	fpfp
 死光	fukp
 死别	fuow
-一等功	
-一條街	
+一等功	fwyw
+一條街	fevg
 天道酬勤	fqcr
 事關重大	jrzt
 妻女	dxlc
@@ -40676,7 +40676,7 @@
 彪炳	ksmf
 瞞着	msum
 虚像	kpep
-此一時	
+此一時	tfjg
 卡特	kjtg
 督撫	kkaw
 舊版	scwn
@@ -41178,7 +41178,7 @@
 旅順	iweu
 放熱	iegu
 席捲天下	yafb
-席捲一空	
+席捲一空	yafh
 廉頗	yqwu
 唐宋	yxhf
 良善	lpuq
@@ -41227,7 +41227,7 @@
 名繮利鎖	upvs
 明眸善睞	jmum
 大仁大義	tetu
-稍勝一籌	
+稍勝一籌	vhfw
 輕裝簡從	iwwv
 上天無路	kfwb
 識途老馬	urgj
@@ -41252,7 +41252,7 @@
 至死不悟	hfip
 珍珠港	mmis
 王明	mejh
-一等	
+一等	fkwg
 不在	ivsc
 亞特蘭大	ftst
 頗受	wuvp
@@ -41260,7 +41260,7 @@
 流到	ilhx
 里斯本	nxff
 昆明市	jjlr
-另一種	
+另一種	ofvz
 叫作	oxew
 羅布泊	zsid
 國光	dykp
@@ -41273,7 +41273,7 @@
 哥本哈根	afof
 奧斯陸	rxzg
 闖過	rjld
-頭一回	
+頭一回	ffdo
 交淺言深	liui
 鼠肚雞腸	hhvh
 娛樂性	ldpe
@@ -41391,7 +41391,7 @@
 相對濕度	fpiy
 槪率論	flur
 甜甜	osos
-長一智	
+長一智	rfqo
 生意人	elrw
 知識庫	quyi
 交通費	lbnu
@@ -41426,7 +41426,7 @@
 在學	schz
 電子商務	cklz
 獨聯體	xtvc
-一二	
+一二	fkyr
 伊斯蘭堡	exse
 黃金週	sshg
 家家	hehe
@@ -41464,7 +41464,7 @@
 淨增	ivgq
 首發式	qbyy
 心甘	gvsy
-一朝	
+一朝	fkdj
 育才	lkjw
 躬身	qnqn
 義診	uwur
@@ -41582,7 +41582,7 @@
 筆談	wxum
 菌種	sdvz
 手抄	ygak
-一斑	
+一斑	fkmx
 殘雪	fucx
 太廟	tlyd
 選種	aavz
@@ -41732,7 +41732,7 @@
 還願	zfkd
 火情	mspg
 没底	iqyi
-一霎	
+一霎	fkcl
 煤渣	msif
 追根	gdfp
 低産	eilw
@@ -41790,7 +41790,7 @@
 欣悦	nnpq
 插播	azaw
 處治	keik
-大一統	
+大一統	tfpl
 有戲	shkf
 圓場	dogj
 植物人	ftrw
@@ -42065,7 +42065,7 @@
 繼電器	pcoo
 陪送	zlqt
 尾翼	bxqq
-自成一體	
+自成一體	myfv
 吹鬍子瞪眼	orkm
 各奔前程	etqv
 故紙堆	bpgc
@@ -42279,7 +42279,7 @@
 落英	sisc
 排毒	awgr
 清平	ignq
-同出一轍	
+同出一轍	cxfi
 無名之輩	wudw
 斜角	rfpz
 飆車	xxie
@@ -42410,7 +42410,7 @@
 淫褻	ivlg
 英年	scwa
 報站	gqlj
-懲一儆百	
+懲一儆百	vfeu
 穿鑿附會	hpzr
 肥膩	hahy
 叫陣	oxzi
@@ -42543,7 +42543,7 @@
 馬祖	jrgm
 馬可波羅	jaiz
 難辭其咎	svxe
-難得一見	
+難得一見	svfm
 難易	sfjh
 騙得	jqvj
 達芬奇	gsta
@@ -42651,21 +42651,21 @@
 開顱	rfkn
 弄好	mslk
 到過	hxld
-一大堆	
+一大堆	ftgc
 天尊	ftqc
 天女	ftlc
 青聯	ghtu
 玩轉	mfii
-一項	
-一臺	
-一幫	
-一輛	
-一輪	
-一審	
-一所	
-一會	
-一件	
-一分	
+一項	fkyu
+一臺	fkgo
+一幫	fkgg
+一輛	fkif
+一輪	fkir
+一審	fkhw
+一所	fkqn
+一會	fkrf
+一件	fket
+一分	fkud
 焉能	ftkh
 下拉	bkal
 還未	zfsk
@@ -42681,7 +42681,7 @@
 不育	ivlk
 還應	zfye
 更少	fjkw
-一時半會	
+一時半會	fjqr
 更低	fjei
 更應	fjye
 逼死	fofu
@@ -43010,7 +43010,7 @@
 操盤	aoxq
 擺上	azkg
 擺滿	azis
-搶購一空	
+搶購一空	amfh
 所願	qnkd
 所需	qncl
 按此	ahti
@@ -43076,10 +43076,10 @@
 敵害	lqhc
 船上	xqkg
 租車	vmie
-千載一時	
+千載一時	zdfj
 先見	tqmr
 等第	wgwn
-千慮一得	
+千慮一得	zkfv
 自知	mcqo
 稍大	vktj
 血濃於水	wiiv
@@ -43197,8 +43197,8 @@
 似曾	eeqj
 追償	gdek
 低齡	eiwr
-人手一册	
-值得一提	
+人手一册	ryfh
+值得一提	evfa
 分場	udgj
 分錢	udsy
 分體	udvc
@@ -43268,11 +43268,11 @@
 説文解字	uxph
 走走	ryry
 毫不動摇	liza
-一去不復返	
+一去不復返	fgin
 傷痕累累	eynn
 讚歎不已	usia
 心無旁騖	gwlz
-一覽無遺	
+一覽無遺	fbwo
 戮力同心	qwcg
 有錢有勢	sssg
 血光之災	wkdy
@@ -43548,7 +43548,7 @@
 看熱鬧	ygrl
 團體賽	dvhs
 僑眷	ecqd
-一般來説	
+一般來説	fxeu
 以期	elxh
 齊抓共管	lasw
 年産值	wled
@@ -43703,7 +43703,7 @@
 絡腮鬍子	phrk
 筒子	wckv
 快餐店	pjyj
-一哄而起	
+一哄而起	folr
 瞞騙	msjq
 明膠	jhhq
 權當	fskn
@@ -43842,7 +43842,7 @@
 亞非拉	fwal
 精當	kgkn
 慎之又慎	pdbp
-一言堂	
+一言堂	fukg
 轉椅	iift
 内助	crmw
 蛆蟲	vmvv
@@ -44117,7 +44117,7 @@
 保命	eorx
 掉價	ajec
 寒星	hsje
-紅極一時	
+紅極一時	pffj
 祭竈	hghg
 評頭品足	ufob
 喫苦頭	osfo
@@ -44435,7 +44435,7 @@
 火拼	msaq
 塊根	ggfp
 硼砂	uhuk
-舒爽	rntz
+舒爽	rotz
 死棋	fufx
 小影	kjjl
 影帝	jllq
@@ -44510,7 +44510,7 @@
 手寫體	yhvc
 萬能膠	skhq
 小别	kjow
-一鍋端	
+一鍋端	fslj
 倒彩	ehvf
 倒果爲因	ejvd
 狼牙棒	xzfe
@@ -44742,7 +44742,7 @@
 封神	gggp
 填好	gdlk
 乾柴	djti
-老一代	
+老一代	gfey
 起腳	rahu
 超聲	rdgb
 赴美	rjut
@@ -44785,22 +44785,22 @@
 不大不小	itik
 天頂	ftau
 天譴	ftuo
-更勝一籌	
+更勝一籌	fhfw
 青蛇	ghvh
 靜安	ghhl
 於此	irti
 玩伴	mfeq
-一雙	
-一天天	
-一列	
+一雙	fkcc
+一天天	ffft
+一列	fkfu
 五内	fjcr
-一層	
-一屆	
-一句	
-一排	
-一介	
+一層	fkbq
+一屆	fkbg
+一句	fkho
+一排	fkaw
+一介	fkru
 王維	mepc
-一語	
+一語	fkuf
 正對	ftpu
 下標	bkfc
 不苟	ivsh
@@ -44810,7 +44810,7 @@
 還將	zfwh
 不做	iveb
 不義	ivuw
-一日三餐	
+一日三餐	fjuj
 更遠	fjgo
 更具	fjmu
 更顯	fjju
@@ -45020,7 +45020,7 @@
 屋樑	bhfi
 飛來飛去	eeeg
 悟空	pfhy
-屋舍	bhrn
+屋舍	bhro
 懷化	plei
 屋主	bhlm
 情變	pgup
@@ -45040,7 +45040,7 @@
 收費站	xnlj
 心經	gvpf
 烤焦	mgcm
-精舍	kgrn
+精舍	kgro
 煙燻	mcmz
 火控	msah
 炸雞	mwvu
@@ -45329,7 +45329,7 @@
 那篇	vawq
 那件	vaet
 女士們	lger
-退一步	
+退一步	pftk
 剝去	rvgk
 如花	lose
 邵陽	dozj
@@ -45445,12 +45445,12 @@
 不可忽視	iahg
 公平合理	unrm
 摸不着頭腦	aiuh
-一針一線	
+一針一線	fsfp
 諄諄教導	uugq
 爲國爲民	vdva
 寥寥可數	hhao
 男女有别	nlso
-魔高一尺	
+魔高一尺	ylfb
 功名利祿	yuvg
 國難當頭	dskf
 自甘墮落	mszs
@@ -45472,9 +45472,9 @@
 鼎足而立	mbll
 拆東補西	afnc
 寬宏大度	hhty
-一無所長	
+一無所長	fwqr
 詩中有畫	uosx
-千金一諾	
+千金一諾	zsfu
 口出不遜	oxik
 如坐春風	lree
 母以子貴	reko
@@ -45512,14 +45512,14 @@
 三分球	uumf
 萬縷千絲	spzp
 丈母	slru
-用兵一時	
+用兵一時	znfj
 無厘頭	wkfo
 二十世紀	ydgp
 開過	rfld
 丙烯	fcmz
 不愧爲	ipvj
 五筆字型	fwhf
-不經一事	
+不經一事	ipfj
 眼不見	mimr
 卡拉奇	kata
 濟南市	idlr
@@ -45587,12 +45587,12 @@
 南平	dcnq
 過少	ldkw
 邢臺	fsgo
-一聲不吭	
+一聲不吭	fgio
 琅琅上口	mmko
-一本	
+一本	fkff
 正則	ftmx
 晉中	fkoc
-一般而言	
+一般而言	fxlu
 此等	tiwg
 淅淅瀝瀝	iiii
 洞窟	ichb
@@ -45688,7 +45688,7 @@
 吞下	ftbk
 不確定	iuhf
 五萬	fjsv
-一封	
+一封	fkgg
 歪歪斜斜	iirr
 正弦	ftnl
 不均	ivgh
@@ -45782,7 +45782,7 @@
 份兒	euhq
 出口額	xohe
 不意	ivlj
-一肚子	
+一肚子	fhkv
 多發	uubn
 政府軍	fypi
 轉制	iitc
@@ -46052,7 +46052,7 @@
 史略	ozne
 數罪併罰	ozez
 吐絲	ogpp
-不管三七二十一	
+不管三七二十一	iwuf
 打尖	aakt
 鉅製	sktc
 詩興	ughc
@@ -46373,7 +46373,7 @@
 好臉	lkhr
 内窺鏡	chsl
 生漆	eiif
-田舍	nern
+田舍	nero
 把盞	aayy
 滚翻	ilwk
 旱鴨子	jnkv
@@ -46524,7 +46524,7 @@
 排風扇	aeqq
 沙金	iksj
 水碾	vuub
-一棍子打死	
+一棍子打死	ffkf
 疑陣	iqzi
 斧正	uzft
 喉炎	oemm
@@ -46637,7 +46637,7 @@
 福地洞天	ggif
 言必有據	ugsa
 工部	yxlo
-戎馬一生	
+戎馬一生	yjfe
 惹怒	sslb
 某時	syjg
 某家	syhe
@@ -46821,28 +46821,28 @@
 武威	fyyf
 弄得	msvj
 刑部	fslo
-一對一	
+一對一	fpfk
 不在此列	istf
 天眼	ftmp
 天極	ftfk
-一大群	
+一大群	ftxw
 青煙	ghmc
 青衫	ghns
 玩出	mfxx
 球杆	mffn
-一碗	
-一腳	
-一股	
-一臉	
-一支	
-一擊	
-一睹	
+一碗	fkuh
+一腳	fkhu
+一股	fkhq
+一臉	fkhr
+一支	fkdb
+一擊	fkix
+一睹	fkmg
 五湖	fjib
-一隻	
-一棵	
-一間	
-一座	
-一點也不	
+一隻	fkcb
+一棵	fkfj
+一間	fkrj
+一座	fkyr
+一點也不	fvsi
 正副	ftfo
 正想	ftfm
 理學院	mhzh
@@ -46877,7 +46877,7 @@
 平陽	nqzj
 平涼	nqil
 互幫	frgg
-一夜情	
+一夜情	flpg
 虎豹	kkoh
 虎皮	kkwu
 上院	kgzh
@@ -47047,7 +47047,7 @@
 情迷	pgkd
 屋角	bhpz
 以舊換新	esal
-驚鴻一瞥	
+驚鴻一瞥	sifq
 慢步	pjtk
 慢點	pjvj
 屍骨未寒	bvsh
@@ -47566,7 +47566,7 @@
 熬過	ghld
 五色繽紛	fppp
 環氧樹脂	mwfh
-一笑千金	
+一笑千金	fwzs
 歧路亡羊	tbeu
 小葉	kjsg
 法輪功	iiyw
@@ -47599,7 +47599,7 @@
 丁丑	ahsp
 本報訊	fguv
 德比	vdii
-第一步	
+第一步	wftk
 長沙市	rilr
 香澤	vjiz
 利空	vxhy
@@ -47658,7 +47658,7 @@
 韓愈	djrf
 韓信	djeu
 表頭	gwfo
-一聽	
+一聽	fktm
 帶入	sfso
 琳琅	mfml
 琉球	mlmf
@@ -47768,10 +47768,10 @@
 天師	ftgf
 不確定性	iuhp
 不及格	irfe
-一動	
+一動	fkzn
 天天向上	ffrk
-再一次	
-一步步	
+再一次	mfyn
+一步步	fttk
 還在	zfsc
 正常人	fkrw
 武則天	fmft
@@ -47833,8 +47833,8 @@
 機關幹部	frdl
 第三方	wuir
 管理學	wmhz
-第一名	
-每一個	
+第一名	wfuo
+每一個	wfed
 自定	mchf
 科學研究	vhuh
 復旦大學	vjth
@@ -47882,7 +47882,7 @@
 設計圖	uudo
 變廢爲寶	uyvh
 旅遊業	iipu
-五一	
+五一	fjfk
 農資	csyn
 文化大革命	xetr
 勁兒	fyhq
@@ -47969,7 +47969,7 @@
 火急	mspx
 塊兒	gghq
 守軍	hapi
-一眨眼	
+一眨眼	fmmp
 補交	nmlu
 竟自	ljmc
 師從	gfvr
@@ -48249,7 +48249,7 @@
 皮帽	wurc
 小百貨	kuei
 小頭	kjfo
-一飽眼福	
+一飽眼福	fqmg
 珠簾	mtwy
 膽道	hpqm
 電話簿	cuwi
@@ -48508,7 +48508,7 @@
 卵磷脂	iuhi
 密函	hgvv
 心中有鬼	gosg
-一筆抹殺	
+一筆抹殺	fwaz
 雨燕	cosf
 嘴甜	otos
 沖泡	ioih
@@ -48666,7 +48666,7 @@
 還本付息	zfem
 病急亂投醫	ypvk
 初生牛犢不怕虎	netk
-一個巴掌拍不響	
+一個巴掌拍不響	fean
 巧婦難爲無米之炊	ylsm
 照章辦事	jllj
 聞風而逃	relq
@@ -48865,15 +48865,15 @@
 天寒	fths
 珠三角	mupz
 表單	gwoo
-一式	
-一碟	
-一餐	
-一炮	
-一窩	
-一杯	
-一部	
+一式	fkyy
+一碟	fkug
+一餐	fkju
+一炮	fkmh
+一窩	fkhl
+一杯	fkfi
+一部	fklo
 事到如今	jhlr
-一位	
+一位	fkel
 下期	bkxh
 下腹	bkhw
 還須	zfsu
@@ -48883,7 +48883,7 @@
 不假	iveb
 更不	fjiv
 惠澤	igiz
-一日遊	
+一日遊	fjiw
 更早	fjja
 更定	fjhf
 更始	fjlk
@@ -48902,17 +48902,17 @@
 鰲頭	ghfo
 平衡點	nvvj
 平遥	nqvq
-一問一答	
+一問一答	frfw
 夾緊	trbb
 平躺	nqqk
-一代代	
+一代代	feey
 現代主義	melu
 互感	fryf
 互用	frzu
 死纏爛打	fpma
 毒針	grsd
 互生	frei
-一言半語	
+一言半語	fuqu
 眼藥水	msvu
 虎嘯	kkox
 盱眙	mfmk
@@ -49438,7 +49438,7 @@
 含蘊	rlsp
 偏光	eqkp
 領回	rldo
-終其一生	
+終其一生	pxfe
 彈藥庫	nsyi
 紅遍	pyql
 弘法	nkig
@@ -49504,7 +49504,7 @@
 兩隻	frcb
 笑道	wcqm
 鏗鏘有力	sssw
-一家老小	
+一家老小	fhgk
 大雨滂沱	tcii
 不捨晝夜	iaxl
 永無寧日	lwhj
@@ -49548,7 +49548,7 @@
 陸風	zgek
 陽線	zjpd
 阿詩瑪	zumj
-又一	
+又一	bjfk
 聖馬力諾	tjwu
 通到	bzhx
 對手戲	pykf
@@ -49570,12 +49570,12 @@
 獻辭	kfvb
 青工	ghyx
 天懸地隔	fmgz
-一幅	
+一幅	fkrf
 不渝	ivir
 棘輪	fcir
 瓦解冰消	upyi
-一般人	
-一瘸一拐	
+一般人	fxrw
+一瘸一拐	fyfa
 紫外光	tukp
 港股	ishq
 瀋陽市	izlr
@@ -49587,7 +49587,7 @@
 跑馬場	bjgj
 吳國	oedy
 聽不懂	tips
-另一半	
+另一半	ofqa
 中小	ockj
 别用	owzu
 吹過	onld
@@ -49762,16 +49762,16 @@
 放量	iejf
 説説笑笑	uuww
 藏在	sysc
-某一	
+某一	syfk
 基本國策	xfdw
 衛生廳	veyt
 出問題	xrjf
 階段性	zepe
-又一次	
+又一次	bfyn
 難懂	sfps
 大坑	tjgl
 有誰	shuc
-有一套	
+有一套	sftr
 石門	utrm
 有些人	strw
 石家莊市	uhsl
@@ -49801,7 +49801,7 @@
 開元	rffp
 開走	rfry
 不瞭解	impz
-一月份	
+一月份	fheu
 五月份	fheu
 來去匆匆	eghh
 玫瑰花	mmse
@@ -49987,7 +49987,7 @@
 建檔	xafk
 玉帶	mlsf
 默想	vxfm
-一骨碌	
+一骨碌	fvdb
 明人	jhrw
 有愧	shpg
 長程	ravo
@@ -50071,7 +50071,7 @@
 國貿	dyim
 山陰	jezr
 問責	rogm
-兀立	prlu
+兀立	pwlu
 殲滅戰	fioo
 拉肚子	ahkv
 悽惶	pdpd
@@ -50087,7 +50087,7 @@
 囚室	drhh
 田畝	neln
 拼爭	aqvx
-一言以蔽之	
+一言以蔽之	fued
 走形	ryfs
 追星族	gjiw
 作踐	ewby
@@ -50113,7 +50113,7 @@
 受屈	vpbx
 肥胖症	hhyf
 探親訪友	alus
-一丁點兒	
+一丁點兒	favh
 重拳	znqd
 機載	fudy
 流變	ilup
@@ -50137,7 +50137,7 @@
 上緊	kgbb
 男工	nwyx
 淅瀝	ifik
-一炮打響	
+一炮打響	fman
 照排	jdaw
 壁立	bolu
 再植	mcfd
@@ -50308,7 +50308,7 @@
 停駛	eljo
 脱繮	hqpf
 瓦刀	ukdk
-一失足成千古恨	
+一失足成千古恨	fwbp
 流俗	ileu
 細瓷	pnyn
 地峽	gsjt
@@ -50456,7 +50456,7 @@
 驅寒	jkhs
 相擾	fmau
 小炒	kjmk
-一物降一物	
+一物降一物	ftzt
 有聞必錄	srgs
 編派	pqin
 抽芽	apsz
@@ -50483,7 +50483,7 @@
 迴文	doxn
 藍鯨	sbtl
 纖柔	przw
-一碗水端平	
+一碗水端平	fuvn
 作死	ewfu
 陡變	zrup
 忌辰	agye
@@ -50516,7 +50516,7 @@
 試播	uyaw
 腥臊	hjho
 兄弟鬩牆	oqrw
-一無所能	
+一無所能	fwqk
 幽邃	juhq
 圓謊	dous
 廢品率	yolu
@@ -50529,7 +50529,7 @@
 額骨	hevo
 防澇	ziim
 幻燈機	umfu
-客舍	hern
+客舍	hero
 龍鬚麪	lree
 駑鈍	lbsa
 疲沓	ywvj
@@ -50610,7 +50610,7 @@
 隔行如隔山	zvlj
 悲從中來	wvoe
 拱手相讓	ayfu
-百密一疏	
+百密一疏	uhfv
 公正廉明	ufyj
 賊心不死	mgif
 妙語如珠	lulm
@@ -50620,7 +50620,7 @@
 寸草春暉	asej
 姦淫擄掠	liaa
 香車寶馬	vihj
-窺豹一斑	
+窺豹一斑	hofm
 載舟覆舟	dxcx
 恭敬不如從命	ssir
 天王老子	fmgk
@@ -50817,12 +50817,12 @@
 靜夜	ghle
 球膽	mfhp
 天下大事	fbtj
-一聲	
-一字	
-一秒	
-一縷	
+一聲	fkgb
+一字	fkhk
+一秒	fkvk
+一縷	fkpo
 下過	bkld
-一步之遥	
+一步之遥	ftdv
 下官	bkhb
 下拜	bkyf
 不進	ivcd
@@ -50943,7 +50943,7 @@
 口交	oilu
 喫喝嫖賭	oolm
 别無	owws
-另一	
+另一	owfk
 嚥下	osbk
 另闢	owrb
 吊起	orra
@@ -51222,7 +51222,7 @@
 奧拓	rwau
 秋霜	vmcf
 秋夜	vmle
-造福一方	
+造福一方	tgfi
 入室操戈	shay
 管住	whel
 移向	vurs
@@ -51390,7 +51390,7 @@
 讀研	uguf
 讀後	ugvu
 評戲	unkf
-談一談	
+談一談	ufum
 店長	yjra
 讓你	ulep
 麻婆豆腐	yify
@@ -51408,7 +51408,7 @@
 彎刀	updk
 底面	yilt
 褻玩	lgmf
-放手一搏	
+放手一搏	iyfa
 摩崖	yyjk
 劉禹錫	iwsj
 説清	uqig
@@ -51434,7 +51434,7 @@
 女中豪傑	lole
 眼不見爲淨	mimi
 色膽包天	phhf
-一介書生	
+一介書生	frxe
 五子登科	fkbv
 各取所長	etqr
 不在其位	isxe
@@ -51445,7 +51445,7 @@
 飽學之士	qhdg
 遺老遺少	ogok
 遲暮之年	bsdw
-一無所成	
+一無所成	fwqy
 相沿成習	fiyq
 筋疲力竭	wywl
 袒胸露背	nhcq
@@ -51487,7 +51487,7 @@
 在旁	sclq
 胡耀邦	bkcz
 而在	lesc
-三缺一	
+三缺一	uqfk
 在我看來	swye
 壓倒性	kepe
 三八線	uupd
@@ -51507,7 +51507,7 @@
 兩頰	frtr
 瓦爾	ukfu
 青島市	gtlr
-一片片	
+一片片	fwwn
 佔去	ejgk
 紫癜	tiyb
 漏壺	ibgp
@@ -51591,9 +51591,9 @@
 大嘴	tjot
 三甲	uwnf
 還行	zfvj
-大小不一	
+大小不一	tkif
 灰熊	smkh
-不讚一詞	
+不讚一詞	iufu
 泰州	evie
 太厚	tlkj
 太宗	tlhg
@@ -51772,8 +51772,8 @@
 青鳥	ghtm
 不堪重負	igzp
 班幹部	mdlo
-一趟	
-一副	
+一趟	fkrk
+一副	fkfo
 還不錯	ziss
 五分	fjud
 不厭	ivkj
@@ -51789,7 +51789,7 @@
 死海	fuiw
 死纏	fupy
 不合理	irmn
-虚驚一場	
+虚驚一場	ksfg
 漢王	isme
 法線	igpd
 小花	kjse
@@ -51835,7 +51835,7 @@
 艦長	xbra
 第二名	wyuo
 毛毛	xexe
-彼一時	
+彼一時	vfjg
 生活區	eiko
 各式	eoyy
 自找麻煩	maym
@@ -51852,7 +51852,7 @@
 送上	qtkg
 捲筒	aqwc
 差生	uyei
-前一段	
+前一段	qfeu
 競爭者	lvgj
 新年好	lwlk
 新産品	lloo
@@ -51861,7 +51861,7 @@
 那塊	vagg
 好運氣	lpwk
 那行	vavj
-那一天	
+那一天	vfft
 女同志	lcgg
 好得多	lvuu
 建設銀行	xusv
@@ -51890,7 +51890,7 @@
 講道理	uqmn
 箇中	wdoc
 民主集中制	alct
-一通	
+一通	fkbz
 集貿市場	cilg
 不復	ivvw
 準是	icjf
@@ -51922,7 +51922,7 @@
 注水	ilvu
 登頂	bfau
 皇親	dmlf
-第一産業	
+第一産業	wflp
 貼心人	mgrw
 克里姆林宮	bnlh
 圓臉	dohr
@@ -52246,7 +52246,7 @@
 停播	elaw
 俄羅斯族	ezxi
 合腳	rhhu
-留一手	
+留一手	ifyg
 陪牀	zlwf
 跳閘	bqrn
 下操	bkao
@@ -52444,7 +52444,7 @@
 叩見	oxmr
 棉絨	fdpy
 芡實	snhr
-一無所求	
+一無所求	fwqf
 躱讓	qrul
 返潮	nbid
 滚刀肉	idcr
@@ -52461,7 +52461,7 @@
 臨時抱佛腳	bjah
 私相授受	vfav
 事實勝於雄辯	jhhl
-抱成一團	
+抱成一團	ayfd
 上情下達	kpbg
 井水不犯河水	yviv
 英雄所見略同	ssqc
@@ -52479,7 +52479,7 @@
 深惡痛疾	ifyy
 相煎何急	fqep
 真僞莫辨	desl
-一字之師	
+一字之師	fhdg
 齊家治國	lhid
 片瓦無存	wuws
 厚今薄古	krsb
@@ -52636,7 +52636,7 @@
 聲訊	gbuv
 過勞	ldmm
 無功	wsyw
-無一	
+無一	wsfk
 無明	wsjh
 無後	wsvu
 老牛舐犢	gtot
@@ -52659,11 +52659,11 @@
 錶殼	sggf
 青眼	ghmp
 球風	mfek
-一盞	
-一兩	
-一愣	
-一米	
-一打	
+一盞	fkyy
+一兩	fkfr
+一愣	fkpz
+一米	fkks
+一打	fkaa
 不受	ivvp
 不歸	ivgt
 不輟	ivib
@@ -52681,14 +52681,14 @@
 兩根	frfp
 兩彈	frno
 再讓	mcul
-一心二用	
+一心二用	fgyz
 惡露	fkcb
-一字一板	
+一字一板	fhff
 死相	fufm
-一排排	
-一條條	
+一排排	faaw
+一條條	feec
 夾註	trul
-一個樣	
+一個樣	fefu
 互贈	frmq
 殘編斷簡	fpuw
 斑塊	mxgg
@@ -53222,7 +53222,7 @@
 如入無人之境	lswg
 書聲琅琅	xgmm
 潔身自愛	iqmv
-四海一家	
+四海一家	difh
 七七八八	aauu
 水火不相容	vmih
 半夢半醒	qsqc
@@ -53243,21 +53243,21 @@
 是非顛倒	jwde
 曉以大義	jetu
 不教而誅	iglu
-一望而知	
+一望而知	felq
 餓殍遍野	qfqn
 同氣連枝	cwif
 以直報怨	edgu
-一人之下	
-一箭之遥	
+一人之下	frdb
+一箭之遥	fwdv
 寓意深長	hlir
 卽興之作	dhde
 雕欄玉砌	hfmu
 寓情於景	hpij
 存而不論	sliu
 痛入骨髓	ysvv
-傳誦一時	
+傳誦一時	eufj
 紆尊降貴	pqzo
-一隅之地	
+一隅之地	fzdg
 旦夕之間	judr
 恍如夢境	plsg
 將門虎子	wrkk
@@ -53312,16 +53312,16 @@
 虧耗	kccu
 雪萊	cxse
 零售業	ccpu
-一大半	
+一大半	ftqa
 青玉	ghml
-一隊	
-一員	
-一年	
+一隊	fkzq
+一員	fkom
+一年	fkwa
 下子	bkkv
 兩虎相鬥	fkfr
 理光	mnkp
 畫境	xggl
-一傳十	
+一傳十	fedi
 不分皁白	iudd
 卡夫卡	kdkj
 叔本華	kfsn
@@ -53344,7 +53344,7 @@
 四小龍	dklh
 國富兵強	dhnn
 幾件	uuet
-必有一得	
+必有一得	gsfv
 避過	bold
 發改委	bavl
 情文並茂	pxqs
@@ -53423,9 +53423,9 @@
 無庸置疑	wyzi
 開房	rfqi
 至善	hcuq
-一頁	
-一展	
-一言	
+一頁	fkum
+一展	fkbs
+一言	fkui
 再添	mcif
 丙酮	fccc
 亞鐵	fksd
@@ -53527,7 +53527,7 @@
 贏錢	emsy
 調低	uhei
 記着	uaum
-這一	
+這一	udfk
 説了	uqkc
 説得	uqvj
 方差	iruy
@@ -53587,16 +53587,16 @@
 開着	rfum
 副院長	fzra
 麥克斯韋	ebxj
-一百萬	
+一百萬	fusv
 環境衛生	mgve
 不需要	iccl
 不列顛	ifdm
-一事	
-一品	
-一斤	
-下一個	
-一倍	
-一組	
+一事	fkjo
+一品	fkoo
+一斤	fknc
+下一個	bfed
+一倍	fkel
+一組	fkpm
 玩遊戲	mikf
 武漢大學	fith
 不愛	ivvp
@@ -53605,10 +53605,10 @@
 整除	fozr
 兩句	frho
 不同意	iclj
-一枝花	
+一枝花	ffse
 副部長	flra
 現代漢語	meiu
-一個人	
+一個人	ferw
 副主任	flez
 卡門	kjrm
 佔了	ejkc
@@ -53633,7 +53633,7 @@
 蠟筆小新	vwkl
 景天	jlft
 忠於職守	oith
-另一面	
+另一面	oflt
 聽不到	tihx
 跳起	bqra
 路易	bejh
@@ -53745,7 +53745,7 @@
 可操作性	aaep
 不實	ivhr
 灌區	isko
-六一	
+六一	lufk
 設若	uqss
 不迭	ivwd
 登極	bffk
@@ -54059,7 +54059,7 @@
 破網	uwpc
 權杖	fsfs
 鼴鼠	hoho
-一品紅	
+一品紅	fopy
 簿記	wiua
 兼愛	qxvp
 鋪敘	smrf
@@ -54195,7 +54195,7 @@
 抛離	awxx
 去火	gkms
 謄錄	hqsr
-一語破的	
+一語破的	fuud
 衣襬	lwnz
 節減	qeiy
 驚鴻	shiy
@@ -54443,22 +54443,22 @@
 天熱	ftgu
 天問	ftro
 靜臥	ghbr
-一匹	
+一匹	fkpe
 歪理邪説	imzu
-一截	
-一滴	
-一晚	
-一粒	
-一不留神	
-一把	
-一槍	
+一截	fkdy
+一滴	fkil
+一晚	fkjp
+一粒	fkkl
+一不留神	fiig
+一把	fkaa
+一槍	fkfr
 正解	ftpz
 下詔	bkud
 不允	ivkq
 不辱	ivya
 不漏	ivib
 不齊	ivlq
-一顆顆	
+一顆顆	fjjf
 事隔	jozf
 吾愛	fjvp
 整蠱	fovv
@@ -55011,14 +55011,14 @@
 舌戰群儒	ooxe
 夸父逐日	tuej
 支吾其詞	dfxu
-名震一時	
+名震一時	ucfj
 觀者如雲	sglc
 偏信則闇	eemr
 草草收兵	ssxn
 危急存亡	ppse
 下筆千言	bwzu
 密不通風	hibe
-一時三刻	
+一時三刻	fjud
 成千成萬	yzys
 黑白混淆	vdii
 五勞七傷	fmae
@@ -55051,7 +55051,7 @@
 砸了	ukkc
 三四	uwdq
 大力神	twgp
-春風一度	
+春風一度	eefy
 萬馬	svjr
 達因	gudt
 達拉斯	gaxn
@@ -55068,7 +55068,7 @@
 形旁	fslq
 天父	ftuz
 王勃	medp
-一樓	
+一樓	fkfo
 兩三	fruw
 天外飛仙	fuee
 平假名	neuo
@@ -55164,7 +55164,7 @@
 除臭	zrmx
 駭人	jdrw
 雞雜	vulr
-雞舍	vurn
+雞舍	vuro
 大佬	tjeg
 壓電	kjcp
 三金	uwsj
@@ -55191,8 +55191,8 @@
 青蓮	ghsi
 畫風	xgek
 兩百	fruj
-一氣之下	
-一念之間	
+一氣之下	fwdb
+一念之間	frdr
 上眼	kgmp
 眯着	mkum
 小紅	kjpy
@@ -55346,13 +55346,13 @@
 青蘋果	gsjf
 政協委員	fdvo
 天地良心	fglg
-一覺	
-一抹	
-不一樣	
+一覺	fkhz
+一抹	fkas
+不一樣	iffu
 五樓	fjfo
-一處	
-一盤	
-一瓶	
+一處	fkke
+一盤	fkxq
+一瓶	fkqs
 不甚	ivxe
 不開	ivrf
 不常	ivkr
@@ -55762,7 +55762,7 @@
 修枝	ecfd
 釣鉤	shsh
 氣性	wkpe
-一錘子買賣	
+一錘子買賣	fskg
 探幽	apju
 泫然	ilhx
 雅言	zcui
@@ -55968,11 +55968,11 @@
 熱鍋上的螞蟻	gskv
 短斤少兩	qnkf
 高處不勝寒	lkih
-一擁而入	
+一擁而入	fals
 潑婦駡街	ilov
 敢怒而不敢言	vllu
 聚少成多	tkyu
-無官一身輕	
+無官一身輕	whfi
 挾天子以令諸侯	afke
 粥少僧多	nkeu
 人心隔肚皮	rgzw
@@ -56113,7 +56113,7 @@
 開灤	rfiu
 形神	fsgp
 屯紮	axfe
-一對對	
+一對對	fppu
 到哪	hxov
 至情	hcpg
 至強	hcnk
@@ -56121,12 +56121,12 @@
 青黃	ghsy
 青浦	ghim
 靜思	ghng
-一堆堆	
-一去不回	
-一别	
-一頓飯	
-一罐	
-一管	
+一堆堆	fggc
+一去不回	fgid
+一别	fkow
+一頓飯	faqn
+一罐	fkqs
+一管	fkwh
 下田	bkne
 下探	bkap
 焉得	ftvj
@@ -56376,7 +56376,7 @@
 瓜田	vsne
 排布	awsr
 技壓群雄	akxs
-揮霍一空	
+揮霍一空	acfh
 年數	waod
 擋雨	akco
 打光棍	akfj
@@ -56616,7 +56616,7 @@
 廣納	yspc
 西站	culj
 嗯嗯	odod
-牽一髮而動全身	
+牽一髮而動全身	lfrq
 遠親不如近鄰	glik
 非比尋常	wixk
 學而優則仕	hlee
@@ -56626,7 +56626,7 @@
 口不擇言	oiau
 上樑不正下樑歪	kfii
 半真半假	qdqe
-一人得道	
+一人得道	frvq
 神龍見首不見尾	glmb
 寶刀未老	hdsg
 聞風而至	relh
@@ -56645,7 +56645,7 @@
 貪多嚼不爛	ruom
 月朗星稀	hljv
 逼人太甚	frtx
-存乎一心	
+存乎一心	swfg
 柳綠花紅	fpsp
 仰之彌高	ednl
 餘音繚繞	qlpp
@@ -56656,7 +56656,7 @@
 見風轉舵	meix
 名士風流	ugei
 三心兩意	ugfl
-非一日之寒	
+非一日之寒	wfjh
 啜飲	obqn
 燒香拜佛	mvye
 艶女	cslc
@@ -56711,12 +56711,12 @@
 博施濟衆	diiw
 無言可對	wuap
 表筆	gwwx
-一元	
+一元	fkfp
 王小波	mkiw
 麗娜	fclv
 死生	fuei
 靜極思動	gfnz
-一件件	
+一件件	feet
 頗佳	wueg
 點檢	vjfr
 餐檯	jufg
@@ -56773,7 +56773,7 @@
 先驗論	tjur
 千載	zody
 生有	eish
-乍一看	
+乍一看	wfym
 甜津津	oiix
 升堂入室	wksh
 利茲	vxsu
@@ -56849,7 +56849,7 @@
 堆焊	gcmj
 擊碎	ixul
 天網	ftpc
-一局	
+一局	fkbv
 瑟瑟發抖	mmba
 兩軍	frpi
 亞伯	fked
@@ -57017,7 +57017,7 @@
 吉林大學	gfth
 老馬	gijr
 考博	gudm
-老舍	girn
+老舍	giro
 弄濕	msij
 致傷	heew
 互幫互助	fgfm
@@ -57029,8 +57029,8 @@
 於心	irgv
 五天	fjft
 王晶	mejj
-一閃	
-一開始	
+一閃	fkrr
+一開始	frlk
 不小	ivkj
 不純	ivpa
 不就	ivlk
@@ -57040,10 +57040,10 @@
 再過	mcld
 再建	mcxa
 亞運	fkpi
-一定要	
+一定要	fhcl
 不符合	iwrh
 不適應	ilye
-一季度	
+一季度	fvys
 不間斷	iruu
 夾着	trum
 不舒服	irhx
@@ -57067,12 +57067,12 @@
 灑滿	ifis
 海航	iwxl
 最久	jtpl
-哪一個	
+哪一個	ofed
 中國特色	odtp
 中央臺	ocgo
 吊着	orum
 另行通知	ovbq
-哪一	
+哪一	ovfk
 哪會	ovrf
 國防大學	dzth
 團校	difl
@@ -57130,9 +57130,9 @@
 行萬里路	vsnb
 第三次	wuyn
 籃球場	wmgj
-每一步	
-第一位	
-第一代	
+每一步	wftk
+第一位	wfel
+第一代	wfey
 彼得	vwvj
 生活上	eikg
 各科	eovy
@@ -57144,7 +57144,7 @@
 很酷	vpct
 每斤	wrnc
 知識點	quvj
-頭一次	
+頭一次	ffyn
 衝上	vzkg
 曾獲	qjxs
 新光	lfkp
@@ -57154,7 +57154,7 @@
 總人數	prod
 鄭州市	qilr
 那支	vadb
-那一	
+那一	vafk
 那當然	vkhx
 如雪	locx
 如玉	loml
@@ -57236,7 +57236,7 @@
 吹鼓手	ogyg
 延壽	wtgv
 而况	leyo
-館舍	qhrn
+館舍	qhro
 封賞	ggkm
 洋火	iums
 莊户	swqk
@@ -57504,7 +57504,7 @@
 出脱	xxhq
 灌製	istc
 筋絡	whpe
-偶一爲之	
+偶一爲之	efvd
 試講	uyus
 套語	truf
 添丁	ifah
@@ -57556,7 +57556,7 @@
 加試	wouy
 失盜	wdin
 凶年	zxwa
-一通百通	
+一通百通	fbub
 柱廊	flyl
 抄件	aket
 鼓弄	goms
@@ -57637,7 +57637,7 @@
 敬語	shuf
 花樣百出	sfux
 有過之而無不及	sldr
-大筆一揮	
+大筆一揮	twfa
 有志者事竟成	sggy
 不足爲外人道	ibvq
 創業維艱	rpps
@@ -57705,7 +57705,7 @@
 壓彎	kjup
 硬脂	ufhi
 石棺	utfh
-三點一線	
+三點一線	uvfp
 破壁	uwbo
 艶舞	csws
 耕者	cugj
@@ -57777,16 +57777,16 @@
 天陰	ftzr
 球面鏡	mlsl
 靚照	ghjd
-一二三	
+一二三	fyuw
 王老五	mgfj
-一牆之隔	
-一揮	
-一檔	
+一牆之隔	fwdz
+一揮	fkap
+一檔	fkfk
 正忙	ftpe
 玻爾	mwfu
 下檔	bkfk
 不嚴	ivoo
-一水之隔	
+一水之隔	fvdz
 不爲	ivvj
 更甚	fjxe
 更趨	fjrh
@@ -57799,20 +57799,20 @@
 帶傷	sfew
 畫意	xglj
 畫線	xgpd
-一朶朶	
+一朶朶	frrf
 不以爲奇	ievt
 惡聲	fkgb
 列寧格勒	fhfr
-一批批	
-一丁點	
+一批批	faai
+一丁點	favj
 不可知	iaqo
-一站式	
+一站式	flyy
 頰骨	trvo
 素雞	gpvu
-一縷縷	
-一語成讖	
+一縷縷	fppo
+一語成讖	fuyu
 班風	mqek
-一試身手	
+一試身手	fuqy
 班委	mqvl
 虚症	kpyf
 上下左右	kbss
@@ -58217,7 +58217,7 @@
 你的	epdh
 二代	yrey
 率先垂範	ltzw
-一步一個腳印	
+一步一個腳印	ftfi
 守土有責	hgsg
 深得人心	ivrg
 人亡政息	refm
@@ -58237,7 +58237,7 @@
 今朝有酒今朝醉	rdsc
 馬到功成	jhyy
 未定之天	shdf
-一寸光陰一寸金	
+一寸光陰一寸金	faks
 這山望着那山高	ujel
 心比天高	gifl
 没齒難忘	iwse
@@ -58273,7 +58273,7 @@
 蒙恩	spdt
 荆釵布裙	sssn
 陳紹	zfpd
-聊一聊	
+聊一聊	tfti
 隔岸	zfjk
 函大	vvtj
 出在	xxsc
@@ -58302,15 +58302,15 @@
 赤磷	guuk
 天哪	ftov
 表姑	gwlb
-一歲	
+一歲	fkty
 亞平寧	fnhg
 畫虎類犬	xkkx
 王國維	mdpc
 瑞星	mjje
 五内如焚	fclf
 不可向邇	iarf
-一等品	
-不識一丁	
+一等品	fwoo
+不識一丁	iufa
 玉佛	mlen
 上虞	kgko
 上舉	kghu
@@ -58381,7 +58381,7 @@
 敵探	lqap
 等角	wgpz
 辭不達意	vigl
-第一條	
+第一條	wfec
 算你	wmep
 特困生	tdei
 秃髮	vqrs
@@ -58455,7 +58455,7 @@
 古史	buoz
 有夫之婦	sddl
 不急	ivpx
-在水一方	
+在水一方	svfi
 厚顔	kjlw
 大富大貴	thto
 威迫利誘	ydvu
@@ -58483,8 +58483,8 @@
 增重	gqzn
 雪堆	cxgc
 吞掉	ftaj
-一文	
-一派胡言	
+一文	fkxn
+一派胡言	fibu
 死前	fuqh
 盯人	marw
 清零	igcr
@@ -58587,7 +58587,7 @@
 刀客	dkhe
 妒火中燒	lmom
 傭兵	eynf
-舍友	rnsb
+舍友	rosb
 佳賓	eghf
 便能	efkh
 便把	efaa
@@ -58629,7 +58629,7 @@
 又把	bjaa
 能使	khef
 驅動程序	jzvy
-又一個	
+又一個	bfed
 巴喬	ajco
 大熊	tjkh
 大龍	tjlh
@@ -58672,9 +58672,9 @@
 王菲	mesw
 表現出	gmxx
 王磊	meuu
-一整天	
-一樁	
-一盒	
+一整天	ffft
+一樁	fkfe
+一盒	fkrz
 下册	bkhh
 不正	ivft
 不深	ivip
@@ -58687,19 +58687,19 @@
 兩段	freu
 不愉快	ippb
 來找	ejay
-一年前	
+一年前	fwqh
 嚴格要求	ofcf
 副校長	ffra
 來自於	emir
-一生中	
+一生中	feoc
 副秘書長	fvxr
-一秒鐘	
+一秒鐘	fvsl
 天差地别	fugo
 武裝部	fwlo
 不低於	ieir
 不合法	irig
-一個字	
-一分鐘	
+一個字	fehk
+一分鐘	fusl
 玉環	mlmz
 卡丁車	kaie
 紫衣	tilw
@@ -58802,7 +58802,7 @@
 得克薩斯	vbsx
 第三步	wutk
 第二步	wytk
-第一眼	
+第一眼	wfmp
 行政村	vffa
 片狀	wnwx
 延慶	wtyv
@@ -58868,7 +58868,7 @@
 廣大群衆	ytxw
 講出	usxx
 説老實話	ughu
-這一切	
+這一切	ufad
 摩天輪	yfir
 就叫	lkox
 應以	yeel
@@ -58939,7 +58939,7 @@
 足印	bnif
 椿樹	fefg
 方家	irhe
-豬舍	egrn
+豬舍	egro
 恭聽	sutm
 驚悉	shwk
 連珠炮	immh
@@ -59080,7 +59080,7 @@
 收攬	xeab
 脱盲	hqem
 鄉規民約	ndap
-一筆帶過	
+一筆帶過	fwsl
 長號	raou
 嫡子	llkv
 海象	iwpo
@@ -59116,7 +59116,7 @@
 皇儲	dmeu
 寄售	htco
 飄悠	cgec
-一鼻孔出氣	
+一鼻孔出氣	fmkw
 歌訣	aoub
 共居	subb
 謄清	hqig
@@ -59247,7 +59247,7 @@
 命在旦夕	rsju
 騎馬找馬	jjaj
 咬舌	olox
-一得之見	
+一得之見	fvdm
 駁岸	jzjk
 車閘	iern
 酣夢	cssz
@@ -59401,13 +59401,13 @@
 弄破	msuw
 弄掉	msaj
 王孫公子	mkuk
-一大把	
+一大把	ftaa
 不勝感激	ihyi
 靜水	ghvu
 表内	gwcr
 王碼	meuj
-一桌	
-一枝	
+一桌	fkjj
+一枝	fkfd
 下井	bkyu
 政改	ftae
 下機	bkfu
@@ -59420,15 +59420,15 @@
 畫外	xguj
 再如	mclo
 瓦屋	ukbh
-一炮而紅	
+一炮而紅	fmlp
 惡煞	fkpx
 熬粥	ghnk
 珠飾	mtqw
-一木難支	
+一木難支	ffsd
 不可小覷	iakk
-一根根	
+一根根	fffp
 下筆成章	bwyl
-一前一後	
+一前一後	fqfv
 平郵	nqzs
 平伸	nqep
 素聞	gprt
@@ -59844,7 +59844,7 @@
 除非己莫爲	zwav
 女媧補天	llnf
 積善成德	vuyv
-慌作一團	
+慌作一團	pefd
 翻手爲雲	wyvc
 若要人不知	scrq
 儀態萬千	eksz
@@ -59860,7 +59860,7 @@
 程門立雪	vrlc
 吹牛拍馬	otaj
 過河卒子	lilk
-一擲百萬	
+一擲百萬	faus
 不識大體	iutv
 羽毛豐滿	qxji
 慨當以慷	ykep
@@ -59880,7 +59880,7 @@
 歐羅巴	kzaj
 黃易	syjh
 共同社	scgg
-莞爾一笑	
+莞爾一笑	sffw
 匹茲堡	pseo
 花去	segk
 共相	sufm
@@ -59930,7 +59930,7 @@
 都市報	glgq
 五黃六月	fslh
 天長	ftra
-一册	
+一册	fkhh
 王丹	mehl
 不象	ivpo
 亞里士多德	fngv
@@ -59958,7 +59958,7 @@
 果報	jfgq
 照在	jdsc
 哈工大	oytj
-嚇了一跳	
+嚇了一跳	okfb
 别出機杼	oxff
 口不應心	oiyg
 叫出	oxxx
@@ -60031,7 +60031,7 @@
 九牛二虎	wtyk
 供氣	eswk
 公比	ukii
-舒曼	rnjz
+舒曼	rojz
 個展	edbs
 人喊馬嘶	rojo
 登山隊	bjzq
@@ -60306,16 +60306,16 @@
 都比	gjii
 瑪莎拉蒂	msas
 到晚	hxjp
-一節	
+一節	fkqe
 五大	fjtj
 靜下來	gbej
-一響	
+一響	fknw
 王剛	mecq
 還不够	ziho
 玻璃門	mmrm
 王朔	meqx
-一詞	
-一户	
+一詞	fkuv
+一户	fkqk
 王座	meyr
 正火	ftms
 不虚	ivkp
@@ -60336,7 +60336,7 @@
 碧雲	mdcy
 不應該	iyud
 皮卡	wukj
-上一個	
+上一個	kfed
 點菸	vjsi
 虚擬機	kafu
 瞅着	mvum
@@ -60377,7 +60377,7 @@
 軒轅劍	iirx
 羅湖	zpib
 圖爲	dovj
-四分之一	
+四分之一	dudf
 山東大學	jfth
 敗不餒	miqv
 貝蒂	mosl
@@ -60496,7 +60496,7 @@
 課上	ujkg
 劉秀	isvr
 高品質	lonn
-褒貶不一	
+褒貶不一	lmif
 市局	lrbv
 永寧	lvhg
 亮起	lqra
@@ -60798,7 +60798,7 @@
 熊包	khha
 愚魯	vgtj
 湊攏	ieal
-二一添作五	
+二一添作五	yfif
 函覆	vvcv
 黑貨	vhei
 喞筒	odwc
@@ -60853,7 +60853,7 @@
 懶鬼	pfgm
 落價	siec
 生皮	eiwu
-一差二錯	
+一差二錯	fuys
 電燙	cpij
 洞曉	icjg
 黏米	vrks
@@ -60869,7 +60869,7 @@
 求人不如求己	fria
 投鞭斷流	arui
 揚幡招魂	aray
-一日三省	
+一日三省	fjuk
 流離顛沛	ixdi
 乘隙而入	vzls
 僕僕風塵	eeey
@@ -60973,18 +60973,18 @@
 再也不	msiv
 靚號	ghou
 玩友	mfsb
-一有	
-一腔	
-一具	
-一灘	
-一溜	
-一數	
-一想	
+一有	fksh
+一腔	fkhh
+一具	fkmu
+一灘	fkis
+一溜	fkii
+一數	fkod
+一想	fkfm
 下步	bktk
 麥當娜	eklv
 滅蟲	iyvv
 嚴管	oowh
-一字不漏	
+一字不漏	fhii
 麥粉	eeku
 夾菜	trsv
 夾入	trso
@@ -61427,7 +61427,7 @@
 不敷	ivmi
 惠安	ighl
 速勝	fohq
-一隻只	
+一隻只	fcou
 刺針	fcsd
 五千年	fzwa
 夾棍	trfj
@@ -61600,12 +61600,12 @@
 考拉	gual
 二維碼	ypuj
 正邪	ftzz
-一時衝動	
+一時衝動	fjvz
 現將	mmwh
 嚴於	ooir
 惡靈	fkco
 天人共鑑	frss
-一言不合	
+一言不合	fuir
 滿了	iskc
 滑蓋	ivsg
 漏嘴	ibot
@@ -61766,15 +61766,15 @@
 都好	gjlk
 雪狼	cxxl
 霍華德	csvd
-一式兩份	
+一式兩份	fyfe
 開窗	rfhr
 天香	ftvj
 正確率	fulu
 青紅	ghpy
 平均分	ngud
-一輩	
+一輩	fkwi
 五日	fjjk
-一名	
+一名	fkuo
 五六	fjlu
 正被	ftnw
 還没有	zish
@@ -61786,18 +61786,18 @@
 不完	ivhf
 不靠	ivto
 不講	ivus
-一男一女	
+一男一女	fnfl
 兩屆	frbg
 兩本	frff
 兩行	frvj
 兩組	frpm
 亞東	fkfj
 不可靠	iato
-一千萬	
+一千萬	fzsv
 夾在	trsc
 平谷	nqur
 兩個人	ferw
-一張張	
+一張張	fnnr
 卡巴斯基	kaxx
 皮特	wutg
 卡巴	kjaj
@@ -61953,7 +61953,7 @@
 夥子	jfkv
 護工	usyx
 治污	ikif
-一改	
+一改	fkae
 黨總支	kpdb
 些小	tikj
 辯證唯物主義	luou
@@ -61964,7 +61964,7 @@
 決議案	iuhl
 哇哇	ogog
 美術家	uvhe
-一宿	
+一宿	fkhe
 亟須	kosu
 修憲	echc
 主觀能動性	lskp
@@ -62388,11 +62388,11 @@
 靚妝	ghwl
 表姊	gwlw
 玩好	mflk
-一丈	
-一表	
-一堂	
-一季	
-一畝	
+一丈	fksl
+一表	fkgw
+一堂	fkkg
+一季	fkvk
+一畝	fkln
 不貞	ivjm
 不擅	ival
 帶毒	sfgr
@@ -62548,7 +62548,7 @@
 鳥啼	tmol
 久安	plhl
 反了	nbkc
-擇一	
+擇一	azfk
 反色	nbpa
 反相	nbfm
 振鈴	aysr
@@ -62720,7 +62720,7 @@
 調序	uhyz
 詞幹	uvdj
 永眠	lvma
-話鋒一轉	
+話鋒一轉	usfi
 義拍	uwad
 訂親	ualf
 施力	iwwl
@@ -62828,17 +62828,17 @@
 墳包	gdha
 天幸	ftgq
 靚車	ghie
-一頂	
+一頂	fkau
 不專	ivia
 丙寅	fchf
 兩相	frfm
 嚴嚴	oooo
 列維	fupc
-兀鷲	prlk
+兀鷲	pwlk
 天覆地載	fcgd
 平了	nqkc
 至關緊要	hrbc
-一頭熱	
+一頭熱	ffgu
 靜候佳音	geel
 頗費	wunu
 上翻	kgwk
@@ -63142,7 +63142,7 @@
 難打	sfaa
 驗證碼	juuj
 大肚	tjhg
-大一	
+大一	tjfk
 大化	tjei
 有天	shft
 有路	shbe
@@ -63188,9 +63188,9 @@
 教育網	glpc
 協調發展	dubb
 天魔	ftyg
-一直在	
+一直在	fdsc
 王老吉	mggo
-一寸	
+一寸	fkai
 五點	fjvj
 五號	fjou
 五歲	fjty
@@ -63216,10 +63216,10 @@
 晉陽	fkzj
 列印	fuif
 碧落	mdsi
-一首歌	
+一首歌	fqao
 下個星期	bejx
-上一次	
-眼前一亮	
+上一次	kfyn
+眼前一亮	mqfl
 此表	tigw
 江津	iyix
 滿園	isdg
@@ -63338,7 +63338,7 @@
 那有	vash
 娃兒	lghq
 那人	varw
-那一年	
+那一年	vfwa
 錄下	srbk
 好習慣	lqpr
 群裏	xwln
@@ -63639,10 +63639,10 @@
 餘波未平	qisn
 拆東牆補西牆	afww
 家醜不可外揚	hcia
-一個蘿蔔一個坑	
+一個蘿蔔一個坑	fesg
 針尖對麥芒	skps
 山高皇帝遠	jldg
-做一天和尚撞一天鐘	
+做一天和尚撞一天鐘	effs
 先入之見	tsdm
 可乘之隙	avdz
 其名	xiuo
@@ -63716,18 +63716,18 @@
 天煞	ftpx
 靜立	ghlu
 平地風波	ngei
-一院	
-一省	
-一棟	
-一紙	
+一院	fkzh
+一省	fkkw
+一棟	fkff
+一紙	fkpi
 下刀	bkdk
 帶扣	sfao
 畫滿	xgis
 來後	ejvu
 晉身	fkqn
 死鎖	fusk
-一把把	
-一棵棵	
+一把把	faaa
+一棵棵	fffj
 殘冬臘月	fehh
 不智之舉	iqdh
 平盤	nqxq
@@ -64012,7 +64012,7 @@
 勢如水火	glvm
 杞人之憂	frdu
 以小人之心	ekrg
-定於一尊	
+定於一尊	hifq
 假手於人	eyir
 喫軟不喫硬	oiiu
 翩若驚鴻	qssi
@@ -64083,12 +64083,12 @@
 天工	ftyx
 靜場	ghgj
 玩到	mfhx
-一出	
+一出	fkxx
 下疳	bkys
 珠圍翠繞	mdqp
 兩把	fraa
 亞利桑那	fvbv
-一篇篇	
+一篇篇	fwwq
 平車	nqie
 毒霸	grcr
 卡耐基	klxg
@@ -64131,7 +64131,7 @@
 丹尼爾	hbfu
 買受人	zvrw
 司考	vfgu
-以一持萬	
+以一持萬	efas
 收購價	xmec
 懺悔錄	ppsr
 性飢渴	pqij
@@ -64146,7 +64146,7 @@
 之夏	djum
 之我見	dwmr
 安瓿	hllo
-冠絶一時	
+冠絶一時	ppfj
 針鼻	sdmn
 鱗爪	tkvk
 名不符實	uiwh
@@ -64259,7 +64259,7 @@
 老火	gims
 天蓬	ftse
 天界	ftnr
-一霎那	
+一霎那	fcva
 正裝	ftwg
 平胸	nqhh
 素顔	gplw
@@ -64452,7 +64452,7 @@
 去想	gkfm
 示威者	gygj
 志存高遠	gslg
-十一月份	
+十一月份	dfhe
 越有	rysh
 過渡期	lixh
 韓紅	djpy
@@ -64604,7 +64604,7 @@
 劉若英	issc
 市場上	lgkg
 討人	uarw
-這一點	
+這一點	ufvj
 讓她	ulls
 劉明	isjh
 齊家	lqhe
@@ -64881,7 +64881,7 @@
 無跡	wsbr
 雪飄	cxcg
 亞太區	ftko
-一石激起千層浪	
+一石激起千層浪	fuii
 表形	gwfs
 敷貼	mimj
 青壯	ghwg
@@ -65208,9 +65208,9 @@
 瓦格納	ufpc
 末席	smys
 麥角	eepz
-一將難求	
+一將難求	fwsf
 平明	nqjh
-一忍再忍	
+一忍再忍	fdmd
 毒案	grhl
 虐政	kxft
 頗能	wukh
@@ -65239,7 +65239,7 @@
 照到	jdhx
 中聯部	otlo
 哈馬斯	ojxn
-聽一聽	
+聽一聽	tftm
 嘘唏	okoz
 聽得到	tvhx
 嘴甜心苦	oogs
@@ -65255,7 +65255,7 @@
 删詞	hhuv
 凱莉	jfsv
 民命	aarx
-快馬一鞭	
+快馬一鞭	pjfr
 屠蘇	bgst
 慢件	pjet
 愷撒	pjas
@@ -65327,7 +65327,7 @@
 如兄如弟	lolq
 九屆	whbg
 女史	lcoz
-舍監	rnbw
+舍監	robw
 傳爲	eivj
 任賢使能	ebek
 保國安民	edha
@@ -65382,7 +65382,7 @@
 開藥	rfsd
 開叉	rfbl
 環比	mzii
-一場春夢	
+一場春夢	fges
 五環	fjmz
 救了	fvkc
 兩晉	frfk
@@ -65580,12 +65580,12 @@
 天目	ftmv
 天寶	fthm
 王鵬	mehh
-一十	
+一十	fkdi
 平平凡凡	nnqq
 環宇	mzhf
-一株	
-一艘	
-一袋	
+一株	fkft
+一艘	fkxh
+一袋	fkey
 正處	ftke
 下位	bkel
 不中	ivoc
@@ -65706,7 +65706,7 @@
 那回	vado
 嫦娥奔月	llth
 建設部	xulo
-舒淇	rnix
+舒淇	roix
 伍佰	efeu
 全組	rmpm
 仙劍	ejrx
@@ -65986,8 +65986,8 @@
 致禮	hegc
 靜如	ghlo
 青紗	ghpk
-一克	
-一潭	
+一克	fkbq
+一潭	fkic
 帶離	sfxx
 互保	freo
 點票	vjcg
@@ -66112,7 +66112,7 @@
 蓋布	sgsr
 悽絶	pdpp
 站樁	ljfe
-決一	
+決一	ibfk
 辨色	lqpa
 首席執行官	qygh
 涼熱	ilgu
@@ -66169,7 +66169,7 @@
 東風壓倒西風	feke
 無可奈何花落去	watg
 士爲知己者死	gvqf
-一朝天子一朝臣	
+一朝天子一朝臣	fdfb
 不見棺材不落淚	imfi
 口含天憲	orfh
 磁學	uqhz
@@ -66179,7 +66179,7 @@
 職前	tlqh
 有之	shdj
 威盛	yfyv
-一家家	
+一家家	fhhe
 棄家	lkhe
 薩斯	szxn
 節煤	qems
@@ -66224,7 +66224,7 @@
 截去	dygk
 地量	gsjf
 需經	clpf
-二十一世紀	
+二十一世紀	ydfp
 封裏	ggln
 鹽霜	bwcf
 赤黑	guvh
@@ -66235,7 +66235,7 @@
 蠶眉	kqbm
 王充	melk
 焉有	ftsh
-一滴滴	
+一滴滴	fiil
 不特	ivtg
 更番	fjwk
 珍寶島	mhtj
@@ -66565,10 +66565,10 @@
 青城山	ggje
 玩着	mfum
 五七	fjak
-一噸	
-一見	
+一噸	fkoa
+一見	fkmr
 王建	mexa
-一人	
+一人	fkrw
 王偉	meej
 五級	fjpr
 歪歪	ifif
@@ -66577,7 +66577,7 @@
 不亮	ivlq
 帶錢	sfsy
 兩碗	fruh
-一定是	
+一定是	fhjf
 死城	fugy
 開放式	riyy
 肯塔基	tgxg
@@ -66646,7 +66646,7 @@
 空出	hyxx
 福鼎	gfmw
 獅子吼	xkok
-多一點	
+多一點	ufvj
 樂陵	duzg
 狼嚎	xlol
 撈到	amhx
@@ -66894,7 +66894,7 @@
 寄費	htnu
 孔穴	kehv
 冶鑄	yksg
-一脉相通	
+一脉相通	fhfb
 以資鼓勵	eygk
 蟻后	vunf
 糞筐	knwk
@@ -66911,7 +66911,7 @@
 末伏	smex
 熟語	lkuf
 座標	yrfc
-天下一家	
+天下一家	fbfh
 赤橙黃綠青藍紫	gfst
 大張聲勢	tngg
 離情别緒	xpop
@@ -66959,7 +66959,7 @@
 責斥	gmnl
 現樓	mmfo
 刺透	fcvr
-一言蔽之	
+一言蔽之	fusd
 班務	mqzw
 卡薩布蘭卡	kssk
 皮椅	wuft
@@ -67125,7 +67125,7 @@
 良母	lpru
 褒賞	lekm
 躺平	qknq
-多一事不如少一事	
+多一事不如少一事	ufjj
 眉毛鬍子一把抓	bxra
 君子之交淡如水	xkdv
 出淤泥而不染	xiii
@@ -67150,7 +67150,7 @@
 恩威並重	dyqz
 出敵不意	xlil
 不看僧面看佛面	iyel
-一筆抹煞	
+一筆抹煞	fwap
 鼎足而三	mblu
 口輕	oiif
 怵頭	pffo
@@ -67209,22 +67209,22 @@
 赤貧如洗	guli
 埃弗頓	gnax
 坑井	glyu
-一匡天下	
+一匡天下	fkfb
 刑戮	fsqq
 開建	rfxa
 王陽明	mzjh
 屯昌	axjj
 至人	hcrw
 天底	ftyi
-一吹	
+一吹	fkon
 天下獨步	fbxt
 下下	bkbk
 不群	ivxw
 來日大難	ejts
 滅燈	iymb
 來想	ejfm
-一句句	
-一爭高下	
+一句句	fhho
+一爭高下	fvlb
 末筆	smwx
 天公不作美	fuiu
 凸鏡	cfsl
@@ -67516,7 +67516,7 @@
 衰人	lfrw
 謂詞	unuv
 僱兇	eqzx
-攻其一點	
+攻其一點	yxfv
 功能性	ykpe
 苦了	sbkc
 七七	akak
@@ -67584,10 +67584,10 @@
 天正	ftft
 青田	ghne
 五臺	fjgo
-一夢	
-一關	
-下一次	
-一維	
+一夢	fksz
+一關	fkru
+下一次	bfyn
+一維	fkpc
 不怨	ivuv
 不讀	ivug
 更累	fjnp
@@ -67602,7 +67602,7 @@
 殘值	fued
 琳達	mfgu
 麥迪	eepd
-一體機	
+一體機	fvfu
 玉峰	mlje
 卡位	kjel
 紫龍	tilh
@@ -67747,7 +67747,7 @@
 光棍兒	kfhq
 食用菌	qzsd
 公用事業	uzjp
-一干	
+一干	fkns
 復墾	vwop
 軍兵種	pnvz
 美術界	uvnr
@@ -67857,7 +67857,7 @@
 太平門	tnrm
 響板	nwfn
 呼啦圈	oodq
-寬舒	hsrn
+寬舒	hsro
 上代	kgey
 吞金	ftsj
 赤日炎炎	gjmm
@@ -67981,7 +67981,7 @@
 過隙	ldzk
 二律背反	yvqn
 老舅	gihn
-一頁頁	
+一頁頁	fuum
 表相	gwfm
 玩雪	mfcx
 惠賜	igmj
@@ -68119,7 +68119,7 @@
 訪察	uihh
 靠天喫飯	tfoq
 至聖先師	httg
-有一搭没一搭	
+有一搭没一搭	sfaa
 藝高人膽大	slrt
 茂林修竹	sfew
 鑑往知來	svqe
@@ -68129,7 +68129,7 @@
 還我河山	zwij
 成敗在此一舉	ymsh
 以其昏昏	exii
-參差不一	
+參差不一	kuif
 同心戮力	cgqw
 應答如流	ywli
 長生不死	reif
@@ -68140,7 +68140,7 @@
 目無尊長	mwqr
 泥古不化	ibie
 引以爲憾	nevp
-聊備一格	
+聊備一格	teff
 存心不良	sgil
 超群出衆	rxxw
 白衣秀士	dlvg
@@ -68205,12 +68205,12 @@
 戴維斯	dpxn
 形音	fslj
 刺股懸梁	fhmi
-一科	
+一科	fkvy
 正位	ftel
 還治其人之身	zixq
-一國三公	
+一國三公	fduu
 現勢	mmgu
-一得之愚	
+一得之愚	fvdv
 更僕難數	feso
 斑疹	mxyr
 卡規	kjdm
@@ -68218,7 +68218,7 @@
 睡鄉	mznw
 澇害	imhc
 滲析	ikfn
-浮一大白	
+浮一大白	iftd
 清徐	igvr
 添入	ifso
 小雀	kjkc
@@ -68434,7 +68434,7 @@
 坑殺	glzf
 開衫	rfns
 天翼	ftqq
-一較高下	
+一較高下	filb
 上電	kgcp
 滿級	ispr
 小仙	kjej
@@ -68596,7 +68596,7 @@
 運輸費	pinu
 老羅	gizp
 開縣	rfmk
-一胎	
+一胎	fkhk
 王傑	meeu
 五人	fjrw
 速龍	folh
@@ -68800,7 +68800,7 @@
 超高速	rlfo
 竈王爺	hmuz
 文牘	xnwg
-五一節	
+五一節	ffqe
 信筆	euwx
 冷光	yrkp
 稱賞	vvkm
@@ -68826,7 +68826,7 @@
 明細賬	jpmr
 幹才	djjw
 國仇	dyew
-一望無邊	
+一望無邊	fewm
 制海權	tifs
 弊害	qrhc
 衝抵	vzai
@@ -69040,12 +69040,12 @@
 施術	iwvf
 診查	urfj
 裝點門面	wvrl
-獨此一家	
+獨此一家	xtfh
 真情實意	dphl
 精明能幹	kjkd
 遠水解不了近渴	gvpi
 另謀高就	oull
-一決勝負	
+一決勝負	fihp
 大樹底下好乘涼	tfyi
 英姿勃勃	sydd
 濃妝淡抹	iwia
@@ -69054,7 +69054,7 @@
 千里姻緣一線牽	znll
 狂風惡浪	xefi
 洞察秋毫	ihvl
-一動不如一靜	
+一動不如一靜	fzig
 猜拳行令	xqvr
 見利思義	mvnu
 不容置辯	ihzl
@@ -69070,7 +69070,7 @@
 聲氣相通	gwfb
 酒醉飯飽	icqq
 丈二和尚	syvk
-一路貨色	
+一路貨色	fbep
 不顧死活	iqfi
 萬應靈丹	sych
 電測	cpim
@@ -69157,7 +69157,7 @@
 環烷	mzmh
 副翼	foqq
 與人	hurw
-一神教	
+一神教	fggk
 死勁	fufy
 下知地理	bqgm
 平昔	nqsj
@@ -69515,8 +69515,8 @@
 南粤	dcrk
 考試題	gujf
 天路	ftbe
-一環	
-一姐	
+一環	fkmz
+一姐	fklm
 副處	foke
 整段	foeu
 兩碼	fruj
@@ -69598,7 +69598,7 @@
 香蕉皮	vswu
 德清	vdig
 選號	aaou
-等一會兒	
+等一會兒	wfrh
 片區	wnko
 律師事務所	vgjq
 各站	eolj
@@ -69667,7 +69667,7 @@
 政風	ftek
 時代感	jeyf
 錚錚	spsp
-一清早	
+一清早	fija
 減幅	iyrf
 復建	vwxa
 使眼色	empa
@@ -69713,7 +69713,7 @@
 順訪	euui
 風帽	ekrc
 箭竹	wqwo
-一時一刻	
+一時一刻	fjfd
 扛鼎	aymw
 旋舞	iwws
 魍魎	gcgf
@@ -69859,7 +69859,7 @@
 脱盡	hqxf
 裁出	dyxx
 動賓	znhf
-十一屆三中全會	
+十一屆三中全會	dfbr
 進户	cdqk
 無翼	wsqq
 無它	wshi
@@ -69946,14 +69946,14 @@
 夏日炎炎	ujmm
 海闊憑魚躍	iryb
 穀賤傷農	gmec
-一日夫妻百日恩	
+一日夫妻百日恩	fjdd
 蔚成風氣	syew
 不敢造次	ivty
 畫虎不成反類犬	xkix
 天若有情天亦老	fssg
 慎終如始	ppll
 杳無人煙	fwrm
-一唱三嘆	
+一唱三嘆	fouo
 刻骨仇恨	dvep
 史不絶書	oipx
 法不阿貴	iizo
@@ -70062,7 +70062,7 @@
 畫商	xglq
 現銀	mmsp
 瓦壟	uklh
-一錢如命	
+一錢如命	fslr
 死保	fueo
 麥茬	eess
 麥精	eekg
@@ -70075,7 +70075,7 @@
 舊教	scgk
 舊家	sche
 眼饞肚飽	mqhq
-粲然一笑	
+粲然一笑	jhfw
 濟世之才	igdj
 池上	iskg
 流通股	ibhq
@@ -70156,7 +70156,7 @@
 拔身	asqn
 掠地攻城	agyg
 持人	agrw
-看一眼	
+看一眼	yfmp
 年輩	wawi
 扯談	atum
 拐棗	aofc
@@ -70192,7 +70192,7 @@
 物歸	thgt
 特拉維夫	tapd
 生關死劫	erfg
-背城一戰	
+背城一戰	qgfo
 丫挺	qcaz
 單比	ooii
 總第	prwn
@@ -70448,11 +70448,11 @@
 青川	gheh
 死無全屍	fwrb
 開封市	rglr
-一去	
+一去	fkgk
 王軍	mepi
 玻璃板	mmfn
-一系	
-一怒	
+一系	fkwp
+一怒	fklb
 下派	bkin
 不小於	ikir
 整死	fofu
@@ -70501,7 +70501,7 @@
 連江	idiy
 男兒本色	nhfp
 輕舞飛揚	iwea
-圖一	
+圖一	dofk
 田納西	npcu
 内存卡	cskj
 見者有份	mgse
@@ -70844,12 +70844,12 @@
 誘逼	uvfo
 夜勤	lery
 破防	uwzi
-彈指一揮間	
+彈指一揮間	nafr
 反覆推敲	ncal
 可憐天下父母心	apfg
 語不驚人死不休	uise
-喫一塹長一智	
-一元復始	
+喫一塹長一智	ofiq
+一元復始	ffvl
 舊話重提	suza
 至親好友	hlls
 情深義重	piuz
@@ -70858,7 +70858,7 @@
 放火燒山	immj
 有來無回	sewd
 母慈子孝	rqkg
-一抔黃土	
+一抔黃土	fasg
 壽山福海	gjgi
 沉鬱頓挫	ifaa
 虱多不癢	vuiy
@@ -70937,20 +70937,20 @@
 球運	mfpi
 開雲見日	rcmj
 環襯	mznl
-一變	
+一變	fkup
 下顧	bkqc
 下帖	bkrj
 頓口無言	aowu
 素車白馬	gidj
 再提	mcaj
 惡瘡	fkyr
-一字不苟	
-一年年	
+一字不苟	fhis
+一年年	fwwa
 珠箔	mtwi
-一得之功	
+一得之功	fvdy
 麥季	eevk
 平動	nqzn
-一九八四	
+一九八四	fwud
 肯不肯	tith
 卓異	jjns
 戰具	oomu
@@ -70987,7 +70987,7 @@
 輪齒	irwk
 輸誠	iruy
 崩掉	jhaj
-同一律	
+同一律	cfvx
 網漏吞舟	pifx
 敗寇	mehf
 内招	crad
@@ -71663,7 +71663,7 @@
 訂滿	uais
 率然	luhx
 惡意中傷	floe
-一不做二不休	
+一不做二不休	fiee
 亦可覆舟	racx
 大頭小尾	tfkb
 聰明睿智	tjjq
@@ -71746,8 +71746,8 @@
 老景	gijl
 教門	gkrm
 開豁	rfhc
-一了百當	
-一無所取	
+一了百當	fkuk
+一無所取	fwqt
 裂土分茅	fgus
 環縣	mzmk
 事不師古	jigb
@@ -71758,7 +71758,7 @@
 帶引	sfnc
 瓦器	ukoo
 不寧唯是	ihoj
-一把汗	
+一把汗	fain
 五斗折腰	fyah
 夾批	trai
 平利	nqvx
@@ -71820,7 +71820,7 @@
 劈刺	bofc
 心同此理	gctm
 飛災橫禍	eyfg
-屈指一算	
+屈指一算	bafw
 以蠡測海	erii
 煩冗	mupq
 類乎	kxwq
@@ -72165,7 +72165,7 @@
 惡女	fklc
 麥兜	eedi
 玫紅	mepy
-一剪梅	
+一剪梅	fqfw
 平橋	nqfc
 毒舌	grox
 虞城	kogy
@@ -72178,7 +72178,7 @@
 小雞雞	kvvu
 浮山	ivje
 浦城	imgy
-少一點	
+少一點	kfvj
 淺紫	iyti
 清波	igiw
 小眼睛	kmmg
@@ -72275,7 +72275,7 @@
 姨婆	ltiw
 錄歌	srao
 傻孩子	ekkv
-舒城	rngy
+舒城	rogy
 供電局	ecbv
 阜康	gdyx
 傻樣	erfu
@@ -72426,7 +72426,7 @@
 堤潰蟻穴	givh
 協税	dwvq
 屯軍	axpi
-一府兩院	
+一府兩院	fyfz
 虎落平川	ksne
 餐布	jusr
 源由	ikpb
@@ -72475,7 +72475,7 @@
 雄偉壯觀	sews
 拉大旗作虎皮	atiw
 書香世家	xvgh
-此一時彼一時	
+此一時彼一時	tfjj
 驚天地泣鬼神	sfgg
 大水衝了龍王廟	tvvy
 王顧左右而言他	mqse
@@ -72569,7 +72569,7 @@
 武舉	fyhu
 不教而殺	iglz
 玩興	mfhc
-一瓣	
+一瓣	fklv
 正割	fthc
 整料	foky
 不慌不亂	ipiv
@@ -72637,7 +72637,7 @@
 戕賊	wymy
 收管	xewh
 疏闊	vtri
-驚鴻一現	
+驚鴻一現	sifm
 驚蛇入草	svss
 發凡起例	bqre
 心粗氣浮	gkwi
@@ -72809,7 +72809,7 @@
 朝堂	djkg
 吞了	ftkc
 表嬸	gwlh
-一舉多得	
+一舉多得	fhuv
 碧池	mdis
 紫禁	tiff
 上方寶劍	kihr
@@ -72831,7 +72831,7 @@
 品色	oopa
 餵狗	qnxh
 哦喲	owop
-轉了一圈	
+轉了一圈	ikfd
 回目	domv
 輪播	iraw
 劇透	kevr
@@ -72982,12 +72982,12 @@
 屯溪	axiv
 天逸	ftpo
 敷臉	mihr
-一起上	
+一起上	frkg
 球探	mfap
 五菱	fjsg
 王城	megy
-一開	
-一捆	
+一開	fkrf
+一捆	fkad
 死忠	fuoc
 再等等	mwwg
 麥香	eevj
@@ -73272,7 +73272,7 @@
 哀弔	lwnc
 話匣	uokn
 潛山	ikje
-一來一往	
+一來一往	fefv
 無遠弗屆	wgnb
 是可忍孰不可忍	jadd
 薄情寡義	sphu
@@ -73307,7 +73307,7 @@
 傅粉施朱	ekit
 結繩而治	ppli
 干將莫邪	nwsz
-日行一善	
+日行一善	jvfu
 敢做敢爲	vevv
 煙雨濛濛	mcii
 永不退縮	lipp
@@ -73358,10 +73358,10 @@
 亞力山大	fwjt
 兩抵	frai
 瑞簽	mjwr
-一敗如水	
+一敗如水	fmlv
 惡因	fkdt
 瑰異	mgns
-一般而論	
+一般而論	fxlu
 弄得好	mvlk
 琴劍飄零	mrcc
 目擊耳聞	mitr
@@ -73403,7 +73403,7 @@
 界約	nrph
 貼換	mjap
 賠還	mlzf
-以一奉百	
+以一奉百	efeu
 惋嘆	phos
 愧赧	pggu
 發粉	bnku
@@ -73679,7 +73679,7 @@
 胖妹	hqls
 地裂	gsfu
 封箱	ggwf
-十一五	
+十一五	dffj
 井上	yukg
 進群	cdxw
 喜兒	gohq
@@ -73691,7 +73691,7 @@
 于丹	fjhl
 王蒙	mesp
 王燕	mesf
-一簽	
+一簽	fkwr
 五倍	fjel
 鄢陵	ftzg
 天圓地方	fdgi
@@ -73758,7 +73758,7 @@
 富春	hfej
 宣漢	hfis
 官莊	hbsw
-禮拜一	
+禮拜一	gyfk
 裙樓	nxfo
 安裝盤	hwxq
 色友	pasb
@@ -74042,7 +74042,7 @@
 雨跡雲蹤	cbcb
 五陵年少	fzwk
 五彩紛呈	fvpo
-一市	
+一市	fklr
 珠沉玉碎	mimu
 玉堂金馬	mksj
 橐駝	dojh
@@ -74050,7 +74050,7 @@
 畫供	xges
 畫論	xgur
 正視圖	fgdo
-兀然	prhx
+兀然	pwhx
 不得不發	ivib
 夾餡	trqp
 平靖	nqlg
@@ -74376,7 +74376,7 @@
 老槍	gifr
 天順	fteu
 速騰	fohq
-一發不可收拾	
+一發不可收拾	fbia
 來這	ejud
 玉髓	mlvs
 虐人	kxrw
@@ -74414,7 +74414,7 @@
 喫辣	oclf
 國防生	dzei
 國際版	dzwn
-加在一起	
+加在一起	wsfr
 黑妹	vhls
 國旅	dyiw
 甲流	nfil
@@ -74488,7 +74488,7 @@
 千龍	zolh
 行測	vjim
 生無可戀	ewau
-第一卷	
+第一卷	wfqd
 生死離别	efxo
 復變	vwup
 禹城	wvgy
@@ -74665,8 +74665,8 @@
 機械鍵盤	ffsx
 推特	actg
 吳京	oelk
-一而再再而三	
-不值一駁	
+一而再再而三	flmu
+不值一駁	iefj
 雜亂無序	lvwy
 猙獰面目	xxlm
 血性男兒	wpnh
@@ -74882,7 +74882,7 @@
 純青	pagh
 細腳	pnhu
 綢條	phec
-緣慳一面	
+緣慳一面	ppfl
 綜計	phud
 繳滿	pdis
 綠隊	przq
@@ -74911,7 +74911,7 @@
 碼位	ujel
 有司	shvf
 硅脂	ughi
-大幹一場	
+大幹一場	tdfg
 硬闖	ufrj
 基友	xgsb
 月付	hrea
@@ -74919,8 +74919,8 @@
 雷蛇	cnvh
 場中	gjoc
 開喫	rfoc
-一己之力	
-一笑傾城	
+一己之力	fadw
+一笑傾城	fweg
 玉田	mlne
 悲催	wgej
 戰魂	ooyk
@@ -74956,7 +74956,7 @@
 爭冠	vxpf
 鍵程	sxvo
 返現	nbmm
-掃一掃	
+掃一掃	afax
 掉漆	ajif
 揮着	apum
 熱映	gujc
@@ -75126,7 +75126,7 @@
 林峰	ffje
 禁摩	ffyy
 第二季	wyvk
-第一季	
+第一季	wfvk
 香芋	vjsf
 管卡	whkj
 管着	whum
@@ -75265,7 +75265,7 @@
 以守爲攻	ehvy
 外剛内柔	uccz
 二者不可得兼	ygiq
-一身二任	
+一身二任	fqye
 欺罔	xncq
 菜梗	svff
 勤讀	ryug
@@ -75312,7 +75312,7 @@
 走鄉串户	rnoq
 球癮	mfyz
 王業	mepu
-一瞑不視	
+一瞑不視	fmig
 不揣	ivaj
 畫景	xgjl
 畫史	xgoz
@@ -75521,7 +75521,7 @@
 學委	hzvl
 津渡	ixiy
 旺仔	jmek
-歇一會兒	
+歇一會兒	jfrh
 蟲洞	vvic
 監場	bwgj
 號段	oueu
@@ -75619,7 +75619,7 @@
 王立	melu
 瑞特	mjtg
 瓦薩	uksz
-一居室	
+一居室	fbhh
 晉祠	fkgv
 珍獸	mroo
 卡片機	kwfu
@@ -75813,7 +75813,7 @@
 安慶市	hylr
 小友	kjsb
 陷入僵局	zseb
-一波未平一波又起	
+一波未平一波又起	fisr
 大肆揮霍	trac
 天不怕地不怕	fipp
 東方不亮西方亮	fiil
@@ -75831,7 +75831,7 @@
 其奈我何	xtwe
 射人先射馬	qrtj
 東成西就	fycl
-一蟹不如一蟹	
+一蟹不如一蟹	fpip
 雅克薩	zbsz
 苦度	sbys
 臥地	brgs
@@ -75872,7 +75872,7 @@
 頓住	axel
 正取	fttb
 正席	ftys
-一日萬里	
+一日萬里	fjsn
 瑰偉	mgej
 貞婦	jmlx
 瞎摸	mhas
@@ -76124,7 +76124,7 @@
 南樓	dcfo
 赤銅	gusc
 嘉定區	ghko
-一震	
+一震	fkcy
 五峰	fjje
 環氧	mzwu
 惠東	igfj
@@ -76133,7 +76133,7 @@
 亞克	fkbq
 惡漢	fkis
 不要這樣	icuf
-上一屆	
+上一屆	kfbg
 卡奴	kjlb
 學士服	hghx
 小卡	kjkj
@@ -76234,7 +76234,7 @@
 義勇軍進行曲	ubpc
 店子	yjkv
 康涅狄格	yixf
-不經一事不長一智	
+不經一事不長一智	ipfq
 要言	clui
 有奬銷售	swsc
 奇計	taud
@@ -76283,7 +76283,7 @@
 自媒體	mlvc
 渦扇	ilqq
 冰凍三尺非一日之寒	yyuh
-一傳十十傳百	
+一傳十十傳百	fedu
 逸聞趣事	prrj
 旣來之則安之	dedd
 是非自有公論	jwmu
@@ -76651,7 +76651,7 @@
 椎體	fcvc
 長山	raje
 第三屆	wubg
-第一場	
+第一場	wfgj
 第四屆	wdbg
 税局	vqbv
 税控	vqah
@@ -76787,9 +76787,9 @@
 過稱	ldvv
 南柯夢	dfsz
 增印	gqif
-一心爲公	
+一心爲公	fgvu
 嚴懲不怠	ovik
-一身清白	
+一身清白	fqid
 夾雪	trcx
 不但不	ieiv
 虚驕	kpjc
@@ -77014,12 +77014,12 @@
 老肥	giha
 老柴	giti
 武魂	fyyk
-五險一金	
+五險一金	fzfs
 天虹	ftvy
 天語	ftuf
 表名	gwuo
 瑪麗亞	mffk
-一平	
+一平	fknq
 王宏	mehs
 兩班	frmq
 現澆	mmig
@@ -77087,8 +77087,8 @@
 舔舔	ofof
 街車	vgie
 重郵	znzs
-第一句	
-第一課	
+第一句	wfho
+第一課	wfuj
 得住	vjel
 御宅	vwhw
 科密	vyhg
@@ -77327,7 +77327,7 @@
 老姨	gilt
 青軸	ghip
 副局	fobv
-一身都是膽	
+一身都是膽	fqgh
 虚焊	kpmj
 消聲滅跡	igib
 油封	ipgg
@@ -77471,8 +77471,8 @@
 楊磊	fjuu
 榆中	froc
 第二場	wygj
-第一期	
-第一家	
+第一期	wfxh
+第一家	wfhe
 奧普	rwqp
 乖寶寶	zhhm
 委外	vluj
@@ -77542,10 +77542,10 @@
 三選	uwaa
 分文未取	uxst
 千里之行始於足下	zndb
-一代不如一代	
-一塊石頭落地	
+一代不如一代	feie
+一塊石頭落地	fgug
 言必信行必果	ugej
-一是一二是二	
+一是一二是二	fjfy
 工頻	yxtk
 散攤	shas
 薄絨	sipy
@@ -77635,7 +77635,7 @@
 番人	wkrw
 湊聚	ietb
 送靈	qtco
-裝點一新	
+裝點一新	wvfl
 前清後欠	qivn
 鬥批改	raae
 閥閲	rerq
@@ -77745,7 +77745,7 @@
 春香	ejvj
 龍湖	lhib
 礦粉	uyku
-愛麗舍	vfrn
+愛麗舍	vfro
 爵爺	vzuz
 彩鑽	vfst
 用人勿疑	zrhi
@@ -77886,7 +77886,7 @@
 花雀	sekc
 隙間	zkrj
 防波	ziiw
-對一	
+對一	pufk
 驅護艦	juxb
 馬拉美	jaut
 慧思	ccng
@@ -78132,7 +78132,7 @@
 槍兵	frnf
 核突	fdhx
 千橡	zofp
-第一册	
+第一册	wfhh
 復興門	vhrm
 香坊	vjgi
 特拉華	tasn
@@ -78173,7 +78173,7 @@
 炕幾	mluu
 事不關己高高掛起	jirr
 有則改之無則加勉	smap
-一葉障目不見泰山	
+一葉障目不見泰山	fszj
 成也蕭何敗也蕭何	ysse
 兵來將擋水來土掩	newa
 決勝於千里之外	ihiu
@@ -78192,7 +78192,7 @@
 擊響	ixnw
 至境	hcgl
 靜守	ghha
-一好百好	
+一好百好	flul
 互遞	frnk
 頗讓	wuul
 卓有遠見	jsgm
@@ -78265,7 +78265,7 @@
 除味	zros
 友盡	sbxf
 故弄虚玄	bmkl
-一臥不起	
+一臥不起	fbir
 逗逼	fofo
 深惡痛嫉	ifyl
 興高彩烈	hlvf
@@ -78571,7 +78571,7 @@
 天河城	figy
 速攻	foye
 整站	folj
-一級棒	
+一級棒	fpfe
 班服	mqhx
 止回閥	tdre
 鼎湖	mwib
@@ -78677,7 +78677,7 @@
 七海	akiw
 出雲	xxcy
 預算員	zwom
-三險一金	
+三險一金	uzfs
 大小非	tkwi
 百匯	ujki
 大鐘寺	tsga
@@ -78717,10 +78717,10 @@
 良鄉	lpnw
 高級群	lpxw
 遠在天邊近在眼前	gsfq
-救人一命勝造七級浮屠	
+救人一命勝造七級浮屠	frfb
 心心相連	ggfi
 二選	yraa
-一分耕耘一分收穫	
+一分耕耘一分收穫	fucv
 養兵千日用兵一時	qnzj
 人無遠慮必有近憂	rwgu
 盡信書不如無書	xexx
@@ -78805,16 +78805,16 @@
 時起時伏	jrje
 前人栽樹後人乘涼	qrdi
 金玉其外敗絮其中	smxo
-一人之下萬人之上	
+一人之下萬人之上	frdk
 不在其位不謀其政	isxf
 三軍易得	upjv
 乾打雷	dacn
-一石兩鳥	
+一石兩鳥	fuft
 殘磚斷瓦	fuuu
 涉險過關	izlr
 暢暢快快	pppp
 風高浪急	elip
-必居其一	
+必居其一	gbxf
 托洛斯基	aixx
 李慎之	fpdj
 樸樸實實	ffhh
@@ -78823,7 +78823,7 @@
 不時之須	ijds
 辱國殃民	ydfa
 城會玩	grmf
-一口吸盡西江水	
+一口吸盡西江水	foov
 當面輸心背面笑	kliw
 晝伏夜動	xelz
 桀傲不馴	ueij
@@ -78863,9 +78863,9 @@
 以其人之道還治其人之身	exrq
 八仙過海各顯神通	uelb
 求大同存小異	ftcn
-一人得道雞犬升天	
+一人得道雞犬升天	frvf
 壓而不服	klih
-一瞬卽逝	
+一瞬卽逝	fmda
 鋤暴安良	sjhl
 管子工	wkyx
 引而伸之	nled
@@ -78902,7 +78902,7 @@
 航天橋	xffc
 如果愛	ljvp
 供應部	eylo
-一言旣出駟馬難追	
+一言旣出駟馬難追	fudg
 烏頭白馬生角	tfdp
 鞠躬盡瘁死而後已	rqxa
 知無不言言無不盡	qwix
@@ -78910,7 +78910,7 @@
 跑了和尚跑不了廟	bkvy
 克爾凱郭爾	bfjf
 整章建制	flxt
-没一搭	
+没一搭	ifas
 遇水搭橋	vvaf
 嘭嚓嚓	oooh
 寓莊於諧	hsiu
@@ -78958,12 +78958,12 @@
 放下屠刀立地成佛	ibbe
 得道多助失道寡助	vqum
 自天而降	mflz
-三一三十一	
+三一三十一	ufuf
 妥妥貼貼	vvmm
 愛博而情不專	vdli
 融匯貫通	fkrb
-一笑泯恩仇	
-一命鳴呼	
+一笑泯恩仇	fwie
+一命鳴呼	froo
 兵在精而不在多	nsku
 搬起石頭打自己的腳	aruh
 撥雲霧見青天	accf
@@ -78991,14 +78991,14 @@
 呼之卽來揮之卽去	oddg
 塞翁失馬焉知非福	huwg
 人爲財死鳥爲食亡	rvme
-道高一尺魔高一丈	
+道高一尺魔高一丈	qlfs
 天網恢恢疏而不漏	fppi
 不求有功但求無過	ifsl
 衣來伸手飯來張口	leeo
 皮之不存毛將焉附	wdiz
 螳螂捕蟬黃雀在後	vvav
 十年樹木百年樹人	dwfr
-一夫當關萬夫莫開	
+一夫當關萬夫莫開	fdkr
 兵馬未動糧草先行	njsv
 天下興亡匹夫有責	fbhg
 人不犯我我不犯人	rixr
@@ -79016,13 +79016,13 @@
 黑山老妖	vjgl
 兼聽則明偏信則暗	qtmj
 鷸蚌相爭漁翁得利	zvfv
-一則以喜一則以懼	
+一則以喜一則以懼	fmep
 上天無路入地無門	kfwr
-眉頭一皺計上心來	
+眉頭一皺計上心來	bffe
 金無足赤人無完人	swbr
 橋歸橋路歸路	fgfb
 長他人志氣滅自己威風	rere
-經一事長一智	
+經一事長一智	pfjq
 謀事在人成事在天	ujsf
 靠山喫山靠水喫水	tjov
 城門失火殃及池魚	grwt
@@ -79032,7 +79032,7 @@
 落花有意流水無情	sssp
 自由作家	mpeh
 老虎頭上撲蒼蠅	gkfv
-一山不藏二虎	
+一山不藏二虎	fjik
 遺笑大方	owti
 飽漢子不知餓漢子飢	qikq
 狗口裏吐不出象牙	xolz
@@ -79054,7 +79054,7 @@
 上不着天下不着地	kiug
 尺有所短寸有所長	bsqr
 送君千里終須一别	qxzo
-君子一言快馬一鞭	
+君子一言快馬一鞭	xkfr
 人同此心心同此理	rctm
 從善如登從惡如崩	vulj
 言之諄諄聽之藐藐	udus
@@ -79086,7 +79086,7 @@
 信息表	emgw
 攻無不克戰無不勝	ywih
 工欲善其事必先利其器	yuuo
-獨此一家别無分店	
+獨此一家别無分店	xtfy
 機不可失失不再來	fiae
 千軍易得一將難求	zpjf
 失之毫釐差以千里	wdln
@@ -79144,7 +79144,7 @@
 讀書百遍其義自見	uxum
 流浪地球	iigm
 降維打擊	zpai
-魔高一尺道高一丈	
+魔高一尺道高一丈	ylfs
 丁子霖	akcf
 含含混混	rrii
 再接再礪	mamu
@@ -79200,7 +79200,7 @@
 好事不出門惡事行千里	ljin
 召之卽來揮之卽去	dddg
 佛是金裝人是衣裝	ejsw
-捨得一身剮敢把皇帝拉下馬	
+捨得一身剮敢把皇帝拉下馬	avfj
 高鳥盡良弓藏	ltxs
 喝不喝	oioj
 看没看	yiym
@@ -79215,12 +79215,12 @@
 值班表	emgw
 劉熾平	imnq
 天有不測風雲人有旦夕禍福	fsig
-一朝被蛇咬十年怕井繩	
+一朝被蛇咬十年怕井繩	fdnp
 平時不燒香急來抱佛腳	njih
 知之爲知之不知爲不知	qdvq
 巧不巧	yiyu
 聽没聽	titm
-陳一丹	
+陳一丹	zfhl
 泰羅卡	ezkj
 大兵小將	tnkw
 飛行島	evtj
@@ -79711,7 +79711,7 @@
 公聊	ukti
 倚翠	etqq
 偉男	ejnw
-舒翼	rnqq
+舒翼	roqq
 斂聚	retb
 合巹	rhvv
 修細	ecpn
@@ -80105,7 +80105,7 @@
 阿維	zapc
 聯盛	tuyv
 聯強	tunk
-附一	
+附一	zefk
 防恐	ziyq
 防高	zilv
 騏達	jxgu
@@ -80253,7 +80253,7 @@
 於鋭	irsq
 球頭	mffo
 球會	mfrf
-一磅	
+一磅	fkul
 五章	fjlj
 五靈	fjco
 五莊	fjsw
@@ -80629,7 +80629,7 @@
 做上	ebkg
 佰易	eujh
 傣妹	eels
-舒蕾	rnsc
+舒蕾	rosc
 佳吉	eggo
 華南師範大學	sdgh
 佳林	egff
