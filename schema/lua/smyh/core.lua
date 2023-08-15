@@ -168,14 +168,13 @@ end
 ---@param cmd string
 ---@param text boolean
 local function new_shell(name, cmd, text)
-    local function get_text(args)
-        local cmdline = cmd
+    local template = "__macrowrapper() { %s ; }; __macrowrapper %s <<<''"
+    local function get_fd(args)
+        local cmdargs = {}
         for _, arg in ipairs(args) do
-            cmdline = cmdline .. " \"" .. arg .. "\""
+            table.insert(cmdargs, '"' .. arg .. '"')
         end
-        local t = io.popen(cmdline, 'r'):read('a')
-        t = string.gsub(string.gsub(t, "^%s+", ""), "%s+$", "")
-        return t
+        return io.popen(string.format(template, cmd, table.concat(cmdargs, " ")), 'r')
     end
 
     local shell = {
@@ -184,17 +183,16 @@ local function new_shell(name, cmd, text)
     }
 
     function shell:display(ctx, args)
-        return #self.name ~= 0 and self.name or text and get_text(args)
+        return #self.name ~= 0 and self.name or text and get_fd(args):read('a')
     end
 
     function shell:trigger(env, ctx, args)
+        local fd = get_fd(args)
         if text then
-            local t = get_text(args)
+            local t = fd:read('a')
             if #t ~= 0 then
                 env.engine:commit_text(t)
             end
-        else
-            io.popen(cmd)
         end
         ctx:clear()
     end

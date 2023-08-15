@@ -137,12 +137,16 @@ patch:
             return table.concat(res, ",")
           end
     echo:
-      # 含參 shell 命令示例, 參数會依次傳遞給命令
+      # 含參 shell 命令示例, 參数會經由簡易 wrapper 函數傳遞給命令
+      # __macrowrapper() { CMD; }; __macrowrapper ARGS <<<''
       # 對於 :echo/eng/hello, 其最終執行的 shell 命令爲 echo eng hello
       # 注意需要配合 recognizer
       - type: shell
-        cmd: echo
+        cmd: echo "$@"
         text: true
+      - type: shell
+        name: info
+        cmd: zenity --info --text "$(echo $@)"
   core_proc/macros/+:
     __include: patch/macros
   core_tr/macros/+:
