@@ -17,8 +17,6 @@ encoder:
 ...
 
 可憐	a1pka
-过冬	a2eyr
-过滤	a2ikg
 打援	aahavb
 打叉	aahbll
 打盹	aahmax
@@ -39,6 +37,8 @@ encoder:
 切換	adkapt
 切磋	adkuuy
 擀麪	adneev
+过冬	adneyr
+过滤	adnikg
 擀面	adnlt1
 过面	adnlt1
 招徕	adovfk
@@ -60,7 +60,7 @@ encoder:
 摧殘	ajcfuy
 担纲	ajfncz
 攜帶	ajosfr
-攜手	ajoy2
+攜手	ajoyg1
 提纲	ajtncz
 东郊	akjluz
 擋住	aknelm
@@ -124,7 +124,7 @@ encoder:
 捨不	aroi1
 擱淺	aroiyy
 捨棄	arolks
-捨身	aroq2
+捨身	aroqn1
 搶奪	arotca
 捨得	arov2
 擱置	arozdm
@@ -146,7 +146,7 @@ encoder:
 援藏	avbsyb
 援外	avbujd
 援建	avbxap
-援手	avby2
+援手	avbyg1
 援用	avbz1
 拯救	avffve
 摇铃	avqtrb
@@ -204,7 +204,7 @@ encoder:
 下囚	b1drw
 下颚	b1ooc
 下頜	b1rum
-对峙	b2jga
+对峙	baijga
 双休	bbjefi
 双栖	bbjfcu
 双薪	bbjsln
@@ -236,17 +236,17 @@ encoder:
 叉烧	bllmap
 叉车	bllmd1
 尺蠖	bllvsb
-叉手	blly2
-躋身	blyq2
+叉手	bllyg1
+躋身	blyqn1
 足矣	bn1kqj
 鸡肫	bnnhax
 鸡肋	bnnhwl
 劈叉	bodbll
 避讳	boddav
-劈去	bodg2
+劈去	bodgkf
 劈面	bodlt1
 劈柴	bodtif
-劈手	body2
+劈手	bodyg1
 劈头	bodyt1
 劈杀	bodzfi
 壁滩	bogibc
@@ -291,6 +291,7 @@ encoder:
 霹雳	cblckw
 霹雷	cblcne
 紧逼	cbpfod
+紧盯	cbpmah
 紧邻	cbprlz
 覈定	cdehft
 覈實	cdehrm
@@ -304,7 +305,7 @@ encoder:
 凸凹	cffcfk
 凸显	cffjpf
 凸面	cfflt1
-凸现	cffm2
+凸现	cffm1
 凸轮	cffmri
 凸起	cffran
 凸透	cffvrd
@@ -364,12 +365,12 @@ encoder:
 谐波	didiwu
 谐音	didljk
 谐和	didvoi
-旣然	diqh2
 旣定	diqhft
+旣然	diqhxm
 旣是	diqj1
 讣告	djdtoi
 讣闻	djdxte
-谒见	djec2
+谒见	djecy1
 朝晖	djhjpm
 朝纲	djhncz
 朝暮	djhsjj
@@ -519,7 +520,7 @@ encoder:
 倾轧	eicmeg
 倾吐	eicogi
 倾听	eiconc
-倾情	eicp1
+倾情	eicpgh
 倾角	eicpzu
 倾斜	eicrfd
 倾向	eicrs1
@@ -628,7 +629,7 @@ encoder:
 无羁	fbdzru
 权倾	fbjeic
 枯朽	fbufua
-棘手	fccy2
+棘手	fccyg1
 榫头	fcdyt1
 標註	fcgulm
 桐油	fcoipb
@@ -642,8 +643,8 @@ encoder:
 桥墩	fcugle
 栖宿	fcuhej
 栖息	fcumgv
-栖身	fcuq2
-桥身	fcuq2
+栖身	fcuqn1
+桥身	fcuqn1
 枣树	fcyfba
 枣泥	fcyibi
 枣子	fcykv1
@@ -673,7 +674,7 @@ encoder:
 迂腐	fjdyer
 亘古	fjfbu1
 查辦	fjflwl
-杳然	fjkh2
+杳然	fjkhxm
 更换	fjzapt
 更換	fjzapt
 椒盐	fkbgjz
@@ -790,6 +791,7 @@ encoder:
 殭屍	fufbfi
 殲滅	fufiym
 死囚	fuidrw
+死盯	fuimah
 殖民	fumaak
 殯葬	fumsfs
 機構	furfsg
@@ -943,7 +945,7 @@ encoder:
 考覈	guacde
 考纲	guancz
 赫赫	guuguu
-赫然	guuh2
+赫然	guuhxm
 赫兹	guuquu
 塘坝	gyogcv
 城郊	gyvluz
@@ -960,7 +962,7 @@ encoder:
 官爵	hbbvza
 胴体	hcoeff
 豁達	hcogud
-豁然	hcoh2
+豁然	hcohxm
 豁亮	hcolqh
 豁口	hcooi1
 豁嘴	hcootz
@@ -1011,7 +1013,7 @@ encoder:
 窒息	hhcmgv
 删改	hhxaeu
 删掉	hhxajj
-删去	hhxg2
+删去	hhxgkf
 胸膜	hhxhst
 删了	hhxk1
 胸鳍	hhxpgj
@@ -1078,7 +1080,7 @@ encoder:
 塞住	hsgelm
 塞到	hsgh1
 塞满	hsgisr
-塞上	hsgk2
+塞上	hsgkg1
 塞子	hsgkv1
 塞车	hsgmd1
 塞纳	hsgncr
@@ -1250,7 +1252,7 @@ encoder:
 卵管	illwhb
 卵巢	illyjf
 流暢	ilqpjs
-泫然	iluh2
+泫然	iluhxm
 滚燙	ilwijm
 潍坊	incgir
 留滞	ineisr
@@ -1295,9 +1297,9 @@ encoder:
 滞涩	isridt
 滞留	isrine
 滯留	isrine
-滞后	isrn2
-满后	isrn2
 滞纳	isrncr
+滞后	isrnfo
+满后	isrnfo
 滞销	isrtkh
 滯後	isrvue
 潇洒	isuicu
@@ -1346,8 +1348,8 @@ encoder:
 旋塞	iwthsg
 漓江	ixkiyx
 淄博	iyndma
-时薪	j2sln
-时蔬	j2svq
+时薪	jaisln
+时蔬	jaisvq
 卜卦	jd1ggj
 照拂	jdmanu
 巔峰	jdmjec
@@ -1400,11 +1402,6 @@ encoder:
 暖冬	jvbeyr
 暧昧	jvbjsk
 晨晖	jyejpm
-上抛	k2aww
-上颚	k2ooc
-上鉤	k2sho
-上瘾	k2yzg
-上癮	k2yzg
 巨鲸	kbjplk
 巨蟹	kbjpzv
 巨贪	kbjrlc
@@ -1426,6 +1423,11 @@ encoder:
 断炊	kenmnv
 饯别	kfyowx
 饯行	kfyvjc
+上抛	kg1aww
+上颚	kg1ooc
+上鉤	kg1sho
+上瘾	kg1yzg
+上癮	kg1yzg
 精盐	kghgjz
 精液	kghill
 精卵	kghill
@@ -1513,7 +1515,7 @@ encoder:
 夜叉	lelbll
 褒貶	lewmwd
 亲眷	lfiqdm
-嫣然	lfmh2
+嫣然	lfmhxm
 嫣红	lfmnyx
 新穎	lfnivm
 辣椒	lfofkb
@@ -1636,10 +1638,14 @@ encoder:
 辦公	lwlukf
 嫵媚	lwmlbm
 辛勞	lx1mmw
-自赎	m1cdt
-自虐	m1kxj
-自習	m1qqd
-自籌	m1wga
+盯紧	mahcbp
+盯住	mahelm
+盯梢	mahfkh
+盯死	mahfui
+盯视	mahgcy
+盯上	mahkg1
+盯着	mahu1
+盯防	mahzir
 烧碱	mapuyo
 辍学	mbbipk
 辍笔	mbbwxe
@@ -1654,6 +1660,10 @@ encoder:
 燈籠	mbqwlj
 燈罩	mbqzjj
 轻拂	mbyanu
+自赎	mc1cdt
+自虐	mc1kxj
+自習	mc1qqd
+自籌	mc1wga
 煙癮	mcgyzg
 车铃	md1trb
 睏倦	mdfeqv
@@ -1790,9 +1800,6 @@ encoder:
 貶義	mwduwy
 轶闻	mwdxte
 斑蝥	mxmzwv
-后援	n2avb
-后尘	n2kgi
-后羿	n2qqs
 纪纲	nanncz
 纯碱	naxuyo
 反诬	nbjdyr
@@ -1816,6 +1823,9 @@ encoder:
 络绎	neonba
 甲亢	nf1lqh
 甲苯	nf1sff
+后援	nfoavb
+后尘	nfokgi
+后羿	nfoqqs
 彌留	nfzine
 彌補	nfznmt
 彌勒	nfzrwl
@@ -1979,12 +1989,11 @@ encoder:
 叫喚	oxsopt
 唾弃	ozslks
 唾棄	ozslks
-情愫	p1pgp
 紀錄	pansrv
 純樸	paxfpd
 鱿鱼	pbdpe1
-惘然	pceh2
 網膜	pcehst
+惘然	pcehxm
 悭吝	pcgxoi
 維持	pciaga
 維修	pciecs
@@ -2000,8 +2009,8 @@ encoder:
 电铃	pd1trb
 愤懑	pdcisg
 悽慘	pdlpks
-惶然	pdmh2
-憤然	pdmh2
+惶然	pdmhxm
+憤然	pdmhxm
 憤懣	pdmisg
 憤怒	pdmlbg
 憤慨	pdmpdq
@@ -2026,11 +2035,12 @@ encoder:
 恆溫	pffidz
 恒星	pffjei
 恆星	pffjei
-悚然	pfoh2
+悚然	pfohxm
 悚惧	pfopmu
 練習	pfqqqd
 經辦	pfylwl
 經綸	pfyprl
+情愫	pghpgp
 垦殖	pgifum
 績效	pgmlue
 愧怍	pgmpwj
@@ -2044,7 +2054,7 @@ encoder:
 綽號	pjjouk
 暢通	pjsbzd
 暢遊	pjsiwd
-暢快	pjsp2
+暢快	pjsp1
 暢飲	pjsqnv
 暢銷	pjsskh
 暢談	pjsumm
@@ -2096,7 +2106,7 @@ encoder:
 恰恰	prhprh
 恰遇	prhvdn
 恰巧	prhyua
-怆然	prvh2
+怆然	prvhxm
 綠燈	prvmbq
 懵懂	psmpsn
 對峙	puajga
@@ -2303,7 +2313,7 @@ encoder:
 坐禅	rrggqd
 輪換	rrlapt
 輪廓	rrlylz
-轟然	rrrh2
+轟然	rrrhxm
 轟炸	rrrmwj
 轟鳴	rrrotm
 轟隆	rrrzee
@@ -2377,7 +2387,7 @@ encoder:
 蒜苗	sggsne
 蒜头	sggyt1
 孽缘	sgknre
-孽情	sgkp1
+孽情	sgkpgh
 孽种	sgkvoc
 孽障	sgkzlj
 葱白	shgds1
@@ -2408,7 +2418,7 @@ encoder:
 暮霭	sjjcde
 暮春	sjjejk
 驀地	sjjg1
-驀然	sjjh2
+驀然	sjjhxm
 暮烟	sjjmdt
 暮色	sjjpaj
 暮年	sjjwak
@@ -2613,10 +2623,16 @@ encoder:
 記錄	uansrv
 硒鼓	ucugob
 碘酒	ucuick
-贫瘠	ud1yyh
-骇然	udah2
 骇客	udaheo
-忿然	udgh2
+骇然	udahxm
+颁授	udcavb
+颁给	udcnrh
+颁奖	udcqut
+颁布	udcsrk
+颁行	udcvjc
+颁发	udcxbl
+贫瘠	udcyyh
+忿然	udghxm
 分叉	udkbll
 分鐘	udksln
 頒發	udmbnq
@@ -2664,7 +2680,7 @@ encoder:
 註解	ulmpzt
 註銷	ulmskh
 註釋	ulmwkd
-砰然	unqh2
+砰然	unqhxm
 名譽	uoihuu
 變換	upeapt
 變卦	upeggj
@@ -2769,7 +2785,7 @@ encoder:
 蝉翼	vqdqqu
 蝉联	vqdtqt
 頽喪	vqmdok
-頽然	vqmh2
+頽然	vqmhxm
 骰子	vqmkv1
 頽廢	vqmybq
 蜕化	vqqeib
@@ -2930,9 +2946,6 @@ encoder:
 盘桓	xzmfff
 獨佔	xzvejo
 看齊	y1lqy
-手續	y2pgm
-手戳	y2qqy
-手鐲	y2szv
 疤瘌	yajyfx
 冻僵	yakeff
 廢渣	ybqiff
@@ -2955,6 +2968,9 @@ encoder:
 癩蛤	yfmvrh
 病休	yfrefi
 病牀	yfrwfi
+手續	yg1pgm
+手戳	yg1qqy
+手鐲	yg1szv
 痔瘡	ygayro
 痔疮	ygayrv
 凌虐	ygekxj
@@ -2971,7 +2987,7 @@ encoder:
 凝滯	yitisr
 癡迷	yitkdn
 癡呆	yitofi
-癡情	yitp1
+癡情	yitpgh
 憑弔	yjgncn
 痠軟	ykernv
 痠痛	ykeybz
@@ -3019,8 +3035,6 @@ encoder:
 阿嚏	zaoodt
 置换	zdmapt
 置換	zdmapt
-降尘	ze1kgi
-降薪	ze1sln
 隆冬	zeeeyr
 隆迪	zeepdn
 隔膜	zfchst
@@ -3073,8 +3087,8 @@ encoder:
 随口	zsdoi1
 隨口	zsdoi1
 隨軍	zsdprq
-随身	zsdq2
-隨身	zsdq2
+随身	zsdqn1
+隨身	zsdqn1
 随大	zsdt1
 隨大	zsdt1
 随着	zsdu1
@@ -3086,8 +3100,8 @@ encoder:
 隨從	zsdvrt
 隨後	zsdvue
 隨筆	zsdwxa
-随手	zsdy2
-隨手	zsdy2
+随手	zsdyg1
+隨手	zsdyg1
 堕胎	zsghko
 墮胎	zsghko
 堕落	zsgsio

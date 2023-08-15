@@ -15,7 +15,6 @@ columns:
 ...
 
 可	a1	371473
-过	a2	346435
 抿	aaa	1062
 㐂	aaa	0
 𣱈	aaa	0
@@ -376,7 +375,7 @@ columns:
 𢶋	adm	0
 𢹻	adm	0
 𱠦	adm	0
-过	adn	100
+过	adn	346435
 擀	adn	74
 𢏪	adn	0
 𨑓	adn	0
@@ -2975,7 +2974,6 @@ columns:
 𪮜	azy	0
 捓	azz	0
 下	b1	434060
-对	b2	293709
 䟨	baa	0
 𨁩	baa	0
 𨃌	baa	0
@@ -2998,7 +2996,7 @@ columns:
 𡰨	bah	0
 𬻚	bah	0
 𱱴	bah	0
-对	bai	100
+对	bai	293709
 𫏀	bai	0
 𱚱	bai	0
 㞎	baj	0
@@ -5786,7 +5784,6 @@ columns:
 𢧙	bzy	0
 𫵚	bzz	0
 要	c1	408050
-见	c2	164087
 𩃧	caa	0
 𠬸	cab	0
 𮞉	cad	0
@@ -8197,7 +8194,7 @@ columns:
 𬰁	cxy	0
 郞	cxz	0
 𬐶	cxz	0
-见	cy1	100
+见	cy1	164087
 ⻅	cy3	0
 𧟲	cya	0
 𨚉	cya	0
@@ -13922,7 +13919,6 @@ columns:
 𱻕	ezy	0
 𬾈	ezz	0
 一	f1	1786173
-来	f2	703426
 𣐡	faa	0
 𣖖	faa	0
 𭩳	faa	0
@@ -15642,7 +15638,7 @@ columns:
 𣼿	fkr	0
 𪠜	fkr	0
 𰮑	fkr	0
-来	fks	100
+来	fks	703426
 㭓	fks	0
 椮	fks	0
 槮	fks	0
@@ -18677,7 +18673,6 @@ columns:
 𬅙	fzz	0
 𰘃	fzz	0
 地	g1	455629
-去	g2	366729
 垊	gaa	0
 𥙈	gab	0
 𡊈	gad	0
@@ -20387,7 +20382,7 @@ columns:
 𫀙	gke	0
 𫨬	gke	0
 𱘊	gke	0
-去	gkf	100
+去	gkf	366729
 𡋠	gkf	0
 𣘂	gkf	0
 𭏟	gkf	0
@@ -22802,7 +22797,6 @@ columns:
 𡎫	gzx	0
 𢗮	gzx	0
 到	h1	580057
-然	h2	379579
 𡨹	haa	0
 𡨺	haa	0
 𢼌	hab	0
@@ -26761,7 +26755,7 @@ columns:
 突	hxl	0
 𦜺	hxl	0
 𰆎	hxl	0
-然	hxm	100
+然	hxm	379579
 𤉷	hxm	0
 𤌉	hxm	0
 𤌽	hxm	0
@@ -31854,7 +31848,6 @@ columns:
 瀱	izx	0
 𣺡	izy	0
 是	j1	1579013
-时	j2	389102
 早	ja1	59503
 岷	jaa	110
 𡶗	jaa	0
@@ -31875,7 +31868,7 @@ columns:
 𩡯	jah	0
 𫵲	jah	0
 𭥌	jah	0
-时	jai	100
+时	jai	389102
 𬁟	jai	0
 岜	jaj	13
 㟭	jaj	0
@@ -36390,7 +36383,6 @@ columns:
 𨜵	jzz	0
 𩎔	jzz	0
 了	k1	1714620
-上	k2	608764
 厂	ka1	6639
 匚	ka3	2
 ⼕	ka3	0
@@ -37050,7 +37042,7 @@ columns:
 𨞹	kfz	0
 𫟫	kfz	0
 𬑁	kfz	0
-上	kg1	100
+上	kg1	608764
 丄	kg3	0
 𪛚	kg3	0
 㕑	kga	0
@@ -39736,7 +39728,6 @@ columns:
 𰫈	kzy	0
 𮷜	kzz	0
 就	l1	561635
-她	l2	385270
 冎	la3	0
 咼	la3	0
 䇇	laa	0
@@ -42492,7 +42483,7 @@ columns:
 媠	lsh	0
 𡤃	lsh	0
 𫱄	lsh	0
-她	lsi	100
+她	lsi	385270
 婲	lsi	0
 𪦀	lsi	0
 𭑫	lsi	0
@@ -43446,9 +43437,7 @@ columns:
 𫰘	lzx	0
 𬽕	lzy	0
 𰁞	lzy	0
-自	m1	380584
-现	m2	197281
-灯	ma1	13757
+现	m1	197281
 眠	maa	4517
 珉	maa	430
 𤇜	maa	0
@@ -43464,8 +43453,8 @@ columns:
 𰹹	mad	0
 𢾭	mae	0
 𣒓	maf	0
+灯	mah	13757
 盯	mah	10325
-灯	mah	100
 玎	mah	38
 尃	mai	1
 䙷	mai	0
@@ -43695,7 +43684,7 @@ columns:
 𪊇	mbz	0
 𭾸	mbz	0
 𱰀	mbz	0
-自	mc1	100
+自	mc1	380584
 ⺣	mc3	0
 ⾃	mc3	0
 灬	mc3	0
@@ -48726,7 +48715,6 @@ columns:
 覐	mzz	0
 𬍲	mzz	0
 里	n1	351732
-后	n2	311010
 弓	na1	5881
 ⼸	na3	0
 𢎗	na3	0
@@ -49284,7 +49272,7 @@ columns:
 𤲭	nfn	0
 𧘛	nfn	0
 𰣟	nfn	0
-后	nfo	100
+后	nfo	311010
 𠰟	nfo	0
 𠵲	nfo	0
 𦈌	nfo	0
@@ -51367,7 +51355,6 @@ columns:
 𫜅	nzw	0
 𬡬	nzw	0
 中	o1	408284
-只	o2	254830
 呡	oaa	7
 咑	oaa	1
 䣈	oaa	0
@@ -54676,8 +54663,8 @@ columns:
 𡆝	our	0
 𭈹	our	0
 𱕒	our	0
+只	ous	254830
 叭	ous	1364
-只	ous	100
 𠃢	ous	0
 𠶡	ous	0
 𠶽	ous	0
@@ -55360,8 +55347,7 @@ columns:
 𠺔	ozz	0
 𠻑	ozz	0
 𫪊	ozz	0
-情	p1	202111
-快	p2	95556
+快	p1	95556
 䋋	paa	0
 怋	paa	0
 𢛺	paa	0
@@ -56297,7 +56283,7 @@ columns:
 𦁪	pgg	0
 𦇇	pgg	0
 𱇶	pgg	0
-情	pgh	100
+情	pgh	202111
 綪	pgh	32
 鲭	pgh	5
 懛	pgh	0
@@ -59728,7 +59714,6 @@ columns:
 𧥈	pzz	0
 𨛥	pzz	0
 道	q1	523968
-身	q2	243148
 𡭉	qaa	0
 𨉠	qaa	0
 𨚚	qaa	0
@@ -60987,7 +60972,7 @@ columns:
 𩠔	qmx	0
 𬳖	qmx	0
 𱮁	qmx	0
-身	qn1	100
+身	qn1	243148
 ⾝	qn3	0
 躬	qna	2293
 飯	qnb	3146
@@ -62424,7 +62409,6 @@ columns:
 𱃕	qzz	0
 𱃝	qzz	0
 个	r1	701170
-会	r2	323572
 長	ra1	23746
 ⻑	ra3	0
 ⾧	ra3	0
@@ -66753,7 +66737,7 @@ columns:
 𩊼	ryj	0
 𩬷	ryj	0
 𭦃	ryj	0
-会	ryk	100
+会	ryk	323572
 転	ryk	0
 𨌮	ryl	0
 𩬰	ryl	0
@@ -74078,7 +74062,6 @@ columns:
 𮓅	szz	0
 𲆢	szz	0
 大	t1	576021
-些	t2	188618
 𦕛	taa	0
 𩹭	taa	0
 𫙗	taa	0
@@ -75367,7 +75350,7 @@ columns:
 𪇥	tix	0
 𰘐	tix	0
 𲇳	tix	0
-些	tiy	100
+些	tiy	188618
 㧘	tiy	0
 鯲	tiy	0
 𪀤	tiy	0
@@ -78020,7 +78003,6 @@ columns:
 𩵲	tzz	0
 𰋜	tzz	0
 着	u1	529358
-多	u2	243649
 丂	ua3	0
 䂥	uaa	0
 䛉	uaa	0
@@ -78358,7 +78340,6 @@ columns:
 𧧜	ucz	0
 𧪪	ucz	0
 𰧔	ucz	0
-贫	ud1	3812
 該	uda	5154
 骇	uda	2721
 硋	uda	0
@@ -78373,8 +78354,8 @@ columns:
 𥑂	udb	0
 𩧽	udb	0
 𮛍	udb	0
+贫	udc	3812
 颁	udc	719
-贫	udc	100
 𫅗	udc	0
 𫡇	udc	0
 𬥬	udc	0
@@ -81215,8 +81196,8 @@ columns:
 𬩍	uud	0
 𭅩	uud	0
 𰧟	uud	0
+多	uue	243649
 矽	uue	256
-多	uue	100
 㡭	uue	0
 䜝	uue	0
 䜡	uue	0
@@ -86985,7 +86966,6 @@ columns:
 𫑲	vzz	0
 𫑲	vzz	0
 我	w1	1499795
-么	w2	461222
 爿	wa1	65
 ⽙	wa3	0
 筢	waa	27
@@ -88531,7 +88511,7 @@ columns:
 𫿋	wke	0
 𫿓	wke	0
 𭽫	wke	0
-么	wkf	100
+么	wkf	461222
 䈢	wkf	0
 䉎	wkf	0
 厹	wkf	0
@@ -93630,7 +93610,6 @@ columns:
 𤟆	xzx	0
 𤞡	xzz	0
 看	y1	404707
-手	y2	256856
 麻	ya1	19794
 巜	ya3	1
 ⼮	ya3	0
@@ -94440,7 +94419,7 @@ columns:
 𨜠	yfz	0
 𬐨	yfz	0
 𭙜	yfz	0
-手	yg1	100
+手	yg1	256856
 ⼿	yg3	0
 龵	yg3	0
 廚	yga	737
@@ -97465,7 +97444,6 @@ columns:
 罚	zdx	4476
 𦋦	zdx	0
 𨹰	zdy	0
-降	ze1	13825
 附	zea	12397
 降	zea	100
 降	zea	0
@@ -99274,29 +99252,19 @@ columns:
 𬪢	zzz	0
 可以	a2
 可能	a2
-下午	b2
-要么	c2
 一个	f2
 一些	f2
-地上	g2
 好的	l2
-不是	i2
 不过	i2
-情况	p2
-大家	t2
 大概	t2
 我们	w2
-我的	w2
-这个	x2
 这样	x2
 已经	ao2
+刚刚	cz2
 因为	dt2
 什么	ed2
-冬天	ey2
-两个	fc2
-喜爱	go2
 没有	iq2
 时候	ja2
 意思	lj2
 知道	qo2
-刚刚	cz2
+怎么	wj2
