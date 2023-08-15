@@ -42,6 +42,13 @@ func acceptCharacter(char string) (accept bool) {
 	}
 
 	u := runes[0]
+
+	// 特别漢字 - 㨃
+	if u == 0x3a03 {
+		accept = true
+		return
+	} 
+
 	for left, right := range cjkExtSet {
 		if u >= left && u <= right {
 			return
