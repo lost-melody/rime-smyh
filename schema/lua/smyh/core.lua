@@ -168,6 +168,15 @@ end
 ---@param cmd string
 ---@param text boolean
 local function new_shell(name, cmd, text)
+    -- check whether io.popen is supported
+    local popen_ok, popen_res = pcall(io.popen, "")
+    if popen_res then
+        popen_res:close()
+    end
+    if not popen_ok then
+        return nil
+    end
+
     local template = "__macrowrapper() { %s ; }; __macrowrapper %s <<<''"
     local function get_fd(args)
         local cmdargs = {}
@@ -194,6 +203,7 @@ local function new_shell(name, cmd, text)
                 env.engine:commit_text(t)
             end
         end
+        fd:close()
         ctx:clear()
     end
 

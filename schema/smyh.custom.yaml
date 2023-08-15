@@ -142,11 +142,11 @@ patch:
       # 對於 :echo/eng/hello, 其最終執行的 shell 命令爲 echo eng hello
       # 注意需要配合 recognizer
       - type: shell
-        cmd: echo "$@"
+        cmd: echo -n "$@"
         text: true
       - type: shell
         name: info
-        cmd: zenity --info --text "$(echo $@)"
+        cmd: zenity --info --text "$(echo -n $@)"
   core_proc/macros/+:
     __include: patch/macros
   core_tr/macros/+:
