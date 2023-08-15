@@ -219,6 +219,7 @@ function translator.func(input, seg, env)
         return
     end
 
+    input = core.input_replace_funckeys(input)
     local code_segs, remain = core.get_code_segs(input)
     if #remain == 0 then
         remain = table.remove(code_segs)
