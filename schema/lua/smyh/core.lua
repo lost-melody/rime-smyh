@@ -170,11 +170,11 @@ end
 local function new_shell(name, cmd, text)
     -- check whether io.popen is supported
     local popen_ok, popen_res = pcall(io.popen, "")
-    if popen_res then
-        popen_res:close()
-    end
     if not popen_ok then
         return nil
+    end
+    if popen_res then
+        popen_res:close()
     end
 
     local template = "__macrowrapper() { %s ; }; __macrowrapper %s <<<''"
