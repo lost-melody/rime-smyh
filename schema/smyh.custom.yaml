@@ -21,8 +21,7 @@ patch:
     Caps_Lock: clear
     Eisu_toggle: clear
   recognizer/patterns/+:
-    echo: "^/echo(/[a-z]*)*$" # starts with `/echo`, containing several `/abc` parts
-    len: "^/len(/[a-z]*)*$"   # starts with `/len`, containing several `/abc` parts
+    macros: "^/(calc|echo|len)(/[a-z]*)*$"
   punctuator/half_shape/+:
     '<' : '《'
     '>' : '》'
@@ -43,6 +42,14 @@ patch:
   editor/bindings/+:
     # 回车清空编码
     Return: cancel
+  # 自定義功能鍵
+  funckeys:
+    fullci/+: [ 0x2f ]
+    clearact/+: [ 0xff1b ]
+  core_proc/funckeys/+:
+    __include: patch/funckeys
+  core_tr/funckeys/+:
+    __include: patch/funckeys
   # 自定義宏
   # 先为宏命名, 如 *mymacro*, 则將其添加到 *macros* 下,
   # 再在 *mymacro* 下添加若干候選宏, 每個候選宏都需指定一個 *type*.
@@ -105,6 +112,30 @@ patch:
             end
             return table.concat(lens, ",")
           end
+    calc:
+      # 簡易計算器
+      # qwertyuiop => 1234567890
+      # hjkl => *-+/
+      # x => *
+      # s(square) => ^
+      # d(dot) => .
+      # m(mod) => %
+      # a(remainder) => //
+      - type: eval
+        expr: >
+          local nums = {q='1',w='2',e='3',r='4',t='5',y='6',u='7',i='8',o='9',p='0'}
+          local signs = {h='*',j='-',k='+',l='/',s='^',d='.',m='%',x='*',a='//'}
+          setmetatable(signs, { __index = function() return "+" end })
+          return function(args)
+            if #args == 0 then return "" end
+            local res = {}
+            for _, expr in ipairs(args) do
+              expr = string.gsub(string.gsub(expr, "[qwertyuiop]", nums), "[^0-9]+", signs)
+              local eval = load("return " .. expr)
+              table.insert(res, expr .. "=" .. (eval and eval() or "?"))
+            end
+            return table.concat(res, ",")
+          end
     echo:
       # 含參 shell 命令示例, 參数會依次傳遞給命令
       # 對於 :echo/eng/hello, 其最終執行的 shell 命令爲 echo eng hello
@@ -116,12 +147,6 @@ patch:
     __include: patch/macros
   core_tr/macros/+:
     __include: patch/macros
-  funckeys:
-    clearact/+: [ 0xff1b ]
-  core_proc/funckeys/+:
-    __include: patch/funckeys
-  core_tr/funckeys/+:
-    __include: patch/funckeys
   # 開關同步
   core_proc/sync_options/+:
     - ascii_mode

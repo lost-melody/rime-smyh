@@ -205,11 +205,12 @@ end
 local function new_eval(name, expr)
     local f = load(expr)
     local function get_text(args)
-        local text = f and f()
-        if type(text) == "function" then
-            text = text(args)
+        local res = f and f(args)
+        while type(res) == "function" do
+            f = res
+            res = f(args)
         end
-        return text and type(text) == "string" and #text ~= 0 and text or ""
+        return res and type(res) == "string" and res or ""
     end
 
     local eval = {
