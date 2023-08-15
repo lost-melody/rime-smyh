@@ -14,10 +14,42 @@ var (
 	leftHandKeySet = map[byte]struct{}{}
 )
 
+var cjkExtSet = map[rune]rune{
+	// 0x4e00:  0x9fff,  // CJK
+	0x3400:  0x4dbf,  // CJK-A
+	0x20000: 0x2a6df, // CJK-B
+	0x2a700: 0x2b73f, // CJK-C
+	0x2b740: 0x2b81f, // CJK-D
+	0x2b820: 0x2ceaf, // CJK-E
+	0x2ceb0: 0x2ebef, // CJK-F
+	0x30000: 0x3134f, // CJK-G
+	0x31350: 0x323af, // CJK-H
+	0x2ebf0: 0x2ee4a, // CJK-I
+	0xf900:  0xfaff,  // Dup, Uni, Cor
+	0x2f800: 0x2fa1f, // Uni
+}
+
 func init() {
 	for _, key := range leftHandKeys {
 		leftHandKeySet[key] = struct{}{}
 	}
+}
+
+func acceptCharacter(char string) (accept bool) {
+	runes := []rune(char)
+	if len(runes) == 0 {
+		return
+	}
+
+	u := runes[0]
+	for left, right := range cjkExtSet {
+		if u >= left && u <= right {
+			return
+		}
+	}
+
+	accept = true
+	return
 }
 
 // BuildCharMetaList 构造字符编码列表
@@ -25,6 +57,10 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 	charMetaList = make([]*types.CharMeta, 0, len(table))
 	// 遍历字符表
 	for char, divs := range table {
+		if !acceptCharacter(char) {
+			continue
+		}
+
 		// 遍历字符的所有拆分表
 		for _, div := range divs {
 			full, code := calcCodeByDiv(div.Divs, mappings, freqSet[char])

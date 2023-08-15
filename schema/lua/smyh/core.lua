@@ -70,7 +70,7 @@ end
 local function set_option(env, ctx, option_name, value)
     ctx:set_option(option_name, value)
     local swt = env.switcher
-    if swt ~= nil then
+    if swt then
         if swt:is_auto_save(option_name) and swt.user_config ~= nil then
             swt.user_config:set_bool("var/option/" .. option_name, value)
         end

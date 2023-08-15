@@ -185,7 +185,7 @@ local function handle_clean(env, ctx, ch)
 end
 
 function processor.init(env)
-    if Switcher ~= nil then
+    if Switcher then
         env.switcher = Switcher(env.engine)
     end
 
