@@ -19,6 +19,19 @@ core.sync_bus = {
     switches = {}, -- 開關狀態
 }
 
+local _unix_supported
+-- 是否支持 Unix 命令
+function core.unix_supported()
+    if _unix_supported == nil then
+        local res
+        _unix_supported, res = pcall(io.popen, "sleep 0")
+        if _unix_supported and res then
+            res:close()
+        end
+    end
+    return _unix_supported
+end
+
 -- 宏類型枚舉
 core.macro_types = {
     tip    = "tip",
@@ -168,13 +181,8 @@ end
 ---@param cmd string
 ---@param text boolean
 local function new_shell(name, cmd, text)
-    -- check whether io.popen is supported
-    local popen_ok, popen_res = pcall(io.popen, "")
-    if not popen_ok then
+    if not core.unix_supported() then
         return nil
-    end
-    if popen_res then
-        popen_res:close()
     end
 
     local template = "__macrowrapper() { %s ; }; __macrowrapper %s <<<''"
