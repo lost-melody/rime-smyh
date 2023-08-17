@@ -30,13 +30,14 @@ encoder:
 切磋	adkuuy
 擀麪	adneev
 擀氈	adnldx
+捧哏	aeaops
 持倉	agarlo
 撻伐	agdeys
 捭闔	agdrgz
 擡槓	aghfym
 掛鉤	agjsho
 掛鏈	agjsrd
-忌憚	agvpod
+忌憚	agspod
 擰緊	ahabbp
 抱緊	ahabbp
 抱愧	ahapgm
@@ -131,9 +132,12 @@ encoder:
 搪瓷	ayoynu
 找贖	aysmgm
 找茬	aysssg
-下炕	b1mlq
-下頷	b1rlm
-下頜	b1rum
+發燙	b1ijm
+發睏	b1mdf
+發嗲	b1ouu
+發綹	b1peo
+發蔫	b1sfm
+發薪	b1sln
 腎盂	bbhfjz
 蹬腿	bbqhpd
 豎着	bbqumv
@@ -154,6 +158,9 @@ encoder:
 胡茬	bhrssg
 尼迪	bibpdn
 蹦迪	bjhpdn
+下炕	bk1mlq
+下頷	bk1rlm
+下頜	bk1rum
 叉叉	bllbll
 叉戟	blldjy
 叉腰	bllhcl
@@ -167,12 +174,6 @@ encoder:
 躋身	blyqn1
 眉睫	bmvmft
 足赤	bn1guu
-發燙	bnq1ijm
-發睏	bnq1mdf
-發嗲	bnq1ouu
-發綹	bnq1peo
-發蔫	bnq1sfm
-發薪	bnq1sln
 劈叉	bodbll
 劈刀	boddk1
 劈刺	bodfcx
@@ -347,7 +348,7 @@ encoder:
 傾倒	eimehx
 傾側	eimemx
 傾述	eimfld
-傾心	eimgv1
+傾心	eimgs1
 傾城	eimgyv
 傾灑	eimify
 傾泄	eimign
@@ -411,7 +412,7 @@ encoder:
 一縷縷	f1polpol
 一輛	f1rfs
 一開	f1rfs
-棗樹	fccfga
+棗樹	fccfpa
 棗泥	fccibi
 棗子	fcckv1
 棗強	fccnkv
@@ -435,6 +436,7 @@ encoder:
 丙申	fcrpx1
 核磁	fdauqu
 柬埔	fdqgmt
+棒哏	feaops
 楓涇	fekify
 禁臠	ffgupr
 林檎	ffifrk
@@ -451,7 +453,7 @@ encoder:
 棕櫚	fhgfro
 檳榔	fhmflz
 枸杞	fhofan
-朴樹	fjdfga
+朴樹	fjdfpa
 杳然	fjkhxm
 東郊	fjkluz
 楊冪	fjspsr
@@ -492,7 +494,7 @@ encoder:
 逗笑	fodwcm
 杏仁	foieyr
 杏林	foiffi
-杏樹	foifga
+杏樹	foifpa
 杏子	foikv1
 杏眼	foimps
 杏色	foipaj
@@ -603,7 +605,6 @@ encoder:
 壤土	glwgi1
 祖塋	gmfmmg
 祈禱	gncgga
-喜鵲	go1sjt
 禪杖	godfsl
 禪機	godfur1
 禪師	godgfr
@@ -617,14 +618,13 @@ encoder:
 遠門	godrm1
 禪門	godrm1
 禪院	godzhp
-瞽者	gomgjk
 頡頏	gomlqm
-熹微	gomvfq
 壹仟	gpqezo
 坤包	gpxhae
 神獸	gpxoox
 坤錶	gpxsgw
 增删	gqjhhx
+心脾	gs1hgd
 坩堝	gsygla
 歸咎	gtrejo
 達賴	gudfom
@@ -637,8 +637,8 @@ encoder:
 赤松	guufuk
 赤地	guug1
 赤坎	guugnv
+赤心	guugs1
 赤熱	guugum
-赤心	guugv1
 赤字	guuhkv
 赤膊	guuhma
 赤膽	guuhpu
@@ -667,7 +667,6 @@ encoder:
 赤水	guuvu1
 赤血	guuwzm
 赤手	guuyg1
-心脾	gv1hgd
 城壕	gyvgle
 城郊	gyvluz
 城隍	gyvzdm
@@ -718,7 +717,7 @@ encoder:
 蜜棗	hgvfcc
 蜜餞	hgvqyy
 窒塞	hhchsg
-窒息	hhcmgv
+窒息	hhcmgs
 删改	hhxaeu
 删掉	hhxajj
 删檔	hhxfkn
@@ -745,7 +744,7 @@ encoder:
 安瓿	hlclou
 安迪	hlcpdn
 安謐	hlcugz
-腋下	hllb1
+腋下	hllbk1
 腋窩	hllhla
 腋臭	hllmxl
 腋毛	hllxe1
@@ -873,7 +872,7 @@ encoder:
 濾色	ikgpaj
 濾網	ikgpce
 濾紙	ikgpia
-濾芯	ikgsgv
+濾芯	ikgsgs
 濾鏡	ikgslq
 消遣	ikhokd
 消磁	ikhuqu
@@ -1364,7 +1363,7 @@ encoder:
 甲苯	nf1sff
 后羿	nfoqqs
 褂子	ngjkv1
-思迪	ngvpdn
+思迪	ngspdn
 裸露	njfcbo
 袒露	njfcbo
 袒胸	njfhhx
@@ -1505,6 +1504,7 @@ encoder:
 怏怏	pctpct
 恓惶	pcupdm
 悽惶	pdlpdm
+瞽者	pdmgjk
 憤然	pdmhxm
 惶然	pdmhxm
 憤懣	pdmisg
@@ -1566,6 +1566,7 @@ encoder:
 細瑣	pnemkm
 細縷	pnepol
 繾綣	podpqv
+喜鵲	poi1sjt
 縷述	polfld
 縷析	polfnc
 縷縷	polpol
@@ -1583,6 +1584,8 @@ encoder:
 軍餉	prqqrs
 憫惜	prxpsj
 懵懂	psmpsn
+彭城	psngyv
+彭山	psnje1
 業鏈	puusrd
 綬帶	pvbsfr
 悱惻	pwipmx
@@ -1713,6 +1716,7 @@ encoder:
 禽獸	rxkoox
 走獸	ry1oox
 閾值	ryfedm
+輜重	rynzn1
 輜重	rynznt1
 鞣料	rzfkyd
 囟門	rzirm1
@@ -1727,7 +1731,7 @@ encoder:
 鑑證	sbzubq
 鑑諒	sbzulk
 藿香	sccvjk
-藉故	scjbeu
+藉故	scjbe1
 鋼叉	scjbll
 藉以	scjelr1
 藉機	scjfur1
@@ -1860,7 +1864,7 @@ encoder:
 薪俸	slneea
 蓄勢	slnguw
 蓄洪	slnisu
-蓄能	slnk2
+蓄能	slnkh1
 蓄意	slnljg
 蓄養	slnqdp
 薪餉	slnqrs
@@ -1991,7 +1995,7 @@ encoder:
 左袒	syxnjf
 邯鄲	syzooz
 鑼聲	szcgbt
-鑼鼓	szcgob
+鑼鼓	szcpdb
 鍾情	sznpgh1
 鍾華	sznsns
 鍾愛	sznvpe
@@ -2036,7 +2040,6 @@ encoder:
 鵪鶉	tptlkt
 先遣	tqrokd
 鮁魚	tslty1
-朱熹	tusgom
 魚叉	ty1bll
 魚卵	ty1ill
 魚鉤	ty1sho
@@ -2048,13 +2051,13 @@ encoder:
 譙樓	ucmfol
 礄口	ucooi1
 碘鹽	ucubwz
-硒鼓	ucugob
+硒鼓	ucupdb
 忿然	udghxm
 忿忿	udgudg
 分叉	udkbll
 分櫱	udkxgf
 頒授	udmav1
-頒發	udmbnq1
+頒發	udmb1
 頒佈	udmesr
 頒給	udmpr1
 頒證	udmubq
@@ -2097,7 +2100,6 @@ encoder:
 訃告	ujdtoi
 外文	ujdxn1
 訃文	ujdxn1
-外痔	ujdyga
 訕笑	ujewcm
 百獸	ujkoox
 公爵	ukfvza
@@ -2132,17 +2134,17 @@ encoder:
 磁極	uqufkf
 磁頭	uqufom
 磁場	uqugjs
-磁鼓	uqugob
-磁心	uqugv1
+磁心	uqugs1
 磁學	uquhzk1
 磁漆	uquifv
 磁浮	uquivk
 磁暴	uqujsv
-磁能	uquk2
+磁能	uqukh1
 磁卡	uqukjd
 磁懸	uqumkg
 磁環	uqumzw
 磁器	uquooo
+磁鼓	uqupdb
 磁性	uqupei
 磁道	uquq1
 磁矩	uquqkb
@@ -2165,7 +2167,7 @@ encoder:
 讚譽	utmhuu
 硃批	utuaii
 誅仙	utueje
-誅心	utugv1
+誅心	utugs1
 誅滅	utuiym
 硃紅	utupyx
 誅戮	utuqqy
@@ -2213,7 +2215,7 @@ encoder:
 積澱	vgmibq
 積蓄	vgmsln
 秸稈	vgovjn
-愚癡	vgvyit
+愚癡	vgsyit
 黑棗	vh1fcc
 蛇蜕	vhivqq
 蜿蜒	vhvvwp
@@ -2324,8 +2326,8 @@ encoder:
 鵝卵	watill
 齷齪	wbhwbn
 牀幃	wfirjx
-悲憫	wgvprx
-悲慼	wgvykg
+悲憫	wgsprx
+悲慼	wgsykg
 裝框	wgwfkm
 裝殮	wgwfur
 裝機	wgwfur
@@ -2411,7 +2413,6 @@ encoder:
 手鐧	yg1srj
 手鐲	yg1szv
 手諭	yg1urx
-痔瘡	ygayro
 塵器	ygiooo
 塵囂	ygiooo
 魔獸	ygmoox
@@ -2420,7 +2421,7 @@ encoder:
 底倉	yilrlo
 底薪	yilsln
 癡醉	yitcld
-癡心	yitgv1
+癡心	yitgs1
 凝然	yithxm
 癡然	yithxm
 癡迷	yitkdn

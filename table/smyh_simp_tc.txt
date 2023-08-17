@@ -1,5 +1,5 @@
 可	a1
-下	b1
+發	b1
 要	c1
 的	d1
 他	e1
@@ -27,10 +27,14 @@
 已	ao1
 搶	ar1
 授	av1
+故	be1
+下	bk1
 十	di1
 之	dj1
+真	dm1
 回	do1
 四	dq1
+因	dt1
 國	dy1
 個	ed1
 便	ef1
@@ -42,8 +46,8 @@
 型	fs1
 椅	ft1
 烈	fu1
+都	gj1
 境	gl1
-喜	go1
 宗	hg1
 忽	hs1
 没	iq1
@@ -53,6 +57,7 @@
 時	jg1
 事	jo1
 處	ke1
+能	kh1
 而	le1
 就	lk1
 如	lo1
@@ -61,6 +66,7 @@
 吧	oa1
 品	oo1
 哦	ow1
+終	pe1
 續	pg1
 纔	pp1
 給	pr1
@@ -82,7 +88,7 @@
 等	wg1
 力	wl1
 降	ze1
-發	bnq1
+重	zn1
 進	cdn1
 需	cle1
 直	dmf1
@@ -104,6 +110,7 @@
 哎	osz1
 經	pfy1
 情	pgh1
+喜	poi1
 所	qnc1
 並	qpf1
 起	ran1
@@ -119,4 +126,3 @@
 　	kz1
 ！	tt1
 ？	ww1
-能	k2
