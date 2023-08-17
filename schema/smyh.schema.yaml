@@ -106,7 +106,7 @@ division.lv1:
   __include: rev_div
   option_name: division.lv1
   comment_format:
-    - xform/\((.*),(.*),(.*),(.*)\)/($1)/
+    - xform/\(([^,]*),([^,]*),([^,]*),([^,]*)\)/($1)/
     - xlit/\{\}/\⟨\⟩/
   tags: [ abc, rev_pinyin ]
 
@@ -115,7 +115,7 @@ division.lv2:
   __include: rev_div
   option_name: division.lv2
   comment_format:
-    - xform/\((.*),(.*),(.*),(.*)\)/($2)/
+    - xform/\(([^,]*),([^,]*),([^,]*),([^,]*)\)/($2)/
   tags: [ abc, rev_pinyin ]
 
 # 讀音提示
@@ -123,7 +123,7 @@ division.lv3:
   __include: rev_div
   option_name: division.lv3
   comment_format:
-    - xform/\((.*),(.*),(.*),(.*)\)/($3)/
+    - xform/\(([^,]*),([^,]*),([^,]*),([^,]*)\)/($3)/
     - xlit/_/,/
   tags: [ abc, rev_pinyin ]
 
@@ -132,7 +132,7 @@ division.lv4:
   __include: rev_div
   option_name: division.lv4
   comment_format:
-    - xform/\((.*),(.*),(.*),(.*)\)/($4)/
+    - xform/\(([^,]*),([^,]*),([^,]*),([^,]*)\)/($4)/
   tags: [ abc, rev_pinyin ]
 
 # 部件拆分及編碼提示, 反查时顯示
@@ -142,7 +142,7 @@ rev_div:
   tips: all
   show_in_comment: true
   comment_format:
-    - xform/(.*),(.*),(.*),(.*)/$1·$2/
+    - xform/\(([^,]*),([^,]*),([^,]*),([^,]*)\)/($1·$2)/
     - xlit/\{\}/\⟨\⟩/
   tags: [ rev_pinyin ]
 
