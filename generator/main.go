@@ -98,7 +98,7 @@ func main() {
 			}
 			accessedDiv[charMeta.Char] = struct{}{}
 			div := strings.Join(divs.Divs, "")
-			buffer.WriteString(fmt.Sprintf("%s\t[%s|%s]\n", charMeta.Char, div, charMeta.Full))
+			buffer.WriteString(fmt.Sprintf("%s\t(%s,%s,%s,%s)\n", charMeta.Char, div, charMeta.Full, divs.Pin, divs.Set))
 		}
 	}
 	err = os.WriteFile("/tmp/div.txt", buffer.Bytes(), 0o644)
