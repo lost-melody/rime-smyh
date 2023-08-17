@@ -27,6 +27,7 @@ var cjkExtSet = map[rune]rune{
 	0x2ebf0: 0x2ee4a, // CJK-I
 	0xf900:  0xfaff,  // Dup, Uni, Cor
 	0x2f800: 0x2fa1f, // Uni
+	0x2f00: 0x2fdf,   // Kangxi
 }
 
 func init() {
