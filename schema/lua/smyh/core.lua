@@ -69,6 +69,12 @@ local funckeys_restorer = {
     ["3"] = " c",
 }
 
+core.log = log or {
+    info    = function() end,
+    warning = function() end,
+    error   = function() end,
+}
+
 ---@param input string
 function core.input_replace_funckeys(input)
     return string.gsub(input, " ([a-c])", funckeys_replacer)
@@ -206,7 +212,7 @@ end
 ---@param text boolean
 local function new_shell(name, cmd, text)
     if not core.unix_supported() then
-        log.warning(string.format("failed to create shell macro `%s`: unix shell not supported", name))
+        core.log.warning(string.format("failed to create shell macro `%s`: unix shell not supported", name))
         return nil
     end
 
@@ -254,7 +260,7 @@ end
 local function new_eval(name, expr)
     local f, err = load(expr)
     if not f then
-        log.warning(string.format("failed to create eval macro `%s`: %s", name, err))
+        core.log.warning(string.format("failed to create eval macro `%s`: %s", name, err))
         return nil
     end
 
