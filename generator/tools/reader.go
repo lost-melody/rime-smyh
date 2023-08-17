@@ -2,9 +2,11 @@ package tools
 
 import (
 	"os"
-	"smyh_gen/types"
+	"regexp"
 	"strconv"
 	"strings"
+
+	"smyh_gen/types"
 )
 
 func ReadDivisionTable(filepath string) (table map[string][]*types.Division, err error) {
@@ -13,15 +15,30 @@ func ReadDivisionTable(filepath string) (table map[string][]*types.Division, err
 		return
 	}
 
+	matcher := regexp.MustCompile("{.*?}|.")
 	table = map[string][]*types.Division{}
 	for _, line := range strings.Split(string(buffer), "\n") {
 		if len(line) == 0 || strings.HasPrefix(line, "#") {
 			continue
 		}
+		// 的\t[白勹丶,de_dī_dí_dì,GB0]
 		line := strings.Split(strings.TrimRight(line, "\r\n"), "\t")
+		if len(line) < 2 {
+			continue
+		}
+		// [白勹丶,de_dī_dí_dì,GB0]
+		meta := strings.Split(strings.Trim(line[1], "[]"), ",")
+		if len(meta) < 3 {
+			continue
+		}
 		div := types.Division{
 			Char: line[0],
-			Divs: strings.Split(line[1], " "),
+			Divs: matcher.FindAllString(meta[0], -1),
+			Pin:  meta[1],
+			Set:  meta[2],
+		}
+		if len(div.Divs) == 0 {
+			continue
 		}
 		table[div.Char] = append(table[div.Char], &div)
 	}
@@ -77,7 +94,7 @@ func ReadCharFreq(filepath string) (freqSet map[string]int64, err error) {
 	}
 
 	freqSet = map[string]int64{}
-	for _, line  := range strings.Split(string(buffer), "\n") {
+	for _, line := range strings.Split(string(buffer), "\n") {
 		if len(line) == 0 || strings.HasPrefix(line, "#") {
 			continue
 		}

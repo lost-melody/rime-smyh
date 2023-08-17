@@ -117,7 +117,6 @@ columns:
 擀	adn	83
 招	ado	31788
 挟	adq	14
-摡	adq	0
 攆	adr	140
 拍	ads	33488
 搷	adu	0
@@ -125,7 +124,6 @@ columns:
 攌	adw	0
 攮	adw	0
 袃	adw	0
-揤	adx	0
 擜	adx	0
 撠	ady	0
 搵	adz	0
@@ -718,7 +716,6 @@ columns:
 抛	aww	3147
 势	aww	399
 拹	aww	0
-擳	awx	0
 擳	awx	0
 擶	awx	0
 挚	awy	9
@@ -1898,17 +1895,12 @@ columns:
 谐	did	15
 敫	die	0
 曁	dif	353
-槩	dif	0
-堲	dig	0
-塈	dig	0
 墍	dig	0
 诣	dij	4
 诋	dil	2
 旣	diq	16056
 兜	diq	1181
 访	dir	70
-鱀	dit	0
-鵖	dit	0
 鸄	dit	0
 譥	diu	0
 囨	div	0
@@ -3204,7 +3196,6 @@ columns:
 梱	fdf	0
 槶	fdf	0
 檪	fdf	0
-櫭	fdf	0
 梕	fdg	0
 梎	fdi	0
 槠	fdj	0
@@ -3237,7 +3228,6 @@ columns:
 楾	fdv	0
 枎	fdw	0
 欜	fdw	0
-楖	fdx	0
 橶	fdy	0
 榲	fdz	0
 棒	fea	15498
@@ -4176,7 +4166,6 @@ columns:
 柹	fww	0
 栛	fww	0
 櫷	fww	0
-櫛	fwx	206
 櫛	fwx	206
 檱	fwx	0
 櫤	fwx	0
@@ -5164,7 +5153,6 @@ columns:
 窺	hdm	2114
 膹	hdm	0
 迌	hdn	0
-匓	hdq	0
 胉	hds	0
 胭	hdt	374
 窦	hdt	9
@@ -7004,7 +6992,6 @@ columns:
 旄	iwx	35
 滗	iwx	0
 瀄	iwx	0
-瀄	iwx	0
 旐	iwy	0
 涐	iwy	0
 潨	iwy	0
@@ -8092,7 +8079,6 @@ columns:
 願	kdm	33822
 迷	kdn	23701
 辽	kdn	25
-厩	kdq	1
 粕	kds	35
 厧	kdu	0
 厡	kdv	0
@@ -11075,7 +11061,6 @@ columns:
 鄉	nwz	31881
 裇	nwz	0
 郷	nwz	0
-郷	nwz	0
 鄊	nwz	0
 鄕	nwz	0
 襑	nxa	0
@@ -11250,7 +11235,6 @@ columns:
 嗦	odp	479
 貌	odq	9769
 呬	odq	0
-嘅	odq	0
 貃	ods	0
 咽	odt	1039
 嚏	odt	882
@@ -12093,7 +12077,6 @@ columns:
 絗	pdo	0
 鼛	pdo	0
 繊	pdp	0
-慨	pdq	4039
 怬	pdq	0
 鼟	pdq	0
 綿	pdr	6185
@@ -12108,7 +12091,6 @@ columns:
 線	pdv	48983
 鳈	pdv	0
 鼜	pdv	0
-鲫	pdx	1
 鼕	pdy	0
 慍	pdz	104
 縕	pdz	0
@@ -14307,7 +14289,6 @@ columns:
 趀	rww	0
 鬮	rww	0
 幯	rwx	0
-幯	rwx	0
 肆	rxa	2161
 劍	rxd	7054
 髦	rxe	774
@@ -14601,7 +14582,6 @@ columns:
 鉊	sdo	0
 鎍	sdp	0
 荚	sdq	0
-蔇	sdq	0
 蔸	sdq	0
 鐡	sdq	0
 錦	sdr	6752
@@ -14619,7 +14599,6 @@ columns:
 葧	sdw	0
 薗	sdw	0
 鈇	sdw	0
-莭	sdx	0
 蒕	sdz	0
 苻	sea	2
 菶	sea	0
@@ -16343,7 +16322,6 @@ columns:
 铟	tdt	0
 镇	tdu	139
 鰁	tdv	0
-鯽	tdx	175
 鰮	tdz	0
 耳	te1	21189
 鮒	tea	0
@@ -18172,7 +18150,6 @@ columns:
 蛔	vdo	316
 穑	vdo	0
 蛁	vdo	0
-穊	vdq	0
 蛱	vdq	0
 穆	vds	1893
 秵	vdt	0
@@ -18185,7 +18162,6 @@ columns:
 蜠	vdv	0
 蝨	vdv	0
 蚨	vdw	35
-蝍	vdx	0
 蜖	vdy	0
 禺	ve1	38
 蚹	vea	0
@@ -19010,7 +18986,6 @@ columns:
 虹	vyx	3721
 蝷	vyx	0
 爵	vza	1031
-爵	vza	1031
 蠌	vzd	0
 稯	vze	0
 蝬	vze	0
@@ -19121,10 +19096,8 @@ columns:
 鴩	wdt	0
 齻	wdu	0
 箘	wdv	0
-蠞	wdv	0
 失	wdw	57933
 劮	wdw	0
-節	wdx	57646
 氳	wdz	311
 符	wea	8680
 筗	wec	0
@@ -20306,7 +20279,6 @@ columns:
 巤	ydo	0
 痐	ydo	0
 廏	ydq	260
-廐	ydq	0
 瘨	ydu	0
 乧	ydv	0
 麕	ydv	0
@@ -20787,7 +20759,6 @@ columns:
 痗	ywr	0
 疲	ywu	5535
 疙	ywv	514
-癤	ywx	35
 癤	ywx	35
 劘	ywx	0
 工	yx1	140691

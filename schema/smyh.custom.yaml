@@ -172,6 +172,8 @@ patch:
     - division.off
     - division.lv1
     - division.lv2
+    - division.lv3
+    - division.lv4
     - full.word
     - full.char
     - full.off

@@ -32,8 +32,8 @@ switches:
   - name: full_shape
     states: [ 半, 全 ]
     reset: 0
-  - options: [ division.off, division.lv1, division.lv2 ]
-    states: [ 註解關, 註解一, 註解二 ]
+  - options: [ division.off, division.lv1, division.lv2, division.lv3, division.lv4 ]
+    states: [ 註解關, 註解一, 註解二, 註解三, 註解四 ]
     reset: 0
   - name: single_char
     states: [ 智能, 純單 ]
@@ -84,6 +84,7 @@ engine:
     - simplifier@division.lv1
     - simplifier@division.lv2
     - simplifier@division.lv3
+    - simplifier@division.lv4
     # 嵌入候选
     - lua_filter@*smyh.embeded_cands@embeded_cands
 
@@ -100,33 +101,49 @@ history:
   size: 1
   initial_quality: 1
 
-# 拆分提示, 可快捷开关
+# 部件拆分提示
 division.lv1:
   __include: rev_div
   option_name: division.lv1
   comment_format:
-    - xform/\[.*?\|/\[/
-    - xlit/_/-/
+    - xform/\((.*),(.*),(.*),(.*)\)/($1)/
+    - xlit/\{\}/\⟨\⟩/
   tags: [ abc, rev_pinyin ]
 
-# 拆分提示, 可快捷开关
+# 拆分編碼提示
 division.lv2:
   __include: rev_div
   option_name: division.lv2
   comment_format:
-    - xform/\|/·/
-    - xlit/_/-/
+    - xform/\((.*),(.*),(.*),(.*)\)/($2)/
   tags: [ abc, rev_pinyin ]
 
-# 反查拆分提示, 反查时常显
+# 讀音提示
+division.lv3:
+  __include: rev_div
+  option_name: division.lv3
+  comment_format:
+    - xform/\((.*),(.*),(.*),(.*)\)/($3)/
+    - xlit/_/,/
+  tags: [ abc, rev_pinyin ]
+
+# 字集提示
+division.lv4:
+  __include: rev_div
+  option_name: division.lv4
+  comment_format:
+    - xform/\((.*),(.*),(.*),(.*)\)/($4)/
+  tags: [ abc, rev_pinyin ]
+
+# 部件拆分及編碼提示, 反查时顯示
 rev_div:
   option_name: division.off
   opencc_config: smyh_div.json
   tips: all
   show_in_comment: true
   comment_format:
-    - xform/\[.*?\|/\[/
-    - xlit/_/-/
+    - xform/(.*),(.*),(.*),(.*)/$1·$2/
+    - xlit/\{\}/\⟨\⟩/
   tags: [ rev_pinyin ]
 
 # 拼音反查
@@ -138,9 +155,8 @@ rev_pinyin:
   preedit_format:
     - xform/^`//
   comment_format:
-    - "xform/^/[/"
-    - "xform/$/]/"
-    - xlit/_/-/
+    - "xform/^/(/"
+    - "xform/$/)/"
 
 core_proc:
   funckeys:
@@ -183,60 +199,29 @@ embeded_cands:
 
 macros:
   help:
-    - type: tip
-      name: ❖配置中心
-    - type: switch
-      name: single_char
-      states: [ □智能, ■純單 ]
-    - type: radio
-      names: [ full.word, full.char, full.off ]
-      states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ]
-    - type: switch
-      name: embeded_cands
-      states: [ ☐嵌入, ☑嵌入 ]
-    - type: switch
-      name: smyh_tc
-      states: [ □簡化字, ■傳統字 ]
-    - type: radio
-      names: [ division.off, division.lv1, division.lv2 ]
-      states: [ ☐☐註解, ☐☑註解, ☑☑註解 ]
+    - { type: tip, name: ❖配置中心 }
+    - { type: switch, name: single_char, states: [ □智能, ■純單 ] }
+    - { type: radio, names: [ full.word, full.char, full.off ], states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ] }
+    - { type: switch, name: embeded_cands, states: [ ☐嵌入, ☑嵌入 ] }
+    - { type: switch, name: smyh_tc, states: [ □簡化字, ■傳統字 ] }
+    - { type: radio, names: [ division.off, division.lv1, division.lv2, division.lv3, division.lv4 ], states: [ ☐☐☐☐註解, ☑☐☐☐註解, ☐☑☐☐註解, ☐☐☑☐註解, ☐☐☐☑註解 ] }
   date:
-    - type: eval
-      name: ☀日期
-      expr: return os.date("%Y-%m-%d")
-    - type: eval
-      name: ⛅年月日
-      expr: return os.date("%Y年%m月%d日")
+    - { type: eval, name: ☀日期, expr: return os.date("%Y-%m-%d") }
+    - { type: eval, name: ⛅年月日, expr: return os.date("%Y年%m月%d日") }
   time:
-    - type: eval
-      name: ⌚時間
-      expr: return os.date("%H:%M:%S")
-    - type: eval
-      name: Ⓣ時間
-      expr: return os.date("%Y%m%d%H%M")
-    - type: eval
-      name: Ⓢ時間戳
-      expr: return tostring(os.time())
+    - { type: eval, name: ⌚時間, expr: return os.date("%H:%M:%S") }
+    - { type: eval, name: Ⓣ時間, expr: return os.date("%Y%m%d%H%M") }
+    - { type: eval, name: Ⓢ時間戳, expr: return tostring(os.time()) }
   div:
-    - type: radio
-      names: [ division.off, division.lv1, division.lv2 ]
-      states: [ ☐☐註解, ☐☑註解, ☑☑註解 ]
+    - { type: radio, names: [ division.off, division.lv1, division.lv2, division.lv3, division.lv4 ], states: [ ☐☐☐☐註解, ☑☐☐☐註解, ☐☑☐☐註解, ☐☐☑☐註解, ☐☐☐☑註解 ] }
   embed:
-    - type: switch
-      name: embeded_cands
-      states: [ ☐嵌入, ☑嵌入 ]
+    - { type: switch, name: embeded_cands, states: [ ☐嵌入, ☑嵌入 ] }
   full:
-    - type: radio
-      names: [ full.word, full.char, full.off ]
-      states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ]
+    - { type: radio, names: [ full.word, full.char, full.off ], states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ] }
   smart:
-    - type: switch
-      name: single_char
-      states: [ □智能, ■純單 ]
+    - { type: switch, name: single_char, states: [ □智能, ■純單 ] }
   trad:
-    - type: switch
-      name: smyh_tc
-      states: [ □簡化字, ■傳統字 ]
+    - { type: switch, name: smyh_tc, states: [ □簡化字, ■傳統字 ] }
 
 # 标点
 punctuator:
@@ -254,10 +239,7 @@ key_binder:
     - {when: has_menu, accept: semicolon, send: 2}
     - {when: has_menu, accept: apostrophe, send: 3}
     # 拆分提示
-    - { when: always, accept: "Control+Shift+C", toggle: division.off }
     - { when: has_menu, accept: "/", toggle: division.off }
-    # 純單候選開關
-    - { when: always, accept: "Control+Shift+S", toggle: single_char }
     # 内嵌候選開關
     - { when: always, accept: "Control+Shift+E", toggle: embeded_cands }
     # 中英文标点
