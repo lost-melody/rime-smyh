@@ -90,6 +90,22 @@ local function set_option(env, ctx, option_name, value)
     end
 end
 
+-- 下文的 new_tip, new_switch, new_radio 等是目前已實現的宏類型
+-- 其返回類型統一定義爲:
+-- {
+--   type = "string",
+--   name = "string",
+--   display = function(self, ctx) ... end -> string
+--   trigger = function(self, ctx) ... end
+-- }
+-- 其中:
+-- type 字段僅起到標識作用
+-- name 字段亦非必須
+-- display() 爲該宏在候選欄中顯示的效果, 通常 name 非空時直接返回 name 的值
+-- trigger() 爲該宏被選中時, 上屏的文本内容, 返回空卽不上屏
+
+---提示語或快捷短語
+---顯示爲 name, 上屏爲 text
 ---@param name string
 local function new_tip(name, text)
     local tip = {
@@ -98,7 +114,7 @@ local function new_tip(name, text)
         text = text,
     }
     function tip:display(ctx)
-        return self.name
+        return #self.name ~= 0 and self.name or ""
     end
 
     function tip:trigger(env, ctx)
@@ -111,7 +127,9 @@ local function new_tip(name, text)
     return tip
 end
 
----新開關
+---開關
+---顯示 name 開關當前的狀態, 並在選中切換狀態
+---states 分别指定開關狀態爲 開 和 關 時的顯示效果
 ---@param name string
 ---@param states table
 local function new_switch(name, states)
@@ -141,7 +159,9 @@ local function new_switch(name, states)
     return switch
 end
 
----新單選
+---單選
+---顯示一組 names 開關當前的狀態, 並在選中切換關閉當前開啓項, 並打開下一項
+---states 指定各組開關的 name 和當前開啓的開關時的顯示效果
 ---@param states table
 local function new_radio(states)
     local radio = {
@@ -177,11 +197,16 @@ local function new_radio(states)
     return radio
 end
 
+---Shell 命令, 僅支持 Linux/Mac 系統, 其他平臺可通過下文提供的 eval 宏自行擴展
+---name 非空時顯示其值, 爲空则顯示實時的 cmd 執行結果
+---cmd 爲待執行的命令内容
+---text 爲 true 時, 命令執行結果上屏, 否则僅執行
 ---@param name string
 ---@param cmd string
 ---@param text boolean
 local function new_shell(name, cmd, text)
     if not core.unix_supported() then
+        log.warning(string.format("failed to create shell macro `%s`: unix shell not supported", name))
         return nil
     end
 
@@ -197,15 +222,16 @@ local function new_shell(name, cmd, text)
     local shell = {
         type = core.macro_types.tip,
         name = name,
+        text = text,
     }
 
     function shell:display(ctx, args)
-        return #self.name ~= 0 and self.name or text and get_fd(args):read('a')
+        return #self.name ~= 0 and self.name or self.text and get_fd(args):read('a')
     end
 
     function shell:trigger(env, ctx, args)
         local fd = get_fd(args)
-        if text then
+        if self.text then
             local t = fd:read('a')
             if #t ~= 0 then
                 env.engine:commit_text(t)
@@ -218,28 +244,58 @@ local function new_shell(name, cmd, text)
     return shell
 end
 
+---Evaluate 宏, 執行給定的 lua 表達式
+---name 非空時顯示其值, 否则顯示實時調用結果
+---expr 必須 return 一個值, 其類型可以是 string, function 或 table
+---返回 function 時, 該 function 接受一個 table 參數, 返回 string
+---返回 table 時, 該 table 成員方法 peek 和 eval 接受 self 和 table 參數, 返回 string, 分别指定顯示效果和上屏文本
+---@param name string
+---@param expr string
 local function new_eval(name, expr)
-    local f = load(expr)
-    local function get_text(args)
-        local res = f and f(args)
-        while type(res) == "function" do
-            f = res
-            res = f(args)
-        end
-        return res and type(res) == "string" and res or ""
+    local f, err = load(expr)
+    if not f then
+        log.warning(string.format("failed to create eval macro `%s`: %s", name, err))
+        return nil
     end
 
     local eval = {
         type = core.macro_types.eval,
         name = name,
+        expr = f,
     }
 
+    function eval:get_text(args, getter)
+        if type(self.expr) == "function" then
+            local res = self.expr(args)
+            if type(res) == "string" then
+                return res
+            elseif type(res) == "function" or type(res) == "table" then
+                self.expr = res
+            else
+                return ""
+            end
+        end
+
+        local res
+        if type(self.expr) == "function" then
+            res = self.expr(args)
+        elseif type(self.expr) == "table" then
+            local get_text = self.expr[getter]
+            res = type(get_text) == "function" and get_text(self.expr, args) or nil
+        end
+        return type(res) == "string" and res or ""
+    end
+
     function eval:display(ctx, args)
-        return #self.name ~= 0 and self.name or get_text(args)
+        if #self.name ~= 0 then
+            return self.name
+        else
+            return self:get_text(args, "peek")
+        end
     end
 
     function eval:trigger(env, ctx, args)
-        local text = get_text(args)
+        local text = self:get_text(args, "eval")
         if #text ~= 0 then
             env.engine:commit_text(text)
         end
@@ -314,8 +370,8 @@ function core.parse_conf_macro_list(env)
             local type = key_map and key_map:has_key("type") and key_map:get_value("type"):get_string() or ""
             if type == core.macro_types.tip then
                 -- {type: tip, name: foo}
-                if key_map:has_key("name") then
-                    local name = key_map:get_value("name"):get_string()
+                if key_map:has_key("name") or key_map:has_key("text") then
+                    local name = key_map:has_key("name") and key_map:get_value("name"):get_string() or ""
                     local text = key_map:has_key("text") and key_map:get_value("text"):get_string() or ""
                     table.insert(cands, new_tip(name, text))
                 end

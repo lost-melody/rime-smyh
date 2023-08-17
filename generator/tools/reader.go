@@ -113,3 +113,25 @@ func ReadPhraseFreq(filepath string) (freqSet map[string]int64, err error) {
 
 	return
 }
+
+func ReadCJKExtWhitelist(filepath string) (whitelist map[rune]bool, err error) {
+	buffer, err := os.ReadFile(filepath)
+	if err != nil {
+		return
+	}
+
+	whitelist = map[rune]bool{}
+	lines := strings.Split(string(buffer), "\n")
+	for _, line := range lines {
+		if len(line) == 0 || strings.HasPrefix(line, "#") {
+			continue
+		}
+		char := strings.SplitN(strings.TrimRight(line, "\r\n"), "\t", 1)[0]
+		if len(char) == 0 {
+			continue
+		}
+		whitelist[[]rune(char)[0]] = true
+	}
+
+	return
+}

@@ -17,6 +17,7 @@ type Args struct {
 	Map    string `flag:"m" usage:"smyh_map.txt"  default:"../table/smyh_map.txt"`
 	Freq   string `flag:"f" usage:"freq.txt"      default:"../table/freq.txt"`
 	Phrase string `flag:"p" usage:"phrase.txt"    default:"../table/phrase.txt"`
+	White  string `flag:"w" usage:"whitelist.txt" default:"../table/cjkext_whitelist.txt"`
 }
 
 var args Args
@@ -47,8 +48,12 @@ func main() {
 	if err != nil {
 		log.Fatalln(err)
 	}
+	cjkExtWhiteSet, err := tools.ReadCJKExtWhitelist(args.White)
+	if err != nil {
+		log.Fatalln(err)
+	}
 
-	charMetaList := tools.BuildCharMetaList(divTable, simpTable, compMap, freqSet)
+	charMetaList := tools.BuildCharMetaList(divTable, simpTable, compMap, freqSet, cjkExtWhiteSet)
 	charMetaMap := tools.BuildCharMetaMap(charMetaList)
 	codeCharMetaMap := tools.BuildCodeCharMetaMap(charMetaList)
 	fullCodeMetaList := tools.BuildFullCodeMetaList(divTable, compMap, freqSet, charMetaMap)

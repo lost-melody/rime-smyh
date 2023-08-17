@@ -35,19 +35,18 @@ func init() {
 	}
 }
 
-func acceptCharacter(char string) (accept bool) {
+func acceptCharacter(char string, cjkExtWhiteSet map[rune]bool) (accept bool) {
 	runes := []rune(char)
 	if len(runes) == 0 {
 		return
 	}
 
 	u := runes[0]
-
-	// 特别漢字 - 㨃
-	if u == 0x3a03 {
+	// CJK擴展區字符白名單
+	if cjkExtWhiteSet[u] {
 		accept = true
 		return
-	} 
+	}
 
 	for left, right := range cjkExtSet {
 		if u >= left && u <= right {
@@ -60,11 +59,11 @@ func acceptCharacter(char string) (accept bool) {
 }
 
 // BuildCharMetaList 构造字符编码列表
-func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string][]*types.CharSimp, mappings map[string]string, freqSet map[string]int64) (charMetaList []*types.CharMeta) {
+func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string][]*types.CharSimp, mappings map[string]string, freqSet map[string]int64, cjkExtWhiteSet map[rune]bool) (charMetaList []*types.CharMeta) {
 	charMetaList = make([]*types.CharMeta, 0, len(table))
 	// 遍历字符表
 	for char, divs := range table {
-		if !acceptCharacter(char) {
+		if !acceptCharacter(char, cjkExtWhiteSet) {
 			continue
 		}
 

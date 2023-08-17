@@ -100,7 +100,7 @@ patch:
         cmd: whoami
         text: true
     len:
-      # 含參 lua 語句示例, 需返回一個 function(args) ... end -> string 函數
+      # lua 函數示例, 返回一個 function(args) ... end -> string 函數
       # 對於 :len/hello/world, 其 args 值爲 {"hello", "world"}
       # 注意需要配合 recognizer
       - type: eval
@@ -113,6 +113,10 @@ patch:
             return table.concat(lens, ",")
           end
     calc:
+      # lua 對象示例, 返回一個 {
+      #   peek = function(self, args) ... end -> string, -- 當 name 爲空時, 候選攔顯示此值
+      #   eval = function(self, args) ... end -> string, -- 當按下空格或選重鍵後, 上屏此值
+      # } 對象
       # 簡易計算器
       # qwertyuiop => 1234567890
       # hjkl => *-+/
@@ -126,16 +130,27 @@ patch:
           local nums = {q='1',w='2',e='3',r='4',t='5',y='6',u='7',i='8',o='9',p='0'}
           local signs = {h='*',j='-',k='+',l='/',s='^',d='.',m='%',x='*',a='//'}
           setmetatable(signs, { __index = function() return "+" end })
-          return function(args)
+          local t = {
+            nums = nums,
+            signs = signs,
+          }
+          function t:calc(args, peek_only)
             if #args == 0 then return "" end
             local res = {}
             for _, expr in ipairs(args) do
-              expr = string.gsub(string.gsub(expr, "[qwertyuiop]", nums), "[^0-9]+", signs)
+              expr = string.gsub(string.gsub(expr, "[qwertyuiop]", self.nums), "[^0-9]+", self.signs)
               local eval = load("return " .. expr)
-              table.insert(res, expr .. "=" .. (eval and eval() or "?"))
+              table.insert(res, (peek_only and expr .. "=" or "") .. (eval and eval() or "?"))
             end
             return table.concat(res, ",")
           end
+          function t:peek(args)
+            return self:calc(args, true)
+          end
+          function t:eval(args)
+            return self:calc(args, false)
+          end
+          return t
     echo:
       # 含參 shell 命令示例, 參数會經由簡易 wrapper 函數傳遞給命令
       # __macrowrapper() { CMD; }; __macrowrapper ARGS <<<''
