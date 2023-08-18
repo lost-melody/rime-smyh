@@ -126,9 +126,9 @@ encoder:
 援兵	avbnfu
 援军	avbpmd
 援藏	avbsyb
+援用	avbtn1
 援外	avbujp
 援建	avbxam
-援用	avbz1
 违抗	avdalq
 违规	avddcy
 违例	avdefx
@@ -234,7 +234,7 @@ encoder:
 劈去	bodgkf
 劈面	bodla1
 劈柴	bodtif
-劈头	bodyt1
+劈头	body1
 劈杀	bodzfi
 壁滩	bogibc
 壁灘	bogisc
@@ -589,7 +589,7 @@ encoder:
 佔地	ejog1
 佔領	ejorlm
 佔有	ejos2
-佔用	ejoz1
+佔用	ejotn1
 仆人	ejpre1
 仆役	ejpvqm
 風塵	ek1ygi
@@ -663,7 +663,7 @@ encoder:
 权倾	fbjeic
 枯朽	fbufua
 棘手	fcccj1
-榫头	fcdyt1
+榫头	fcdy1
 桐油	fcoipb
 两栖	fcrfcu
 两肋	fcrhwl
@@ -715,7 +715,7 @@ encoder:
 櫃檯	fkmfgh
 櫃子	fkmkv1
 李逵	fkvgud
-榔头	flzyt1
+榔头	flzy1
 相逢	fmvewd
 相逼	fmvfod
 相邻	fmvrlz
@@ -776,8 +776,8 @@ encoder:
 枪口	frvos1
 兩口	frvos1
 兩翼	frvqqu
+兩用	frvtn1
 兩碼	frvujr
-兩用	frvz1
 構圖	fsgdoo
 構件	fsgetl
 構想	fsgfmg
@@ -1109,7 +1109,7 @@ encoder:
 河牀	iaowfi
 滩地	ibcg1
 滩涂	ibcirf
-滩头	ibcyt1
+滩头	ibcy1
 湖滨	ibhihu
 泥滩	ibiibc
 泥泞	ibiiha
@@ -1163,7 +1163,7 @@ encoder:
 泸州	ijbieh
 湯匙	ijdjfi
 汕頭	ijefom
-汕头	ijeyt1
+汕头	ijey1
 汨罗	ijkzue
 涔涔	ijvijv
 盪漾	ijziuv
@@ -1528,7 +1528,7 @@ encoder:
 姘居	lqsbbu
 姘夫	lqsdu1
 姘妇	lqslxj
-姘头	lqsyt1
+姘头	lqsy1
 嫌弃	lqulks
 嫌棄	lqulks
 雜燴	lrcmrj
@@ -1898,7 +1898,7 @@ encoder:
 遺症	okdyft
 唆使	okeef2
 噱頭	okefom
-噱头	okeyt1
+噱头	okey1
 嗩呐	okmocr
 喑哑	oljorq
 吹拂	onvanu
@@ -2010,8 +2010,8 @@ encoder:
 慘狀	pkdwxl
 惨痛	pkdybt
 慘痛	pkdybt
-惨重	pkdzne
-慘重	pkdzne
+惨重	pkdz1
+慘重	pkdz1
 尔滨	pkfihu
 鲸吞	plkfto
 鲸鱼	plkpe1
@@ -2108,9 +2108,9 @@ encoder:
 啓迪	qeopdn
 啓蒙	qeospe
 啓示	qeoss1
+啓用	qeotn1
 啓程	qeovom
 啓航	qeoxlq
-啓用	qeoz1
 啓動	qeoznw
 装潢	qgwisu
 装帧	qgwrjc
@@ -2684,7 +2684,7 @@ encoder:
 穩定	vvghft
 穩步	vvgtkf
 穩妥	vvgvlc
-穩重	vvgzne
+穩重	vvgz1
 承辦	vvjlwl
 承諾	vvjuso
 虫卵	vw1ill
@@ -2782,7 +2782,7 @@ encoder:
 猪八	xgjus1
 猪皮	xgjwu1
 猪猡	xgjxzu
-猪头	xgjyt1
+猪头	xgjy1
 狩猎	xhaxsj
 狩獵	xhaxyb
 门墩	xk1gle
@@ -2896,6 +2896,9 @@ encoder:
 麾下	yxob1
 瘠薄	yyhsia
 减薪	yyosln
+重逢	z1ewd
+重傷	z1ewd
+重疊	z1nnm
 降尘	z2kgi
 降薪	z2sln
 阿膠	zaohqd
@@ -2915,9 +2918,6 @@ encoder:
 阻滞	zmfisr
 阻遏	zmfjhd
 買辦	zmolwl
-重逢	zneewd
-重傷	zneewd
-重疊	znennm
 動靜	znwghv
 動盪	znwijz
 動輒	znwrte
