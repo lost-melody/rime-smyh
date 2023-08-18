@@ -115,7 +115,7 @@
 纔能	ppkh
 妻子	dxkv
 漸漸	irir
-内心	crgs
+内心	crgk
 出來	xxej
 懂得	psvj
 角色	ptpa
@@ -260,7 +260,7 @@
 尋找	xyay
 東西	fjcu
 爸爸	uzuz
-決心	ibgs
+決心	ibgk
 結果	pgjf
 天下	ftbk
 熟悉	lkwk
@@ -273,7 +273,7 @@
 少年	kwwa
 愛情	vppg
 放棄	ielk
-心靈	gsco
+心靈	gkco
 旣然	dihx
 快樂	pbdu
 溫暖	idjv
@@ -320,7 +320,7 @@
 絶望	ppeh
 衝動	vzzn
 屏幕	bqsj
-田野	nonz
+田野	nxnz
 莫名其妙	suxl
 再見	mcmr
 動靜	zngh
@@ -416,7 +416,7 @@
 明顯	jhju
 收入	xevm
 感情	yfpg
-關心	rugs
+關心	rugk
 同學	cfhz
 進步	cdtk
 經營	pfmm
@@ -489,7 +489,7 @@
 限制	zstc
 貿易	imjh
 究竟	hwlj
-放心	iegs
+放心	iegk
 至於	hcir
 成熟	yvlk
 痛苦	ybsb
@@ -632,7 +632,7 @@
 哈哈	oror
 藍天	sbft
 完美	hfut
-良心	lsgs
+良心	lsgk
 痕跡	ysbj
 原諒	kdul
 疼痛	yeyb
@@ -735,7 +735,7 @@
 如今	lorl
 社會主義	srlu
 年代	waey
-中心	ocgs
+中心	ocgk
 高興	lvhc
 保持	eoag
 鬥爭	rivx
@@ -911,7 +911,7 @@
 衣服	lwhx
 旅遊	iwiw
 下降	bkze
-擔心	apgs
+擔心	apgk
 高級	lvpr
 生物	eith
 配合	carh
@@ -943,7 +943,7 @@
 經理	pfmn
 大地	tjgs
 從此	vrti
-信心	eugs
+信心	eugk
 強大	nktj
 友誼	sbuh
 快速	pbfo
@@ -1132,7 +1132,7 @@
 公主	uklm
 穿着	hzum
 脾氣	hnwk
-傷心	ewgs
+傷心	ewgk
 輸出	rrxx
 驚訝	shuz
 平凡	nqql
@@ -1168,7 +1168,7 @@
 形容	fshr
 嘆息	osmg
 過後	fdvu
-開心	rfgs
+開心	rfgk
 偏偏	eqeq
 生死	eifu
 地址	gsgt
@@ -1201,7 +1201,7 @@
 蒼白	srds
 婚禮	lisc
 諷刺	uefc
-真心	dmgs
+真心	dmgk
 天堂	ftkg
 屋頂	bhau
 擁抱	alah
@@ -1228,7 +1228,7 @@
 如意	lolj
 計較	udrl
 左邊	symh
-心跳	gsbt
+心跳	gkbt
 順便	euef
 欺負	xnpm
 衆所周知	wqhq
@@ -1238,7 +1238,7 @@
 大王	tjme
 自力更生	mwfe
 江湖	iyib
-好心	lkgs
+好心	lkgk
 小心翼翼	kgqq
 興致勃勃	hhdd
 風聲	ekgb
@@ -1322,7 +1322,7 @@
 水平	vunq
 按照	ahjd
 機關	furu
-心裏	gsln
+心裏	gkln
 婦女	lxlc
 軍事	prjo
 統一	plfk
@@ -1442,7 +1442,7 @@
 採訪	avui
 加工	woyx
 顯然	juhx
-心情	gspg
+心情	gkpg
 導致	qmhe
 今日	rljk
 統計	plud
@@ -1464,7 +1464,7 @@
 全球	rmmf
 當代	kney
 避免	bopo
-核心	fags
+核心	fagk
 想象	fmpo
 友好	sblk
 老闆	giro
@@ -1718,7 +1718,7 @@
 稱讚	vvut
 老爺	giuz
 四周	dthg
-耐心	lags
+耐心	lagk
 會員	rfom
 生日	eijk
 替代	ddey
@@ -1780,7 +1780,7 @@
 身影	cnjl
 再生	mcei
 放開	ierf
-心臟	gshs
+心臟	gkhs
 緣故	prbe
 應付	yeea
 原先	kdtt
@@ -1804,7 +1804,7 @@
 驚人	shre
 輕易	rfjh
 不妨	ivli
-和尚	vokd
+和尚	vokr
 何以	eael
 打扮	aaau
 真情	dmpg
@@ -1858,7 +1858,7 @@
 日後	jkvu
 來回	ejdo
 暗示	jlss
-心願	gskd
+心願	gkkd
 恰好	prlk
 寧靜	hggh
 自在	mcsc
@@ -1881,7 +1881,7 @@
 眉頭	bmfo
 珍珠	mrmt
 江山	iyje
-心事	gsjo
+心事	gkjo
 進化	cdei
 除非	zrwi
 都會	gjrf
@@ -1954,7 +1954,7 @@
 樂園	dudg
 麻將	yawh
 不以爲然	ievh
-噁心	ofgs
+噁心	ofgk
 孔雀	kekc
 函數	vvod
 從頭	vrfo
@@ -1970,7 +1970,7 @@
 冰冷	yvyr
 面色	lapa
 殘忍	fudl
-無心	wsgs
+無心	wsgk
 好意	lklj
 格式	feyy
 羽毛	qqxo
@@ -1979,7 +1979,7 @@
 假裝	ebwg
 抱歉	ahqx
 聚精會神	tkrs
-心意	gslj
+心意	gklj
 偶像	evep
 長髮	tmts
 伯伯	eded
@@ -2056,7 +2056,7 @@
 只能	oukh
 墨西哥	vcao
 快要	pbcl
-心中	gsoc
+心中	gkoc
 窗外	hruj
 看出	cmxx
 看到	cmhx
@@ -2511,8 +2511,8 @@
 天上	ftkg
 畫面	xgla
 原本	kdff
-安心	hlgs
-小心	kfgs
+安心	hlgk
+小心	kfgk
 好看	lkcm
 淚水	iqvu
 初中	ndoc
@@ -2567,11 +2567,11 @@
 高考	lvgu
 遥遠	vqgo
 上課	kguj
-心思	gsng
+心思	gkng
 東南	fjdc
 同步	cftk
 對比	puii
-心想	gsfm
+心想	gkfm
 困境	dfgl
 通用	bttn
 安定	hlhf
@@ -2776,7 +2776,7 @@
 好些	lkti
 神仙	spej
 震撼	cyay
-心底	gsyi
+心底	gkyi
 王國	medy
 漢字	ishk
 雪花	cxse
@@ -2788,7 +2788,7 @@
 女婿	lclv
 往後	vlvu
 任意	eelj
-用心	tngs
+用心	tngk
 嘴角	otpt
 掩飾	atqw
 聲響	gbnw
@@ -2798,7 +2798,7 @@
 散步	shtk
 熟練	lkpf
 本文	ffxn
-甘心	sygs
+甘心	sygk
 語音	uflj
 遲疑	bviq
 壓抑	kjai
@@ -2826,7 +2826,7 @@
 富貴	hfok
 感冒	yfcy
 明知	jhqo
-心疼	gsye
+心疼	gkye
 反射	nbca
 等到	wghx
 驚醒	shcj
@@ -2881,7 +2881,7 @@
 驗證	jrub
 摩擦	ycah
 店鋪	yjdm
-操心	aogs
+操心	aogk
 電源	cpik
 凝視	yism
 追逐	gded
@@ -3372,7 +3372,7 @@
 檢測	frim
 主辦	lmlw
 人格	refe
-人心	regs
+人心	regk
 熱愛	guvp
 權威	fsyf
 精力	kgwl
@@ -3529,7 +3529,7 @@
 流失	ilwd
 室内	hhcr
 計劃生育	uxel
-心頭	gsfo
+心頭	gkfo
 發育	bnlk
 一線	fkpd
 出國	xxdy
@@ -3663,7 +3663,7 @@
 飲食	qnql
 中學生	ohei
 裝飾	wgqw
-熱心	gugs
+熱心	gugk
 傢俱	ehem
 雖説	ovuq
 報復	gqvw
@@ -3902,7 +3902,7 @@
 長度	tmys
 誤解	uopt
 視覺	smhz
-身心	cngs
+身心	cngk
 慌忙	pspe
 土匪	gikw
 瞄準	msic
@@ -4065,7 +4065,7 @@
 圈子	dqkv
 蒸發	svbn
 大紅	tjpy
-心境	gsgl
+心境	gkgl
 長治久安	tiph
 高雅	lvzc
 兔子	pokv
@@ -4171,7 +4171,7 @@
 禮拜	sccf
 逼近	fond
 報仇	gqew
-心愛	gsvp
+心愛	gkvp
 晚期	jpxh
 類别	kxow
 耻辱	ttya
@@ -4275,7 +4275,7 @@
 臉龐	hryl
 保養	eoqd
 晚餐	jpju
-當心	kngs
+當心	kngk
 香蕉	vjsc
 復仇	vwew
 偏離	eqxx
@@ -4284,7 +4284,7 @@
 慣性	prpe
 胡鬧	bhrl
 山峰	jeje
-專心	rags
+專心	ragk
 取暖	tbjv
 機智	fuqo
 道教	qmgk
@@ -4798,14 +4798,14 @@
 送給	qtpr
 門前	rmqh
 好玩	lkmf
-好奇心	ltgs
+好奇心	ltgk
 傳出	erxx
 伊朗	exlx
 放出	iexx
 它們	hier
 部隊	lozq
 越來越	rery
-心理	gsmn
+心理	gkmn
 之一	djfk
 面前	laqh
 之中	djoc
@@ -4823,7 +4823,7 @@
 西部	culo
 中學	ochz
 大事	tjjo
-尚未	kdsk
+尚未	krsk
 科研	vyuf
 老百姓	gule
 能源	khik
@@ -4907,7 +4907,7 @@
 宗旨	hsij
 當事人	kjre
 預計	zuud
-精心	kggs
+精心	kggk
 攝影	atjl
 土壤	gigl
 模範	fswr
@@ -5067,7 +5067,7 @@
 開設	rfuq
 法定	ighf
 甘肅	syxw
-高尚	lvkd
+高尚	lvkr
 有意	shlj
 導向	qmrs
 加深	woip
@@ -5089,7 +5089,7 @@
 肺炎	hfmm
 宏偉	hsej
 當卽	kndi
-愛心	vpgs
+愛心	vpgk
 福州	sfie
 電視劇	cske
 頑強	fpnk
@@ -5112,7 +5112,7 @@
 會場	rfgj
 海域	iwgy
 建造	xato
-農田	csno
+農田	csnx
 青海	ghiw
 佔據	ejak
 吉林	goff
@@ -5382,7 +5382,7 @@
 團隊	drzq
 三國	jsdy
 推遲	acbv
-田間	norj
+田間	nxrj
 剝奪	rvtc
 再三	mcjs
 平方	nqir
@@ -5395,7 +5395,7 @@
 外科	ujvy
 摧毁	ajhy
 陸地	zggs
-一心	fkgs
+一心	fkgk
 吸菸	orsi
 美德	utvd
 雨水	covu
@@ -5613,7 +5613,7 @@
 生平	einq
 注射	ilca
 少見	kwmr
-重心	zngs
+重心	zngk
 自學	mchz
 擔當	apkn
 陳列	zffu
@@ -6520,7 +6520,7 @@
 千山萬水	zjsv
 心花怒放	gsli
 顧此失彼	qtwv
-偏心	eqgs
+偏心	eqgk
 天花亂墜	fsvz
 視死如歸	sflg
 聲情並茂	gpqs
@@ -6985,7 +6985,7 @@
 村子	fakv
 聘請	tpug
 軍民	praa
-時尚	jgkd
+時尚	jgkr
 增添	gqif
 展出	bsxx
 特有	tgsh
@@ -7027,7 +7027,7 @@
 乒乓球	nnmf
 風貌	ekqd
 烏魯木齊	ptfl
-油田	ipno
+油田	ipnx
 養成	qdyv
 業主	pulm
 報酬	gqci
@@ -7047,7 +7047,7 @@
 要麽	clyw
 逐年	edwa
 師長	gftm
-心血	gswz
+心血	gkwz
 歌舞	aows
 愛護	vpus
 先行	ttvj
@@ -7223,7 +7223,7 @@
 交涉	luit
 敏鋭	wrdq
 論斷	uruu
-細心	pngs
+細心	pngk
 新西蘭	lcsr
 焦急	cmpx
 有用	shtn
@@ -7268,9 +7268,9 @@
 窗子	hrkv
 順手	eucj
 總得	prvj
-點心	vjgs
+點心	vjgk
 風箏	ekwv
-種田	vzno
+種田	vznx
 官僚	hbet
 山路	jebe
 下級	bkpr
@@ -7280,7 +7280,7 @@
 地段	gsej
 退化	sdei
 偵察	ejhh
-疑心	iqgs
+疑心	iqgk
 交際	luzh
 出土	xxgi
 後備	vues
@@ -7411,7 +7411,7 @@
 門類	rmkx
 過問	fdro
 眼界	msnr
-留心	ings
+留心	ingk
 走動	ryzn
 所屬	qnbv
 幼兒	uwht
@@ -7443,7 +7443,7 @@
 遞增	nkgq
 癱瘓	ysyp
 忘卻	egur
-稻田	vvno
+稻田	vvnx
 氣派	wkin
 未知	skqo
 風流	ekil
@@ -7602,7 +7602,7 @@
 蚊子	vxkv
 早餐	jaju
 漢人	isre
-手心	cjgs
+手心	cjgk
 校舍	flro
 靜悄悄	gppk
 午後	wdvu
@@ -7616,7 +7616,7 @@
 美女	utlc
 文盲	xnem
 不等	ivwg
-虚心	kpgs
+虚心	kpgk
 專科	ravy
 領隊	rlzq
 一天到晚	ffhj
@@ -7653,7 +7653,7 @@
 開張	rfnt
 樹幹	fpdj
 頭等	fowg
-野心	nzgs
+野心	nzgk
 傻瓜	ervs
 青蛙	ghvg
 敏捷	wraf
@@ -7752,7 +7752,7 @@
 拍照	adjd
 速率	folu
 繁多	wruu
-苦心	sbgs
+苦心	sbgk
 編排	pqaw
 打印	aaif
 穀子	gfkv
@@ -7872,7 +7872,7 @@
 嘮叨	omod
 眼見	msmr
 恰巧	pryu
-梯田	fqno
+梯田	fqnx
 鍼灸	dypl
 單薄	oosi
 全盤	rmxq
@@ -8361,7 +8361,7 @@
 獨斷專行	xurv
 東倒西歪	feci
 治病救人	iyfr
-粗心	kmgs
+粗心	kmgk
 心有餘悸	gsqp
 流離失所	ixwq
 秋色	vmpa
@@ -8540,7 +8540,7 @@
 無堅不摧	wbia
 一盤散沙	fxsi
 不可理喻	iamo
-有心	shgs
+有心	shgk
 足智多謀	bquu
 改朝換代	adae
 杞人憂天	fruf
@@ -9256,7 +9256,7 @@
 養老	qdgi
 黨組	kvpm
 科普	vyqp
-心態	gskh
+心態	gkkh
 頒發	udbn
 應對	yepu
 去世	gkgn
@@ -9544,7 +9544,7 @@
 史料	ozky
 壯觀	wgso
 宣揚	hfaj
-風尚	ekkd
+風尚	ekkr
 隱隱	zvzv
 早飯	jaqn
 巴掌	ajkc
@@ -9584,7 +9584,7 @@
 遲遲	bvbv
 口吻	osoh
 熱淚	guiq
-談心	umgs
+談心	umgk
 侵佔	exej
 門路	rmbe
 雙雙	cccc
@@ -9705,7 +9705,7 @@
 深山	ipje
 隸屬	fsbv
 辯證法	luig
-忍心	dlgs
+忍心	dlgk
 香味	vjos
 炮彈	mhno
 受騙	vpjq
@@ -9781,7 +9781,7 @@
 驚恐	shyq
 軍艦	prxb
 見效	mrlu
-田園	nodg
+田園	nxdg
 憂傷	uhew
 細微	pnvf
 開墾	rfqs
@@ -9886,7 +9886,7 @@
 何苦	easb
 轉發	rrbn
 蘭花	srse
-心得	gsvj
+心得	gkvj
 貧乏	udwd
 放置	iezd
 做工	ebyx
@@ -9963,7 +9963,7 @@
 光陰	kpzr
 歡聚一堂	stfk
 深秋	ipvm
-心腸	gshj
+心腸	gkhj
 厚望	kjeh
 料理	kymn
 通行證	bvub
@@ -9995,14 +9995,14 @@
 蟲子	vvkv
 訂購	uams
 牀單	wfoo
-動心	zngs
+動心	zngk
 赤裸裸	gnnj
 熱忱	gupp
 榮耀	mmkp
 青銅	ghdc
 書生	xgei
 没落	iqsi
-存心	scgs
+存心	scgk
 三位一體	jefv
 純真	padm
 追捕	gdam
@@ -10275,7 +10275,7 @@
 鋌而走險	dlrz
 紅木	pyfi
 草率	sjlu
-貼心	mjgs
+貼心	mjgk
 盈虧	rbkc
 内功	cryw
 操勞	aomm
@@ -10375,7 +10375,7 @@
 感恩	yfdt
 訣竅	ubhd
 賠錢	mldy
-掌心	kcgs
+掌心	kcgk
 輕便	rfef
 叮噹	oaok
 蜜月	hghr
@@ -11171,7 +11171,7 @@
 屈原	bxkd
 侷限性	ezpe
 必不可少	giak
-心碎	gsul
+心碎	gkul
 寫信	hheu
 宮女	holc
 穿過	hzfd
@@ -11378,7 +11378,7 @@
 座位	yrel
 下游	bkii
 困擾	dfau
-心聲	gsgb
+心聲	gkgb
 康復	yxvw
 疫苗	yqsn
 彩電	vfcp
@@ -11487,7 +11487,7 @@
 詩意	uglj
 除去	zrgk
 版本	wnff
-崇尚	jhkd
+崇尚	jhkr
 射線	capd
 穿越	hzry
 奔赴	tdrj
@@ -11659,7 +11659,7 @@
 配件	caet
 焚燒	ffmg
 行賄	vjms
-自尊心	mqgs
+自尊心	mqgk
 片子	wnkv
 辦公桌	lujj
 勳章	zvlj
@@ -11946,7 +11946,7 @@
 揮霍	apcc
 平生	nqei
 保鮮	eotu
-誠心	uygs
+誠心	uygk
 童謡	lnuv
 童謠	lnuh
 張口	ntos
@@ -11965,7 +11965,7 @@
 圍觀	djso
 神靈	spco
 新潮	lfid
-心動	gszn
+心動	gkzn
 延期	wtxh
 把門	aarm
 收據	xeak
@@ -12012,7 +12012,7 @@
 佈景	esjl
 拳擊	qdrx
 遊離	iwxx
-知心	qogs
+知心	qogk
 産後	lwvu
 沉睡	ipme
 病理	yfmn
@@ -12155,7 +12155,7 @@
 竹竿	wown
 名師	uogf
 認罪	udzw
-心酸	gsck
+心酸	gkck
 定論	hfur
 犯規	xvdm
 火種	msvz
@@ -12200,7 +12200,7 @@
 精鋭	kgdq
 香火	vjms
 憤恨	pdps
-空心	hygs
+空心	hygk
 懊惱	prpy
 霸王	crme
 菜單	svoo
@@ -12312,11 +12312,11 @@
 敗仗	mees
 鍛造	deto
 篝火	wsms
-歡心	sogs
+歡心	sogk
 富饒	hfqg
 姑且	lbmf
 生來	eiej
-心田	gsno
+心田	gknx
 拜會	cfrf
 好客	lkhe
 荒野	senz
@@ -12448,7 +12448,7 @@
 百分	ujud
 緩衝	pvvz
 兇殘	zxfu
-揪心	avgs
+揪心	avgk
 一塌糊塗	fgki
 涼快	ilpb
 防風	ziek
@@ -12545,7 +12545,7 @@
 大無畏	twnk
 盤踞	xqbb
 細密	pnhg
-心神	gssp
+心神	gksp
 詆譭	uiuh
 結冰	pgyv
 水仙	vuej
@@ -12572,7 +12572,7 @@
 貪贓枉法	rmfi
 無愧	wspn
 圓潤	doir
-圓心	dogs
+圓心	dogk
 紛飛	pueo
 護城河	ugia
 出錯	xxds
@@ -12774,7 +12774,7 @@
 胎盤	hkxq
 天災人禍	fyrs
 小腸	kfhj
-分心	udgs
+分心	udgk
 超重	rdzn
 大腸	tjhj
 矩形	qkfs
@@ -12985,7 +12985,7 @@
 婦孺皆知	lkiq
 剛正不阿	cfiz
 白日夢	djsz
-變心	upgs
+變心	upgk
 除惡務盡	zfzx
 赴約	rjph
 滚雪球	icmf
@@ -13014,7 +13014,7 @@
 裹足不前	lbiq
 破曉	uwjg
 去僞存真	gesd
-散心	shgs
+散心	shgk
 鐵拳	ddqd
 自相殘殺	mffz
 延年益壽	wwqg
@@ -13451,7 +13451,7 @@
 小河	kfia
 小站	kflj
 没法	iqig
-尚書	kdxg
+尚書	krxg
 光緒	kppg
 派出	inxx
 洗臉	ithr
@@ -13472,8 +13472,8 @@
 車窗	rqhr
 貝多芬	musu
 尼日利亞	bjvf
-心眼	gsms
-心痛	gsyb
+心眼	gkms
+心痛	gkyb
 寫字	hhhk
 社長	sgtm
 餓死	qwfu
@@ -13880,7 +13880,7 @@
 放射性	icpe
 可行性	avpe
 望見	ehmr
-田地	nogs
+田地	nxgs
 總計	prud
 出力	xxwl
 求助	fvmw
@@ -14146,7 +14146,7 @@
 驚叫	shox
 牽引	lunc
 用兵	tnnf
-背心	qigs
+背心	qigk
 家境	hegl
 親臨	lfbw
 憂愁	uhvm
@@ -14235,7 +14235,7 @@
 滯留	isin
 對陣	puzr
 逗留	foin
-水田	vuno
+水田	vunx
 不妥	ivvl
 跑道	bhqm
 竹子	wokv
@@ -14268,7 +14268,7 @@
 重病	znyf
 捆綁	adpw
 公積金	uvdn
-尚且	kdmf
+尚且	krmf
 姓氏	leia
 重演	znih
 彗星	wwje
@@ -14426,7 +14426,7 @@
 房租	qivm
 花籃	sewb
 審問	hwro
-心胸	gshh
+心胸	gkhh
 緊要	bbcl
 手稿	cjvl
 西醫	cukq
@@ -14468,7 +14468,7 @@
 離奇	xxta
 難聽	sftm
 修煉	ecmf
-狠心	xsgs
+狠心	xsgk
 論著	ursg
 柔道	zwqm
 虚幻	kpuv
@@ -14594,9 +14594,9 @@
 聲望	gbeh
 綻放	phie
 官職	hbtl
-盡心	xfgs
+盡心	xfgk
 隨從	zsvr
-心虚	gskp
+心虚	gkkp
 不鏽鋼	iddc
 成家	yvhe
 氣度	wkys
@@ -14682,7 +14682,7 @@
 勸解	sopt
 遥控	vqah
 高爐	lvmk
-灰心	smgs
+灰心	smgk
 結交	pglu
 冷冰冰	yyyv
 謙遜	uqkw
@@ -14724,7 +14724,7 @@
 搶奪	artc
 淳樸	ilfp
 隔膜	zfhs
-滿心	isgs
+滿心	isgk
 典故	csbe
 男兒	nwht
 梯子	fqkv
@@ -14762,7 +14762,7 @@
 締造	plto
 登高	bflv
 斷送	uuqt
-心切	gsad
+心切	gkad
 問號	roou
 修辭	ecvb
 用場	tngj
@@ -14805,11 +14805,11 @@
 傳言	erui
 内向	crrs
 圖表	dogw
-心口	gsos
+心口	gkos
 八角	uspt
 國手	dycj
 胡蘿蔔	bssh
-軸心	rpgs
+軸心	rpgk
 低劣	eikw
 浮游	ivii
 順勢	eugu
@@ -15008,7 +15008,7 @@
 同源	cfik
 木船	fixq
 日文	jkxn
-心房	gsqi
+心房	gkqi
 殘骸	fuva
 肥肉	hacr
 求教	fvgk
@@ -15028,7 +15028,7 @@
 如數	lood
 博愛	dmvp
 偷懶	erpf
-離心	xxgs
+離心	xxgk
 深奧	iprw
 序曲	yzcs
 灼熱	mhgu
@@ -15047,7 +15047,7 @@
 順口	euos
 鐵軌	ddrw
 晚輩	jpwr
-心肝	gshn
+心肝	gkhn
 宰殺	hlzf
 抄寫	akhh
 乘涼	vqil
@@ -15358,10 +15358,10 @@
 卑微	ndvf
 便當	efkn
 歌喉	aooe
-黑心	vhgs
+黑心	vhgk
 梳妝	flwl
 責駡	gmoo
-稱心	vvgs
+稱心	vvgk
 乖巧	zqyu
 沙場	ikgj
 選材	aafj
@@ -15396,7 +15396,7 @@
 雄姿	skyn
 上火	kgms
 預兆	zuty
-癡心	yigs
+癡心	yigk
 集權	cffs
 沾染	ijiw
 虧本	kcff
@@ -15550,7 +15550,7 @@
 默哀	vxlw
 人滿爲患	rivo
 天宮	ftho
-心機	gsfu
+心機	gkfu
 暗藏	jlsy
 花招	sead
 懷恨	plps
@@ -15740,7 +15740,7 @@
 陰道	zrqm
 凋謝	yhuc
 風月	ekhr
-恆心	pfgs
+恆心	pfgk
 考勤	gury
 空頭	hyfo
 人煙	remc
@@ -15756,7 +15756,7 @@
 卸貨	wfei
 得法	vjig
 苦瓜	sbvs
-善心	uqgs
+善心	uqgk
 桃色	ftpa
 雲端	cylj
 便裝	efwg
@@ -15893,14 +15893,14 @@
 詭辯	uplu
 交差	luuy
 酒鬼	icni
-閒心	rhgs
+閒心	rhgk
 電燈泡	cmih
 求全責備	frge
 插口	azos
 婚嫁	lilh
 空城計	hgud
 萬有引力	ssnw
-丹田	hlno
+丹田	hlnx
 睏乏	mdwd
 生菜	eisv
 素食	gpql
@@ -15918,7 +15918,7 @@
 邊塞	mhhs
 風光旖旎	ekii
 海螺	iwvn
-花心	segs
+花心	segk
 街談巷議	vusu
 女巫	lcyr
 探查	apfj
@@ -16438,7 +16438,7 @@
 國内外	dcuj
 週期性	hxpe
 郵差	esuy
-同情心	cpgs
+同情心	cpgk
 内能	crkh
 臀部	bslo
 層層	bqbq
@@ -16584,14 +16584,14 @@
 超市	rdlr
 統一戰線	pfop
 狠抓	xsav
-民心	aags
+民心	aagk
 本月	ffhr
 原油	kdip
 增長率	gtlu
 檢疫	fryq
 景點	jlvj
 可喜	aopo
-衷心	lcgs
+衷心	lcgk
 越是	ryjf
 植樹	fdfp
 連隊	rdzq
@@ -16827,7 +16827,7 @@
 軍政	prft
 聯歡	tuso
 軍士	prgu
-痛心	ybgs
+痛心	ybgk
 再造	mcto
 賽區	hsko
 吊銷	ordk
@@ -16948,7 +16948,7 @@
 疑難	iqsf
 環流	mzil
 自救	mcfv
-潛心	ikgs
+潛心	ikgk
 無益	wsqu
 新作	lfew
 面料	laky
@@ -17044,7 +17044,7 @@
 段子	ejkv
 泄漏	igib
 鐵道	ddqm
-自信心	megs
+自信心	megk
 過不去	figk
 欺侮	xnew
 下海	bkiw
@@ -17057,7 +17057,7 @@
 電話機	cufu
 時日	jgjk
 名勝	uohq
-心地	gsgs
+心地	gkgs
 突擊隊	hrzq
 淵源	iwik
 屋檐	bhfp
@@ -17243,7 +17243,7 @@
 離任	xxee
 強者	nkgj
 通則	btmx
-心病	gsyf
+心病	gkyf
 劃撥	xgab
 巨幅	kbrf
 連載	rddy
@@ -17292,7 +17292,7 @@
 清貧	igud
 添置	ifzd
 悲涼	wgil
-軍心	prgs
+軍心	prgk
 窩囊	hfdo
 短篇	qfwq
 挖苦	ahsb
@@ -17325,7 +17325,7 @@
 日語	jkuf
 曠野	jynz
 惱怒	pylb
-心坎	gsgn
+心坎	gkgn
 長相	tmfm
 晨曦	jyju
 可敬	aosh
@@ -17403,7 +17403,7 @@
 異化	nsei
 短褲	qfny
 空缺	hyqb
-雄心	skgs
+雄心	skgk
 扯皮	atwu
 噴泉	oddv
 山巒	jeup
@@ -17731,7 +17731,7 @@
 世襲	gnlh
 止步	thtk
 慈悲	quwg
-費心	nugs
+費心	nugk
 虎口	kkos
 平緩	nqpv
 遣送	okqt
@@ -17794,7 +17794,7 @@
 褪色	nspa
 遠見卓識	gmju
 作祟	ewxx
-心絃	gspl
+心絃	gkpl
 酗酒	czic
 機房	fuqi
 憑弔	yjnc
@@ -17848,7 +17848,7 @@
 冷眼	yrms
 謙恭	uqsu
 吞吐	ftog
-心扉	gsqw
+心扉	gkqw
 一溜煙	fimc
 碰巧	uqyu
 恰似	pree
@@ -17877,7 +17877,7 @@
 花盆	seud
 計時	udjg
 假借	ebes
-交心	lugs
+交心	lugk
 鏡片	dlwn
 熔爐	mhmk
 防水	zivu
@@ -17897,7 +17897,7 @@
 抹布	assr
 退兵	sdnf
 邂逅	ptnf
-心計	gsud
+心計	gkud
 學分	hzud
 棕櫚	fhfr
 瓷磚	ynur
@@ -18148,7 +18148,7 @@
 習武	qqfy
 信步	eutk
 動怒	znlb
-齊心	lqgs
+齊心	lqgk
 前奏	qhef
 笑呵呵	wooa
 匀速	hyfo
@@ -18242,7 +18242,7 @@
 孤僻	kveb
 癱軟	ysrn
 條目	ecmv
-心軟	gsrn
+心軟	gkrn
 暴亂	jsvb
 查問	fjro
 戳穿	qqhz
@@ -18261,7 +18261,7 @@
 涼鞋	ilrg
 布匹	srpe
 盒飯	rzqn
-紅心	pygs
+紅心	pygk
 嗎啡	ojow
 憑據	yjak
 勤勉	rypo
@@ -18289,7 +18289,7 @@
 銀白	dsds
 閲覽	rqbw
 徵婚	vfli
-戒心	ysgs
+戒心	ysgk
 精粹	kgkl
 仁愛	eyvp
 妖怪	lcpb
@@ -18530,7 +18530,7 @@
 鵪鶉	tplk
 蠶絲	ktpp
 飛漲	eoin
-匠心	kngs
+匠心	kngk
 莽撞	sxal
 外祖父	usuz
 心上人	gkre
@@ -18647,7 +18647,7 @@
 花紅	sepy
 交割	luhw
 懼色	pmpa
-田産	nolw
+田産	nxlw
 鐵證	ddub
 鬚髮	tdts
 懸案	mkhl
@@ -19477,7 +19477,7 @@
 控股	ahhq
 公有制	ustc
 減免	iypo
-田徑	novf
+田徑	nxvf
 關愛	ruvp
 中國畫	odxg
 音像	ljep
@@ -19514,7 +19514,7 @@
 破獲	uwxs
 高等學校	lwhf
 理順	mneu
-心目	gsmv
+心目	gkmv
 衛士	vjgu
 期盼	xhmu
 拿下	rcbk
@@ -19989,7 +19989,7 @@
 犛牛	setl
 慘白	pkds
 彷徨	vivd
-舒心	rogs
+舒心	rogk
 好意思	llng
 根系	fswp
 正宗	fths
@@ -20141,7 +20141,7 @@
 盈盈	rbrb
 摯愛	gqvp
 匍匐	hmhf
-順心	eugs
+順心	eugk
 負重	pmzn
 設宴	uqhj
 雄辯	sklu
@@ -20173,7 +20173,7 @@
 紅腫	pyhz
 石榴	utfi
 樹冠	fppf
-隨心	zsgs
+隨心	zsgk
 撤走	alry
 戍邊	ylmh
 鼎盛	mwyv
@@ -20221,7 +20221,7 @@
 不外乎	iuwq
 軍紀	prpa
 美夢	utsz
-童心	lngs
+童心	lngk
 原貌	kdqd
 電波	cpiw
 國别	dyow
@@ -20288,7 +20288,7 @@
 前夜	qhle
 痛惜	ybps
 姦淫	lliv
-死心	fugs
+死心	fugk
 支架	dbwo
 祖墳	smgd
 編著	pqsg
@@ -20471,7 +20471,7 @@
 盤查	xqfj
 題字	jfhk
 錘子	dekv
-寒心	hsgs
+寒心	hsgk
 起降	raze
 釋迦牟尼	wwkb
 成批	yvai
@@ -20581,7 +20581,7 @@
 泡菜	ihsv
 前列腺	qfhd
 宿營	hemm
-心窩	gshf
+心窩	gkhf
 椰子	ftkv
 專攻	raye
 大麥	tjee
@@ -20669,7 +20669,7 @@
 響噹噹	nook
 遠親	golf
 海量	iwjf
-寬心	hsgs
+寬心	hsgk
 密閉	hgrj
 超音速	rlfo
 癲癇	ydyr
@@ -20817,7 +20817,7 @@
 迎頭趕上	ifrk
 再婚	mcli
 車牀	rqwf
-多心	uugs
+多心	uugk
 工科	yxvy
 女色	lcpa
 相勸	fmso
@@ -21099,7 +21099,7 @@
 高矮	lvqv
 機油	fuip
 艱深	sfip
-眉心	bmgs
+眉心	bmgk
 乳名	vkuo
 勝算	hqwm
 休學	efhz
@@ -21364,7 +21364,7 @@
 到點	hxvj
 難説	sfuq
 心慈手軟	gqcr
-心算	gswm
+心算	gkwm
 走獸	ryoo
 蠢笨	ejwf
 刀耕火種	dwmv
@@ -21810,7 +21810,7 @@
 來看	ejcm
 死於	fuir
 一年四季	fwdv
-麥田	eeno
+麥田	eenx
 天秤座	fvyr
 素服	gphx
 虎子	kkkv
@@ -21858,7 +21858,7 @@
 飛過	eofd
 買家	zmhe
 劇作家	kehe
-心肌	gshq
+心肌	gkhq
 燒雞	mgvu
 煙臺	mcgo
 斷電	uucp
@@ -22174,7 +22174,7 @@
 規律性	dvpe
 京都	lkgj
 珍視	mrsm
-責任心	gegs
+責任心	gegk
 互惠	frrg
 動武	znfy
 攤派	asin
@@ -22525,7 +22525,7 @@
 内河	cria
 失明	wdjh
 滴水	ilvu
-忠心	ocgs
+忠心	ocgk
 迫於	ddir
 五官	fjhb
 一席話	fyuo
@@ -22642,7 +22642,7 @@
 笛子	wpkv
 踉蹌	blbr
 水溝	vuis
-私心	vkgs
+私心	vkgk
 沿襲	iqlh
 悠然	echx
 保單	eooo
@@ -22773,7 +22773,7 @@
 修長	ectm
 儀仗隊	eezq
 羽絨服	qphx
-會心	rfgs
+會心	rfgk
 溢出	iqxx
 沉降	ipze
 底氣	yiwk
@@ -22791,7 +22791,7 @@
 見報	mrgq
 起舞	raws
 消融	ikfo
-心煩	gsmu
+心煩	gkmu
 主見	lmmr
 癌細胞	yphh
 門洞	rmic
@@ -23135,7 +23135,7 @@
 秋日	vmjk
 首尾	qmbx
 特快	tgpb
-虚榮心	kmgs
+虚榮心	kmgk
 戰慄	oopc
 攻陷	yezp
 鬼混	niij
@@ -23197,7 +23197,7 @@
 老夫子	gdkv
 事理	jomn
 拖拉	awal
-憂心	uhgs
+憂心	uhgk
 家風	heek
 禁運	ffpr
 酒量	icjf
@@ -23331,7 +23331,7 @@
 通盤	btxq
 熾烈	mlfu
 高就	lvlk
-居心	bbgs
+居心	bbgk
 天公	ftuk
 爭霸	vxcr
 材質	fjnn
@@ -23549,7 +23549,7 @@
 鑽營	dtmm
 白開水	drvu
 辨析	lqfn
-二心	yrgs
+二心	yrgk
 泛指	iwai
 紅撲撲	paap
 選項	aayu
@@ -23812,7 +23812,7 @@
 避孕套	brtt
 財寶	mjhm
 肚臍	hghl
-歸心	gtgs
+歸心	gtgk
 過街老鼠	fvgh
 荒僻	seeb
 老繭	gisc
@@ -24001,10 +24001,10 @@
 打退堂鼓	askp
 立夏	luum
 耍賴	llfo
-田螺	novn
+田螺	nxvn
 荼毒	srgr
 楔子	fwkv
-賊心	mygs
+賊心	mygk
 族譜	iwuq
 蜂巢	veyj
 和好	volk
@@ -24487,7 +24487,7 @@
 殘花敗柳	fsmf
 切切實實	aahh
 茅盾	sznd
-莆田	smno
+莆田	smnx
 臣民	bcaa
 臥榻	brfj
 東道	fjqm
@@ -25004,7 +25004,7 @@
 駐守	jlha
 榮立	mmlu
 所有者	qsgj
-同心	cfgs
+同心	cfgk
 新詩	lfug
 製劑	tclq
 政界	ftnr
@@ -25043,7 +25043,7 @@
 招工	adyx
 主旨	lmij
 衣袋	lwey
-心腹	gshw
+心腹	gkhw
 協議書	duxg
 建樹	xafp
 入場券	vgqd
@@ -25105,7 +25105,7 @@
 回身	docn
 油料	ipky
 截留	dyin
-傾心	eigs
+傾心	eigk
 女主人	llre
 煙塵	mcyg
 遠洋	goiu
@@ -25187,7 +25187,7 @@
 遊記	iwua
 原著	kdsg
 公演	ukih
-悉心	wkgs
+悉心	wkgk
 複審	nwhw
 世家	gnhe
 紫禁城	tfgy
@@ -25201,7 +25201,7 @@
 本職	fftl
 鋭減	dqiy
 銀屏	dsbq
-良田	lsno
+良田	lsnx
 平定	nqhf
 據稱	akvv
 根子	fskv
@@ -25423,7 +25423,7 @@
 土方	giir
 乳品	vkoo
 適中	lqoc
-心慌	gsps
+心慌	gkps
 大白菜	tdsv
 老路	gibe
 遊子	iwkv
@@ -25448,7 +25448,7 @@
 舊事	scjo
 熱銷	gudk
 謝恩	ucdt
-心智	gsqo
+心智	gkqo
 哪樣	ovfu
 批駁	aijz
 敵方	lqir
@@ -25459,7 +25459,7 @@
 興修	hcec
 屆滿	bgis
 考官	guhb
-田埂	nogf
+田埂	nxgf
 驛站	jzlj
 祖籍	smww
 神志	spgg
@@ -25482,7 +25482,7 @@
 備課	esuj
 西式	cuyy
 相宜	fmhm
-心力	gswl
+心力	gkwl
 餘熱	qrgu
 承運	vvpr
 附錄	zedr
@@ -25510,7 +25510,7 @@
 插花	azse
 嗓子眼	okms
 石壁	utbo
-孝心	gkgs
+孝心	gkgk
 休整	effo
 血性	wzpe
 衣料	lwky
@@ -25743,7 +25743,7 @@
 鳥獸	pqoo
 午睡	wdme
 香噴噴	vood
-心性	gspe
+心性	gkpe
 物慾	thur
 陰間	zrrj
 止痛	thyb
@@ -25782,7 +25782,7 @@
 橋墩	fcgl
 趣事	rtjo
 屍身	bfcn
-實心	hrgs
+實心	hrgk
 受用	vptn
 輓聯	rptu
 文檔	xnfk
@@ -25866,7 +25866,7 @@
 猜忌	xgag
 翻飛	wkeo
 平衡木	nvfi
-省心	kwgs
+省心	kwgk
 燙傷	ijew
 投籃	aqwb
 吟誦	orub
@@ -26004,7 +26004,7 @@
 歸併	gteq
 起跑	rabh
 勸降	soze
-心醉	gscl
+心醉	gkcl
 菸蒂	sisl
 敢死隊	vfzq
 花崗石	sjut
@@ -26210,7 +26210,7 @@
 難色	sfpa
 酸奶	cklr
 投彈	aqno
-屯田	axno
+屯田	axnx
 威勢	yfgu
 新大陸	ltzg
 御用	vwtn
@@ -26345,7 +26345,7 @@
 飛旋	eoiw
 分野	udnz
 清雅	igzc
-貪心	rlgs
+貪心	rlgk
 卸車	wfrq
 行會	vjrf
 箭步	wqtk
@@ -26550,7 +26550,7 @@
 洪荒	isse
 簡而言之	wlud
 留洋	iniu
-上進心	kcgs
+上進心	kcgk
 順境	eugl
 同歲	cfty
 班房	mqqi
@@ -27527,7 +27527,7 @@
 恐怖主義	yplu
 議長	uutm
 助學	mwhz
-心上	gskg
+心上	gkkg
 年均	wagh
 申辦	pxlw
 跨國公司	bduv
@@ -27743,7 +27743,7 @@
 女僕	lcep
 黃帝	sylq
 園藝	dgsg
-心緒	gspg
+心緒	gkpg
 聯誼	tuuh
 終審	pehw
 改稱	aevv
@@ -27762,7 +27762,7 @@
 老字號	ghou
 敵機	lqfu
 兑付	qoea
-心懷	gspl
+心懷	gkpl
 紀事	pajo
 舊時	scjg
 感傷	yfew
@@ -28152,7 +28152,7 @@
 無垠	wsgs
 毋庸置疑	ryzi
 下蛋	bkvt
-一條心	fegs
+一條心	fegk
 車行	rqvj
 黑板報	vfgq
 直説	dmuq
@@ -28192,7 +28192,7 @@
 八仙桌	uejj
 電信局	cebv
 跌幅	bwrf
-耕田	wuno
+耕田	wunx
 混濁	ijiz
 受罰	vpzu
 紙錢	pidy
@@ -28331,7 +28331,7 @@
 茶點	srvj
 陀螺	zhvn
 縣誌	mkug
-心室	gshh
+心室	gkhh
 雋永	cclv
 鄉紳	nwpp
 行船	vjxq
@@ -28368,7 +28368,7 @@
 在野	scnz
 緊閉	bbrj
 外星人	ujre
-心安	gshl
+心安	gkhl
 出生率	xelu
 紛紜	pupy
 離間	xxrj
@@ -28526,7 +28526,7 @@
 篇目	wqmv
 奇景	tajl
 幽香	juvj
-地心	gsgs
+地心	gsgk
 地衣	gslw
 利誘	vxuv
 引子	nckv
@@ -28549,7 +28549,7 @@
 留宿	inhe
 謀私	usvk
 耐寒	lahs
-鑽心	dtgs
+鑽心	dtgk
 飛鏢	eodc
 生物鐘	etdl
 洋務	iuzw
@@ -28558,7 +28558,7 @@
 飄舞	csws
 青史	ghoz
 降服	zehx
-鹽田	bwno
+鹽田	bwnx
 閲卷	rqqd
 搏殺	amzf
 車錢	rqdy
@@ -28657,7 +28657,7 @@
 黃羊	syug
 盲文	emxn
 腦血栓	hwfr
-心曲	gscs
+心曲	gkcs
 重載	zndy
 淳厚	ilkj
 理虧	mnkc
@@ -28730,7 +28730,7 @@
 草創	sjrl
 登攀	bffz
 電磁場	cugj
-掛心	aggs
+掛心	aggk
 駡街	oovg
 炫目	mlmv
 硬座	ufyr
@@ -28841,13 +28841,13 @@
 險象環生	zpme
 質料	nnky
 耳熟	telk
-芳心	sigs
+芳心	sigk
 廣漠	ysis
 滷水	imvu
 墨魚	vgty
 球技	mfad
 水晶宮	vjho
-唯心	ocgs
+唯心	ocgk
 鏽蝕	dxqv
 蒼生	srei
 婦道	lxqm
@@ -29098,7 +29098,7 @@
 淤塞	iihs
 面議	lauu
 時不再來	jime
-田雞	novu
+田雞	nxvu
 佳釀	egcl
 嫁娶	lhtb
 可嘆	aoos
@@ -29229,7 +29229,7 @@
 中聽	octm
 皇曆	dmkv
 貪杯	rlfi
-外心	ujgs
+外心	ujgk
 虹膜	vyhs
 火眼	msms
 經期	pfxh
@@ -29525,7 +29525,7 @@
 三輪	jsrr
 威猛	yfxk
 三好	jslk
-豐田	jwno
+豐田	jwnx
 存入	scvm
 有没有	sish
 砂礫	ukud
@@ -30104,7 +30104,7 @@
 受阻	vpzm
 軍銜	prvd
 鳴放	opie
-事業心	jpgs
+事業心	jpgk
 會徽	rfvf
 防病	ziyf
 大款	tjgs
@@ -30367,7 +30367,7 @@
 瘦長	yhtm
 退位	sdel
 鑄成	dgyv
-成心	yvgs
+成心	yvgk
 雪原	cxkd
 越級	rypr
 耕牛	wutl
@@ -30389,7 +30389,7 @@
 碧海	mdiw
 歸咎	gtej
 牌位	wnel
-試驗田	ujno
+試驗田	ujnx
 他殺	eszf
 柏油	fdip
 乾媽	djlj
@@ -30424,7 +30424,7 @@
 竹筒	wowc
 獻藝	kfsg
 積案	vghl
-心急	gspx
+心急	gkpx
 倍感	elyf
 採掘	avab
 夾道	trqm
@@ -30622,7 +30622,7 @@
 酒意	iclj
 時隱時現	jzjm
 勢利	guvx
-心跡	gsbj
+心跡	gkbj
 閒適	rhlq
 影劇院	jkzh
 原址	kdgt
@@ -30631,7 +30631,7 @@
 謂語	unuf
 登基	bfxg
 老朽	gifu
-心靜	gsgh
+心靜	gkgh
 雜居	lrbb
 開化	rfei
 鑼鼓喧天	dpof
@@ -30665,7 +30665,7 @@
 驚懼	shpm
 上溯	kgiq
 巷戰	suoo
-心魄	gsdn
+心魄	gkdn
 山神	jesp
 受權	vpfs
 猩紅	xjpy
@@ -30771,7 +30771,7 @@
 生父	eiuz
 午覺	wdhz
 賢良	bbls
-心律	gsvx
+心律	gkvx
 蔥鬱	srfq
 退職	sdtl
 蹉跎	bubh
@@ -30807,7 +30807,7 @@
 雙全	ccrm
 雨絲	copp
 鄉鄰	nwku
-心潮	gsid
+心潮	gkid
 筆尖	wxkt
 稟賦	ldmf
 惡名	fkuo
@@ -30864,7 +30864,7 @@
 散文詩	sxug
 相讓	fmul
 鞋匠	rgkn
-心寒	gshs
+心寒	gkhs
 自助餐	mmju
 超薄	rdsi
 負疚	pmyp
@@ -30878,7 +30878,7 @@
 老酒	giic
 連綴	rdpb
 香檳	vjfh
-心細	gspn
+心細	gkpn
 疑義	iquw
 薺菜	slsv
 謀面	usla
@@ -30928,7 +30928,7 @@
 仿造	eito
 肺泡	hfih
 爵士樂	vgdu
-心志	gsgg
+心志	gkgg
 鼻翼	mnqq
 存續	scpg
 大出血	txwz
@@ -30984,7 +30984,7 @@
 探子	apkv
 孝道	gkqm
 加減	woiy
-勞心	mmgs
+勞心	mmgk
 麻醉劑	yclq
 韜略	jvne
 新寵	lfhl
@@ -31103,7 +31103,7 @@
 衷腸	lchj
 保險絲	ezpp
 恩仇	dtew
-負心	pmgs
+負心	pmgk
 開本	rfff
 良友	lssb
 奇效	talu
@@ -32051,7 +32051,7 @@
 權威性	fype
 配股	cahq
 本溪	ffiv
-本田	ffno
+本田	ffnx
 西岸	cujk
 本次	ffyn
 本紀	ffpa
@@ -32558,7 +32558,7 @@
 雨露	cocb
 綻開	phrf
 把子	aakv
-心路	gsbe
+心路	gkbe
 發黃	bnsy
 旗子	iwkv
 追殺	gdzf
@@ -32612,7 +32612,7 @@
 撥動	abzn
 舉目	humv
 民宅	aahw
-心氣	gswk
+心氣	gkwk
 白話文	duxn
 勃發	dpbn
 孵化器	ieoo
@@ -32746,7 +32746,7 @@
 發端	bnlj
 發家致富	bhhh
 施放	iwie
-醉心	clgs
+醉心	clgk
 深長	iptm
 出爐	xxmk
 公推	ukac
@@ -32851,7 +32851,7 @@
 納西族	pciw
 喪禮	dosc
 書展	xgbs
-心悸	gspv
+心悸	gkpv
 沖垮	iogt
 敢幹	vtdj
 爬坡	vagw
@@ -32960,7 +32960,7 @@
 一把抓	faav
 包工	hayx
 報界	gqnr
-本心	ffgs
+本心	ffgk
 簍子	wokv
 清正	igft
 鐵蹄	ddbl
@@ -32992,7 +32992,7 @@
 麻黃	yasy
 没戲	iqkf
 明察	jhhh
-心術	gsvf
+心術	gkvf
 乾澀	djid
 含羞	rlus
 化膿	eihc
@@ -33209,7 +33209,7 @@
 首播	qmaw
 挑揀	ataf
 等效	wglu
-攻心	yegs
+攻心	yegk
 線形	pdfs
 雪球	cxmf
 愚人	vgre
@@ -33283,7 +33283,7 @@
 枕巾	fprk
 癌變	youp
 泉源	dvik
-尚可	kdao
+尚可	krao
 映山紅	jjpy
 毒殺	grzf
 末世	smgn
@@ -33353,7 +33353,7 @@
 首犯	qmxv
 私了	vkkc
 瞎鬧	mhrl
-心火	gsms
+心火	gkms
 報亭	gqla
 冰峰	yvje
 黑斑	vhmx
@@ -33361,7 +33361,7 @@
 上載	kgdy
 深耕	ipwu
 私法	vkig
-田莊	nosw
+田莊	nxsw
 現形	mmfs
 藥典	sdcs
 夜車	lerq
@@ -33420,7 +33420,7 @@
 走卒	rylr
 單眼皮	omwu
 計程車	uvrq
-經心	pfgs
+經心	pfgk
 群集	xwcf
 痛悔	ybpw
 引動	nczn
@@ -33668,7 +33668,7 @@
 鯨吞	tlft
 茅廬	szyk
 侵奪	extc
-清心	iggs
+清心	iggk
 逃課	tyuj
 頭寸	foai
 壓陣	kjzr
@@ -34270,7 +34270,7 @@
 怕死	pdfu
 恨死	psfu
 戳破	qquw
-驚心	shgs
+驚心	shgk
 類書	kxxg
 粗豪	kmle
 業障	puzl
@@ -34754,7 +34754,7 @@
 託人	uwre
 以西	elcu
 生根	eifs
-心連心	grgs
+心連心	grgk
 大團結	tdpg
 士卒	gulr
 選編	aapq
@@ -34990,7 +34990,7 @@
 黑黝黝	vvvu
 傢什	ehed
 毛豆	xofo
-違心	jdgs
+違心	jdgk
 大雜院	tlzh
 併力	eqwl
 放膽	iehp
@@ -35203,7 +35203,7 @@
 猶太教	xtgk
 勉力	powl
 私産	vklw
-心率	gslu
+心率	gklu
 油餅	ipqq
 發毛	bnxo
 軍威	pryf
@@ -35253,7 +35253,7 @@
 樹杈	fpfb
 英畝	scln
 版式	wnyy
-丹心	hlgs
+丹心	hlgk
 閤家	rrhe
 橫眉	fsbm
 記功	uayw
@@ -35316,12 +35316,12 @@
 天塹	ftrn
 稱譽	vvhu
 勾通	hkbt
-腳心	hugs
+腳心	hugk
 正大	fttj
 喝問	ojro
 介紹人	rpre
 炮手	mhcj
-心服	gshx
+心服	gkhx
 英聯邦	stwz
 醉眼	clms
 肩章	qhlj
@@ -35932,7 +35932,7 @@
 援手	avcj
 參透	kkvr
 刁蠻	vfup
-定心	hfgs
+定心	hfgk
 財勢	mjgu
 對換	puap
 腹肌	hwhq
@@ -36459,7 +36459,7 @@
 發怵	bnpf
 尾鰭	bxtg
 盡歡	xfso
-心膽	gshp
+心膽	gkhp
 眉高眼低	blme
 以此	elti
 燒錢	mgdy
@@ -36689,7 +36689,7 @@
 全隊	rmzq
 分不清	uiig
 全屏	rmbq
-全心	rmgs
+全心	rmgk
 僅此而已	etla
 偵測	ejim
 倒海翻江	eiwi
@@ -36964,7 +36964,7 @@
 有意識	slul
 率部	lulo
 壽險	gvzr
-全身心	rcgs
+全身心	rcgk
 免收	poxe
 冠名	pfuo
 分兵	udnf
@@ -37000,7 +37000,7 @@
 原煤	kdms
 慣於	prir
 學人	hzre
-大田	tjno
+大田	tjnx
 首例	qmef
 裝車	wgrq
 不治	ivik
@@ -37014,7 +37014,7 @@
 幾近	uund
 本校	fffl
 未然	skhx
-責任田	geno
+責任田	genx
 不孝	ivgk
 街口	vgos
 黨課	kvuj
@@ -37162,7 +37162,7 @@
 重油	znip
 重提	znaj
 打工仔	ayek
-煤田	msno
+煤田	msnx
 日臻	jkhe
 幸事	gqjo
 份子	eukv
@@ -37295,7 +37295,7 @@
 油然	iphx
 忡忡	popo
 警銜	shvd
-心儀	gseu
+心儀	gkeu
 摇撼	avay
 分洪	udis
 歌舞劇	awke
@@ -37322,7 +37322,7 @@
 乾瘦	djyh
 新學	lfhz
 鮑魚	thty
-煩心	mugs
+煩心	mugk
 果木	jffi
 約稿	phvl
 踩踏	bvbv
@@ -37507,7 +37507,7 @@
 樓市	folr
 熱病	guyf
 溫厚	idkj
-秧田	vcno
+秧田	vcnx
 臆想	hlfm
 幽禁	juff
 梵文	ffxn
@@ -37517,7 +37517,7 @@
 積弊	vgqr
 匡正	kmft
 山貨	jeei
-心狠	gsxs
+心狠	gkxs
 中飽私囊	oqvd
 仲春	eoej
 放射線	icpd
@@ -37592,7 +37592,7 @@
 陰暗面	zjla
 駐留	jlin
 駁倒	jzeh
-赤心	gugs
+赤心	gugk
 傳經	erpf
 鏈球	drmf
 審稿	hwvl
@@ -37610,7 +37610,7 @@
 狂怒	xmlb
 輸家	rrhe
 西褲	cuny
-異心	nsgs
+異心	nsgk
 包産	halw
 陳兵	zfnf
 清冽	igyf
@@ -37814,7 +37814,7 @@
 隨身聽	zctm
 右方	soir
 叨唸	odor
-旱田	jnno
+旱田	jnnx
 歡聲雷動	sgcz
 慌里慌張	pnpn
 巋然	jghx
@@ -37889,7 +37889,7 @@
 海溝	iwis
 寒士	hsgu
 河網	iapc
-夾心	trgs
+夾心	trgk
 師哥	gfao
 土裏土氣	glgw
 相戀	fmup
@@ -39134,7 +39134,7 @@
 師範大學	gwth
 中小學生	okhe
 口裏	osln
-田裏	noln
+田裏	nxln
 邏輯思維	zrnp
 凹凸不平	ccin
 貝利	movx
@@ -39264,7 +39264,7 @@
 增資	gqyn
 約法	phig
 伴有	eqsh
-街心	vggs
+街心	vggk
 四圍	dtdj
 中醫院	okzh
 現代戲	mekf
@@ -39281,7 +39281,7 @@
 鋭意進取	dlct
 一個勁兒	fefh
 換位	apel
-田頭	nofo
+田頭	nxfo
 疏於	vtir
 細説	pnuq
 演奏家	iehe
@@ -39318,7 +39318,7 @@
 移栽	vudy
 洋樓	iufo
 隔離帶	zxsf
-尚存	kdsc
+尚存	krsc
 稱王	vvme
 競猜	loxg
 長街	tmvg
@@ -39349,7 +39349,7 @@
 奮發向上	tbrk
 恢宏	pshs
 銀奬	dswh
-上心	kggs
+上心	kggk
 衣角	lwpt
 塗層	irbq
 士紳	gupp
@@ -39812,7 +39812,7 @@
 鑑證	dbub
 牌價	wnec
 收羅	xezp
-田鼠	nohb
+田鼠	nxhb
 一鍋粥	fdnk
 有喜	shpo
 字彙	hkrp
@@ -39860,7 +39860,7 @@
 退堂鼓	skpd
 獻詞	kfuv
 消火栓	imfr
-心浮	gsiv
+心浮	gkiv
 油桶	ipfb
 魚鉤	tydh
 奇巧	tayu
@@ -39880,7 +39880,7 @@
 招賢	adbb
 掛車	agrq
 皮筋	wuwh
-桑田	bbno
+桑田	bbnx
 紗錠	pkdh
 勝券	hqqd
 同人	cfre
@@ -39896,7 +39896,7 @@
 褫奪	nntc
 慈父	quuz
 腹水	hwvu
-靜心	ghgs
+靜心	ghgk
 門閥	rmre
 水肥	vuha
 撻伐	agey
@@ -40017,7 +40017,7 @@
 懾服	pthx
 醉態	clkh
 半道	qaqm
-肥田	hano
+肥田	hanx
 告饒	toqg
 黃楊	syfj
 老氣	giwk
@@ -40711,7 +40711,7 @@
 沉默不語	iviu
 没能	iqkh
 油壓	ipkj
-尚無	kdws
+尚無	krws
 没準	iqic
 没人	iqre
 没變	iqup
@@ -40750,7 +40750,7 @@
 暗夜	jlle
 昆布	jisr
 昆仲	jieo
-嘔心	okgs
+嘔心	okgk
 葉肉	sgcr
 中英	ocsc
 踢打	bjaa
@@ -40841,7 +40841,7 @@
 尾盤	bxxq
 必讀	gwug
 買入	zmvm
-心魔	gsyn
+心魔	gkyn
 燒成	mgyv
 烘箱	mswf
 燒結	mgpg
@@ -41048,7 +41048,7 @@
 北朝鮮	qdtu
 美腿	uths
 美方	utir
-冰心	yvgs
+冰心	yvgk
 單于	oofj
 章則	ljmx
 單選	ooaa
@@ -41419,7 +41419,7 @@
 指揮部	aalo
 年年	wawa
 農業税	cpvq
-下決心	bigs
+下決心	bigk
 區政府	kfye
 星子	jekv
 做生意	eelj
@@ -41463,7 +41463,7 @@
 河面	iala
 淨增	ivgq
 首發式	qbyy
-心甘	gssy
+心甘	gksy
 一朝	fkdj
 育才	lkjw
 躬身	cncn
@@ -41528,7 +41528,7 @@
 招降	adze
 重壓	znkj
 作價	ewec
-棉田	fdno
+棉田	fdnx
 波光	iwkp
 青苗	ghsn
 峰頂	jeau
@@ -41748,7 +41748,7 @@
 選段	aaej
 至愛	hcvp
 爲限	vjzs
-後心	vugs
+後心	vugk
 蟠龍	vwlh
 彎道	upqm
 無干	wsns
@@ -41871,7 +41871,7 @@
 佛殿	enbs
 高架橋	lwfc
 穹頂	hnau
-心包	gsha
+心包	gkha
 百聞不如一見	urim
 車軸	rqrp
 羅織	zppl
@@ -42084,7 +42084,7 @@
 降旗	zeiw
 通經	btpf
 纖毛	prxo
-心尖	gskt
+心尖	gkkt
 蹬腿	bbhs
 毒箭	grwq
 錦綸	ddpr
@@ -42126,7 +42126,7 @@
 通勤	btry
 沖印	ioif
 鋼筋鐵骨	dwdv
-虧心	kcgs
+虧心	kcgk
 麥冬	eeey
 球藝	mfsg
 永生永世	lelg
@@ -42137,7 +42137,7 @@
 後悔藥	vpsd
 滑翔機	iufu
 流程圖	ivdo
-鬧心	rlgs
+鬧心	rlgk
 青幫	ghgg
 繞彎子	pukv
 生死之交	efdl
@@ -42150,14 +42150,14 @@
 現眼	mmms
 雄黃	sksy
 尋親	xylf
-靶心	rags
+靶心	ragk
 大舅子	thkv
 盜賣	ingz
 焊縫	mjpe
 橫匾	fskq
 舊案	schl
 民變	aaup
-岩心	jugs
+岩心	jugk
 口腹	oshw
 快嘴	pbot
 爐灰	mksm
@@ -42340,7 +42340,7 @@
 鬆脆	tfhp
 炭盆	jsud
 萬事通	sjbt
-心裁	gsdy
+心裁	gkdy
 虚胖	kphq
 雨披	coaw
 災殃	ymfu
@@ -42703,7 +42703,7 @@
 夾住	trel
 再好不過	mlif
 瑙魯	mytj
-素心	gpgs
+素心	gpgk
 互斥	frnl
 玉皇	mldm
 玉林	mlff
@@ -42758,7 +42758,7 @@
 淺顯易懂	ijjp
 漫延	ijwt
 没了	iqkc
-尚需	kdcl
+尚需	krcl
 没睡	iqme
 油鍋	ipdf
 梁山伯	ijed
@@ -42847,7 +42847,7 @@
 回城	dogy
 加元	wofp
 加多	wouu
-田聯	notu
+田聯	nxtu
 男丁	nwah
 轉敗爲勝	rmvh
 思科	ngvy
@@ -42911,7 +42911,7 @@
 買藥	zmsd
 飛出	eoxx
 以太	eltl
-心肺	gshf
+心肺	gkhf
 粗氣	kmwk
 數不清	oiig
 粘合	kjrh
@@ -42942,7 +42942,7 @@
 官廳	hbyt
 災後	ymvu
 之日	djjk
-之心	djgs
+之心	djgk
 之勢	djgu
 之歌	djao
 富蘭克林	hsbf
@@ -43498,7 +43498,7 @@
 相結合	fprh
 西方人	cire
 辭工	vbyx
-和田	vono
+和田	vonx
 知名人士	qurg
 怎麽會	wyrf
 新世界	lgnr
@@ -43531,7 +43531,7 @@
 從實	vrhr
 版次	wnyn
 大棚	tjfh
-市中心	logs
+市中心	logk
 國際法	dzig
 惟有	pcsh
 減負	iypm
@@ -43612,7 +43612,7 @@
 礦難	uysf
 雪峰	cxje
 奉爲	eavj
-田家	nohe
+田家	nxhe
 衆議員	wuom
 酸甜	ckos
 半月刊	qhnx
@@ -43646,7 +43646,7 @@
 採油	avip
 佃户	enqk
 麥苗	eesn
-糧田	kjno
+糧田	kjnx
 取自	tbmc
 統攬	plab
 郵政編碼	efpu
@@ -44012,7 +44012,7 @@
 肇始	qelk
 斷片	uuwn
 躬行	cnvj
-尚武	kdfy
+尚武	krfy
 荸薺	sdsl
 電火花	cmse
 故交	belu
@@ -44085,7 +44085,7 @@
 實像	hrep
 幼芽	uwsz
 知交	qolu
-寸心	aigs
+寸心	aigk
 金丹	dnhl
 叩擊	oxrx
 木屐	fibv
@@ -44243,7 +44243,7 @@
 油桐	ipfc
 摧折	ajan
 山核桃	jfft
-收心	xegs
+收心	xegk
 藥罐子	sqkv
 誘捕	uvam
 口型	osfs
@@ -44252,7 +44252,7 @@
 泡吧	ihoa
 琴瑟	mmmm
 聲源	gbik
-遂心	qegs
+遂心	qegk
 縱論	pvur
 慘景	pkjl
 刀架	dkwo
@@ -44325,7 +44325,7 @@
 唸誦	orub
 四旁	dtlq
 湘妃竹	ilwo
-心黑	gsvh
+心黑	gkvh
 魚卵	tyil
 左膀右臂	shsb
 綁縛	pwpm
@@ -44607,7 +44607,7 @@
 熙攘	baal
 範式	wryy
 落荒	sise
-藍田	sbno
+藍田	sbnx
 劃痕	xgys
 蘇南	stdc
 蘇北	stqi
@@ -44750,7 +44750,7 @@
 朝臣	djbc
 埋下	gnbk
 刊號	nxou
-井田	yuno
+井田	yunx
 井底	yuyi
 喜獲	poxs
 十四行詩	ddvu
@@ -44876,7 +44876,7 @@
 水怪	vupb
 混響	ijnw
 沉默是金	ivjd
-尚能	kdkh
+尚能	krkh
 註册表	uhgw
 没啥	iqor
 油瓶	ipqs
@@ -45038,7 +45038,7 @@
 性關係	prew
 必經之地	gpdg
 收費站	xnlj
-心經	gspf
+心經	gkpf
 烤焦	mgcm
 精舍	kgro
 煙燻	mcmz
@@ -45082,12 +45082,12 @@
 穿針	hzdd
 神婆	spiw
 視距	smbk
-福田	sfno
+福田	sfnx
 禪定	sohf
 客户端	hqlj
 負薪救火	psfm
 狗苟蠅營	xsvm
-鐵了心	dkgs
+鐵了心	dkgk
 兇徒	zxvr
 怨偶	uvev
 色覺	pahz
@@ -45221,7 +45221,7 @@
 升到	wshx
 長流	tmil
 亂飛	vbeo
-甜心	osgs
+甜心	osgk
 各有所愛	esqv
 甜酸	osck
 租下	vmbk
@@ -45604,7 +45604,7 @@
 跳轉	btrr
 叫停	oxel
 圓點	dovj
-田中	nooc
+田中	nxoc
 累得	npvj
 山珍	jemr
 民女	aalc
@@ -46182,10 +46182,10 @@
 山陵	jezg
 伸懶腰	ephc
 瞎吹	mhon
-心寬	gshs
+心寬	gkhs
 零售店	ccyj
 善報	uqgq
-窩心	hfgs
+窩心	hfgk
 船篷	xqwe
 漿洗	whit
 駢文	jqxn
@@ -46373,7 +46373,7 @@
 好臉	lkhr
 内窺鏡	chdl
 生漆	eiif
-田舍	noro
+田舍	nxro
 把盞	aayy
 滚翻	ilwk
 旱鴨子	jnkv
@@ -46402,7 +46402,7 @@
 納福	pcsf
 事略	jone
 討巧	uayu
-田壟	nolh
+田壟	nxlh
 白熊	dskh
 服喪	hxdo
 官倒	hbeh
@@ -46415,7 +46415,7 @@
 蟲眼	vvms
 蓋印	sgif
 花飾	seqw
-機心	fugs
+機心	fugk
 借方	esir
 妻舅	dxhn
 囚衣	drlw
@@ -46589,7 +46589,7 @@
 吊杆	orfn
 利市	vxlr
 利嘴	vxot
-蓮心	srgs
+蓮心	srgk
 没齒不忘	iwie
 散劑	shlq
 審題	hwjf
@@ -46809,7 +46809,7 @@
 聲像	gbep
 赤日	gujk
 過江	fdiy
-過心	fdgs
+過心	fdgk
 過數	fdod
 埃塞俄比亞	ghef
 無措	wsas
@@ -47070,7 +47070,7 @@
 飛離	eoxx
 尼康	biyx
 驚世	shgn
-心繫	gsrx
+心繫	gkrx
 燒菜	mgsv
 煩雜	mulr
 粗體	kmvc
@@ -47670,7 +47670,7 @@
 别忙	owpe
 中法	ocig
 四萬	dtsv
-田七	noak
+田七	nxak
 累死	npfu
 山南	jedc
 内有	crsh
@@ -47928,7 +47928,7 @@
 圈養	dqqd
 出書	xxxg
 拜金主義	cdlu
-心領	gsrl
+心領	gkrl
 冰期	yvxh
 卽或	diyo
 據實	akhr
@@ -47945,7 +47945,7 @@
 輕紡	rfpi
 齊魯	lqtj
 群衆組織	xwpp
-造田	tono
+造田	tonx
 名篇	uowq
 吵吵	okok
 皮划艇	wyxe
@@ -48061,7 +48061,7 @@
 昭著	jdsg
 抗干擾	anau
 手諭	cjur
-湖心	ibgs
+湖心	ibgk
 木頭人	ffre
 成趣	yvrt
 取鬧	tbrl
@@ -48133,7 +48133,7 @@
 畫工	xgyx
 説白了	udkc
 洗衣店	ilyj
-心勁	gsfy
+心勁	gkfy
 北周	qihg
 茶缸	srqy
 劃拉	xgal
@@ -48255,7 +48255,7 @@
 電話簿	cuwi
 公派	ukin
 繳槍	pdfr
-昧心	jsgs
+昧心	jsgk
 市花	lrse
 向學	rshz
 賒銷	mrdk
@@ -48322,7 +48322,7 @@
 孑遺	kfok
 情殺	pgzf
 劇終	kepe
-掏心	ahgs
+掏心	ahgk
 斥駡	nloo
 鋼纜	dcpb
 勸學	sohz
@@ -48425,7 +48425,7 @@
 套購	ttms
 哀慟	lwpz
 碑亭	unla
-慧心	wwgs
+慧心	wwgk
 絞索	pldp
 口形	osfs
 披麻戴孝	aydg
@@ -48488,7 +48488,7 @@
 如箭在弦	lwsn
 試映	uyjc
 孀居	lcbb
-田賽	nohs
+田賽	nxhs
 雅意	zclj
 報務	gqzw
 慚色	prpa
@@ -48954,7 +48954,7 @@
 水碓	vuuc
 海明威	ijyf
 渦旋	ifiw
-尚須	kddu
+尚須	krdu
 滑脱	ivhq
 油類	ipkx
 漏出	ibxx
@@ -49100,7 +49100,7 @@
 恨恨	psps
 惟其	pcxi
 尼采	bivf
-心電	gscp
+心電	gkcp
 以資	elyn
 以供	eles
 煤車	msrq
@@ -49305,7 +49305,7 @@
 血滴	wzil
 微秒	vfvk
 物事	thjo
-我心	wags
+我心	wagk
 御前	vwqh
 射手座	ccyr
 簡碼	wruj
@@ -50085,7 +50085,7 @@
 宴飲	hjqn
 古畫	buxg
 囚室	drhh
-田畝	noln
+田畝	nxln
 拼爭	aqvx
 一言以蔽之	fued
 走形	ryfs
@@ -50500,7 +50500,7 @@
 慈姑	qulb
 耳尖	tekt
 官癮	hbyz
-歸田	gtno
+歸田	gtnx
 家學	hehz
 孔眼	kems
 通條	btec
@@ -50541,7 +50541,7 @@
 勁歌	fyao
 門斗	rmyd
 撒酒瘋	aiye
-燒心	mggs
+燒心	mggk
 生理鹽水	embv
 司庫	vfyr
 癰疽	yyym
@@ -50589,7 +50589,7 @@
 誠聘	uytp
 雌花	tise
 滴管	ilwh
-凡心	qlgs
+凡心	qlgk
 掛軸	agrp
 耗散	wush
 金盆洗手	duic
@@ -50887,7 +50887,7 @@
 水清無魚	viwt
 游泳衣	iilw
 滑下	ivbk
-尚屬	kdbv
+尚屬	krbv
 消炎藥	imsd
 少數人	kore
 濫殺無辜	izwb
@@ -51024,7 +51024,7 @@
 愣頭青	pfgh
 性命攸關	prer
 驚起	shra
-心法	gsig
+心法	gkig
 以待	elvg
 類目	kxmv
 粗線	kmpd
@@ -51945,12 +51945,12 @@
 接警	alsh
 主産	lmlw
 過猛	fdxk
-心間	gsrj
+心間	gkrj
 直逼	dmfo
 槪念化	frei
 進項	cdyu
 良將	lswh
-油氣田	iwno
+油氣田	iwnx
 抗聯	altu
 省轄市	krlr
 生長點	etvj
@@ -51998,7 +51998,7 @@
 物外	thuj
 如此説來	ltue
 鄉野	nwnz
-手掌心	ckgs
+手掌心	ckgk
 應接	yeal
 髮式	tsyy
 出閣	xxre
@@ -52873,7 +52873,7 @@
 恨意	pslj
 屁眼	bims
 盡失	xfwd
-心如	gslo
+心如	gklo
 煤質	msnn
 燒鵝	mgwa
 迷藥	kdsd
@@ -53459,7 +53459,7 @@
 慢慢吞吞	ppff
 怕熱	pdgu
 發臭	bnmx
-心結	gspg
+心結	gkpg
 糟了	kskc
 應是	yejf
 應負	yepm
@@ -53553,7 +53553,7 @@
 大隊長	tztm
 大湖	tjib
 克服困難	bhds
-古田	buno
+古田	bunx
 大型企業	tfrp
 大富翁	thuk
 有利條件	svee
@@ -53617,7 +53617,7 @@
 清河	igia
 小嘴	kfot
 小鴨	kfnp
-尚在	kdsc
+尚在	krsc
 濃茶	icsr
 深表	ipgw
 濃濃	icic
@@ -53760,7 +53760,7 @@
 不依	ivel
 煤油燈	mimb
 綠色食品	ppqo
-得人心	vrgs
+得人心	vrgk
 皇城	dmgy
 帳子	rtkv
 供稿	esvl
@@ -53852,7 +53852,7 @@
 新交	lflu
 親家公	lhuk
 印子	ifkv
-河心	iags
+河心	iagk
 福壽	sfgv
 和衣	volw
 急行軍	pvpr
@@ -54039,7 +54039,7 @@
 莧菜	smsv
 禮拜日	scjk
 小巴	kfaj
-心硬	gsuf
+心硬	gkuf
 清寂	ighk
 收監	xebw
 陰晦	zrjw
@@ -54098,7 +54098,7 @@
 白食	dsql
 猝發	xlbn
 動兵	znnf
-堵心	gggs
+堵心	gggk
 機變	fuup
 老樣子	gfkv
 錨鏈	dsdr
@@ -54493,7 +54493,7 @@
 餐費	junu
 睡房	meqi
 紫陽	tizj
-此心	tigs
+此心	tigk
 此道	tiqm
 眩光	mlkp
 洪波	isiw
@@ -54537,7 +54537,7 @@
 旱澇	jnim
 是呀	jfoz
 師恩	gfdt
-蟲豸	vvqm
+蟲豸	vvqs
 時光荏苒	jkss
 最小值	jked
 日商	jklq
@@ -54646,7 +54646,7 @@
 情緒化	ppei
 驚爲天人	svfr
 儘可	exao
-心生	gsei
+心生	gkei
 煤廠	msyk
 燒錄	mgdr
 糊狀	kbwx
@@ -54701,7 +54701,7 @@
 錯殺	dszf
 怨婦	uvlx
 勾股	hkhq
-色心	pags
+色心	pagk
 烏龍球	plmf
 鍼砭時弊	dujq
 鰥寡	tzhu
@@ -55103,7 +55103,7 @@
 眉端	bmlj
 眉目如畫	bmlx
 已過	aofd
-心灰	gssm
+心灰	gksm
 迷瞪	kdmb
 炸窩	mwhf
 寧波市	hilr
@@ -55147,7 +55147,7 @@
 約克	phbt
 紅籌股	pwhq
 畢節	jsqe
-莊田	swno
+莊田	swnx
 施瓦辛格	iulf
 庫恩	yrdt
 高過	lvfd
@@ -55404,7 +55404,7 @@
 車廠	rqyk
 黑眼圈	vmdq
 連城	rdgy
-連心	rdgs
+連心	rdgk
 國家利益	dhvq
 較深	rlip
 迪士尼	pgbi
@@ -55555,7 +55555,7 @@
 答言	wrui
 猴王	xeme
 副科	fovy
-心語	gsuf
+心語	gkuf
 偷摸	eras
 小女	kflc
 主戰	lmoo
@@ -55579,7 +55579,7 @@
 節能燈	qkmb
 兔崽子	pjkv
 中和	ocvo
-田賦	nomf
+田賦	nxmf
 鬧鬨	rlrs
 笑紋	wcpx
 豬狗	egxh
@@ -55629,7 +55629,7 @@
 策源地	wigs
 微觀世界	vsgn
 斜拉橋	rafc
-犁田	vxno
+犁田	vxnx
 擂主	aclm
 政教	ftgk
 易爆	jhmj
@@ -55790,7 +55790,7 @@
 指畫	aixg
 拜服	cfhx
 垜口	gros
-橫心	fsgs
+橫心	fsgk
 孝悌	gkpq
 貶官	mwhb
 唱詩班	oumq
@@ -56127,7 +56127,7 @@
 一頓飯	faqn
 一罐	fkqs
 一管	fkwh
-下田	bkno
+下田	bknx
 下探	bkap
 焉得	ftvj
 不瞞	ivms
@@ -56306,7 +56306,7 @@
 收效甚微	xlxv
 買官	zmhb
 慣匪	prkw
-心死	gsfu
+心死	gkfu
 驚夢	shsz
 驚聞	shrt
 盡享	xflk
@@ -56373,7 +56373,7 @@
 留日	injk
 急診科	puvy
 摸排	asaw
-瓜田	vsno
+瓜田	vsnx
 排布	awsr
 技壓群雄	akxs
 揮霍一空	acfh
@@ -57000,7 +57000,7 @@
 太緊	tlbb
 肚腩	hghd
 勝不驕	hijc
-愛國心	vdgs
+愛國心	vdgk
 服裝店	hwyj
 脱衣服	hlhx
 二日	yrjk
@@ -57021,12 +57021,12 @@
 弄濕	msij
 致傷	heew
 互幫互助	fgfm
-天心	ftgs
+天心	ftgk
 不大可能	itak
 天龍八部	flul
 青青	ghgh
 靚妹	ghls
-於心	irgs
+於心	irgk
 五天	fjft
 王晶	mejj
 一閃	fkrr
@@ -57367,7 +57367,7 @@
 草墊	sjgq
 打拐	aaao
 防地	zigs
-鐵心	ddgs
+鐵心	ddgk
 下任	bkee
 懸索橋	mdfc
 兵災	nfym
@@ -57648,7 +57648,7 @@
 目迷五色	mkfp
 菡萏	svsp
 其解	xipt
-菜田	svno
+菜田	svnx
 七喜	akpo
 牙祭	zphs
 斯洛文尼亞	xixf
@@ -57834,7 +57834,7 @@
 漸入	irvm
 油藏	ipsy
 没理	iqmn
-尚早	kdja
+尚早	krja
 滑軌	ivrw
 泥灰	ibsm
 汽輪	iwrr
@@ -57896,7 +57896,7 @@
 國字	dyhk
 國母	dyru
 回防	dozi
-田邊	nomh
+田邊	nxmh
 連號	rdou
 邊距	mhbk
 連讀	rdug
@@ -59120,7 +59120,7 @@
 歌訣	aoub
 共居	subb
 謄清	hqig
-田坎	nogn
+田坎	nxgn
 馳譽	jshu
 粗啞	kmof
 金器	dnoo
@@ -59218,7 +59218,7 @@
 散工	shyx
 生恐	eiyq
 聲符	gbwe
-懸心	mkgs
+懸心	mkgk
 芫荽	sfsv
 專名	rauo
 蜂腰	vehc
@@ -59556,7 +59556,7 @@
 屢建奇功	bxty
 慣壞	prgl
 以對	elpu
-心涼	gsil
+心涼	gkil
 以作	elew
 粗言	kmui
 精熟	kglk
@@ -60141,12 +60141,12 @@
 已獲	aoxs
 已死	aofu
 尼亞	bifk
-心高	gslv
+心高	gklv
 慶陽	yvzj
 精蟲	kgvv
 精減	kgiy
 爆頭	mjfo
-燈心	mbgs
+燈心	mbgk
 摩羯	ycuj
 數秒	odvk
 米芾	kssf
@@ -61089,7 +61089,7 @@
 罩上	zjkg
 罩着	zjum
 加菜	wosv
-田漢	nois
+田漢	nxis
 思歸	nggt
 連手	rdcj
 軟線	rnpd
@@ -61113,7 +61113,7 @@
 迅急	vdpx
 以不變應萬變	eiuu
 避雷	bocn
-心貼心	gmgs
+心貼心	gmgk
 屢有	bosh
 發痛	bnyb
 買飯	zmqn
@@ -61194,7 +61194,7 @@
 手誤	cjuo
 拼勁	aqfy
 接進	alcd
-摘心	algs
+摘心	algk
 接棒	alfe
 摘得	alvj
 撞翻	alwk
@@ -61642,7 +61642,7 @@
 軍魂	pryk
 宅男	hwnw
 宅女	hwlc
-穿心	hzgs
+穿心	hzgk
 它對	hipu
 它將	hiwh
 神鵰	sphg
@@ -62191,7 +62191,7 @@
 瞞哄	msos
 鬆氣	tfwk
 坐守	rrha
-薄田	sino
+薄田	sinx
 抽成	apyv
 錘打	deaa
 交戰國	lody
@@ -62283,7 +62283,7 @@
 溜之乎也	idws
 貧病交迫	uyld
 承做	vveb
-湖田	ibno
+湖田	ibnx
 亮底	lqyi
 産褥期	lnxh
 不得已而爲之	ivad
@@ -62344,7 +62344,7 @@
 碗裏	uhln
 盛名難副	yusf
 原在	kdsc
-原田	kdno
+原田	kdnx
 原屬	kdbv
 奇山	taje
 故曰	bejw
@@ -62540,7 +62540,7 @@
 皺緊	hxbb
 煞費	pxnu
 鈴鼓	drpd
-錐心	dcgs
+錐心	dcgk
 欠繳	nvpd
 欠扁	nvql
 久矣	plkq
@@ -62730,7 +62730,7 @@
 腐生	yeei
 文翰	xndj
 反切	nbad
-初心	ndgs
+初心	ndgk
 包菜	hasv
 特斯拉	txal
 不食人間煙火	iqrm
@@ -63024,7 +63024,7 @@
 慢熱	pjgu
 書聖	xgto
 快線	pbpd
-心下	gsbk
+心下	gkbk
 炒蛋	mkvt
 應給	yepr
 廟號	ydou
@@ -63618,7 +63618,7 @@
 疏狂	vtxm
 蛀蝕	vlqv
 遏阻	jhzm
-隔心	zfgs
+隔心	zfgk
 金錠	dndh
 收文	xexn
 下賬	bkmt
@@ -63827,9 +63827,9 @@
 尾房	bxqi
 買成	zmyv
 飛霜	eocf
-心鎖	gsdk
+心鎖	gkdk
 以誠待人	euvr
-心冷	gsyr
+心冷	gkyr
 燒麥	mgee
 精耕	kgwu
 燃耗	mhwu
@@ -64032,7 +64032,7 @@
 黃碟	syug
 藝能	sgkh
 藝品	sgoo
-蒙田	spno
+蒙田	spnx
 蒙特	sptg
 薛定諤	shuo
 勞方	mmir
@@ -64586,7 +64586,7 @@
 好成績	lypg
 那才	vajw
 那類	vakx
-女人心	lrgs
+女人心	lrgk
 他就	eslk
 仁者	eygj
 你呀	epoz
@@ -64619,7 +64619,7 @@
 世界貿易組織	gnip
 總的	prdh
 年中	waoc
-氣田	wkno
+氣田	wknx
 擁軍優屬	apeb
 登記表	bugw
 千户	zoqk
@@ -64651,7 +64651,7 @@
 輕看	rfcm
 眼快	mspb
 豬頭肉	efcr
-可心	aogs
+可心	aogk
 血防	wzzi
 竹槓	wofy
 盜印	inif
@@ -64727,7 +64727,7 @@
 花磚	seur
 節略	qene
 失密	wdhg
-糟心	ksgs
+糟心	ksgk
 飛瀉	eoih
 工價	yxec
 護養	usqd
@@ -64926,7 +64926,7 @@
 口拙	osax
 吊臂	orbo
 轟雷	rrcn
-輕心	rfgs
+輕心	rfgk
 黔驢之技	vjda
 甲種	nfvz
 思舊	ngsc
@@ -64954,7 +64954,7 @@
 改辦	aelw
 以售其奸	ecxl
 以饗讀者	enug
-心藥	gssd
+心藥	gksd
 尺骨	blvj
 鑿穿	pqhz
 炒至	mkhc
@@ -65014,7 +65014,7 @@
 機尾	fubx
 栅格	fhfe
 樓體	fovc
-枕心	fpgs
+枕心	fpgk
 夢蝶	szvg
 木棚	fifh
 橋邊	fcmh
@@ -65042,7 +65042,7 @@
 闊達	rigu
 冰棱	yvfg
 意動	ljzn
-問心	rogs
+問心	rogk
 門兒清	rhig
 盜車	inrq
 親傳	lfer
@@ -65422,7 +65422,7 @@
 怪了	pbkc
 導覽	qmbw
 刷機	brfu
-心照	gsjd
+心照	gkjd
 燒包	mgha
 烤魚	mgty
 精武	kgfy
@@ -65600,7 +65600,7 @@
 削皮	khwu
 濤聲依舊	iges
 洗潔精	iikg
-没心	iqgs
+没心	iqgk
 學弟	hzqn
 學文	hzxn
 泊頭	idfo
@@ -66283,7 +66283,7 @@
 民主派	alin
 精典	kgcs
 斷過	uufd
-焰心	mpgs
+焰心	mpgk
 粉線	kupd
 爐頂	mkau
 糧袋	kjey
@@ -66291,7 +66291,7 @@
 容不下	hibk
 寓公	hvuk
 禮品券	soqd
-官田	hbno
+官田	hbnx
 補西牆	ncwg
 鱗波	tkiw
 龜山	wgje
@@ -66635,7 +66635,7 @@
 已給	aopr
 發號	bnou
 恨得	psvj
-心腦	gshy
+心腦	gkhy
 燃料油	mkip
 米奇	ksta
 寬甸	hshn
@@ -66983,7 +66983,7 @@
 時薪	jgsl
 時輪	jgrr
 時計	jgud
-日心	jkgs
+日心	jkgk
 電暖	cpjv
 昭顯	jdju
 堅信不疑	beii
@@ -67007,7 +67007,7 @@
 情牽	pglu
 收訂	xeua
 快譯	pbuz
-心脾	gshn
+心脾	gkhn
 燒出	mgxx
 糞青	kngh
 烤出	mgxx
@@ -67234,7 +67234,7 @@
 尖石	ktut
 水渦	vuif
 洗澡間	iirj
-尚志	kdgg
+尚志	krgg
 泥瓦	ibuw
 漏接	ibal
 溝塹	isrn
@@ -67274,7 +67274,7 @@
 爆燃	mjmh
 斷石	uuut
 數米而炊	oklm
-實驗田	hjno
+實驗田	hjnx
 完戲	hfkf
 寧馨兒	hght
 富甲	hfnf
@@ -67582,7 +67582,7 @@
 進度條	cyec
 開駡	rfoo
 天正	ftft
-青田	ghno
+青田	ghnx
 五臺	fjgo
 一夢	fksz
 一關	fkru
@@ -67660,7 +67660,7 @@
 銅仁	dcey
 多厚	uukj
 鐵線	ddpd
-豬心	eggs
+豬心	eggk
 包裝袋	hwey
 鋭度	dqys
 銷售部	dclo
@@ -68269,7 +68269,7 @@
 導納	qmpc
 以意逆志	elqg
 屏門	bqrm
-心散	gssh
+心散	gksh
 盡了	xfkc
 火磚	msur
 火傷	msew
@@ -68810,7 +68810,7 @@
 盤坐	xqrr
 反扒	nbau
 竹籠	wowl
-心音	gslj
+心音	gklj
 背頭	qifo
 小量	kfjf
 應分	yeud
@@ -68976,7 +68976,7 @@
 圖新	dolf
 略談	neum
 贈物	mqth
-民田	aano
+民田	aanx
 民婦	aalx
 收賄	xems
 尿桶	bvfb
@@ -69419,7 +69419,7 @@
 頂缸	auqy
 飄雨	csco
 飄窗	cshr
-桃心	ftgs
+桃心	ftgk
 長筒	tmwc
 短毛	qfxo
 矯詔	qcud
@@ -69541,7 +69541,7 @@
 溫嶺	idjr
 小日本	kjff
 小喇叭	koou
-尚欠	kdnv
+尚欠	krnv
 光良	kpls
 洗牙	itzp
 明水	jhvu
@@ -69613,7 +69613,7 @@
 姜堰	ulgk
 美圓	utdo
 問出	roxx
-新田	lfno
+新田	lfnx
 新貨	lfei
 遵化	qcei
 閘北區	rqko
@@ -70294,7 +70294,7 @@
 浮空	ivhy
 汗味	inos
 光感	kpyf
-暖心	jvgs
+暖心	jvgk
 蝦球	vbmf
 日租	jkvm
 日資	jkyn
@@ -70381,7 +70381,7 @@
 勤力	rywl
 荔灣	swiu
 黃陵	syzg
-歐尚	kokd
+歐尚	kokr
 取款機	tgfu
 孟婆	kziw
 阿金	zadn
@@ -70799,7 +70799,7 @@
 慘跌	pkbw
 悚懼	pfpm
 晝日	xgjk
-心軸	gsrp
+心軸	gkrp
 精奇	kgta
 煙客	mche
 斷章摘句	ulah
@@ -71346,7 +71346,7 @@
 哈皮	orwu
 轉款	rrgs
 四叔	dtkk
-田亮	nolq
+田亮	nxlq
 鴨頭	npfo
 略陽	nezj
 鳳城	qfgy
@@ -71502,7 +71502,7 @@
 猛不防	xizi
 組合式	pryy
 時價	jgec
-松心	fugs
+松心	fugk
 揚劇	ajke
 在逃犯	stxv
 補編	nmpq
@@ -71659,7 +71659,7 @@
 引者	ncgj
 絳色	pepa
 棄於	lkir
-誅心	utgs
+誅心	utgk
 訂滿	uais
 率然	luhx
 惡意中傷	floe
@@ -72548,7 +72548,7 @@
 去雄	gksk
 壇友	glsb
 土牢	giht
-圩田	gfno
+圩田	gfnx
 走電	rycp
 求降	fvze
 求疵	fvyt
@@ -73057,7 +73057,7 @@
 安丘	hlnf
 祁陽	szzj
 魯山	tjje
-金田	dnno
+金田	dnnx
 龜兔賽跑	wphb
 銀英	dssc
 銘記於心	duig
@@ -73172,7 +73172,7 @@
 程序控制	vyat
 閩劇	rvke
 喚頭	opfo
-田契	nowd
+田契	nxwd
 蠅子	vgkv
 鬱郁蒼蒼	fsss
 村學	fahz
@@ -73333,7 +73333,7 @@
 確守	upha
 大筆如椽	twlf
 三差兩錯	jufd
-豐産田	jlno
+豐産田	jlnx
 萬卷書	sqxg
 有巢氏	syia
 春牛	ejtl
@@ -73410,7 +73410,7 @@
 買光	zmkp
 以意爲之	elvd
 慣盜	prin
-心象	gspo
+心象	gkpo
 燒過	mgfd
 燒焊	mgmj
 煉句	mfho
@@ -73670,7 +73670,7 @@
 大飯店	tqyj
 泰康	evyx
 孕嬰	rkmm
-胎心	hkgs
+胎心	hkgk
 肥西	hacu
 盈科	rbvy
 月線	hrpd
@@ -73695,7 +73695,7 @@
 五倍	fjel
 鄢陵	ftzg
 天圓地方	fdgi
-畫心	xggs
+畫心	xggk
 列數	fuod
 列名	fuuo
 五棵松	fffu
@@ -73721,7 +73721,7 @@
 流油	ilip
 星期幾	jxuu
 明子	jhkv
-明心	jhgs
+明心	jhgk
 臨沂市	bilr
 日服	jkhx
 崑山市	jjlr
@@ -73763,7 +73763,7 @@
 安裝盤	hwxq
 色友	pasb
 鋪裝	dmwg
-金河田	dino
+金河田	dinx
 鴛鴦浴	uciu
 金地	dngs
 金鑽	dndt
@@ -74921,7 +74921,7 @@
 開喫	rfow
 一己之力	fadw
 一笑傾城	fweg
-玉田	mlno
+玉田	mlnx
 悲催	wgej
 戰魂	ooyk
 餐紙	jupi
@@ -75216,7 +75216,7 @@
 細工	pnyx
 海蠣子	ivkv
 咕嘰	obou
-賠小心	mkgs
+賠小心	mkgk
 半中腰	qohc
 倒找	ehay
 綠蔥蔥	pssr
@@ -75368,7 +75368,7 @@
 罪囚	zwdr
 甲第	nfwn
 賀客	wohe
-田租	novm
+田租	nxvm
 罹禍	zpsf
 峻急	jkpx
 炭爐	jsmk
@@ -75400,7 +75400,7 @@
 完聚	hftb
 宮廟	hoyd
 宋遼	hftq
-宅心	hwgs
+宅心	hwgk
 案號	hlou
 家弦户誦	hnqu
 針形	ddfs
@@ -76709,7 +76709,7 @@
 樹葬	fpsf
 入保	vmeo
 垂吊	esor
-習尚	qqkd
+習尚	qqkr
 改業	aepu
 自我吹嘘	mwoo
 版權頁	wfum
@@ -76917,7 +76917,7 @@
 混元	ijfp
 泥石	ibut
 派件	inet
-河田	iano
+河田	ianx
 滋滋	iqiq
 豎屏	bbbq
 冒菜	cysv
@@ -77244,7 +77244,7 @@
 翼然	qqhx
 局騙	bvjq
 性本能	pfkh
-心盛	gsyv
+心盛	gkyv
 燒山	mgje
 糊料	kbky
 斷齒	uuwk
@@ -77520,7 +77520,7 @@
 單季稻	ovvv
 巧勁兒	yfht
 蛋青	vtgh
-畦田	ngno
+畦田	ngnx
 增調	gquh
 花池子	sikv
 邪財	zzmj
@@ -77668,7 +77668,7 @@
 大旱望雲霓	tjec
 成字	yvhk
 不外如是	iulj
-磁心	uqgs
+磁心	uqgk
 加電	wocp
 二簡	yrwr
 過彎	fdup
@@ -77792,7 +77792,7 @@
 賬齡	mtwr
 民爆	aamj
 恆基	pfxg
-心牆	gswg
+心牆	gkwg
 煙花易冷	msjy
 粉藍	kusb
 米拉	ksal
@@ -77919,7 +77919,7 @@
 發綹	bnpe
 飛歸	eogt
 以産定銷	elhd
-心物	gsth
+心物	gkth
 類次	kxyn
 精切	kgad
 燈捻	mbar
@@ -78584,7 +78584,7 @@
 晨早	jyja
 裏水	lnvu
 果粒橙	jkfb
-田東	nofj
+田東	nxfj
 軸流	rpil
 羅村	zpfa
 羅莊	zpsw
@@ -79311,7 +79311,7 @@
 攤放	asie
 打票	aacs
 爆仗	mjes
-屈心	bxgs
+屈心	bxgk
 發蔫	bnsf
 肥腴	hahh
 倡辦	ejlw
@@ -79468,7 +79468,7 @@
 濫加	ibwo
 漸而	irle
 滑墜	ivzq
-尚感	kdyf
+尚感	kryf
 漏罪	ibzw
 沁骨	igvj
 溶冰	ihyv
@@ -79545,7 +79545,7 @@
 飛撒	eoas
 恨煞	pspx
 恰像	prep
-心邪	gszz
+心邪	gkzz
 翠山	qqje
 燒陶	mgzh
 糞臭	knmx
@@ -80048,7 +80048,7 @@
 落課	siuj
 藍雪	sbcx
 藍染	sbiw
-藍心	sbgs
+藍心	sbgk
 草雉	sjqc
 藍裝	sbwg
 蘇澳	stir
@@ -80353,7 +80353,7 @@
 監區	bwko
 星痕	jeys
 歸原	gtkd
-景田	jlno
+景田	jlnx
 景程	jlvo
 順鑫	eudd
 吳哲	oean
@@ -80387,7 +80387,7 @@
 回踩	dobv
 回駡	dooo
 回郵	does
-田甜	noos
+田甜	nxos
 思迪	ngpd
 思創	ngrl
 邊間	mhrj
@@ -80431,7 +80431,7 @@
 尼莫	bisj
 翟紅新	qplf
 翠煙	qqmc
-心凌	gsyg
+心凌	gkyg
 煤泥	msib
 類圖	kxdo
 爆機	mjfu
