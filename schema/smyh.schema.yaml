@@ -107,6 +107,7 @@ division.lv1:
   option_name: division.lv1
   comment_format:
     - xform/\(([^,]*),([^,]*),([^,]*),([^,]*)\)/($1)/
+    - xform/.*\(([^()]*)\)$/($1)/
     - xlit/\{\}/\⟨\⟩/
   tags: [ abc, rev_pinyin ]
 
@@ -116,6 +117,7 @@ division.lv2:
   option_name: division.lv2
   comment_format:
     - xform/\(([^,]*),([^,]*),([^,]*),([^,]*)\)/($2)/
+    - xform/.*\(([^()]*)\)$/($1)/
   tags: [ abc, rev_pinyin ]
 
 # 讀音提示
@@ -124,6 +126,7 @@ division.lv3:
   option_name: division.lv3
   comment_format:
     - xform/\(([^,]*),([^,]*),([^,]*),([^,]*)\)/($3)/
+    - xform/.*\(([^()]*)\)$/($1)/
     - xlit/_/,/
   tags: [ abc, rev_pinyin ]
 
@@ -133,6 +136,7 @@ division.lv4:
   option_name: division.lv4
   comment_format:
     - xform/\(([^,]*),([^,]*),([^,]*),([^,]*)\)/($4)/
+    - xform/.*\(([^()]*)\)$/($1)/
   tags: [ abc, rev_pinyin ]
 
 # 部件拆分及編碼提示, 反查时顯示
