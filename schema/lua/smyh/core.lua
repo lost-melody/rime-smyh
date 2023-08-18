@@ -534,12 +534,16 @@ function core.dict_lookup(mem, code, count, comp)
         -- 根據 entry.text 聚合去重
         local res_set = {}
         for entry in mem:iter_dict() do
-            local exist = res_set[entry.text]
-            if not exist then
-                res_set[entry.text] = entry
-                table.insert(result, entry)
-            elseif #exist.comment == 0 then
-                exist.comment = entry.comment
+            -- 剩餘編碼大於一, 則不收
+            if entry.remaining_code_length <= 1 then
+                local exist = res_set[entry.text]
+                -- 候選去重, 但未完成編碼提示取有
+                if not exist then
+                    res_set[entry.text] = entry
+                    table.insert(result, entry)
+                elseif #exist.comment == 0 then
+                    exist.comment = entry.comment
+                end
             end
         end
     end
