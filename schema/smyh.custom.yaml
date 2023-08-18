@@ -208,4 +208,5 @@ patch:
   #   - simplifier@division.lv1
   #   - simplifier@division.lv2
   #   - simplifier@division.lv3
+  #   - simplifier@division.lv4
   #   - lua_filter@smyh_embeded_cands@embeded_cands

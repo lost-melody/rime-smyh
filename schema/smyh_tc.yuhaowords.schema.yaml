@@ -10,6 +10,8 @@ schema:
 speller:
   alphabet: "qwertyuiopasdfghjklzxcvbnm"
   initials: "qwertyuiopasdfghjklzxcvbnm"
+  algebra:
+    - xform/([a-z])11$/$1$1$1/
 
 translator:
   dictionary: smyh_tc.yuhaowords
