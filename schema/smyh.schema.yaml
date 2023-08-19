@@ -226,6 +226,20 @@ macros:
     - { type: switch, name: single_char, states: [ □智能, ■純單 ] }
   trad:
     - { type: switch, name: smyh_tc, states: [ □簡化字, ■傳統字 ] }
+  dist:
+    - type: eval
+      expr: >
+        return function(args)
+          return string.format("librime: [%s]", rime_api.get_rime_version())
+        end
+    - type: eval
+      expr: >
+        return function(args)
+          return string.format("distribution: [%s](%s/%s)",
+            rime_api.get_distribution_name(),
+            rime_api.get_distribution_code_name(),
+            rime_api.get_distribution_version())
+        end
 
 # 标点
 punctuator:
