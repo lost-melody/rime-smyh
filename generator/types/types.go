@@ -20,7 +20,6 @@ type CharMeta struct {
 	Full string // 字符提示码
 	Code string // 字符全码
 	Freq int64  // 字频
-	Seq  int    // 全字集字频序号
 	Sel  int    // 选重编号
 	Simp bool   // 字符简码
 	Back bool   // 是否后置

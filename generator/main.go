@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"sort"
 	"strings"
 
 	"smyh_gen/tools"
@@ -91,7 +92,10 @@ func main() {
 	// DIVISION
 	buffer.Truncate(0)
 	accessedDiv := map[string]struct{}{}
-	for _, charMeta := range charMetaList {
+	sort.Slice(fullCodeMetaList, func(i, j int) bool {
+		return fullCodeMetaList[i].Char < fullCodeMetaList[j].Char
+	})
+	for _, charMeta := range fullCodeMetaList {
 		for _, divs := range divTable[charMeta.Char] {
 			if _, ok := accessedDiv[charMeta.Char]; ok {
 				continue

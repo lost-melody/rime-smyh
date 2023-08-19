@@ -97,23 +97,7 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 		}
 	}
 
-	// 按字频编号
-	sort.SliceStable(charMetaList, func(i, j int) bool {
-		a, b := charMetaList[i], charMetaList[j]
-		return a.Freq > b.Freq ||
-			a.Freq == b.Freq && a.Char < b.Char
-	})
-	for i, charMeta := range charMetaList {
-		charMeta.Seq = i
-	}
-
-	// 按编码排序
-	sort.SliceStable(charMetaList, func(i, j int) bool {
-		a, b := charMetaList[i], charMetaList[j]
-		return a.Code < b.Code ||
-			a.Code == b.Code && a.Seq < b.Seq
-	})
-
+	sortCharMetaByCode(charMetaList)
 	return
 }
 
@@ -148,23 +132,7 @@ func BuildFullCodeMetaList(table map[string][]*types.Division, mappings map[stri
 		}
 	}
 
-	// 按字频编号
-	sort.SliceStable(charMetaList, func(i, j int) bool {
-		a, b := charMetaList[i], charMetaList[j]
-		return a.Freq > b.Freq ||
-			a.Freq == b.Freq && a.Char < b.Char
-	})
-	for i, charMeta := range charMetaList {
-		charMeta.Seq = i
-	}
-
-	// 按编码排序
-	sort.SliceStable(charMetaList, func(i, j int) bool {
-		a, b := charMetaList[i], charMetaList[j]
-		return a.Code < b.Code ||
-			a.Code == b.Code && a.Seq < b.Seq
-	})
-
+	sortCharMetaByCode(charMetaList)
 	return
 }
 
@@ -365,6 +333,31 @@ func BuildSmartPhraseList(charMetaMap map[string][]*types.CharMeta, codeCharMeta
 	})
 
 	return
+}
+
+func sortCharMetaByCode(charMetaList []*types.CharMeta) {
+	// 按编码排序
+	sort.Slice(charMetaList, func(i, j int) bool {
+		a, b := charMetaList[i], charMetaList[j]
+		if len(a.Code) < len(b.Code) {
+			// 編碼長度短者優先
+			return true
+		} else if len(a.Code) == len(b.Code) {
+			if a.Code < b.Code {
+				// 編碼長度相同, 按編碼字母序排列
+				return true
+			} else if a.Code == b.Code {
+				if a.Freq > b.Freq {
+					// 編碼相同, 字頻高者優先
+					return true
+				} else if a.Freq == b.Freq {
+					// 編碼和字頻相同, 比較 Unicode 編碼大小
+					return a.Char < b.Char
+				}
+			}
+		}
+		return false
+	})
 }
 
 func calcCodeByDiv(div []string, mappings map[string]string, freq int64) (full string, code string) {

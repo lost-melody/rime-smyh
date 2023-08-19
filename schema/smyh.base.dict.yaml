@@ -15,6 +15,38 @@ columns:
 ...
 
 可	a1	371473
+下	b1	434060
+要	c1	408050
+的	d1	3812777
+说	d2	568945
+他	e1	877391
+你	e2	695568
+一	f1	1786173
+地	g1	455629
+到	h1	580057
+不	i1	1538442
+没	i2	378467
+是	j1	1579013
+了	k1	1714620
+就	l1	561635
+现	m1	197281
+里	n1	351732
+中	o1	408284
+快	p1	95556
+道	q1	523968
+个	r1	701170
+在	s1	960458
+有	s2	918481
+大	t1	576021
+着	u1	529358
+那	v1	497166
+得	v2	371935
+我	w1	1499795
+这	x1	836733
+出	x2	430772
+头	y1	228219
+重	z1	106971
+降	z2	13825
 亥	aa1	627
 抿	aaa	1062
 敯	aab	0
@@ -809,7 +841,6 @@ columns:
 擉	azv	0
 擐	azw	4
 捓	azz	0
-下	b1	434060
 怼	bag	36
 跽	bag	4
 对	bai	293709
@@ -1318,7 +1349,6 @@ columns:
 屙	bzo	60
 蹫	bzo	0
 躅	bzv	62
-要	c1	408050
 赅	caa	46
 酊	cah	109
 射	cai	20657
@@ -1766,8 +1796,6 @@ columns:
 刚	czx	74044
 酗	czx	226
 网	czz	14402
-的	d1	3812777
-说	d2	568945
 讠	da3	2
 彡	da3	0
 该	daa	64067
@@ -2870,8 +2898,6 @@ columns:
 鐶	dzw	0
 讻	dzx	0
 鋣	dzz	0
-他	e1	877391
-你	e2	695568
 氓	eaa	2042
 侅	eaa	0
 豥	eaa	0
@@ -3711,7 +3737,6 @@ columns:
 俙	ezr	0
 儇	ezw	14
 働	ezw	0
-一	f1	1786173
 冎	fa3	0
 咼	fa3	0
 核	faa	6206
@@ -4930,7 +4955,6 @@ columns:
 檈	fzw	0
 檌	fzw	0
 鿝	fzz	0
-地	g1	455629
 垓	gaa	34
 垊	gaa	0
 圢	gah	0
@@ -5560,7 +5584,6 @@ columns:
 堽	gzt	0
 壎	gzv	0
 皾	gzw	0
-到	h1	580057
 胲	haa	4
 窃	had	2263
 宁	hah	15009
@@ -6341,8 +6364,6 @@ columns:
 臐	hzv	0
 寰	hzw	498
 匈	hzx	1399
-不	i1	1538442
-没	i2	378467
 泯	iaa	454
 沏	iad	224
 氒	iad	0
@@ -7583,7 +7604,6 @@ columns:
 澴	izw	1
 汹	izx	1944
 瀱	izx	0
-是	j1	1579013
 早	ja1	59503
 駭	jaa	152
 岷	jaa	110
@@ -8533,7 +8553,6 @@ columns:
 駁	jzz	167
 鄤	jzz	2
 峫	jzz	0
-了	k1	1714620
 厂	ka1	6639
 匚	ka3	2
 匸	ka3	0
@@ -9087,7 +9106,6 @@ columns:
 瓯	kzu	67
 勐	kzw	46
 糫	kzw	0
-就	l1	561635
 面	la1	238219
 姄	laa	0
 姟	laa	0
@@ -9859,7 +9877,6 @@ columns:
 嬛	lzw	19
 衺	lzw	0
 褱	lzw	0
-现	m1	197281
 眠	maa	4517
 珉	maa	430
 烗	maa	0
@@ -11013,7 +11030,6 @@ columns:
 爋	mzw	0
 琊	mzz	155
 覐	mzz	0
-里	n1	351732
 弓	na1	5881
 畡	naa	0
 町	nah	287
@@ -11644,7 +11660,6 @@ columns:
 襡	nzv	0
 缳	nzw	14
 彋	nzw	0
-中	o1	408284
 咳	oaa	4392
 呡	oaa	7
 咑	oaa	1
@@ -12407,7 +12422,6 @@ columns:
 噣	ozv	0
 嚑	ozv	0
 噮	ozw	0
-快	p1	95556
 怋	paa	0
 絯	paa	0
 忊	pah	0
@@ -13540,7 +13554,6 @@ columns:
 繯	pzw	5
 懁	pzw	0
 忷	pzx	0
-道	q1	523968
 叛	qab	4845
 飣	qah	0
 半	qak	57310
@@ -14011,7 +14024,6 @@ columns:
 飐	qzo	2
 餙	qzr	0
 飓	qzu	450
-个	r1	701170
 閡	raa	40
 輆	raa	0
 靪	rah	1
@@ -14755,8 +14767,6 @@ columns:
 閕	rzp	0
 轘	rzw	2
 闤	rzw	0
-在	s1	960458
-有	s2	918481
 苠	saa	0
 荄	saa	0
 菢	saa	0
@@ -16037,7 +16047,6 @@ columns:
 蘮	szx	0
 薎	szy	0
 鄸	szz	0
-大	t1	576021
 奒	taa	0
 敧	tab	5
 攲	tab	0
@@ -16963,7 +16972,6 @@ columns:
 鱞	tzw	0
 爽	tzz	6344
 铘	tzz	11
-着	u1	529358
 丂	ua3	0
 該	uaa	5154
 骇	uaa	2721
@@ -17924,8 +17932,6 @@ columns:
 驳	uzz	2184
 爺	uzz	1684
 訤	uzz	0
-那	v1	497166
-得	v2	371935
 骸	vaa	757
 彻	vad	7985
 虰	vah	0
@@ -18894,7 +18900,6 @@ columns:
 髑	vzv	5
 蠋	vzv	1
 蠉	vzw	0
-我	w1	1499795
 筢	waa	27
 氦	waa	20
 笢	waa	2
@@ -19617,8 +19622,6 @@ columns:
 卹	wzx	15
 衆	wzy	1
 笅	wzz	0
-这	x1	836733
-出	x2	430772
 阂	xaa	216
 彟	xab	11
 寻	xai	15553
@@ -20145,7 +20148,6 @@ columns:
 獯	xzv	4
 阛	xzw	1
 獧	xzw	0
-头	y1	228219
 麻	ya1	19794
 冺	yaa	0
 痎	yaa	0
@@ -20769,8 +20771,6 @@ columns:
 疨	yzp	0
 瘝	yzv	1
 癏	yzw	0
-重	z1	106971
-降	z2	13825
 陔	zaa	9
 罠	zaa	2
 陈	zak	33870
