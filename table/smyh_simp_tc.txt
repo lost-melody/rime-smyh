@@ -29,6 +29,7 @@
 授	av1
 故	be1
 下	bk1
+通	bt1
 十	di1
 之	dj1
 真	dm1
@@ -52,10 +53,10 @@
 胸	hh1
 宗	hs1
 没	iq1
-方	ir1
+方	is1
+於	ir1
 染	iw1
 豈	jf1
-通	bt1
 時	jg1
 事	jo1
 三	js1
@@ -68,6 +69,7 @@
 燈	mb1
 質	nn1
 吧	oa1
+呢	ob1
 品	oo1
 哦	ow1
 終	pe1
@@ -84,6 +86,7 @@
 散	sh1
 也	so1
 些	ti1
+認	ud1
 説	uq1
 委	vl1
 稱	vv1
@@ -126,5 +129,7 @@
 重	znt
 ·	jj1
 　	kz1
+〔	lj1
 ！	tt1
 ？	ww1
+〕	lj2

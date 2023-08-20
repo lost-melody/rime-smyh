@@ -1007,7 +1007,7 @@ columns:
 蹞	bim	0
 蹓	bin	70
 踎	bio	0
-趽	bir	0
+趽	bis	0
 又	bj1	150437
 コ	bj3	0
 ス	bj3	0
@@ -1497,7 +1497,7 @@ columns:
 霑	cio	140
 霘	cio	0
 霈	cir	35
-雱	cir	0
+雱	cis	0
 霃	cit	0
 靋	cit	0
 霟	ciu	0
@@ -2117,8 +2117,8 @@ columns:
 銽	dio	0
 鸄	dip	0
 鏃	diq	0
-访	dir	70
-鈁	dir	0
+访	dis	70
+鈁	dis	0
 鍦	dis	0
 旣	dit	16056
 兜	dit	1181
@@ -3215,7 +3215,7 @@ columns:
 傾	eim	9495
 飀	ein	0
 俖	eio	0
-仿	eir	3707
+仿	eis	3707
 儗	eit	0
 伓	eiv	0
 仰	eix	10428
@@ -4116,7 +4116,7 @@ columns:
 桮	fio	0
 桰	fio	0
 檹	fio	0
-枋	fir	35
+枋	fis	35
 椸	fis	0
 槇	fiu	0
 杯	fiv	17756
@@ -5209,7 +5209,7 @@ columns:
 坻	gil	0
 塯	gin	0
 耈	gio	0
-坊	gir	3048
+坊	gis	3048
 塡	giu	0
 坏	giv	263
 耄	gix	0
@@ -5886,7 +5886,7 @@ columns:
 胝	hil	104
 窽	hin	0
 脴	hio	0
-肪	hir	2455
+肪	his	2455
 寲	hit	0
 肧	hiv	0
 脳	hix	0
@@ -6786,7 +6786,7 @@ columns:
 泜	iil	0
 溜	iin	5676
 鶛	iip	0
-汸	iir	0
+汸	iis	0
 湤	iis	0
 漩	iit	1161
 勓	iiw	0
@@ -7207,8 +7207,7 @@ columns:
 溢	iqz	2446
 沨	iqz	1
 盕	iqz	0
-方	ir1	221183
-方	ir1	100
+於	ir1	193169
 漙	ira	0
 泠	irb	177
 溆	irb	0
@@ -7266,9 +7265,11 @@ columns:
 渝	irx	809
 潣	irx	0
 瀭	irx	0
-於	iry	193169
+於	iry	100
 漌	iry	0
 溋	irz	0
+方	is1	221183
+方	is1	100
 ッ	is3	0
 氵	is3	0
 港	isa	29522
@@ -7976,9 +7977,9 @@ columns:
 騮	jin	0
 鹍	jin	0
 鵾	jip	0
-昉	jir	0
-昘	jir	0
 崺	jis	0
+昉	jis	0
+昘	jis	0
 暆	jis	0
 嶷	jit	1
 暶	jit	0
@@ -9372,7 +9373,7 @@ columns:
 婚	lij	19987
 媹	lin	0
 娝	lio	0
-妨	lir	5396
+妨	lis	5396
 嫙	lit	0
 妚	liv	0
 裦	liw	0
@@ -10259,8 +10260,8 @@ columns:
 貾	mil	0
 熘	min	0
 瑠	min	0
-旉	mir	0
-眆	mir	0
+旉	mis	0
+眆	mis	0
 璇	mit	87
 环	miv	158
 炋	miv	0
@@ -11302,7 +11303,7 @@ columns:
 毘	nii	0
 弤	nil	0
 袛	nil	0
-纺	nir	5
+纺	nis	5
 彃	nja	0
 襅	nja	0
 魓	nja	0
@@ -11722,6 +11723,7 @@ columns:
 哓	oap	1
 噀	oau	0
 吨	oax	10
+呢	ob1	58022
 啜	obb	996
 啹	obb	0
 嘱	obc	26
@@ -11729,7 +11731,7 @@ columns:
 哤	obd	0
 嗓	obf	2349
 喔	obh	657
-呢	obi	58022
+呢	obi	100
 叹	obj	222
 吓	obk	167
 呎	obl	454
@@ -12839,8 +12841,8 @@ columns:
 緍	pij	0
 怟	pil	0
 鶭	pip	0
-紡	pir	3006
-鲂	pir	0
+紡	pis	3006
+鲂	pis	0
 懝	pit	0
 縼	pit	0
 愼	piu	0
@@ -13742,8 +13744,8 @@ columns:
 背	qih	36388
 豼	qii	0
 餾	qin	70
-房	qir	71061
 軰	qir	0
+房	qis	71061
 冀	qiu	589
 邶	qiz	35
 鄁	qiz	0
@@ -14330,7 +14332,7 @@ columns:
 軧	ril	0
 鬬	rin	0
 闊	rio	7567
-閍	rir	0
+閍	ris	0
 閯	riw	0
 閼	riy	0
 革	rj1	20083
@@ -15308,8 +15310,8 @@ columns:
 萍	siq	1159
 莈	siq	0
 蔟	siq	0
-芳	sir	4853
-祊	sir	0
+芳	sis	4853
+祊	sis	0
 葹	sis	0
 蒗	sis	0
 蓱	sis	0
@@ -16436,12 +16438,12 @@ columns:
 鴜	tip	0
 镞	tiq	0
 飺	tiq	0
-髣	tir	35
-牥	tir	0
 胔	tir	0
-钫	tir	0
-魴	tir	0
+髣	tis	35
+牥	tis	0
 祡	tis	0
+钫	tis	0
+魴	tis	0
 觜	tit	0
 镟	tit	0
 鮆	tit	0
@@ -17131,6 +17133,7 @@ columns:
 页	ucv	36
 砚	ucy	7
 譨	ucy	0
+認	ud1	75716
 羏	uda	0
 贫	udc	42
 颁	udc	8
@@ -17140,9 +17143,9 @@ columns:
 譤	ude	0
 礫	udf	838
 硱	udf	0
-認	udg	75716
 忿	udg	714
 坌	udg	140
+認	udg	100
 謿	udh	0
 計	udi	79836
 兺	udi	0
@@ -17341,7 +17344,7 @@ columns:
 羨	uin	3440
 磂	uin	0
 骝	uin	0
-訪	uir	22045
+訪	uis	22045
 礙	uit	19859
 譺	uit	0
 碍	uja	42
@@ -18324,8 +18327,8 @@ columns:
 秪	vil	0
 蚳	vil	0
 骶	vil	0
-彷	vir	11041
-蚄	vir	0
+彷	vis	11041
+蚄	vis	0
 濷	viv	0
 骨	vj1	19651
 得	vja	313451
@@ -19860,7 +19863,7 @@ columns:
 舭	xii	0
 阍	xij	0
 阔	xio	41
-舫	xir	178
+舫	xis	178
 猀	xiw	0
 阏	xiy	2
 卩	xj3	0
@@ -20947,7 +20950,7 @@ columns:
 阰	zii	0
 阺	zil	0
 罶	zin	0
-防	zir	30716
+防	zis	30716
 罘	ziv	0
 阫	ziv	0
 予	zj1	6889
@@ -21213,6 +21216,7 @@ columns:
 授予	av2
 故事	be2
 下午	bk2
+通過	bt2
 十分	di2
 之後	dj2
 真的	dm2
@@ -21235,10 +21239,10 @@ columns:
 境界	gl2
 宗派	hs2
 没有	iq2
-方法	ir2
+方法	is2
+於是	ir2
 染色	iw2
 豈能	jf2
-通過	bt2
 時候	jg2
 事情	jo2
 三個	js2
@@ -21250,6 +21254,7 @@ columns:
 衣服	lw2
 質量	nn2
 吧！	oa2
+呢？	ob2
 品種	oo2
 哦！	ow2
 終於	pe2
@@ -21260,6 +21265,7 @@ columns:
 轉身	rr2
 也是	so2
 些許	ti2
+認識	ud2
 説道	uq2
 委員	vl2
 稱爲	vv2
@@ -21326,5 +21332,6 @@ columns:
 所有	qnc
 ·	jj1
 　	kz1
+〔	lj1
 ！	tt1
 ？	ww1

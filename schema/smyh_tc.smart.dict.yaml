@@ -494,7 +494,7 @@ encoder:
 丙酸	fcrcke
 丙醇	fcrclk
 丙寅	fcrhfu
-丙方	fcrir1
+丙方	fcris1
 丙烷	fcrmhp
 丙烯	fcrmzr
 丙綸	fcrprl
@@ -559,7 +559,7 @@ encoder:
 逗號	fodouk
 逗笑	fodwcm
 賴以	fomelr
-賴於	fomiry
+賴於	fomir1
 賴賬	fommtm
 賴着	fomumv
 賴牀	fomwfi
@@ -798,7 +798,6 @@ encoder:
 不惟	i1pci
 不餒	i1qvl
 不苟	i1sho
-不忿	i1udg
 不吝	i1xos
 昏眩	iajmlu
 昏聵	iajtom
@@ -920,7 +919,7 @@ encoder:
 瀰漫	inzijb
 油桐	ipbfco
 油漬	ipbigm
-濰坊	ipcgir
+濰坊	ipcgis
 濰柴	ipctif
 深邃	ipfhqd
 深閨	ipfrgg
@@ -928,11 +927,11 @@ encoder:
 沉渣	ipqiff
 渙散	iptsh1
 肄業	iqapuu
-方框	ir1fkm
+於鋭	ir1dqt
 汲引	irlncn
 汲取	irltbj
 汲水	irlvu1
-於鋭	irydqt
+方框	is1fkm
 灘頭	iscfom
 灘地	iscg1
 灌漑	iscidt
@@ -1628,7 +1627,7 @@ encoder:
 閨蜜	rgghgv
 閨女	rgglc1
 閨中	rggo1
-閨房	rggqir
+閨房	rggqis
 閨怨	rgguvg
 閨秀	rggvrn
 合璧	rh1bol
@@ -1648,7 +1647,7 @@ encoder:
 倉鼠	rlohbk
 倉卒	rlolrd
 倉惶	rlopdm
-倉房	rloqir
+倉房	rloqis
 含蓄	rlosln
 倉猝	rloxld
 倉廩	rloylv
@@ -1898,8 +1897,6 @@ encoder:
 礄口	ucoos1
 碘鹽	ucubwz
 硒鼓	ucupdb
-忿然	udghxm
-忿忿	udgudg
 分叉	udkbll
 分櫱	udkxgf
 頒授	udmav1
@@ -2301,9 +2298,9 @@ encoder:
 陳倉	zfjrlo
 殺戮	zfqqqy
 陶喆	zhqgoo
-防澇	zirimw
-防汛	zirivd
-防曬	zirjfy
+防澇	zisimw
+防汛	zisivd
+防曬	zisjfy
 陽傘	zjdrrd
 隴西	zljcu1
 隴南	zljdcd

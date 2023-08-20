@@ -96,9 +96,9 @@ Ig	{乐上}
 Ig	卯
 Ig	{卯左}
 Ig	{齊右}
-Ir	方
 Is	{兴上}
 Is	⺍
+Is	方
 Is	氵
 Iv	不
 Ja	早

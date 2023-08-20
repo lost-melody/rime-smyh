@@ -41,9 +41,9 @@
 幾乎	uuwq
 兒子	htkv
 願意	kdlj
-地方	gsir
+地方	gsis
 明天	jhft
-對方	puir
+對方	puis
 昨天	jwft
 協議	dwuu
 男人	nwre
@@ -73,7 +73,7 @@
 根本	fsff
 目前	mvqh
 當然	knhx
-方法	irig
+方法	isig
 困難	dfsf
 覺得	hzvj
 母親	rulf
@@ -213,7 +213,7 @@
 别人	owre
 結束	pgfo
 並且	qpmf
-方向	irrs
+方向	isrs
 分别	udow
 肯定	thhf
 目標	mvfc
@@ -335,7 +335,7 @@
 就是	lkjf
 北京	qilk
 歷史	kvoz
-方面	irla
+方面	isla
 學生	hzei
 只有	oush
 進行	cdvj
@@ -366,7 +366,7 @@
 你們	eper
 家庭	heye
 介紹	rupd
-方式	iryy
+方式	isyy
 計劃	udxg
 爲什麽	veyw
 隨着	zsum
@@ -472,7 +472,7 @@
 夫人	dure
 加快	wopb
 中間	ocrj
-方便	iref
+方便	isef
 應用	yetn
 徹底	vlyi
 美麗	utfc
@@ -535,7 +535,7 @@
 難道	sfqm
 其次	xiyn
 人群	rexw
-南方	dcir
+南方	dcis
 畢竟	jslj
 恐怖	yqps
 具備	mues
@@ -641,7 +641,7 @@
 驚喜	shpo
 幸運	gqpr
 光芒	kpse
-遠方	goir
+遠方	gois
 火焰	msmp
 情人	pgre
 發覺	bnhz
@@ -786,7 +786,7 @@
 發揮	bnap
 專家	rahe
 理想	mnfm
-雙方	ccir
+雙方	ccis
 恢復	psvw
 工業	yxpu
 音樂	ljdu
@@ -869,7 +869,7 @@
 報紙	gqpi
 顯示	juss
 馬上	jrkg
-西方	cuir
+西方	cuis
 商業	lqpu
 打開	aarf
 特色	tgpa
@@ -1195,7 +1195,7 @@
 脆弱	hpny
 因地制宜	dgth
 天真	ftdm
-方纔	irpp
+方纔	ispp
 旋轉	iwrr
 骨頭	vjfo
 蒼白	srds
@@ -1422,7 +1422,7 @@
 製造	tcto
 創新	rllf
 得了	vjkc
-方案	irhl
+方案	ishl
 成就	yvlk
 增強	gqnk
 因而	dtle
@@ -1499,7 +1499,7 @@
 效率	lulu
 防止	zith
 貧困	uddf
-北方	qiir
+北方	qiis
 失敗	wdme
 對待	puvg
 就業	lkpu
@@ -1539,7 +1539,7 @@
 種子	vzkv
 進攻	cdye
 取消	tbik
-東方	fjir
+東方	fjis
 地面	gsla
 戰勝	oohq
 大批	tjai
@@ -2814,7 +2814,7 @@
 豆腐	foye
 高手	lvcj
 高明	lvjh
-四方	dtir
+四方	dtis
 古怪	bupb
 當真	kndm
 逃走	tyry
@@ -2844,7 +2844,7 @@
 乾燥	djmo
 嘲笑	odwc
 精華	kgsn
-方言	irui
+方言	isui
 筆記	wxua
 同伴	cfeq
 風雲	ekcy
@@ -2899,7 +2899,7 @@
 下落	bksi
 軟弱	rnny
 露天	cbft
-大方	tjir
+大方	tjis
 蠟燭	vymz
 地表	gsgw
 盡頭	xffo
@@ -3224,7 +3224,7 @@
 完善	hfuq
 逐步	edtk
 之外	djuj
-方針	irdd
+方針	isdd
 依法	elig
 國外	dyuj
 小組	kfpm
@@ -3707,7 +3707,7 @@
 一旁	fklq
 對照	pujd
 哪怕	ovpd
-官方	hbir
+官方	hbis
 容量	hrjf
 利息	vxmg
 浪漫	ilij
@@ -3889,7 +3889,7 @@
 觀賞	sokm
 發病	bnyf
 誇張	utnt
-前方	qhir
+前方	qhis
 飢餓	qqqw
 僞造	evto
 足跡	bnbj
@@ -4038,7 +4038,7 @@
 閃閃	rrrr
 氧氣	wuwk
 見義勇爲	mubv
-後方	vuir
+後方	vuis
 憑證	yjub
 葫蘆	sbsk
 追蹤	gdbv
@@ -4279,7 +4279,7 @@
 香蕉	vjsc
 復仇	vwew
 偏離	eqxx
-比方	iiir
+比方	iiis
 倔強	ebnk
 慣性	prpe
 胡鬧	bhrl
@@ -5385,7 +5385,7 @@
 田間	nxrj
 剝奪	rvtc
 再三	mcjs
-平方	nqir
+平方	nqis
 銜接	vdal
 密集	hgcf
 繁華	wrsn
@@ -5632,7 +5632,7 @@
 野蠻	nzup
 郵局	esbv
 猖獗	xjxk
-立方	luir
+立方	luis
 城牆	gywg
 冷淡	yrim
 成敗	yvme
@@ -5735,7 +5735,7 @@
 歐美	kout
 通風	btek
 藥材	sdfj
-方程	irvo
+方程	isvo
 講臺	usgo
 恐龍	yqlh
 雕刻	hgax
@@ -5924,7 +5924,7 @@
 沉悶	iprg
 遲早	bvja
 與衆不同	hwic
-方位	irel
+方位	isel
 口腔	oshh
 扁擔	qlap
 齊心協力	lgdw
@@ -7136,7 +7136,7 @@
 電燈	cpmb
 撥款	abgs
 鉅額	dkhe
-多方	uuir
+多方	uuis
 門票	rmcs
 遺留	okin
 騎兵	jtnf
@@ -7942,7 +7942,7 @@
 雜亂	lrvb
 博大精深	dtki
 酋長	qctm
-配方	cair
+配方	cais
 褐色	njpa
 理髮	mnts
 灌木	isfi
@@ -8051,7 +8051,7 @@
 穿插	hzaz
 損耗	aowu
 興盛	hcyv
-女方	lcir
+女方	lcis
 糊里糊塗	knki
 命脉	rxhl
 附帶	zesf
@@ -9908,7 +9908,7 @@
 恭維	supc
 相約	fmph
 假説	ebuq
-上方	kgir
+上方	kgis
 彙總	rppr
 少婦	kwlx
 着落	umsi
@@ -10090,7 +10090,7 @@
 逃犯	tyxv
 久違	pljd
 眷戀	qdup
-下方	bkir
+下方	bkis
 幫手	ggcj
 大人物	trth
 外力	ujwl
@@ -13465,7 +13465,7 @@
 最多	jtuu
 最新	jtlf
 中南海	odiw
-中方	ocir
+中方	ocis
 哭聲	oogb
 踏踏實實	bbhh
 别提	owaj
@@ -13670,7 +13670,7 @@
 落户	siqk
 回升	dows
 參謀長	kutm
-方略	irne
+方略	isne
 國務卿	dzix
 此地	tigs
 第一線	wfpd
@@ -14164,7 +14164,7 @@
 迴盪	doij
 遊擊	iwrx
 得手	vjcj
-方圓	irdo
+方圓	isdo
 無望	wseh
 悼念	pjrl
 保護傘	eurr
@@ -14443,7 +14443,7 @@
 爭鬥	vxri
 自首	mcqm
 紛繁	puwr
-藥方	sdir
+藥方	sdis
 主機	lmfu
 阻攔	zmar
 開銷	rfdk
@@ -14922,7 +14922,7 @@
 口紅	ospy
 廉潔奉公	yieu
 直角	dmpt
-男方	nwir
+男方	nwis
 掌權	kcfs
 木偶	fiev
 替補	ddnm
@@ -15650,7 +15650,7 @@
 在理	scmn
 宗派	hsin
 讀音	uglj
-方塊	irgn
+方塊	isgn
 牛皮癬	twyt
 英靈	scco
 酌情	chpg
@@ -16720,7 +16720,7 @@
 聲譽	gbhu
 物力	thwl
 界定	nrhf
-處方	keir
+處方	keis
 被捕	nwam
 水量	vujf
 文壇	xngl
@@ -18101,7 +18101,7 @@
 逛街	xmvg
 排解	awpt
 賜予	mjzj
-方寸	irai
+方寸	isai
 開場白	rgds
 氣喘	wkoj
 生養	eiqd
@@ -18206,12 +18206,12 @@
 跑馬	bhjr
 手提包	caha
 拙劣	axkw
-單方	ooir
+單方	oois
 賀喜	wopo
 熱流	guil
 常理	krmn
 賣命	gzrx
-秘方	vgir
+秘方	vgis
 權貴	fsok
 絢爛	phmr
 長存	tmsc
@@ -18224,7 +18224,7 @@
 穿山甲	hjnf
 見長	mrtm
 狂人	xmre
-良方	lsir
+良方	lsis
 排氣	awwk
 掃墓	axsj
 養女	qdlc
@@ -18538,7 +18538,7 @@
 單身漢	ocis
 廢鐵	ybdd
 雞皮疙瘩	vwyy
-偏方	eqir
+偏方	eqis
 真跡	dmbj
 左思右想	snsf
 標槍	fcfr
@@ -18712,7 +18712,7 @@
 下馬威	bjyf
 音律	ljvx
 尊容	qchr
-方丈	irsl
+方丈	issl
 飛蛾	eovw
 寡頭	hufo
 記掛	uaag
@@ -19431,7 +19431,7 @@
 網站	pclj
 競爭力	lvwl
 整治	foik
-各方	eoir
+各方	eois
 殘疾人	fyre
 互聯網	ftpc
 院士	zhgu
@@ -19445,7 +19445,7 @@
 黨風	kvek
 造林	toff
 致力	hewl
-警方	shir
+警方	shis
 首屆	qmbg
 評議	unuu
 互利	frvx
@@ -20841,7 +20841,7 @@
 賢惠	bbrg
 相投	fmaq
 倒戈	ehys
-方舟	irxu
+方舟	isxu
 洗滌劑	iilq
 淋浴	ifiu
 聲部	gblo
@@ -21358,7 +21358,7 @@
 不可勝數	iaho
 石筍	utwh
 草芥	sjsr
-方步	irtk
+方步	istk
 豪強	lenk
 縱橫馳騁	pfjj
 到點	hxvj
@@ -21605,7 +21605,7 @@
 暗器	jloo
 待查	vgfj
 馬大哈	jtor
-妙方	lkir
+妙方	lkis
 牙牙學語	zzhu
 鴻儒	iyec
 零敲碎打	clua
@@ -21971,7 +21971,7 @@
 説起	uqra
 唐山	yxje
 唐代	yxey
-方格	irfe
+方格	isfe
 有所作爲	sqev
 盡心盡力	xgxw
 按捺不住	aaie
@@ -22102,7 +22102,7 @@
 公證	ukub
 時報	jggq
 測評	imun
-軍方	prir
+軍方	pris
 全線	rmpd
 商貿	lqim
 署名	zguo
@@ -22323,7 +22323,7 @@
 個兒	edht
 橘子	fzkv
 鑲嵌	dljs
-外方	ujir
+外方	ujis
 年貨	waei
 先驅	ttjk
 開掘	rfab
@@ -22364,7 +22364,7 @@
 外企	ujrt
 特質	tgnn
 小節	kfqe
-方桌	irjj
+方桌	isjj
 案發	hlbn
 出局	xxbv
 道家	qmhe
@@ -22801,7 +22801,7 @@
 一年到頭	fwhf
 布衣	srlw
 二話没説	yuiu
-甲方	nfir
+甲方	nfis
 切入	advm
 燒酒	mgic
 突兀	hxpw
@@ -23946,7 +23946,7 @@
 二郎腿	ylhs
 梗槪	fffd
 合而爲一	rlvf
-開方	rfir
+開方	rfis
 吭氣	olwk
 素雅	gpzc
 天鵝絨	fwpy
@@ -24150,7 +24150,7 @@
 指認	aiud
 坐臥不安	rbih
 晨昏	jyia
-方框	irfk
+方框	isfk
 毫釐	lxse
 禍水	sfvu
 莽漢	sxis
@@ -24731,7 +24731,7 @@
 伸長	eptm
 公安部	uhlo
 像素	epgp
-何方	eair
+何方	eais
 舒舒服服	rrhh
 化境	eigl
 售出	coxx
@@ -25126,7 +25126,7 @@
 良久	lspl
 牽制	lutc
 掩映	atjc
-買方	zmir
+買方	zmis
 注目	ilmv
 盟友	jhsb
 撥通	abbt
@@ -25158,7 +25158,7 @@
 瞎説	mhuq
 惱火	pyms
 服刑	hxfs
-方正	irft
+方正	isft
 浩然	ithx
 興味	hcos
 抑或	aiyo
@@ -25420,7 +25420,7 @@
 行裝	vjwg
 菸灰	sism
 史前	ozqh
-土方	giir
+土方	giis
 乳品	vkoo
 適中	lqoc
 心慌	gkps
@@ -25451,7 +25451,7 @@
 心智	gkqo
 哪樣	ovfu
 批駁	aijz
-敵方	lqir
+敵方	lqis
 鉅著	dksg
 豈可	jfao
 特異	tgns
@@ -25604,7 +25604,7 @@
 源流	ikil
 懲辦	vflw
 底數	yiod
-有方	shir
+有方	shis
 陳腐	zfye
 殉國	fudy
 應戰	yeoo
@@ -27368,7 +27368,7 @@
 秘魯	vgtj
 悉尼	wkbi
 我軍	wapr
-我方	wair
+我方	wais
 每週	wrhg
 往回	vldo
 前排	qhaw
@@ -27436,7 +27436,7 @@
 魔女	ynlc
 放在	iesc
 説完	uqhf
-方始	irlk
+方始	islk
 天下第一	fbwf
 本來面目	felm
 己所不欲	aqiu
@@ -27954,13 +27954,13 @@
 悲愴	wgpr
 骨科	vjvy
 極致	fkhe
-塌方	gjir
+塌方	gjis
 戰局	oobv
 爭搶	vxar
 大凡	tjql
 墳頭	gdfo
 街市	vglr
-方形	irfs
+方形	isfs
 服務檯	hzfg
 桑拿	bbrc
 杉木	fdfi
@@ -28004,7 +28004,7 @@
 大動脉	tzhl
 抗禦	alvw
 思辨	nglq
-賣方	gzir
+賣方	gzis
 徒刑	vrfs
 視同	smcf
 仰面	eila
@@ -28091,7 +28091,7 @@
 洗衣粉	ilku
 藏文	syxn
 直視	dmsm
-方藥	irsd
+方藥	issd
 約請	phug
 繁茂	wrsy
 構架	fswo
@@ -30185,7 +30185,7 @@
 轉悠	rrec
 無阻	wszm
 衣冠	lwpf
-方能	irkh
+方能	iskh
 笑語	wcuf
 聲息	gbmg
 探頭	apfo
@@ -30266,7 +30266,7 @@
 歷盡	kvxf
 意蘊	ljsp
 餘糧	qrkj
-八方	usir
+八方	usis
 商檢	lqfr
 小徑	kfvf
 自嘲	mcod
@@ -31120,7 +31120,7 @@
 填詞	gduv
 英傑	sceu
 遭罪	sjzw
-方劑	irlq
+方劑	islq
 規約	dmph
 男聲	nwgb
 凝思	ying
@@ -31613,7 +31613,7 @@
 八寶粥	uhnk
 出將入相	xwvf
 反派	nbin
-方糖	irky
+方糖	isky
 複寫紙	nhpi
 乖僻	zqeb
 冷菜	yrsv
@@ -32482,7 +32482,7 @@
 作協	ewdw
 出欄	xxfr
 小金庫	kdyr
-校方	flir
+校方	flis
 貽誤	mkuo
 加價	woec
 義和團	uvdr
@@ -32703,7 +32703,7 @@
 票友	cssb
 取保	tbeo
 重整	znfo
-方隊	irzq
+方隊	iszq
 共通	subt
 截擊	dyrx
 相中	fmoc
@@ -33571,7 +33571,7 @@
 減損	iyao
 苦讀	sbug
 悶雷	rgcn
-魔方	ynir
+魔方	ynis
 頻帶	tksf
 絲絃	pppl
 增删	gqhh
@@ -33781,7 +33781,7 @@
 腮腺	hnhd
 韶華	ljsn
 單行線	ovpd
-反方	nbir
+反方	nbis
 鋼印	dcif
 回請	doug
 拉雜	allr
@@ -34021,7 +34021,7 @@
 出港	xxis
 出新	xxlf
 也曾	soqj
-院方	zhir
+院方	zhis
 陳獨秀	zxvr
 陝西省	zckw
 孤身一人	kcfr
@@ -34497,7 +34497,7 @@
 康泰	yxev
 方方正正	iiff
 廣角	yspt
-方根	irfs
+方根	isfs
 漂漂亮亮	iill
 補碼	nmuj
 餡餅	qpqq
@@ -34530,7 +34530,7 @@
 始於足下	libb
 忍辱偷生	dyee
 醫藥費	ksnu
-東西方	fcir
+東西方	fcis
 預選賽	zahs
 百萬富翁	ushu
 歷歷	kvkv
@@ -34831,7 +34831,7 @@
 辭書	vbxg
 南北朝	dqdj
 臥房	brqi
-方陣	irzr
+方陣	iszr
 單行本	ovff
 裏外	lnuj
 通篇	btwq
@@ -34938,7 +34938,7 @@
 終身制	pctc
 蕩平	sinq
 駕駛室	wjhh
-乙方	viir
+乙方	viis
 遇事	vdjo
 刺鼻	fcmn
 洋行	iuvj
@@ -35653,7 +35653,7 @@
 吉兆	goty
 題庫	jfyr
 餘味	qros
-正方	ftir
+正方	ftis
 奔命	tdrx
 橫暴	fsjs
 急性子	ppkv
@@ -36747,7 +36747,7 @@
 盲人瞎馬	ermj
 夜夜	lele
 訓練場	upgj
-方可	irao
+方可	isao
 和睦相處	vmfk
 鼓舞人心	pwrg
 長久之計	tpdu
@@ -37072,7 +37072,7 @@
 育齡	lkwr
 畫院	xgzh
 進犯	cdxv
-廠方	ykir
+廠方	ykis
 航船	xlxq
 全境	rmgl
 中高檔	olfk
@@ -37100,7 +37100,7 @@
 元宵節	fhqe
 先民	ttaa
 多姿	uuyn
-方子	irkv
+方子	iskv
 走高	rylv
 間作	rjew
 新綠	lfpr
@@ -37149,7 +37149,7 @@
 帶狀	sfwx
 尋呼	xyow
 樂壇	dugl
-複方	nwir
+複方	nwis
 詰問	ugro
 破浪	uwil
 失陷	wdzp
@@ -37526,7 +37526,7 @@
 洋爲中用	ivot
 已往	aovl
 倚仗	etes
-資方	ynir
+資方	ynis
 划艇	yxxe
 玩賞	mfkm
 永駐	lvjl
@@ -37812,7 +37812,7 @@
 詩抄	ugak
 送氣	qtwk
 隨身聽	zctm
-右方	soir
+右方	sois
 叨唸	odor
 旱田	jnnx
 歡聲雷動	sgcz
@@ -37958,7 +37958,7 @@
 算式	wmyy
 憋屈	qrbx
 摒除	abzr
-乘方	vqir
+乘方	vqis
 賭具	mgmu
 滑雪板	icfn
 馬糞	jrkn
@@ -38448,7 +38448,7 @@
 煮熟	gjlk
 十六進制	dlct
 增發	gqbn
-南北方	dqir
+南北方	dqis
 堆滿	gcis
 救命之恩	frdd
 獻計獻策	kukw
@@ -39115,7 +39115,7 @@
 難以忘懷	seep
 大蟲	tjvv
 磚牆	urwg
-非官方	whir
+非官方	whis
 有效性	slpe
 二十四史	yddo
 嘉慶	pwyv
@@ -39168,7 +39168,7 @@
 設計者	uugj
 碼表	ujgw
 領導班子	rqmk
-一方	fkir
+一方	fkis
 女孩兒	lkht
 一體化	fvei
 國家隊	dhzq
@@ -39327,7 +39327,7 @@
 著者	sggj
 不像話	ieuo
 增選	gqaa
-見方	mrir
+見方	mris
 重量級	zjpr
 枯死	fbfu
 合作化	reei
@@ -41047,7 +41047,7 @@
 閉眼	rjms
 北朝鮮	qdtu
 美腿	uths
-美方	utir
+美方	utis
 冰心	yvgk
 單于	oofj
 章則	ljmx
@@ -41187,7 +41187,7 @@
 府城	yegy
 玄奘	luwg
 諧和	uivo
-方巾	irrk
+方巾	isrk
 打擊報復	argv
 精神恍惚	kspp
 白雪皚皚	dcdd
@@ -41553,7 +41553,7 @@
 執委	gqvl
 初四	nddt
 國書	dyxg
-朔方	qxir
+朔方	qxis
 骨質	vjnn
 水城	vugy
 重讀	znug
@@ -41775,7 +41775,7 @@
 上議院	kuzh
 全責	rmgm
 算卦	wmgg
-大後方	tvir
+大後方	tvis
 假託	ebuw
 上機	kgfu
 生趣	eirt
@@ -43191,7 +43191,7 @@
 但因	ejdt
 伸向	eprs
 促膝	ebhf
-側方	emir
+側方	emis
 假面	ebla
 追肥	gdha
 似曾	eeqj
@@ -43915,7 +43915,7 @@
 輸卵管	riwh
 私仇	vkew
 補過	nmfd
-方術	irvf
+方術	isvf
 考級	gupr
 樹人	fpre
 消減	ikiy
@@ -45281,7 +45281,7 @@
 裝瘋	wgye
 裝好	wglk
 半分	qaud
-斗方	ydir
+斗方	ydis
 蓋帽	sgrc
 美展	utbs
 美醜	utcn
@@ -46300,7 +46300,7 @@
 秃鷹	vqye
 卓見	jjmr
 大年夜	twle
-方外	iruj
+方外	isuj
 滑車	ivrq
 配餐	caju
 愚忠	vgoc
@@ -46416,7 +46416,7 @@
 蓋印	sgif
 花飾	seqw
 機心	fugk
-借方	esir
+借方	esis
 妻舅	dxhn
 囚衣	drlw
 社會工作	srye
@@ -47486,7 +47486,7 @@
 文化節	xeqe
 認股	udhq
 論衡	urvp
-方成	iryv
+方成	isyv
 兩人	frre
 不知道	iqqm
 艱苦創業	ssrp
@@ -47749,7 +47749,7 @@
 太原市	tklr
 三樓	jsfo
 三人	jsre
-三方	jsir
+三方	jsis
 成人教育	yrgl
 太美	tlut
 乳腺癌	vhyo
@@ -47831,7 +47831,7 @@
 歌德	aovd
 西門子	crkv
 機關幹部	frdl
-第三方	wjir
+第三方	wjis
 管理學	wmhz
 第一名	wfuo
 每一個	wfed
@@ -47932,7 +47932,7 @@
 冰期	yvxh
 卽或	diyo
 據實	akhr
-長方	tmir
+長方	tmis
 市話	lruo
 隱私權	zvfs
 洋服	iuhx
@@ -49950,7 +49950,7 @@
 岔開	udrf
 邊緣化	mpei
 流行性	ivpe
-方士	irgu
+方士	isgu
 小老婆	kgiw
 北洋軍閥	qipr
 出迎	xxix
@@ -51271,7 +51271,7 @@
 旁側	lqem
 交感	luyf
 交上	lukg
-次方	ynir
+次方	ynis
 尊榮	qcmm
 新辦	lflw
 遵旨	qcij
@@ -53402,7 +53402,7 @@
 陪陪	zlzl
 通化	btei
 巴彦淖爾	alif
-左方	syir
+左方	syis
 大悲	tjwg
 大開殺戒	trzy
 不捨	ivar
@@ -53530,7 +53530,7 @@
 這一	udfk
 説了	uqkc
 説得	uqvj
-方差	iruy
+方差	isuy
 東城區	fgko
 七十年代	adwe
 七樓	akfo
@@ -53629,7 +53629,7 @@
 當你	knep
 早上好	jklk
 早該	jaua
-日方	jkir
+日方	jkis
 蠟筆小新	vwkl
 景天	jlft
 忠於職守	oith
@@ -53643,7 +53643,7 @@
 四分	dtud
 男童	nwln
 四庫全書	dyrx
-同方	cfir
+同方	cfis
 同濟大學	cith
 幾大	uutj
 性事	pejo
@@ -54140,7 +54140,7 @@
 幽徑	juvf
 軸距	rpbk
 帛畫	drxg
-貸方	eyir
+貸方	eyis
 橫笛	fswp
 門墩	rmgl
 孽債	sgeg
@@ -55461,7 +55461,7 @@
 很怕	vspd
 很兇	vszx
 每筆	wrwx
-新東方	lfir
+新東方	lfis
 美院	utzh
 美體	utvc
 獸王	oome
@@ -55570,7 +55570,7 @@
 磚石	urut
 頎長	nutm
 鐘點工	dvyx
-萬方	svir
+萬方	svis
 熱軋	gure
 男足	nwbn
 保守主義	ehlu
@@ -56525,7 +56525,7 @@
 代發	eybn
 他處	eske
 分隔符	uzwe
-他方	esir
+他方	esis
 公積	ukvg
 倚天	etft
 會否	rfio
@@ -56967,7 +56967,7 @@
 詞尾	uvbx
 亳州	lwie
 訂房	uaqi
-方知	irqo
+方知	isqo
 斯基	xnxg
 萊茵	sesd
 期中考試	xogu
@@ -57216,7 +57216,7 @@
 亞運村	fpfa
 紀念郵票	prec
 紅柳	pyfi
-土石方	guir
+土石方	guis
 發喪	bndo
 權時	fsjg
 客運量	hpjf
@@ -58210,7 +58210,7 @@
 良馬	lsjr
 讖緯	urpj
 熟練工	lpyx
-方臉	irhr
+方臉	ishr
 文號	xnou
 京廣線	lypd
 廬江	ykiy
@@ -58598,7 +58598,7 @@
 人格魅力	rfnw
 佼佼	elel
 份内	eucr
-紅方	pyir
+紅方	pyis
 紙筆	piwx
 絶美	pput
 試水	uyvu
@@ -58938,7 +58938,7 @@
 大黃魚	tsty
 足印	bnif
 椿樹	fefp
-方家	irhe
+方家	ishe
 豬舍	egro
 恭聽	sutm
 驚悉	shwk
@@ -61341,7 +61341,7 @@
 義弟	uwqn
 訂好	ualk
 府内	yecr
-方有	irsh
+方有	issh
 微信	vfeu
 三遍	jsql
 小編	kfpq
@@ -62465,7 +62465,7 @@
 叫勁	oxfy
 史事	ozjo
 聽膩	tmhy
-中西方	ocir
+中西方	ocis
 中高層	olbq
 轉碼	rruj
 默示	vxss
@@ -63991,7 +63991,7 @@
 底樓	yifo
 訂書	uaxg
 良駒	lsjh
-方顯	irju
+方顯	isju
 她的	lsdh
 朋友圈	hsdq
 破爛不堪	umig
@@ -64035,7 +64035,7 @@
 蒙田	spnx
 蒙特	sptg
 薛定諤	shuo
-勞方	mmir
+勞方	mmis
 蕃茄	swsw
 花上	sekg
 蓬户甕牖	sqlw
@@ -65819,7 +65819,7 @@
 支脉	dbhl
 存户	scqk
 回拜	docf
-醫方	kqir
+醫方	kqis
 補給線	nppd
 調防	uhzi
 染織	iwpl
@@ -66712,7 +66712,7 @@
 高速路	lfbe
 請講	ugus
 爲甚	vjxe
-方城	irgy
+方城	isgy
 三北	jsqi
 各負其責	epxg
 用材林	tfff
@@ -67596,7 +67596,7 @@
 副歌	foao
 王力宏	mwhs
 兩雙	frcc
-兩方	frir
+兩方	fris
 死皮	fuwu
 死靈	fuco
 殘值	fued
@@ -67664,7 +67664,7 @@
 包裝袋	hwey
 鋭度	dqys
 銷售部	dclo
-鬼地方	ngir
+鬼地方	ngis
 看房	cmqi
 投球	aqmf
 探班	apmq
@@ -68736,7 +68736,7 @@
 她倆	lsef
 那在	vasc
 那層	vabq
-好地方	lgir
+好地方	lgis
 肅寧	xwhg
 好兄弟	loqn
 婚生	liei
@@ -69094,7 +69094,7 @@
 邪僻	zzeb
 幕賓	sjhf
 艾略特	sntg
-蘇方	stir
+蘇方	stis
 歐風美雨	keuc
 巨手	kbcj
 榮格	mmfe
@@ -70654,7 +70654,7 @@
 統艙	plxr
 奶羊	lrug
 清夜	igle
-丹方	hlir
+丹方	hlis
 打卦	aagg
 别集	owcf
 刊頭	nxfo
@@ -70689,7 +70689,7 @@
 通匪	btkw
 烏魚	psty
 催芽	ejsz
-方尺	irbl
+方尺	isbl
 放冷箭	iywq
 降半旗	zqiw
 膠輪	hqrr
@@ -72279,7 +72279,7 @@
 供電局	ecbv
 阜康	gdyx
 傻樣	erfu
-合作方	reir
+合作方	reis
 華政	snft
 練舞	pfws
 經營部	pmlo
@@ -73096,7 +73096,7 @@
 六爻	luzz
 好軟	lkrn
 岱山	eyje
-供方	esir
+供方	esis
 他是	esjf
 佟大爲	etvj
 佳緣	egpr
@@ -73774,7 +73774,7 @@
 氣道	wkqm
 捷安特	ahtg
 近端	ndlj
-挖方	ahir
+挖方	ahis
 白狼	dsxl
 搜房	ahqi
 邀請碼	duuj
@@ -75172,7 +75172,7 @@
 康達	yxgu
 朗逸	lxpo
 文縣	xnmk
-方鋼	irdc
+方鋼	isdc
 内捲	craq
 小辮兒	klht
 副高	folv
@@ -77195,7 +77195,7 @@
 腕套	hhtt
 受動	vpzn
 騰讓	hqul
-受讓方	vuir
+受讓方	vuis
 去腥	gkhj
 封賜	ggmj
 越障	ryzl
@@ -77760,7 +77760,7 @@
 惠山	rgje
 惠氏	rgia
 瑞豐	mjjw
-丙方	fcir
+丙方	fcis
 亞泰	fkev
 碧柔	mdzw
 卡板	kjfn
@@ -77852,7 +77852,7 @@
 義馬	uwjr
 麻吉	yago
 文峰	xnje
-方管	irwh
+方管	iswh
 小曲兒	kcht
 追堵	gdgg
 放賑	iemy
@@ -80700,6 +80700,6 @@
 玄風	luek
 文聘	xntp
 廣園	ysdg
-方特	irtg
+方特	istg
 麽麽麽	yyyw
 徐碼	vruj

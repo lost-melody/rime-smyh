@@ -10,7 +10,7 @@
        │========   Y   ========│       │========   U   ========│       │========   I   ========│       │========   O   ========│       │========   P   ========│
        │麻   Ya│疒   Yb│巛   Yc│       │丂   Ua│夕   Ue│羊   Ug│       │匕   Ib│卬左 Ig│乐上 Ig│       │〇   Oo│口   Os│舌   Ox│       │由   Pb│糸   Pc│糹   Pc│
        │巜   Yc│戊   Yd│辰   Ye│       │言   Ui│幺   Uo│介下 Us│       │卯   Ig│卯左 Ig│齊右 Ig│       │       │       │       │       │电   Pd│业   Pf│冖   Pm│
-       │弋   Yq│二   Yr│⺀   Yr│       │八   Us│丆   Ut│石   Ut│       │方   Ir│兴上 Is│⺍   Is│       │       │       │       │       │鳥上 Pq│鳥   Pq│烏上 Ps│
+       │弋   Yq│二   Yr│⺀   Yr│       │八   Us│丆   Ut│石   Ut│       │兴上 Is│⺍   Is│方   Is│       │       │       │       │       │鳥上 Pq│鳥   Pq│烏上 Ps│
        │戈   Ys│鹿上 Yv│鹿   Yv│       │马   Uv│瓦   Uw│       │       │氵   Is│不   Iv│       │       │       │       │       │       │烏   Ps│鱼   Pv│兀   Pw│
        │广   Yw│工   Yx│       │       │       │       │       │       │       │       │       │       │       │       │       │       │忄   Px│申   Px│壴   Pz│
 
