@@ -145,7 +145,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     if not env.option[core.switch_names.full_off] and #input == 4 and not string.match(input, "[^a-z]") then
         local fullcode_cands = 0
         local fullcode_char = env.option[core.switch_names.full_char]
-        local entries = core.dict_lookup(core.full_mem, input, 10)
+        local entries = core.dict_lookup(core.full_mem, input, 50)
         local stashed = {}
         -- 詞語前置, 單字暫存
         for _, entry in ipairs(entries) do
@@ -185,19 +185,29 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
 
     -- 送出候選
+    local cand_count = #entries + #full_entries
+    if #input == 4 and #entries ~= 0 then
+        -- abc|a 時, a_ 總是前置
+        local entry = table.remove(entries, 1)
+        entry.comment = display_comment(entry.comment)
+        local cand = Candidate("table", seg.start, seg._end, core.stashed_text .. entry.text, entry.comment)
+        yield(cand)
+    end
     for _, entry in ipairs(full_entries) do
+        -- 全碼候選, 含 abc|a 和 abc|abc 兩類
         entry.comment = display_comment(entry.comment)
         local cand = Candidate("table", seg.start, seg._end, entry.text, entry.comment)
         yield(cand)
     end
     for _, entry in ipairs(entries) do
+        -- 單字候選, 含延遲串
         entry.comment = display_comment(entry.comment)
         local cand = Candidate("table", seg.start, seg._end, core.stashed_text .. entry.text, entry.comment)
         yield(cand)
     end
 
     -- 唯一候選添加占位
-    if #full_entries + #entries == 1 then
+    if cand_count == 1 then
         local cand = Candidate("table", seg.start, seg._end, "", "")
         yield(cand)
     end

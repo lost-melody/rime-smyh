@@ -124,7 +124,16 @@ end
 
 local function handle_fullcode(env, ctx, ch)
     if not env.option[core.switch_names.full_off] and #ctx.input == 4 and not string.match(ctx.input, "[^a-z]") then
-        ctx:commit()
+        local fullcode_char = env.option[core.switch_names.full_char]
+        local entries = core.dict_lookup(core.full_mem, ctx.input, 50)
+        -- 查找四碼首選
+        for _, entry in ipairs(entries) do
+            if not fullcode_char or utf8.len(entry.text) == 1 then
+                ctx:clear()
+                env.engine:commit_text(entry.text)
+                break
+            end
+        end
         return kAccepted
     end
     return kNoop
@@ -227,6 +236,7 @@ function processor.init(env)
     -- 構造回調函數
     local option_names = {
         core.switch_names.single_char,
+        core.switch_names.full_char,
         core.switch_names.full_off,
     }
     local handler = core.get_switch_handler(env, option_names)
