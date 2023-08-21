@@ -30,6 +30,8 @@
 故	be1
 下	bk1
 通	bt1
+監	bw1
+剛	cq1
 十	di1
 之	dj1
 真	dm1
@@ -53,8 +55,8 @@
 胸	hh1
 宗	hs1
 没	iq1
-方	is1
 於	ir1
+方	is1
 染	iw1
 豈	jf1
 時	jg1

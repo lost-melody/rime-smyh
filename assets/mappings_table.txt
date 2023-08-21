@@ -15,8 +15,8 @@
        │广   Yw│工   Yx│       │       │       │       │       │       │       │       │       │       │       │       │       │       │忄   Px│申   Px│壴   Pz│
 
        │========   A   ========│       │========   S   ========│       │========   D   ========│       │========   F   ========│       │========   G   ========│
-       │亥   Aa│丁   Ah│寸   Ai│       │艮   Si│卄   Sk│卅   Sk│       │癶右 Da│彡   Da│讠   Da│       │冎   Fa│咼   Fa│木   Fi│       │𠂤   Gd│龶   Gg│土   Gi│
-       │巴   Aj│キ   Ak│ヰ   Ak│       │卌   Sk│卝   Sk│未   Sk│       │两撇 Da│囗   Dd│十   Di│       │一   Fk│       │       │       │耂   Gi│心   Gk│龜下 Gn│
+       │亥   Aa│丁   Ah│寸   Ai│       │艮   Si│卄   Sk│卅   Sk│       │癶右 Da│彡   Da│讠   Da│       │冎   Fa│咼   Fa│一   Fi│       │𠂤   Gd│龶   Gg│土   Gi│
+       │巴   Aj│キ   Ak│ヰ   Ak│       │卌   Sk│卝   Sk│未   Sk│       │两撇 Da│囗   Dd│十   Di│       │木   Fk│       │       │       │耂   Gi│心   Gk│龜下 Gn│
        │七   Ak│扌   Ak│己   Al│       │艹   Sk│龷   Sk│冓上 Sk│       │之   Dj│刀   Dk│辶   Dn│       │       │       │       │       │世   Gn│黽   Gn│穀頭 Gu│
        │巳   Am│已   Ao│       │       │末   Sm│乜   So│也   So│       │金   Dn│白   Ds│夫   Du│       │       │       │       │       │士   Gu│
        │       │       │       │       │丑   Sp│示   Ss│左上 Ss│

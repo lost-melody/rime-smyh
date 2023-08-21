@@ -932,8 +932,8 @@ columns:
 丐	bfe	933
 蹅	bff	0
 屍	bfi	5183
-杘	bfi	0
 趶	bfj	0
+杘	bfk	0
 覴	bfm	0
 踾	bfn	0
 踈	bfo	0
@@ -1278,6 +1278,7 @@ columns:
 尿	bvu	6265
 屬	bvv	18269
 劚	bvx	0
+監	bw1	12664
 踌	bwa	5
 蹡	bwa	0
 躌	bwa	0
@@ -1308,8 +1309,8 @@ columns:
 譼	bwu	0
 趷	bwv	0
 袭	bww	100
-監	bwz	12664
 鹽	bwz	3097
+監	bwz	100
 盬	bwz	0
 屗	bxa	0
 踸	bxe	0
@@ -1434,11 +1435,11 @@ columns:
 霖	cff	788
 躰	cff	0
 醂	cff	0
-集	cfi	40918
-栗	cfi	2198
-雬	cfi	0
+凹	cfi	1634
 酑	cfj	0
-凹	cfk	1634
+集	cfk	40918
+栗	cfk	2198
+雬	cfk	0
 赇	cfl	0
 霜	cfm	5784
 鹴	cfn	0
@@ -1630,6 +1631,7 @@ columns:
 赡	cpu	1
 兕	cpw	0
 醓	cpz	0
+剛	cq1	49363
 醪	cqd	0
 霫	cqd	0
 罔	cqe	317
@@ -1640,7 +1642,7 @@ columns:
 酘	cqm	0
 霾	cqn	318
 赚	cqu	47
-剛	cqx	49363
+剛	cqx	100
 零	crb	12400
 搿	crc	0
 醶	crd	0
@@ -1981,10 +1983,10 @@ columns:
 錽	dfe	0
 鉢	dff	163
 鐚	dfg	0
-困	dfi	17827
-鈢	dfi	0
 釪	dfj	0
 錬	dfj	0
+困	dfk	17827
+鈢	dfk	0
 錏	dfk	0
 鉥	dfl	0
 銶	dfl	0
@@ -3091,14 +3093,14 @@ columns:
 卐	eff	0
 僫	efg	0
 恷	efg	0
-休	efi	25762
-条	efi	487
-杗	efi	0
 伍	efj	4819
 倲	efj	0
+休	efk	25762
+条	efk	487
 俫	efk	0
 俹	efk	0
 倯	efk	0
+杗	efk	0
 俅	efl	1
 傿	efm	0
 烋	efm	0
@@ -3965,10 +3967,10 @@ columns:
 橿	fff	35
 埜	ffg	0
 杤	ffh	0
-林	ffi	57153
+本	ffi	153246
 棟	ffj	2468
 杅	ffj	0
-本	ffk	153246
+林	ffk	57153
 椏	ffk	489
 梾	ffk	0
 梵	ffl	2229
@@ -4094,8 +4096,9 @@ columns:
 椡	fhx	0
 枃	fhy	0
 椌	fhy	0
-木	fi1	43831
-朩	fi3	0
+一	fi1	100
+㇀	fi3	0
+㇐	fi3	0
 榉	fia	0
 朼	fib	0
 楷	fid	1487
@@ -4179,9 +4182,8 @@ columns:
 邘	fjz	0
 郚	fjz	0
 郠	fjz	0
-一	fk1	100
-㇀	fk3	0
-㇐	fk3	0
+木	fk1	43831
+朩	fk3	0
 橱	fka	7
 橉	fka	0
 櫉	fka	0
@@ -5076,10 +5078,10 @@ columns:
 壃	gff	0
 榖	gff	0
 愨	gfg	70
-枼	gfi	0
 圩	gfj	35
 埬	gfj	0
 埡	gfk	0
+枼	gfk	0
 糓	gfk	0
 墕	gfm	0
 瑴	gfm	0
@@ -5767,11 +5769,11 @@ columns:
 膈	hfc	187
 膼	hfd	0
 宣	hff	18542
-宋	hfi	20724
-穼	hfi	0
 宇	hfj	65713
 穻	hfj	0
 腖	hfj	0
+宋	hfk	20724
+穼	hfk	0
 宼	hfl	0
 窛	hfl	0
 脙	hfl	0
@@ -6617,11 +6619,11 @@ columns:
 溼	ifg	0
 漜	ifg	0
 潸	ifh	177
-沐	ifi	2310
+丕	ifi	142
 汙	ifj	8529
 涷	ifj	0
 澘	ifj	0
-丕	ifk	142
+沐	ifk	2310
 淞	ifk	2
 涞	ifk	0
 添	ifl	5613
@@ -7825,15 +7827,15 @@ columns:
 晅	jff	0
 晽	jff	0
 鼂	jfg	0
-果	jfi	173428
+旦	jfi	12353
 匙	jfi	4702
-杲	jfi	35
-栾	jfi	2
 韙	jfj	35
 崠	jfj	0
 崬	jfj	0
 旴	jfj	0
-旦	jfk	12353
+果	jfk	173428
+杲	jfk	35
+栾	jfk	2
 崧	jfk	1
 崃	jfk	0
 題	jfm	81671
@@ -8676,10 +8678,10 @@ columns:
 虨	kfd	0
 馇	kff	0
 厉	kfh	186
-棠	kfi	658
+孑	kfi	1
+孒	kfi	0
 暦	kfj	0
-孑	kfk	1
-孒	kfk	0
+棠	kfk	658
 孲	kfk	0
 厢	kfm	26
 覻	kfm	0
@@ -9267,10 +9269,10 @@ columns:
 竵	lfc	0
 嫩	lfe	3321
 姮	lff	35
-亲	lfi	731
-槀	lfi	0
 娻	lfj	0
+亲	lfk	731
 婭	lfk	0
+槀	lfk	0
 婖	lfl	0
 親	lfm	116760
 嫣	lfm	180
@@ -10109,13 +10111,13 @@ columns:
 爩	mfd	0
 琳	mff	4755
 烜	mff	1
-臬	mfi	1
-炑	mfi	0
 臰	mfi	0
 玗	mfj	82
 盱	mfj	35
 烞	mfj	0
 睐	mfk	2
+臬	mfk	1
+炑	mfk	0
 球	mfl	71263
 炢	mfl	0
 賕	mfl	0
@@ -11203,14 +11205,14 @@ columns:
 彊	nff	0
 疅	nff	0
 垕	nfg	0
-枭	nfi	7
+丘	nfi	4635
 屔	nfi	0
+弖	nfi	0
 岳	nfj	198922
 弙	nfj	0
 纡	nfj	0
 衧	nfj	0
-丘	nfk	4635
-弖	nfk	0
+枭	nfk	7
 乓	nfl	864
 瓕	nfl	0
 缃	nfm	0
@@ -11851,8 +11853,8 @@ columns:
 啉	off	0
 槑	off	0
 噁	ofg	416
-呆	ofi	8303
 吁	ofj	1114
+呆	ofk	8303
 啞	ofk	2665
 舔	ofl	519
 嘕	ofm	0
@@ -12689,8 +12691,8 @@ columns:
 絙	pff	0
 絚	pff	0
 綝	pff	0
-梟	pfi	383
 紆	pfj	70
+梟	pfk	383
 怵	pfl	177
 悿	pfl	0
 絉	pfl	0
@@ -13702,9 +13704,9 @@ columns:
 缽	qff	525
 貆	qff	0
 餷	qff	0
-朵	qfi	106
-凩	qfi	0
 凬	qfj	0
+朵	qfk	106
+凩	qfk	0
 餗	qfo	0
 鳳	qfp	6096
 短	qfq	20675
@@ -14227,17 +14229,17 @@ columns:
 韁	rff	104
 愈	rfg	10107
 悆	rfg	0
-朶	rfi	8012
-閑	rfi	419
+閂	rfi	104
 佥	rfi	1
+亼	rfi	0
+鿖	rfi	0
 會	rfj	345355
 峹	rfj	0
 嵞	rfj	0
 輌	rfj	0
-閂	rfk	104
-亼	rfk	0
+朶	rfk	8012
+閑	rfk	419
 閸	rfk	0
-鿖	rfk	0
 侖	rfl	140
 覦	rfm	264
 幅	rfn	13992
@@ -15082,12 +15084,12 @@ columns:
 荰	sfg	0
 菫	sfg	0
 蓕	sfg	0
+廿	sfi	500
+丗	sfi	0
 芋	sfj	706
 菄	sfj	0
-廿	sfk	500
 莱	sfk	81
 菘	sfk	70
-丗	sfk	0
 嬊	sfl	0
 莍	sfl	0
 菾	sfl	0
@@ -16281,10 +16283,10 @@ columns:
 匏	tfa	35
 镉	tfc	0
 钵	tff	4
-髤	tfi	0
 鯟	tfj	0
 鬆	tfk	17498
 铼	tfk	0
+髤	tfk	0
 鯄	tfl	0
 鰏	tfn	0
 牾	tfo	0
@@ -17218,9 +17220,9 @@ columns:
 碄	uff	0
 礓	uff	0
 諃	uff	0
+与	ufi	1109
 訏	ufj	35
 諌	ufj	0
-与	ufk	1109
 硹	ufk	0
 訹	ufl	0
 欤	ufn	0
@@ -18153,8 +18155,7 @@ columns:
 懲	vfg	2604
 惩	vfg	23
 穂	vfg	0
-采	vfi	6366
-蚞	vfi	0
+刁	vfi	117
 術	vfj	84546
 衙	vfj	332
 虶	vfj	0
@@ -18162,10 +18163,11 @@ columns:
 衏	vfj	0
 骬	vfj	0
 鿉	vfj	0
-刁	vfk	117
+采	vfk	6366
 徕	vfk	1
 孠	vfk	0
 稏	vfk	0
+蚞	vfk	0
 蜙	vfk	0
 秫	vfl	0
 蛷	vfl	0
@@ -19115,13 +19117,13 @@ columns:
 簻	wfd	0
 笨	wff	2209
 箖	wff	0
-牀	wfi	10767
-杂	wfi	146
-棐	wfi	0
+韭	wfi	700
 竽	wfj	1
 氭	wfj	0
-韭	wfk	700
+牀	wfk	10767
+杂	wfk	146
 氬	wfk	35
+棐	wfk	0
 箱	wfm	17301
 籟	wfm	892
 篶	wfm	0
@@ -19785,12 +19787,12 @@ columns:
 赟	xfc	1
 狟	xff	0
 猹	xff	0
-闲	xfi	106
-棊	xfi	0
-狇	xfi	0
+卫	xfi	266
+闩	xfi	1
 旹	xfj	0
-卫	xfk	266
-闩	xfk	1
+闲	xfk	106
+棊	xfk	0
+狇	xfk	0
 毬	xfl	35
 妛	xfl	0
 贇	xfm	137
@@ -20342,11 +20344,11 @@ columns:
 感	yfg	120569
 癋	yfg	0
 疠	yfh	0
-床	yfi	13143
+戌	yfi	57
+弌	yfi	0
 凍	yfj	4892
-戌	yfk	57
+床	yfk	13143
 凇	yfk	0
-弌	yfk	0
 瘂	yfk	0
 威	yfl	21933
 廂	yfm	6785
@@ -20889,8 +20891,8 @@ columns:
 陋	zfe	2112
 敶	zfe	0
 罧	zff	0
-杀	zfi	577
 陳	zfj	41540
+杀	zfk	577
 鹮	zfn	0
 阮	zfp	752
 殺	zfq	25471
@@ -21217,6 +21219,8 @@ columns:
 故事	be2
 下午	bk2
 通過	bt2
+監督	bw2
+剛剛	cq2
 十分	di2
 之後	dj2
 真的	dm2
@@ -21237,10 +21241,11 @@ columns:
 烈火	fu2
 都是	gj2
 境界	gl2
+胸口	hh2
 宗派	hs2
 没有	iq2
-方法	is2
 於是	ir2
+方法	is2
 染色	iw2
 豈能	jf2
 時候	jg2
@@ -21325,6 +21330,7 @@ columns:
 成功	y2
 還有	z2
 你的	ep2
+方式	is2
 時間	jg2
 如此	lo2
 説話	uq2

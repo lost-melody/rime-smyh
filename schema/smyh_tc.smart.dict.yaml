@@ -182,32 +182,14 @@ encoder:
 犀牛	bvttl1
 犀利	bvtvxd
 臨汾	bwoiud
-鹽巴	bwzaj1
-鹽霜	bwzcfm
-鹽酸	bwzcke
-鹽析	bwzfnc
-鹽土	bwzgi1
-鹽城	bwzgyv
-鹽湖	bwzibh
-鹽滷	bwziml
 鹽灘	bwzisc
-鹽池	bwziso
-鹽山	bwzje1
-鹽類	bwzkxm
-鹽商	bwzlqo
 鹽鹼	bwzmrd
-鹽田	bwznx1
-鹽業	bwzpuu
-鹽花	bwzsei
-鹽分	bwzudk
-鹽水	bwzvu1
-鹽井	bwzyus
 尾鰭	bxotgj
 遐邇	bydfud
 雙槓	ccbfym
 進倉	cdnrlo
-栗子	cfikv1
-栗色	cfipaj
+栗子	cfkkv1
+栗色	cfkpaj
 甄嬛	cgulzw
 酬酢	ciecwj
 手挽	cj1apt
@@ -274,7 +256,7 @@ encoder:
 錦綸	ddrprl
 鎮賚	dduemo
 鉢盂	dfffjz
-困獸	dfioox
+困獸	dfkoox
 錶針	dgwddi
 園圃	dgwdmt
 錶鏈	dgwdrd
@@ -308,7 +290,7 @@ encoder:
 圍墾	djxqsg
 刀叉	dk1bll
 刀鞘	dk1rkh
-鏜牀	dkgwfi
+鏜牀	dkgwfk
 鎖釦	dkmdos
 鎖匙	dkmjfi
 鎖芯	dkmsgk
@@ -324,7 +306,6 @@ encoder:
 矗立	dmmlu1
 鈑金	dnbdn1
 鋰電	dnecpd
-鉀鹽	dnfbwz
 鏹水	dnvvu1
 迢迢	doddod
 迢遥	dodvqd
@@ -374,7 +355,7 @@ encoder:
 銑刀	dttdk1
 銑削	dttkhx
 鑷子	dttkv1
-銑牀	dttwfi
+銑牀	dttwfk
 須刨	dumhax
 須臾	dumhre
 銘瑄	duomhf
@@ -397,8 +378,8 @@ encoder:
 傣族	eeviwq
 麪糰	eevkda
 傣妹	eevlsk
-休謨	efiust
 伍佰	efjeuj
+休謨	efkust
 豬倌	egjehb
 傢俬	eheevk
 儐相	ehmfmv
@@ -505,10 +486,10 @@ encoder:
 過濾	fdnikg
 札幌	feerjp
 楓涇	fekify
-林檎	ffifrk
-林墾	ffiqsg
+本框	ffifkm
 椏杈	ffkfbl
-本框	ffkfkm
+林檎	ffkfrk
+林墾	ffkqsg
 梧桐	ffofco
 禁臠	ffsupr
 郴州	ffzieh
@@ -532,7 +513,6 @@ encoder:
 東郊	fjkluz
 朴樹	fjpfpa
 盂縣	fjzmkp
-椒鹽	fkbbwz
 亞瑟	fkcmmw
 亞綸	fkcprl
 極晝	fkfxgf
@@ -551,7 +531,7 @@ encoder:
 榔頭	flzfom
 相框	fmvfkm
 板凳	fnbbfq
-板栗	fnbcfi
+板栗	fnbcfk
 逗樂	fodduf
 逗逼	fodfod
 逗留	fodinx
@@ -562,12 +542,12 @@ encoder:
 賴於	fomir1
 賴賬	fommtm
 賴着	fomumv
-賴牀	fomwfi
+賴牀	fomwfk
 頭皮	fomwu1
 賴皮	fomwu1
 豆渣	foqiff
 杏仁	foseyr
-杏林	fosffi
+杏林	fosffk
 杏樹	fosfpa
 杏子	foskv1
 杏眼	fosmsi
@@ -603,7 +583,6 @@ encoder:
 殯儀	fumeuy
 殯殮	fumfur
 殯葬	fumsfs
-機鹽	furbwz
 機芯	fursgk
 柘城	futgyv
 殘渣	fuyiff
@@ -621,6 +600,7 @@ encoder:
 穀倉	gfvrlo
 恚怒	ggglbg
 恚恨	gggpsi
+圭臬	ggimfk
 卦象	ggjpoe
 卦辭	ggjvbl
 贅肉	ghmcrr
@@ -718,7 +698,7 @@ encoder:
 刨坑	haxglq
 刨子	haxkv1
 刨花	haxsei
-刨牀	haxwfi
+刨牀	haxwfk
 刨冰	haxyvu
 刨除	haxzrf
 官倉	hbbrlo
@@ -824,7 +804,6 @@ encoder:
 泗陽	idtzjd
 滌綸	iefprl
 涿州	ielieh
-放鹽	ieubwz
 渣打	iffaah
 渣滓	iffihl
 淋漓	iffixk
@@ -880,6 +859,7 @@ encoder:
 治癒	ikoyrg
 鯊魚	iktty1
 沙灘	ikwisc
+沙啞	ikwofk
 瀘州	ikzieh
 淬鍊	ilddfq
 淬火	ildms1
@@ -937,7 +917,6 @@ encoder:
 灌漑	iscidt
 灘塗	iscirg
 溝壕	isggle
-池鹽	isobwz
 潢川	isueh1
 洪澇	isuimw
 滿擰	isvaha
@@ -968,7 +947,6 @@ encoder:
 泛稱	iwdvv1
 泛出	iwdx1
 泛舟	iwdxu1
-海鹽	iwrbwz
 海豚	iwrhen
 海灘	iwrisc
 海獸	iwroox
@@ -990,7 +968,7 @@ encoder:
 山巔	je1jdm
 馴獸	jehoox
 峰巔	jewjdm
-旦暮	jfksjj
+旦暮	jfisjj
 顆顆	jfmjfm
 顆粒	jfmklu
 覬覦	jfmrfm
@@ -1060,7 +1038,6 @@ encoder:
 崎嶇	jtojko
 崎步	jtotkf
 顯豁	jumhwo
-岩鹽	jutbwz
 幽邃	juuhqd
 嵯峨	juyjwy
 嵊泗	jviidt
@@ -1081,7 +1058,6 @@ encoder:
 小蔥	kf1srg
 小篆	kf1wre
 上頜	kg1rum
-精鹽	kghbwz
 精鋭	kghdqt
 精赤	kghguu
 精液	kghill
@@ -1095,7 +1071,7 @@ encoder:
 虎凳	kk1bfq
 參劾	kkdawl
 毿毿	kkxkkx
-粗鹽	kmfbwz
+粗啞	kmfofk
 膚泛	knhiwd
 鸕鷀	knpqup
 糨糊	knvkbh
@@ -1142,6 +1118,7 @@ encoder:
 婊子	lgwkv1
 龍芯	lhjsgk
 膏腴	lhrhhr
+聾啞	lhtofk
 礱糠	lhukyv
 音叉	ljkbll
 贛南	ljmdcd
@@ -1368,6 +1345,16 @@ encoder:
 噴嚏	odmodt
 鄙吝	odzxos
 吳淞	oetifk
+啞巴	ofkaj1
+啞鈴	ofkdrb
+啞然	ofkhxm
+啞劇	ofkkex
+啞光	ofkkpw
+啞炮	ofkmha
+啞火	ofkms1
+啞彈	ofknod
+啞語	ofkufo
+啞謎	ofkukd
 咧嘴	ofxott
 喇叭	ofxous
 哇噻	oggohg
@@ -1455,6 +1442,7 @@ encoder:
 咖喱	owookn
 喫葷	owtspr
 叫囂	oxiooo
+嘶啞	oxnofk
 咄嗟	oxxouy
 對錶	p1dgw
 對弈	p1jsk
@@ -1581,7 +1569,6 @@ encoder:
 北倉	qibrlo
 背鰭	qihtgj
 餛飩	qjiqax
-食鹽	ql1bwz
 飯糰	qnbkda
 飲譽	qnvhuu
 翟紅	qqcpyx
@@ -1895,7 +1882,6 @@ encoder:
 謝忱	ucappt
 譙樓	ucmfol
 礄口	ucoos1
-碘鹽	ucubwz
 硒鼓	ucupdb
 分叉	udkbll
 分櫱	udkxgf
@@ -2029,7 +2015,6 @@ encoder:
 謡諺	uvquld
 誹謗	uwiuli
 誣賴	uyrfom
-礦鹽	uyubwz
 礦渣	uyuiff
 差遣	uyxokd
 那顆	v1jfm
@@ -2156,7 +2141,7 @@ encoder:
 鵝卵	wapill
 齷齪	wbhwbn
 氤氳	wdtwdz
-牀幃	wfirjx
+牀幃	wfkrjx
 悲憫	wgkprx
 裝框	wgwfkm
 裝機	wgwfur
@@ -2255,7 +2240,7 @@ encoder:
 凝然	yithxm
 癡然	yithxm
 癡迷	yitkdn
-癡呆	yitofi
+癡呆	yitofk
 癡線	yitpdv
 癡情	yitpgh
 癡戀	yitupg

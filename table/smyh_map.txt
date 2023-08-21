@@ -70,8 +70,8 @@ Er	亻
 Eu	夊
 Fa	冎
 Fa	咼
-Fi	木
-Fk	一
+Fi	一
+Fk	木
 Gd	𠂤
 Gg	龶
 Gi	土
