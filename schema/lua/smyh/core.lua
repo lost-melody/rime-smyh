@@ -12,13 +12,6 @@ core.base_mem = nil
 -- 附加官宇詞庫
 core.full_mem = nil
 
--- 消息同步: 更新時間
-core.sync_at = 0
--- 消息同步: 總線
-core.sync_bus = {
-    switches = {}, -- 開關狀態
-}
-
 local _unix_supported
 -- 是否支持 Unix 命令
 function core.unix_supported()

@@ -9,6 +9,25 @@ local cA          = string.byte("a") -- 字符: 'a'
 local cZ          = string.byte("z") -- 字符: 'z'
 local cBs         = 0xff08           -- 退格
 
+-- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
+local namespaces = {}
+function namespaces:init(env)
+    -- 讀取配置項
+    if not namespaces:config(env) then
+        local config = {}
+        config.macros = core.parse_conf_macro_list(env)
+        config.funckeys = core.parse_conf_funckeys(env)
+        namespaces:set_config(env, config)
+    end
+end
+function namespaces:set_config(env, config)
+    namespaces[env.name_space] = namespaces[env.name_space] or {}
+    namespaces[env.name_space].config = config
+end
+function namespaces:config(env)
+    return namespaces[env.name_space] and namespaces[env.name_space].config
+end
+
 -- 返回被選中的候選的索引, 來自 librime-lua/sample 示例
 local function select_index(key, env)
     local ch = key.keycode
@@ -25,22 +44,6 @@ local function select_index(key, env)
         index = 0
     end
     return index
-end
-
--- 執行開關同步
-local function sync_switches(env, ctx, key_event)
-    if env.sync_at < core.sync_at then
-        env.sync_at = core.sync_at
-        -- 當總線更新時間比會話晚時, 將總線值同步到會話中
-        for op_name, value in pairs(core.sync_bus.switches) do
-            if env.sync_options[op_name] ~= value then
-                env.sync_options[op_name] = value
-                if not ctx:get_option("unsync_" .. op_name) and ctx:get_option(op_name) ~= value then
-                    ctx:set_option(op_name, value)
-                end
-            end
-        end
-    end
 end
 
 -- 提交候選文本, 並刷新輸入串
@@ -183,27 +186,6 @@ local function handle_clean(env, ctx, ch)
     return kAccepted
 end
 
--- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
-local namespaces = {}
-function namespaces:init(env)
-    -- 讀取配置項
-    if not namespaces:config(env) then
-        local config = {}
-        config.sync_options = core.parse_conf_str_list(env, "sync_options")
-        config.sync_options.synced_at = 0
-        config.macros = core.parse_conf_macro_list(env)
-        config.funckeys = core.parse_conf_funckeys(env)
-        namespaces:set_config(env, config)
-    end
-end
-function namespaces:set_config(env, config)
-    namespaces[env.name_space] = namespaces[env.name_space] or {}
-    namespaces[env.name_space].config = config
-end
-function namespaces:config(env)
-    return namespaces[env.name_space] and namespaces[env.name_space].config
-end
-
 function processor.init(env)
     if Switcher then
         env.switcher = Switcher(env.engine)
@@ -213,37 +195,10 @@ function processor.init(env)
     local ok = pcall(namespaces.init, namespaces, env)
     if not ok then
         local config = {}
-        config.sync_options = {}
-        config.sync_options.synced_at = 0
         config.macros = {}
         config.funckeys = {}
         namespaces:set_config(env, config)
     end
-
-    -- 讀取需要同步的開關項列表
-    env.sync_at = 0
-    env.sync_options = {}
-    for _, op_name in ipairs(namespaces:config(env).sync_options) do
-        env.sync_options[op_name] = true
-    end
-    -- 注册回調
-    env.engine.context.option_update_notifier:connect(function(ctx, op_name)
-        if env.sync_options[op_name] ~= nil then
-            -- 當選項在同步列表中時, 將變更同步到總線
-            local value = ctx:get_option(op_name)
-            if env.sync_at == 0 and core.sync_at ~= 0 and core.sync_bus.switches[op_name] ~= nil then
-                -- 當前會話未同步過, 且總線有值, 可能是由 reset 觸發
-            elseif ctx:get_option("unsync_" .. op_name) then
-                -- 當前會話設置禁用了此開關同步
-            elseif core.sync_bus.switches[op_name] ~= value then
-                -- 同步到總線
-                core.sync_at = os.time()
-                core.sync_bus.switches[op_name] = value
-            end
-            -- 會話值總是賦值爲當前實際值
-            env.sync_options[op_name] = value
-        end
-    end)
 
     -- 構造回調函數
     local option_names = {
@@ -262,11 +217,6 @@ end
 
 function processor.func(key_event, env)
     local ctx = env.engine.context
-    if #ctx.input == 0 then
-        -- 開關狀态同步
-        sync_switches(env, ctx, key_event)
-    end
-
     if #ctx.input == 0 or key_event:release() or key_event:alt() then
         -- 當前無輸入, 或不是我關注的鍵按下事件, 棄之
         return kNoop

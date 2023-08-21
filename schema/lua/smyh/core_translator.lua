@@ -9,8 +9,7 @@ function namespaces:init(env)
     -- 讀取配置項
     if not namespaces:config(env) then
         local config = {}
-        config.sync_options = core.parse_conf_str_list(env, "sync_options")
-        config.sync_options.synced_at = 0
+        config.comp = core.parse_conf_bool(env, "enable_completion")
         config.macros = core.parse_conf_macro_list(env)
         config.funckeys = core.parse_conf_funckeys(env)
         namespaces:set_config(env, config)
