@@ -5,6 +5,17 @@ local schemas = nil
 
 -- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
 local namespaces = {}
+function namespaces:init(env)
+    -- 讀取配置項
+    if not namespaces:config(env) then
+        local config = {}
+        config.sync_options = core.parse_conf_str_list(env, "sync_options")
+        config.sync_options.synced_at = 0
+        config.macros = core.parse_conf_macro_list(env)
+        config.funckeys = core.parse_conf_funckeys(env)
+        namespaces:set_config(env, config)
+    end
+end
 function namespaces:set_config(env, config)
     namespaces[env.name_space] = namespaces[env.name_space] or {}
     namespaces[env.name_space].config = config
@@ -16,11 +27,12 @@ end
 -- ######## 翻译器 ########
 
 function translator.init(env)
-    if not namespaces:config(env) then
+    local ok = pcall(namespaces.init, namespaces, env)
+    if not ok then
         local config = {}
-        config.comp = core.parse_conf_bool(env, "enable_completion")
-        config.macros = core.parse_conf_macro_list(env)
-        config.funckeys = core.parse_conf_funckeys(env)
+        config.comp = false
+        config.macros = {}
+        config.funckeys = {}
         namespaces:set_config(env, config)
     end
 

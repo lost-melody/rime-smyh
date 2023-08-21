@@ -9,16 +9,6 @@ local cA          = string.byte("a") -- 字符: 'a'
 local cZ          = string.byte("z") -- 字符: 'z'
 local cBs         = 0xff08           -- 退格
 
--- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
-local namespaces = {}
-function namespaces:set_config(env, config)
-    namespaces[env.name_space] = namespaces[env.name_space] or {}
-    namespaces[env.name_space].config = config
-end
-function namespaces:config(env)
-    return namespaces[env.name_space] and namespaces[env.name_space].config
-end
-
 -- 返回被選中的候選的索引, 來自 librime-lua/sample 示例
 local function select_index(key, env)
     local ch = key.keycode
@@ -193,11 +183,9 @@ local function handle_clean(env, ctx, ch)
     return kAccepted
 end
 
-function processor.init(env)
-    if Switcher then
-        env.switcher = Switcher(env.engine)
-    end
-
+-- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
+local namespaces = {}
+function namespaces:init(env)
     -- 讀取配置項
     if not namespaces:config(env) then
         local config = {}
@@ -205,6 +193,30 @@ function processor.init(env)
         config.sync_options.synced_at = 0
         config.macros = core.parse_conf_macro_list(env)
         config.funckeys = core.parse_conf_funckeys(env)
+        namespaces:set_config(env, config)
+    end
+end
+function namespaces:set_config(env, config)
+    namespaces[env.name_space] = namespaces[env.name_space] or {}
+    namespaces[env.name_space].config = config
+end
+function namespaces:config(env)
+    return namespaces[env.name_space] and namespaces[env.name_space].config
+end
+
+function processor.init(env)
+    if Switcher then
+        env.switcher = Switcher(env.engine)
+    end
+
+    -- 讀取配置項
+    local ok = pcall(namespaces.init, namespaces, env)
+    if not ok then
+        local config = {}
+        config.sync_options = {}
+        config.sync_options.synced_at = 0
+        config.macros = {}
+        config.funckeys = {}
         namespaces:set_config(env, config)
     end
 

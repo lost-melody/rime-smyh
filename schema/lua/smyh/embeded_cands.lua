@@ -25,16 +25,6 @@ local next_format = "${Stash}${候選}${Seq}${Comment}"
 local separator = " "
 local stash_placeholder = "~"
 
--- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
-local namespaces = {}
-function namespaces:set_config(env, config)
-    namespaces[env.name_space] = namespaces[env.name_space] or {}
-    namespaces[env.name_space].config = config
-end
-function namespaces:config(env)
-    return namespaces[env.name_space] and namespaces[env.name_space].config
-end
-
 local function compile_formatter(format)
     -- "${Stash}[${候選}${Seq}]${Code}${Comment}"
     -- => "%s[%s%s]%s%s"
@@ -65,20 +55,50 @@ local function compile_formatter(format)
     return res
 end
 
+-- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
+local namespaces = {}
+function namespaces:init(env)
+    if not namespaces:config(env) then
+        -- 讀取配置項
+        local config = {}
+        config.index_indicators = core.parse_conf_str_list(env, "index_indicators", index_indicators)
+        config.first_format = core.parse_conf_str(env, "first_format", first_format)
+        config.next_format = core.parse_conf_str(env, "next_format", next_format)
+        config.separator = core.parse_conf_str(env, "separator", separator)
+        config.stash_placeholder = core.parse_conf_str(env, "stash_placeholder", stash_placeholder)
+        config.option_name = core.parse_conf_str(env, "option_name")
+
+        config.formatter = {}
+        config.formatter.first = compile_formatter(config.first_format)
+        config.formatter.next = compile_formatter(config.next_format)
+        namespaces:set_config(env, config)
+    end
+end
+function namespaces:set_config(env, config)
+    namespaces[env.name_space] = namespaces[env.name_space] or {}
+    namespaces[env.name_space].config = config
+end
+function namespaces:config(env)
+    return namespaces[env.name_space] and namespaces[env.name_space].config
+end
+
 function embeded_cands_filter.init(env)
     -- 讀取配置項
-    local config = {}
-    config.index_indicators = core.parse_conf_str_list(env, "index_indicators", index_indicators)
-    config.first_format = core.parse_conf_str(env, "first_format", first_format)
-    config.next_format = core.parse_conf_str(env, "next_format", next_format)
-    config.separator = core.parse_conf_str(env, "separator", separator)
-    config.stash_placeholder = core.parse_conf_str(env, "stash_placeholder", stash_placeholder)
-    config.option_name = core.parse_conf_str(env, "option_name")
+    local ok = pcall(namespaces.init, namespaces, env)
+    if not ok then
+        local config = {}
+        config.index_indicators = index_indicators
+        config.first_format = first_format
+        config.next_format = next_format
+        config.separator = separator
+        config.stash_placeholder = stash_placeholder
+        config.option_name = ""
 
-    config.formatter = {}
-    config.formatter.first = compile_formatter(config.first_format)
-    config.formatter.next = compile_formatter(config.next_format)
-    namespaces:set_config(env, config)
+        config.formatter = {}
+        config.formatter.first = compile_formatter(config.first_format)
+        config.formatter.next = compile_formatter(config.next_format)
+        namespaces:set_config(env, config)
+    end
 
     local option_names = {}
 

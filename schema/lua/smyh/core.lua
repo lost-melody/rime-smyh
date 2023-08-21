@@ -288,14 +288,15 @@ local function new_eval(name, expr)
         if #self.name ~= 0 then
             return self.name
         else
-            return self:get_text(args, "peek")
+            local _, res = pcall(self.get_text, self, args, "peek")
+            return res
         end
     end
 
     function eval:trigger(env, ctx, args)
-        local text = self:get_text(args, "eval")
-        if #text ~= 0 then
-            env.engine:commit_text(text)
+        local ok, res = pcall(self.get_text, self, args, "eval")
+        if ok and #res ~= 0 then
+            env.engine:commit_text(res)
         end
         ctx:clear()
     end
