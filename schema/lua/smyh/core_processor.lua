@@ -120,12 +120,29 @@ local function handle_fullcode(env, ctx, ch)
         local fullcode_char = env.option[core.switch_names.full_char]
         local entries = core.dict_lookup(core.full_mem, ctx.input, 50)
         -- 查找四碼首選
+        local first
         for _, entry in ipairs(entries) do
-            if not fullcode_char or utf8.len(entry.text) == 1 then
-                ctx:clear()
-                env.engine:commit_text(entry.text)
+            -- 是否單字候選
+            if utf8.len(entry.text) == 1 then
+                -- 是否啓用單字狀態
+                if fullcode_char then
+                    -- 單字模式, 首字上屏
+                    first = entry
+                    break
+                elseif not first then
+                    -- 非單字模式, 首字暫存
+                    first = entry
+                end
+            elseif not fullcode_char then
+                -- 字詞模式, 首詞上屏
+                first = entry
                 break
             end
+        end
+        -- 上屏暫存的候選
+        if first then
+            ctx:clear()
+            env.engine:commit_text(first.text)
         end
         return kAccepted
     end
