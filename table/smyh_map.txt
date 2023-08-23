@@ -55,7 +55,6 @@ Ds	白
 Du	夫
 Ee	乚
 Ee	㇉
-Ee	壬
 Ee	𡿨
 Eh	川
 Ei	生
@@ -66,6 +65,7 @@ Em	亡
 En	豕
 En	𡗗
 Eo	飛
+Ep	壬
 Er	亻
 Eu	夊
 Fa	冎
@@ -206,6 +206,7 @@ Qk	戸
 Ql	食
 Qm	殳
 Qn	缶
+Qp	予
 Qs	豸
 Qu	戶
 Rd	僉
@@ -331,7 +332,6 @@ Yw	广
 Yx	工
 Zi	乂
 Zi	𠂭
-Zj	予
 Zk	阝
 Zm	皿
 Zn	罒

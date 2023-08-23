@@ -60,7 +60,6 @@
 時候	jg2
 事情	jo2
 三個	js2
-處理	ke2
 能够	kh2
 而且	le2
 就是	lk2
@@ -90,8 +89,6 @@
 進行	cdn
 需要	cle
 直接	dmf
-真的	dmu
-因爲	dtj
 條件	ecf
 但是	ejf
 以後	elr
@@ -101,6 +98,7 @@
 容易	hro
 學習	hzk
 影響	jls
+處理	keq
 姑娘	lbu
 主要	lme
 現在	mmr
