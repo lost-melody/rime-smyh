@@ -1,7 +1,9 @@
 local core = {}
 
+
 -- librime-lua: https://github.com/hchunhui/librime-lua
 -- wiki: https://github.com/hchunhui/librime-lua/wiki/Scripting
+
 
 -- 由translator記録輸入串, 傳遞給filter
 core.input_code = ''
@@ -11,6 +13,7 @@ core.stashed_text = ''
 core.base_mem = nil
 -- 附加官宇詞庫
 core.full_mem = nil
+
 
 local _unix_supported
 -- 是否支持 Unix 命令
@@ -34,6 +37,7 @@ core.macro_types = {
     eval   = "eval",
 }
 
+
 -- 開關枚舉
 core.switch_names = {
     single_char   = "single_char",
@@ -43,6 +47,7 @@ core.switch_names = {
     embeded_cands = "embeded_cands",
     smyh_tc       = "smyh_tc"
 }
+
 
 core.funckeys_map = {
     primary   = " a",
@@ -82,6 +87,7 @@ local function set_option(env, ctx, option_name, value)
         end
     end
 end
+
 
 -- 下文的 new_tip, new_switch, new_radio 等是目前已實現的宏類型
 -- 其返回類型統一定義爲:
@@ -225,11 +231,11 @@ local function new_shell(name, cmd, text)
         local fd = get_fd(args)
         if self.text then
             local t = fd:read('a')
+            fd:close()
             if #t ~= 0 then
                 env.engine:commit_text(t)
             end
         end
-        fd:close()
         ctx:clear()
     end
 
@@ -296,6 +302,7 @@ local function new_eval(name, expr)
 
     return eval
 end
+
 
 -- ######## 工具函数 ########
 
@@ -408,8 +415,10 @@ function core.parse_conf_macro_list(env)
                     local cmd = key_map:get_value("cmd"):get_string()
                     local name = key_map:has_key("name") and key_map:get_value("name"):get_string() or ""
                     local text = key_map:has_key("text") and key_map:get_value("text"):get_bool() or false
+                    local hijack = key_map:has_key("hijack") and key_map:get_value("hijack"):get_bool() or false
                     if #cmd ~= 0 and (#name ~= 0 or text) then
                         table.insert(cands, new_shell(name, cmd, text))
+                        cands.hijack = cands.hijack or hijack
                     end
                 end
             elseif type == core.macro_types.eval then
@@ -417,8 +426,10 @@ function core.parse_conf_macro_list(env)
                 if key_map:has_key("expr") then
                     local name = key_map:has_key("name") and key_map:get_value("name"):get_string() or ""
                     local expr = key_map:get_value("expr"):get_string()
+                    local hijack = key_map:has_key("hijack") and key_map:get_value("hijack"):get_bool() or false
                     if #expr ~= 0 then
                         table.insert(cands, new_eval(name, expr))
+                        cands.hijack = cands.hijack or hijack
                     end
                 end
             end

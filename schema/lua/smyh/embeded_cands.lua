@@ -2,6 +2,7 @@
 local embeded_cands_filter = {}
 local core = require("smyh.core")
 
+
 --[[
 # xxx.schema.yaml
 switches:
@@ -55,8 +56,10 @@ local function compile_formatter(format)
     return res
 end
 
+
 -- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
 local namespaces = {}
+
 function namespaces:init(env)
     if not namespaces:config(env) then
         -- 讀取配置項
@@ -74,10 +77,12 @@ function namespaces:init(env)
         namespaces:set_config(env, config)
     end
 end
+
 function namespaces:set_config(env, config)
     namespaces[env.name_space] = namespaces[env.name_space] or {}
     namespaces[env.name_space].config = config
 end
+
 function namespaces:config(env)
     return namespaces[env.name_space] and namespaces[env.name_space].config
 end
@@ -184,6 +189,7 @@ local function render_cand(env, seq, code, stashed, text, comment, digested)
     })
     return cand, digested
 end
+
 
 -- 過濾器
 function embeded_cands_filter.func(input, env)

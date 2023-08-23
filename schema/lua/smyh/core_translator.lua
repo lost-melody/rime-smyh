@@ -1,10 +1,13 @@
 local translator = {}
 local core = require("smyh.core")
 
+
 local schemas = nil
+
 
 -- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
 local namespaces = {}
+
 function namespaces:init(env)
     -- 讀取配置項
     if not namespaces:config(env) then
@@ -15,10 +18,12 @@ function namespaces:init(env)
         namespaces:set_config(env, config)
     end
 end
+
 function namespaces:set_config(env, config)
     namespaces[env.name_space] = namespaces[env.name_space] or {}
     namespaces[env.name_space].config = config
 end
+
 function namespaces:config(env)
     return namespaces[env.name_space] and namespaces[env.name_space].config
 end
@@ -103,6 +108,7 @@ local function display_comment(comment)
     comment = string.gsub(comment, "([1-3])", comment_map)
     return comment
 end
+
 
 -- 處理宏
 local function handle_macros(env, ctx, seg, input)
@@ -223,6 +229,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
         yield(cand)
     end
 end
+
 
 function translator.func(input, seg, env)
     local ctx = env.engine.context

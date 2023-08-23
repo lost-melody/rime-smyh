@@ -1,16 +1,26 @@
-local processor   = {}
-local core        = require("smyh.core")
+local processor = {}
+local core      = require("smyh.core")
 
-local kRejected   = 0        -- 拒: 不作響應, 由操作系統做默認處理
-local kAccepted   = 1        -- 收: 由rime響應該按鍵
-local kNoop       = 2        -- 無: 請下一個processor繼續看
 
-local cA          = string.byte("a") -- 字符: 'a'
-local cZ          = string.byte("z") -- 字符: 'z'
-local cBs         = 0xff08           -- 退格
+local kRejected = 0 -- 拒: 不作響應, 由操作系統做默認處理
+local kAccepted = 1 -- 收: 由rime響應該按鍵
+local kNoop     = 2 -- 無: 請下一個processor繼續看
+
+
+local char_a         = string.byte("a") -- 字符: 'a'
+local char_z         = string.byte("z") -- 字符: 'z'
+local char_a_upper   = string.byte("A") -- 字符: 'A'
+local char_z_upper   = string.byte("Z") -- 字符: 'Z'
+local char_0         = string.byte("0") -- 字符: '0'
+local char_9         = string.byte("9") -- 字符: '9'
+local char_space     = 0x20             -- 空格
+local char_del       = 0x7f             -- 删除
+local char_backspace = 0xff08           -- 退格
+
 
 -- 按命名空間歸類方案配置, 而不是按会話, 以减少内存佔用
 local namespaces = {}
+
 function namespaces:init(env)
     -- 讀取配置項
     if not namespaces:config(env) then
@@ -20,10 +30,12 @@ function namespaces:init(env)
         namespaces:set_config(env, config)
     end
 end
+
 function namespaces:set_config(env, config)
     namespaces[env.name_space] = namespaces[env.name_space] or {}
     namespaces[env.name_space].config = config
 end
+
 function namespaces:config(env)
     return namespaces[env.name_space] and namespaces[env.name_space].config
 end
@@ -46,6 +58,7 @@ local function select_index(key, env)
     return index
 end
 
+
 -- 提交候選文本, 並刷新輸入串
 local function commit_text(env, ctx, text, input)
     ctx:clear()
@@ -55,9 +68,8 @@ local function commit_text(env, ctx, text, input)
     ctx:push_input(core.input_restore_funckeys(input))
 end
 
-local function handle_macros(env, ctx, input, idx)
-    local name, args = core.get_macro_args(input, namespaces:config(env).funckeys.macro)
-    local macro = namespaces:config(env).macros[name]
+
+local function handle_macros(env, ctx, macro, args, idx)
     if macro then
         if macro[idx] then
             macro[idx]:trigger(env, ctx, args)
@@ -203,6 +215,7 @@ local function handle_clean(env, ctx, ch)
     return kAccepted
 end
 
+
 function processor.init(env)
     if Switcher then
         env.switcher = Switcher(env.engine)
@@ -243,26 +256,31 @@ function processor.func(key_event, env)
     local funckeys = namespaces:config(env).funckeys
     if funckeys.macro[string.byte(string.sub(ctx.input, 1, 1))] then
         -- starts with funckeys/macro set
-        local idx = select_index(key_event, env)
-        if funckeys.clearact[ch] then
-            ctx:clear()
-            return kAccepted
-        elseif idx >= 0 then
-            return handle_macros(env, ctx, string.sub(ctx.input, 2), idx + 1)
-        elseif funckeys.macro[ch] then
-            ctx:push_input(string.char(ch))
-            return kAccepted
-        else
+        local name, args = core.get_macro_args(string.sub(ctx.input, 2), namespaces:config(env).funckeys.macro)
+        local macro = namespaces:config(env).macros[name]
+        if macro then
+            if macro.hijack and ch > char_space and ch < char_del then
+                ctx:push_input(string.char(ch))
+                return kAccepted
+            else
+                local idx = select_index(key_event, env)
+                if funckeys.clearact[ch] then
+                    ctx:clear()
+                    return kAccepted
+                elseif idx >= 0 then
+                    return handle_macros(env, ctx, macro, args, idx + 1)
+                end
+            end
             return kNoop
         end
     end
 
-    if ch >= cA and ch <= cZ then
+    if ch >= char_a and ch <= char_z then
         -- 'a'~'z'
         return handle_push(env, ctx, ch)
     end
 
-    if ch == cBs then
+    if ch == char_backspace then
         if string.match(ctx.input, " [a-c]$") then
             ctx:pop_input(1)
         end

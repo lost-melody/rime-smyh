@@ -22,6 +22,8 @@ patch:
     Eisu_toggle: clear
   recognizer/patterns/+:
     macros: "^/(calc|echo|len)(/[a-z]*)*$"
+    macro_calc: "^/calc(/[a-zA-Z0-9\\+\\-\\*\\^\\.%]*)*$"
+    macro_echo: "^/echo(/[a-zA-Z]*)*$"
   punctuator/half_shape/+:
     '<' : '《'
     '>' : '》'
@@ -57,7 +59,7 @@ patch:
   # *tip*:    {type: tip,    name: display,     text: commit},                     其中 *text* 为可選項.
   # *switch*: {type: switch, name: switch_name, states: [off_display,on_display]}, 類似 *schema/switches*.
   # *radio*:  {type: radio,  names: [s1,s2,s3], states: [d1,d2,d3]},               類似 *schema/switches* 之 *options*.
-  # *shell*:  {type: shell,  name: display,     cmd: shell_cmd,   text: true},     選中时執行 *shell_cmd* 命令, *text* 可選, 設为 true 時收集並提交命令輸出
+  # *shell*:  {type: shell,  name: display,     cmd: shell_cmd,   text: true},     選中时執行 *shell_cmd* 命令, *text* 可選, 設为 true 時收集並提交命令輸出. 可選的額外參數 *hijack* 爲 true 時, 攔截所有 *ascii* 輸入, 主要是數字鍵.
   # *eval*:   {type: eval,   name: display,     expr: "local a='bar'; return a"},  其中 *name* 为可選項, *expr* 必須是個 *return* 語句, 蓋 *lua* 將以 "function() <expr> end" 方式組裝函數並調用.
   # 例:
   # macros:
@@ -91,9 +93,6 @@ patch:
       - type: tip
         name: ☎郵箱
         text: lost__melody@163.com
-      - type: tip
-        name: ☏群號
-        text: "695190831"
     user:
       - type: shell
         name: ☘用户名
@@ -126,23 +125,22 @@ patch:
       # m(mod) => %
       # a(remainder) => //
       - type: eval
+        hijack: true
         expr: >
           local nums = {q='1',w='2',e='3',r='4',t='5',y='6',u='7',i='8',o='9',p='0'}
           local signs = {h='*',j='-',k='+',l='/',s='^',d='.',m='%',x='*',a='//'}
-          setmetatable(signs, { __index = function() return "+" end })
+          setmetatable(signs, { __index = function(self, key) return key end })
           local t = {
             nums = nums,
             signs = signs,
           }
           function t:calc(args, peek_only)
             if #args == 0 then return "" end
+            local expr = table.concat(args, "/")
             local res = {}
-            for _, expr in ipairs(args) do
-              expr = string.gsub(string.gsub(expr, "[qwertyuiop]", self.nums), "[^0-9]+", self.signs)
-              local eval = load("return " .. expr)
-              table.insert(res, (peek_only and expr .. "=" or "") .. (eval and eval() or "?"))
-            end
-            return table.concat(res, ",")
+            expr = string.gsub(string.gsub(expr, "[qwertyuiop]", self.nums), "[^0-9%+%-*/^.%%]", self.signs)
+            local eval = load("return " .. expr)
+            return (peek_only and expr .. "=" or "") .. (eval and eval() or "?")
           end
           function t:peek(args)
             return self:calc(args, true)
