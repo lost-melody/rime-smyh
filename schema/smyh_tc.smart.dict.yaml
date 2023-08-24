@@ -17,7 +17,6 @@ encoder:
 ...
 
 選框	aadfkm
-打叉	aahbll
 打卦	aahggj
 打傘	aahrrd
 打蔫	aahsfm
@@ -43,6 +42,7 @@ encoder:
 擯棄	ahmlks
 擯除	ahmzrf
 拘攣	ahoupc
+捯飭	ahxqww
 抵賴	ailfom
 掉渣	ajjiff
 拈量	ajojfn
@@ -134,16 +134,7 @@ encoder:
 下頷	bk1rlm
 下頜	bk1rum
 下葬	bk1sfs
-叉叉	bllbll
-叉手	bllcj1
-叉戟	blldjy
-叉腰	bllhcl
-尺子	bllkv1
-叉子	bllkv1
-叉燒	bllmgp
-叉開	bllrfs
-叉車	bllrq1
-尺蠖	bllvsb
+尺蠖	bl1vsb
 躋身	blycn1
 眉睫	bmvmft
 足赤	bn1guu
@@ -191,7 +182,6 @@ encoder:
 栗子	cfkkv1
 栗色	cfkpaj
 拜爵	cfwvza
-甄嬛	cgulzw
 酬酢	ciecwj
 手挽	cj1apt
 手錶	cj1dgw
@@ -244,7 +234,6 @@ encoder:
 錐子	dcikv1
 錐面	dcila1
 錐體	dcivcq
-鋼叉	dcjbll
 鋼渣	dcjiff
 銅芯	dcosgk
 皁白	ddids1
@@ -280,8 +269,8 @@ encoder:
 兜兒	dithtp
 兜子	ditkv1
 兜裏	ditlnw
+兜鍪	ditqwd
 兜底	dityil
-兜鍪	ditzwd
 斡旋	djdiwt
 朝暉	djhjpr
 朝暮	djhsjj
@@ -289,7 +278,6 @@ encoder:
 鎧甲	djqnf1
 圍殲	djxfuf
 圍墾	djxqsg
-刀叉	dk1bll
 刀鞘	dk1rkh
 鏜牀	dkgwfk
 鎖釦	dkmdos
@@ -366,7 +354,6 @@ encoder:
 栽蔥	dyfsrg
 鍼灸	dyoplm
 鍼砭	dyouwd
-載譽	dyrhuu
 鐮刀	dyudk1
 何啻	eaolqo
 倨傲	ebbege
@@ -437,6 +424,7 @@ encoder:
 飛瀉	eo1ihm
 飛蝗	eo1vdm
 保墒	eofglo
+壬辰	ep1ye1
 偏袒	eqlnjf
 伶俜	erbepu
 垂暮	esksjj
@@ -444,7 +432,6 @@ encoder:
 倚賴	etofom
 羸弱	eugnyy
 信賴	euifom
-信譽	euihuu
 佰易	eujjhd
 儲蓄	eujsln
 俗諺	euould
@@ -485,7 +472,6 @@ encoder:
 丙級	fcrprl
 丙申	fcrpx1
 杉磯	fdauur
-過譽	fdnhuu
 過濾	fdnikg
 札幌	feerjp
 楓涇	fekify
@@ -559,6 +545,7 @@ encoder:
 杏紅	fospyx
 杏花	fossei
 杏黃	fossyu
+整飭	fotqww
 豌豆	fovfoq
 樹葬	fpasfs
 枕芯	fptsgk
@@ -599,7 +586,6 @@ encoder:
 槓子	fymkv1
 地窖	g1hto
 地磁	g1uqu
-聲譽	gbthuu
 墳塋	gdmmmg
 穀倉	gfvrlo
 恚怒	ggglbg
@@ -753,7 +739,6 @@ encoder:
 寬泛	hsliwd
 寬綽	hslpjj
 寒磣	hsyukd
-譽爲	huuvjd
 腳凳	huxbfq
 腳釦	huxdos
 腹瀉	hweihm
@@ -780,7 +765,6 @@ encoder:
 肛瘻	hyxyol
 不賴	i1fom
 不啻	i1lqo
-不惟	i1pci
 不餒	i1qvl
 不苟	i1sho
 不吝	i1xos
@@ -1035,7 +1019,6 @@ encoder:
 馬褂	jr1ngj
 三顆	js1jfm
 弈棋	jskfxi
-馳譽	jsohuu
 暴曬	jsvjfy
 馱運	jtjprd
 馱轎	jtjrco
@@ -1081,7 +1064,6 @@ encoder:
 鸕鷀	knpqup
 糨糊	knvkbh
 叵測	kosimx
-虚譽	kpfhuu
 光錶	kpwdgw
 匝地	krkg1
 匝月	krkhr1
@@ -1112,10 +1094,8 @@ encoder:
 孀居	lcmbbu
 妖孽	lcmsgk
 嬌癡	lcoyit
-夜叉	lelbll
 夜鶯	lelmmp
 豪爵	lenvza
-褒譽	lewhuu
 嫣然	lfmhxm
 親暱	lfmjko
 親睹	lfmmgj
@@ -1127,7 +1107,6 @@ encoder:
 膏腴	lhrhhr
 聾啞	lhtofk
 礱糠	lhukyv
-音叉	ljkbll
 贛南	ljmdcd
 贛榆	ljmfrx
 贛州	ljmieh
@@ -1144,13 +1123,12 @@ encoder:
 竣工	lkeyx1
 京郊	lkfluz
 京畿	lkfuun
-烹飪	lkmqee
+烹飪	lkmqep
 烹茶	lkmsrf
 烹製	lkmtcw
 烹調	lkmuho
 熟稔	lkmvrg
 充磁	lktuqu
-享譽	lkvhuu
 耍賴	llcfom
 靦腆	lmrhcu
 奸佞	lnseyl
@@ -1167,11 +1145,10 @@ encoder:
 雜沓	lrcvjk
 市郊	lrkluz
 玄蔘	luoskd
-交叉	luzbll
 郊遊	luziwd
 郊區	luzkoo
 郊縣	luzmkp
-郊野	luznzj
+郊野	luznqp
 郊外	luzujp
 高淳	lv1ilk
 高亢	lv1lqh
@@ -1258,7 +1235,6 @@ encoder:
 眩人	mlur1
 眩惑	mluyog
 榮桓	mmffff
-榮譽	mmfhuu
 瑩白	mmlds1
 瓔珞	mmlmeo
 瑩瑩	mmlmml
@@ -1303,7 +1279,7 @@ encoder:
 眨巴	mwdaj1
 眨眼	mwdmsi
 眨動	mwdznw
-斑蝥	mxmzwv
+斑蝥	mxmqwv
 燻蒸	mzvsvm
 平壤	n1glw
 平倉	n1rlo
@@ -1338,6 +1314,7 @@ encoder:
 犟嘴	notott
 累贅	npcghm
 累卵	npcill
+野獸	nqpoox
 異獸	nsuoox
 張掖	ntmall
 頎長	numtm1
@@ -1345,7 +1322,6 @@ encoder:
 褲兜	nyrdit
 褲襠	nyrnkn
 弱鹼	nyymrd
-野獸	nzjoox
 吧凳	oa1bfq
 噼啪	obload
 嚅囁	oclott
@@ -1456,14 +1432,10 @@ encoder:
 對弈	p1jsk
 純鹼	paxmrd
 怪獸	pbgoox
+怪譎	pbguqo
 慳吝	pbgxos
 網兜	pcedit
 惘然	pcehxm
-惟一	pcif1
-惟有	pcishr
-惟其	pcixi1
-惟獨	pcixzv
-惟恐	pciyqg
 納妾	pcrllc
 恓惶	pcupdm
 悽惶	pdlpdm
@@ -1578,7 +1550,6 @@ encoder:
 背鰭	qihtgj
 餛飩	qjiqax
 飯糰	qnbkda
-飲譽	qnvhuu
 翟紅	qqcpyx
 戮力	qqywl1
 餘暉	qr1jpr
@@ -1595,6 +1566,7 @@ encoder:
 送傘	qtdrrd
 送葬	qtdsfs
 蠲除	quvzrf
+蟊賊	qwvmys
 餓殍	qwyfuk
 人渣	r1iff
 人獸	r1oox
@@ -1609,7 +1581,6 @@ encoder:
 輻射	rfncai
 輻照	rfnjdm
 輻輳	rfnret
-開叉	rfsbll
 開鐮	rfsdyu
 開豁	rfshwo
 開墾	rfsqsg
@@ -1657,6 +1628,7 @@ encoder:
 斬倉	rncrlo
 塹壕	rnggle
 車兜	rq1dit
+鞣料	rqfkyd
 帆檣	rqlfgo
 傘形	rrdfsd
 傘具	rrdmus
@@ -1671,7 +1643,6 @@ encoder:
 閾值	ryfedm
 輜重	rynzn1
 輜重	rynznt
-鞣料	rzfkyd
 囟門	rzirm1
 祜族	sbuiwq
 苦蔘	sbuskd
@@ -1681,7 +1652,6 @@ encoder:
 蘸料	scmkyd
 蘸着	scmumv
 茼蒿	scoslv
-藥叉	sdfbll
 荸薺	sdksly
 退佃	sdnenx
 退磁	sdnuqu
@@ -1856,6 +1826,7 @@ encoder:
 大篆	t1wre
 耵聹	tahtha
 奇詭	taoupv
+奇譎	taouqo
 聚殲	tbyfuf
 掣肘	tcchai
 奔瀉	tdsihm
@@ -1863,10 +1834,10 @@ encoder:
 特遣	tgaokd
 牡蠣	tgivkv
 鰭豚	tgjhen
+肯綮	thrqep
 聊賴	tigfom
 紫癜	tipybq
 鯤鵬	tjihhp
-牛叉	tl1bll
 牛倌	tl1ehb
 牛虻	tl1vem
 太倉	tllrlo
@@ -1882,7 +1853,6 @@ encoder:
 顳骨	ttmvj1
 先遣	ttpokd
 肆佰	txaeuj
-魚叉	ty1bll
 魚卵	ty1ill
 歲暮	tyksjj
 這顆	u1jfm
@@ -1891,7 +1861,6 @@ encoder:
 譙樓	ucmfol
 礄口	ucoos1
 硒鼓	ucupdb
-分叉	udkbll
 分櫱	udkxgf
 頒授	udmav1
 頒發	udmb1
@@ -1945,7 +1914,6 @@ encoder:
 碑碣	unduje
 砰然	unqhxm
 矸石	unsut1
-名譽	uoshuu
 名諺	uosuld
 名爵	uosvza
 話框	uoxfkm
@@ -1961,9 +1929,10 @@ encoder:
 詭奇	upvtao
 詭計	upvudi
 諍諫	upvufq
+詭譎	upvuqo
 詭詐	upvuwj
-詭譎	upvuzo
 詭秘	upvvgw
+譎詐	uqouwj
 譾陋	uqqzfe
 磁電	uqucpd
 磁針	uquddi
@@ -1996,11 +1965,10 @@ encoder:
 磁療	uquytk
 謚號	uqzouk
 讕言	urqui1
+謹飭	uryqww
 八卦	us1ggj
 護傘	usbrrd
 石磙	ut1ulw
-美譽	utjhuu
-讚譽	utmhuu
 讚歎	utmsfn
 硃批	utuaii
 誅仙	utueje
@@ -2138,7 +2106,6 @@ encoder:
 水碓	vu1uci
 水皰	vu1wha
 蟻獸	vuyoox
-稱譽	vv1huu
 稱歎	vv1sfn
 稱砣	vv1uhi
 蝌蚪	vvdvyd
@@ -2216,6 +2183,7 @@ encoder:
 獰笑	xhawcm
 猛獸	xkzoox
 狼嗥	xlsodd
+狡譎	xlzuqo
 狂瀉	xmeihm
 文娛	xn1lot
 狎暱	xnfjko
@@ -2284,7 +2252,6 @@ encoder:
 冰窖	yvuhto
 冰燈	yvumb1
 汞燈	yvumb1
-盛譽	yvzhuu
 痱子	ywikv1
 疲睏	ywumdf
 疲沓	ywuvjk
@@ -2315,4 +2282,3 @@ encoder:
 隨葬	zsdsfs
 勳爵	zvwvza
 罪孽	zwisgk
-蟊賊	zwvmys

@@ -240,6 +240,8 @@ encoder:
 壁灘	bogisc
 屢屢	bolbol
 屢次	bolynv
+蹂躏	bqfbsc
+蹂躪	bqfbsc
 慰勞	bsgmmw
 艰难	bsibci
 跟蹤	bsibvt
@@ -271,8 +273,6 @@ encoder:
 尾随	bxozsd
 尾隨	bxozsd
 遐迩	bydpkd
-蹂躏	bzfbsc
-蹂躪	bzfbsc
 射频	caitkc
 霹靂	cblckt
 霹雳	cblckw
@@ -318,6 +318,7 @@ encoder:
 内眷	creqdm
 躱閃	crfrre
 霸佔	crhejo
+肉酱	crrquc
 肉猪	crrxgj
 霰弹	csenqd
 飄蕩	csesid
@@ -439,6 +440,7 @@ encoder:
 误删	dothhx
 囊肿	dowhoc
 话茬	doxssg
+诡谲	dpvdqo
 诤友	dpvsbj
 鉛筆	dqowxa
 谦逊	dqukkd
@@ -542,6 +544,7 @@ encoder:
 佳肴	eggzsh
 佝偻	ehoekl
 生殖	ei1fum
+生酱	ei1quc
 生猪	ei1xgj
 倾覆	eiccve
 倾谈	eicdmm
@@ -1322,6 +1325,7 @@ encoder:
 山麓	je1ffy
 山坳	je1guw
 旦暮	jfisjj
+果酱	jfkquc
 顆粒	jfmklu
 覬覦	jfmrfm
 豈不	jfqi1
@@ -1455,6 +1459,7 @@ encoder:
 逡巡	kudydn
 粉塵	kudygi
 子宮	kv1hor
+子酱	kv1quc
 子爵	kv1vza
 少爺	kwkuzz
 虐打	kxjaah
@@ -1492,6 +1497,8 @@ encoder:
 新禧	lfnspo
 新锐	lfntqt
 辣椒	lfofkb
+辣椒酱	lfofkbquc
+辣酱	lfoquc
 衰朽	lfwfua
 衰敗	lfwmeu
 褻瀆	lgwigm
@@ -1506,8 +1513,8 @@ encoder:
 竣工	lkeyx1
 京郊	lkfluz
 烹调	lkmdho
-烹饪	lkmkee
-烹飪	lkmqee
+烹饪	lkmkep
+烹飪	lkmqep
 烹茶	lkmsrf
 烹制	lkmtcx
 烹調	lkmuho
@@ -1549,7 +1556,7 @@ encoder:
 郊游	luziik
 郊區	luzkoo
 郊区	luzkzi
-郊野	luznzj
+郊野	luznqp
 郊外	luzujp
 高亢	lv1lqh
 高亮	lv1lqh
@@ -1647,8 +1654,8 @@ encoder:
 敗筆	meuwxa
 烽燧	mewmqd
 玳瑁	meymcm
+賦予	mftqp1
 賦税	mftvqt
-賦予	mftzj1
 睦邻	mggrlz
 賭博	mgjdma
 賭錢	mgjdyy
@@ -1718,13 +1725,13 @@ encoder:
 勞作	mmwewj
 勞模	mmwfst
 勞累	mmwnpc
+勞務	mmwqww
 勞苦	mmwsbu
 勞碌	mmwuxv
 勞力	mmwwl1
 勞資	mmwynm
 勞工	mmwyx1
 勞動	mmwznw
-勞務	mmwzww
 软肋	mnvhwl
 炊事	mnvjox
 炊煙	mnvmcg
@@ -1755,7 +1762,8 @@ encoder:
 轶事	mwdjox
 貶義	mwduwy
 轶闻	mwdxte
-斑蝥	mxmzwv
+炸酱	mwjquc
+斑蝥	mxmqwv
 纯碱	naxuyo
 反诬	nbjdyr
 反绑	nbjnwz
@@ -1820,6 +1828,10 @@ encoder:
 平壤	nqiglw
 平穩	nqivvg
 编撰	nqlaau
+野炊	nqpmnv
+野獸	nqpoox
+野蠻	nqpupv
+野猪	nqpxgj
 干渠	ns1ikf
 畸形	ntofsd
 畸胎	ntohko
@@ -1850,10 +1862,6 @@ encoder:
 红尘	nyxkgi
 红苕	nyxsdo
 弱碱	nyyuyo
-野炊	nzjmnv
-野獸	nzjoox
-野蠻	nzjupv
-野猪	nzjxgj
 纤尘	nzokgi
 中釘	o1dah
 叮咛	oahoha
@@ -2131,7 +2139,6 @@ encoder:
 装帧	qgwrjc
 前倾	qhxeic
 前尘	qhxkgi
-前茅	qhxszw
 前塵	qhxygi
 北麓	qibffy
 背鳍	qihpgj
@@ -2156,7 +2163,13 @@ encoder:
 懇求	qsgfvl
 懇請	qsgugh
 并吞	qskfto
+酱肉	quccrr
+酱油	qucipb
+酱菜	qucsvf
+酱紫	quctip
 慈禧	qugspo
+預習	qumqqd
+蟊贼	qwvcys
 风尘	qzikgi
 风铃	qzitrb
 專櫃	raifkm
@@ -2230,7 +2243,7 @@ encoder:
 邻座	rlzyrg
 全歼	rmefuz
 軒轅	rnsrgw
-舒暢	rozpjd
+舒暢	roqpjd
 車燈	rq1mbq
 垩纪	rqgnal
 晋爵	rqjvza
@@ -2401,16 +2414,6 @@ encoder:
 左倾	syxeic
 邯鄲	syzooz
 萝卜	szujp1
-茅屋	szwbhc
-茅棚	szwfhh
-茅坑	szwglq
-茅厕	szwkcx
-茅台	szwkos
-茅盾	szwndm
-茅房	szwqis
-茅舍	szwrox
-茅草	szwsja
-茅庐	szwyqk
 大坝	t1gcv
 大褂	t1ngj
 大蔥	t1srg
@@ -2906,6 +2909,7 @@ encoder:
 汞柱	yvuflm
 冰窖	yvuhto
 广泛	yw1iwd
+广袤	yw1lqw
 痱子	ywikv1
 麽辦	ywklwl
 功勞	ywlmmw
@@ -2993,7 +2997,5 @@ encoder:
 堕落	zsgsio
 墮落	zsgsio
 肴馔	zshkau
-預習	zumqqd
 罪孽	zwisgk
-蟊贼	zwvcys
 兇殘	zxtfuy
