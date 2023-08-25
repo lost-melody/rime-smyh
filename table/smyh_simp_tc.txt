@@ -42,7 +42,7 @@
 個	ed1
 便	ef1
 生	ei1
-你	ep1
+你	epk
 傷	ew1
 冬	ey1
 查	fj1
@@ -66,8 +66,6 @@
 三	js1
 能	kh1
 而	le1
-就	lk1
-如	lo1
 衣	lw1
 燈	mb1
 質	nn1
@@ -113,6 +111,7 @@
 處	keq
 姑	lbu
 主	lme
+如	los
 現	mmr
 嗯	odg
 哎	osz

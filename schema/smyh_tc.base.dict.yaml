@@ -1596,7 +1596,6 @@ columns:
 霛	cnn	0
 靁	cnn	0
 靐	cnn	0
-曱	cns	0
 酐	cns	0
 霬	cnu	0
 雷	cnx	11418
@@ -3452,7 +3451,6 @@ columns:
 洜	eov	0
 颳	eox	762
 佸	eox	0
-你	ep1	394408
 壬	ep1	635
 伷	epb	0
 傕	epc	1
@@ -3460,6 +3458,7 @@ columns:
 像	epe	88409
 敒	epe	0
 您	epg	26661
+你	epk	394408
 你	epk	100
 儳	epl	0
 偩	epm	0
@@ -7721,6 +7720,7 @@ columns:
 嶕	jcm	0
 嶣	jcm	0
 驦	jcm	0
+曱	jcn	0
 甴	jcn	0
 驕	jco	3489
 峒	jco	73
@@ -9459,9 +9459,8 @@ columns:
 戠	ljy	0
 媪	ljz	0
 鄣	ljz	0
-就	lk1	325551
 嫾	lka	0
-就	lkb	100
+就	lkb	325551
 姖	lkb	0
 婌	lkb	0
 蹵	lkb	0
@@ -9601,7 +9600,6 @@ columns:
 氃	lnx	0
 畗	lnx	0
 嫋	lny	264
-如	lo1	226421
 郶	loa	0
 妕	loc	0
 挐	loc	0
@@ -9619,6 +9617,7 @@ columns:
 鴽	lop	0
 娲	lor	5
 帤	lor	0
+如	los	226421
 如	los	100
 咅	los	0
 競	lot	21932
@@ -21260,7 +21259,7 @@ columns:
 什麽	ed2
 便是	ef2
 生活	ei2
-你們	ep2
+你們	epk
 傷害	ew2
 冬天	ey2
 查詢	fj2
@@ -21283,8 +21282,6 @@ columns:
 三個	js2
 能够	kh2
 而且	le2
-就是	lk2
-如果	lo2
 衣服	lw2
 質量	nn2
 吧！	oa2
@@ -21322,6 +21319,7 @@ columns:
 處理	keq
 姑娘	lbu
 主要	lme
+如果	los
 現在	mmr
 嗯嗯	odg
 哎！	osz
@@ -21357,12 +21355,12 @@ columns:
 出去	x2
 成功	y2
 還有	z2
-你的	ep2
+你的	epk
 方式	is2
 時間	jg2
-如此	lo2
 説話	uq2
 機器	fur
+如此	los
 所有	qnc
 ·	jj1
 　	kz1
