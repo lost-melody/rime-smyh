@@ -45,13 +45,16 @@ function translator.init(env)
         schemas = {
             smyh_base = Memory(env.engine, Schema("smyh.base")),
             smyh_full = Memory(env.engine, Schema("smyh.yuhaowords")),
+            smyh_trie = core.gen_smart_trie(ReverseLookup("smyh.base"), "smyh.smart.txt"),
             smyh_tc_base = Memory(env.engine, Schema("smyh_tc.base")),
             smyh_tc_full = Memory(env.engine, Schema("smyh_tc.yuhaowords")),
+            smyh_tc_trie = core.gen_smart_trie(ReverseLookup("smyh_tc.base"), "smyh_tc.smart.txt"),
         }
     end
     if not core.base_mem and schemas then
         core.base_mem = schemas.smyh_base
         core.full_mem = schemas.smyh_full
+        core.word_trie = schemas.smyh_trie
     end
 
     -- 同步開關狀態, 更新碼表
@@ -61,9 +64,11 @@ function translator.init(env)
             if enabled then
                 core.base_mem = schemas.smyh_tc_base
                 core.full_mem = schemas.smyh_tc_full
+                core.word_trie = schemas.smyh_tc_trie
             else
                 core.base_mem = schemas.smyh_base
                 core.full_mem = schemas.smyh_full
+                core.word_trie = schemas.smyh_trie
             end
         end
     end
@@ -154,9 +159,21 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     core.input_code = display_input(remain)
 
     -- 先查出全串候選列表
-    local full_entries = core.dict_lookup(core.base_mem, input, 10)
-    if #full_entries ~= 0 then
-        full_entries[1].comment = "☯"
+    local full_entries = {}
+    -- TODO: 優化智能詞查詢
+    if #code_segs ~= 0 then
+        local full_segs = {}
+        for _, seg in ipairs(code_segs) do
+            table.insert(full_segs, seg)
+        end
+        if #remain ~= 0 then
+            table.insert(full_segs, remain)
+        end
+        local chars = core.query_first_cand_list(core.base_mem, full_segs)
+        local words = core.word_trie:query(full_segs, chars)
+        for _, word in ipairs(words) do
+            table.insert(full_entries, { text = word, comment = "☯" })
+        end
     end
 
     if not env.option[core.switch_names.full_off] and #input == 4 and not string.match(input, "[^a-z]") then

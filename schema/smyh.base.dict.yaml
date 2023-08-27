@@ -6,7 +6,6 @@ name: "smyh.base"
 version: "beta"
 sort: original
 import_tables:
-  - smyh.smart
 columns:
   - text
   - code

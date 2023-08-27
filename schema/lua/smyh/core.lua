@@ -11,6 +11,8 @@ core.input_code = ''
 core.stashed_text = ''
 -- 由translator初始化基础碼表數據
 core.base_mem = nil
+-- 由translator構造智能詞前綴樹
+core.word_trie = nil
 -- 附加官宇詞庫
 core.full_mem = nil
 
@@ -465,11 +467,104 @@ function core.parse_conf_funckeys(env)
     return funckeys
 end
 
--- 是否單個編碼段, 如: "abc", "ab_", "a;", "a_"
-function core.single_smyh_seg(input)
-    return string.match(input, "^[a-z][ ;]$")       -- 一簡
-        or string.match(input, "^[a-z][a-z] ;$")    -- 二簡
-        or string.match(input, "^[a-z][a-z][a-z]$") -- 單字全碼
+-- 構造智能詞前綴树
+function core.gen_smart_trie(rev, dict_path)
+    local result = {} -- 返回結果
+    result.trie  = {} -- 編碼前綴樹: 編碼->節點
+    result.words = {} -- 已录入詞語集合: 詞語->詞序
+
+    -- 查詢對應的智能候選詞
+    function result:query(code_segs, first_chars)
+        local res, final = {}, true
+        local trie = self.trie
+        if #code_segs <= 1 then
+            return res, final
+        end
+
+        for _, code in ipairs(code_segs) do
+            if not trie[code] then
+                -- 節點無詞, 返回
+                return {}, final
+            end
+            -- 有詞, 則暫存
+            res = trie[code].words
+            trie = trie[code].nodes
+        end
+
+        for _ in pairs(trie) do
+            -- 子節點尚有元素, 則非終結詞
+            final = false
+            break
+        end
+
+        if #res == 1 and res[1] == table.concat(first_chars) then
+            return {}, final
+        end
+        return res, final
+    end
+
+    -- 反查字典無效
+    if not rev then
+        return result
+    end
+
+    -- 試圖開文件
+    local dict_file
+    dict_file = io.open(rime_api.get_user_data_dir() .. "/" .. dict_path, "r")
+    if not dict_file then
+        -- 失敗, 假裝無事發生
+        return result
+    end
+
+    local seq = 0
+    -- 逐行讀取詞語
+    for line in dict_file:lines() do
+        seq = seq + 1 -- 當前詞語序號
+
+        local chars = {}
+        -- "時間軸" => ["時:jga", "間:rjk", "軸:rpb"]
+        for _, c in utf8.codes(line) do
+            local char = utf8.char(c)
+            local code = core.rev_lookup(rev, char)
+            if #code == 0 then
+                -- 反查失敗, 下一個
+                break
+            end
+            table.insert(chars, { char = char, code = code })
+        end
+
+        -- 1 <= i <= n-1; i <= j <= n
+        -- (i, j): (1, 1) -> (1, 2) -> (1, 3) -> (2, 2) -> (2, 3)
+        -- "時", "時間", "時間軸", "間", "間軸"
+        for i = 1, #chars - 1, 1 do
+            local trie = result.trie -- 從根節點開始录入當前詞語構成的鏈
+            local word = ""          -- 逐字構建詞語
+            for j = i, #chars, 1 do
+                local char, code = chars[j].char, chars[j].code
+                -- 編碼節點不存在, 則創建之
+                -- {} => { "jga" = "時" } => { "jga" = { "rjk" = "間" } }
+                if not trie[code] then
+                    trie[code] = {
+                        code = code,
+                        words = {},
+                        nodes = {},
+                    }
+                end
+                -- 連字成詞
+                word = word .. char
+                if not result.words[word] then
+                    -- 尚未录入, 录之
+                    result.words[word] = seq
+                    table.insert(trie[code].words, word)
+                end
+                -- 下一位!
+                trie = trie[code].nodes
+            end
+        end
+    end
+    dict_file:close()
+
+    return result
 end
 
 -- 是否合法宇三分詞串
@@ -523,6 +618,21 @@ function core.get_code_segs(input)
         end
     end
     return code_segs, input
+end
+
+-- 根据字符反查最短編碼
+function core.rev_lookup(rev, char)
+    local result = ""
+    if not rev then
+        return result
+    end
+    -- rev:lookup("他") => "e1 eso"
+    for code in string.gmatch(rev:lookup(char), "[^ ]+") do
+        if #result == 0 or #code < #result then
+            result = code
+        end
+    end
+    return result
 end
 
 -- 查询编码对应候选列表
@@ -579,7 +689,21 @@ function core.query_cand_list(mem, code_segs, skipfull)
                 -- continue
             else
                 code = table.concat(code_segs, "", index, viewport)
-                local entries = core.dict_lookup(mem, code)
+                -- TODO: 優化智能詞查詢
+                local entries = {}
+                if index == viewport then
+                    entries = core.dict_lookup(mem, code)
+                else
+                    local segs = {}
+                    for i = index, viewport, 1 do
+                        table.insert(segs, code_segs[i])
+                    end
+                    local chars = core.query_first_cand_list(mem, segs)
+                    local words = core.word_trie:query(segs, chars)
+                    for _, word in ipairs(words) do
+                        table.insert(entries, { text = word, comment = "☯" })
+                    end
+                end
                 if entries[1] then
                     -- 當前viewport有候選, 擇之並進入下一輪
                     table.insert(cand_list, entries[1].text)

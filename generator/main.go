@@ -17,7 +17,6 @@ type Args struct {
 	Simp   string `flag:"s" usage:"smyh_simp.txt" default:"../table/smyh_simp.txt"`
 	Map    string `flag:"m" usage:"smyh_map.txt"  default:"../table/smyh_map.txt"`
 	Freq   string `flag:"f" usage:"freq.txt"      default:"../table/freq.txt"`
-	Phrase string `flag:"p" usage:"phrase.txt"    default:"../table/phrase.txt"`
 	White  string `flag:"w" usage:"whitelist.txt" default:"../table/cjkext_whitelist.txt"`
 }
 
@@ -45,10 +44,6 @@ func main() {
 	if err != nil {
 		log.Fatalln(err)
 	}
-	phraseFreqSet, err := tools.ReadPhraseFreq(args.Phrase)
-	if err != nil {
-		log.Fatalln(err)
-	}
 	cjkExtWhiteSet, err := tools.ReadCJKExtWhitelist(args.White)
 	if err != nil {
 		log.Fatalln(err)
@@ -58,14 +53,10 @@ func main() {
 	charMetaMap := tools.BuildCharMetaMap(charMetaList)
 	codeCharMetaMap := tools.BuildCodeCharMetaMap(charMetaList)
 	fullCodeMetaList := tools.BuildFullCodeMetaList(divTable, compMap, freqSet, charMetaMap)
-	phraseMetaList, phraseTipList := tools.BuildSmartPhraseList(charMetaMap, codeCharMetaMap, phraseFreqSet)
 	fmt.Println("charMetaList:", len(charMetaList))
 	fmt.Println("fullCodeMetaList:", len(fullCodeMetaList))
 	fmt.Println("charMetaMap:", len(charMetaMap))
 	fmt.Println("codeCharMetaMap:", len(codeCharMetaMap))
-	fmt.Println("phraseFreqSet:", len(phraseFreqSet))
-	fmt.Println("phraseMetaList:", len(phraseMetaList))
-	fmt.Println("phraseTipList:", len(phraseTipList))
 
 	buffer := bytes.Buffer{}
 
@@ -109,27 +100,4 @@ func main() {
 	if err != nil {
 		log.Fatalln(err)
 	}
-
-	// PHRASE
-	buffer.Truncate(0)
-	for _, phraseMeta := range phraseMetaList {
-		buffer.WriteString(fmt.Sprintf("%s\t%s\n", phraseMeta.Phrase, phraseMeta.Code))
-	}
-	err = os.WriteFile("/tmp/phrase.txt", buffer.Bytes(), 0o644)
-	if err != nil {
-		log.Fatalln(err)
-	}
-
-	// buffer.Truncate(0)
-	// phraseTipSet := map[string][]string{}
-	// for _, phraseTip := range phraseTipList {
-	// 	phraseTipSet[phraseTip.Phrase] = append(phraseTipSet[phraseTip.Phrase], phraseTip.CPhrase)
-	// }
-	// for phrase, cPhrases := range phraseTipSet {
-	// 	buffer.WriteString(fmt.Sprintf("%s\t%s\n", phrase, strings.Join(cPhrases, " ")))
-	// }
-	// err = os.WriteFile("/tmp/tip.txt", buffer.Bytes(), 0644)
-	// if err != nil {
-	// 	log.Fatalln(err)
-	// }
 }

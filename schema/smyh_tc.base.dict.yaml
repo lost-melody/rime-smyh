@@ -6,7 +6,6 @@ name: "smyh_tc.base"
 version: "beta"
 sort: original
 import_tables:
-  - smyh_tc.smart
 columns:
   - text
   - code
