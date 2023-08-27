@@ -47,11 +47,13 @@ function translator.init(env)
         schemas = {
             smyh_base = Memory(env.engine, Schema("smyh.base")),
             smyh_full = Memory(env.engine, Schema("smyh.yuhaowords")),
-            smyh_trie = core.gen_smart_trie(smyh_rev, "smyh.smart.txt"),
+            smyh_trie = core.gen_smart_trie(smyh_rev, "smyh.smart.userdb", "smyh.smart.txt"),
             smyh_tc_base = Memory(env.engine, Schema("smyh_tc.base")),
             smyh_tc_full = Memory(env.engine, Schema("smyh_tc.yuhaowords")),
-            smyh_tc_trie = core.gen_smart_trie(smyh_tc_rev, "smyh_tc.smart.txt"),
+            smyh_tc_trie = core.gen_smart_trie(smyh_tc_rev, "smyh_tc.smart.userdb", "smyh_tc.smart.txt"),
         }
+    elseif not schemas then
+        schemas = {}
     end
     if not core.base_mem and schemas then
         core.base_mem = schemas.smyh_base
@@ -125,7 +127,7 @@ local function handle_macros(env, ctx, seg, input)
         core.input_code = ":" .. input .. " "
         local text_list = {}
         for i, m in ipairs(macro) do
-            table.insert(text_list, m:display(ctx, args) .. index_indicators[i])
+            table.insert(text_list, m:display(env, ctx, args) .. index_indicators[i])
         end
         local cand = Candidate("macro", seg.start, seg._end, "", table.concat(text_list, " "))
         yield(cand)

@@ -114,7 +114,7 @@ local function new_tip(name, text)
         name = name,
         text = text,
     }
-    function tip:display(ctx)
+    function tip:display(env, ctx)
         return #self.name ~= 0 and self.name or ""
     end
 
@@ -139,7 +139,7 @@ local function new_switch(name, states)
         name = name,
         states = states,
     }
-    function switch:display(ctx)
+    function switch:display(env, ctx)
         local state = ""
         local current_value = ctx:get_option(self.name)
         if current_value then
@@ -169,7 +169,7 @@ local function new_radio(states)
         type   = core.macro_types.radio,
         states = states,
     }
-    function radio:display(ctx)
+    function radio:display(env, ctx)
         local state = ""
         for _, op in ipairs(self.states) do
             local value = ctx:get_option(op.name)
@@ -225,7 +225,7 @@ local function new_shell(name, cmd, text)
         text = text,
     }
 
-    function shell:display(ctx, args)
+    function shell:display(env, ctx, args)
         return #self.name ~= 0 and self.name or self.text and get_fd(args):read('a')
     end
 
@@ -263,9 +263,9 @@ local function new_eval(name, expr)
         expr = f,
     }
 
-    function eval:get_text(args, getter)
+    function eval:get_text(args, env, getter)
         if type(self.expr) == "function" then
-            local res = self.expr(args)
+            local res = self.expr(args, env)
             if type(res) == "string" then
                 return res
             elseif type(res) == "function" or type(res) == "table" then
@@ -277,25 +277,25 @@ local function new_eval(name, expr)
 
         local res
         if type(self.expr) == "function" then
-            res = self.expr(args)
+            res = self.expr(args, env)
         elseif type(self.expr) == "table" then
             local get_text = self.expr[getter]
-            res = type(get_text) == "function" and get_text(self.expr, args) or nil
+            res = type(get_text) == "function" and get_text(self.expr, args, env) or nil
         end
         return type(res) == "string" and res or ""
     end
 
-    function eval:display(ctx, args)
+    function eval:display(env, ctx, args)
         if #self.name ~= 0 then
             return self.name
         else
-            local _, res = pcall(self.get_text, self, args, "peek")
+            local _, res = pcall(self.get_text, self, args, env, "peek")
             return res
         end
     end
 
     function eval:trigger(env, ctx, args)
-        local ok, res = pcall(self.get_text, self, args, "eval")
+        local ok, res = pcall(self.get_text, self, args, env, "eval")
         if ok and #res ~= 0 then
             env.engine:commit_text(res)
         end
@@ -468,8 +468,12 @@ function core.parse_conf_funckeys(env)
 end
 
 -- 構造智能詞前綴树
-function core.gen_smart_trie(rev, dict_path)
-    local result = {} -- 返回結果
+function core.gen_smart_trie(rev, db_name, dict_name)
+    local result = {
+        db_path   = rime_api.get_user_data_dir() .. "/" .. db_name,
+        dict_path = rime_api.get_user_data_dir() .. "/" .. dict_name,
+    }
+    result.userdb = LevelDb and LevelDb(result.db_path, "")
     result.trie  = {} -- 編碼前綴樹: 編碼->節點
     result.words = {} -- 已录入詞語集合: 詞語->詞序
 
@@ -722,4 +726,6 @@ function core.query_cand_list(mem, code_segs, skipfull)
     return cand_list, code
 end
 
+-- 導出爲全局模块
+WafelCore = core
 return core
