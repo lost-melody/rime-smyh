@@ -2876,6 +2876,7 @@ columns:
 𭢂	ayrg
 𠄧	ayrj
 𰁕	ayrk
+𨌏	ayrq
 𫽨	ayrz
 𢱋	aysb
 找	aysk
@@ -7226,7 +7227,6 @@ columns:
 𨙝	cnsd
 𬰉	cnsi
 酐	cnsk
-曱	cnsk
 𨡟	cnsk
 𩂀	cnso
 𰀞	cnsp
@@ -24146,6 +24146,8 @@ columns:
 𥤲	hbkv
 𪖌	hbkz
 𡨉	hbla
+𢮗	hblc
+肞	hbll
 𪧆	hbll
 𮌋	hbll
 𰌵	hbll
@@ -25994,9 +25996,7 @@ columns:
 𱷀	hlxv
 𥧫	hlxz
 𬛋	hlxz
-𢮗	hlzc
 𦟨	hlze
-肞	hlzi
 䢷	hlzk
 䢿	hlzk
 𲆏	hlzk
@@ -27589,6 +27589,7 @@ columns:
 𬚾	hway
 𡩽	hwbd
 𡧌	hwbj
+𦟭	hwby
 𦙛	hwce
 𫳼	hwck
 𡦾	hwcl
@@ -27610,7 +27611,6 @@ columns:
 𫴛	hweh
 𡩩	hweo
 胏	hwew
-𦟭	hwey
 𦠱	hwey
 𫲸	hwfb
 𦝆	hwfk
@@ -33247,6 +33247,7 @@ columns:
 𩡻	jcmr
 𡺗	jcmv
 𡺺	jcna
+曱	jcnk
 甴	jcnk
 𮹆	jcnn
 𫶘	jcnx
@@ -42212,7 +42213,6 @@ columns:
 褭	ljwh
 𧘼	ljwh
 𪵦	ljwj
-𫞟	ljwk
 為	ljwl
 𠅩	ljwl
 𪟠	ljwl
@@ -50806,7 +50806,6 @@ columns:
 𧖎	niiv
 𭻲	niiz
 弾	nijd
-褝	nijd
 𩱮	nikc
 㣄	nikf
 𱊨	nikf
@@ -51657,6 +51656,7 @@ columns:
 矤	nqja
 𩱭	nqjc
 弹	nqjd
+褝	nqjd
 𦈎	nqjd
 𫸿	nqjd
 𲌨	nqji
@@ -62174,6 +62174,7 @@ columns:
 𥎽	qjtj
 𩜠	qjut
 𩚋	qjvi
+𫞟	qjwi
 豺	qjwk
 𩜖	qjwk
 𫝐	qjxd
@@ -70350,6 +70351,7 @@ columns:
 𦵆	sjnx
 𦹸	sjnx
 𬝐	sjom
+䕎	sjon
 苫	sjos
 𫀅	sjos
 𬞁	sjot
@@ -70954,7 +70956,6 @@ columns:
 𦰲	smfj
 苴	smfk
 𦳮	smfk
-䕎	smfn
 𦳼	smfr
 祖	smfs
 祖	smfs
@@ -77376,6 +77377,7 @@ columns:
 㦵	tuys
 䰈	tuyx
 䱹	tuyx
+𣦋	tuyx
 𨲠	tuyx
 𫟿	tuyx
 𩵹	tuzi
@@ -77744,7 +77746,6 @@ columns:
 䰔	txqz
 𱇆	txqz
 𤛄	txte
-𣦋	txty
 歬	txuh
 𩶚	txus
 𬭉	txus
@@ -94047,7 +94048,6 @@ columns:
 𠳆	yaos
 𬷨	yapq
 㓒	yarl
-𨌏	yarq
 𫷩	yask
 𫯕	yauj
 𠄽	yawi

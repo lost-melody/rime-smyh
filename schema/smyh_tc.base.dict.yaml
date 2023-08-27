@@ -20,22 +20,30 @@ columns:
 的	d1	2080366
 他	e1	529028
 一	f1	1378822
+頭	f2	217899
 地	g1	389633
+赤	g2	7035
 到	h1	454836
 不	i1	1216779
 是	j1	1041202
+題	j2	81671
 了	k1	1267234
 好	l1	309837
+交	l2	69212
 自	m1	311665
 平	n1	111827
 中	o1	459464
+品	o2	93450
 對	p1	217461
 道	q1	361378
 人	r1	816052
 在	s1	635955
+有	s2	722264
 大	t1	587485
 這	u1	473688
+着	u2	150867
 那	v1	279194
+爲	v2	318146
 我	w1	1076848
 出	x1	392489
 成	y1	300750
@@ -1596,7 +1604,6 @@ columns:
 霛	cnn	0
 靁	cnn	0
 靐	cnn	0
-曱	cns	0
 酐	cns	0
 霬	cnu	0
 雷	cnx	11418
@@ -3452,7 +3459,6 @@ columns:
 洜	eov	0
 颳	eox	762
 佸	eox	0
-你	ep1	394408
 壬	ep1	635
 伷	epb	0
 傕	epc	1
@@ -3460,6 +3466,7 @@ columns:
 像	epe	88409
 敒	epe	0
 您	epg	26661
+你	epk	394408
 你	epk	100
 儳	epl	0
 偩	epm	0
@@ -4392,8 +4399,8 @@ columns:
 梋	foh	0
 樓	fol	45885
 辢	fol	0
-頭	fom	217899
 賴	fom	8479
+頭	fom	100
 桯	fom	0
 樻	fom	0
 頼	fom	0
@@ -5542,7 +5549,7 @@ columns:
 塕	guq	0
 坧	gut	0
 赫	guu	16423
-赤	guu	7035
+赤	guu	100
 垑	guu	0
 螫	guv	140
 赨	guv	0
@@ -5658,6 +5665,7 @@ columns:
 鼶	hbk	0
 鼴	hbl	35
 鼹	hbl	1
+肞	hbl	0
 鼥	hbl	0
 臔	hbm	0
 賔	hbm	0
@@ -5992,7 +6000,6 @@ columns:
 膱	hly	0
 胶	hlz	15
 窔	hlz	0
-肞	hlz	0
 膊	hma	1578
 叜	hmb	0
 臞	hmc	104
@@ -7721,6 +7728,7 @@ columns:
 嶕	jcm	0
 嶣	jcm	0
 驦	jcm	0
+曱	jcn	0
 甴	jcn	0
 驕	jco	3489
 峒	jco	73
@@ -7850,9 +7858,9 @@ columns:
 栾	jfk	2
 崧	jfk	1
 崃	jfk	0
-題	jfm	81671
 顆	jfm	7975
 覬	jfm	264
+題	jfm	100
 嵀	jfm	0
 顗	jfm	0
 量	jfn	75329
@@ -9459,9 +9467,8 @@ columns:
 戠	ljy	0
 媪	ljz	0
 鄣	ljz	0
-就	lk1	325551
 嫾	lka	0
-就	lkb	100
+就	lkb	325551
 姖	lkb	0
 婌	lkb	0
 蹵	lkb	0
@@ -9601,7 +9608,6 @@ columns:
 氃	lnx	0
 畗	lnx	0
 嫋	lny	264
-如	lo1	226421
 郶	loa	0
 妕	loc	0
 挐	loc	0
@@ -9619,6 +9625,7 @@ columns:
 鴽	lop	0
 娲	lor	5
 帤	lor	0
+如	los	226421
 如	los	100
 咅	los	0
 競	lot	21932
@@ -9817,8 +9824,8 @@ columns:
 袲	luw	0
 嫅	luy	0
 嬟	luy	0
-交	luz	69212
 郊	luz	4032
+交	luz	100
 鄐	luz	0
 高	lv1	304702
 媛	lvb	240
@@ -11312,7 +11319,6 @@ columns:
 纸	nia	144
 衹	nia	35
 弾	nid	0
-褝	nid	0
 毗	nii	2
 纰	nii	1
 毘	nii	0
@@ -11497,6 +11503,7 @@ columns:
 缪	nqd	8
 彅	nqd	0
 疁	nqd	0
+褝	nqd	0
 襚	nqd	0
 襒	nqe	0
 墅	nqg	1498
@@ -12121,7 +12128,7 @@ columns:
 吹	onv	10276
 呜	onw	52
 哌	onw	0
-品	oo1	93450
+哭	oo1	15103
 〇	oo1	354
 ㇣	oo3	0
 唈	ooa	0
@@ -12147,6 +12154,7 @@ columns:
 嘳	oom	0
 覨	oom	0
 鹗	oon	1
+品	ooo	93450
 器	ooo	42447
 囂	ooo	1314
 品	ooo	100
@@ -12170,8 +12178,8 @@ columns:
 呺	oou	0
 咢	oou	0
 碞	oou	0
-哭	oox	15103
 獸	oox	7120
+哭	oox	100
 劋	oox	0
 卾	oox	0
 咶	oox	0
@@ -15301,7 +15309,7 @@ columns:
 莞	shp	234
 萄	shq	4739
 祹	shq	0
-有	shr	722264
+有	shr	100
 萸	shr	71
 蔡	shs	5565
 萗	shs	0
@@ -15627,7 +15635,6 @@ columns:
 薌	snz	35
 蕴	snz	19
 也	so1	302101
-也	so1	100
 乜	so1	36
 颧	soc	1
 祌	soc	0
@@ -17585,7 +17592,7 @@ columns:
 羹	umt	647
 誧	umt	0
 奡	umu	0
-着	umv	150867
+着	umv	100
 磱	umw	0
 戛	umy	488
 瓪	unb	0
@@ -21224,22 +21231,14 @@ columns:
 要麽	c2
 的確	d2
 他們	e2
-一個	f2
-地上	g2
 到了	h2
 不是	i2
-是的	j2
-好的	l2
 自己	m2
 平靜	n2
-中午	o2
 對的	p2
 道理	q2
 今天	r2
-有些	s2
 大家	t2
-這個	u2
-那個	v2
 我們	w2
 出來	x2
 成爲	y2
@@ -21248,6 +21247,7 @@ columns:
 授予	av2
 故事	be2
 下午	bk2
+尺子	bl2
 通過	bt2
 監督	bw2
 剛剛	cq2
@@ -21260,7 +21260,6 @@ columns:
 什麽	ed2
 便是	ef2
 生活	ei2
-你們	ep2
 傷害	ew2
 冬天	ey2
 查詢	fj2
@@ -21283,13 +21282,10 @@ columns:
 三個	js2
 能够	kh2
 而且	le2
-就是	lk2
-如果	lo2
 衣服	lw2
 質量	nn2
 吧！	oa2
 呢？	ob2
-品種	oo2
 哦！	ow2
 終於	pe2
 纔是	pp2
@@ -21297,7 +21293,6 @@ columns:
 習慣	qq2
 領導	rl2
 轉身	rr2
-也是	so2
 些許	ti2
 認識	ud2
 説道	uq2
@@ -21313,6 +21308,7 @@ columns:
 條件	ecf
 但是	ejf
 以後	elr
+你們	epk
 兩個	frs
 機會	fur
 老師	gib
@@ -21322,8 +21318,10 @@ columns:
 處理	keq
 姑娘	lbu
 主要	lme
+如果	los
 現在	mmr
 嗯嗯	odg
+品種	ooo
 哎！	osz
 經濟	pfy
 情况	pgh
@@ -21339,31 +21337,10 @@ columns:
 爲了	vjd
 怎麽	wjg
 重要	znt
-可能	a2
-發生	b2
-要是	c2
-他的	e2
-一些	f2
-地方	g2
-不能	i2
-好像	l2
-平安	n2
-中間	o2
-有人	s2
-大槪	t2
-這樣	u2
-那麽	v2
-我的	w2
-出去	x2
-成功	y2
-還有	z2
-你的	ep2
-方式	is2
 時間	jg2
-如此	lo2
 説話	uq2
 機器	fur
-所有	qnc
+如此	los
 ·	jj1
 　	kz1
 〔	lj1

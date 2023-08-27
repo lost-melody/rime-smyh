@@ -1594,7 +1594,6 @@ columns:
 靁	cnn	0
 靐	cnn	0
 酐	cns	2
-曱	cns	0
 霬	cnu	0
 雷	cnx	27980
 鿨	cnz	0
@@ -5631,6 +5630,7 @@ columns:
 鼶	hbk	0
 鼹	hbl	63
 鼴	hbl	5
+肞	hbl	0
 鼥	hbl	0
 臔	hbm	0
 賔	hbm	0
@@ -5964,7 +5964,6 @@ columns:
 膱	hly	0
 胶	hlz	1330
 窔	hlz	0
-肞	hlz	0
 膊	hma	3622
 叜	hmb	0
 臞	hmc	16
@@ -7686,6 +7685,7 @@ columns:
 嶕	jcm	0
 嶣	jcm	0
 驦	jcm	0
+曱	jcn	0
 甴	jcn	0
 驕	jco	430
 峒	jco	247
@@ -11265,7 +11265,6 @@ columns:
 纸	nia	12944
 衹	nia	19
 弾	nid	0
-褝	nid	0
 毗	nii	189
 纰	nii	123
 毘	nii	1
@@ -11449,6 +11448,7 @@ columns:
 褶	nqd	289
 彅	nqd	0
 疁	nqd	0
+褝	nqd	0
 襚	nqd	0
 襒	nqe	0
 墅	nqg	2024
