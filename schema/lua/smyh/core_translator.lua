@@ -42,13 +42,15 @@ function translator.init(env)
 
     -- 初始化碼表
     if not schemas and Memory then
+        local smyh_rev = ReverseLookup and ReverseLookup("smyh.base")
+        local smyh_tc_rev = ReverseLookup and ReverseLookup("smyh_tc.base")
         schemas = {
             smyh_base = Memory(env.engine, Schema("smyh.base")),
             smyh_full = Memory(env.engine, Schema("smyh.yuhaowords")),
-            smyh_trie = core.gen_smart_trie(ReverseLookup("smyh.base"), "smyh.smart.txt"),
+            smyh_trie = core.gen_smart_trie(smyh_rev, "smyh.smart.txt"),
             smyh_tc_base = Memory(env.engine, Schema("smyh_tc.base")),
             smyh_tc_full = Memory(env.engine, Schema("smyh_tc.yuhaowords")),
-            smyh_tc_trie = core.gen_smart_trie(ReverseLookup("smyh_tc.base"), "smyh_tc.smart.txt"),
+            smyh_tc_trie = core.gen_smart_trie(smyh_tc_rev, "smyh_tc.smart.txt"),
         }
     end
     if not core.base_mem and schemas then
