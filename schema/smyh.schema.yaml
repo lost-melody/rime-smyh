@@ -221,6 +221,12 @@ macros:
     - { type: radio, names: [ full.word, full.char, full.off ], states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ] }
   smart:
     - { type: switch, name: single_char, states: [ □智能, ■純單 ] }
+    - type: eval
+      name: ⇪載入詞典
+      expr: return WafelCore.word_trie:load_dict() or ""
+    - type: eval
+      name: ⌫清空詞典
+      expr: return WafelCore.word_trie:clear_dict() or ""
   trad:
     - { type: switch, name: smyh_tc, states: [ □簡化字, ■傳統字 ] }
   dist:
@@ -237,6 +243,14 @@ macros:
             rime_api.get_distribution_code_name(),
             rime_api.get_distribution_version())
         end
+  addsmart:
+    - type: eval
+      hijack: true
+      expr: return WafelCore.add_smart
+  delsmart:
+    - type: eval
+      hijack: true
+      expr: return WafelCore.del_smart
 
 # 标点
 punctuator:
@@ -266,6 +280,7 @@ recognizer:
     rev_pinyin: "^`[a-z]*$"
     # 符号模式
     punct: '^/([0-9]0?|[A-Za-z]+)$'
+    macro_smart: "^/(addsmart|delsmart)(/[a-zA-Z0-9]*)*$"
 
 menu:
   page_size: 3

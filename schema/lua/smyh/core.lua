@@ -468,105 +468,133 @@ function core.parse_conf_funckeys(env)
 end
 
 -- 構造智能詞前綴树
-function core.gen_smart_trie(rev, db_name, dict_name)
+function core.gen_smart_trie(base_rev, db_name, dict_name)
     local result = {
+        base_rev  = base_rev,
         db_path   = rime_api.get_user_data_dir() .. "/" .. db_name,
         dict_path = rime_api.get_user_data_dir() .. "/" .. dict_name,
     }
-    result.userdb = LevelDb and LevelDb(result.db_path, "")
-    result.trie  = {} -- 編碼前綴樹: 編碼->節點
-    result.words = {} -- 已录入詞語集合: 詞語->詞序
+
+    -- 獲取db對象
+    function result:db()
+        self.userdb = self.userdb or LevelDb and LevelDb(self.db_path, "")
+        if self.userdb and not self.userdb:loaded() then
+            self.userdb:open()
+        end
+        return self.userdb
+    end
 
     -- 查詢對應的智能候選詞
-    function result:query(code_segs, first_chars)
-        local res, final = {}, true
-        local trie = self.trie
-        if #code_segs <= 1 then
-            return res, final
+    function result:query(code, first_chars, count)
+        if type(code) == "table" then
+            code = table.concat(code)
         end
-
-        for _, code in ipairs(code_segs) do
-            if not trie[code] then
-                -- 節點無詞, 返回
-                return {}, final
-            end
-            -- 有詞, 則暫存
-            res = trie[code].words
-            trie = trie[code].nodes
-        end
-
-        for _ in pairs(trie) do
-            -- 子節點尚有元素, 則非終結詞
-            final = false
-            break
-        end
-
-        if #res == 1 and res[1] == table.concat(first_chars) then
-            return {}, final
-        end
-        return res, final
-    end
-
-    -- 反查字典無效
-    if not rev then
-        return result
-    end
-
-    -- 試圖開文件
-    local dict_file
-    dict_file = io.open(rime_api.get_user_data_dir() .. "/" .. result.dict_path, "r")
-    if not dict_file then
-        -- 失敗, 假裝無事發生
-        return result
-    end
-
-    local seq = 0
-    -- 逐行讀取詞語
-    for line in dict_file:lines() do
-        seq = seq + 1 -- 當前詞語序號
-
-        local chars = {}
-        -- "時間軸" => ["時:jga", "間:rjk", "軸:rpb"]
-        for _, c in utf8.codes(line) do
-            local char = utf8.char(c)
-            local code = core.rev_lookup(rev, char)
-            if #code == 0 then
-                -- 反查失敗, 下一個
-                break
-            end
-            table.insert(chars, { char = char, code = code })
-        end
-
-        -- 1 <= i <= n-1; i <= j <= n
-        -- (i, j): (1, 1) -> (1, 2) -> (1, 3) -> (2, 2) -> (2, 3)
-        -- "時", "時間", "時間軸", "間", "間軸"
-        for i = 1, #chars - 1, 1 do
-            local trie = result.trie -- 從根節點開始录入當前詞語構成的鏈
-            local word = ""          -- 逐字構建詞語
-            for j = i, #chars, 1 do
-                local char, code = chars[j].char, chars[j].code
-                -- 編碼節點不存在, 則創建之
-                -- {} => { "jga" = "時" } => { "jga" = { "rjk" = "間" } }
-                if not trie[code] then
-                    trie[code] = {
-                        code = code,
-                        words = {},
-                        nodes = {},
-                    }
+        local words = {}
+        if self:db() then
+            local accessor = self:db():query(code .. ":")
+            local weights = {}
+            -- 最多返回 count 個結果
+            count = count or 1
+            local index = 0
+            for key, value in accessor:iter() do
+                if index >= count then
+                    break
                 end
-                -- 連字成詞
-                word = word .. char
-                if not result.words[word] then
-                    -- 尚未录入, 录之
-                    result.words[word] = seq
-                    table.insert(trie[code].words, word)
-                end
-                -- 下一位!
-                trie = trie[code].nodes
+                index = index + 1
+                -- 查得詞條和權重
+                local word = string.sub(key, #code + 2, -1)
+                local weight = tonumber(value)
+                table.insert(words, word)
+                weights[word] = weight
+            end
+            -- 按詞條權重降序排
+            table.sort(words, function(a, b) return weights[a] > weights[b] end)
+            -- 過濾與單字首選相同的唯一候選詞
+            if #words == 1 and words[1] == table.concat(first_chars or {}) then
+                table.remove(words)
             end
         end
+        return words
     end
-    dict_file:close()
+
+    -- 更新詞條記录
+    function result:update(code, word, weight)
+        if self:db() then
+            -- insert { "jgarjk:時間" -> weight }
+            local key = string.format("%s:%s", code, word)
+            local value = tostring(weight or 0)
+            self:db():update(key, value)
+        end
+    end
+
+    -- 删除詞條記录
+    function result:delete(code, word)
+        if self:db() then
+            -- delete "jgarjk:時間"
+            local key = string.format("%s:%s", code, word)
+            self:db():erase(key)
+        end
+    end
+
+    function result:clear_dict()
+        if self:db() then
+            local db = self:db()
+            local accessor = db:query("")
+            local count = 0
+            for key, _ in accessor:iter() do
+                count = count + 1
+                db:erase(key)
+            end
+            return string.format("cleared %d phrases", count)
+        else
+            return "cannot open smart db"
+        end
+    end
+
+    -- 從字典文件讀取詞條, 录入到 leveldb 中
+    function result:load_dict()
+        if not self.base_rev then
+            return "cannot open reverse db"
+        elseif self:db() then
+            -- 試圖打開文件
+            local file, err = io.open(self.dict_path, "r")
+            if not file then
+                return err
+            end
+            local weight = os.time()
+            for line in file:lines() do
+                local chars = {}
+                -- "時間軸" => ["時:jga", "間:rjk", "軸:rpb"]
+                for _, c in utf8.codes(line) do
+                    local char = utf8.char(c)
+                    local code = core.rev_lookup(self.base_rev, char)
+                    if #code == 0 then
+                        -- 反查失敗, 下一個
+                        break
+                    end
+                    table.insert(chars, { char = char, code = code })
+                end
+                -- 1 <= i <= n-1; i+1 <= j <= n
+                -- (i, j): (1, 2) -> (1, 3) -> (2, 3)
+                -- "時間", "時間軸", "間軸"
+                for i = 1, #chars - 1, 1 do
+                    local code, word = chars[i].code, chars[i].char
+                    for j = i + 1, #chars, 1 do
+                        -- 連字成詞
+                        code = code .. chars[j].code
+                        word = word .. chars[j].char
+                        -- insert: { "jgarjk:時間" -> weight }
+                        self:update(code, word, weight)
+                    end
+                end
+                weight = weight - 1
+            end
+            file:close()
+            return ""
+        else
+            return "cannot open smart db"
+        end
+    end
 
     return result
 end
@@ -703,7 +731,7 @@ function core.query_cand_list(mem, code_segs, skipfull)
                         table.insert(segs, code_segs[i])
                     end
                     local chars = core.query_first_cand_list(mem, segs)
-                    local words = core.word_trie:query(segs, chars)
+                    local words = core.word_trie:query(segs, chars, 1)
                     for _, word in ipairs(words) do
                         table.insert(entries, { text = word, comment = "☯" })
                     end
@@ -725,6 +753,88 @@ function core.query_cand_list(mem, code_segs, skipfull)
     -- 返回候選字列表及末候選編碼
     return cand_list, code
 end
+
+core.add_smart = {
+    indicators = { "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹" },
+    get_word = function(self, args)
+        local chars, codes, index = {}, {}, nil
+        for _, str in ipairs(args) do
+            if string.match(str, "^[a-z][a-z1-3][1-9]$") or string.match(str, "^[a-z][a-z][a-z1-3][1-9]$") then
+                index = tonumber(string.sub(str, #str)) or 1
+                str = string.sub(str, 1, #str-1)
+            else
+                index = nil
+            end
+            local code = string.match(str, "^(.-)[1-9]?$")
+            local entries = core.dict_lookup(core.base_mem, code, 1)
+            local char = entries[index or 1] and entries[index or 1].text or ""
+            if #char ~= 0 then
+                table.insert(chars, char)
+                table.insert(codes, code)
+            end
+        end
+        return chars, codes, index
+    end,
+    peek = function(self, args)
+        local chars, codes, index = self:get_word(args)
+        if #chars == 0 or index then
+            return table.concat(chars)
+        else
+            local entries = core.dict_lookup(core.base_mem, codes[#codes], 9)
+            local cands = ""
+            for i, entry in ipairs(entries) do
+                if i > 9 then break end
+                cands = cands .. entry.text .. self.indicators[i]
+            end
+            return string.format("%s[%s]", table.concat(chars, "", 1, #chars - 1), cands)
+        end
+    end,
+    eval = function(self, args)
+        local chars, codes = self:get_word(args)
+        local weight = os.time()
+        for i = 1, #chars - 1, 1 do
+            local code, word = codes[i], chars[i]
+            for j = i + 1, #chars, 1 do
+                code = code .. codes[j]
+                word = word .. chars[j]
+                core.word_trie:update(code, word, weight)
+            end
+        end
+        return ""
+    end,
+}
+
+core.del_smart = {
+    indicators = { "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹" },
+    peek = function(self, args)
+        if #args ~= 0 then
+            local words = core.word_trie:query(args[1], nil, 9)
+            local index
+            if #args > 1 then
+                index = args[2] and tonumber(args[2]) or 1
+            end
+            if index then
+                return words[index] or ""
+            else
+                local cands = ""
+                for i, word in ipairs(words) do
+                    if i > 9 then break end
+                    cands = cands .. word .. self.indicators[i]
+                end
+                return cands
+            end
+        end
+        return ""
+    end,
+    eval = function(self, args)
+        if #args ~= 0 then
+            local code, index = args[1], args[2] and tonumber(args[2]) or 1
+            local words = core.word_trie:query(code, nil, 9)
+            core.word_trie:delete(code, words[index] or "")
+        end
+        return ""
+    end,
+}
 
 -- 導出爲全局模块
 WafelCore = core
