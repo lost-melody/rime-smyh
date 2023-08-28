@@ -514,7 +514,7 @@ function core.gen_smart_trie(rev, db_name, dict_name)
 
     -- 試圖開文件
     local dict_file
-    dict_file = io.open(rime_api.get_user_data_dir() .. "/" .. dict_path, "r")
+    dict_file = io.open(rime_api.get_user_data_dir() .. "/" .. result.dict_path, "r")
     if not dict_file then
         -- 失敗, 假裝無事發生
         return result
