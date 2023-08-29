@@ -468,16 +468,16 @@ function core.parse_conf_funckeys(env)
 end
 
 -- 構造智能詞前綴树
-function core.gen_smart_trie(base_rev, db_name, dict_name)
+function core.gen_smart_trie(base_rev, db_name)
     local result = {
         base_rev  = base_rev,
-        db_path   = rime_api.get_user_data_dir() .. "/" .. db_name,
-        dict_path = rime_api.get_user_data_dir() .. "/" .. dict_name,
+        db_path   = rime_api.get_user_data_dir() .. "/" .. db_name .. ".userdb",
+        dict_path = rime_api.get_user_data_dir() .. "/" .. db_name .. ".txt",
     }
 
     -- 獲取db對象
     function result:db()
-        self.userdb = self.userdb or LevelDb and LevelDb(self.db_path, "")
+        self.userdb = self.userdb or LevelDb and LevelDb(self.db_path, db_name)
         if self.userdb and not self.userdb:loaded() then
             self.userdb:open()
         end
@@ -491,7 +491,8 @@ function core.gen_smart_trie(base_rev, db_name, dict_name)
         end
         local words = {}
         if self:db() then
-            local accessor = self:db():query(code .. ":")
+            local prefix = string.format(":%s:", code)
+            local accessor = self:db():query(prefix)
             local weights = {}
             -- 最多返回 count 個結果
             count = count or 1
@@ -502,7 +503,7 @@ function core.gen_smart_trie(base_rev, db_name, dict_name)
                 end
                 index = index + 1
                 -- 查得詞條和權重
-                local word = string.sub(key, #code + 2, -1)
+                local word = string.sub(key, #prefix + 1, -1)
                 local weight = tonumber(value)
                 table.insert(words, word)
                 weights[word] = weight
@@ -520,8 +521,8 @@ function core.gen_smart_trie(base_rev, db_name, dict_name)
     -- 更新詞條記录
     function result:update(code, word, weight)
         if self:db() then
-            -- insert { "jgarjk:時間" -> weight }
-            local key = string.format("%s:%s", code, word)
+            -- insert { ":jgarjk:時間" -> weight }
+            local key = string.format(":%s:%s", code, word)
             local value = tostring(weight or 0)
             self:db():update(key, value)
         end
@@ -530,8 +531,8 @@ function core.gen_smart_trie(base_rev, db_name, dict_name)
     -- 删除詞條記录
     function result:delete(code, word)
         if self:db() then
-            -- delete "jgarjk:時間"
-            local key = string.format("%s:%s", code, word)
+            -- delete ":jgarjk:時間"
+            local key = string.format(":%s:%s", code, word)
             self:db():erase(key)
         end
     end
@@ -539,7 +540,7 @@ function core.gen_smart_trie(base_rev, db_name, dict_name)
     function result:clear_dict()
         if self:db() then
             local db = self:db()
-            local accessor = db:query("")
+            local accessor = db:query(":")
             local count = 0
             for key, _ in accessor:iter() do
                 count = count + 1
@@ -596,6 +597,18 @@ function core.gen_smart_trie(base_rev, db_name, dict_name)
         end
     end
 
+    -- 用户字典爲空時, 尝試加載詞典
+    if result:db() then
+        local accessor = result:db():query(":")
+        local empty = true
+        for _ in accessor:iter() do
+            empty = false
+            break
+        end
+        if empty then
+            result:load_dict()
+        end
+    end
     return result
 end
 
@@ -772,7 +785,7 @@ core.add_smart = {
         for _, str in ipairs(args) do
             if string.match(str, "^[a-z][a-z1-3][1-9]$") or string.match(str, "^[a-z][a-z][a-z1-3][1-9]$") then
                 index = tonumber(string.sub(str, #str)) or 1
-                str = string.sub(str, 1, #str-1)
+                str = string.sub(str, 1, #str - 1)
             else
                 index = nil
             end

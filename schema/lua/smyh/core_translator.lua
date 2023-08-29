@@ -47,10 +47,10 @@ function translator.init(env)
         schemas = {
             smyh_base = Memory(env.engine, Schema("smyh.base")),
             smyh_full = Memory(env.engine, Schema("smyh.yuhaowords")),
-            smyh_trie = core.gen_smart_trie(smyh_rev, "smyh.smart.userdb", "smyh.smart.txt"),
+            smyh_trie = core.gen_smart_trie(smyh_rev, "smyh.smart"),
             smyh_tc_base = Memory(env.engine, Schema("smyh_tc.base")),
             smyh_tc_full = Memory(env.engine, Schema("smyh_tc.yuhaowords")),
-            smyh_tc_trie = core.gen_smart_trie(smyh_tc_rev, "smyh_tc.smart.userdb", "smyh_tc.smart.txt"),
+            smyh_tc_trie = core.gen_smart_trie(smyh_tc_rev, "smyh_tc.smart"),
         }
     elseif not schemas then
         schemas = {}
