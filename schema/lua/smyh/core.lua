@@ -782,14 +782,13 @@ core.add_smart = {
     indicators = { "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹" },
     get_word = function(self, args)
         local chars, codes, index = {}, {}, nil
-        for _, str in ipairs(args) do
-            if string.match(str, "^[a-z][a-z1-3][1-9]$") or string.match(str, "^[a-z][a-z][a-z1-3][1-9]$") then
-                index = tonumber(string.sub(str, #str)) or 1
-                str = string.sub(str, 1, #str - 1)
+        for _, code in ipairs(args) do
+            if string.match(code, "^[a-z][1-3][1-9]$") or string.match(code, "^[a-z][a-z][a-z1-3][1-9]$") then
+                index = tonumber(string.sub(code, #code)) or 1
+                code = string.sub(code, 1, #code - 1)
             else
                 index = nil
             end
-            local code = string.match(str, "^(.-)[1-9]?$")
             local entries = core.dict_lookup(core.base_mem, code, 1)
             local char = entries[index or 1] and entries[index or 1].text or ""
             if #char ~= 0 then

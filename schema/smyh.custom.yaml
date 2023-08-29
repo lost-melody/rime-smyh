@@ -21,9 +21,8 @@ patch:
     Caps_Lock: clear
     Eisu_toggle: clear
   recognizer/patterns/+:
-    macros: "^/(calc|echo|len)(/[a-z]*)*$"
+    macros: "^/(calc|echo|len)(/[a-zA-Z0-9]*)*$"
     macro_calc: "^/calc(/[a-zA-Z0-9\\+\\-\\*\\^\\.%]*)*$"
-    macro_echo: "^/echo(/[a-zA-Z]*)*$"
   punctuator/half_shape/+:
     '<' : '《'
     '>' : '》'
@@ -152,6 +151,52 @@ patch:
             return self:calc(args, false)
           end
           return t
+    smart/+:
+      - type: eval
+        name: ↪導出詞庫
+        expr: >
+          local db = WafelCore.word_trie:db()
+          if db then
+            local file, err = io.open(rime_api.get_user_data_dir() .. "/smart.userdb.bak", "w")
+            if not file then
+              return err
+            end
+            local count = 0
+            for key, value in db:query(":"):iter() do
+              key = string.sub(key, 2, -1)
+              if #key ~= 0 then
+                count = count + 1
+                file:write(string.format("%s\t%s\n", key, value))
+              end
+            end
+            file:close()
+            return string.format("exported %d phrases", count)
+          else
+            return "cannot open smart db"
+          end
+      - type: eval
+        name: ↩導入詞庫
+        expr: >
+          local db = WafelCore.word_trie:db()
+          if db then
+            local file, err = io.open(rime_api.get_user_data_dir() .. "/smart.userdb.bak", "r")
+            if not file then
+              return err
+            end
+            local count = 0
+            for line in file:lines() do
+              local key = string.match(line, "^(.-)\t")
+              if key then
+                local value = string.sub(line, #key+2, -1)
+                count = count + 1
+                db:update(":" .. key, value)
+              end
+            end
+            file:close()
+            return string.format("imported %d phrases", count)
+          else
+            return "cannot open smart db"
+          end
     echo:
       # 含參 shell 命令示例, 參数會經由簡易 wrapper 函數傳遞給命令
       # __macrowrapper() { CMD; }; __macrowrapper ARGS <<<''
