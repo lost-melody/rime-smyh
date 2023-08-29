@@ -13,7 +13,9 @@
 
 ## 一些说明
 
-- 暫無字根圖, 用反查練就完事了.
+![鷄蛋餅字根圖](http://ys-g.ysepan.com/620854733/916624431/ULwSgKs742O7U3I48LG801/%E9%B7%84%E8%9B%8B%E9%A4%85%E5%AD%97%E6%A0%B9%E5%9C%96.png)
+
+- ~暫無字根圖~, 用反查練就完事了.
     - 實在想用字根圖對照練的, 可以參考 [這張 *ASCII* 字根對照表](https://github.com/lost-melody/rime-smyh/blob/wafel/assets/mappings_table.txt).
 - 取碼方式:
     - 單根字: 字根大碼 + 字根小碼, 補加空格.

@@ -115,7 +115,7 @@ local function new_tip(name, text)
         text = text,
     }
     function tip:display(env, ctx)
-        return #self.name ~= 0 and self.name or ""
+        return #self.name ~= 0 and self.name or self.text
     end
 
     function tip:trigger(env, ctx)
@@ -207,7 +207,7 @@ end
 ---@param text boolean
 local function new_shell(name, cmd, text)
     if not core.unix_supported() then
-        return nil
+        return new_tip(name, cmd)
     end
 
     local template = "__macrowrapper() { %s ; }; __macrowrapper %s <<<''"

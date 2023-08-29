@@ -93,6 +93,9 @@ patch:
       - type: tip
         name: ☎郵箱
         text: lost__melody@163.com
+      - type: tip
+        name: ☏QQ群
+        text: "917190494"
     user:
       - type: shell
         name: ☘用户名
