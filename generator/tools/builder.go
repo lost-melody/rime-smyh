@@ -84,11 +84,13 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 					cm := charMeta
 					cm.Code = simp.Simp
 					cm.Simp = true
+					cm.Stem = cm.Code
 					charMetaList = append(charMetaList, &cm)
 				}
 				// 全码后置
 				charMeta.Freq = fallBackFreq
 				charMeta.Back = true
+				charMeta.Stem = simpTable[charMeta.Char][0].Simp
 				charMetaList = append(charMetaList, &charMeta)
 			} else {
 				// 无简码

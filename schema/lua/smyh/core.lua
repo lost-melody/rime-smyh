@@ -659,9 +659,20 @@ function core.rev_lookup(rev, char)
         return result
     end
     -- rev:lookup("他") => "e1 eso"
-    for code in string.gmatch(rev:lookup(char), "[^ ]+") do
-        if #result == 0 or #code < #result then
+    local rev_code = rev:lookup_stems(char)
+    if #rev_code == 0 then
+        rev_code = rev:lookup(char)
+    end
+    for code in string.gmatch(rev_code, "[^ ]+") do
+        if string.match(code, "^[a-z][1-3]$") then
+            -- "a1", 直接结束
             result = code
+            break
+        elseif not string.match(code, "^[a-z][a-z]?$") then
+            -- 非 "a", "ab"
+            if #result == 0 or string.match(code, "^[a-z][a-z][1-3]$") then
+                result = code
+            end
         end
     end
     return result

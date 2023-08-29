@@ -19,6 +19,7 @@ type CharMeta struct {
 	Char string // 字符
 	Full string // 字符提示码
 	Code string // 字符全码
+	Stem string // 智能词构词码
 	Freq int64  // 字频
 	Sel  int    // 选重编号
 	Simp bool   // 字符简码

@@ -63,7 +63,11 @@ func main() {
 	// CHAR
 	buffer.Truncate(0)
 	for _, charMeta := range charMetaList {
-		buffer.WriteString(fmt.Sprintf("%s\t%s\t%d\n", charMeta.Char, charMeta.Code, charMeta.Freq))
+		if len(charMeta.Stem) != 0 {
+			buffer.WriteString(fmt.Sprintf("%s\t%s\t%d\t%s\n", charMeta.Char, charMeta.Code, charMeta.Freq, charMeta.Stem))
+		} else {
+			buffer.WriteString(fmt.Sprintf("%s\t%s\t%d\n", charMeta.Char, charMeta.Code, charMeta.Freq))
+		}
 	}
 	err = os.WriteFile("/tmp/char.txt", buffer.Bytes(), 0o644)
 	if err != nil {
