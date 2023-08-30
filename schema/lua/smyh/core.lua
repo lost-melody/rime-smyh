@@ -786,6 +786,9 @@ core.add_smart = {
             if string.match(code, "^[a-z][1-3][1-9]$") or string.match(code, "^[a-z][a-z][a-z1-3][1-9]$") then
                 index = tonumber(string.sub(code, #code)) or 1
                 code = string.sub(code, 1, #code - 1)
+            elseif string.match(code, "^[a-z][a-z]$") then
+                index = nil
+                code = code .. "1"
             else
                 index = nil
             end
