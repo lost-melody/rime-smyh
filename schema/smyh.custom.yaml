@@ -157,7 +157,7 @@ patch:
         expr: >
           local db = WafelCore.word_trie:db()
           if db then
-            local file, err = io.open(rime_api.get_user_data_dir() .. "/smart.userdb.bak", "w")
+            local file, err = io.open(rime_api.get_user_data_dir() .. "/" .. db:fetch("\x01/db_name") .. ".bak", "w")
             if not file then
               return err
             end
@@ -179,7 +179,7 @@ patch:
         expr: >
           local db = WafelCore.word_trie:db()
           if db then
-            local file, err = io.open(rime_api.get_user_data_dir() .. "/smart.userdb.bak", "r")
+            local file, err = io.open(rime_api.get_user_data_dir() .. "/" .. db:fetch("\x01/db_name") .. ".bak", "r")
             if not file then
               return err
             end
