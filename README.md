@@ -6,17 +6,16 @@
     製作,
     亂序字根, 三碼定長, 延遲頂字.
     「吉旦餅」其名來自三名主要開發人: *阿吉*, *forFudan*, *王牌餅乾*,
-    又取義於 *華夫餅 (wafel)*, 其漢譯應有 "鷄蛋餅" 之義.
+    又取義於 *華夫餅 (wafel)*, 其漢譯應有 "雞蛋餅" 之義.
 
 > 原 [宇浩三碼頂](https://github.com/lost-melody/rime-smyh/tree/beta)
     相關内容可在保留分支 *beta* 中找到.
 
 ## 一些说明
 
-![鷄蛋餅字根圖](http://ys-g.ysepan.com/620854733/916624431/ULwSgKs742O7U3I48LG801/%E9%B7%84%E8%9B%8B%E9%A4%85%E5%AD%97%E6%A0%B9%E5%9C%96.png)
-
 - ~暫無字根圖~, 用反查練就完事了.
-    - 實在想用字根圖對照練的, 可以參考 [這張 *ASCII* 字根對照表](https://github.com/lost-melody/rime-smyh/blob/wafel/assets/mappings_table.txt).
+    - [這裏](http://lost-melody.ysepan.com/) 有張字根圖, 在 `/assets/` 目錄下.
+    - 另有 [這張 *ASCII* 字根對照表](https://github.com/lost-melody/rime-smyh/blob/wafel/assets/mappings_table.txt) 以供參考.
 - 取碼方式:
     - 單根字: 字根大碼 + 字根小碼, 補加空格.
         - 一: `(一|Fi) -> [fi_]`.
@@ -76,7 +75,7 @@
         - `/echo`: 簡易 *shell* 宏示例, 在 *Linux/Mac* 下通過 `/echo/hello/world` 方式調用.
 - 四馬兩吃:
     - 三碼詞庫只收录 *CJK* 字集, 合計約两萬一千字.
-    - 如需臨時輸入 *CJK* 以外的非常用字, 可借助臨時四碼模式; 若要連續輸入生僻字, 請切換四碼鷄蛋餅.
+    - 如需臨時輸入 *CJK* 以外的非常用字, 可借助臨時四碼模式; 若要連續輸入生僻字, 請切換四碼雞蛋餅.
     - 對於單字或詞語四碼全碼, 可以四碼直出, `Tab` 上屏. 當純單模式啓用時, 出四碼單字; 否則出四碼字詞.
 
 > 對於稍早的 *librime-lua* 版本, 新式的定義 `lua_translator@*smyh.core_translator` 不受支持,
