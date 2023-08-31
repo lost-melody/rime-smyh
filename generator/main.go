@@ -86,19 +86,16 @@ func main() {
 
 	// DIVISION
 	buffer.Truncate(0)
-	accessedDiv := map[string]struct{}{}
 	sort.Slice(fullCodeMetaList, func(i, j int) bool {
 		return fullCodeMetaList[i].Char < fullCodeMetaList[j].Char
 	})
 	for _, charMeta := range fullCodeMetaList {
-		for _, divs := range divTable[charMeta.Char] {
-			if _, ok := accessedDiv[charMeta.Char]; ok {
-				continue
-			}
-			accessedDiv[charMeta.Char] = struct{}{}
-			div := strings.Join(divs.Divs, "")
-			buffer.WriteString(fmt.Sprintf("%s\t(%s,%s,%s,%s)\n", charMeta.Char, div, charMeta.Full, divs.Pin, divs.Set))
+		divs := divTable[charMeta.Char]
+		if !charMeta.MDiv || len(divs) == 0 {
+			continue
 		}
+		div := strings.Join(divs[0].Divs, "")
+		buffer.WriteString(fmt.Sprintf("%s\t(%s,%s,%s,%s)\n", charMeta.Char, div, charMeta.Full, divs[0].Pin, divs[0].Set))
 	}
 	err = os.WriteFile("/tmp/div.txt", buffer.Bytes(), 0o644)
 	if err != nil {

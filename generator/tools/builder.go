@@ -70,13 +70,14 @@ func BuildCharMetaList(table map[string][]*types.Division, simpTable map[string]
 		}
 
 		// 遍历字符的所有拆分表
-		for _, div := range divs {
+		for i, div := range divs {
 			full, code := calcCodeByDiv(div.Divs, mappings, freqSet[char])
 			charMeta := types.CharMeta{
 				Char: char,
 				Full: full,
 				Code: code,
 				Freq: freqSet[char],
+				MDiv: i == 0,
 			}
 			if len(simpTable[charMeta.Char]) != 0 {
 				// 遍历字符简码表
@@ -119,13 +120,14 @@ func BuildFullCodeMetaList(table map[string][]*types.Division, mappings map[stri
 	// 遍历字符表
 	for char, divs := range table {
 		// 遍历字符的所有拆分表
-		for _, div := range divs {
+		for i, div := range divs {
 			full, code := calcFullCodeByDiv(div.Divs, mappings)
 			charMeta := types.CharMeta{
 				Char: char,
 				Full: full,
 				Code: code,
 				Freq: freqSet[char],
+				MDiv: i == 0,
 			}
 			if getSel(char) == 0 {
 				charMeta.Freq = fallBackFreq

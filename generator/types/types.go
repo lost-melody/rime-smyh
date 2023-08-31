@@ -24,6 +24,7 @@ type CharMeta struct {
 	Sel  int    // 选重编号
 	Simp bool   // 字符简码
 	Back bool   // 是否后置
+	MDiv bool   // 是否首要拆分
 }
 
 // PhraseMeta 智能词元
