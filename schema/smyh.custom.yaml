@@ -95,119 +95,41 @@ patch:
       - type: tip
         name: ☏QQ群
         text: "917190494"
-    user:
-      - type: shell
-        name: ☘用户名
-        cmd: whoami
-        text: true
-    len:
-      # lua 函數示例, 返回一個 function(args) ... end -> string 函數
-      # 對於 :len/hello/world, 其 args 值爲 {"hello", "world"}
-      # 注意需要配合 recognizer
-      - type: eval
-        expr: return
-          function(args)
-            local lens = {}
-            for _, str in ipairs(args) do
-              table.insert(lens, string.len(str))
-            end
-            return table.concat(lens, ",")
-          end
     calc:
       # lua 對象示例, 返回一個 {
       #   peek = function(self, args) ... end -> string, -- 當 name 爲空時, 候選攔顯示此值
       #   eval = function(self, args) ... end -> string, -- 當按下空格或選重鍵後, 上屏此值
       # } 對象
       # 簡易計算器
-      # qwertyuiop => 1234567890
-      # hjkl => *-+/
-      # x => *
-      # s(square) => ^
-      # d(dot) => .
-      # m(mod) => %
-      # a(remainder) => //
       - type: eval
         hijack: true
-        expr: >
-          local nums = {q='1',w='2',e='3',r='4',t='5',y='6',u='7',i='8',o='9',p='0'}
-          local signs = {h='*',j='-',k='+',l='/',s='^',d='.',m='%',x='*',a='//'}
-          setmetatable(signs, { __index = function(self, key) return key end })
-          local t = {
-            nums = nums,
-            signs = signs,
-          }
-          function t:calc(args, peek_only)
-            if #args == 0 then return "" end
-            local expr = table.concat(args, "/")
-            local res = {}
-            expr = string.gsub(string.gsub(expr, "[qwertyuiop]", self.nums), "[^0-9%+%-*/^.%%]", self.signs)
-            local eval = load("return " .. expr)
-            return (peek_only and expr .. "=" or "") .. (eval and eval() or "?")
-          end
-          function t:peek(args)
-            return self:calc(args, true)
-          end
-          function t:eval(args)
-            return self:calc(args, false)
-          end
-          return t
+        expr: return require("smyh.custom").easy_calc()
     smart/+:
       - type: eval
-        name: ↪導出詞庫
-        expr: >
-          local db = WafelCore.word_trie:db()
-          if db then
-            local file, err = io.open(rime_api.get_user_data_dir() .. "/" .. db:fetch("\x01/db_name") .. ".bak", "w")
-            if not file then
-              return err
-            end
-            local count = 0
-            for key, value in db:query(":"):iter() do
-              key = string.sub(key, 2, -1)
-              if #key ~= 0 then
-                count = count + 1
-                file:write(string.format("%s\t%s\n", key, value))
-              end
-            end
-            file:close()
-            return string.format("exported %d phrases", count)
-          else
-            return "cannot open smart db"
-          end
+        name: ⇪詞典載入
+        expr: return WafelCore.word_trie:load_dict() or ""
       - type: eval
-        name: ↩導入詞庫
-        expr: >
-          local db = WafelCore.word_trie:db()
-          if db then
-            local file, err = io.open(rime_api.get_user_data_dir() .. "/" .. db:fetch("\x01/db_name") .. ".bak", "r")
-            if not file then
-              return err
-            end
-            local count = 0
-            for line in file:lines() do
-              local key = string.match(line, "^(.-)\t")
-              if key then
-                local value = string.sub(line, #key+2, -1)
-                count = count + 1
-                db:update(":" .. key, value)
-              end
-            end
-            file:close()
-            return string.format("imported %d phrases", count)
-          else
-            return "cannot open smart db"
-          end
-    echo:
-      # 含參 shell 命令示例, 參数會經由簡易 wrapper 函數傳遞給命令
-      # __macrowrapper() { CMD; }; __macrowrapper ARGS <<<''
-      # 對於 :echo/eng/hello, 其最終執行的 shell 命令爲 echo eng hello
-      # 注意需要配合 recognizer
-      - type: shell
-        cmd: echo -n "$@"
-        text: true
-      - type: shell
-        name: info
-        cmd: zenity --info --text "$(echo -n $@)"
+        name: ⌫清空
+        expr: return WafelCore.word_trie:clear_dict() or ""
+      - type: eval
+        name: ↪導出
+        expr: return require("smyh.custom").export_smart()
+      - type: eval
+        name: ↩導入
+        expr: return require("smyh.custom").import_smart()
+    addsmart:
+      - type: eval
+        hijack: true
+        expr: return require("smyh.custom").add_smart()
+    delsmart:
+      - type: eval
+        hijack: true
+        expr: return require("smyh.custom").del_smart()
+    dist:
+      - type: eval
+        expr: return require("smyh.custom").librime_version()
+      - type: eval
+        expr: return require("smyh.custom").librime_dist_info()
   core_proc/macros/+:
     __include: patch/macros
   core_tr/macros/+:
