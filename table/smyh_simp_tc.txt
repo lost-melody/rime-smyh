@@ -71,7 +71,7 @@
 質	nn1
 吧	oa1
 呢	ob1
-品	oo1
+哭	oo1
 哦	ow1
 維	pc1
 終	pe1
@@ -86,7 +86,6 @@
 領	rl1
 轉	rr1
 散	sh1
-也	so1
 些	ti1
 認	ud1
 説	uq1
@@ -102,6 +101,7 @@
 條	ecf
 但	ejf
 以	elr
+你	epk
 兩	frs
 機	fur
 老	gib
@@ -114,6 +114,7 @@
 如	los
 現	mmr
 嗯	odg
+品	ooo
 哎	osz
 經	pfy
 情	pgh
@@ -134,4 +135,12 @@
 〔	lj1
 ！	tt1
 ？	ww1
+頭	f2
+赤	g2
+題	j2
+交	l2
+品	o2
+有	s2
+着	u2
+爲	v2
 〕	lj2
