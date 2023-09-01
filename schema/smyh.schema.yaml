@@ -47,12 +47,15 @@ switches:
   - name: smyh_tc
     states: [ 簡化字, 傳統字 ]
     reset: 0
+  - name: completion
+    states: [ 簡潔, 預測 ]
+    reset: 0
   - name: ascii_mode
     reset: 0
 
 engine:
   processors:
-    - lua_processor@*smyh.core_processor@core_proc
+    - lua_processor@*smyh.core_processor@wafel
     - ascii_composer
     - recognizer
     - key_binder
@@ -73,7 +76,7 @@ engine:
     # 反查
     - reverse_lookup_translator@rev_pinyin
     # 主翻译器
-    - lua_translator@*smyh.core_translator@core_tr
+    - lua_translator@*smyh.core_translator@wafel
   filters:
     - simplifier
     # 候选去重
@@ -162,7 +165,7 @@ rev_pinyin:
     - "xform/^/(/"
     - "xform/$/)/"
 
-core_proc:
+wafel:
   funckeys:
     # under linux, cat /usr/include/X11/keysymdef.h
     # or visit: https://gitlab.freedesktop.org/xorg/proto/xorgproto/-/blob/master/include/X11/keysymdef.h
@@ -178,14 +181,39 @@ core_proc:
     repeat: [ 0x60 ]     # 重複上屏
     clearact: [ 0xff0d ] # 清除活動編碼
   macros:
-    __include: macros
-
-core_tr:
-  enable_completion: true
-  funckeys:
-    __include: core_proc/funckeys
-  macros:
-    __include: macros
+    help:
+      - { type: tip, name: ❖配置中心 }
+      - { type: switch, name: single_char, states: [ □智能, ■純單 ] }
+      - { type: radio, names: [ full.word, full.char, full.off ], states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ] }
+      - { type: switch, name: embeded_cands, states: [ ☐嵌入, ☑嵌入 ] }
+      - { type: switch, name: smyh_tc, states: [ □簡化字, ■傳統字 ] }
+      - { type: switch, name: completion, states: [ □簡潔, ■補全 ] }
+      - { type: radio, names: [ division.off, division.lv1, division.lv2, division.lv3, division.lv4 ], states: [ ☐☐☐☐註解, ☑☐☐☐註解, ☐☑☐☐註解, ☐☐☑☐註解, ☐☐☐☑註解 ] }
+    date:
+      - { type: eval, name: ☀日期, expr: return os.date("%Y-%m-%d") }
+      - { type: eval, name: ⛅年月日, expr: return os.date("%Y年%m月%d日") }
+    time:
+      - { type: eval, name: ⌚時間, expr: return os.date("%H:%M:%S") }
+      - { type: eval, name: Ⓣ時間, expr: return os.date("%Y%m%d%H%M") }
+      - { type: eval, name: Ⓢ時間戳, expr: return tostring(os.time()) }
+    div:
+      - type: radio
+        names: [ division.off, division.lv1, division.lv2, division.lv3, division.lv4 ]
+        states: [ ☐☐☐☐無註解, ☑☐☐☐拆分提示, ☐☑☐☐編碼提示, ☐☐☑☐顯示注音, ☐☐☐☑顯示字集 ]
+    embed:
+      - { type: switch, name: embeded_cands, states: [ ☐嵌入編碼, ☑嵌入候選 ] }
+    full:
+      - type: radio
+        names: [ full.word, full.char, full.off ]
+        states: [ "☑☑四碼字詞: 顯示所有候選", "☐☑四碼全單: 隐藏詞語候選", "☐☐僅三碼: 隐藏四碼候選" ]
+    smart:
+      - { type: switch, name: single_char, states: [ □智能組詞, ■純單模式 ] }
+    trad:
+      - { type: switch, name: smyh_tc, states: [ "□簡化字: 使用簡化字碼表", "■傳統字: 使用傳統字碼表" ] }
+    comp:
+      - type: switch
+        name: completion
+        states: [ "□簡潔模式: 不顯示編碼預測結果", "■自動補全: 顯示預測編碼結果" ]
 
 # 嵌入候選的顯示配置
 # 默認顯示效果爲:
@@ -197,32 +225,6 @@ embeded_cands:
   next_format: "${Stash}${候選}${Seq}${Comment}"           # 非首選的渲染格式
   separator: " "                                           # 候選之間的分隔符
   stash_placeholder: "~"                                   # 非首選的延遲串占位符, 支持 ${Stash} 變量
-
-macros:
-  help:
-    - { type: tip, name: ❖配置中心 }
-    - { type: switch, name: single_char, states: [ □智能, ■純單 ] }
-    - { type: radio, names: [ full.word, full.char, full.off ], states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ] }
-    - { type: switch, name: embeded_cands, states: [ ☐嵌入, ☑嵌入 ] }
-    - { type: switch, name: smyh_tc, states: [ □簡化字, ■傳統字 ] }
-    - { type: radio, names: [ division.off, division.lv1, division.lv2, division.lv3, division.lv4 ], states: [ ☐☐☐☐註解, ☑☐☐☐註解, ☐☑☐☐註解, ☐☐☑☐註解, ☐☐☐☑註解 ] }
-  date:
-    - { type: eval, name: ☀日期, expr: return os.date("%Y-%m-%d") }
-    - { type: eval, name: ⛅年月日, expr: return os.date("%Y年%m月%d日") }
-  time:
-    - { type: eval, name: ⌚時間, expr: return os.date("%H:%M:%S") }
-    - { type: eval, name: Ⓣ時間, expr: return os.date("%Y%m%d%H%M") }
-    - { type: eval, name: Ⓢ時間戳, expr: return tostring(os.time()) }
-  div:
-    - { type: radio, names: [ division.off, division.lv1, division.lv2, division.lv3, division.lv4 ], states: [ ☐☐☐☐註解, ☑☐☐☐註解, ☐☑☐☐註解, ☐☐☑☐註解, ☐☐☐☑註解 ] }
-  embed:
-    - { type: switch, name: embeded_cands, states: [ ☐嵌入, ☑嵌入 ] }
-  full:
-    - { type: radio, names: [ full.word, full.char, full.off ], states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ] }
-  smart:
-    - { type: switch, name: single_char, states: [ □智能, ■純單 ] }
-  trad:
-    - { type: switch, name: smyh_tc, states: [ □簡化字, ■傳統字 ] }
 
 # 标点
 punctuator:

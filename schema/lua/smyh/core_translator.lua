@@ -12,7 +12,6 @@ function namespaces:init(env)
     -- 讀取配置項
     if not namespaces:config(env) then
         local config = {}
-        config.comp = core.parse_conf_bool(env, "enable_completion")
         config.macros = core.parse_conf_macro_list(env)
         config.funckeys = core.parse_conf_funckeys(env)
         namespaces:set_config(env, config)
@@ -34,7 +33,6 @@ function translator.init(env)
     local ok = pcall(namespaces.init, namespaces, env)
     if not ok then
         local config = {}
-        config.comp = false
         config.macros = {}
         config.funckeys = {}
         namespaces:set_config(env, config)
@@ -84,6 +82,7 @@ function translator.init(env)
         core.switch_names.full_word,
         core.switch_names.full_char,
         core.switch_names.full_off,
+        core.switch_names.completion,
     }
     local handler = core.get_switch_handler(env, option_names)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
@@ -139,7 +138,8 @@ local function handle_singlechar(env, ctx, code_segs, remain, seg, input)
     core.input_code = display_input(remain)
 
     -- 查询最多一百個候選
-    local entries = core.dict_lookup(core.base_mem, remain, 100, namespaces:config(env).comp)
+    local enable_completion = env.option[core.switch_names.completion]
+    local entries = core.dict_lookup(core.base_mem, remain, 100, enable_completion)
     if #entries == 0 then
         table.insert(entries, { text = "", comment = "" })
     end
@@ -216,7 +216,8 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
 
     -- 查詢活動輸入串候選列表
-    local entries = core.dict_lookup(core.base_mem, remain, 100 - #full_entries, namespaces:config(env).comp)
+    local enable_completion = env.option[core.switch_names.completion]
+    local entries = core.dict_lookup(core.base_mem, remain, 100 - #full_entries, enable_completion)
     if #entries == 0 then
         -- 以空串爲空碼候選
         table.insert(entries, { text = "", comment = "" })

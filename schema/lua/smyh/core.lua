@@ -47,7 +47,8 @@ core.switch_names = {
     full_char     = "full.char",
     full_off      = "full.off",
     embeded_cands = "embeded_cands",
-    smyh_tc       = "smyh_tc"
+    smyh_tc       = "smyh_tc",
+    completion    = "completion",
 }
 
 
