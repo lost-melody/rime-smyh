@@ -131,7 +131,7 @@ end
 
 -- 處理候選文本和延迟串
 local function render_stashcand(env, seq, stash, text, digested)
-    if string.len(stash) ~= 0 and text ~= stash and string.match(text, "^" .. stash) then
+    if string.len(stash) ~= 0 and string.match(text, "^" .. stash) then
         if seq == 1 then
             -- 首選含延迟串, 原樣返回
             digested = true
@@ -152,7 +152,7 @@ local function render_stashcand(env, seq, stash, text, digested)
     return stash, text, digested
 end
 
--- 渲染提示, 因爲提示經常有可能爲空, 抽取爲函數更昜操作
+-- 渲染提示, 因爲提示經常有可能爲空, 抽取爲函數更易操作
 local function render_comment(comment)
     if string.match(comment, "^~") then
         -- 丟棄以"~"開頭的提示串, 這通常是補全提示
