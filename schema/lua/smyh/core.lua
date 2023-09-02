@@ -549,10 +549,18 @@ function core.gen_smart_trie(base_rev, db_name)
 
     -- 查詢對應的智能候選詞
     function result:query(code, first_chars, count)
-        if type(code) == "table" then
-            code = table.concat(code)
-        end
         local words = {}
+        if #code == 0 then
+            return words
+        end
+        if type(code) == "table" then
+            local segs = code
+            code = table.concat(code)
+            -- 末位單字簡碼補空格
+            if #(segs[#segs]) < 3 then
+                code = code .. "1"
+            end
+        end
         if self:db() then
             local prefix = string.format(":%s:", code)
             local accessor = self:db():query(prefix)
