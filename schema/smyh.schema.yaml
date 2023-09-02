@@ -254,7 +254,6 @@ recognizer:
     rev_pinyin: "^`[a-z]*$"
     # 符号模式
     punct: '^/([0-9]0?|[A-Za-z]+)$'
-    macro_smart: "^/(addsmart|delsmart)(/[a-zA-Z0-9]*)*$"
 
 menu:
   page_size: 3
