@@ -30,6 +30,7 @@
 下	bk1
 尺	bl1
 監	bw1
+眨	mw1
 剛	cq1
 十	di1
 之	dj1
@@ -51,8 +52,10 @@
 都	gj1
 境	gl1
 胸	hh1
+月	hr1
 宗	hs1
 與	hu1
+　	iq1
 於	ir1
 方	is1
 染	iw1
@@ -76,6 +79,7 @@
 途	rf1
 悶	rg1
 領	rl1
+芯	sg1
 散	sh1
 些	ti1
 認	ud1

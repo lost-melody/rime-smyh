@@ -6099,7 +6099,8 @@ columns:
 黱	hqv	0
 勝	hqw	21516
 膉	hqz	0
-月	hr1	133489
+月	hr1	133489	hr1
+月	hr1	100	hr1
 勹	hr3	0
 膞	hra	0
 朎	hrb	0
@@ -10924,10 +10925,11 @@ columns:
 瓈	mvv	0
 烛	mvw	23
 琍	mvx	70
+眨	mw1	2042	mw1
 灹	mwa	0
 瑀	mwc	4
 貶	mwd	2785
-眨	mwd	2042
+眨	mwd	100	mw1
 轶	mwd	2
 玝	mwd	0
 眣	mwd	0
@@ -15158,6 +15160,7 @@ columns:
 莄	sfz	0
 薾	sfz	0
 酀	sfz	0
+芯	sg1	160	sg1
 禱	sga	1783
 葑	sga	0
 薵	sga	0
@@ -15185,7 +15188,7 @@ columns:
 藝	sgk	37449
 孽	sgk	800
 祛	sgk	316
-芯	sgk	160
+芯	sgk	100	sg1
 恳	sgk	19
 糵	sgk	0
 薛	sgl	2182
@@ -21176,16 +21179,21 @@ columns:
 可以	a2
 發現	b2
 要麽	c2
-的確	d2
+因爲	d2
 他們	e2
 一個	f2
+地方	g2
 到了	h2
 不是	i2
+是不是	j2
+好像	l2
 自己	m2
 平靜	n2
+中國	o2
 對的	p2
-道理	q2
+所以	q2
 今天	r2
+在於	s2
 大家	t2
 這麽	u2
 那麽	v2
@@ -21198,6 +21206,7 @@ columns:
 下午	bk2
 尺子	bl2
 監督	bw2
+眨眼	mw2
 剛剛	cq2
 十分	di2
 之後	dj2
@@ -21219,7 +21228,9 @@ columns:
 都是	gj2
 境界	gl2
 胸口	hh2
+容易	hr2
 宗派	hs2
+没有	iq2
 於是	ir2
 方法	is2
 染色	iw2
@@ -21231,8 +21242,12 @@ columns:
 而且	le2
 維度	pc2
 終於	pe2
+纔是	pp2
+給予	pr2
 知道	qo2
 領導	rl2
+芯片	sg2
+散開	sh2
 些許	ti2
 認識	ud2
 説道	uq2
@@ -21241,6 +21256,7 @@ columns:
 力量	wl2
 降落	ze2
 你們	epk
+爲什麽	v2
 時間	jg2
 説話	uq2
 ·	jj1

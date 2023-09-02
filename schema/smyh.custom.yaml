@@ -9,6 +9,8 @@ patch:
   switches/@3/reset: # 智能·純單
   switches/@4/reset: # 字詞·全單·三碼
   switches/@5/reset: # 普通·嵌入
+  switches/@6/reset: # 簡化·傳統
+  switches/@7/reset: # 精準·預測
   switches/+:
   key_binder/bindings/+:
   ascii_composer/switch_key/+:
@@ -127,6 +129,8 @@ patch:
         expr: return require("smyh.custom").librime_dist_info()
   # menu/page_size: 5 # Change number of candidates
   # style/layout/margin_x: -1 # Hide candidates bar
+  # style/horizontal: true
+  # style/inline_preedit: false
   embeded_cands/+:
     first_format: "${Stash}[${候選}]${Code}${Comment}"
   # 解注释以下内容, 并复制rime.lua, 以兼容旧版librime-lua
