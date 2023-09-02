@@ -307,6 +307,34 @@ local function new_eval(name, expr)
 end
 
 
+---字符過濾器
+---@param option_name string
+---@param mapper_expr string
+local function new_mapper(option_name, mapper_expr)
+    local f = load(mapper_expr)
+    if not f or type(f) ~= "function" then
+        return nil
+    end
+    if type(f("", false)) == "function" then
+        f = f("", false)
+    end
+
+    local mapper = {
+        option = option_name,
+        mapper = f,
+    }
+
+    setmetatable(mapper, {
+        __call = function(self, char, env)
+            local option = #self.option ~= 0 and env.option[self.option] or false
+            return self.mapper(char, option)
+        end,
+    })
+
+    return mapper
+end
+
+
 -- ######## 工具函数 ########
 
 ---@param input string
@@ -442,6 +470,25 @@ function core.parse_conf_macro_list(env)
         end
     end
     return macros
+end
+
+-- 從方案配置中讀取過濾器列表
+function core.parse_conf_mapper_list(env)
+    local mappers = {}
+    local mapper_list = env.engine.schema.config:get_list(env.name_space .. "/mappers")
+    -- mappers:
+    for i = 0, mapper_list.size - 1 do
+        local key_map = mapper_list:get_at(i):get_map()
+        -- mappers[1]/expr:
+        if key_map and key_map:has_key("expr") then
+            local expr = key_map:get_value("expr"):get_string() or ""
+            local option_name = key_map:has_key("option_name") and key_map:get_value("option_name"):get_string() or ""
+            if #expr ~= 0 then
+                table.insert(mappers, new_mapper(option_name, expr))
+            end
+        end
+    end
+    return mappers
 end
 
 -- 從方案配置中讀取功能鍵配置
@@ -625,8 +672,8 @@ function core.get_switch_handler(env, option_names)
     env.option = env.option or {}
     local option = env.option
     local name_set = {}
-    if option_names and #option_names ~= 0 then
-        for _, name in ipairs(option_names) do
+    if option_names then
+        for name in pairs(option_names) do
             name_set[name] = true
         end
     end
@@ -694,7 +741,7 @@ end
 
 -- 查询编码对应候选列表
 -- "dkd" -> ["南", "電"]
-function core.dict_lookup(mem, code, count, comp)
+function core.dict_lookup(env, mem, code, count, comp)
     -- 是否补全编码
     count = count or 1
     comp = comp or false
@@ -702,17 +749,40 @@ function core.dict_lookup(mem, code, count, comp)
     if not mem then
         return result
     end
-    if mem:dict_lookup(code, comp, count) then
+    if mem:dict_lookup(code, comp, 100) then
         -- 根據 entry.text 聚合去重
         local res_set = {}
+        local index = 1
         for entry in mem:iter_dict() do
+            if index > count then
+                break
+            end
+
             -- 剩餘編碼大於一, 則不收
             if entry.remaining_code_length <= 1 then
+                local filtered = false
+                if #env.config.mappers ~= 0 then
+                    local text = entry.text
+                    for _, mapper in pairs(env.config.mappers) do
+                        text = mapper(text, env)
+                        if not text or type(text) ~= "string" then
+                            -- 濾除
+                            filtered = true
+                            break
+                        end
+                    end
+                    if not filtered then
+                        entry.text = text
+                    end
+                end
                 local exist = res_set[entry.text]
-                -- 候選去重, 但未完成編碼提示取有
-                if not exist then
+                if filtered then
+                    -- 候選被濾除
+                elseif not exist then
+                    -- 候選去重, 但未完成編碼提示取有
                     res_set[entry.text] = entry
                     table.insert(result, entry)
+                    index = index + 1
                 elseif #exist.comment == 0 then
                     exist.comment = entry.comment
                 end
@@ -723,10 +793,10 @@ function core.dict_lookup(mem, code, count, comp)
 end
 
 -- 查詢分詞首選列表
-function core.query_first_cand_list(mem, code_segs)
+function core.query_first_cand_list(env, mem, code_segs)
     local cand_list = {}
     for _, code in ipairs(code_segs) do
-        local entries = core.dict_lookup(mem, code)
+        local entries = core.dict_lookup(env, mem, code)
         table.insert(cand_list, entries[1] and entries[1].text or "")
     end
     return cand_list
@@ -735,7 +805,7 @@ end
 -- 最大匹配查詢分詞候選列表
 -- ["dkd", "qgx", "fvt"] -> ["電動", "杨"]
 -- ["dkd", "qgx"]        -> ["南", "動"]
-function core.query_cand_list(mem, code_segs, skipfull)
+function core.query_cand_list(env, mem, code_segs, skipfull)
     local index = 1
     local cand_list = {}
     local code = table.concat(code_segs, "", index)
@@ -749,13 +819,13 @@ function core.query_cand_list(mem, code_segs, skipfull)
                 -- TODO: 優化智能詞查詢
                 local entries = {}
                 if index == viewport then
-                    entries = core.dict_lookup(mem, code)
+                    entries = core.dict_lookup(env, mem, code)
                 else
                     local segs = {}
                     for i = index, viewport, 1 do
                         table.insert(segs, code_segs[i])
                     end
-                    local chars = core.query_first_cand_list(mem, segs)
+                    local chars = core.query_first_cand_list(env, mem, segs)
                     local words = core.word_trie:query(segs, chars, 1)
                     for _, word in ipairs(words) do
                         table.insert(entries, { text = word, comment = "☯" })

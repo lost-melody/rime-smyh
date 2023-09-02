@@ -50,6 +50,9 @@ switches:
   - name: completion
     states: [ 簡潔, 預測 ]
     reset: 0
+  - options: [ charset.all, charset.freqly ]
+    states: [ 全CJK, 僅常用字 ]
+    reset: 0
   - name: ascii_mode
     reset: 0
 
@@ -180,6 +183,10 @@ wafel:
     break: [ 0xff09 ]    # 打斷施法
     repeat: [ 0x60 ]     # 重複上屏
     clearact: [ 0xff0d ] # 清除活動編碼
+  mappers:
+    # 常用字過濾器
+    - option_name: charset.freqly
+      expr: return require("smyh.custom").freq_filter()
   macros:
     help:
       - { type: tip, name: ❖配置中心 }
@@ -213,13 +220,16 @@ wafel:
     comp:
       - type: switch
         name: completion
-        states: [ "□簡潔模式: 不顯示編碼預測結果", "■自動補全: 顯示預測編碼結果" ]
+        states: [ "□簡潔模式: 不顯示編碼預測結果", "■自動補全: 顯示編碼預測結果" ]
+    charset:
+      - type: radio
+        names: [ charset.all, charset.freqly ]
+        states: [ "□全CJK字集: 無過濾", "■常用字集: 過濾非常用字" ]
 
 # 嵌入候選的顯示配置
 # 默認顯示效果爲:
 # 宇[浩¹]iwl ~淍² ~泃³
 embeded_cands:
-  option_name: embeded_cands                               # 嵌入候選開關
   index_indicators: [ ¹, ², ³, ⁴, ⁵, ⁶, ⁷, ⁸, ⁹, ⁰ ]       # 嵌入候選的序號顯示格式
   first_format: "${Stash}[${候選}${Seq}]${Code}${Comment}" # 首選的渲染格式
   next_format: "${Stash}${候選}${Seq}${Comment}"           # 非首選的渲染格式

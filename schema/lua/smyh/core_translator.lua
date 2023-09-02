@@ -14,6 +14,7 @@ function namespaces:init(env)
         local config = {}
         config.macros = core.parse_conf_macro_list(env)
         config.funckeys = core.parse_conf_funckeys(env)
+        config.mappers = core.parse_conf_mapper_list(env)
         namespaces:set_config(env, config)
     end
 end
@@ -35,8 +36,10 @@ function translator.init(env)
         local config = {}
         config.macros = {}
         config.funckeys = {}
+        config.mappers = {}
         namespaces:set_config(env, config)
     end
+    env.config = namespaces:config(env)
 
     -- 初始化碼表
     if not schemas and Memory then
@@ -79,14 +82,17 @@ function translator.init(env)
 
     -- 構造回調函數
     local option_names = {
-        core.switch_names.full_word,
-        core.switch_names.full_char,
-        core.switch_names.full_off,
-        core.switch_names.completion,
+        [core.switch_names.full_word]  = true,
+        [core.switch_names.full_char]  = true,
+        [core.switch_names.full_off]   = true,
+        [core.switch_names.completion] = true,
     }
+    for _, mapper in ipairs(env.config.mappers) do
+        option_names[mapper.option] = true
+    end
     local handler = core.get_switch_handler(env, option_names)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
-    for _, name in ipairs(option_names) do
+    for name in pairs(option_names) do
         handler(env.engine.context, name)
     end
     -- 注册通知回調
@@ -139,7 +145,7 @@ local function handle_singlechar(env, ctx, code_segs, remain, seg, input)
 
     -- 查询最多一百個候選
     local enable_completion = env.option[core.switch_names.completion]
-    local entries = core.dict_lookup(core.base_mem, remain, 100, enable_completion)
+    local entries = core.dict_lookup(env, core.base_mem, remain, 100, enable_completion)
     if #entries == 0 then
         table.insert(entries, { text = "", comment = "" })
     end
@@ -173,7 +179,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
         if #remain ~= 0 then
             table.insert(full_segs, remain)
         end
-        local chars = core.query_first_cand_list(core.base_mem, full_segs)
+        local chars = core.query_first_cand_list(env, core.base_mem, full_segs)
         local words = core.word_trie:query(full_segs, chars, 10)
         for _, word in ipairs(words) do
             table.insert(full_entries, { text = word, comment = "☯" })
@@ -183,7 +189,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     if not env.option[core.switch_names.full_off] and #input == 4 and not string.match(input, "[^a-z]") then
         local fullcode_cands = 0
         local fullcode_char = env.option[core.switch_names.full_char]
-        local entries = core.dict_lookup(core.full_mem, input, 50)
+        local entries = core.dict_lookup(env, core.full_mem, input, 50)
         local stashed = {}
         -- 詞語前置, 單字暫存
         for _, entry in ipairs(entries) do
@@ -210,14 +216,14 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
     end
 
     -- 查詢分詞串暫存值
-    local text_list = core.query_cand_list(core.base_mem, code_segs)
+    local text_list = core.query_cand_list(env, core.base_mem, code_segs)
     if #text_list ~= 0 then
         core.stashed_text = table.concat(text_list, "")
     end
 
     -- 查詢活動輸入串候選列表
     local enable_completion = env.option[core.switch_names.completion]
-    local entries = core.dict_lookup(core.base_mem, remain, 100 - #full_entries, enable_completion)
+    local entries = core.dict_lookup(env, core.base_mem, remain, 100 - #full_entries, enable_completion)
     if #entries == 0 then
         -- 以空串爲空碼候選
         table.insert(entries, { text = "", comment = "" })

@@ -27,6 +27,7 @@ function namespaces:init(env)
         local config = {}
         config.macros = core.parse_conf_macro_list(env)
         config.funckeys = core.parse_conf_funckeys(env)
+        config.mappers = core.parse_conf_mapper_list(env)
         namespaces:set_config(env, config)
     end
 end
@@ -87,7 +88,7 @@ local function handle_push(env, ctx, ch)
 
         -- 純單字模式
         if env.option[core.switch_names.single_char] and #code_segs == 1 and #remain == 1 then
-            local cands = core.query_cand_list(core.base_mem, code_segs)
+            local cands = core.query_cand_list(env, core.base_mem, code_segs)
             if #cands ~= 0 then
                 commit_text(env, ctx, cands[1], remain .. string.char(ch))
             end
@@ -96,7 +97,7 @@ local function handle_push(env, ctx, ch)
 
         -- 智能詞延遲頂
         if #remain == 0 and #code_segs > 1 then
-            local entries, remain = core.query_cand_list(core.base_mem, code_segs)
+            local entries, remain = core.query_cand_list(env, core.base_mem, code_segs)
             if #entries > 1 then
                 commit_text(env, ctx, entries[1], remain .. string.char(ch))
                 return kAccepted
@@ -130,7 +131,7 @@ end
 local function handle_fullcode(env, ctx, ch)
     if not env.option[core.switch_names.full_off] and #ctx.input == 4 and not string.match(ctx.input, "[^a-z]") then
         local fullcode_char = env.option[core.switch_names.full_char]
-        local entries = core.dict_lookup(core.full_mem, ctx.input, 50)
+        local entries = core.dict_lookup(env, core.full_mem, ctx.input, 50)
         -- 查找四碼首選
         local first
         for _, entry in ipairs(entries) do
@@ -170,7 +171,7 @@ local function handle_break(env, ctx, ch)
         end
         -- 打斷施法
         if #code_segs ~= 0 then
-            local text_list = core.query_cand_list(core.base_mem, code_segs)
+            local text_list = core.query_cand_list(env, core.base_mem, code_segs)
             commit_text(env, ctx, table.concat(text_list, ""), remain)
             return kAccepted
         end
@@ -182,10 +183,10 @@ local function handle_repeat(env, ctx, ch)
     if core.valid_smyh_input(ctx.input) then
         -- 查詢當前首選項
         local code_segs, remain = core.get_code_segs(ctx.input)
-        local text_list, _ = core.query_cand_list(core.base_mem, code_segs)
+        local text_list, _ = core.query_cand_list(env, core.base_mem, code_segs)
         local text = table.concat(text_list, "")
         if #remain ~= 0 then
-            local entries = core.dict_lookup(core.base_mem, remain, 1)
+            local entries = core.dict_lookup(env, core.base_mem, remain, 1)
             text = text .. (entries[1] and entries[1].text or "")
         end
         -- 逐個上屏
@@ -227,18 +228,23 @@ function processor.init(env)
         local config = {}
         config.macros = {}
         config.funckeys = {}
+        config.mappers = {}
         namespaces:set_config(env, config)
     end
+    env.config = namespaces:config(env)
 
     -- 構造回調函數
     local option_names = {
-        core.switch_names.single_char,
-        core.switch_names.full_char,
-        core.switch_names.full_off,
+        [core.switch_names.single_char] = true,
+        [core.switch_names.full_char]   = true,
+        [core.switch_names.full_off]    = true,
     }
+    for _, mapper in ipairs(env.config.mappers) do
+        option_names[mapper.option] = true
+    end
     local handler = core.get_switch_handler(env, option_names)
     -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
-    for _, name in ipairs(option_names) do
+    for name in pairs(option_names) do
         handler(env.engine.context, name)
     end
     -- 注册通知回調

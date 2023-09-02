@@ -69,7 +69,6 @@ function namespaces:init(env)
         config.next_format = core.parse_conf_str(env, "next_format", next_format)
         config.separator = core.parse_conf_str(env, "separator", separator)
         config.stash_placeholder = core.parse_conf_str(env, "stash_placeholder", stash_placeholder)
-        config.option_name = core.parse_conf_str(env, "option_name")
 
         config.formatter = {}
         config.formatter.first = compile_formatter(config.first_format)
@@ -97,7 +96,6 @@ function embeded_cands_filter.init(env)
         config.next_format = next_format
         config.separator = separator
         config.stash_placeholder = stash_placeholder
-        config.option_name = ""
 
         config.formatter = {}
         config.formatter.first = compile_formatter(config.first_format)
@@ -105,28 +103,17 @@ function embeded_cands_filter.init(env)
         namespaces:set_config(env, config)
     end
 
-    local option_names = {}
-
-    -- 是否指定開關
-    if namespaces:config(env).option_name and #namespaces:config(env).option_name ~= 0 then
-        table.insert(option_names, namespaces:config(env).option_name)
-    else
-        -- 未指定開關, 默認啓用
-        namespaces:config(env).option_name = core.switch_names.embeded_cands
-        env.option = {}
-        env.option[namespaces:config(env).option_name] = true
+    -- 構造回調函數
+    local option_names = {
+        [core.switch_names.embeded_cands] = true,
+    }
+    local handler = core.get_switch_handler(env, option_names)
+    -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
+    for name in pairs(option_names) do
+        handler(env.engine.context, name)
     end
-
-    if #option_names ~= 0 then
-        -- 構造回調函數
-        local handler = core.get_switch_handler(env, option_names)
-        -- 初始化爲選項實際值, 如果設置了 reset, 則會再次觸發 handler
-        for _, name in ipairs(option_names) do
-            handler(env.engine.context, name)
-        end
-        -- 注册通知回調
-        env.engine.context.option_update_notifier:connect(handler)
-    end
+    -- 注册通知回調
+    env.engine.context.option_update_notifier:connect(handler)
 end
 
 -- 處理候選文本和延迟串
@@ -193,7 +180,7 @@ end
 
 -- 過濾器
 function embeded_cands_filter.func(input, env)
-    if not env.option[namespaces:config(env).option_name] then
+    if not env.option[core.switch_names.embeded_cands] then
         for cand in input:iter() do
             yield(cand)
         end
