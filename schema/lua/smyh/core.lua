@@ -70,6 +70,23 @@ local funckeys_restorer = {
     ["3"] = " c",
 }
 
+---在現有的迭代器上通過 handler 封裝一個新的迭代器
+---傳入處理器 handler 須能正確處理傳入迭代器 iterable
+---返回的值爲簡易迭代器, 通過 for v in iter() do ... end 形式迭代
+---@param iterable function
+---@param handler function
+---@return function
+local function wrap_iterator(iterable, handler)
+    local co = coroutine.wrap(function(iter)
+        handler(iter, coroutine.yield)
+    end)
+    return function()
+        return function(iter)
+            return co(iter)
+        end, iterable
+    end
+end
+
 ---@param input string
 function core.input_replace_funckeys(input)
     return string.gsub(input, " ([a-c])", funckeys_replacer)
@@ -312,11 +329,9 @@ end
 ---@param mapper_expr string
 local function new_mapper(option_name, mapper_expr)
     local f = load(mapper_expr)
-    if not f or type(f) ~= "function" then
+    f = f and f() or nil
+    if type(f) ~= "function" then
         return nil
-    end
-    if type(f("", false)) == "function" then
-        f = f("", false)
     end
 
     local mapper = {
@@ -325,9 +340,9 @@ local function new_mapper(option_name, mapper_expr)
     }
 
     setmetatable(mapper, {
-        __call = function(self, char, env)
+        __call = function(self, iter, env, yield)
             local option = #self.option ~= 0 and env.option[self.option] or false
-            return self.mapper(char, option)
+            return self.mapper(iter, option, yield)
         end,
     })
 
@@ -750,35 +765,33 @@ function core.dict_lookup(env, mem, code, count, comp)
         return result
     end
     if mem:dict_lookup(code, comp, 100) then
+        -- 封裝初始迭代器
+        local iterator = wrap_iterator(mem, function(iter, yield)
+            for entry in iter:iter_dict() do
+                yield(entry)
+            end
+        end)
+        if #env.config.mappers ~= 0 then
+            -- 使用方案定義的映射器對迭代器層層包裝
+            for _, mapper in pairs(env.config.mappers) do
+                iterator = wrap_iterator(iterator, function(iter, yield)
+                    mapper(iter, env, yield)
+                end)
+            end
+        end
+
         -- 根據 entry.text 聚合去重
         local res_set = {}
         local index = 1
-        for entry in mem:iter_dict() do
+        for entry in iterator() do
             if index > count then
                 break
             end
 
             -- 剩餘編碼大於一, 則不收
             if entry.remaining_code_length <= 1 then
-                local filtered = false
-                if #env.config.mappers ~= 0 then
-                    local text = entry.text
-                    for _, mapper in pairs(env.config.mappers) do
-                        text = mapper(text, env)
-                        if not text or type(text) ~= "string" then
-                            -- 濾除
-                            filtered = true
-                            break
-                        end
-                    end
-                    if not filtered then
-                        entry.text = text
-                    end
-                end
                 local exist = res_set[entry.text]
-                if filtered then
-                    -- 候選被濾除
-                elseif not exist then
+                if not exist then
                     -- 候選去重, 但未完成編碼提示取有
                     res_set[entry.text] = entry
                     table.insert(result, entry)

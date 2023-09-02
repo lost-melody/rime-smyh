@@ -251,17 +251,19 @@ function custom.freq_filter()
     ---@param char string
     ---@param option boolean
     ---@return string|nil
-    return function(char, option)
-        if option and utf8.len(char) == 1 then
+    return function(iter, option, yield)
+        for entry in iter() do
             -- 當開關啓用, 且對象爲單字時, 過濾非常用字
-            for _, c in utf8.codes(char) do
-                if not charset[c] then
+            if option and utf8.len(entry.text) == 1 then
+                if charset[utf8.codepoint(entry.text)] then
+                    yield(entry)
+                else
                     -- 濾除不在常用字集中的字符
-                    return nil
                 end
+            else
+                yield(entry)
             end
         end
-        return char
     end
 end
 
