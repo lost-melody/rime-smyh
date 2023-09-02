@@ -248,8 +248,9 @@ function custom.freq_filter()
     end
 
     ---返回一個字符映射器, 用於將字符 A 映射爲字符 B, 或映射爲 nil 以將之濾除
-    ---@param char string
+    ---@param iter function
     ---@param option boolean
+    ---@param yield function
     ---@return string|nil
     return function(iter, option, yield)
         for entry in iter() do
