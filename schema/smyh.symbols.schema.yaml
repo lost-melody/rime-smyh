@@ -1,0 +1,19 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: smyh.symbols
+  name: 吉旦餅·特殊符號
+  description: |
+    辅助方案，不能打字。
+    來自宇浩輸入法。
+
+speller:
+  alphabet: "qwertyuiopasdfghjklzxcvbnm"
+  initials: "qwertyuiopasdfghjklzxcvbnm"
+  algebra:
+    - xform|^|/|
+
+translator:
+  dictionary: smyh.symbols
+  enable_user_dict: false

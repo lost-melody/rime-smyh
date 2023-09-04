@@ -24,6 +24,8 @@ schema:
     - smyh_tc.base
     # 全码官宇词库
     - smyh_tc.yuhaowords
+    # 符號碼表
+    - smyh.symbols
 
 switches:
   - name: ascii_punct
@@ -74,6 +76,8 @@ engine:
     - punct_segmentor
   translators:
     - punct_translator
+    # 符號翻譯器
+    - table_translator@symbols
     # 上次上屏历史
     - history_translator@history
     # 反查
@@ -95,8 +99,8 @@ engine:
     - lua_filter@*smyh.embeded_cands@embeded_cands
 
 speller:
-  alphabet: "qwertyuiopasdfghjklzxcvbnm `|.:"
-  initials: "qwertyuiopasdfghjklzxcvbnm`"
+  alphabet: "qwertyuiopasdfghjklzxcvbnm /`|.:"
+  initials: "qwertyuiopasdfghjklzxcvbnm/`"
   auto_select: true
   auto_select_unique_candidate: true
   algebra:
@@ -168,6 +172,16 @@ rev_pinyin:
     - "xform/^/(/"
     - "xform/$/)/"
 
+# 符號翻譯器
+symbols:
+  tag: symbols
+  prefix: "/"
+  dictionary: smyh.symbols
+  prism: smyh.symbols
+  enable_user_dict: false
+  preedit_format:
+    - xform|^/||
+
 wafel:
   funckeys:
     # under linux, cat /usr/include/X11/keysymdef.h
@@ -238,7 +252,7 @@ embeded_cands:
 
 # 标点
 punctuator:
-  import_preset: symbols_yuhao
+  import_preset: symbols
 
 key_binder:
   bindings:
@@ -260,10 +274,10 @@ key_binder:
 
 recognizer:
   patterns:
+    # 特殊符號
+    symbols: "^/([0-9]0?|[A-Za-z]+)$"
     # 拼音反查模式
     rev_pinyin: "^`[a-z]*$"
-    # 符号模式
-    punct: '^/([0-9]0?|[A-Za-z]+)$'
 
 menu:
   page_size: 3
