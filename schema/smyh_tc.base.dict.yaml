@@ -2310,7 +2310,6 @@ columns:
 议	dlz	250
 鉸	dlz	70
 鎯	dlz	35
-真	dm1	154962	dm1
 博	dma	20451
 圑	dma	0
 鎛	dma	0
@@ -2352,7 +2351,7 @@ columns:
 鈥	dms	0
 鋪	dmt	7054
 圃	dmt	1138
-真	dmu	100	dm1
+真	dmu	154962
 鉬	dmv	0
 鋤	dmw	699
 鐒	dmw	0
@@ -4986,6 +4985,7 @@ columns:
 坷	gao	233
 坉	gax	0
 邿	gaz	0
+聲	gb1	146699	gb1
 墛	gba	0
 撀	gbc	0
 鏧	gbd	0
@@ -5003,7 +5003,7 @@ columns:
 殸	gbq	0
 块	gbr	249
 塀	gbs	0
-聲	gbt	146699
+聲	gbt	100	gb1
 埇	gbt	0
 墀	gbt	0
 磬	gbu	125
@@ -5287,7 +5287,6 @@ columns:
 垱	gkx	0
 壚	gkz	0
 盍	gkz	0
-境	gl1	84173	gl1
 墑	glb	0
 埣	gld	0
 墩	gle	933
@@ -5305,7 +5304,7 @@ columns:
 墒	glo	0
 坑	glq	4401
 埌	gls	0
-境	glt	100	gl1
+境	glt	84173
 堧	glt	0
 垃	glu	7904
 塙	glv	0
@@ -8396,7 +8395,8 @@ columns:
 暴	jsv	13966
 暪	jsv	0
 崂	jsw	1
-最	jtb	128594
+最	jt1	128594	jt1
+最	jtb	100	jt1
 駬	jte	0
 峚	jtg	0
 奕	jtj	951
@@ -17843,6 +17843,7 @@ columns:
 誂	uty	0
 鮺	uty	0
 磢	utz	0
+議	uu1	45631	uu1
 兮	uua	1477
 郺	uua	0
 硕	uuc	20
@@ -17884,8 +17885,8 @@ columns:
 砙	uuw	0
 詏	uuw	0
 卶	uux	0
-議	uuy	45631
 磋	uuy	1278
+議	uuy	100	uu1
 礒	uuy	0
 諡	uuz	0
 马	uv1	910
@@ -18688,6 +18689,7 @@ columns:
 蜧	vqx	0
 螠	vqz	0
 飖	vqz	0
+從	vr1	130434	vr1
 彾	vrb	0
 秢	vrb	0
 蛉	vrb	0
@@ -18722,8 +18724,8 @@ columns:
 螥	vro	0
 蛼	vrq	0
 黭	vrs	0
-從	vrt	130434
 聳	vrt	3363
+從	vrt	100	vr1
 蚧	vru	0
 骱	vru	0
 黍	vrv	685
@@ -19175,8 +19177,9 @@ columns:
 籭	wfy	0
 筻	wfz	0
 籋	wfz	0
-等	wga	69019
+等	wg1	69019	wg1
 籌	wga	5890
+等	wga	100	wg1
 篈	wga	0
 箦	wgc	0
 銺	wgd	0
@@ -21206,11 +21209,9 @@ columns:
 下午	bk2
 尺子	bl2
 監督	bw2
-眨眼	mw2
 剛剛	cq2
 十分	di2
 之後	dj2
-真的	dm2
 回來	do2
 國家	dy2
 什麽	ed2
@@ -21224,9 +21225,9 @@ columns:
 型號	fs2
 椅子	ft2
 烈火	fu2
+聲音	gb2
 師父	gf2
 都是	gj2
-境界	gl2
 胸口	hh2
 容易	hr2
 宗派	hs2
@@ -21238,8 +21239,10 @@ columns:
 時候	jg2
 事情	jo2
 三個	js2
+最後	jt2
 能够	kh2
 而且	le2
+眨眼	mw2
 維度	pc2
 終於	pe2
 纔是	pp2
@@ -21251,12 +21254,16 @@ columns:
 些許	ti2
 認識	ud2
 説道	uq2
+議論	uu2
 委員	vl2
+從來	vr2
 稱爲	vv2
+等待	wg2
 力量	wl2
 降落	ze2
 你們	epk
 爲什麽	v2
+還有	z2
 時間	jg2
 説話	uq2
 ·	jj1

@@ -30,11 +30,9 @@
 下	bk1
 尺	bl1
 監	bw1
-眨	mw1
 剛	cq1
 十	di1
 之	dj1
-真	dm1
 回	do1
 國	dy1
 個	ed1
@@ -48,9 +46,9 @@
 型	fs1
 椅	ft1
 烈	fu1
+聲	gb1
 師	gf1
 都	gj1
-境	gl1
 胸	hh1
 月	hr1
 宗	hs1
@@ -63,8 +61,10 @@
 時	jg1
 事	jo1
 三	js1
+最	jt1
 能	kh1
 而	le1
+眨	mw1
 吧	oa1
 品	oo1
 哦	ow1
@@ -84,8 +84,11 @@
 些	ti1
 認	ud1
 説	uq1
+議	uu1
 委	vl1
+從	vr1
 稱	vv1
+等	wg1
 力	wl1
 降	ze1
 你	epk
