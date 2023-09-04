@@ -29,10 +29,12 @@
 授	av1
 下	bk1
 尺	bl1
+通	bt1
 監	bw1
 剛	cq1
 十	di1
 之	dj1
+識	ul1
 回	do1
 國	dy1
 個	ed1

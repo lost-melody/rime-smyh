@@ -1209,11 +1209,12 @@ columns:
 蹣	bsv	559
 螱	bsv	0
 褽	bsw	0
+通	bt1	93786	bt1
 尅	bta	0
 蹑	btb	7
 踙	btb	0
 躜	btc	0
-通	btd	93786
+通	btd	100	bt1
 兙	btd	0
 兝	btd	0
 跶	btd	0
@@ -17473,6 +17474,7 @@ columns:
 讞	ukx	163
 毤	ukx	0
 驱	ukz	39
+識	ul1	50522	ul1
 碠	ula	0
 諪	ula	0
 謫	ulb	175
@@ -17519,7 +17521,7 @@ columns:
 磙	ulw	0
 譲	ulw	0
 骍	ulx	0
-識	uly	50522
+識	uly	100	ul1
 詨	ulz	0
 磗	uma	0
 燮	umb	2
@@ -21208,6 +21210,7 @@ columns:
 授予	av2
 下午	bk2
 尺子	bl2
+通過	bt2
 監督	bw2
 剛剛	cq2
 十分	di2
