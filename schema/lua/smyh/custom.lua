@@ -63,7 +63,7 @@ function custom.add_smart()
             end
 
             -- 查詢當前單字
-            local entries = WafelCore.dict_lookup(env, WafelCore.base_mem, code, 1)
+            local entries = WafelCore.dict_lookup(env, WafelCore.base_mem, code, index or 1)
             local char = entries[index or 1] and entries[index or 1].text or ""
             if #char ~= 0 then
                 -- 录入單字及其編碼
@@ -77,7 +77,7 @@ function custom.add_smart()
 
     ---顯示造詞結果
     function adder:peek(args, env)
-        local chars, codes, index = self:get_word(args)
+        local chars, codes, index = self:get_word(args, env)
         if #chars == 0 or index then
             -- 無單字, 或最末單字有選重鍵, 直接返回
             return table.concat(chars)
@@ -95,8 +95,8 @@ function custom.add_smart()
     end
 
     ---將造詞結果添加到詞庫
-    function adder:eval(args)
-        local chars, codes = self:get_word(args)
+    function adder:eval(args, env)
+        local chars, codes = self:get_word(args, env)
         local weight = os.time()
         for i = 1, #chars - 1, 1 do
             local code, word = codes[i], chars[i]

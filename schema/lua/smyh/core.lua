@@ -557,7 +557,7 @@ function core.gen_smart_trie(base_rev, db_name)
             local segs = code
             code = table.concat(code)
             -- 末位單字簡碼補空格
-            if #(segs[#segs]) < 3 then
+            if string.match(segs[#segs], "^[a-z][a-z]?$") then
                 code = code .. "1"
             end
         end

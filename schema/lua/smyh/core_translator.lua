@@ -186,6 +186,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
         end
     end
 
+    local fullcode_count = 0
     if not env.option[core.switch_names.full_off] and #input == 4 and not string.match(input, "[^a-z]") then
         local fullcode_cands = 0
         local fullcode_char = env.option[core.switch_names.full_char]
@@ -200,6 +201,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
                 -- 全單模式, 詞語過濾
                 -- 字詞模式, 詞語前置
                 if not fullcode_char then
+                    fullcode_count = fullcode_count + 1
                     table.insert(full_entries, entry)
                     fullcode_cands = fullcode_cands + 1
                 end
@@ -207,6 +209,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
         end
         -- 收錄暫存候選
         for _, entry in ipairs(stashed) do
+            fullcode_count = fullcode_count + 1
             table.insert(full_entries, entry)
         end
         if fullcode_cands ~= 0 then
@@ -231,7 +234,7 @@ local function handle_delayed(env, ctx, code_segs, remain, seg, input)
 
     -- 送出候選
     local cand_count = #entries + #full_entries
-    if #input == 4 and #entries ~= 0 then
+    if fullcode_count ~= 0 and #entries ~= 0 then
         -- abc|a 時, a_ 總是前置
         local entry = table.remove(entries, 1)
         entry.comment = display_comment(entry.comment)
