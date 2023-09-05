@@ -53,7 +53,7 @@ switches:
     states: [ 簡潔, 預測 ]
     reset: 0
   - options: [ charset.all, charset.freqly ]
-    states: [ 全CJK, 僅常用字 ]
+    states: [ 全字集, 僅常用字 ]
     reset: 0
   - name: ascii_mode
     reset: 0
