@@ -267,6 +267,8 @@ key_binder:
     - {when: has_menu, accept: apostrophe, send: 3}
     # 拆分提示
     - { when: has_menu, accept: "/", toggle: division.off }
+    # 字集切換
+    - { when: has_menu, accept: "0", toggle: charset.all }
     # 内嵌候選開關
     - { when: always, accept: "Control+Shift+E", toggle: embeded_cands }
     # 中英文标点
