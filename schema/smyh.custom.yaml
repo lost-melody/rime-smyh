@@ -11,7 +11,7 @@ patch:
   switches/@5/reset: 1 # 普通模式·嵌入編碼
   switches/@6/reset: 0 # 簡化字·傳統字
   switches/@7/reset: 0 # 簡潔模式·編碼預測
-  switches/@8/reset: 1 # 不過濾·僅常用字
+  switches/@8/reset: 0 # 不過濾·僅常用字
   switches/+:
   key_binder/bindings/+:
   ascii_composer/switch_key/+:
