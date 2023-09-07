@@ -3,6 +3,7 @@
 
 ---
 name: "smyh.yuhaofull"
+version: release
 sort: original
 columns:
   - text
