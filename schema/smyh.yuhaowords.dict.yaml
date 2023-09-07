@@ -3,7 +3,6 @@
 
 ---
 name: "smyh.yuhaowords"
-version: "beta"
 sort: original
 import_tables:
   - smyh.yuhaofull

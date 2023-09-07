@@ -3,7 +3,6 @@
 
 ---
 name: "smyh.base"
-version: "beta"
 sort: original
 import_tables:
 columns:

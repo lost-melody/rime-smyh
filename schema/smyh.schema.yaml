@@ -4,7 +4,7 @@
 schema:
   schema_id: smyh
   name: 吉旦餅
-  version: "alpha"
+  version: 2.3.0
   author:
     - 宇浩输入法
     - 阿吉
@@ -12,7 +12,7 @@ schema:
     - 王牌饼干
   description: |
     吉旦餅，基于宇浩輸入法製作。
-    宇浩輸入法QQ群：735728797
+    雞蛋餅QQ群："917190494"
   dependencies:
     # 宇浩拼音, 用于反查
     - yuhao_pinyin
