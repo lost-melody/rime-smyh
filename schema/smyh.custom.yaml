@@ -80,10 +80,16 @@ patch:
         name: 訪問倉庫
       - type: shell
         name: ⚛吉旦餅
-        cmd: xdg-open https://github.com/lost-melody/rime-smyh/tree/wafel
+        cmd: url="https://github.com/lost-melody/rime-smyh/tree/wafel" &&
+          type open && open "${url}" ||
+          type xdg-open && xdg-open "${url}" ||
+          echo "${url}"
       - type: shell
         name: ⚛宇浩
-        cmd: xdg-open https://github.com/forfudan/yuhao
+        cmd: url="https://github.com/forfudan/yuhao" &&
+          type open && open "${url}" ||
+          type xdg-open && xdg-open "${url}" ||
+          echo "${url}"
     quick:
       - type: tip
         name: 快捷短語

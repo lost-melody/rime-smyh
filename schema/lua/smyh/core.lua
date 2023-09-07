@@ -17,18 +17,42 @@ core.word_trie = nil
 core.full_mem = nil
 
 
-local _unix_supported
--- 是否支持 Unix 命令
-function core.unix_supported()
-    if _unix_supported == nil then
-        local res
-        _unix_supported, res = pcall(io.popen, "sleep 0")
-        if _unix_supported and res then
-            res:close()
-        end
+-- 操作系統類型枚舉
+core.os_types = {
+    android = "android",
+    ios     = "ios",
+    linux   = "linux",
+    mac     = "mac",
+    windows = "windows",
+    unknown = "unknown",
+}
+
+-- 當前操作系統平臺
+core.os_name = core.os_types.unknown
+if rime_api and rime_api.get_distribution_code_name then
+    local dist = rime_api.get_distribution_code_name()
+    if dist == "trime" then
+        -- 同文
+        -- 中文應該不支持
+        core.os_name = core.os_types.android
+    elseif dist == "Hamster" then
+        -- 倉
+        -- iRime 不支持
+        core.os_name = core.os_types.ios
+    elseif dist == "fcitx-rime" or dist == "ibus-rime" then
+        -- Fcitx, IBus
+        core.os_name = core.os_types.linux
+    elseif dist == "Squirrel" then
+        -- Squirrel
+        core.os_name = core.os_types.mac
+    elseif dist == "Weasel" then
+        -- Weasel
+        core.os_name = core.os_types.windows
+    else
+        core.os_name = core.os_types.unknown
     end
-    return _unix_supported
 end
+
 
 -- 宏類型枚舉
 core.macro_types = {
@@ -224,7 +248,12 @@ end
 ---@param cmd string
 ---@param text boolean
 local function new_shell(name, cmd, text)
-    if not core.unix_supported() then
+    local supported_os = {
+        [core.os_types.android] = true,
+        [core.os_types.mac]     = true,
+        [core.os_types.linux]   = true,
+    }
+    if not supported_os[core.os_name] then
         return new_tip(name, cmd)
     end
 
