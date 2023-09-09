@@ -1028,8 +1028,7 @@ columns:
 蹋	bjq	459
 踶	bjt	0
 跡	bjv	13793
-下	bk1	418595	bk1
-下	bk1	100	bk1
+下	bk1	418595
 丅	bk3	0
 蹰	bka	0
 蹸	bka	0
@@ -2135,8 +2134,7 @@ columns:
 鎃	diw	0
 卽	dix	36988
 皍	dix	0
-之	dj1	217010	dj1
-之	dj1	100	dj1
+之	dj1	217010
 皑	dja	2
 鍀	dja	0
 鏎	dja	0
@@ -3198,8 +3196,7 @@ columns:
 倒	ehx	38640
 倥	ehy	35
 伨	ehy	0
-生	ei1	415484	ei1
-生	ei1	100	ei1
+生	ei1	415484
 化	eib	118636
 货	eic	85
 倾	eic	75
@@ -6099,8 +6096,7 @@ columns:
 黱	hqv	0
 勝	hqw	21516
 膉	hqz	0
-月	hr1	133489	hr1
-月	hr1	100	hr1
+月	hr1	133489
 勹	hr3	0
 膞	hra	0
 朎	hrb	0
@@ -7271,8 +7267,7 @@ columns:
 於	iry	100	ir1
 漌	iry	0
 溋	irz	0
-方	is1	221183	is1
-方	is1	100	is1
+方	is1	221183
 ッ	is3	0
 氵	is3	0
 港	isa	29522
@@ -8354,8 +8349,7 @@ columns:
 嵛	jrx	0
 騟	jrx	0
 騹	jry	0
-三	js1	132477	js1
-三	js1	100	js1
+三	js1	132477
 畢	jsa	23101
 巏	jsc	0
 驩	jsc	0
@@ -9238,8 +9232,7 @@ columns:
 皽	ldw	0
 氈	ldx	525
 媼	ldz	0
-而	le1	194587	le1
-而	le1	100	le1
+而	le1	194587
 乵	lee	0
 姙	lee	0
 亱	lef	0
@@ -19343,8 +19336,7 @@ columns:
 箾	wkx	0
 鄱	wkz	56
 籚	wkz	0
-力	wl1	209930	wl1
-力	wl1	100	wl1
+力	wl1	209930
 笯	wlb	0
 妝	wlc	3439
 婓	wlc	0
@@ -21182,44 +21174,42 @@ columns:
 隀	zzn	0
 阡	zzo	370
 奰	zzt	0
-可以	a2
-發現	b2
-要麽	c2
-因爲	d2
-他們	e2
-一個	f2
-地方	g2
-到了	h2
-不是	i2
-是不是	j2
-好像	l2
-自己	m2
-平靜	n2
-中國	o2
-對的	p2
-所以	q2
-今天	r2
-在於	s2
-大家	t2
 這麽	u2
 那麽	v2
+可以	a2
+發現	b2
+要求	c2
+的確	d2
+他們	e2
+一定	f2
+地方	g2
+到底	h2
+不管	i2
+是否	j2
+了事	k2
+好奇	l2
+自己	m2
+平常	n2
+中國	o2
+對方	p2
+道路	q2
+人民	r2
+在場	s2
+大家	t2
 我們	w2
-出來	x2
+出口	x2
 成爲	y2
 還是	z2
 授予	av2
-下午	bk2
 尺子	bl2
 通過	bt2
 監督	bw2
 剛剛	cq2
 十分	di2
-之後	dj2
 回來	do2
 國家	dy2
 什麽	ed2
 便是	ef2
-生活	ei2
 傷害	ew2
 冬天	ey2
 查詢	fj2
@@ -21233,19 +21223,14 @@ columns:
 幫助	gg2
 都是	gj2
 胸口	hh2
-容易	hr2
 宗派	hs2
-没有	iq2
 於是	ir2
-方法	is2
 染色	iw2
 豈能	jf2
 時候	jg2
 事情	jo2
-三個	js2
 最後	jt2
 能够	kh2
-而且	le2
 眨眼	mw2
 維度	pc2
 終於	pe2
@@ -21264,7 +21249,6 @@ columns:
 從來	vr2
 稱爲	vv2
 等待	wg2
-力量	wl2
 降落	ze2
 一定	fi2
 丁香	ah2
@@ -21296,7 +21280,6 @@ columns:
 刀子	dk2
 力量	wl2
 匕首	ib2
-十分	di2
 千萬	zo2
 卜卦	jp2
 卯榫	ig2
@@ -21423,6 +21406,30 @@ columns:
 你們	epk
 怎麽	wjg
 爲什麽	v2
+可能	a2
+發展	b2
+要命	c2
+的士	d2
+他用	e2
+一起	f2
+地球	g2
+到處	h2
+不然	i2
+是非	j2
+了結	k2
+好友	l2
+自由	m2
+平衡	n2
+中間	o2
+對於	p2
+道德	q2
+人類	r2
+在於	s2
+大師	t2
+這麽	u2
+我國	w2
+出去	x2
+成功	y2
 還有	z2
 時間	jg2
 説話	uq2
