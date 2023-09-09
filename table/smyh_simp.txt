@@ -9,7 +9,7 @@
 不	i1
 是	j1
 了	k1
-就	l1
+好	l1
 现	m1
 里	n1
 中	o1
@@ -36,13 +36,16 @@
 回	do1
 讲	dy1
 便	ef1
-使	ef2
+条	ef2
+速	fo2
 赛	hs1
 题	jf1
 类	kt1
-好	lk1
 品	oo1
 知	qo1
 途	rf1
 散	sh1
 爱	vp1
+降	ze1
+仁	ey1
+灯	ma1
