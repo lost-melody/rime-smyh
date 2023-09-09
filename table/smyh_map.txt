@@ -57,7 +57,6 @@ Ee	乚
 Ee	㇉
 Ee	𡿨
 Eh	川
-Ei	生
 Ej	來
 Ek	風
 Em	{贏頭}
@@ -77,6 +76,7 @@ Gg	龶
 Gi	土
 Gi	耂
 Gk	心
+Gl	生
 Gn	{龜下}
 Gn	世
 Gn	黽

@@ -71,6 +71,7 @@
 習	qq1
 餘	qr1
 途	rf1
+貨	ei1
 悶	rg1
 領	rl1
 芯	sg1
@@ -87,7 +88,6 @@
 降	ze1
 你	epk
 怎	wjg
-貨	e2
 頭	f2
 赤	g2
 宗	h2
