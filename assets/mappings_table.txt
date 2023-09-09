@@ -17,15 +17,15 @@
        │========   A   ========│       │========   S   ========│       │========   D   ========│       │========   F   ========│       │========   G   ========│
        │亥   Aa│丁   Ah│寸   Ai│       │艮   Si│卄   Sk│卅   Sk│       │癶右 Da│彡   Da│讠   Da│       │冎   Fa│咼   Fa│一   Fi│       │𠂤   Gd│龶   Gg│土   Gi│
        │巴   Aj│キ   Ak│ヰ   Ak│       │卌   Sk│卝   Sk│未   Sk│       │两撇 Da│囗   Dd│十   Di│       │木   Fk│       │       │       │耂   Gi│心   Gk│龜下 Gn│
-       │七   Ak│扌   Ak│己   Al│       │艹   Sk│龷   Sk│冓上 Sk│       │之   Dj│刀   Dk│辶   Dn│       │       │       │       │       │世   Gn│黽   Gn│穀頭 Gu│
-       │巳   Am│已   Ao│       │       │末   Sm│乜   So│也   So│       │金   Dn│白   Ds│夫   Du│       │       │       │       │       │士   Gu│
+       │己   Al│巳   Am│已   Ao│       │艹   Sk│龷   Sk│冓上 Sk│       │之   Dj│刀   Dk│辶   Dn│       │       │       │       │       │世   Gn│黽   Gn│穀頭 Gu│
+       │七   Aq│扌   As│       │       │末   Sm│乜   So│也   So│       │金   Dn│白   Ds│夫   Du│       │       │       │       │       │士   Gu│
        │       │       │       │       │丑   Sp│示   Ss│左上 Ss│
 
        │========   H   ========│       │========   J   ========│       │========   K   ========│       │========   L   ========│
        │宀   Hb│至   Hc│臼   Hd│       │早   Ja│亍   Jc│长   Jc│       │畏下 Ka│匚   Ka│厂   Ka│       │面   La│亠   Lb│女   Lc│
        │祭上 Hr│⺆   Hr│月   Hr│       │山   Je│日   Jk│龍右 Jp│       │亞下 Kc│亞中 Kc│了   Kc│       │而   Le│丶   Ll│乀   Ll│
-       │勹   Hr│穴   Hv│       │       │乍下 Jp│卜   Jp│馬上 Jr│       │饣   Ke│小   Kf│厶   Kf│       │立   Lu│高頭 Lv│京頭 Lv│
-       │       │       │       │       │馬   Jr│三   Js│亦   Jv│       │上   Kg│丄   Kg│虎头 Kk│       │亮頭 Lv│高   Lv│冊   Lw│
+       │勹   Hr│穴   Hv│       │       │乍下 Jp│卜   Jp│馬上 Jr│       │饣   Ke│小   Kf│厶   Kf│       │冊   Ls│立   Lu│高頭 Lv│
+       │       │       │       │       │馬   Jr│三   Js│亦   Jv│       │上   Kg│丄   Kg│虎头 Kk│       │京頭 Lv│亮頭 Lv│高   Lv│
        │       │       │       │       │于下 Jv│爲下 Jw│曰   Jw│       │虎   Kk│尚   Kr│龸   Kr│       │辛   Lx│
        │       │       │       │       │韋   Jx│五下 Jx│       │       │米   Ks│子   Kv│
 

@@ -58,11 +58,11 @@ columns:
 把	aaj	190432
 暋	aaj	1
 昬	aaj	0
-民	aak	62087
 睯	aam	0
 抲	aao	0
 挠	aap	1923
 鴖	aap	0
+民	aaq	62087
 拣	aau	1147
 撰	aau	970
 巽	aau	115
@@ -328,8 +328,6 @@ columns:
 捑	ajt	0
 揾	ajz	4
 擝	ajz	0
-七	ak1	32521
-扌	ak3	5
 キ	ak3	0
 ヰ	ak3	0
 撛	aka	0
@@ -528,6 +526,7 @@ columns:
 扤	apw	0
 抻	apx	113
 搀	apy	997
+七	aq1	32521
 拌	aqa	800
 撙	aqa	4
 擢	aqc	132
@@ -608,6 +607,7 @@ columns:
 揄	arx	244
 掵	arx	0
 扵	ary	0
+扌	as3	5
 抜	asb	1
 擭	asb	1
 攤	asc	551
@@ -1809,12 +1809,12 @@ columns:
 皅	daj	0
 鈀	daj	0
 鍲	daj	0
-皂	dak	777
 记	dal	51904
 釲	dam	0
 诃	dao	212
 鈳	dao	0
 鎶	dao	0
+皂	daq	777
 鐉	dau	0
 围	dav	31253
 讳	dav	1005
@@ -4267,6 +4267,7 @@ columns:
 柿	flr	485
 楴	flr	0
 檩	fls	17
+柵	fls	0
 桹	fls	0
 梳	flt	2124
 樈	flt	0
@@ -4275,7 +4276,6 @@ columns:
 栐	flv	0
 檁	flv	0
 榱	flw	4
-柵	flw	0
 橠	flw	0
 櫰	flw	0
 欀	flw	0
@@ -6380,7 +6380,6 @@ columns:
 汀	iah	937
 昏	iaj	10627
 湣	iaj	14
-氏	iak	8431
 氐	ial	103
 汜	iam	124
 浙	ian	1223
@@ -6389,6 +6388,7 @@ columns:
 滒	iao	0
 浇	iap	1029
 鴟	iap	25
+氏	iaq	8431
 帋	iar	0
 湁	iar	0
 潠	iau	0
@@ -9502,12 +9502,12 @@ columns:
 髚	llq	0
 媂	llr	0
 娘	lls	30641
+姍	lls	0
 媆	llt	0
 妶	llu	2
 竝	llu	0
 孃	llw	51
 嬢	llw	1
-姍	llw	0
 辡	llx	0
 嬂	lly	0
 姣	llz	233
@@ -9700,6 +9700,7 @@ columns:
 妗	lrv	106
 媮	lrx	0
 嫤	lry	0
+冊	ls3	2
 嬳	lsb	0
 孉	lsc	0
 嫨	lsd	0
@@ -9801,7 +9802,6 @@ columns:
 娳	lvx	0
 婾	lvy	0
 娜	lvz	13878
-冊	lw3	2
 亳	lwa	50
 奼	lwa	5
 姩	lwa	0
@@ -13753,9 +13753,9 @@ columns:
 餢	qlo	0
 鶣	qlp	0
 翩	qlq	1826
+扁	qls	2184
 餪	qlt	0
 甂	qlu	0
-扁	qlw	2184
 扆	qlw	2
 餏	qlw	0
 饟	qlw	0
@@ -18972,7 +18972,6 @@ columns:
 笆	waj	200
 簎	waj	0
 年	wak	196322
-乇	wak	4
 焘	wam	406
 鹅	wan	1420
 籀	wan	14
@@ -18983,6 +18982,7 @@ columns:
 鵝	wap	516
 鵇	wap	0
 鵞	wap	0
+乇	waq	4
 箍	war	394
 籡	war	0
 簨	wau	0

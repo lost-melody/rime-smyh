@@ -18,11 +18,16 @@ columns:
 要	c1	315241	c1
 的	d1	2080366	d1
 他	e1	529028	e1
+貨	e2	20419	e2
 一	f1	1378822	f1
+頭	f2	217899	f2
 地	g1	389633	g1
+赤	g2	7035	g2
 到	h1	454836	h1
+宗	h2	77628	h2
 不	i1	1216779	i1
 是	j1	1041202	j1
+題	j2	81671	j2
 了	k1	1267234	k1
 好	l1	309837	l1
 自	m1	311665	m1
@@ -51,11 +56,11 @@ columns:
 把	aaj	174289
 昬	aaj	0
 暋	aaj	0
-民	aak	140416
 睯	aam	0
 抲	aao	0
 挠	aap	21
 鴖	aap	0
+民	aaq	140416
 撰	aau	2330
 巽	aau	145
 拣	aau	13
@@ -321,10 +326,8 @@ columns:
 捑	ajt	0
 揾	ajz	0
 擝	ajz	0
-七	ak1	29140
 キ	ak3	0
 ヰ	ak3	0
-扌	ak3	0
 撛	aka	0
 拒	akb	7061
 挊	akb	0
@@ -521,6 +524,7 @@ columns:
 扤	apw	0
 抻	apx	1
 搀	apy	11
+七	aq1	29140
 拌	aqa	1409
 撙	aqa	0
 擢	aqc	336
@@ -602,6 +606,7 @@ columns:
 揄	arx	337
 掵	arx	0
 扵	ary	0
+扌	as3	0
 抜	asb	0
 擭	asb	0
 攤	asc	5799
@@ -1808,12 +1813,12 @@ columns:
 皅	daj	0
 鈀	daj	0
 鍲	daj	0
-皂	dak	1195
 记	dal	577
 釲	dam	0
 诃	dao	2
 鈳	dao	0
 鎶	dao	0
+皂	daq	1195
 鐉	dau	0
 围	dav	347
 讳	dav	11
@@ -3081,6 +3086,7 @@ columns:
 麬	eew	0
 佟	eey	45
 便	ef1	85856	ef1
+使	ef2	77337	ef2
 俪	efc	1
 僵	eff	2128
 体	eff	948
@@ -3119,7 +3125,7 @@ columns:
 颲	efx	0
 儷	efy	501
 俓	efy	0
-使	efz	77337
+使	efz	100	ef2
 便	efz	100	ef1
 儞	efz	0
 侍	ega	3723
@@ -3206,8 +3212,8 @@ columns:
 伾	eif	0
 仳	eii	35
 低	eil	49460
-貨	eim	20419
 傾	eim	9495
+貨	eim	100	e2
 飀	ein	0
 俖	eio	0
 仿	eis	3707
@@ -4270,6 +4276,7 @@ columns:
 杭	flq	2945
 柿	flr	778
 楴	flr	0
+柵	fls	0
 桹	fls	0
 檩	fls	0
 梳	flt	2076
@@ -4278,7 +4285,6 @@ columns:
 槁	flv	188
 栐	flv	0
 檁	flv	0
-柵	flw	0
 榱	flw	0
 橠	flw	0
 櫰	flw	0
@@ -4377,8 +4383,8 @@ columns:
 梋	foh	0
 樓	fol	45885
 辢	fol	0
-頭	fom	217899
 賴	fom	8479
+頭	fom	100	f2
 桯	fom	0
 樻	fom	0
 頼	fom	0
@@ -5526,7 +5532,7 @@ columns:
 塕	guq	0
 坧	gut	0
 赫	guu	16423
-赤	guu	7035
+赤	guu	100	g2
 垑	guu	0
 螫	guv	140
 赨	guv	0
@@ -6130,7 +6136,7 @@ columns:
 肣	hrv	0
 窬	hrx	0
 腧	hrx	0
-宗	hs1	77628	hs1
+膜	hs1	4442	hs1
 臟	hsb	7994
 蹇	hsb	1
 臒	hsb	0
@@ -6169,9 +6175,9 @@ columns:
 翝	hsq	0
 匒	hsr	0
 祭	hss	7901
-宗	hss	100	hs1
-膜	hst	4442
+宗	hss	100	h2
 寞	hst	4208
+膜	hst	100	hs1
 朠	hst	0
 謇	hsu	71
 骞	hsu	1
@@ -6395,7 +6401,6 @@ columns:
 汀	iah	1546
 昏	iaj	11128
 湣	iaj	0
-氏	iak	5021
 氐	ial	1
 汜	iam	1
 浙	ian	1178
@@ -6404,6 +6409,7 @@ columns:
 滒	iao	0
 鴟	iap	175
 浇	iap	11
+氏	iaq	5021
 帋	iar	0
 湁	iar	0
 潠	iau	0
@@ -7831,9 +7837,9 @@ columns:
 栾	jfk	2
 崧	jfk	1
 崃	jfk	0
-題	jfm	81671
 顆	jfm	7975
 覬	jfm	264
+題	jfm	100	j2
 嵀	jfm	0
 顗	jfm	0
 量	jfn	75329
@@ -9521,11 +9527,11 @@ columns:
 髚	llq	0
 媂	llr	0
 娘	lls	17999
+姍	lls	0
 媆	llt	0
 妶	llu	0
 竝	llu	0
 孃	llw	728
-姍	llw	0
 嬢	llw	0
 辡	llx	0
 嬂	lly	0
@@ -9719,6 +9725,7 @@ columns:
 妗	lrv	1
 媮	lrx	0
 嫤	lry	0
+冊	ls3	0
 嬳	lsb	0
 孉	lsc	0
 嫨	lsd	0
@@ -9820,7 +9827,7 @@ columns:
 娳	lvx	0
 婾	lvy	0
 娜	lvz	2350
-冊	lw3	0
+衣	lw1	41397	lw1
 亳	lwa	71
 奼	lwa	0
 姩	lwa	0
@@ -9833,8 +9840,8 @@ columns:
 産	lwe	85919
 妦	lwf	0
 婣	lwf	0
-衣	lwh	41397
 哀	lwh	8776
+衣	lwh	100	lw1
 婔	lwi	0
 妰	lwj	0
 产	lwk	325
@@ -13780,9 +13787,9 @@ columns:
 餢	qlo	0
 鶣	qlp	0
 翩	qlq	1683
+扁	qls	3244
 餪	qlt	0
 甂	qlu	0
-扁	qlw	3244
 扆	qlw	0
 餏	qlw	0
 饟	qlw	0
@@ -19011,7 +19018,6 @@ columns:
 笆	waj	635
 簎	waj	0
 年	wak	314116
-乇	wak	0
 焘	wam	5
 籀	wan	70
 鹅	wan	16
@@ -19022,6 +19028,7 @@ columns:
 鵝	wap	4111
 鵇	wap	0
 鵞	wap	0
+乇	waq	0
 箍	war	109
 籡	war	0
 簨	wau	0
@@ -21174,32 +21181,27 @@ columns:
 隀	zzn	0
 阡	zzo	370
 奰	zzt	0
-這麽	u2
-那麽	v2
 可以	a2
 發現	b2
-要求	c2
-的確	d2
-他們	e2
-一定	f2
-地方	g2
-到底	h2
-不管	i2
-是否	j2
-了事	k2
-好奇	l2
+要麽	c2
+因爲	d2
+好像	l2
 自己	m2
 平常	n2
 中國	o2
 對方	p2
-道路	q2
+所以	q2
 人民	r2
 在場	s2
 大家	t2
+這麽	u2
+那麽	v2
 我們	w2
-出口	x2
+出去	x2
 成爲	y2
 還是	z2
+不管	i2
+了事	k2
 授予	av2
 尺子	bl2
 通過	bt2
@@ -21209,7 +21211,6 @@ columns:
 回來	do2
 國家	dy2
 什麽	ed2
-便是	ef2
 傷害	ew2
 冬天	ey2
 查詢	fj2
@@ -21223,7 +21224,6 @@ columns:
 幫助	gg2
 都是	gj2
 胸口	hh2
-宗派	hs2
 於是	ir2
 染色	iw2
 豈能	jf2
@@ -21231,6 +21231,7 @@ columns:
 事情	jo2
 最後	jt2
 能够	kh2
+衣服	lw2
 眨眼	mw2
 維度	pc2
 終於	pe2
@@ -21252,7 +21253,7 @@ columns:
 降落	ze2
 一定	fi2
 丁香	ah2
-七月	ak2
+七月	aq2
 三角	js2
 上面	kg2
 下去	bk2
@@ -21405,9 +21406,19 @@ columns:
 齒輪	wk2
 你們	epk
 怎麽	wjg
-爲什麽	v2
 可能	a2
 發展	b2
+自由	m2
+平衡	n2
+中間	o2
+對於	p2
+人類	r2
+在於	s2
+大師	t2
+爲什麽	v2
+出來	x2
+成功	y2
+還有	z2
 要命	c2
 的士	d2
 他用	e2
@@ -21418,24 +21429,14 @@ columns:
 是非	j2
 了結	k2
 好友	l2
-自由	m2
-平衡	n2
-中間	o2
-對於	p2
 道德	q2
-人類	r2
-在於	s2
-大師	t2
 這麽	u2
 我國	w2
-出去	x2
-成功	y2
-還有	z2
 時間	jg2
 説話	uq2
 一起	fi2
 丁當	ah2
-七律	ak2
+七律	aq2
 三國	js2
 上海	kg2
 下降	bk2

@@ -4,11 +4,11 @@ Ai	寸
 Aj	巴
 Ak	キ
 Ak	ヰ
-Ak	七
-Ak	扌
 Al	己
 Am	巳
 Ao	已
+Aq	七
+As	扌
 Bc	臣
 Bi	尢
 Bi	尤
@@ -141,12 +141,12 @@ Lc	女
 Le	而
 Ll	丶
 Ll	乀
+Ls	冊
 Lu	立
 Lv	{高頭}
 Lv	{京頭}
 Lv	{亮頭}
 Lv	高
-Lw	冊
 Lx	辛
 Mc	灬
 Mc	自

@@ -48,7 +48,7 @@
 幫	gg1
 都	gj1
 胸	hh1
-宗	hs1
+膜	hs1
 與	hu1
 於	ir1
 染	iw1
@@ -57,6 +57,7 @@
 事	jo1
 最	jt1
 能	kh1
+衣	lw1
 眨	mw1
 吧	oa1
 品	oo1
@@ -86,3 +87,9 @@
 降	ze1
 你	epk
 怎	wjg
+貨	e2
+頭	f2
+赤	g2
+宗	h2
+題	j2
+使	ef2
