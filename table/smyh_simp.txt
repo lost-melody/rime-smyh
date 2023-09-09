@@ -37,7 +37,8 @@
 讲	dy1
 便	ef1
 条	ef2
-速	fo2
+速	fo1
+逼	fo2
 赛	hs1
 题	jf1
 类	kt1
