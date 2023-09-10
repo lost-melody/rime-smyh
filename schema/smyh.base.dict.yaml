@@ -17,17 +17,14 @@ columns:
 对	b1	293709	b1
 要	c1	408050	c1
 的	d1	3812777	d1
-说	d2	568945	d2
 他	e1	877391	e1
-你	e2	695568	e2
 一	f1	1786173	f1
 地	g1	455629	g1
 到	h1	580057	h1
 不	i1	1538442	i1
-没	i2	378467	i2
 是	j1	1579013	j1
 了	k1	1714620	k1
-就	l1	561635	l1
+好	l1	370272	l1
 现	m1	197281	m1
 里	n1	351732	n1
 中	o1	408284	o1
@@ -35,17 +32,13 @@ columns:
 道	q1	523968	q1
 个	r1	701170	r1
 在	s1	960458	s1
-有	s2	918481	s2
 大	t1	576021	t1
 着	u1	529358	u1
 那	v1	497166	v1
-得	v2	371935	v2
 我	w1	1499795	w1
 这	x1	836733	x1
-出	x2	430772	x2
 头	y1	228219	y1
 重	z1	106971	z1
-降	z2	13825	z2
 亥	aa1	627
 抿	aaa	1062
 敯	aab	0
@@ -2512,8 +2505,8 @@ columns:
 诩	dqq	418
 皏	dqs	1
 鉼	dqs	0
+说	dqt	568945
 鋭	dqt	449
-说	dqt	100	d2
 兠	dqt	0
 谦	dqu	3107
 鎌	dqu	15
@@ -3077,7 +3070,7 @@ columns:
 麬	eew	0
 佟	eey	943
 便	ef1	88543	ef1
-使	ef2	76901	ef2
+条	ef2	43875	ef2
 俪	efc	113
 体	eff	85330
 僵	eff	4774
@@ -3086,8 +3079,8 @@ columns:
 恷	efg	0
 伍	efj	7287
 倲	efj	0
-条	efk	43875
 休	efk	18530
+条	efk	100	ef2
 俫	efk	2
 俹	efk	0
 倯	efk	0
@@ -3116,7 +3109,7 @@ columns:
 颲	efx	0
 儷	efy	61
 俓	efy	0
-使	efz	100	ef2
+使	efz	76901
 便	efz	100	ef1
 儞	efz	0
 侍	ega	6974
@@ -3439,7 +3432,7 @@ columns:
 像	epe	99906
 敒	epe	0
 您	epg	26107
-你	epk	100	e2
+你	epk	695568
 儳	epl	0
 偩	epm	0
 僖	epo	109
@@ -3692,6 +3685,7 @@ columns:
 伊	exw	13256
 飇	exx	0
 儘	exz	1294
+仁	ey1	9602	ey1
 俯	eya	2838
 侂	eya	25
 傉	eya	4
@@ -3712,8 +3706,8 @@ columns:
 佽	eyn	1
 傏	eyo	0
 代	eyq	59436
-仁	eyr	9602
 冬	eyr	9371
+仁	eyr	100	ey1
 帒	eyr	0
 伐	eys	3038
 牮	eyt	1
@@ -4343,14 +4337,16 @@ columns:
 蜤	fnv	0
 画	fnx	17058
 榒	fny	0
+速	fo1	35399	fo1
+逼	fo2	9743	fo2
 豉	fob	23
 赖	foc	5599
 鬲	foc	23
 揧	foc	0
 梙	foc	0
-速	fod	35399
-逼	fod	9743
 逗	fod	3474
+速	fod	100	fo1
+逼	fod	100	fo2
 枴	fod	51
 遫	fod	1
 鬺	fod	1
@@ -7159,7 +7155,7 @@ columns:
 汎	iql	5
 湌	iql	0
 瀥	iql	0
-没	iqm	100	i2
+没	iqm	378467
 渞	iqm	0
 澦	iqm	0
 欵	iqn	1
@@ -9416,9 +9412,8 @@ columns:
 戠	ljy	0
 媪	ljz	44
 鄣	ljz	9
-好	lk1	370272	lk1
 嫾	lka	0
-就	lkb	100	l1
+就	lkb	561635
 姖	lkb	2
 婌	lkb	0
 蹵	lkb	0
@@ -9465,7 +9460,7 @@ columns:
 充	lkt	23164
 夣	lku	0
 享	lkv	9499
-好	lkv	100	lk1
+好	lkv	100	l1
 妙	lkw	14954
 勍	lkw	1
 竗	lkw	0
@@ -9889,12 +9884,13 @@ columns:
 嬛	lzw	19
 衺	lzw	0
 褱	lzw	0
+灯	ma1	13757	ma1
 眠	maa	4517
 珉	maa	430
 烗	maa	0
 賅	maa	0
-灯	mah	13757
 盯	mah	10325
+灯	mah	100	ma1
 玎	mah	38
 尃	mai	1
 瑉	maj	0
@@ -15229,7 +15225,7 @@ columns:
 莞	shp	450
 萄	shq	2064
 祹	shq	2
-有	shr	100	s2
+有	shr	918481
 萸	shr	40
 蔡	shs	4437
 萗	shs	0
@@ -18316,7 +18312,7 @@ columns:
 蚄	vis	0
 濷	viv	0
 骨	vj1	16783
-得	vja	100	v2
+得	vja	371935
 穝	vjb	0
 蟃	vjb	0
 躗	vjb	0
@@ -20171,7 +20167,7 @@ columns:
 刘	xxd	39590
 剘	xxd	0
 飆	xxe	157
-出	xxi	100	x2
+出	xxi	430772
 艸	xxi	1
 猉	xxi	0
 离	xxk	57953
@@ -20862,8 +20858,9 @@ columns:
 迓	zdn	18
 陕	zdq	900
 罚	zdx	4476
+降	ze1	13825	ze1
 附	zea	12397
-降	zea	100	z2
+降	zea	100	ze1
 隆	zeg	8579
 眾	zer	5573
 陲	zes	167

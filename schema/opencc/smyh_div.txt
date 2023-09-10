@@ -29729,7 +29729,7 @@
 𠔌	(八八口,UsUsOs,,CJK-B)
 𠔍	(八由,UsPb,xī,CJK-B)
 𠔎	(八人キ,UsReAk,qǐn,CJK-B)
-𠔏	(艹一八,SkFiUs,,CJK-B)
+𠔏	(艹二八,SkYrUs,,CJK-B)
 𠔐	(一〢二八,FiCnYrUs,,CJK-B)
 𠔑	(八刀八刀,UsDkUsDk,hài,CJK-B)
 𠔒	(八臼,UsHd,,CJK-B)
