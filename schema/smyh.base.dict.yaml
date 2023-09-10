@@ -24,7 +24,7 @@ columns:
 不	i1	1538442	i1
 是	j1	1579013	j1
 了	k1	1714620	k1
-好	l1	370272	l1
+就	l1	561635	l1
 现	m1	197281	m1
 里	n1	351732	n1
 中	o1	408284	o1
@@ -9412,8 +9412,9 @@ columns:
 戠	ljy	0
 媪	ljz	44
 鄣	ljz	9
+好	lk1	370272	lk1
 嫾	lka	0
-就	lkb	561635
+就	lkb	100	l1
 姖	lkb	2
 婌	lkb	0
 蹵	lkb	0
@@ -9460,7 +9461,7 @@ columns:
 充	lkt	23164
 夣	lku	0
 享	lkv	9499
-好	lkv	100	l1
+好	lkv	100	lk1
 妙	lkw	14954
 勍	lkw	1
 竗	lkw	0
