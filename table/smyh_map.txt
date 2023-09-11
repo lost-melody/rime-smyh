@@ -1,14 +1,14 @@
-Aa	亥
+Ab	巴
 Ah	丁
 Ai	寸
-Aj	巴
-Ak	キ
-Ak	ヰ
-Al	己
+Aj	己
+Ak	七
+Al	キ
+Al	ヰ
 Am	巳
 Ao	已
-Aq	七
 As	扌
+Ay	鱼
 Bc	臣
 Bi	尢
 Bi	尤
@@ -82,6 +82,7 @@ Gn	世
 Gn	黽
 Gu	{穀頭}
 Gu	士
+Gy	亥
 Hb	宀
 Hc	至
 Hd	臼
@@ -189,7 +190,6 @@ Pq	{鳥上}
 Pq	鳥
 Ps	{烏上}
 Ps	烏
-Pv	鱼
 Pw	兀
 Px	忄
 Px	申
@@ -281,7 +281,6 @@ Vi	彳
 Vi	𠄎
 Vj	骨
 Vk	爪
-Vm	入
 Vn	禾
 Vs	瓜
 Vu	水
@@ -299,6 +298,7 @@ Wo	{⺮右}
 Wo	竹
 Wo	𠂉
 Wp	爿
+Wr	入
 Wu	皮
 Xd	刂
 Xi	丩
@@ -313,8 +313,8 @@ Xj	{反彐}
 Xk	门
 Xl	犬
 Xl	犭
+Xm	毛
 Xn	文
-Xo	毛
 Xu	舟
 Ya	麻
 Yb	疒

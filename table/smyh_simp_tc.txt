@@ -35,6 +35,7 @@
 國	dy1
 個	ed1
 便	ef1
+貨	ei1
 傷	ew1
 冬	ey1
 查	fj1
@@ -71,7 +72,6 @@
 習	qq1
 餘	qr1
 途	rf1
-貨	ei1
 悶	rg1
 領	rl1
 芯	sg1
@@ -88,6 +88,7 @@
 降	ze1
 你	epk
 怎	wjg
+重	zne
 頭	f2
 赤	g2
 宗	h2
