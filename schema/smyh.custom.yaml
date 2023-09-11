@@ -153,6 +153,7 @@ patch:
   #   - express_editor
   # engine/translators:
   #   - punct_translator
+  #   - table_translator@symbols
   #   - history_translator@history
   #   - reverse_lookup_translator@rev_pinyin
   #   - lua_translator@smyh_core_translator@wafel
