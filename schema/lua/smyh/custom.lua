@@ -236,6 +236,49 @@ function custom.librime_dist_info()
     end
 end
 
+---文本渲染爲圖像
+local function convert_text_to_image(text)
+    local filename_txt = "/tmp/wafel_capture.txt"
+    local filename_png = "/tmp/wafel_capture.png"
+    -- 嵌入候選内容寫入到文件
+    local file, err = io.open(filename_txt, "w")
+    if err or not file then
+        return err
+    end
+    file:write(text)
+    file:close()
+    -- 渲染到 png 文件中
+    local ok
+    local cmd = string.format("pango-view --dpi=256 -qo %s %s", filename_png, filename_txt)
+    ok, err = os.execute(cmd)
+    if not ok then
+        return err
+    end
+    -- 拷貝圖像内容到剪貼板
+    ok, err = os.execute("wl-copy -ot image/png <" .. filename_png)
+    if not ok then
+        return err
+    end
+    -- 删文件
+    -- ok, err = os.execute("rm " .. filename_txt .. " " .. filename_png)
+    -- if not ok then
+    --     return err
+    -- end
+    return ""
+end
+
+---嵌入候選截圖
+function custom.capture_embeded()
+    return function(cand, env)
+        -- 非 linux 系統, 不執行
+        if not cand or WafelCore.os_name ~= WafelCore.os_types.linux then
+            return ""
+        end
+        env.engine.context:clear()
+        return convert_text_to_image(cand.preedit)
+    end
+end
+
 ---常用字過濾
 function custom.freq_filter()
     local chars = ""

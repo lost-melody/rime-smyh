@@ -134,6 +134,14 @@ patch:
         expr: return require("smyh.custom").librime_version()
       - type: eval
         expr: return require("smyh.custom").librime_dist_info()
+  # 自定義捷徑
+  # 在有輸入框的條件下, 按 `Ctrl` 組合鍵觸發
+  wafel/accel/+:
+    # ctrl-k 嵌入編碼截圖
+    # 依賴 pango 和 wl-clipboard, 僅 linux/wayland 環境下可用
+    - key: 0x6b
+      type: eval
+      expr: return require("smyh.custom").capture_embeded()
   # menu/page_size: 5 # Change number of candidates
   # style/layout/margin_x: -1 # Hide candidates bar
   # style/horizontal: true

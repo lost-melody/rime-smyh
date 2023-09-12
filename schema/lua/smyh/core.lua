@@ -353,6 +353,49 @@ local function new_eval(name, expr)
 end
 
 
+---Evaluate 捷徑, 執行給定的 lua 表達式
+local function new_accel_eval(expr)
+    local f = load(expr)
+    if not f then
+        return nil
+    end
+
+    local eval = {
+        type = core.macro_types.eval,
+        expr = f,
+    }
+
+    function eval:get_text(cand, env, getter)
+        if type(self.expr) == "function" then
+            local res = self.expr(cand, env)
+            if type(res) == "string" then
+                return res
+            elseif type(res) == "function" or type(res) == "table" then
+                self.expr = res
+            else
+                return ""
+            end
+        end
+
+        local res
+        if type(self.expr) == "function" then
+            res = self.expr(cand, env)
+        elseif type(self.expr) == "table" then
+            local get_text = self.expr[getter]
+            res = type(get_text) == "function" and get_text(self.expr, cand, env) or nil
+        end
+        return type(res) == "string" and res or ""
+    end
+
+    function eval:trigger(env, ctx, cand)
+        local ok, res = pcall(self.get_text, self, cand, env, "eval")
+        _, _ = ok, res
+    end
+
+    return eval
+end
+
+
 ---字符過濾器
 ---@param option_name string
 ---@param mapper_expr string
@@ -557,6 +600,26 @@ function core.parse_conf_funckeys(env)
         end
     end
     return funckeys
+end
+
+-- 從方案配置中讀取宏配置
+function core.parse_conf_accel_list(env)
+    local accel = {}
+    local accel_list = env.engine.schema.config:get_list(env.name_space .. "/accel") or { size = 0 }
+    for i = 0, accel_list.size - 1 do
+        local key_map = accel_list:get_at(i):get_map()
+        local type = key_map and key_map:has_key("type") and key_map:get_value("type"):get_string() or ""
+        if type == core.macro_types.shell then
+            -- not implemented yet
+        elseif type == core.macro_types.eval then
+            if key_map:has_key("key") and key_map:has_key("expr") then
+                local key = key_map:get_value("key"):get_int() or 0
+                local expr = key_map:get_value("expr"):get_string()
+                accel[key] = new_accel_eval(expr)
+            end
+        end
+    end
+    return accel
 end
 
 -- 構造智能詞前綴树

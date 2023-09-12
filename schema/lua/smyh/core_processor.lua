@@ -27,6 +27,7 @@ function namespaces:init(env)
         local config = {}
         config.macros = core.parse_conf_macro_list(env)
         config.funckeys = core.parse_conf_funckeys(env)
+        config.accels = core.parse_conf_accel_list(env)
         config.mappers = core.parse_conf_mapper_list(env)
         namespaces:set_config(env, config)
     end
@@ -259,6 +260,17 @@ function processor.func(key_event, env)
     end
 
     local ch = key_event.keycode
+    if key_event:ctrl() then
+        -- ctrl-x 自定義 lua 捷徑
+        local accel = namespaces:config(env).accels[ch]
+        if accel then
+            local cand = ctx:get_selected_candidate()
+            accel:trigger(env, ctx, cand)
+            return kAccepted
+        end
+        return kNoop
+    end
+
     local funckeys = namespaces:config(env).funckeys
     if funckeys.macro[string.byte(string.sub(ctx.input, 1, 1))] then
         -- starts with funckeys/macro set
