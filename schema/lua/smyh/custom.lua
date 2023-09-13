@@ -237,45 +237,63 @@ function custom.librime_dist_info()
 end
 
 ---文本渲染爲圖像
-local function convert_text_to_image(text)
+---文本寫入到 txt 文件, 後將 txt 渲染爲 png, 再將 png 内容拷貝到剪貼板, 然後删除文件
+local function convert_text_to_image(os_name)
     local filename_txt = "/tmp/wafel_capture.txt"
     local filename_png = "/tmp/wafel_capture.png"
-    -- 嵌入候選内容寫入到文件
-    local file, err = io.open(filename_txt, "w")
-    if err or not file then
-        return err
+
+    -- 命令序列
+    local cmds = {}
+    local copy_cmd = "wl-copy -o <%s"
+    if os_name == WafelCore.os_types.mac then
+        copy_cmd = "impbcopy %s"
     end
-    file:write(text)
-    file:close()
+
     -- 渲染到 png 文件中
-    local ok
-    local cmd = string.format("pango-view --dpi=256 -qo %s %s", filename_png, filename_txt)
-    ok, err = os.execute(cmd)
-    if not ok then
-        return err
-    end
+    table.insert(cmds, string.format("pango-view --dpi=256 -qo %s %s", filename_png, filename_txt))
     -- 拷貝圖像内容到剪貼板
-    ok, err = os.execute("wl-copy -ot image/png <" .. filename_png)
-    if not ok then
-        return err
-    end
+    table.insert(cmds, string.format(copy_cmd, filename_png))
     -- 删文件
-    -- ok, err = os.execute("rm " .. filename_txt .. " " .. filename_png)
-    -- if not ok then
-    --     return err
-    -- end
-    return ""
+    table.insert(cmds, string.format("rm %s %s", filename_txt, filename_png))
+
+    return function(text)
+        -- 嵌入候選内容寫入到文件
+        local file, err = io.open(filename_txt, "w")
+        if err or not file then
+            return err
+        end
+        file:write(text)
+        file:close()
+
+        -- 執行命令序列
+        local ok
+        for _, cmd in ipairs(cmds) do
+            ok, err = os.execute(cmd)
+            if not ok then
+                return err
+            end
+        end
+
+        return ""
+    end
 end
 
 ---嵌入候選截圖
 function custom.capture_embeded()
+    -- 判斷系統版本
+    local os_name = WafelCore.os_name
+    if os_name ~= WafelCore.os_types.linux and os_name ~= WafelCore.os_types.mac then
+        return nil
+    end
+    local converter = convert_text_to_image(os_name)
+
+    -- 傳入參數 cand: Candidate
     return function(cand, env)
-        -- 非 linux 系統, 不執行
-        if not cand or WafelCore.os_name ~= WafelCore.os_types.linux then
+        if not cand then
             return ""
         end
         env.engine.context:clear()
-        return convert_text_to_image(cand.preedit)
+        return converter(cand.preedit)
     end
 end
 

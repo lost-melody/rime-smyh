@@ -138,7 +138,9 @@ patch:
   # 在有輸入框的條件下, 按 `Ctrl` 組合鍵觸發
   wafel/accel/+:
     # ctrl-k 嵌入編碼截圖
-    # 依賴 pango 和 wl-clipboard, 僅 linux/wayland 環境下可用
+    # 僅支持 linux-wayland 和 mac 環境
+    # linux-wayland: 依賴 pango 和 wl-clipboard
+    # mac: 依賴 pango 和 impbcopy
     - key: 0x6b
       type: eval
       expr: return require("smyh.custom").capture_embeded()
