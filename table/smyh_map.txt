@@ -84,13 +84,13 @@ Gu	{穀頭}
 Gu	士
 Gy	亥
 Hb	宀
-Hc	至
-Hd	臼
+Hj	臼
 Hr	{祭上}
 Hr	⺆
 Hr	月
 Hr	勹
 Hv	穴
+Hz	至
 Ib	匕
 Ig	{卬左}
 Ig	{乐上}
