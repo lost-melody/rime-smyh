@@ -801,6 +801,8 @@ function core.get_switch_handler(env, option_names)
                 -- 當選項不存在時默認爲啟用狀態
                 option[name] = true
             end
+            -- 刷新, 使 lua 組件讀取最新開關狀態
+            ctx:refresh_non_confirmed_composition()
         end
     end
 end
