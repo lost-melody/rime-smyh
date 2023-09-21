@@ -65,7 +65,7 @@ local _Env
 ---@field compose fun(self, ctx: Context)
 ---@field commit_text fun(self, text: string)
 ---@field apply_schema fun(self, schema: Schema)
-local _Engin
+local _Engine
 
 ---@class Context
 ---element
@@ -190,6 +190,15 @@ local _Segmentation
 ---@class Candidate
 local _Candidate
 
+---@class UniquifiedCandidate
+local _UniquifiedCandidate
+
+---@class ShadowCandidate
+local _ShadowCandidate
+
+---@class Phrase
+local _Phrase
+
 ---@class Menu
 local _Menu
 
@@ -258,12 +267,108 @@ local _ConfigMap
 ---@field resize function
 local _ConfigList
 
+---@class Opencc
+local _Opencc
+
+---@class ReverseDb
+local _ReverseDb
+
+---@class ReverseLookup
+local _ReverseLookup
+
+---@class DictEntry
+local _DictEntry
+
+---@class Code
+local _Code
+
+---@class Memory
+local _Memory
+
 ---任意類型元素集合
 ---將形如 `{'a','b','c'}` 的列表轉換爲形如 `{a=true,b=true,c=true}` 的集合
 ---@param values any[]
 ---@return Set
 function librime.New.Set(values)
+    ---@diagnostic disable-next-line: undefined-global
     return Set(values)
+end
+
+---分词片段
+---@param start_pos integer 開始下標
+---@param end_pos integer 結束下標
+---@return Segment
+function librime.New.Segment(start_pos, end_pos)
+    ---@diagnostic disable-next-line: undefined-global
+    return Segment(start_pos, end_pos)
+end
+
+---方案
+---@param schema_id string
+---@return Schema
+function librime.New.Schema(schema_id)
+    ---@diagnostic disable-next-line: undefined-global
+    return Schema(schema_id)
+end
+
+---配置值, 繼承自 ConfigItem
+---@param str string 值, 卽 `get_string` 方法查詢的值
+---@return ConfigValue
+function librime.New.ConfigValue(str)
+    ---@diagnostic disable-next-line: undefined-global
+    return ConfigValue(str)
+end
+
+---候選詞
+---@param type string 類型標識
+---@param start integer 分詞開始
+---@param _end integer 分詞結束
+---@param text string 候選詞内容
+---@param comment string 註解
+---@return Candidate
+function librime.New.Candidate(type, start, _end, text, comment)
+    ---@diagnostic disable-next-line: undefined-global
+    return Candidate(type, start, _end, text, comment)
+end
+
+---衍生擴展詞
+---@param cand Candidate 基础候選詞
+---@param type string 類型標識
+---@param text string 分詞開始
+---@param comment string 註解
+---@param inherit_comment unknown
+---@return ShadowCandidate
+function librime.New.ShadowCandidate(cand, type, text, comment, inherit_comment)
+    ---@diagnostic disable-next-line: undefined-global
+    return ShadowCandidate(cand, type, text, comment, inherit_comment)
+end
+
+---@return Phrase
+function librime.New.Phrase()
+end
+
+---@return Opencc
+function librime.New.Opencc()
+end
+
+---@return ReverseDb
+function librime.New.ReverseDb()
+end
+
+---@return ReverseLookup
+function librime.New.ReverseLookup()
+end
+
+---@return DictEntry
+function librime.New.DictEntry()
+end
+
+---@return Code
+function librime.New.Code()
+end
+
+---@return Memory
+function librime.New.Memory()
 end
 
 return librime
