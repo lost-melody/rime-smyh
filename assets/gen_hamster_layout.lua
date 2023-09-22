@@ -5,12 +5,29 @@
 ---Author: 王牌餅乾
 ---GitHub: https://github.com/lost-melody
 
+---滑動方向
 ---@enum Direction
 local Dir = {
     up   = "up",
     down = "down",
 }
 
+---可用快捷指令類型
+---@enum Command
+local Cmd = {
+    clear = "重输",
+    trad = "繁简切换",
+    eng = "中英切换",
+    head = "行首",
+    tail = "行尾",
+    second = "次选上屏",
+    third = "三选上屏",
+    last_schema = "上个输入方案",
+    ret = "换行",
+    switcher = "RimeSwitcher",
+}
+
+---YAML配置節點類型
 ---@enum NodeType
 local NodeTypes = {
     Scalar = "Scalar",
@@ -311,6 +328,17 @@ function Action.Empty(char)
 end
 
 ---切換到另一個鍵盤
+---
+---可用值如下:
+---
+---- `alphabetic`: 默認英文鍵盤
+---- `classifySymbolic`: 分類符號鍵盤
+---- `chinese`: 默認中文鍵盤
+---- `chineseNineGrid`: 中文九宫格鍵盤
+---- `numericNineGrid`: 數字九宫格鍵盤
+---- `custom(name)`: 自定義鍵盤, 通過 `Keyboard` 對象的 `name` 字段檢索
+---- `emojis`: Emoji鍵盤
+---
 ---@param char string
 function Action.Keyboard(char)
     return string.format("keyboardType(%s)", char)
@@ -323,7 +351,7 @@ function Action.Text(text)
 end
 
 ---快捷指令, 如 清空輸入串, 中英切換
----@param cmd string
+---@param cmd Command
 function Action.Command(cmd)
     return string.format("shortCommand(#%s)", cmd)
 end
@@ -348,11 +376,11 @@ local function main()
     local asdfg = Row(List({
         Key(Action.Empty(), true, nil, 0.5, List()),
         Key(Action.Char("a"), true, nil, nil, List({ Swipe(Dir.up, Action.Char("!"), true, show_up), Swipe(Dir.down, Action.Char("?"), true, show_down) })),
-        Key(Action.Char("s"), true, nil, nil, List({ Swipe(Dir.up, Action.Command("上个输入方案"), true, show_up), Swipe(Dir.down, Action.Command("RimeSwitcher"), true, show_down) })),
+        Key(Action.Char("s"), true, nil, nil, List({ Swipe(Dir.up, Action.Command(Cmd.last_schema), true, show_up), Swipe(Dir.down, Action.Command(Cmd.switcher), true, show_down) })),
         Key(Action.Char("d"), true, nil, nil, List({ Swipe(Dir.up, Action.Char("*"), true, show_up), Swipe(Dir.down, Action.Char("°"), true, show_down) })),
         Key(Action.Char("f"), true, nil, nil, List({ Swipe(Dir.up, Action.Char("-"), true, show_up), Swipe(Dir.down, Action.Char("_"), true, show_down) })),
-        Key(Action.Char("g"), true, nil, nil, List({ Swipe(Dir.up, Action.Command("行首"), true, show_up), Swipe(Dir.down, Action.Command("行首"), true, show_down) })),
-        Key(Action.Char("h"), true, nil, nil, List({ Swipe(Dir.up, Action.Command("行尾"), true, show_up), Swipe(Dir.down, Action.Command("行尾"), true, show_down) })),
+        Key(Action.Char("g"), true, nil, nil, List({ Swipe(Dir.up, Action.Command(Cmd.head), true, show_up), Swipe(Dir.down, Action.Command(Cmd.head), true, show_down) })),
+        Key(Action.Char("h"), true, nil, nil, List({ Swipe(Dir.up, Action.Command(Cmd.tail), true, show_up), Swipe(Dir.down, Action.Command(Cmd.tail), true, show_down) })),
         Key(Action.Char("j"), true, nil, nil, List({ Swipe(Dir.up, Action.Char("<"), true, show_up), Swipe(Dir.down, Action.Char(">"), true, show_down) })),
         Key(Action.Char("k"), true, nil, nil, List({ Swipe(Dir.up, Action.Char("["), true, show_up), Swipe(Dir.down, Action.Char("]"), true, show_down) })),
         Key(Action.Char("l"), true, nil, nil, List({ Swipe(Dir.up, Action.Char("{"), true, show_up), Swipe(Dir.down, Action.Char("}"), true, show_down) })),
@@ -367,14 +395,14 @@ local function main()
         Key(Action.Char("b"), true, nil, nil, List({ Swipe(Dir.up, Action.Char("/"), true, show_up), Swipe(Dir.down, Action.Char("\\"), true, show_down) })),
         Key(Action.Char("n"), true, nil, nil, List({ Swipe(Dir.up, Action.Char(";"), true, show_up), Swipe(Dir.down, Action.Char(":"), true, show_down) })),
         Key(Action.Char("m"), true, nil, nil, List({ Swipe(Dir.up, Action.Char(","), true, show_up), Swipe(Dir.down, Action.Char("."), true, show_down) })),
-        Key(Action.Backspace(), true, nil, 2, List({ Swipe(Dir.down, Action.Command("重输"), true, show_up) })),
+        Key(Action.Backspace(), true, nil, 2, List({ Swipe(Dir.down, Action.Command(Cmd.clear), true, show_up) })),
     }))
     local space = Row(List({
         Key(Action.Keyboard("numericNineGrid"), true, nil, 2, List()),
         Key(Action.Char(";"), true, nil, nil, List()),
-        Key(Action.Space(), true, "吉旦餅", 4, List({ Swipe(Dir.up, Action.Command("次选上屏"), true, show_up), Swipe(Dir.down, Action.Command("三选上屏"), true, show_down) })),
-        Key(Action.Command("中英切换"), true, nil, nil, List()),
-        Key(Action.Enter(), true, nil, 2, List({ Swipe(Dir.up, Action.Command("换行"), true, false) })),
+        Key(Action.Space(), true, "吉旦餅", 4, List({ Swipe(Dir.up, Action.Command(Cmd.second), true, show_up), Swipe(Dir.down, Action.Command("三选上屏"), true, show_down) })),
+        Key(Action.Command(Cmd.eng), true, nil, nil, List()),
+        Key(Action.Enter(), true, nil, 2, List({ Swipe(Dir.up, Action.Command(Cmd.ret), true, false) })),
     }))
 
     local patch = Map({
