@@ -219,6 +219,15 @@ function custom.import_smart()
     end
 end
 
+---通過 unicode 編碼輸入字符
+function custom.unicode()
+    local space = utf8.codepoint(" ")
+    return function(args)
+        local code = tonumber(string.format("0x%s", args[1] or ""))
+        return utf8.char(code or space)
+    end
+end
+
 ---查詢 librime 版本
 function custom.librime_version()
     return function(args)
