@@ -631,7 +631,7 @@ local function builder()
             key():act(Act.Char("o")):swipe({swipe():act(Act.Char("9")), swipe():dir(Dir.down):act(Act.Char("("))}),
             key():act(Act.Char("p")):swipe({swipe():act(Act.Char("0")), swipe():dir(Dir.down):act(Act.Char(")"))}),
         }),
-            row():keys({
+        row():keys({
             key():act(Act.Empty("a")):width(0.5),
             key():act(Act.Char("a")):swipe({swipe():act(Act.Char("!")), swipe():dir(Dir.down):act(Act.Char("?"))}),
             key():act(Act.Char("s")):swipe({swipe():act(Act.Cmd(Cmd.last_schema)), swipe():dir(Dir.down):act(Act.Cmd(Cmd.switcher))}),
@@ -644,7 +644,7 @@ local function builder()
             key():act(Act.Char("l")):swipe({swipe():act(Act.Char("{")), swipe():dir(Dir.down):act(Act.Char("}"))}),
             key():act(Act.Empty("l")):width(0.5),
         }),
-            row():keys({
+        row():keys({
             key():act(Act.Shift()),
             key():act(Act.Char("z")):swipe({swipe():act(Act.Char("~")), swipe():dir(Dir.down):act(Act.Char("`"))}),
             key():act(Act.Char("x")):swipe({swipe():act(Act.Char("-")), swipe():dir(Dir.down):act(Act.Char("_"))}),
@@ -655,7 +655,7 @@ local function builder()
             key():act(Act.Char("m")):swipe({swipe():act(Act.Char(",")), swipe():dir(Dir.down):act(Act.Char("."))}),
             key():act(Act.Backspace()):swipe({swipe():act(Act.Cmd(Cmd.clear))}):width(2),
         }),
-            row():keys({
+        row():keys({
             key():act(Act.Keyboard(Kbd.num_ng)):width(2),
             key():act(Act.Char(";")),
             key():act(Act.Space()):label("吉旦餅"):width(4):swipe({swipe():act(Act.Cmd(Cmd.second)), swipe():dir(Dir.down):act(Act.Cmd(Cmd.third))}),
