@@ -32,11 +32,14 @@ local Cmd = {
 ---
 --- ```
 --- Act.Keyboard(Kbd.num_ng)
---- Act.Keyboard(Kbd.custom:format("my_kbd"))
+--- Act.Keyboard(Kbd.custom("my_kbd"))
 --- ```
 ---
 local Kbd = {
-    custom  = "custom(%s)",       -- 自定義鍵盤, 通過 `Keyboard` 對象的 `name` 字段檢索
+    ---@param name string
+    custom  = function(name)
+        return string.format("custom(%s)", name)
+    end,                          -- 自定義鍵盤, 通過 `Keyboard` 對象的 `name` 字段檢索
     alpha   = "alphabetic",       -- 默認英文鍵盤
     symbol  = "classifySymbolic", -- 分類符號鍵盤
     chinese = "chinese",          -- 默認中文鍵盤
@@ -403,7 +406,7 @@ local Act = {
     ---@param char string|nil
     Empty = function(char) return string.format("characterMargin(%s)", char or " ") end,
     ---切換到另一個鍵盤
-    ---@param char KeyboardType|string
+    ---@param char string
     Keyboard = function(char) return string.format("keyboardType(%s)", char) end,
     ---字符串短語, 如 "你好", "2.718281828"
     ---@param text string
@@ -660,7 +663,7 @@ local function builder()
             key():act(Act.Char(";")),
             key():act(Act.Space()):label("吉旦餅"):width(4):swipe({swipe():act(Act.Cmd(Cmd.second)), swipe():dir(Dir.down):act(Act.Cmd(Cmd.third))}),
             key():act(Act.Cmd(Cmd.eng)),
-            -- key():act(Act.Keyboard(Kbd.custom:format("吉旦餅·英文"))),
+            -- key():act(Act.Keyboard(Kbd.custom("吉旦餅·英文"))),
             key():act(Act.Enter()):width(2),
         }),
     })
