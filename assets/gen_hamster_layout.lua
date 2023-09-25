@@ -418,7 +418,6 @@ local Act = {
 
 ---@class Key: Map
 ---@field act fun(self, action: string): Key
----@field via_rime fun(self, viaRime: boolean): Key
 ---@field label fun(self, label: string): Key
 ---@field width fun(self, width: number): Key
 ---@field swipe fun(self, swipe: Swipe[]): Key
@@ -426,17 +425,15 @@ local Act = {
 
 ---構造一個按鍵對象, 指定其按下和滑動時的行爲
 ---@param action string|nil
----@param viaRime boolean|nil
 ---@param label string|nil
 ---@param width number|nil
 ---@param swipe List|nil
 ---@return Key
-local function Key(action, viaRime, label, width, swipe)
+local function Key(action, label, width, swipe)
     local key = Map({
         action        = Scalar(action or Act.Empty()),
         width         = Width(width),
         label         = Label(label),
-        processByRIME = Scalar(tostring(viaRime or false)),
         swipe         = swipe or List(),
     })
     ---@cast key Key
@@ -444,12 +441,6 @@ local function Key(action, viaRime, label, width, swipe)
     ---@param a string
     function key:act(a)
         self:set("action", Scalar(a))
-        return self
-    end
-
-    ---@param b boolean
-    function key:via_rime(b)
-        self:set("processByRIME", Scalar(tostring(b)))
         return self
     end
 
@@ -483,9 +474,9 @@ local function Key(action, viaRime, label, width, swipe)
 end
 
 ---@class Swipe: Map
----@field dir fun(self, dir: Direction): Swipe
 ---@field via_rime fun(self, viaRime: boolean): Swipe
----@field act fun(self, action: string): Swipe
+---@field up fun(self, action: string): Swipe
+---@field down fun(self, action: string): Swipe
 ---@field display fun(self, display: boolean): Swipe
 ---@field label fun(self, label: string): Swipe
 ---@field clone fun(self): Swipe
@@ -507,12 +498,6 @@ local function Swipe(direction, action, viaRime, display, label)
     })
     ---@cast swipe Swipe
 
-    ---@param d Direction
-    function swipe:dir(d)
-        self:set("direction", Scalar(d))
-        return self
-    end
-
     ---@param b boolean
     function swipe:via_rime(b)
         self:set("processByRIME", Scalar(tostring(b)))
@@ -520,7 +505,15 @@ local function Swipe(direction, action, viaRime, display, label)
     end
 
     ---@param a string
-    function swipe:act(a)
+    function swipe:up(a)
+        self:set("direction", Scalar(Dir.up))
+        self:set("action", Scalar(a))
+        return self
+    end
+
+    ---@param a string
+    function swipe:down(a)
+        self:set("direction", Scalar(Dir.down))
         self:set("action", Scalar(a))
         return self
     end
@@ -548,71 +541,10 @@ local function Swipe(direction, action, viaRime, display, label)
     return swipe
 end
 
----方法一: 使用構造函數生成
-local function constructor()
-    -- 是否顯示上下滑動符
-    local show_up, show_down = true, true
-
-    local qwert = Row(List({
-        Key(Act.Char("q"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("1"), true, show_up), Swipe(Dir.down, Act.Char("|"), true, show_down) })),
-        Key(Act.Char("w"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("2"), true, show_up), Swipe(Dir.down, Act.Char("@"), true, show_down) })),
-        Key(Act.Char("e"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("3"), true, show_up), Swipe(Dir.down, Act.Char("#"), true, show_down) })),
-        Key(Act.Char("r"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("4"), true, show_up), Swipe(Dir.down, Act.Char("$"), true, show_down) })),
-        Key(Act.Char("t"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("5"), true, show_up), Swipe(Dir.down, Act.Char("%"), true, show_down) })),
-        Key(Act.Char("y"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("6"), true, show_up), Swipe(Dir.down, Act.Char("^"), true, show_down) })),
-        Key(Act.Char("u"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("7"), true, show_up), Swipe(Dir.down, Act.Char("&"), true, show_down) })),
-        Key(Act.Char("i"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("8"), true, show_up), Swipe(Dir.down, Act.Char("*"), true, show_down) })),
-        Key(Act.Char("o"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("9"), true, show_up), Swipe(Dir.down, Act.Char("("), true, show_down) })),
-        Key(Act.Char("p"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("0"), true, show_up), Swipe(Dir.down, Act.Char(")"), true, show_down) })),
-    }))
-    local asdfg = Row(List({
-        Key(Act.Empty("a"), true, nil, 0.5, List()),
-        Key(Act.Char("a"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("!"), true, show_up), Swipe(Dir.down, Act.Char("?"), true, show_down) })),
-        Key(Act.Char("s"), true, nil, nil, List({ Swipe(Dir.up, Act.Cmd(Cmd.last_schema), true, show_up), Swipe(Dir.down, Act.Cmd(Cmd.switcher), true, show_down) })),
-        Key(Act.Char("d"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("*"), true, show_up), Swipe(Dir.down, Act.Char("°"), true, show_down) })),
-        Key(Act.Char("f"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("+"), true, show_up), Swipe(Dir.down, Act.Char("-"), true, show_down) })),
-        Key(Act.Char("g"), true, nil, nil, List({ Swipe(Dir.up, Act.Cmd(Cmd.head), true, show_up), Swipe(Dir.down, Act.Cmd(Cmd.head), true, show_down) })),
-        Key(Act.Char("h"), true, nil, nil, List({ Swipe(Dir.up, Act.Cmd(Cmd.tail), true, show_up), Swipe(Dir.down, Act.Cmd(Cmd.tail), true, show_down) })),
-        Key(Act.Char("j"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("<"), true, show_up), Swipe(Dir.down, Act.Char(">"), true, show_down) })),
-        Key(Act.Char("k"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("["), true, show_up), Swipe(Dir.down, Act.Char("]"), true, show_down) })),
-        Key(Act.Char("l"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("{"), true, show_up), Swipe(Dir.down, Act.Char("}"), true, show_down) })),
-        Key(Act.Empty("l"), true, nil, 0.5, List()),
-    }))
-    local zxcvb = Row(List({
-        Key(Act.Shift(), true, nil, nil, List()),
-        Key(Act.Char("z"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("~"), true, show_up), Swipe(Dir.down, Act.Char("`"), true, show_down) })),
-        Key(Act.Char("x"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("-"), true, show_up), Swipe(Dir.down, Act.Char("_"), true, show_down) })),
-        Key(Act.Char("c"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("+"), true, show_up), Swipe(Dir.down, Act.Char("="), true, show_down) })),
-        Key(Act.Char("v"), true, nil, nil, List({ Swipe(Dir.up, Act.Char('"'), true, show_up), Swipe(Dir.down, Act.Char("'"), true, show_down) })),
-        Key(Act.Char("b"), true, nil, nil, List({ Swipe(Dir.up, Act.Char("/"), true, show_up), Swipe(Dir.down, Act.Char("\\"), true, show_down) })),
-        Key(Act.Char("n"), true, nil, nil, List({ Swipe(Dir.up, Act.Char(";"), true, show_up), Swipe(Dir.down, Act.Char(":"), true, show_down) })),
-        Key(Act.Char("m"), true, nil, nil, List({ Swipe(Dir.up, Act.Char(","), true, show_up), Swipe(Dir.down, Act.Char("."), true, show_down) })),
-        Key(Act.Backspace(), true, nil, 2, List({ Swipe(Dir.down, Act.Cmd(Cmd.clear), true, show_up) })),
-    }))
-    local space = Row(List({
-        Key(Act.Keyboard(Kbd.num_ng), true, nil, 2, List()),
-        Key(Act.Char(";"), true, nil, nil, List()),
-        Key(Act.Space(), true, "吉旦餅", 4, List({ Swipe(Dir.up, Act.Cmd(Cmd.second), true, show_up), Swipe(Dir.down, Act.Cmd("三选上屏"), true, show_down) })),
-        Key(Act.Cmd(Cmd.eng), true, nil, nil, List()),
-        Key(Act.Enter(), true, nil, 2, List({ Swipe(Dir.up, Act.Cmd(Cmd.ret), true, false) })),
-    }))
-
-    local patch = Map({
-        keyboards = List({
-            -- 鍵盤列表
-            Keyboard("吉旦餅", List({ qwert, asdfg, zxcvb, space })),
-        }),
-    })
-    local hamster = Map({ patch = patch })
-    for _, line in ipairs(hamster:render()) do
-        print(line)
-    end
-end
-
----方法二: 使用 builder 模式生成
+---使用 builder 模式生成
 local function builder()
     local _row = Row()
-    local _key = Key():via_rime(true)
+    local _key = Key()
     local _swipe = Swipe():via_rime(true)
     local _keyboard = Keyboard()
     local row = function() return _row:clone() end
@@ -623,48 +555,51 @@ local function builder()
     -- 主鍵盤
     local main_keyboard = keyboard():rows({
         row():keys({
-            key():act(Act.Char("q")):swipe({swipe():act(Act.Char("1")), swipe():dir(Dir.down):act(Act.Char("|"))}),
-            key():act(Act.Char("w")):swipe({swipe():act(Act.Char("2")), swipe():dir(Dir.down):act(Act.Char("@"))}),
-            key():act(Act.Char("e")):swipe({swipe():act(Act.Char("3")), swipe():dir(Dir.down):act(Act.Char("#"))}),
-            key():act(Act.Char("r")):swipe({swipe():act(Act.Char("4")), swipe():dir(Dir.down):act(Act.Char("$"))}),
-            key():act(Act.Char("t")):swipe({swipe():act(Act.Char("5")), swipe():dir(Dir.down):act(Act.Char("%"))}),
-            key():act(Act.Char("y")):swipe({swipe():act(Act.Char("6")), swipe():dir(Dir.down):act(Act.Char("^"))}),
-            key():act(Act.Char("u")):swipe({swipe():act(Act.Char("7")), swipe():dir(Dir.down):act(Act.Char("&"))}),
-            key():act(Act.Char("i")):swipe({swipe():act(Act.Char("8")), swipe():dir(Dir.down):act(Act.Char("*"))}),
-            key():act(Act.Char("o")):swipe({swipe():act(Act.Char("9")), swipe():dir(Dir.down):act(Act.Char("("))}),
-            key():act(Act.Char("p")):swipe({swipe():act(Act.Char("0")), swipe():dir(Dir.down):act(Act.Char(")"))}),
+            key():act(Act.Char("q")):swipe({ swipe():up(Act.Char("1")), swipe():down(Act.Char("|")) }),
+            key():act(Act.Char("w")):swipe({ swipe():up(Act.Char("2")), swipe():down(Act.Char("@")) }),
+            key():act(Act.Char("e")):swipe({ swipe():up(Act.Char("3")), swipe():down(Act.Char("#")) }),
+            key():act(Act.Char("r")):swipe({ swipe():up(Act.Char("4")), swipe():down(Act.Char("$")) }),
+            key():act(Act.Char("t")):swipe({ swipe():up(Act.Char("5")), swipe():down(Act.Char("%")) }),
+            key():act(Act.Char("y")):swipe({ swipe():up(Act.Char("6")), swipe():down(Act.Char("^")) }),
+            key():act(Act.Char("u")):swipe({ swipe():up(Act.Char("7")), swipe():down(Act.Char("&")) }),
+            key():act(Act.Char("i")):swipe({ swipe():up(Act.Char("8")), swipe():down(Act.Char("*")) }),
+            key():act(Act.Char("o")):swipe({ swipe():up(Act.Char("9")), swipe():down(Act.Char("(")) }),
+            key():act(Act.Char("p")):swipe({ swipe():up(Act.Char("0")), swipe():down(Act.Char(")")) }),
         }),
         row():keys({
             key():act(Act.Empty("a")):width(0.5),
-            key():act(Act.Char("a")):swipe({swipe():act(Act.Char("!")), swipe():dir(Dir.down):act(Act.Char("?"))}),
-            key():act(Act.Char("s")):swipe({swipe():act(Act.Cmd(Cmd.last_schema)), swipe():dir(Dir.down):act(Act.Cmd(Cmd.switcher))}),
-            key():act(Act.Char("d")):swipe({swipe():act(Act.Char("*")), swipe():dir(Dir.down):act(Act.Char("°"))}),
-            key():act(Act.Char("f")):swipe({swipe():act(Act.Char("+")), swipe():dir(Dir.down):act(Act.Char("-"))}),
-            key():act(Act.Char("g")):swipe({swipe():act(Act.Cmd(Cmd.head)), swipe():dir(Dir.down):act(Act.Cmd(Cmd.head))}),
-            key():act(Act.Char("h")):swipe({swipe():act(Act.Cmd(Cmd.tail)), swipe():dir(Dir.down):act(Act.Cmd(Cmd.tail))}),
-            key():act(Act.Char("j")):swipe({swipe():act(Act.Char("<")), swipe():dir(Dir.down):act(Act.Char(">"))}),
-            key():act(Act.Char("k")):swipe({swipe():act(Act.Char("[")), swipe():dir(Dir.down):act(Act.Char("]"))}),
-            key():act(Act.Char("l")):swipe({swipe():act(Act.Char("{")), swipe():dir(Dir.down):act(Act.Char("}"))}),
+            key():act(Act.Char("a")):swipe({ swipe():up(Act.Char("!")), swipe():down(Act.Char("?")) }),
+            key():act(Act.Char("s")):swipe({ swipe():up(Act.Cmd(Cmd.last_schema)), swipe():down(Act.Cmd(Cmd.switcher)) }),
+            key():act(Act.Char("d")):swipe({ swipe():up(Act.Char("*")), swipe():down(Act.Char("°")) }),
+            key():act(Act.Char("f")):swipe({ swipe():up(Act.Char("+")), swipe():down(Act.Char("-")) }),
+            key():act(Act.Char("g")):swipe({ swipe():up(Act.Cmd(Cmd.head)), swipe():down(Act.Cmd(Cmd.head)) }),
+            key():act(Act.Char("h")):swipe({ swipe():up(Act.Cmd(Cmd.tail)), swipe():down(Act.Cmd(Cmd.tail)) }),
+            key():act(Act.Char("j")):swipe({ swipe():up(Act.Char("<")), swipe():down(Act.Char(">")) }),
+            key():act(Act.Char("k")):swipe({ swipe():up(Act.Char("[")), swipe():down(Act.Char("]")) }),
+            key():act(Act.Char("l")):swipe({ swipe():up(Act.Char("{")), swipe():down(Act.Char("}")) }),
             key():act(Act.Empty("l")):width(0.5),
         }),
         row():keys({
             key():act(Act.Shift()),
-            key():act(Act.Char("z")):swipe({swipe():act(Act.Char("~")), swipe():dir(Dir.down):act(Act.Char("`"))}),
-            key():act(Act.Char("x")):swipe({swipe():act(Act.Char("-")), swipe():dir(Dir.down):act(Act.Char("_"))}),
-            key():act(Act.Char("c")):swipe({swipe():act(Act.Char("+")), swipe():dir(Dir.down):act(Act.Char("="))}),
-            key():act(Act.Char("v")):swipe({swipe():act(Act.Char('"')), swipe():dir(Dir.down):act(Act.Char("'"))}),
-            key():act(Act.Char("b")):swipe({swipe():act(Act.Char("/")), swipe():dir(Dir.down):act(Act.Char("\\"))}),
-            key():act(Act.Char("n")):swipe({swipe():act(Act.Char(";")), swipe():dir(Dir.down):act(Act.Char(":"))}),
-            key():act(Act.Char("m")):swipe({swipe():act(Act.Char(",")), swipe():dir(Dir.down):act(Act.Char("."))}),
-            key():act(Act.Backspace()):swipe({swipe():act(Act.Cmd(Cmd.clear))}):width(2),
+            key():act(Act.Char("z")):swipe({ swipe():up(Act.Char("~")), swipe():down(Act.Char("`")) }),
+            key():act(Act.Char("x")):swipe({ swipe():up(Act.Char("-")), swipe():down(Act.Char("_")) }),
+            key():act(Act.Char("c")):swipe({ swipe():up(Act.Char("+")), swipe():down(Act.Char("=")) }),
+            key():act(Act.Char("v")):swipe({ swipe():up(Act.Char('"')), swipe():down(Act.Char("'")) }),
+            key():act(Act.Char("b")):swipe({ swipe():up(Act.Char("/")), swipe():down(Act.Char("\\")) }),
+            key():act(Act.Char("n")):swipe({ swipe():up(Act.Char(";")), swipe():down(Act.Char(":")) }),
+            key():act(Act.Char("m")):swipe({ swipe():up(Act.Char(",")), swipe():down(Act.Char(".")) }),
+            key():act(Act.Backspace()):swipe({ swipe():down(Act.Cmd(Cmd.clear)) }):width(2),
         }),
         row():keys({
             key():act(Act.Keyboard(Kbd.num_ng)):width(2),
             key():act(Act.Char(";")),
-            key():act(Act.Space()):label("吉旦餅"):width(4):swipe({swipe():act(Act.Cmd(Cmd.second)), swipe():dir(Dir.down):act(Act.Cmd(Cmd.third))}),
+            key():act(Act.Space()):label("吉旦餅"):width(4):swipe({
+                swipe():up(Act.Cmd(Cmd.second)),
+                swipe():down(Act.Cmd(Cmd.third)),
+            }),
             key():act(Act.Cmd(Cmd.eng)),
             -- key():act(Act.Keyboard(Kbd.custom("吉旦餅·英文"))),
-            key():act(Act.Enter()):width(2),
+            key():act(Act.Enter()):width(2):swipe({ swipe():up(Act.Cmd(Cmd.ret)) }),
         }),
     })
 
@@ -693,7 +628,6 @@ end
 
 ---主函數
 local function main()
-    -- constructor()
     builder()
 end
 
