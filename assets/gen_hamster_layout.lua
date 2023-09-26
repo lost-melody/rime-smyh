@@ -597,30 +597,121 @@ local function builder()
                 swipe():up(Act.Cmd(Cmd.second)),
                 swipe():down(Act.Cmd(Cmd.third)),
             }),
-            key():act(Act.Cmd(Cmd.eng)),
-            -- key():act(Act.Keyboard(Kbd.custom("吉旦餅·英文"))),
+            -- key():act(Act.Cmd(Cmd.eng)),
+            key():act(Act.Keyboard(Kbd.custom("吉旦餅·英文"))):label("中"),
             key():act(Act.Enter()):width(2):swipe({ swipe():up(Act.Cmd(Cmd.ret)) }),
         }),
     })
 
     -- 英文鍵盤
     local eng_keyboard = keyboard():rows({
+        row():keys({
+            key():act(Act.Text("q")):swipe({ swipe():up(Act.Text("1")), swipe():down(Act.Text("|")) }),
+            key():act(Act.Text("w")):swipe({ swipe():up(Act.Text("2")), swipe():down(Act.Text("@")) }),
+            key():act(Act.Text("e")):swipe({ swipe():up(Act.Text("3")), swipe():down(Act.Text("#")) }),
+            key():act(Act.Text("r")):swipe({ swipe():up(Act.Text("4")), swipe():down(Act.Text("$")) }),
+            key():act(Act.Text("t")):swipe({ swipe():up(Act.Text("5")), swipe():down(Act.Text("%")) }),
+            key():act(Act.Text("y")):swipe({ swipe():up(Act.Text("6")), swipe():down(Act.Text("^")) }),
+            key():act(Act.Text("u")):swipe({ swipe():up(Act.Text("7")), swipe():down(Act.Text("&")) }),
+            key():act(Act.Text("i")):swipe({ swipe():up(Act.Text("8")), swipe():down(Act.Text("*")) }),
+            key():act(Act.Text("o")):swipe({ swipe():up(Act.Text("9")), swipe():down(Act.Text("(")) }),
+            key():act(Act.Text("p")):swipe({ swipe():up(Act.Text("0")), swipe():down(Act.Text(")")) }),
+        }),
+        row():keys({
+            key():act(Act.Empty("a")):width(0.5),
+            key():act(Act.Text("a")):swipe({ swipe():up(Act.Text("!")), swipe():down(Act.Char("?")) }),
+            key():act(Act.Text("s")):swipe({ swipe():up(Act.Cmd(Cmd.last_schema)), swipe():down(Act.Cmd(Cmd.switcher)) }),
+            key():act(Act.Text("d")):swipe({ swipe():up(Act.Text("*")), swipe():down(Act.Text("°")) }),
+            key():act(Act.Text("f")):swipe({ swipe():up(Act.Text("+")), swipe():down(Act.Text("-")) }),
+            key():act(Act.Text("g")):swipe({ swipe():up(Act.Cmd(Cmd.head)), swipe():down(Act.Cmd(Cmd.head)) }),
+            key():act(Act.Text("h")):swipe({ swipe():up(Act.Cmd(Cmd.tail)), swipe():down(Act.Cmd(Cmd.tail)) }),
+            key():act(Act.Text("j")):swipe({ swipe():up(Act.Text("<")), swipe():down(Act.Text(">")) }),
+            key():act(Act.Text("k")):swipe({ swipe():up(Act.Text("[")), swipe():down(Act.Text("]")) }),
+            key():act(Act.Text("l")):swipe({ swipe():up(Act.Text("{")), swipe():down(Act.Text("}")) }),
+            key():act(Act.Empty("l")):width(0.5),
+        }),
+        row():keys({
+            key():act(Act.Keyboard(Kbd.custom("吉旦餅·大寫"))):label("⇧"),
+            key():act(Act.Text("z")):swipe({ swipe():up(Act.Text("~")), swipe():down(Act.Text("`")) }),
+            key():act(Act.Text("x")):swipe({ swipe():up(Act.Text("-")), swipe():down(Act.Text("_")) }),
+            key():act(Act.Text("c")):swipe({ swipe():up(Act.Text("+")), swipe():down(Act.Text("=")) }),
+            key():act(Act.Text("v")):swipe({ swipe():up(Act.Text('"')), swipe():down(Act.Text("'")) }),
+            key():act(Act.Text("b")):swipe({ swipe():up(Act.Text("/")), swipe():down(Act.Text("\\")) }),
+            key():act(Act.Text("n")):swipe({ swipe():up(Act.Text(";")), swipe():down(Act.Text(":")) }),
+            key():act(Act.Text("m")):swipe({ swipe():up(Act.Text(",")), swipe():down(Act.Text(".")) }),
+            key():act(Act.Backspace()):swipe({ swipe():down(Act.Cmd(Cmd.clear)) }):width(2),
+        }),
+        row():keys({
+            key():act(Act.Keyboard(Kbd.num_ng)):width(2),
+            key():act(Act.Text(";")),
+            key():act(Act.Space()):label("Wafel"):width(4):swipe({
+                swipe():up(Act.Cmd(Cmd.second)),
+                swipe():down(Act.Cmd(Cmd.third)),
+            }),
+            key():act(Act.Keyboard(Kbd.custom("吉旦餅"))):label("En"),
+            key():act(Act.Enter()):width(2):swipe({ swipe():up(Act.Cmd(Cmd.ret)) }),
+        }),
     })
 
     -- 大寫鍵盤
     local cap_keyboard = keyboard():rows({
-    })
-
-    local patch = Map({
-        keyboards = List({
-            -- 鍵盤列表
-            main_keyboard:name("吉旦餅"),
-            -- eng_keyboard:name("吉旦餅·英文"),
-            -- cap_keyboard:name("吉旦餅·大寫"),
+        row():keys({
+            key():act(Act.Text("Q")):swipe({ swipe():up(Act.Text("1")), swipe():down(Act.Text("|")) }),
+            key():act(Act.Text("W")):swipe({ swipe():up(Act.Text("2")), swipe():down(Act.Text("@")) }),
+            key():act(Act.Text("E")):swipe({ swipe():up(Act.Text("3")), swipe():down(Act.Text("#")) }),
+            key():act(Act.Text("R")):swipe({ swipe():up(Act.Text("4")), swipe():down(Act.Text("$")) }),
+            key():act(Act.Text("T")):swipe({ swipe():up(Act.Text("5")), swipe():down(Act.Text("%")) }),
+            key():act(Act.Text("Y")):swipe({ swipe():up(Act.Text("6")), swipe():down(Act.Text("^")) }),
+            key():act(Act.Text("U")):swipe({ swipe():up(Act.Text("7")), swipe():down(Act.Text("&")) }),
+            key():act(Act.Text("I")):swipe({ swipe():up(Act.Text("8")), swipe():down(Act.Text("*")) }),
+            key():act(Act.Text("O")):swipe({ swipe():up(Act.Text("9")), swipe():down(Act.Text("(")) }),
+            key():act(Act.Text("P")):swipe({ swipe():up(Act.Text("0")), swipe():down(Act.Text(")")) }),
+        }),
+        row():keys({
+            key():act(Act.Empty("A")):width(0.5),
+            key():act(Act.Text("A")):swipe({ swipe():up(Act.Text("!")), swipe():down(Act.Char("?")) }),
+            key():act(Act.Text("S")):swipe({ swipe():up(Act.Cmd(Cmd.last_schema)), swipe():down(Act.Cmd(Cmd.switcher)) }),
+            key():act(Act.Text("D")):swipe({ swipe():up(Act.Text("*")), swipe():down(Act.Text("°")) }),
+            key():act(Act.Text("F")):swipe({ swipe():up(Act.Text("+")), swipe():down(Act.Text("-")) }),
+            key():act(Act.Text("G")):swipe({ swipe():up(Act.Cmd(Cmd.head)), swipe():down(Act.Cmd(Cmd.head)) }),
+            key():act(Act.Text("H")):swipe({ swipe():up(Act.Cmd(Cmd.tail)), swipe():down(Act.Cmd(Cmd.tail)) }),
+            key():act(Act.Text("J")):swipe({ swipe():up(Act.Text("<")), swipe():down(Act.Text(">")) }),
+            key():act(Act.Text("K")):swipe({ swipe():up(Act.Text("[")), swipe():down(Act.Text("]")) }),
+            key():act(Act.Text("L")):swipe({ swipe():up(Act.Text("{")), swipe():down(Act.Text("}")) }),
+            key():act(Act.Empty("L")):width(0.5),
+        }),
+        row():keys({
+            key():act(Act.Keyboard(Kbd.custom("吉旦餅·英文"))):label("⇪"),
+            key():act(Act.Text("Z")):swipe({ swipe():up(Act.Text("~")), swipe():down(Act.Text("`")) }),
+            key():act(Act.Text("X")):swipe({ swipe():up(Act.Text("-")), swipe():down(Act.Text("_")) }),
+            key():act(Act.Text("C")):swipe({ swipe():up(Act.Text("+")), swipe():down(Act.Text("=")) }),
+            key():act(Act.Text("V")):swipe({ swipe():up(Act.Text('"')), swipe():down(Act.Text("'")) }),
+            key():act(Act.Text("B")):swipe({ swipe():up(Act.Text("/")), swipe():down(Act.Text("\\")) }),
+            key():act(Act.Text("N")):swipe({ swipe():up(Act.Text(";")), swipe():down(Act.Text(":")) }),
+            key():act(Act.Text("M")):swipe({ swipe():up(Act.Text(",")), swipe():down(Act.Text(".")) }),
+            key():act(Act.Backspace()):swipe({ swipe():down(Act.Cmd(Cmd.clear)) }):width(2),
+        }),
+        row():keys({
+            key():act(Act.Keyboard(Kbd.num_ng)):width(2),
+            key():act(Act.Text(";")),
+            key():act(Act.Space()):label("Wafel"):width(4):swipe({
+                swipe():up(Act.Cmd(Cmd.second)),
+                swipe():down(Act.Cmd(Cmd.third)),
+            }),
+            key():act(Act.Keyboard(Kbd.custom("吉旦餅"))):label("En"),
+            key():act(Act.Enter()):width(2):swipe({ swipe():up(Act.Cmd(Cmd.ret)) }),
         }),
     })
 
-    local hamster = Map({ patch = patch })
+    local hamster = Map({
+        keyboards = List({
+            -- 鍵盤列表
+            main_keyboard:name("吉旦餅"),
+            eng_keyboard:name("吉旦餅·英文"),
+            cap_keyboard:name("吉旦餅·大寫"),
+        }),
+    })
+
     for _, line in ipairs(hamster:render()) do
         print(line)
     end
