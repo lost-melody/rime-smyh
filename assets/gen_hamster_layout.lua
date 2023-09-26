@@ -402,12 +402,16 @@ local Act = {
     Tab = function() return "tab" end,
     ---空格鍵
     Space = function() return "space" end,
-    ---空白佔位符
+    ---按鍵佔位符
     ---@param char string|nil
-    Empty = function(char) return string.format("characterMargin(%s)", char or " ") end,
+    Empty = function(char) return char and string.format("characterMargin(%s)", char) or "none" end,
+    ---空佔位符
+    None = function() return "none" end,
     ---切換到另一個鍵盤
     ---@param char string
     Keyboard = function(char) return string.format("keyboardType(%s)", char) end,
+    ---切換到下一個系統輸入法
+    NextKbd = function() return "nextKeyboard" end,
     ---字符串短語, 如 "你好", "2.718281828"
     ---@param text string
     Text = function(text) return string.format("symbol(%s)", text) end,
@@ -618,7 +622,7 @@ local function builder()
             key():act(Act.Text("p")):swipe({ swipe():up(Act.Text("0")), swipe():down(Act.Text(")")) }),
         }),
         row():keys({
-            key():act(Act.Empty("a")):width(0.5),
+            key():act(Act.None()):width(0.5),
             key():act(Act.Text("a")):swipe({ swipe():up(Act.Text("!")), swipe():down(Act.Char("?")) }),
             key():act(Act.Text("s")):swipe({ swipe():up(Act.Cmd(Cmd.last_schema)), swipe():down(Act.Cmd(Cmd.switcher)) }),
             key():act(Act.Text("d")):swipe({ swipe():up(Act.Text("*")), swipe():down(Act.Text("°")) }),
@@ -628,7 +632,7 @@ local function builder()
             key():act(Act.Text("j")):swipe({ swipe():up(Act.Text("<")), swipe():down(Act.Text(">")) }),
             key():act(Act.Text("k")):swipe({ swipe():up(Act.Text("[")), swipe():down(Act.Text("]")) }),
             key():act(Act.Text("l")):swipe({ swipe():up(Act.Text("{")), swipe():down(Act.Text("}")) }),
-            key():act(Act.Empty("l")):width(0.5),
+            key():act(Act.None()):width(0.5),
         }),
         row():keys({
             key():act(Act.Keyboard(Kbd.custom("吉旦餅·大寫"))):label("⇧"),
@@ -668,7 +672,7 @@ local function builder()
             key():act(Act.Text("P")):swipe({ swipe():up(Act.Text("0")), swipe():down(Act.Text(")")) }),
         }),
         row():keys({
-            key():act(Act.Empty("A")):width(0.5),
+            key():act(Act.None()):width(0.5),
             key():act(Act.Text("A")):swipe({ swipe():up(Act.Text("!")), swipe():down(Act.Char("?")) }),
             key():act(Act.Text("S")):swipe({ swipe():up(Act.Cmd(Cmd.last_schema)), swipe():down(Act.Cmd(Cmd.switcher)) }),
             key():act(Act.Text("D")):swipe({ swipe():up(Act.Text("*")), swipe():down(Act.Text("°")) }),
@@ -678,7 +682,7 @@ local function builder()
             key():act(Act.Text("J")):swipe({ swipe():up(Act.Text("<")), swipe():down(Act.Text(">")) }),
             key():act(Act.Text("K")):swipe({ swipe():up(Act.Text("[")), swipe():down(Act.Text("]")) }),
             key():act(Act.Text("L")):swipe({ swipe():up(Act.Text("{")), swipe():down(Act.Text("}")) }),
-            key():act(Act.Empty("L")):width(0.5),
+            key():act(Act.None()):width(0.5),
         }),
         row():keys({
             key():act(Act.Keyboard(Kbd.custom("吉旦餅·英文"))):label("⇪"),
