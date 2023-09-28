@@ -1,3 +1,4 @@
+Aa	爪
 Ac	寸
 Ac	{于下}
 Ae	业
@@ -8,7 +9,6 @@ Ai	己
 Aj	見
 Ao	虫
 As	矢
-Au	爪
 Au	目
 Ay	已
 Az	{⺮右}

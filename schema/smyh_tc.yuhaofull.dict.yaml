@@ -12,6 +12,14 @@ columns:
   - other
 ...
 
+爪	aa11
+爫	aa11
+⺤	aa11
+⺥	aa11
+⽖	aa11
+爫	aa11
+𫜵	aa11
+𤔙	aaaa
 𥷹	aaaa
 蠼	aaab
 䂄	aaab
@@ -24,16 +32,19 @@ columns:
 𢩕	aaah
 𥊋	aaaj
 𧐎	aaaj
+𧠘	aaaj
 𭿴	aaak
 𧔼	aaam
 蟲	aaao
+䖣	aaao
 蠱	aaar
 瞐	aaau
-𤔙	aaau
+𥄄	aaau
 𥋅	aaau
 䂂	aaay
 蠷	aaay
 𬖇	aaay
+笊	aaaz
 𥴒	aaaz
 𥰢	aabb
 𧎥	aabb
@@ -44,13 +55,13 @@ columns:
 𥆣	aabo
 𥲅	aabt
 𬑪	aabu
+寽	aaca
 𥈍	aacb
 𤓷	aaci
 䙷	aacj
 䙸	aacj
 𰦣	aacl
 䖞	aaco
-寽	aacu
 𥃷	aacu
 𥵢	aada
 𧌾	aadd
@@ -115,6 +126,8 @@ columns:
 𥉐	aaiu
 𥰥	aaiu
 𥫟	aaiz
+覓	aaja
+𧠙	aaja
 䁔	aajb
 䈠	aajb
 蝯	aajb
@@ -131,9 +144,7 @@ columns:
 𭾮	aajk
 蜆	aajo
 䂓	aajs
-覓	aaju
 睍	aaju
-𧠙	aaju
 蟡	aajw
 𥊪	aajw
 蟡	aajw
@@ -245,6 +256,7 @@ columns:
 𥅁	aato
 𰪚	aats
 𱸒	aatt
+𥄃	aaua
 𮚭	aauc
 𥈀	aaud
 𮅕	aaud
@@ -252,7 +264,6 @@ columns:
 𥴠	aauh
 𲀅	aauh
 𥈺	aauj
-𧠘	aauj
 𧠦	aauj
 篡	aauk
 簒	aauk
@@ -260,7 +271,6 @@ columns:
 𥶉	aaum
 𥲻	aaun
 𨏉	aaun
-䖣	aauo
 𧊁	aauo
 纂	aaup
 䵵	aauq
@@ -268,8 +278,6 @@ columns:
 𥎶	aaus
 𭿗	aaus
 䀠	aauu
-𥄃	aauu
-𥄄	aauu
 𥉁	aauu
 𧖌	aauu
 𱘪	aauu
@@ -278,7 +286,6 @@ columns:
 𥣚	aauv
 𥵺	aauv
 頱	aaux
-笊	aauz
 𥬥	aauz
 虼	aavi
 盵	aavi
@@ -390,11 +397,11 @@ columns:
 𧏿	abhc
 𨖡	abhc
 𨗹	abhc
+𪺏	abia
+𭶮	abia
 𧡄	abij
 䖶	abio
 𥆋	abiu
-𪺏	abiu
-𭶮	abiu
 𫁾	abiz
 𠭵	abjb
 𦒇	abjb
@@ -433,8 +440,8 @@ columns:
 𫂟	abmz
 𧏶	abnc
 𡕽	abne
+𠬪	aboa
 𫨸	abos
-𠬪	abou
 𥃫	abou
 𰆸	abou
 𭇪	abov
@@ -657,6 +664,7 @@ columns:
 𥲳	acxv
 䉟	acyb
 䉮	acyz
+𭶳	adaa
 𩼸	adab
 對	adac
 䗚	adac
@@ -667,7 +675,6 @@ columns:
 𨮝	adak
 𡁨	adao
 懟	adat
-𭶳	adau
 𬥫	adax
 翩	adbb
 𧌴	adbf
@@ -686,6 +693,7 @@ columns:
 扁	adeh
 𮆖	adeu
 𰥧	adeu
+𱬺	adfa
 𥬰	adfi
 蟂	adfm
 𥉼	adfm
@@ -694,7 +702,6 @@ columns:
 蜅	adfo
 㲢	adfo
 䀯	adfu
-𱬺	adfu
 𥮉	adfz
 㓲	adgd
 䈀	adgd
@@ -1043,6 +1050,7 @@ columns:
 𥄰	aeyr
 𧊂	aeyr
 笌	aeyz
+𬋰	afaa
 盱	afac
 竽	afac
 虶	afac
@@ -1050,7 +1058,6 @@ columns:
 𫂚	afag
 𱸟	afat
 箱	afau
-𬋰	afau
 䣋	afbf
 𨜑	afbf
 𥶥	afbh
@@ -1162,6 +1169,7 @@ columns:
 𮵱	afli
 𥯸	aflj
 𤔳	aflp
+采	afma
 笺	afme
 𢧊	afme
 𰲳	afme
@@ -1175,7 +1183,6 @@ columns:
 𥱔	afmr
 𦖗	afmr
 𪿈	afms
-采	afmu
 𣐥	afmu
 𥄢	afmu
 𦉑	afna
@@ -1513,6 +1520,7 @@ columns:
 𪵔	aglv
 𣫺	aglw
 𣫺	aglw
+𱬵	agma
 𫋦	agmb
 𢨺	agmh
 𬉯	agmh
@@ -1522,7 +1530,6 @@ columns:
 緐	agmp
 𣬁	agmr
 𥄸	agmu
-𱬵	agmu
 笃	agmz
 笷	agmz
 𡕼	agne
@@ -1574,6 +1581,7 @@ columns:
 䉢	agro
 𧒗	agro
 𪖬	agru
+坕	agta
 𢨫	agth
 𢙽	agti
 𥭡	agti
@@ -1582,7 +1590,6 @@ columns:
 𠧩	agto
 𫊥	agto
 𫵾	agts
-坕	agtu
 𥃾	agtu
 玍	agtz
 𥫦	agtz
@@ -1639,11 +1646,11 @@ columns:
 𧐻	agyz
 户	ah11
 戸	ah11
+𤔚	ahaa
 𥵩	ahae
 𮞖	ahag
 𥉨	ahaj
 𫼎	ahaq
-𤔚	ahau
 𬕇	ahau
 𰪘	ahbd
 筷	ahbr
@@ -1724,6 +1731,8 @@ columns:
 𬠂	ahio
 𥌝	ahit
 䇴	ahiz
+舀	ahja
+𦥝	ahja
 𬕦	ahjc
 𥰿	ahjf
 箰	ahjk
@@ -1736,9 +1745,7 @@ columns:
 䖲	ahjr
 眴	ahjr
 𧌏	ahjr
-舀	ahju
 𥯗	ahju
-𦥝	ahju
 𫂎	ahju
 𮍥	ahjz
 𥵓	ahkd
@@ -1792,6 +1799,7 @@ columns:
 𤔱	ahps
 𤕉	ahpt
 䀐	ahpu
+𤔈	ahqa
 𢨷	ahqh
 𮆱	ahqj
 𥇩	ahqk
@@ -1799,7 +1807,6 @@ columns:
 𱸱	ahqp
 𮀀	ahqs
 籅	ahqu
-𤔈	ahqu
 𰪜	ahqw
 笡	ahqz
 𥯮	ahre
@@ -2040,13 +2047,13 @@ columns:
 見	aj11
 ⾒	aj11
 見	aj11
+𭶫	ajaa
 蠮	ajab
 𧠡	ajaj
 𮗐	ajaj
 䖬	ajao
 𥯭	ajat
 𧏽	ajat
-𭶫	ajau
 𧕪	ajav
 笚	ajaz
 𧡩	ajba
@@ -2087,6 +2094,7 @@ columns:
 𩿽	ajdn
 𫛔	ajdn
 𬠲	ajdu
+𱬶	ajea
 𰇄	ajeb
 𪃃	ajed
 㦾	ajeh
@@ -2105,7 +2113,6 @@ columns:
 𢼏	ajeu
 𥃸	ajeu
 𫿒	ajeu
-𱬶	ajeu
 𱬼	ajeu
 𥊼	ajey
 㐌	ajez
@@ -2258,6 +2265,7 @@ columns:
 𥭆	ajqi
 𫋑	ajqj
 𫷜	ajqq
+㸓	ajra
 𫷗	ajrb
 𧊠	ajre
 𮅢	ajrh
@@ -2272,7 +2280,6 @@ columns:
 蚎	ajro
 𱷶	ajrr
 𥎭	ajrs
-㸓	ajru
 𭥍	ajrz
 𱷳	ajrz
 筭	ajsc
@@ -2321,10 +2328,10 @@ columns:
 𥳦	ajvm
 䁜	ajvp
 𮔫	ajvp
+爲	ajwa
+𬊓	ajwa
 蚟	ajwo
-爲	ajwu
 𪛟	ajwu
-𬊓	ajwu
 𥯋	ajwy
 𮔙	ajwy
 𮵬	ajwz
@@ -2697,6 +2704,7 @@ columns:
 𱸛	akuy
 𥫿	akuz
 𧍱	akuz
+𰢛	akva
 𧡕	akvb
 𭤣	akvc
 𮆯	akve
@@ -2706,7 +2714,6 @@ columns:
 虬	akvo
 𬗫	akvp
 𥃤	akvu
-𰢛	akvu
 𥌀	akwd
 𫟗	akwd
 𥰘	akwi
@@ -2749,9 +2756,9 @@ columns:
 𬖈	akyy
 𨿚	akyz
 𨿸	akyz
+孚	akza
 覎	akzj
 虸	akzo
-孚	akzu
 𭾝	akzu
 𥫞	akzz
 筹	alac
@@ -3021,6 +3028,7 @@ columns:
 𬕨	alxw
 𱸚	alyq
 𩀎	alyz
+𢩞	amaa
 𧎆	amaa
 𥱈	amac
 𪿎	amac
@@ -3035,7 +3043,6 @@ columns:
 𥏅	amas
 簴	amau
 䁉	amau
-𢩞	amau
 𱳅	ambb
 𱸗	ambb
 𥯘	ambf
@@ -3268,11 +3275,11 @@ columns:
 𬕻	amyt
 𰪠	amyw
 𲀈	amyx
+𪺑	amza
 𤬅	amzg
 䗅	amzo
 𧋈	amzo
 𥇔	amzu
-𪺑	amzu
 𥮲	amzz
 簇	anaa
 𢩜	anaa
@@ -3294,6 +3301,8 @@ columns:
 𥰠	anas
 𰦚	anas
 𮅯	anav
+爬	anba
+𱬷	anba
 䉨	anbd
 𭺗	anbg
 𢨴	anbh
@@ -3301,8 +3310,6 @@ columns:
 𧏹	anbi
 蚆	anbo
 𤓿	anbo
-爬	anbu
-𱬷	anbu
 𱲫	anbu
 𥸊	anbx
 笆	anbz
@@ -3752,10 +3759,10 @@ columns:
 𬋴	apcm
 𰲬	apco
 𥋻	apcx
+𱬸	apda
 𥫺	apdj
 𬋤	apdj
 𱳏	apdo
-𱬸	apdu
 矊	apdv
 𧓭	apdv
 𰩳	apdz
@@ -4357,10 +4364,10 @@ columns:
 蛊	armo
 𫌧	armx
 笽	armz
+妥	arna
 𮅵	arnb
 妀	arni
 𫌜	arnj
-妥	arnu
 𥫭	arnz
 𥰪	arol
 𰪊	arou
@@ -4617,6 +4624,7 @@ columns:
 𧌺	asrn
 𰥬	asru
 𧍠	asrv
+𦧍	assa
 𬹥	assa
 𬹫	assa
 𰕗	asse
@@ -4645,7 +4653,6 @@ columns:
 𬹦	asss
 𪔊	asst
 䀨	assu
-𦧍	assu
 䵻	assx
 𩕢	assx
 筈	assz
@@ -4720,9 +4727,9 @@ columns:
 𩿞	atdn
 𰳟	atdn
 𬆢	atdu
+㸒	atea
 𬃥	atef
 𧏢	atel
-㸒	ateu
 𥄮	ateu
 𫾩	ateu
 𥋔	atfe
@@ -4731,6 +4738,7 @@ columns:
 𥏸	atfq
 𠛢	atgd
 𲁐	atgx
+𬉿	atha
 迮	athc
 𨑶	athc
 𨓮	athc
@@ -4738,7 +4746,6 @@ columns:
 𥭓	athl
 𧈾	atho
 𥄣	athu
-𬉿	athu
 𬔲	athz
 𭜝	atie
 忌	atii
@@ -4888,15 +4895,8 @@ columns:
 𫊮	atys
 𰩲	atys
 笛	atyz
-爪	au11
-爫	au11
 目	au11
-⺤	au11
-⺥	au11
-⽖	au11
 ⽬	au11
-爫	au11
-𫜵	au11
 𥋢	auaa
 𧒋	auaa
 𮕈	auab
@@ -4920,13 +4920,13 @@ columns:
 𢨰	auci
 𥯩	aucj
 𱿿	aucu
+𡗮	auda
 𪼳	audg
 戻	audh
 𥇧	audi
 䗁	audo
 𥇚	audo
 𥏜	audo
-𡗮	audu
 𥷴	audu
 𭾚	audu
 𰥍	audu
@@ -4959,6 +4959,7 @@ columns:
 𥉱	auhk
 𥶏	auho
 𥋮	auhu
+𤓵	auia
 盼	auid
 蚡	auid
 𤓼	auid
@@ -4966,7 +4967,6 @@ columns:
 𥴜	auio
 𧈷	auio
 𱿶	auir
-𤓵	auiu
 𥌥	aujf
 𧎩	aujf
 䖫	aujg
@@ -5123,11 +5123,11 @@ columns:
 𫁼	avdl
 𩾥	avdn
 𫛎	avdn
+𥝩	avea
 𣢆	aveq
 𣢛	aveq
 㩿	aveu
 𢼚	aveu
-𥝩	aveu
 𥮸	avfa
 𠚻	avfg
 𰥋	avfi
@@ -5163,13 +5163,13 @@ columns:
 𧔌	avhh
 𱲥	avhp
 篜	avht
+㐍	avia
+𤓱	avia
 戹	avih
 𠃚	avii
 𧈝	avio
 𤓸	avis
-㐍	aviu
 𡭨	aviu
-𤓱	aviu
 𥃥	aviu
 乞	aviz
 尓	aviz
@@ -5335,6 +5335,7 @@ columns:
 𫊧	awid
 𮅀	awid
 𮯲	awiz
+觅	awja
 蜯	awjk
 𬕏	awjk
 蚬	awjo
@@ -5342,7 +5343,6 @@ columns:
 箺	awjr
 蝽	awjr
 𰦔	awjs
-觅	awju
 𪾢	awju
 笕	awjz
 箙	awkb
@@ -5425,6 +5425,7 @@ columns:
 𥴤	awxj
 𧉢	awxo
 𥄴	awxu
+𦙔	awya
 𤫮	awyg
 肩	awyh
 蚏	awyo
@@ -5432,7 +5433,6 @@ columns:
 𭾳	awyr
 𥵖	awyt
 眀	awyu
-𦙔	awyu
 𥬅	awyz
 𨿱	awyz
 𤕁	axab
@@ -5444,6 +5444,7 @@ columns:
 𥉎	axaj
 𧡾	axaj
 篽	axak
+𭶰	axba
 𥷲	axbe
 𤔼	axbj
 𥷉	axbk
@@ -5452,7 +5453,6 @@ columns:
 𧉫	axbo
 𧎯	axbr
 𥆘	axbu
-𭶰	axbu
 筫	axbz
 𮙭	axbz
 𣃇	axcj
@@ -5466,6 +5466,7 @@ columns:
 𰥦	axdu
 𣣳	axeq
 䇱	axeu
+䍃	axfa
 矀	axfd
 䉠	axfd
 覹	axfd
@@ -5482,7 +5483,6 @@ columns:
 𮆚	axfp
 𥵧	axfr
 𧢙	axfr
-䍃	axfu
 䈟	axgd
 𠟬	axgd
 𧍡	axgd
@@ -5633,13 +5633,13 @@ columns:
 𥭒	axwe
 𥅇	axwl
 𬔭	axwz
+𪺍	axxa
 𥲝	axxc
 箻	axxj
 𧍶	axxj
 蠳	axxr
 𥌽	axxr
 𥐑	axxr
-𪺍	axxu
 𧕖	axyb
 䉙	axyk
 𮔻	axyk
@@ -5793,6 +5793,8 @@ columns:
 𧑌	aysu
 𬢄	aysu
 𥷝	aysw
+𤔉	ayta
+𪽋	ayta
 㧂	ayth
 𥯨	ayti
 𧍤	ayti
@@ -5802,8 +5804,6 @@ columns:
 𮓿	ayto
 𮫯	ayto
 𥎴	ayts
-𤔉	aytu
-𪽋	aytu
 𥇗	ayty
 𥇤	ayty
 𤰗	aytz
@@ -5860,6 +5860,7 @@ columns:
 𥫗	az11
 𮥎	baac
 𧱻	baaj
+𤔨	baam
 蟸	baao
 𩽩	baay
 𬯙	babb
@@ -5964,7 +5965,6 @@ columns:
 𫎈	baud
 𣤻	baue
 𨺻	bauj
-𤔨	baum
 𥉵	baum
 𩶖	bauu
 𫖨	baux
@@ -8711,9 +8711,12 @@ columns:
 捋	caac
 𢵅	caaj
 𢸥	caak
+𰠁	caal
 𢸗	caam
+𲈧	caam
 𢳸	caan
 攥	caap
+抓	caas
 𢺱	caat
 㩴	caay
 搧	cabb
@@ -8871,11 +8874,8 @@ columns:
 𢵞	cauf
 𨵻	cauj
 𢸕	caul
-𰠁	caul
 𫔝	caum
-𲈧	caum
 擌	caur
-抓	caus
 𢪷	caus
 𭢪	cauy
 𢱄	cavb
@@ -8908,6 +8908,7 @@ columns:
 𢶾	cayz
 贝	cb11
 ⻉	cb11
+𢫺	cbaa
 𢫊	cbac
 𭠯	cbac
 𢶽	cbah
@@ -8915,7 +8916,6 @@ columns:
 𢳰	cbao
 𨵕	cbao
 𢲕	cbas
-𢫺	cbau
 掇	cbbb
 䦤	cbbb
 𢬏	cbbb
@@ -12318,12 +12318,12 @@ columns:
 𢱃	cvyq
 扷	cvys
 攨	cwaa
+𢱑	cwaa
 𪭺	cwac
 搲	cwag
 覵	cwaj
 𢳨	cwao
 搾	cwat
-𢱑	cwau
 𰔏	cwbb
 𰔘	cwbb
 𢹑	cwbq
@@ -18050,8 +18050,8 @@ columns:
 𢛃	etot
 处	etou
 𫣶	etou
-咎	etov
 佔	etov
+咎	etov
 俈	etov
 𠉇	etov
 𤘇	etov
@@ -18680,10 +18680,12 @@ columns:
 㯒	faaj
 𧡮	faaj
 𭬉	faaj
+枛	faam
 螙	faao
 𣠹	faap
 𣝶	faas
 𣗕	faat
+𤔝	faau
 𥈸	faau
 欋	faay
 𣰽	faay
@@ -18875,11 +18877,9 @@ columns:
 𣝎	fatt
 𣞯	fauf
 相	faum
-枛	faum
 𣘺	fauo
 𣭒	fauo
 𥄥	fauo
-𤔝	fauu
 𬱀	faux
 杚	favi
 𠃗	favi
@@ -23720,6 +23720,7 @@ columns:
 埓	gaac
 𡒺	gaad
 𧽨	gaaj
+𲃊	gaao
 𧾱	gaay
 骟	gabb
 邿	gabf
@@ -23818,7 +23819,6 @@ columns:
 𰊰	gatq
 𮰤	gaud
 𧻃	gauo
-𲃊	gauo
 𡊟	gaut
 圪	gavi
 䞘	gavi
@@ -25642,10 +25642,10 @@ columns:
 址	gnzt
 走	go11
 ⾛	go11
+𤔎	goaa
 𤫶	goag
 𧠯	goaj
 𮰱	goam
-𤔎	goau
 𥆅	goau
 翓	gobb
 郆	gobf
@@ -26695,8 +26695,8 @@ columns:
 𧻏	guto
 𭎉	guto
 𱘛	gutt
-螫	guua
 赤	guua
+螫	guua
 ⾚	guua
 䚂	guua
 赨	guua
@@ -27905,6 +27905,7 @@ columns:
 𭻭	hcyt
 𰴅	hcyt
 𧚜	hcyv
+𭶶	hdaa
 䙏	hdac
 䪙	hdac
 愽	hdac
@@ -27916,7 +27917,6 @@ columns:
 螌	hdao
 𥈼	hdau
 𧝙	hdau
-𭶶	hdau
 𰒐	hdau
 𫻋	hdax
 翲	hdbb
@@ -31722,7 +31722,9 @@ columns:
 𧌣	iaao
 𰝆	iaao
 𤅱	iaar
+沠	iaas
 𤀤	iaas
+𪵯	iaas
 𱨙	iaat
 灈	iaay
 𣻫	iabb
@@ -31901,8 +31903,6 @@ columns:
 𱧺	iaun
 𥃮	iaur
 泪	iaus
-沠	iaus
-𪵯	iaus
 𩓙	iaux
 𱩴	iauy
 汔	iavi
@@ -36445,9 +36445,11 @@ columns:
 𭹑	jaac
 𣇯	jaah
 匴	jaas
+𤣺	jaaw
 匷	jaay
 㬬	jaay
 躣	jaay
+𬦦	jaaz
 𨃩	jabb
 𬎁	jabb
 𫑝	jabf
@@ -36643,9 +36645,7 @@ columns:
 𫧐	jauf
 𨂻	jauj
 㺺	jauw
-𤣺	jauw
 顕	jaux
-𬦦	jauz
 㫓	javi
 趷	javi
 𣆋	javi
@@ -37260,6 +37260,7 @@ columns:
 ⼖	jf11
 匸	jf11
 𠥓	jf11
+𤔖	jfaa
 𠮊	jfab
 𣌏	jfab
 玗	jfac
@@ -37274,7 +37275,6 @@ columns:
 𰘪	jfan
 𣇎	jfap
 𠊛	jfar
-𤔖	jfau
 𤧇	jfau
 𰅧	jfau
 𥋹	jfaw
@@ -40759,7 +40759,6 @@ columns:
 㥦	jurt
 㔿	jusf
 曱	jusr
-甴	jusr
 𪰒	jusr
 𲄔	jusu
 𤤟	jusw
@@ -40784,7 +40783,6 @@ columns:
 𤥀	juui
 𭅚	juui
 𪼩	juuj
-𡇛	juuk
 𫏥	juuq
 𡗑	juus
 𨇒	juuu
@@ -41428,6 +41426,7 @@ columns:
 𧾷	jz11
 𧔃	kaaa
 𨰍	kaaa
+𭓹	kaaa
 钁	kaab
 鋝	kaac
 𨰉	kaac
@@ -41437,6 +41436,7 @@ columns:
 寙	kaag
 䥷	kaag
 𦋯	kaag
+釽	kaaj
 𡪽	kaaj
 𲁎	kaaj
 𨭧	kaak
@@ -41447,7 +41447,6 @@ columns:
 𮡽	kaas
 𱚜	kaas
 𥈜	kaau
-𭓹	kaau
 𰥡	kaau
 𩖀	kaax
 鑺	kaay
@@ -41607,7 +41606,6 @@ columns:
 𡙭	kaud
 𪅷	kaud
 𮣈	kaue
-釽	kauj
 鉬	kauj
 𪊣	kaul
 𥄲	kauw
@@ -47413,8 +47411,8 @@ columns:
 𡙑	ljvu
 𬻽	ljvu
 𠡽	ljvw
-主	ljwd
 為	ljwd
+主	ljwd
 𭚐	ljwd
 𰪬	ljwi
 𭙵	ljwl
@@ -49701,8 +49699,10 @@ columns:
 早	ma11
 𱃓	maaa
 貜	maab
+𩬐	maab
 𧇛	maac
 𨊀	maad
+𢦞	maae
 𧴢	maah
 𱻺	maah
 覷	maaj
@@ -49711,6 +49711,7 @@ columns:
 𧳻	maao
 𬠸	maao
 𨉾	maau
+䝖	maaz
 𨝹	mabf
 𮔽	mabj
 𠂌	macp
@@ -49825,10 +49826,7 @@ columns:
 𩬟	mato
 𫗢	mato
 虡	maua
-𩬐	maub
 𩬞	maub
-𢦞	maue
-䝖	mauz
 𬲰	mavh
 𦕗	mavi
 𧆫	mavi
@@ -49853,9 +49851,9 @@ columns:
 𢎉	mazi
 髟	mb11
 ⾽	mb11
+𤔛	mbaa
 𮕉	mbaa
 𮨱	mbao
-𤔛	mbau
 𬳂	mbbb
 颞	mbbc
 𦗗	mbbd
@@ -53674,8 +53672,8 @@ columns:
 𠫍	mxxx
 𢍘	mxys
 𮫓	mxyz
+𤰲	myaa
 𠪃	myau
-𤰲	myau
 𧳬	myau
 𨉭	myau
 𬴮	myau
@@ -53842,6 +53840,7 @@ columns:
 ⾘	mz11
 ⾧	mz11
 𧐈	naaa
+𬀄	naaa
 𨏹	naab
 𩺯	naab
 𪯽	naab
@@ -53852,11 +53851,11 @@ columns:
 𫦓	naai
 𬀒	naak
 𢳈	naal
+𮄨	naal
 𧎱	naao
 𰳐	naao
 族	naas
 𬸦	naas
-𬀄	naau
 𢄧	naav
 𩔽	naax
 𩀥	naay
@@ -54079,7 +54078,6 @@ columns:
 𣄘	natu
 𬙀	naty
 𬀋	naua
-𮄨	naul
 旖	nauo
 𣄑	naup
 𣃽	nauu
@@ -57435,11 +57433,13 @@ columns:
 𱤻	nz11
 𫬻	oaab
 哷	oaac
+𪗢	oaac
 𪘤	oaac
 𠼽	oaaj
 𭌴	oaak
 𱕋	oaas
 𠷒	oaau
+𫩜	oaav
 㘗	oaay
 𭉮	oabb
 𮮿	oacc
@@ -57544,8 +57544,6 @@ columns:
 𱔾	oats
 𠷿	oatt
 𥄓	oaub
-𪗢	oauc
-𫩜	oauv
 𰇏	oauv
 𱒒	oauv
 𮕊	oava
@@ -59035,6 +59033,7 @@ columns:
 𠴈	oksk
 𡂷	oksl
 𡅶	oksp
+甴	oksv
 𠀐	oksv
 𠮵	oksv
 𠽱	oksv
@@ -59059,6 +59058,7 @@ columns:
 𰇼	okuh
 啰	okui
 𭈧	okui
+𡇛	okuk
 𱔓	okuo
 𡀚	okup
 𫫼	okup
@@ -59480,8 +59480,8 @@ columns:
 𡃀	onbd
 𨛗	onbf
 𬩴	onbo
-吧	onbv
 邑	onbv
+吧	onbv
 ⾢	onbv
 𨙨	onbv
 𠭤	oncb
@@ -60800,8 +60800,8 @@ columns:
 𰈓	ouar
 𠁙	ouat
 𱔧	ouat
-只	ouav
 叭	ouav
+只	ouav
 𠃢	ouav
 𰈆	ouaw
 𮊹	oubb
@@ -61241,8 +61241,8 @@ columns:
 𠰸	oxbo
 𠺋	oxbr
 貰	oxbs
-員	oxbv
 唄	oxbv
+員	oxbv
 𠷝	oxci
 𰇜	oxci
 𠼹	oxcj
@@ -66326,6 +66326,7 @@ columns:
 𪑋	qaac
 𧡟	qaaj
 𪒐	qaaj
+𤜶	qaaq
 𪓆	qaau
 𤣓	qaay
 𠁜	qabw
@@ -66406,7 +66407,6 @@ columns:
 𰋫	qaud
 𰄖	qauf
 𥃭	qaui
-𤜶	qauq
 𡖼	qauu
 犵	qavi
 𤝤	qavi
@@ -67427,6 +67427,7 @@ columns:
 𰡑	qlyt
 门	qm11
 ⻔	qm11
+𢦼	qmaa
 𧓤	qmaa
 𨝌	qmab
 𤠭	qmac
@@ -67443,7 +67444,6 @@ columns:
 𢨣	qmao
 𪑴	qmap
 𤞋	qmaq
-𢦼	qmau
 𥅰	qmau
 𬢺	qmau
 乾	qmav
@@ -68878,6 +68878,8 @@ columns:
 锊	raac
 𰿇	raag
 𣁪	raah
+𮍕	raai
+𬬲	raaj
 螡	raao
 𧑉	raao
 𬮃	raap
@@ -68966,9 +68968,7 @@ columns:
 𬬽	rato
 𥃦	raue
 𥅽	rauh
-𮍕	raui
 钼	rauj
-𬬲	rauj
 𭑰	raun
 𫱱	rauu
 𨰿	ravi
@@ -70558,8 +70558,8 @@ columns:
 𨡣	rlvv
 𩚜	rlvv
 𪫶	rlvv
-頷	rlvx
 貪	rlvx
+頷	rlvx
 𩑟	rlvx
 𩔝	rlvx
 雂	rlvy
@@ -71884,8 +71884,8 @@ columns:
 𣁎	ruyw
 铚	ruzj
 姪	ruzn
+𱬽	rvaa
 𫱓	rvai
-𱬽	rvau
 𠋓	rvbe
 𡟚	rvbr
 锁	rvcb
@@ -72346,6 +72346,7 @@ columns:
 𠀎	sa11
 𧔴	saaa
 𧅚	saab
+𦬔	saac
 蓏	saag
 𧒨	saag
 覧	saaj
@@ -72353,6 +72354,7 @@ columns:
 𧏊	saao
 𧕵	saao
 𧏊	saao
+𰠙	saap
 𤕼	saas
 𱽁	saau
 𩞟	saav
@@ -72531,10 +72533,8 @@ columns:
 𭷌	saty
 苜	sauc
 𥄕	sauc
-𦬔	sauc
 𧅖	saud
 繤	saup
-𰠙	saup
 𥢞	sauv
 𧩾	sauy
 䒗	savi
@@ -77984,7 +77984,9 @@ columns:
 𱛭	taac
 𤒪	taak
 𭵯	taat
+𩨢	taau
 爠	taay
+𤰰	taay
 煽	tabb
 𫅥	tabb
 𬉴	tach
@@ -78122,9 +78124,7 @@ columns:
 𡹊	taud
 𱪴	tauh
 㷔	tauj
-𩨢	tauu
 𬋉	tauu
-𤰰	tauy
 屹	tavi
 𡶃	tavi
 𩨘	tavi
@@ -82752,6 +82752,7 @@ columns:
 𩕦	uaax
 𡚝	uaay
 𥗫	uaay
+𧦐	uaay
 謆	uabb
 𥔱	uabb
 𫍗	uabm
@@ -82898,7 +82899,6 @@ columns:
 𧫲	uauu
 𩓑	uaux
 䛓	uauy
-𧦐	uauy
 𥔊	uauz
 𰨩	uave
 𮘔	uavh
@@ -86951,8 +86951,10 @@ columns:
 酹	vaac
 𩛝	vaac
 𬲣	vaac
+𢁬	vaaj
 𢨡	vaam
 𧋜	vaao
+𮠜	vaao
 𧖂	vaar
 𩛪	vaav
 𩟹	vaay
@@ -87067,9 +87069,7 @@ columns:
 𰥚	vaue
 𥃻	vaui
 稲	vauj
-𢁬	vauj
 𮩁	vauj
-𮠜	vauo
 䬣	vavi
 𥝖	vavi
 𩚬	vavi
@@ -88133,8 +88133,8 @@ columns:
 𮠰	vjjr
 馧	vjjr
 𮩭	vjjw
-幔	vjkb
 饅	vjkb
+幔	vjkb
 䅼	vjkb
 𨢥	vjkb
 䄵	vjke
@@ -90560,6 +90560,7 @@ columns:
 蝱	waao
 𧐧	waao
 𰥲	waau
+𮃹	waax
 臞	waay
 𦞿	wabl
 肘	wacy
@@ -90639,7 +90640,6 @@ columns:
 𰥖	waup
 盲	wauw
 窅	waux
-𮃹	waux
 𦛰	wavh
 肐	wavi
 𦙳	wavi
@@ -93785,8 +93785,8 @@ columns:
 𬁫	xgjh
 𤾳	xgjj
 𨃲	xgjj
-書	xgjr
 賭	xgjr
+書	xgjr
 𢔪	xgjr
 書	xgjr
 𰭽	xgjr
@@ -94006,10 +94006,10 @@ columns:
 𨾂	xhyu
 气	xi11
 ⽓	xi11
+𰠃	xiaa
 𩃰	xiaj
 霪	xiat
 𩄚	xiau
-𰠃	xiau
 𡆩	xiaw
 𩆍	xiax
 𰚻	xibi
@@ -96140,9 +96140,11 @@ columns:
 𫄻	xyzf
 霍	xyzu
 𤼖	yaaa
+𪽫	yaab
 㽟	yaac
 𭕼	yaak
 𧎿	yaao
+𫵕	yaas
 癯	yaay
 郿	yabf
 𤷸	yabf
@@ -96223,12 +96225,10 @@ columns:
 𭼮	yatt
 𮚯	yatx
 㾇	yaub
-𪽫	yaub
 𭼬	yaue
 𭾜	yauq
 𠖻	yaur
 眉	yaus
-𫵕	yaus
 𭕘	yaus
 疙	yavi
 𠖯	yavi

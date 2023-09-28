@@ -40,7 +40,10 @@ columns:
 然	w1	379579	w1
 得	x1	371935	x1
 头	y1	228219	y1
+爪	aa1	3757
+爫	aa3	0
 蟲	aaa	1971
+笊	aaa	16
 蛶	aaa	5
 瞐	aaa	0
 矍	aab	82
@@ -91,7 +94,6 @@ columns:
 煛	aat	0
 瞴	aat	0
 蟱	aat	0
-笊	aau	16
 螇	aau	0
 箏	aav	469
 睜	aav	415
@@ -1009,8 +1011,6 @@ columns:
 笛	aty	2345
 蚰	aty	5
 目	au1	75320
-爪	au1	3757
-爫	au3	0
 瞈	aub	0
 螉	aub	0
 蚥	auc	0
@@ -1817,6 +1817,7 @@ columns:
 阱	byu	1401
 难	byz	81898
 陮	byz	0
+抓	caa	21366
 捋	caa	454
 授	cab	7953
 援	cab	6117
@@ -1853,7 +1854,6 @@ columns:
 擌	car	0
 撫	cat	545
 拃	cat	2
-抓	cau	21366
 擈	cau	0
 掙	cav	472
 扢	cav	2
@@ -4122,6 +4122,7 @@ columns:
 侭	eyy	0
 雅	eyz	19841
 倠	eyz	0
+枛	faa	0
 螙	faa	0
 欉	fab	1
 楥	fab	0
@@ -4168,7 +4169,6 @@ columns:
 橅	fat	0
 檼	fat	0
 相	fau	112739
-枛	fau	0
 榽	fau	0
 檏	fau	0
 杚	fav	0
@@ -7071,6 +7071,7 @@ columns:
 雎	hyz	95
 之	hz1	273447
 幺	ia1	850
+沠	iaa	0
 浖	iaa	0
 漞	iaa	0
 濧	iaa	0
@@ -7119,7 +7120,6 @@ columns:
 泪	iau	20836
 溪	iau	4289
 眞	iau	1
-沠	iau	0
 涙	iau	0
 澲	iau	0
 淨	iav	1795
@@ -9191,7 +9191,6 @@ columns:
 匧	jur	0
 跖	jus	26
 曱	jus	0
-甴	jus	0
 昦	juu	0
 跢	juu	0
 暸	juv	2
@@ -9326,6 +9325,7 @@ columns:
 龨	jyz	0
 足	jz1	37543
 寙	kaa	0
+釽	kaa	0
 鋝	kaa	0
 鑆	kaa	0
 鍰	kab	0
@@ -9361,7 +9361,6 @@ columns:
 鐤	kas	0
 鈼	kat	0
 鬹	kau	1
-釽	kau	0
 鉬	kau	0
 釳	kav	0
 鉓	kav	0
@@ -12683,6 +12682,7 @@ columns:
 唍	okp	0
 咹	okr	10
 噮	oks	0
+甴	oks	0
 咔	okt	683
 哞	okt	130
 嘧	okt	4
@@ -15048,6 +15048,7 @@ columns:
 嫦	rjv	542
 全	rjw	116884
 娖	rjz	1
+好	rk1	370272	rk1
 镯	rka	815
 娭	rka	1
 嫁	rkb	5706
@@ -15094,7 +15095,7 @@ columns:
 姢	rkw	0
 嬪	rkx	56
 嬸	rky	149
-好	rkz	370272
+好	rkz	100	rk1
 斈	rkz	0
 铸	rla	1140
 媷	rla	0
@@ -21119,21 +21120,20 @@ columns:
 痽	yyz	0
 雔	yyz	0
 隹	yz3	7
-可以	a2
-可能	a2
-一个	f2
-一些	f2
-好的	l2
-不过	i2
-大概	t2
-我们	w2
-这样	x2
-已经	ao2
-刚刚	cz2
-因为	dt2
-什么	ed2
-没有	iq2
+知道	a2
+好的	r2
+我们	m2
+这样	r2
+已经	ay2
+刚刚	p2
+因为	xu2
+所以	kc2
+什么	eq2
 时候	ja2
-意思	lj2
-知道	qo2
-怎么	wj2
+意思	nj2
+怎么	at2
+大概	ud2
+虽然	oa2
+但是	ej2
+游戏	in2
+

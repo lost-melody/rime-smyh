@@ -14,10 +14,10 @@
        │       │       │       │       │       │       │       │       │       │       │       │       │       │       │       │       │鱼   Pv│兀   Pw│
 
        │========   A   ========│       │========   S   ========│       │========   D   ========│       │========   F   ========│       │========   G   ========│
-       │寸   Ac│于下 Ac│业   Ae│       │卅   Sa│卌   Sa│冓上 Sa│       │白   Db│丁   Dd│冊   De│       │一   Fi│木   Fm│毛   Fo│       │刂   Gd│穀頭 Gi│士   Gi│
-       │瓜   Ag│户   Ah│戸   Ah│       │卄   Sc│卝   Sc│艹   Sc│       │甫   Df│示   Di│几   Dj│       │禺   Fu│       │       │       │卬左 Gm│乐上 Gm│卯   Gm│
-       │己   Ai│見   Aj│虫   Ao│       │龷   Sc│臣   Se│𧘇   Si│       │里   Dl│面   Dm│鳥上 Dn│       │       │       │       │       │马   Gm│卯左 Gm│齊右 Gm│
-       │矢   As│爪   Au│目   Au│       │龜下 Sm│黽   Sm│鸟上 Sn│       │鳥   Dn│丬   Dq│龶   Dq│       │       │       │       │       │走   Go│土   Gt│耂   Gt│
+       │爪   Aa│寸   Ac│于下 Ac│       │卅   Sa│卌   Sa│冓上 Sa│       │白   Db│丁   Dd│冊   De│       │一   Fi│木   Fm│毛   Fo│       │刂   Gd│穀頭 Gi│士   Gi│
+       │业   Ae│瓜   Ag│户   Ah│       │卄   Sc│卝   Sc│艹   Sc│       │甫   Df│示   Di│几   Dj│       │禺   Fu│       │       │       │卬左 Gm│乐上 Gm│卯   Gm│
+       │戸   Ah│己   Ai│見   Aj│       │龷   Sc│臣   Se│𧘇   Si│       │里   Dl│面   Dm│鳥上 Dn│       │       │       │       │       │马   Gm│卯左 Gm│齊右 Gm│
+       │虫   Ao│矢   As│目   Au│       │龜下 Sm│黽   Sm│鸟上 Sn│       │鳥   Dn│丬   Dq│龶   Dq│       │       │       │       │       │走   Go│土   Gt│耂   Gt│
        │已   Ay│⺮右 Az│竹   Az│       │鸟   Sn│片   Sp│爿   Sq│       │烏上 Du│殳   Du│烏   Du│       │       │       │       │       │互中 Gu│母框 Gu│彑   Gu│
        │𠂉   Az│       │       │       │舌   Ss│乌   Sw│左上 Sz│       │羊   Dy│讠   Dy│       │       │       │       │       │       │母   Gu│
 
