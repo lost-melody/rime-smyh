@@ -16,7 +16,6 @@ Az	竹
 Az	𠂉
 Bf	阝
 Bi	习
-Bi	豕
 Bm	麻
 Bo	コ
 Bo	ス
@@ -24,6 +23,7 @@ Bo	マ
 Bo	又
 Bo	癶
 Bs	{鼠下}
+Bs	豕
 Bu	魚
 Cb	贝
 Ci	乂
@@ -63,7 +63,6 @@ Eu	夊
 Ey	牙
 Fi	一
 Fm	木
-Fo	毛
 Fu	禺
 Gd	刂
 Gi	{穀頭}
@@ -313,8 +312,8 @@ Wj	见
 Wl	力
 Wo	用
 Wp	𡗗
-Ww	{贏頭}
 Ww	亡
+Ww	{贏頭}
 Wx	穴
 Wy	{祭上}
 Wy	月
@@ -324,6 +323,7 @@ Xc	川
 Xc	彳
 Xf	缶
 Xi	气
+Xm	毛
 Xo	鬥
 Xu	雨
 Xw	囗
