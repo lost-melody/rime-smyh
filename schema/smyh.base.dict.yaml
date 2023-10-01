@@ -18,23 +18,21 @@ columns:
 后	c1	311010	c1
 的	d1	3812777	d1
 便	e1	88543	e1
-于	f1	171559	f1
+速	f1	35399	f1
 地	g1	455629	g1
 要	h1	408050	h1
 没	i1	378467	i1
 是	j1	1579013	j1
 了	k1	1714620	k1
-就	l1	561635	l1
+衣	l1	50479	l1
 我	m1	1499795	m1
-些	n1	188618	n1
-亲	n2	65821	n2
-不	o1	1538442	o1
-啊	o2	114595	o2
+亲	n1	65821	n1
+啊	o1	114595	o1
 同	p1	143969	p1
 道	q1	523968	q1
-这	r1	836733	r1
+好	r1	370272	r1
 有	s1	918481	s1
-心	t1	344916	t1
+告	t1	62648	t1
 到	u1	580057	u1
 那	v1	497166	v1
 然	w1	379579	w1
@@ -226,8 +224,6 @@ columns:
 螩	aef	0
 簊	aeg	0
 篷	aeh	2299
-箕	aei	240
-蜞	aei	92
 肇	aej	412
 虯	aej	5
 晵	aej	0
@@ -240,6 +236,8 @@ columns:
 笿	aeo	0
 蛒	aeo	0
 綮	aep	44
+箕	aeq	240
+蜞	aeq	92
 筰	aet	0
 改	aeu	30459
 筗	aeu	0
@@ -247,8 +245,6 @@ columns:
 螄	aev	10
 篟	aew	0
 蟘	aex	0
-蚜	aey	31
-笌	aey	0
 笗	aey	0
 箱	afa	7133
 竽	afa	46
@@ -920,6 +916,8 @@ columns:
 盿	arw	0
 籲	arx	252
 籬	ary	126
+蚜	ary	31
+笌	ary	0
 矢	as1	1259
 矒	asa	0
 矇	asb	90
@@ -1343,14 +1341,14 @@ columns:
 鮴	bef	0
 鰷	bef	0
 魤	bei	0
-鯕	bei	0
 降	bej	13825
 隆	bel	8579
 鮲	bel	0
 鮘	bem	0
+欢	ben	43088
 鮥	beo	0
 鯦	beo	0
-欢	beq	43088
+鯕	beq	0
 鰤	bev	0
 鮗	bey	1
 阝	bf3	2
@@ -1817,11 +1815,12 @@ columns:
 阱	byu	1401
 难	byz	81898
 陮	byz	0
+授	ca1	7953	ca1
 抓	caa	21366
 捋	caa	454
-授	cab	7953
 援	cab	6117
 攫	cab	231
+授	cab	100	ca1
 搧	cab	84
 閿	cab	0
 闅	cab	0
@@ -1959,7 +1958,6 @@ columns:
 掅	cdw	0
 拊	cea	41
 麲	cea	0
-捓	ceb	0
 撕	cec	4272
 麬	cec	0
 麳	cec	0
@@ -1970,7 +1968,6 @@ columns:
 搥	ceh	57
 摓	ceh	0
 鬯	cei	5
-掑	cei	0
 揝	cej	1
 凶	cek	8902
 麩	cek	5
@@ -1983,13 +1980,14 @@ columns:
 捀	cel	0
 閥	cem	61
 麨	cem	0
+欣	cen	13460
 兇	cen	215
+扻	cen	0
 麭	cen	0
 閣	ceo	631
 赂	ceo	302
 挌	ceo	1
-欣	ceq	13460
-扻	ceq	0
+掑	ceq	0
 麷	ceq	0
 麯	ces	1
 憗	cet	1
@@ -1999,7 +1997,6 @@ columns:
 麥	ceu	989
 麧	cev	0
 麪	cev	0
-閕	cey	0
 扜	cfa	1
 闘	cfa	0
 邱	cfb	1984
@@ -2161,7 +2158,6 @@ columns:
 账	cjc	2187
 抠	cjc	397
 鷼	cjd	0
-撐	cje	4
 扡	cje	0
 担	cjf	20987
 捰	cjf	0
@@ -2190,6 +2186,7 @@ columns:
 間	cjr	17195
 揠	cjr	27
 揾	cjr	4
+撐	cjr	4
 抇	cjr	0
 擝	cjr	0
 閺	cjr	0
@@ -2515,6 +2512,7 @@ columns:
 拦	cqy	5342
 擮	cqy	0
 拎	crb	1569
+捓	crb	0
 閝	crb	0
 闟	crb	0
 赊	crd	100
@@ -2554,6 +2552,7 @@ columns:
 抆	crw	0
 扵	cry	0
 攡	cry	0
+閕	cry	0
 扌	cs3	5
 攬	csa	191
 摪	csa	0
@@ -2606,6 +2605,7 @@ columns:
 描	csy	5174
 攤	csy	551
 拑	csy	1
+扑	ct1	11986	ct1
 蛰	cta	212
 攒	ctc	751
 贽	ctc	41
@@ -2620,10 +2620,10 @@ columns:
 挚	ctl	817
 掉	ctm	30175
 閟	ctm	2
-扑	cto	11986
 贴	cto	8021
 拈	cto	493
 攜	cto	469
+扑	cto	100	ct1
 捁	cto	1
 攚	cto	0
 揣	ctp	1388
@@ -2897,20 +2897,19 @@ columns:
 麺	ded	0
 诎	dee	7
 禥	deg	2
-祺	dei	387
 讹	dei	208
-鶀	dei	0
 谌	dek	86
 麸	dek	19
 麹	del	1
 鴏	dem	0
+歍	den	0
 鴼	deo	0
-歍	deq	0
+祺	deq	387
+鶀	deq	0
 鿺	des	0
 麦	deu	5773
 敀	deu	0
 鶳	dev	0
-讶	dey	7449
 鴤	dey	0
 甫	df1	2358
 鄡	dfb	0
@@ -3151,6 +3150,7 @@ columns:
 祧	dny	38
 祉	dnz	113
 凪	dnz	0
+识	do1	39204	do1
 歌	doe	19582
 谍	dof	882
 谴	doh	571
@@ -3161,8 +3161,8 @@ columns:
 禪	doq	389
 谔	doq	45
 祸	dor	4751
-识	dou	39204
 误	dou	11543
+识	dou	100	do1
 祌	dou	0
 祦	dou	0
 可	dov	371473
@@ -3241,6 +3241,7 @@ columns:
 羷	drq	0
 谂	drt	4
 祄	dru	2
+讶	dry	7449
 鸌	dsb	0
 鿆	dsb	0
 谋	dsf	9705
@@ -3402,7 +3403,6 @@ columns:
 僱	eay	106
 侯	eba	7075
 鄇	ebb	0
-邪	ebf	8578
 僇	ebh	5
 发	ebl	187120
 仅	ebo	22126
@@ -3444,7 +3444,6 @@ columns:
 俚	edl	122
 儀	edm	1128
 偭	edm	0
-鴉	edn	419
 鴭	edn	0
 何	edo	95535
 僐	edo	0
@@ -3466,7 +3465,6 @@ columns:
 芔	eee	0
 櫱	eef	0
 俢	eeh	1
-倛	eei	0
 佭	eej	0
 偺	eej	0
 出	eek	430772
@@ -3475,15 +3473,15 @@ columns:
 粜	eel	11
 糱	eel	0
 辥	eem	0
+欺	een	6666
 佫	eeo	60
 倃	eeo	0
-欺	eeq	6666
+倛	eeq	0
 收	eeu	47279
 佟	eey	943
-伢	eey	125
 俻	eey	0
 糶	eey	0
-条	ef2	43875	ef2
+条	ef1	43875	ef1
 蚩	efa	1073
 使	efc	76901
 便	efc	100	e1
@@ -3505,7 +3503,7 @@ columns:
 俅	efl	133
 俫	efl	2
 休	efm	18530
-条	efm	100	ef2
+条	efm	100	ef1
 棊	efm	0
 倢	efn	109
 佂	efn	0
@@ -3548,7 +3546,6 @@ columns:
 儥	egx	0
 傁	ehb	0
 追	ehc	26623
-迓	ehc	18
 僄	ehd	1
 傈	ehf	17
 伆	ehh	0
@@ -3571,11 +3568,11 @@ columns:
 價	ehx	7329
 乑	ehy	0
 伨	ehy	0
-其	ei1	128648
+货	ei1	7640	ei1
 化	eib	60110
 儠	eib	0
-货	eic	7640
 倾	eic	6729
+货	eic	100	ei1
 段	eid	29420
 偕	eid	309
 做	eie	115988
@@ -3751,6 +3748,7 @@ columns:
 貸	emx	837
 僠	emy	0
 倀	emz	0
+欠	en1	4526
 傳	ena	8457
 儭	ena	1
 俥	enc	0
@@ -3843,7 +3841,7 @@ columns:
 鿇	epv	0
 偩	epx	0
 傕	epy	104
-欠	eq1	4526
+其	eq1	128648
 僔	eqa	0
 伎	eqb	512
 偾	eqc	10
@@ -3895,6 +3893,7 @@ columns:
 仱	erv	0
 伩	erw	0
 僋	erx	0
+伢	ery	125
 伖	esb	0
 儆	ese	78
 僷	esf	0
@@ -3908,7 +3907,6 @@ columns:
 仗	esl	5069
 傇	esm	0
 僶	esm	0
-鸦	esn	1879
 佑	eso	2188
 偌	eso	669
 儖	esr	0
@@ -4082,8 +4080,7 @@ columns:
 儒	exp	2837
 儘	exr	1294
 鿘	exr	0
-牙	ey1	17249
-仁	ey1	9602	ey1
+冬	ey1	9371	ey1
 螽	eya	15
 假	eyb	22441
 佀	eyb	0
@@ -4106,9 +4103,9 @@ columns:
 傫	eyp	0
 儽	eyp	0
 仟	eyq	64
-冬	eyr	9371
+仁	eyr	9602
 佞	eyr	111
-仁	eyr	100	ey1
+冬	eyr	100	ey1
 偋	eys	0
 备	eyt	39045
 惫	eyt	1910
@@ -4120,8 +4117,8 @@ columns:
 働	eyw	0
 儡	eyy	614
 侭	eyy	0
-雅	eyz	19841
 倠	eyz	0
+于	fa1	171559	fa1
 枛	faa	0
 螙	faa	0
 欉	fab	1
@@ -4129,7 +4126,7 @@ columns:
 欔	fab	0
 邘	fab	0
 村	fac	18874
-于	fac	100	f1
+于	fac	100	fa1
 楄	fad	0
 椱	fae	0
 檱	fae	0
@@ -4290,7 +4287,6 @@ columns:
 樭	feg	0
 槌	feh	272
 槰	feh	0
-棋	fei	5358
 杹	fei	0
 朻	fej	0
 栙	fej	0
@@ -4298,15 +4294,15 @@ columns:
 栿	fel	0
 桻	fel	0
 栰	fem	0
+杴	fen	0
 格	feo	39857
 櫀	fep	0
+棋	feq	5358
 桦	feq	624
-杴	feq	0
 栣	fet	1
 枚	feu	3529
 梻	feu	0
 樇	few	0
-枒	fey	21
 柊	fey	2
 杅	ffa	0
 郴	ffb	22
@@ -4500,7 +4496,6 @@ columns:
 皶	fjc	0
 鶇	fjd	25
 鸉	fjd	0
-橕	fje	1
 杝	fje	0
 查	fjf	23851
 棵	fjf	3461
@@ -4527,6 +4522,7 @@ columns:
 欓	fjq	0
 東	fjr	10482
 杳	fjr	244
+橕	fjr	1
 椻	fjr	0
 榅	fjr	0
 梇	fjs	0
@@ -4763,8 +4759,6 @@ columns:
 棜	fny	0
 正	fnz	153147
 杫	fnz	0
-速	fo1	35399	fo1
-逼	fo2	9743	fo2
 融	foa	8258
 杯	fob	15135
 翮	fob	26
@@ -4789,9 +4783,9 @@ columns:
 副	fog	20391
 剌	fog	515
 剅	fog	0
+逼	foh	9743
 逗	foh	3474
-速	foh	100	fo1
-逼	foh	100	fo2
+速	foh	100	f1
 遫	foh	1
 鬺	foh	1
 遬	foh	0
@@ -4979,6 +4973,8 @@ columns:
 棯	frt	0
 枪	frv	20108
 枔	frv	0
+枒	fry	21
+模	fs1	21326	fs1
 欖	fsa	81
 欂	fsa	0
 欟	fsa	0
@@ -5027,9 +5023,9 @@ columns:
 檧	fst	0
 櫵	fst	0
 烎	fst	0
-模	fsu	21326
 横	fsu	10661
 橫	fsu	1362
+模	fsu	100	fs1
 栱	fsu	27
 楧	fsu	0
 柨	fsv	0
@@ -5425,19 +5421,19 @@ columns:
 堢	gef	0
 塠	geh	0
 塳	geh	0
-骐	gei	27
 赳	gej	229
 鿍	gej	0
 堪	gek	6151
 凷	gek	0
 垘	gel	0
 埄	gel	0
+坎	gen	1821
+赼	gen	0
 骆	geo	1891
 垎	geo	0
-坎	geq	1821
 埠	geq	248
 骅	geq	120
-赼	geq	0
+骐	geq	27
 坆	geu	0
 墈	gew	0
 圩	gfa	55
@@ -6257,7 +6253,6 @@ columns:
 袦	hee	0
 褓	hef	125
 恘	hef	1
-褀	hei	0
 舽	hej	0
 袶	hej	0
 凼	hek	18
@@ -6267,9 +6262,10 @@ columns:
 艂	hel	0
 袯	hel	0
 覄	hel	0
+忺	hen	37
 恪	heo	288
 袼	heo	8
-忺	heq	37
+褀	heq	0
 袵	het	1
 雛	hey	349
 衧	hfa	0
@@ -6475,6 +6471,7 @@ columns:
 襠	hjy	10
 廼	hjy	0
 艡	hjy	0
+县	hk1	9122	hk1
 襡	hka	0
 韣	hka	0
 悺	hkb	2
@@ -6501,8 +6498,8 @@ columns:
 懌	hkq	0
 襗	hkq	0
 艋	hkr	81
-县	hks	9122
 勾	hks	5321
+县	hks	100	hk1
 懁	hks	0
 悬	hkt	4321
 恈	hkt	0
@@ -7228,7 +7225,6 @@ columns:
 滌	ief	50
 湺	ief	0
 漨	ieh	0
-淇	iei	983
 沎	iei	0
 洚	iej	1
 湛	iek	904
@@ -7242,6 +7238,7 @@ columns:
 涖	ien	0
 洛	ieo	12936
 濝	iep	0
+淇	ieq	983
 盜	ier	663
 滺	iet	0
 故	ieu	32441
@@ -8428,25 +8425,24 @@ columns:
 珜	jdy	2
 也	je1	474750
 跗	jea	11
-琊	jeb	155
 鷺	jed	231
 瑖	jed	0
 昢	jee	0
 曓	jef	0
 璂	jeg	0
-琪	jei	4063
-踑	jei	0
 匩	jej	0
 跭	jej	0
 击	jek	47914
 踸	jek	0
 琒	jel	0
 玳	jem	138
+欥	jen	0
 路	jeo	74526
 珞	jeo	374
 晷	jeo	53
+琪	jeq	4063
 晔	jeq	263
-欥	jeq	0
+踑	jeq	0
 鹭	jes	246
 玫	jeu	4298
 敞	jeu	1978
@@ -8454,9 +8450,8 @@ columns:
 幤	jev	0
 瑡	jev	0
 氅	jex	100
-玡	jey	7
-牚	jey	1
 昸	jey	0
+题	jf1	46281	jf1
 匚	jf3	2
 匸	jf3	0
 玗	jfa	4
@@ -8464,9 +8459,9 @@ columns:
 曧	jfa	0
 趶	jfa	0
 敤	jfb	0
-题	jfc	46281
 颗	jfc	8525
 晰	jfc	3677
+题	jfc	100	jf1
 躎	jfc	0
 量	jfd	62852
 鴠	jfd	0
@@ -9010,6 +9005,7 @@ columns:
 踡	jqv	2
 日	jr1	111090
 玲	jrb	7967
+琊	jrb	155
 昤	jrb	0
 跉	jrb	0
 蹹	jrb	0
@@ -9049,6 +9045,8 @@ columns:
 玟	jrw	341
 旻	jrw	66
 旼	jrw	0
+玡	jry	7
+牚	jry	1
 尚	js1	16302
 尙	js3	8
 龸	js3	0
@@ -9214,7 +9212,6 @@ columns:
 躥	jwb	0
 暩	jwd	0
 旽	jwe	0
-瑏	jwe	0
 晐	jwh	0
 蹖	jwh	0
 现	jwj	197281
@@ -9232,6 +9229,7 @@ columns:
 晓	jwp	18408
 跷	jwp	578
 盟	jwr	8207
+瑏	jwr	0
 焽	jwt	0
 蹨	jwt	0
 蹿	jwu	599
@@ -9432,7 +9430,6 @@ columns:
 鉜	kea	0
 鍭	kea	0
 寑	keb	1
-鋣	keb	0
 额	kec	7813
 鐁	kec	0
 鍛	ked	147
@@ -9441,16 +9438,16 @@ columns:
 鎚	keh	43
 鎀	keh	0
 鏠	keh	0
-麒	kei	1423
 鈋	kei	0
-錤	kei	0
 宿	kej	9503
 鍖	kek	0
 鋒	kel	551
+欽	ken	359
 客	keo	38913
 鉻	keo	45
 麔	keo	0
-欽	keq	359
+麒	keq	1423
+錤	keq	0
 眾	ker	5573
 宱	ket	0
 愙	ket	0
@@ -9459,7 +9456,6 @@ columns:
 孜	keu	725
 鏅	kew	0
 額	kex	2272
-釾	key	0
 鉖	key	0
 夫	kf1	47545
 宇	kfa	16195
@@ -10050,6 +10046,7 @@ columns:
 頬	kqx	0
 覡	kra	0
 鈴	krb	623
+鋣	krb	0
 鑰	krd	198
 鴳	krd	1
 錀	krd	0
@@ -10086,6 +10083,7 @@ columns:
 觋	krw	4
 鈫	krw	0
 頞	krx	0
+釾	kry	0
 上	ks1	608764
 厶	ks1	15
 丄	ks3	0
@@ -10500,24 +10498,22 @@ columns:
 鵺	led	0
 庥	lef	27
 亱	lef	0
-粸	lei	0
 糌	lej	16
 糂	lek	0
 夜	lel	46517
 废	lel	7052
+歊	len	0
 噟	leo	0
-歊	leq	0
+粸	leq	0
 腐	ler	4490
 鹰	les	7708
 褒	les	549
-衺	les	0
 應	let	10575
 焤	let	0
 敉	leu	10
 敐	leu	0
 譍	leu	0
 膺	lew	356
-庌	ley	0
 庝	ley	0
 丰	lf1	8050
 廂	lfa	733
@@ -10767,10 +10763,12 @@ columns:
 娄	lrn	500
 籹	lrn	0
 卒	lrq	2141
+衺	lrs	0
 庎	lru	0
 庈	lrv	0
 顇	lrx	0
 雜	lry	3128
+庌	lry	0
 手	ls1	256856
 龵	ls3	0
 瓤	lsa	66
@@ -10781,8 +10779,8 @@ columns:
 剫	lsg	0
 糚	lsg	0
 遮	lsh	3973
-衣	lsi	50479
 哀	lsi	7038
+衣	lsi	100	l1
 糀	lsi	0
 糟	lsj	5212
 庴	lsj	5
@@ -10820,6 +10818,7 @@ columns:
 髝	ltw	0
 庙	lty	3011
 粙	lty	0
+类	lu1	25733	lu1
 六	lua	32999
 耒	lua	30
 耨	lua	16
@@ -10832,8 +10831,8 @@ columns:
 交	luc	50396
 斴	luc	0
 耚	luc	0
-类	lud	25733
 庆	lud	8996
+类	lud	100	lu1
 耓	lud	0
 耣	lud	0
 鵁	lud	0
@@ -10902,7 +10901,7 @@ columns:
 京	lvi	21323
 市	lvj	54097
 蹵	lvj	0
-就	lvk	100	l1
+就	lvk	561635
 粆	lvm	0
 庮	lvo	0
 籸	lvq	0
@@ -11072,15 +11071,13 @@ columns:
 鬔	meh	0
 髼	mel	0
 戱	mem	0
+饮	men	5640
 貉	meo	58
 饹	meo	2
-饮	meq	5640
 虪	meq	0
 贗	mex	26
 贋	mex	0
 雁	mey	2306
-厊	mey	5
-颬	mey	0
 風	mf1	12357
 厨	mfa	4220
 厢	mfa	2335
@@ -11467,7 +11464,9 @@ columns:
 耹	mrv	0
 鹶	mrv	0
 虔	mrw	912
+厊	mry	5
 衆	mry	1
+颬	mry	0
 身	ms1	243148
 饣	ms3	2
 髪	msb	0
@@ -11739,12 +11738,12 @@ columns:
 绛	nej	407
 擊	nel	2667
 辪	nem	0
+軟	nen	1432
 轚	nen	0
 络	neo	5287
 绺	neo	148
 輅	neo	0
 繫	nep	466
-軟	neq	1432
 悤	net	0
 放	neu	91163
 囱	neu	212
@@ -11765,7 +11764,7 @@ columns:
 輕	nfk	6758
 鑋	nfk	0
 线	nfm	25575
-亲	nfm	100	n2
+亲	nfm	100	n1
 竦	nfo	38
 朄	nfq	0
 鞆	nfr	1
@@ -11854,8 +11853,8 @@ columns:
 靿	niw	2
 軪	niw	0
 貲	nix	30
+些	niy	188618
 雌	niy	808
-些	niy	100	n1
 缁	niy	30
 輜	niy	0
 輺	niy	0
@@ -11961,6 +11960,7 @@ columns:
 缔	nlv	392
 輬	nlv	0
 轊	nlx	0
+产	nm1	29284	nm1
 章	nma	34984
 蚃	nma	2
 蠁	nma	0
@@ -11999,8 +11999,8 @@ columns:
 轣	nmn	0
 缄	nmo	285
 輱	nmo	0
-产	nmp	29284
 乡	nmp	10813
+产	nmp	100	nm1
 竬	nmp	0
 粵	nmq	0
 轤	nmr	0
@@ -12380,7 +12380,7 @@ columns:
 嗂	oax	0
 雖	oay	5380
 囖	oay	0
-不	ob1	100	o1
+不	ob1	1538442
 啜	obb	525
 嗓	obf	3350
 嗵	obh	208
@@ -12392,7 +12392,7 @@ columns:
 嚤	obl	0
 嘛	obm	16314
 叹	obo	20007
-啊	obo	100	o2
+啊	obo	100	o1
 噔	obq	545
 噿	obq	0
 吷	obr	0
@@ -12464,23 +12464,21 @@ columns:
 咄	oee	733
 咻	oef	400
 吪	oei	1
-唭	oei	0
 嗰	oei	0
 叫	oej	89699
 咃	oej	0
 喒	oej	0
 啿	oek	0
 咿	oem	288
+吹	oen	11107
 咯	oeo	3502
 哬	oeo	0
 喺	oep	0
-吹	oeq	11107
 哗	oeq	3236
+唭	oeq	0
 焁	oet	0
 呚	oeu	0
-呀	oey	33678
 咚	oey	2166
-齖	oey	0
 吁	ofa	2324
 邳	ofb	72
 哽	ofc	1067
@@ -12959,7 +12957,9 @@ columns:
 呛	orv	979
 呅	orw	0
 嗿	orx	0
+呀	ory	33678
 囄	ory	0
+齖	ory	0
 世	os1	75937
 囆	osa	0
 囕	osa	0
@@ -13286,21 +13286,21 @@ columns:
 縧	pef	0
 縫	peh	693
 縋	peh	5
-綨	pei	4
-騏	pei	0
-魌	pei	0
-鲯	pei	0
 糾	pej	460
 絳	pej	25
 纀	pek	0
 絥	pel	0
 綘	pel	0
+软	pen	11356
+弞	pen	0
 絡	peo	596
 駱	peo	308
 辂	peo	49
 綹	peo	15
-软	peq	11356
-弞	peq	0
+綨	peq	4
+騏	peq	0
+魌	peq	0
+鲯	peq	0
 絍	pet	0
 駇	peu	0
 終	pey	4905
@@ -14227,16 +14227,15 @@ columns:
 塑	qeg	3792
 逆	qeh	3957
 遡	qeh	0
-猉	qei	0
 黮	qek	0
 阀	qem	655
 阁	qeo	5475
 狢	qeo	1
+猉	qeq	0
 愬	qet	8
 攷	qeu	0
 獅	qev	673
 朔	qew	940
-犽	qey	0
 獭	qfc	46
 獮	qfc	0
 欤	qfe	40
@@ -14553,6 +14552,7 @@ columns:
 黔	qrv	191
 闵	qrw	812
 賫	qrx	0
+犽	qry	0
 獲	qsb	3235
 獴	qsb	4
 郱	qsb	1
@@ -14726,6 +14726,7 @@ columns:
 翖	rbb	0
 鴑	rbd	0
 歙	rbe	32
+邪	rbf	8578
 郃	rbf	103
 邚	rbf	0
 郋	rbf	0
@@ -14793,6 +14794,7 @@ columns:
 钒	rdl	4
 媔	rdm	0
 嬟	rdm	0
+鴉	rdn	419
 鴿	rdn	156
 鳼	rdn	2
 鴍	rdn	0
@@ -14817,19 +14819,18 @@ columns:
 畲	rdy	42
 人	re1	962974
 媸	rea	23
-铘	reb	11
 锻	red	1732
 媬	ref	0
 鿗	ref	0
-娸	rei	0
 离	rek	57953
 媅	rek	0
 锋	rel	11024
+钦	ren	1739
+歛	ren	2
+欱	ren	0
 铬	reo	36
-钦	req	1739
 铧	req	45
-歛	req	2
-欱	req	0
+娸	req	0
 娰	rer	16
 臮	rer	0
 姙	ret	0
@@ -14940,7 +14941,8 @@ columns:
 合	rh1	65366
 嫂	rhb	3484
 锼	rhb	2
-这	rhc	100	r1
+这	rhc	836733
+迓	rhc	18
 镖	rhd	3034
 嫖	rhd	669
 媰	rhe	0
@@ -15022,7 +15024,6 @@ columns:
 嫦	rjv	542
 全	rjw	116884
 娖	rjz	1
-好	rk1	370272	rk1
 镯	rka	815
 娭	rka	1
 嫁	rkb	5706
@@ -15069,8 +15070,9 @@ columns:
 姢	rkw	0
 嬪	rkx	56
 嬸	rky	149
-好	rkz	100	rk1
+好	rkz	100	r1
 斈	rkz	0
+领	rl1	38351	rl1
 铸	rla	1140
 媷	rla	0
 令	rlb	44113
@@ -15079,10 +15081,10 @@ columns:
 镀	rlb	229
 嫏	rlb	2
 鄓	rlb	0
-领	rlc	38351
 贪	rlc	4076
 颔	rlc	441
 姣	rlc	233
+领	rlc	100	rl1
 娠	rlc	93
 铰	rlc	34
 婷	rld	5942
@@ -15314,6 +15316,7 @@ columns:
 媨	rqv	0
 睂	rra	0
 铃	rrb	5036
+铘	rrb	11
 姈	rrb	0
 嬆	rrb	0
 婨	rrd	0
@@ -15376,6 +15379,7 @@ columns:
 妭	rsl	0
 舒	rsm	13465
 媶	rsm	0
+鸦	rsn	1879
 鸽	rsn	887
 锘	rso	5
 婼	rso	4
@@ -15441,8 +15445,9 @@ columns:
 媜	rtx	5
 铀	rty	97
 妯	rty	39
-齐	rua	17855
+齐	ru1	17855	ru1
 介	rua	14386
+齐	rua	100	ru1
 颌	ruc	234
 斎	rud	0
 齑	ruf	66
@@ -15536,6 +15541,7 @@ columns:
 妇	rxx	12065
 仺	rxx	0
 镭	rxy	88
+牙	ry1	17249
 媚	rya	5394
 嫉	rya	1917
 镅	rya	1
@@ -15592,6 +15598,7 @@ columns:
 娚	ryw	0
 媦	ryw	0
 娓	ryx	454
+雅	ryz	19841
 锥	ryz	627
 婎	ryz	0
 卅	sa1	49
@@ -15787,7 +15794,6 @@ columns:
 蓬	seh	2562
 蓚	seh	0
 花	sei	74486
-萁	sei	32
 蒊	sei	0
 舏	sej	0
 躠	sej	0
@@ -15799,11 +15805,12 @@ columns:
 薛	sem	3116
 茷	sem	0
 莅	sen	103
+芡	sen	26
 荷	seo	5337
 蓓	seo	624
 茖	seo	0
 藄	sep	0
-芡	seq	26
+萁	seq	32
 藵	ses	0
 荏	set	87
 苮	set	0
@@ -15816,10 +15823,8 @@ columns:
 蒨	sew	2
 蓨	sew	0
 蘛	sew	0
-芽	sey	1346
 苳	sey	26
 芢	sey	0
-蕥	sey	0
 芋	sfa	322
 葙	sfa	2
 蠆	sfa	0
@@ -16544,7 +16549,9 @@ columns:
 芩	srv	26
 苶	srv	2
 芠	srw	823
+芽	sry	1346
 萕	sry	0
+蕥	sry	0
 蘺	sry	0
 舌	ss1	6026
 蔣	ssa	465
@@ -16968,7 +16975,6 @@ columns:
 嵿	tdx	0
 烊	tdy	104
 壬	te1	200
-峫	teb	0
 燍	tec	0
 煅	ted	58
 峳	tee	0
@@ -16982,16 +16988,15 @@ columns:
 烽	tel	467
 峯	tel	2
 嶭	tem	0
+炊	ten	520
 烙	teo	759
 骼	teo	470
 峈	teo	0
 峉	teo	0
 烨	teq	526
-炊	teq	520
 牧	teu	4114
 炇	teu	0
 巋	tev	0
-岈	tey	30
 峂	tey	0
 炵	tey	0
 覬	tfa	30
@@ -17101,7 +17106,7 @@ columns:
 嶼	thu	408
 犋	thu	1
 煒	thw	0
-心	ti1	100	t1
+心	ti1	344916
 牝	tib	41
 爉	tib	0
 犣	tib	0
@@ -17404,8 +17409,8 @@ columns:
 靠	tou	24588
 炽	tou	1290
 奌	tou	2
-告	tov	62648
 占	tov	12736
+告	tov	100	t1
 吿	tov	1
 叴	tov	0
 吢	tov	0
@@ -17515,6 +17520,7 @@ columns:
 嶻	tqy	0
 岭	trb	2090
 岺	trb	4
+峫	trb	0
 嶖	trb	0
 炩	trb	0
 熻	trb	0
@@ -17550,6 +17556,7 @@ columns:
 岒	trv	0
 炆	trw	30
 嶺	trx	601
+岈	try	30
 山	ts1	88758
 嶈	tsa	0
 爡	tsa	0
@@ -17994,22 +18001,20 @@ columns:
 磓	ueh	0
 訛	uei	20
 剺	uei	0
-諆	uei	0
 訆	uej	0
 諶	uek	5
 孷	uek	0
 碪	uek	0
+砍	uen	5170
 硌	ueo	61
 臵	ueo	0
 詻	ueo	0
-砍	ueq	5170
+諆	ueq	0
 嫠	uer	9
 犛	uet	15
 致	ueu	21072
 磡	uew	2
 氂	uex	32
-訝	uey	354
-砑	uey	2
 非	uf1	65056
 瓠	ufa	19
 訏	ufa	7
@@ -18152,6 +18157,7 @@ columns:
 貧	uix	963
 頒	uix	596
 詶	uix	0
+百	uj1	50396	uj1
 碍	uja	3769
 詎	ujb	10
 謾	ujb	10
@@ -18187,8 +18193,8 @@ columns:
 評	ujq	3037
 砰	ujq	2631
 讜	ujq	0
-百	ujr	50396
 旧	ujr	13048
+百	ujr	100	uj1
 硦	ujs	0
 礘	ujt	0
 砸	ujv	4731
@@ -18525,7 +18531,6 @@ columns:
 鵊	urd	0
 鵒	urd	0
 欲	ure	17580
-谺	ure	0
 豃	ure	0
 讖	urf	15
 硢	urf	0
@@ -18555,6 +18560,7 @@ columns:
 礆	urq	0
 譣	urq	0
 夾	urr	724
+谺	urr	0
 鹆	urs	5
 慾	urt	503
 諗	urt	0
@@ -18568,6 +18574,8 @@ columns:
 砇	urw	0
 頰	urx	258
 豄	urx	0
+訝	ury	354
+砑	ury	2
 石	us1	48603
 丨	us3	4
 〢	us3	0
@@ -18900,14 +18908,14 @@ columns:
 帿	vea	0
 餱	vea	0
 飿	vee	0
-帺	vei	0
-稘	vei	0
 酦	vel	0
+飲	ven	1944
+歄	ven	0
+飮	ven	0
 酪	veo	370
 餎	veo	0
-飲	veq	1944
-歄	veq	0
-飮	veq	0
+帺	veq	0
+稘	veq	0
 秹	vet	0
 餁	vet	0
 覗	vfa	0
@@ -19213,6 +19221,7 @@ columns:
 饉	vny	10
 餆	vny	0
 疋	vnz	16
+种	vo1	125824	vo1
 酉	vo1	193
 敽	vob	0
 鷮	vod	0
@@ -19227,9 +19236,9 @@ columns:
 稆	voo	4
 幝	voq	0
 惒	vot	0
-种	vou	125824
 积	vou	8951
 帜	vou	669
+种	vou	100	vo1
 和	vov	311480
 呑	vov	7
 勪	vow	0
@@ -19550,11 +19559,10 @@ columns:
 旾	wej	0
 胮	wej	0
 屯	wek	1044
+肷	wen	2
+欬	wen	1
 胳	weo	3721
-肷	weq	2
-欬	weq	1
 頓	wex	1923
-穿	wey	32877
 穻	wfa	0
 竀	wfa	0
 膝	wfh	2818
@@ -19866,6 +19874,7 @@ columns:
 腍	wrt	0
 脐	wru	247
 肣	wrv	0
+穿	wry	32877
 朦	wsb	2205
 臒	wsb	1
 腜	wsf	0
@@ -20058,8 +20067,8 @@ columns:
 氧	xdy	1426
 徉	xdy	155
 囮	xei	1
+缼	xen	0
 賂	xeo	56
-缼	xeq	0
 敗	xeu	2079
 変	xeu	1
 雾	xew	8051
@@ -20654,11 +20663,11 @@ columns:
 垐	yeg	0
 瘎	yek	0
 粢	yel	2
+次	yen	117450
 瓷	yen	1546
 略	yeo	16700
 咨	yeo	667
 畧	yeo	0
-次	yeq	117450
 姿	yer	7303
 盗	yer	6476
 恣	yet	339
@@ -20669,8 +20678,6 @@ columns:
 餈	yev	0
 資	yex	12164
 疼	yey	10836
-冴	yey	17
-疨	yey	0
 癞	yfc	274
 凚	yfd	0
 瘶	yfe	0
@@ -20949,6 +20956,8 @@ columns:
 疥	yru	34
 畍	yru	0
 疮	yrv	471
+冴	yry	17
+疨	yry	0
 尸	ys1	11095
 殿	ysd	11480
 癘	ysf	10
@@ -21120,20 +21129,296 @@ columns:
 痽	yyz	0
 雔	yyz	0
 隹	yz3	7
-知道	a2
-好的	r2
-我们	m2
-这样	r2
-已经	ay2
-刚刚	p2
-因为	xu2
-所以	kc2
-什么	eq2
-时候	ja2
-意思	nj2
-怎么	at2
-大概	ud2
-虽然	oa2
-但是	ej2
-游戏	in2
-
+一定	fi2
+丁香	dd2
+七月	wi2
+三角	is2
+上面	ks2
+下去	jx2
+不管	ob2
+丑角	kc2
+且慢	hq2
+世紀	os2
+丰姿	lf2
+乃至	vn2
+之後	hz2
+乙烯	vi2
+九月	tj2
+也許	je2
+了事	ke2
+予以	mu2
+二十	yr2
+亡靈	ww2
+亦可	xy2
+人民	re2
+兀自	pw2
+入手	ir2
+八字	ua2
+其實	eq2
+几案	dj2
+刀子	id2
+力量	wl2
+匕首	ib2
+十分	qi2
+千萬	yq2
+卜卦	to2
+卯榫	gm2
+又是	bo2
+口袋	ov2
+古老	iu2
+合作	rh2
+向上	nx2
+土地	gt2
+士兵	gi2
+壬辰	te2
+夕陽	ui2
+大家	ud2
+夫人	kf2
+夭折	vy2
+女兒	rn2
+子女	kz2
+寸土	ac2
+尚未	js2
+尤其	ky2
+尸解	ys2
+山東	ts2
+川劇	xc2
+工作	kg2
+己任	ai2
+已經	ay2
+巴黎	nb2
+巾幗	vj2
+干擾	jg2
+弓箭	po2
+心靈	ti2
+戈壁	me2
+戊辰	mw2
+户口	ah2
+手段	ls2
+文章	rw2
+斤兩	cj2
+方法	nf2
+日子	jr2
+早已	ma2
+月光	wy2
+木材	fm2
+未來	uw2
+末了	um2
+欠缺	en2
+止血	nz2
+母親	gu2
+毛病	xm2
+水平	hs2
+火焰	th2
+爪牙	aa2
+片刻	sp2
+牙齒	ry2
+牛奶	tn2
+犬齒	lq2
+王子	jw2
+瓜分	ag2
+瓦解	nw2
+生活	le2
+用户	wo2
+田野	yt2
+由於	ty2
+甲板	ja2
+申請	ns2
+白色	db2
+皮膚	cp2
+目前	au2
+矢志	as2
+石頭	us2
+示範	di2
+禾苗	ve2
+穴位	wx2
+立卽	nl2
+竹林	az2
+米飯	li2
+羊毛	dy2
+而且	pe2
+耳朶	mr2
+臣民	se2
+自己	ri2
+至於	uz2
+臼齒	hj2
+舌頭	ss2
+舟山	ho2
+虎口	mh2
+西方	hi2
+言語	uy2
+走私	go2
+足够	jz2
+身邊	ms2
+辛苦	mx2
+辰時	lc2
+酉陽	vo2
+里程	dl2
+金融	kj2
+雨水	xu2
+非常	uf2
+面孔	dm2
+革命	ng2
+食品	vs2
+骨頭	tu2
+高峰	lg2
+鬼神	pg2
+鹿茸	kl2
+麻煩	bm2
+黑色	qh2
+來自	cl2
+烏鴉	du2
+見面	aj2
+貝殼	xb2
+車子	nc2
+長期	mz2
+門口	cm2
+韋伯	hw2
+風格	mf2
+飛機	pf2
+馬上	pa2
+鬥爭	xo2
+魚類	bu2
+鳥類	dn2
+鹵素	ml2
+齒輪	oc2
+一起	fi2
+丁當	dd2
+七律	wi2
+三國	is2
+上海	ks2
+下降	jx2
+不然	ob2
+丑時	kc2
+且説	hq2
+世界	os2
+丰采	lf2
+乃是	vn2
+之間	hz2
+乙炔	vi2
+九州	tj2
+也罷	je2
+了結	ke2
+予人	mu2
+二者	yr2
+亡國	ww2
+亦卽	xy2
+人類	re2
+兀立	pw2
+入睡	ir2
+八卦	ua2
+其中	eq2
+刀鋒	id2
+力氣	wl2
+十足	qi2
+千金	yq2
+又要	bo2
+口氣	ov2
+古代	iu2
+合理	rh2
+向來	nx2
+土匪	gt2
+士氣	gi2
+夕照	ui2
+大師	ud2
+夫婦	kf2
+女人	rn2
+子孫	kz2
+寸心	ac2
+尚書	js2
+尤爲	ky2
+山西	ts2
+川菜	xc2
+工程	kg2
+己見	ai2
+已婚	ay2
+巴西	nb2
+干預	jg2
+弓形	po2
+心跳	ti2
+戈爾	me2
+户外	ah2
+手指	ls2
+文字	rw2
+斤斗	cj2
+方向	nf2
+日本	jr2
+早晨	ma2
+月亮	wy2
+木頭	fm2
+未必	uw2
+末年	um2
+欠佳	en2
+止步	nz2
+母子	gu2
+毛巾	xm2
+水晶	hs2
+火災	th2
+爪子	aa2
+片段	sp2
+牙膏	ry2
+牛皮	tn2
+犬牙	lq2
+王國	jw2
+瓜子	ag2
+瓦礫	nw2
+生命	le2
+用力	wo2
+田間	yt2
+由此	ty2
+甲烷	ja2
+申報	ns2
+白天	db2
+皮包	cp2
+目標	au2
+矢量	as2
+石膏	us2
+示意	di2
+穴道	wx2
+立刻	nl2
+竹竿	az2
+米色	li2
+羊肉	dy2
+而已	pe2
+耳光	mr2
+臣子	se2
+自由	ri2
+至少	uz2
+舌戰	ss2
+舟車	ho2
+虎狼	mh2
+西北	hi2
+言論	uy2
+走向	go2
+足以	jz2
+身體	ms2
+辛勤	mx2
+辰砂	lc2
+里弄	dl2
+金額	kj2
+雨天	xu2
+非法	uf2
+面子	dm2
+革新	ng2
+食物	vs2
+骨髓	tu2
+高度	lg2
+鬼臉	pg2
+鹿角	kl2
+麻痹	bm2
+黑暗	qh2
+來往	cl2
+烏雲	du2
+見識	aj2
+貝類	xb2
+車輛	nc2
+長大	mz2
+門前	cm2
+風險	mf2
+飛行	pf2
+馬路	pa2
+鬥志	xo2
+魚塘	bu2
+鳥瞰	dn2
+鹵化	ml2
+齒條	oc2

@@ -54,13 +54,12 @@ Dy	讠
 Ec	屮
 Ed	𠂤
 Ee	亻
-Ei	其
 Ej	丩
 Ej	丱
 Ek	凵
-Eq	欠
+En	欠
+Eq	其
 Eu	夊
-Ey	牙
 Fi	一
 Fm	木
 Fu	禺
@@ -245,6 +244,7 @@ Rm	皿
 Rn	女
 Rq	僉
 Rw	文
+Ry	牙
 Sa	卅
 Sa	卌
 Sa	{冓上}
