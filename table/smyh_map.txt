@@ -13,13 +13,13 @@ Bc	辰
 Bf	阝
 Bg	瓜
 Bi	习
-Bi	豕
 Bo	コ
 Bo	ス
 Bo	マ
 Bo	又
 Bo	癶
 Bs	{鼠下}
+Bs	豕
 Bv	麻
 By	魚
 Bz	爪
@@ -45,7 +45,6 @@ Dj	丱
 Dj	几
 Dk	凵
 Dm	末
-Do	鬥
 Ds	殳
 Dv	户
 Dv	戸
@@ -166,6 +165,7 @@ Lt	亠
 Lu	禺
 Ly	业
 Mc	厂
+Md	鬥
 Me	戈
 Mg	艮
 Mh	{虎头}

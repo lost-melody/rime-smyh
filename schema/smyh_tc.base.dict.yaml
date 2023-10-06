@@ -82,13 +82,13 @@ columns:
 蟉	abh	0
 蛹	abi	211
 筩	abi	0
-豙	abi	0
 蟡	abj	0
 蜉	abk	113
 筟	abk	0
 簦	abq	1
 竳	abq	0
 蚗	abr	0
+豙	abs	0
 螇	abu	0
 箏	abv	3392
 顡	abx	0
@@ -1060,7 +1060,6 @@ columns:
 羽	bbi	8403
 翀	bbi	25
 翂	bbi	0
-豩	bbi	0
 鯒	bbi	0
 亂	bbk	18961
 陉	bbk	8
@@ -1087,6 +1086,7 @@ columns:
 羿	bbs	700
 欼	bbs	0
 歠	bbs	0
+豩	bbs	0
 隱	bbt	14255
 燹	bbt	39
 隠	bbt	0
@@ -1252,7 +1252,6 @@ columns:
 陶	bhx	10030
 鰿	bhx	0
 习	bi1	5133
-豕	bi1	81
 魛	bia	0
 叏	bib	0
 階	bid	17653
@@ -1521,6 +1520,7 @@ columns:
 魪	bru	0
 隂	brw	0
 魰	brw	0
+豕	bs1	81
 鱯	bsb	0
 鰾	bsd	36
 豧	bsf	0
@@ -2810,7 +2810,6 @@ columns:
 讳	dev	222
 祎	dev	51
 蚩	dfa	309
-鬪	dfa	0
 鳳	dfc	5505
 禰	dfc	0
 剁	dfg	349
@@ -2827,7 +2826,6 @@ columns:
 福	dfy	34114
 诗	dga	2924
 禱	dga	1852
-鬬	dgc	0
 祾	dge	0
 谍	dgf	196
 诖	dgg	1
@@ -2853,7 +2851,6 @@ columns:
 囪	dhl	262
 的	dhl	100	d1
 礿	dhl	0
-鬩	dhn	36
 调	dho	5719
 皗	dho	0
 禂	dho	0
@@ -2950,7 +2947,6 @@ columns:
 诔	dlu	4
 禊	dlu	1
 禑	dlu	0
-鬧	dlv	12399
 谅	dlv	853
 谛	dlv	80
 禘	dlv	0
@@ -2968,7 +2964,6 @@ columns:
 膥	dmr	0
 诫	dms	157
 祴	dms	0
-鬮	dms	0
 奧	dmu	13973
 诚	dmv	2262
 讬	dmw	5
@@ -3002,7 +2997,6 @@ columns:
 祧	dny	8
 祉	dnz	342
 凪	dnz	0
-鬥	do1	10889
 啟	doe	12274
 谔	doe	10
 谴	doh	126
@@ -3090,7 +3084,6 @@ columns:
 谭	dst	514
 诙	dst	28
 禫	dst	0
-鬨	dsu	299
 谟	dsu	34
 粤	dte	505
 皑	dte	68
@@ -3136,7 +3129,6 @@ columns:
 祬	duz	0
 户	dv1	12168
 戸	dv3	0
-鬫	dve	0
 戹	dvi	0
 帛	dvj	436
 凧	dvj	0
@@ -3156,7 +3148,6 @@ columns:
 讵	dwb	5
 禒	dwb	0
 讴	dwc	8
-鬭	dwc	0
 鵳	dwc	0
 祿	dwh	686
 皂	dwi	1369
@@ -3192,7 +3183,6 @@ columns:
 雟	dyo	0
 戽	dyq	37
 皐	dyq	0
-鬦	dyq	0
 谯	dyt	20
 畠	dyt	4
 禗	dyt	0
@@ -9086,7 +9076,6 @@ columns:
 寥	kbh	1470
 鏐	kbh	37
 鐊	kbh	0
-家	kbi	327014
 銿	kbi	0
 寪	kbj	0
 鑥	kbj	0
@@ -9097,6 +9086,7 @@ columns:
 鐙	kbq	73
 鈌	kbr	0
 鋖	kbr	0
+家	kbs	327014
 宻	kbt	0
 鍨	kbu	0
 鎐	kbx	0
@@ -10169,9 +10159,9 @@ columns:
 鄗	lbf	0
 廖	lbh	1526
 廯	lbh	0
-豪	lbi	10739
 廕	lbk	0
 廃	lbn	0
+豪	lbs	10739
 帮	lbv	9499
 幚	lbv	0
 爿	lc1	120
@@ -10655,7 +10645,6 @@ columns:
 劇	mbg	28854
 埾	mbg	0
 遽	mbh	1014
-豦	mbi	0
 氢	mbk	27
 鿣	mbn	0
 取	mbo	51176
@@ -10664,6 +10653,7 @@ columns:
 馁	mbr	60
 赽	mbr	0
 鿢	mbr	0
+豦	mbs	0
 焣	mbt	0
 聧	mbu	0
 勮	mbw	0
@@ -10683,6 +10673,7 @@ columns:
 鳫	mcn	0
 鵈	mcn	0
 鹅	mcx	316
+鬥	md1	10889
 厅	mdd	3133
 耵	mdd	0
 聉	mdd	0
@@ -10718,6 +10709,7 @@ columns:
 雁	mey	2411
 氡	mey	73
 厨	mfa	938
+鬪	mfa	0
 趰	mfc	0
 馇	mff	1
 趔	mfg	52
@@ -10751,6 +10743,7 @@ columns:
 顑	mfx	0
 厯	mfy	0
 艮	mg1	184
+鬬	mgc	0
 划	mgd	5688
 刏	mgd	0
 刵	mgd	0
@@ -10783,6 +10776,7 @@ columns:
 覰	mhl	0
 毦	mhm	0
 饱	mhn	864
+鬩	mhn	36
 聣	mhn	0
 彪	mhp	860
 趄	mhq	124
@@ -10865,6 +10859,7 @@ columns:
 歔	mls	38
 饻	mls	0
 虡	mlu	0
+鬧	mlv	12399
 靥	mlw	63
 魇	mlx	88
 虚	mly	9280
@@ -10912,6 +10907,7 @@ columns:
 婺	mmr	11
 聑	mmr	0
 歑	mms	0
+鬮	mms	0
 嵍	mmt	0
 愗	mmt	0
 熃	mmt	0
@@ -11029,6 +11025,7 @@ columns:
 赼	msq	0
 聒	mss	478
 趏	mss	0
+鬨	msu	299
 馍	msu	44
 趪	msu	0
 勵	msw	9533
@@ -11087,6 +11084,7 @@ columns:
 厔	muz	0
 郕	mvb	1
 顾	mvc	5513
+鬫	mve	0
 饧	mvh	2
 成	mvi	305428
 厄	mvi	1552
@@ -11104,6 +11102,7 @@ columns:
 頋	mvx	0
 饫	mvy	2
 戊	mw1	229
+鬭	mwc	0
 饨	mwd	31
 乇	mwi	1
 聜	mwk	0
@@ -11145,6 +11144,7 @@ columns:
 耺	myk	0
 趦	myo	0
 氩	myq	1
+鬦	myq	0
 趑	mys	74
 慮	myt	12473
 甶	myt	0
@@ -12615,7 +12615,6 @@ columns:
 繆	pbh	507
 镠	pbh	4
 縚	pbh	0
-豗	pbi	0
 轻	pbk	18126
 弪	pbk	0
 綒	pbk	0
@@ -12625,6 +12624,7 @@ columns:
 锕	pbo	2
 镫	pbq	14
 綏	pbr	146
+豗	pbs	0
 縘	pbu	0
 钣	pcb	1
 网	pcc	3201
@@ -16506,7 +16506,6 @@ columns:
 熖	tbh	0
 熥	tbh	0
 熮	tbh	0
-烼	tbi	0
 烃	tbk	1
 烰	tbk	0
 粰	tbk	0
@@ -16514,6 +16513,7 @@ columns:
 燈	tbq	25384
 嶝	tbq	1
 炔	tbr	4
+烼	tbs	0
 嶾	tbt	0
 嵠	tbu	0
 崢	tbv	109
@@ -19296,8 +19296,6 @@ columns:
 膠	wbh	6096
 髎	wbh	1
 遯	wbh	0
-豚	wbi	2268
-彖	wbi	2
 胫	wbk	21
 脬	wbk	1
 窿	wbl	168
@@ -19307,6 +19305,8 @@ columns:
 臎	wbq	0
 脮	wbr	0
 骽	wbr	0
+豚	wbs	2268
+彖	wbs	2
 膎	wbu	0
 乬	wbv	0
 巪	wbv	0
@@ -20058,12 +20058,12 @@ columns:
 邬	xbf	56
 郥	xbf	0
 賿	xbh	0
-圂	xbi	0
 径	xbk	1124
 霳	xbl	0
 囙	xbo	0
 霯	xbq	0
 缺	xbr	22624
+圂	xbs	0
 慁	xbt	0
 徯	xbu	0
 徭	xbx	11
@@ -21267,7 +21267,7 @@ columns:
 風格	vf2
 飛機	pf2
 馬上	ha2
-鬥爭	do2
+鬥爭	md2
 魚類	by2
 鳥類	cn2
 齒輪	wc2
@@ -21406,7 +21406,7 @@ columns:
 風險	vf2
 飛行	pf2
 馬路	ha2
-鬥志	do2
+鬥志	md2
 魚塘	by2
 鳥瞰	cn2
 齒條	wc2
