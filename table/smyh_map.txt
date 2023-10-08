@@ -4,6 +4,8 @@ Ac	{于下}
 Ai	矢
 Al	立
 Ao	虫
+Au	户
+Au	戸
 Av	{⺮右}
 Av	竹
 Av	𠂉
@@ -46,8 +48,6 @@ Dj	几
 Dk	凵
 Dm	末
 Ds	殳
-Dv	户
-Dv	戸
 Dw	未
 Dx	{囟框}
 Dx	向

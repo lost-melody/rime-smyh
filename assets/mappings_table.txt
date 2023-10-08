@@ -17,10 +17,10 @@
        │========   A   ========│       │========   S   ========│       │========   D   ========│       │========   F   ========│       │========   G   ========│
        │甲   Aa│寸   Ac│于下 Ac│       │卅   Sa│卌   Sa│冓上 Sa│       │白   Da│屮   Dc│丁   Dd│       │一   Fi│木   Fm│       │       │刂   Gd│革   Gg│穀頭 Gi│
        │矢   Ai│立   Al│虫   Ao│       │卄   Sc│卝   Sc│艹   Sc│       │臣   De│示   Di│丩   Dj│       │       │       │       │       │士   Gi│里   Gl│鹵   Gl│
-       │⺮右 Av│竹   Av│𠂉   Av│       │龷   Sc│甫   Sf│𧘇   Si│       │丱   Dj│几   Dj│凵   Dk│       │       │       │       │       │卬左 Gm│乐上 Gm│卯   Gm│
-       │见   Ax│由   Ay│       │       │襾   Si│西   Si│龜下 Sm│       │末   Dm│殳   Ds│户   Dv│       │       │       │       │       │马   Gm│卯左 Gm│齊右 Gm│
-       │       │       │       │       │黽   Sm│欠   Sq│舌   Ss│       │戸   Dv│未   Dw│囟框 Dx│       │       │       │       │       │世   Gs│土   Gt│耂   Gt│
-       │       │       │       │       │左上 Sz│       │       │       │向   Dx│向框 Dx│讠   Dy│
+       │户   Au│戸   Au│⺮右 Av│       │龷   Sc│甫   Sf│𧘇   Si│       │丱   Dj│几   Dj│凵   Dk│       │       │       │       │       │卬左 Gm│乐上 Gm│卯   Gm│
+       │竹   Av│𠂉   Av│见   Ax│       │襾   Si│西   Si│龜下 Sm│       │末   Dm│殳   Ds│未   Dw│       │       │       │       │       │马   Gm│卯左 Gm│齊右 Gm│
+       │由   Ay│       │       │       │黽   Sm│欠   Sq│舌   Ss│       │囟框 Dx│向   Dx│向框 Dx│       │       │       │       │       │世   Gs│土   Gt│耂   Gt│
+       │       │       │       │       │左上 Sz│       │       │       │讠   Dy│
 
        │========   H   ========│       │========   J   ========│       │========   K   ========│       │========   L   ========│
        │馬上 Ha│馬   Ha│⺆   Hb│       │三   Ja│巛   Jc│巜   Jc│       │宀   Kb│丑   Kc│了   Ke│       │广   La│亍   Lc│爿   Lc│
