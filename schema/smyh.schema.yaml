@@ -165,7 +165,6 @@ rev_pinyin:
   tag: rev_pinyin
   prefix: "`"
   dictionary: yuhao_pinyin
-  tips: "[拼音]"
   preedit_format:
     - xform/^`//
   comment_format:
@@ -279,7 +278,7 @@ recognizer:
     # 特殊符號
     symbols: "^/([0-9]0?|[A-Za-z]+)$"
     # 拼音反查模式
-    rev_pinyin: "^`[a-z]*$"
+    rev_pinyin: "^`[a-z]+$"
 
 menu:
   page_size: 3
