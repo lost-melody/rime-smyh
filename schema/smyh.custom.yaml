@@ -23,7 +23,7 @@ patch:
     Caps_Lock: clear
     Eisu_toggle: clear
   recognizer/patterns/+:
-    macro_calc: "^/calc(/[a-zA-Z0-9\\+\\-\\*\\^\\.%]*)*$"
+    macro_calc: "^/calc(/[a-zA-Z0-9\\+\\-\\*\\(\\)\\^\\.%]*)*$"
     macro_smart: "^/(addsmart|delsmart)(/[a-zA-Z0-9]*)*$"
     macro_unicode: "^/uni(/[a-zA-Z0-9]*)*$"
   punctuator/half_shape/+:
