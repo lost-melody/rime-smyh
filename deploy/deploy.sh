@@ -51,6 +51,7 @@ gen_schema() {
     # 打包
     cd "${DOC}"
     tar -zcf "assets/${NAME}-${TIME}.tar.gz" "${NAME}" || return 1
+    cd "assets" && ln -s "${NAME}-${TIME}.tar.gz" "${NAME}-latest.tar.gz"
     cd "${WD}"
     echo "<li><a href=\"./assets/${NAME}-${TIME}.tar.gz\">${NAME}-latest.tar.gz</a></li>" >>"${DOC}"/index.html
     # 清理
