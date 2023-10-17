@@ -1,6 +1,5 @@
 #!/bin/sh
 
-set -x
 cd "$(dirname $0)"
 WD="$(pwd)"
 DOC="../docs"
@@ -64,6 +63,8 @@ echo >"${DOC}"/index.html
 echo "<p> 可用的方案列表: </p>" >>"${DOC}"/index.html
 echo "<ul>" >>"${DOC}"/index.html
 
+# 打包 Into 方案
+gen_schema into || exit 1
 # 打包標準 Wafel 方案
 gen_schema wafel || exit 1
 
