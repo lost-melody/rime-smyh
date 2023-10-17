@@ -7,7 +7,7 @@ DOC="../docs"
 TIME="$(date +%Y%m%d%H%M)"
 mkdir -p "${DOC}"/assets
 
-function gen_schema() {
+gen_schema() {
     NAME="$1"
     if [ -z "${NAME}" ]; then
         return 1
