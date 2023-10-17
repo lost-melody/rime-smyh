@@ -53,11 +53,18 @@ gen_schema() {
     cd "${DOC}"
     tar -zcf "assets/${NAME}-${TIME}.tar.gz" "${NAME}" || return 1
     cd "${WD}"
-    echo "- [${NAME}-latest.tar.gz](./assets/${NAME}-${TIME}.tar.gz)" >>"${DOC}"/index.md
+    echo "<li><a href=\"./assets/${NAME}-${TIME}.tar.gz\">${NAME}-latest.tar.gz</a></li>" >>"${DOC}"/index.html
     # 清理
     rm /tmp/{char,fullcode,div}.txt
     rm -rf "${SCHEMA}"
     rm -rf /tmp/"${NAME}"
 }
 
+echo >"${DOC}"/index.html
+echo "<p> 可用的方案列表: </p>" >>"${DOC}"/index.html
+echo "<ul>" >>"${DOC}"/index.html
+
+# 打包標準 Wafel 方案
 gen_schema wafel || exit 1
+
+echo "</ul>" >>"${DOC}/index.html"
