@@ -18,6 +18,9 @@ type Args struct {
 	Map    string `flag:"m" usage:"smyh_map.txt"  default:"../table/smyh_map.txt"`
 	Freq   string `flag:"f" usage:"freq.txt"      default:"../table/freq.txt"`
 	White  string `flag:"w" usage:"whitelist.txt" default:"../table/cjkext_whitelist.txt"`
+	Char   string `flag:"c" usage:"char.txt"     default:"/tmp/char.txt"`
+	Full   string `flag:"u" usage:"fullcode.txt" default:"/tmp/fullcode.txt"`
+	Opencc string `flag:"o" usage:"div.txt"      default:"/tmp/div.txt"`
 }
 
 var args Args
@@ -69,7 +72,7 @@ func main() {
 			buffer.WriteString(fmt.Sprintf("%s\t%s\t%d\n", charMeta.Char, charMeta.Code, charMeta.Freq))
 		}
 	}
-	err = os.WriteFile("/tmp/char.txt", buffer.Bytes(), 0o644)
+	err = os.WriteFile(args.Char, buffer.Bytes(), 0o644)
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -79,7 +82,7 @@ func main() {
 	for _, charMeta := range fullCodeMetaList {
 		buffer.WriteString(fmt.Sprintf("%s\t%s\n", charMeta.Char, charMeta.Code))
 	}
-	err = os.WriteFile("/tmp/fullcode.txt", buffer.Bytes(), 0o644)
+	err = os.WriteFile(args.Full, buffer.Bytes(), 0o644)
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -97,7 +100,7 @@ func main() {
 		div := strings.Join(divs[0].Divs, "")
 		buffer.WriteString(fmt.Sprintf("%s\t(%s,%s,%s,%s)\n", charMeta.Char, div, charMeta.Full, divs[0].Pin, divs[0].Set))
 	}
-	err = os.WriteFile("/tmp/div.txt", buffer.Bytes(), 0o644)
+	err = os.WriteFile(args.Opencc, buffer.Bytes(), 0o644)
 	if err != nil {
 		log.Fatalln(err)
 	}

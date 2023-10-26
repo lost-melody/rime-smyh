@@ -16,10 +16,9 @@ gen_schema() {
     mkdir -p /tmp/"${NAME}" "${SCHEMA}/lua/smyh" "${SCHEMA}/opencc"
     # 默認 wafel 數據
     cp ../table/*.txt /tmp/"${NAME}"
-    cp ../schema/*.yaml ../schema/*.txt "${SCHEMA}"
-    cp ../schema/lua/smyh/*.lua "${SCHEMA}/lua/smyh"
-    cp ../schema/opencc/*.json "${SCHEMA}/opencc"
-    cp ../template/smyh.*.yaml "${SCHEMA}"
+    cp ../template/*.yaml ../template/*.txt "${SCHEMA}"
+    cp ../template/lua/smyh/*.lua "${SCHEMA}/lua/smyh"
+    cp ../template/opencc/*.json "${SCHEMA}/opencc"
     # 使用 deploy/wafel 覆蓋默認值
     if [ -d "${NAME}" ]; then
         cp -r "${NAME}"/*.txt /tmp/"${NAME}"
@@ -44,16 +43,15 @@ gen_schema() {
         -f /tmp/"${NAME}"/freq_tc.txt \
         -w /tmp/"${NAME}"/cjkext_whitelist.txt \
         || exit 1
-    cp ../template/smyh_tc.*.yaml "${SCHEMA}/"
     cat /tmp/char.txt >>"${SCHEMA}/smyh_tc.base.dict.yaml"
     grep -v '#' /tmp/"${NAME}"/smyh_quick_tc.txt >>"${SCHEMA}/smyh_tc.base.dict.yaml"
     cat /tmp/fullcode.txt >>"${SCHEMA}/smyh_tc.yuhaofull.dict.yaml"
     # 打包
-    cd "${DOC}"
-    tar -zcf "assets/${NAME}-${TIME}.tar.gz" "${NAME}" || return 1
-    cd "assets" && ln -s "${NAME}-${TIME}.tar.gz" "${NAME}-latest.tar.gz"
+    cd "${SCHEMA}"
+    zip -rq "../assets/${NAME}-${TIME}.zip" "./" || return 1
+    cd "../assets" && ln -fs "${NAME}-${TIME}.zip" "${NAME}-latest.zip"
     cd "${WD}"
-    echo "<li><a href=\"./assets/${NAME}-${TIME}.tar.gz\">${NAME}-latest.tar.gz</a></li>" >>"${DOC}"/index.html
+    echo "<li><a href=\"./assets/${NAME}-${TIME}.zip\">${NAME}-latest.zip</a></li>" >>"${DOC}"/index.html
     # 清理
     rm /tmp/{char,fullcode,div}.txt
     rm -rf "${SCHEMA}"
@@ -61,12 +59,14 @@ gen_schema() {
 }
 
 echo >"${DOC}"/index.html
-echo "<p> 可用的方案列表: </p>" >>"${DOC}"/index.html
-echo "<ul>" >>"${DOC}"/index.html
+echo "<!DOCTYPE html><html>" \
+    "<head><meta charset=\"utf-8\" /><title>雞蛋餅·下載</title></head>" \
+    "<body><p>可用的方案列表:</p><ul>" \
+    >>"${DOC}"/index.html
 
 # 打包 Into 方案
 gen_schema into || exit 1
 # 打包標準 Wafel 方案
 gen_schema wafel || exit 1
 
-echo "</ul>" >>"${DOC}/index.html"
+echo "</ul></body></html>" >>"${DOC}/index.html"

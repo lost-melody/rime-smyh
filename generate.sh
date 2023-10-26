@@ -16,7 +16,9 @@ cd generator
 go run . || exit 1
 cd "${WD}"
 # 拷贝模板文件
-cp template/smyh.*.yaml "${SCHEMA}/"
+cp template/*.yaml template/*.txt "${SCHEMA}/"
+cp template/lua/smyh/*.lua "${SCHEMA}/lua/smyh/"
+cp template/opencc/*.json "${SCHEMA}/opencc/"
 # 单字码表
 cat /tmp/char.txt >>"${SCHEMA}/smyh.base.dict.yaml"
 grep -v '#' table/smyh_quick.txt >>"${SCHEMA}/smyh.base.dict.yaml"
@@ -25,7 +27,7 @@ cat /tmp/fullcode.txt >>"${SCHEMA}/smyh.yuhaofull.dict.yaml"
 # 拆分提示
 cat /tmp/div.txt >"${SCHEMA}/opencc/smyh_div.txt"
 # 生成字根表
-cat table/smyh_map.txt | python assets/gen_mappings_table.py >assets/mappings_table.txt
+# cat table/smyh_map.txt | python assets/gen_mappings_table.py >assets/mappings_table.txt
 
 # 繁體碼表
 cd generator
@@ -34,7 +36,6 @@ go run . \
     -s "../table/smyh_simp_tc.txt" \
     || exit 1
 cd "${WD}"
-cp template/smyh_tc.*.yaml "${SCHEMA}/"
 cat /tmp/char.txt >>"${SCHEMA}/smyh_tc.base.dict.yaml"
 grep -v '#' table/smyh_quick_tc.txt >>"${SCHEMA}/smyh_tc.base.dict.yaml"
 cat /tmp/fullcode.txt >>"${SCHEMA}/smyh_tc.yuhaofull.dict.yaml"
