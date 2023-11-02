@@ -15,8 +15,7 @@
 - 方案文件下載.
     - 不建議普通用户Clone Repo, 請移步[此方案打包的下載頁](https://lost-melody.github.io/rime-smyh/), 需自行添加/編輯default.custom.yaml.
 - ~暫無字根圖~, 用反查練就完事了.
-    - [這裏](http://lost-melody.ysepan.com/) 有張字根圖, 在 `/assets/` 目錄下.
-    - 另有 [這張 *ASCII* 字根對照表](https://github.com/lost-melody/rime-smyh/blob/wafel/assets/mappings_table.txt) 以供參考.
+    - 下載的 `wafel-latest.zip` 中附有一份 *ASCII* 字根對照表: `mappings_table.txt`.
     - 還有 [字根網頁](https://lost-melody.github.io/wafel)以供收藏.
 - 取碼方式:
     - 單根字: 字根大碼 + 字根小碼, 補加空格.

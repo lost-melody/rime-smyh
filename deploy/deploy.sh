@@ -23,6 +23,7 @@ gen_schema() {
     if [ -d "${NAME}" ]; then
         cp -r "${NAME}"/*.txt /tmp/"${NAME}"
     fi
+    cat /tmp/"${NAME}"/smyh_map.txt | python ../assets/gen_mappings_table.py >"${SCHEMA}"/mappings_table.txt
     # 生成簡化字碼表
     ./generator \
         -d /tmp/"${NAME}"/smyh_div.txt \
