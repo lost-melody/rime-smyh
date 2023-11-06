@@ -13,6 +13,7 @@ import (
 )
 
 type Args struct {
+	Quiet  bool   `flag:"q" usage:"" default:"false"`
 	Div    string `flag:"d" usage:"smyh_div.txt"  default:"../table/smyh_div.txt"`
 	Simp   string `flag:"s" usage:"smyh_simp.txt" default:"../table/smyh_simp.txt"`
 	Map    string `flag:"m" usage:"smyh_map.txt"  default:"../table/smyh_map.txt"`
@@ -56,10 +57,12 @@ func main() {
 	charMetaMap := tools.BuildCharMetaMap(charMetaList)
 	codeCharMetaMap := tools.BuildCodeCharMetaMap(charMetaList)
 	fullCodeMetaList := tools.BuildFullCodeMetaList(divTable, compMap, freqSet, charMetaMap)
-	fmt.Println("charMetaList:", len(charMetaList))
-	fmt.Println("fullCodeMetaList:", len(fullCodeMetaList))
-	fmt.Println("charMetaMap:", len(charMetaMap))
-	fmt.Println("codeCharMetaMap:", len(codeCharMetaMap))
+	if !args.Quiet {
+		fmt.Println("charMetaList:", len(charMetaList))
+		fmt.Println("fullCodeMetaList:", len(fullCodeMetaList))
+		fmt.Println("charMetaMap:", len(charMetaMap))
+		fmt.Println("codeCharMetaMap:", len(codeCharMetaMap))
+	}
 
 	buffer := bytes.Buffer{}
 

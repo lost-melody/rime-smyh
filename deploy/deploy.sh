@@ -8,6 +8,7 @@ mkdir -p "${DOC}"/assets
 
 gen_schema() {
     NAME="$1"
+    DESC="${2:-${NAME}}"
     if [ -z "${NAME}" ]; then
         return 1
     fi
@@ -25,7 +26,7 @@ gen_schema() {
     fi
     cat /tmp/"${NAME}"/smyh_map.txt | python ../assets/gen_mappings_table.py >"${SCHEMA}"/mappings_table.txt
     # 生成簡化字碼表
-    ./generator \
+    ./generator -q \
         -d /tmp/"${NAME}"/smyh_div.txt \
         -s /tmp/"${NAME}"/smyh_simp.txt \
         -m /tmp/"${NAME}"/smyh_map.txt \
@@ -37,7 +38,7 @@ gen_schema() {
     cat /tmp/fullcode.txt >>"${SCHEMA}/smyh.yuhaofull.dict.yaml"
     cat /tmp/div.txt >"${SCHEMA}/opencc/smyh_div.txt"
     # 生成傳統字碼表
-    ./generator \
+    ./generator -q \
         -d /tmp/"${NAME}"/smyh_div.txt \
         -s /tmp/"${NAME}"/smyh_simp_tc.txt \
         -m /tmp/"${NAME}"/smyh_map.txt \
@@ -52,7 +53,7 @@ gen_schema() {
     zip -rq "../assets/${NAME}-${TIME}.zip" "./" || return 1
     cd "../assets" && ln -fs "${NAME}-${TIME}.zip" "${NAME}-latest.zip"
     cd "${WD}"
-    echo "<li><a href=\"./assets/${NAME}-${TIME}.zip\">${NAME}-latest.zip</a></li>" >>"${DOC}"/index.html
+    echo "<li> ${DESC} <a href=\"./assets/${NAME}-${TIME}.zip\"> ${NAME}-latest.zip </a></li>" >>"${DOC}"/index.html
     # 清理
     rm /tmp/{char,fullcode,div}.txt
     rm -rf "${SCHEMA}"
@@ -65,9 +66,11 @@ echo "<!DOCTYPE html><html>" \
     "<body><p>可用的方案列表:</p><ul>" \
     >>"${DOC}"/index.html
 
-# 打包 Into 方案
-gen_schema into || exit 1
 # 打包標準 Wafel 方案
-gen_schema wafel || exit 1
+gen_schema wafel 非音托標準版 || exit 1
+# 打包 Into 方案
+gen_schema into 半音托實驗版 || exit 1
+# 打包 Star 方案
+gen_schema star 聚類三星版 || exit 1
 
 echo "</ul></body></html>" >>"${DOC}/index.html"
