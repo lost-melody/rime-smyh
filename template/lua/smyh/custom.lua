@@ -306,6 +306,16 @@ function custom.capture_embeded()
     end
 end
 
+---上屏嵌入候選字符串
+function custom.commit_embeded()
+    return function(cand, env)
+        if cand and #cand.preedit ~= 0 then
+            env.engine.context:clear()
+            env.engine:commit_text(cand.preedit)
+        end
+    end
+end
+
 ---常用字過濾
 function custom.freq_filter()
     local chars = ""

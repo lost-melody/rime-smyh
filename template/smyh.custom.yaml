@@ -152,6 +152,10 @@ patch:
     - key: 0x6b
       type: eval
       expr: return require("smyh.custom").capture_embeded()
+    # ctrl-0 上屏嵌入編碼
+    - key: 0x30
+      type: eval
+      expr: return require("smyh.custom").commit_embeded()
   # menu/page_size: 5 # Change number of candidates
   # style/layout/margin_x: -1 # Hide candidates bar
   # style/horizontal: true
