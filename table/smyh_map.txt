@@ -172,6 +172,8 @@ Ne	里
 Nf	甲
 Ng	衤
 Ni	{卑上}
+Ni	{鬼左}
+Ni	甶
 Ni	鬼
 Nn	{鸟上}
 Nn	鸟

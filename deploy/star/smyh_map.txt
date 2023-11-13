@@ -49,6 +49,8 @@ Dd	𠂤
 Dd	电
 Df	丰
 Dg	{卑上}
+Dg	{鬼左}
+Dg	甶
 Dg	鬼
 Dh	戶
 Di	臼
