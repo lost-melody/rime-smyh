@@ -71,6 +71,6 @@ gen_schema wafel 非音托標準版 || exit 1
 # 打包 Into 方案
 gen_schema into 半音托實驗版 || exit 1
 # 打包 Star 方案
-gen_schema star 聚類三星版 || exit 1
+# gen_schema star 聚類三星版 || exit 1
 
 echo "</ul></body></html>" >>"${DOC}/index.html"
