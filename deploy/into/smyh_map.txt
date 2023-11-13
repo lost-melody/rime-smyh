@@ -242,7 +242,7 @@ Qy	牙
 Qz	舟
 Rh	女
 Rj	见
-Rl	人
+Rm	人
 Rn	目
 Rw	兀
 Rx	襾
