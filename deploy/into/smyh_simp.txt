@@ -40,7 +40,6 @@
 守	km1
 衣	lx1
 特	mg1
-缘	nr1
 品	oo1
 领	rl1
 亲	xa1
