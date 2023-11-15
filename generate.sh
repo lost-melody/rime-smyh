@@ -3,6 +3,7 @@
 # set -x
 cd "$(dirname $0)"
 WD="$(pwd)"
+TIME="$(date +%Y%m%d%H%M)"
 NAME="${1:-wafel}"
 
 mkdir -p /tmp/"${NAME}"
@@ -32,6 +33,8 @@ cd "${WD}"
 cp template/*.yaml template/*.txt "${SCHEMA}/"
 cp template/lua/smyh/*.lua "${SCHEMA}/lua/smyh/"
 cp template/opencc/*.json "${SCHEMA}/opencc/"
+sed -i "s/name: 吉旦餅/name: 吉旦餅·${NAME}/g" "${SCHEMA}"/smyh.{custom,schema}.yaml
+sed -i "s/version: beta/version: beta.${TIME}/g" "${SCHEMA}"/*.dict.yaml "${SCHEMA}"/smyh.schema.yaml
 # 单字码表
 cat /tmp/char.txt >>"${SCHEMA}/smyh.base.dict.yaml"
 grep -v '#' /tmp/"${NAME}"/smyh_quick.txt >>"${SCHEMA}/smyh.base.dict.yaml"
@@ -40,7 +43,7 @@ cat /tmp/fullcode.txt >>"${SCHEMA}/smyh.yuhaofull.dict.yaml"
 # 拆分提示
 cat /tmp/div.txt >"${SCHEMA}/opencc/smyh_div.txt"
 # 生成字根表
-cat /tmp/"${NAME}"/smyh_map.txt | python assets/gen_mappings_table.py >"${SCHEMA}"/mappings_table.txt
+cat /tmp/"${NAME}"/smyh_map.txt | python assets/gen_mappings_table.py >"${SCHEMA}"/smyh.mappings_table.txt
 
 # 繁體碼表
 cd generator

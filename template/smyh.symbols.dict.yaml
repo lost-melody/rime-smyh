@@ -4,7 +4,7 @@
 
 ---
 name: "smyh.symbols"
-version: "20230901"
+version: beta
 sort: original
 columns:
   - text

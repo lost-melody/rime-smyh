@@ -3,7 +3,7 @@
 
 ---
 name: "smyh_tc.base"
-version: release
+version: beta
 sort: original
 import_tables:
 columns:

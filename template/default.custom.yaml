@@ -1,0 +1,13 @@
+# Rime default custom settings
+# encoding: utf-8
+
+patch:
+  schema_list:
+    - schema: smyh
+  switcher/save_options:
+    - embeded_cands
+    - full.word
+    - full.char
+    - full.off
+    - charset.all
+    - charset.freqly

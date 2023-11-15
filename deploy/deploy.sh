@@ -20,11 +20,13 @@ gen_schema() {
     cp ../template/*.yaml ../template/*.txt "${SCHEMA}"
     cp ../template/lua/smyh/*.lua "${SCHEMA}/lua/smyh"
     cp ../template/opencc/*.json "${SCHEMA}/opencc"
+    sed -i "s/name: 吉旦餅/name: 吉旦餅·${NAME}/g" "${SCHEMA}"/smyh.{custom,schema}.yaml
+    sed -i "s/version: beta/version: beta.${TIME}/g" "${SCHEMA}"/*.dict.yaml "${SCHEMA}"/smyh.schema.yaml
     # 使用 deploy/wafel 覆蓋默認值
     if [ -d "${NAME}" ]; then
         cp -r "${NAME}"/*.txt /tmp/"${NAME}"
     fi
-    cat /tmp/"${NAME}"/smyh_map.txt | python ../assets/gen_mappings_table.py >"${SCHEMA}"/mappings_table.txt
+    cat /tmp/"${NAME}"/smyh_map.txt | python ../assets/gen_mappings_table.py >"${SCHEMA}"/smyh.mappings_table.txt
     # 生成簡化字碼表
     ./generator -q \
         -d /tmp/"${NAME}"/smyh_div.txt \
@@ -66,11 +68,11 @@ echo "<!DOCTYPE html><html>" \
     "<body><p>可用的方案列表:</p><ul>" \
     >>"${DOC}"/index.html
 
-# 打包標準 Wafel 方案
-gen_schema wafel 非音托標準版 || exit 1
 # 打包 Into 方案
-gen_schema into 半音托實驗版 || exit 1
+gen_schema into 半音托版 || exit 1
+# 打包標準 Wafel 方案
+gen_schema wafel 純亂序版 || exit 1
 # 打包 Star 方案
-# gen_schema star 聚類三星版 || exit 1
+# gen_schema star 星陳版 || exit 1
 
 echo "</ul></body></html>" >>"${DOC}/index.html"

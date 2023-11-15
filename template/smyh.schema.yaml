@@ -4,7 +4,7 @@
 schema:
   schema_id: smyh
   name: 吉旦餅
-  version: 2.3.0
+  version: beta
   author:
     - 宇浩输入法
     - 阿吉
@@ -15,7 +15,7 @@ schema:
     雞蛋餅QQ群："917190494"
   dependencies:
     # 宇浩拼音, 用于反查
-    - yuhao_pinyin
+    - smyh.pinyin
     # 基础码表
     - smyh.base
     # 全码官宇词库
