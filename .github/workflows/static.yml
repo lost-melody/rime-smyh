@@ -31,7 +31,7 @@ jobs:
 
       - name: generate
         run: |
-          sh deploy/deploy.sh
+          bash deploy/deploy.sh
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v1
