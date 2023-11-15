@@ -164,7 +164,7 @@ rev_div:
 rev_pinyin:
   tag: rev_pinyin
   prefix: "`"
-  dictionary: yuhao_pinyin
+  dictionary: smyh.pinyin
   preedit_format:
     - xform/^`//
   comment_format:
