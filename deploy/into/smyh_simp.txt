@@ -41,6 +41,6 @@
 衣	lx1
 特	mg1
 品	oo1
+始	rk1
 领	rl1
 亲	xa1
-始	rk1
