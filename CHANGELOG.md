@@ -24,5 +24,5 @@
 鷄蛋餅 2023年11月13日更新：
 
 1. 拆分變化：新增字根「甶」「鬼-厶」作爲「鬼」的附屬根，GBK範圍内僅影響「甶」字；
-[wafel1113a.png](https://postimg.cc/87tkGMzP)
-[wafel1113b.png](https://postimg.cc/w7FYRH8w)
+[wafel1113a.png](https://i.postimg.cc/TPXKrc8m/wafel1113a.png)
+[wafel1113b.png](https://i.postimg.cc/6pxWS5Hx/wafel1113b.png)
