@@ -51,7 +51,6 @@ patch:
     - xform/\)\(/,/
   # 自定義功能鍵
   wafel/funckeys/+:
-    fullci/+: [ 0x2f ]
     clearact/+: [ 0xff1b ]
   # 自定義宏
   # 先为宏命名, 如 *mymacro*, 则將其添加到 *macros* 下,
