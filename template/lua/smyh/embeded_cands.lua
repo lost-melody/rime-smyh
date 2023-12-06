@@ -217,6 +217,8 @@ function embeded_cands_filter.func(input, env)
         index = index + 1
         -- 當前遍歷候選項
         local cand = Candidate(next.type, next.start, next._end, next.text, next.comment) -- next
+        cand.quality = next.quality
+        cand.preedit = next.preedit
 
         if index == 1 then
             -- 把首選捉出來
