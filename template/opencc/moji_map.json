@@ -1,0 +1,19 @@
+{
+  "name": "ivd moji joho mappings",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "moji_map.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "moji_map.txt"
+      }]
+    }
+  }]
+}

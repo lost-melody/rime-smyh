@@ -20,6 +20,7 @@ gen_schema() {
     cp ../template/*.yaml ../template/*.txt "${SCHEMA}"
     cp ../template/lua/smyh/*.lua "${SCHEMA}/lua/smyh"
     cp ../template/opencc/*.json "${SCHEMA}/opencc"
+    cp ../template/opencc/*.txt "${SCHEMA}/opencc"
     sed -i "s/name: 吉旦餅/name: 吉旦餅·${NAME}/g" "${SCHEMA}"/smyh.{custom,schema}.yaml
     sed -i "s/version: beta/version: beta.${TIME}/g" "${SCHEMA}"/*.dict.yaml "${SCHEMA}"/smyh.schema.yaml
     # 使用 deploy/wafel 覆蓋默認值

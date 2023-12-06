@@ -55,7 +55,11 @@ switches:
   - options: [ charset.all, charset.freqly ]
     states: [ 全字集, 僅常用字 ]
     reset: 0
+  - name: ivd_map
+    states: [ NoIVD, IVD ]
+    reset: 0
   - name: ascii_mode
+    states: [ 漢字, 西文 ]
     reset: 0
 
 engine:
@@ -95,6 +99,7 @@ engine:
     - simplifier@division.lv2
     - simplifier@division.lv3
     - simplifier@division.lv4
+    - simplifier@ivd_map
     # 嵌入候选
     - lua_filter@*smyh.embeded_cands@embeded_cands
 
@@ -171,6 +176,11 @@ rev_pinyin:
     - "xform/^/(/"
     - "xform/$/)/"
 
+ivd_map:
+  option_name: ivd_map
+  opencc_config: moji_map.json
+  tags: [ grave ]
+
 # 符號翻譯器
 symbols:
   tag: symbols
@@ -238,6 +248,10 @@ wafel:
       - type: radio
         names: [ charset.all, charset.freqly ]
         states: [ "□全CJK字集: 無過濾", "■常用字集: 過濾非常用字" ]
+    ivd:
+      - type: switch
+        name: ivd_map
+        states: [ "異體字選擇器: 停用", "異體字選擇器: 啓用" ]
 
 # 嵌入候選的顯示配置
 # 默認顯示效果爲:
@@ -279,6 +293,8 @@ recognizer:
     symbols: "^/([0-9]0?|[A-Za-z]+)$"
     # 拼音反查模式
     rev_pinyin: "^`[a-z]+$"
+    # 單獨反引號
+    grave: "^`$"
 
 menu:
   page_size: 3
