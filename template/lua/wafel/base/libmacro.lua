@@ -1,15 +1,20 @@
 ---wafel 自定義宏核心庫
 local libmacro = {}
 
-local libos = require("libos")
+local libos = require("wafel.base.libos")
+
+---@class Macro
+---@field display fun(self: self, env: Env, ctx: Context, args: string[]): string
+---@field trigger fun(self: self, env: Env, ctx: Context, args: string[])
+local _Macro
 
 ---宏類型枚舉
 libmacro.macro_types = {
-    tip    = "tip",
+    tip = "tip",
     switch = "switch",
-    radio  = "radio",
-    shell  = "shell",
-    eval   = "eval",
+    radio = "radio",
+    shell = "shell",
+    eval = "eval",
 }
 
 ---設置開關狀態, 並更新保存的配置值
@@ -40,6 +45,7 @@ end
 ---提示語或快捷短語
 ---顯示爲 name, 上屏爲 text
 ---@param name string
+---@return Macro
 function libmacro.new_tip(name, text)
     local tip = {
         type = libmacro.macro_types.tip,
@@ -66,6 +72,7 @@ end
 ---states 分别指定開關狀態爲 開 和 關 時的顯示效果
 ---@param name string
 ---@param states table
+---@return Macro
 function libmacro.new_switch(name, states)
     local switch = {
         type = libmacro.macro_types.switch,
@@ -98,9 +105,10 @@ end
 ---顯示一組 names 開關當前的狀態, 並在選中切換關閉當前開啓項, 並打開下一項
 ---states 指定各組開關的 name 和當前開啓的開關時的顯示效果
 ---@param states table
+---@return Macro
 function libmacro.new_radio(states)
     local radio = {
-        type   = libmacro.macro_types.radio,
+        type = libmacro.macro_types.radio,
         states = states,
     }
 
@@ -140,6 +148,7 @@ end
 ---@param name string
 ---@param cmd string
 ---@param text boolean
+---@return Macro
 function libmacro.new_shell(name, cmd, text)
     if not libos.os:android() and not libos.os:linux() and not libos.os:darwin() then
         return libmacro.new_tip(name, cmd)
@@ -151,7 +160,7 @@ function libmacro.new_shell(name, cmd, text)
         for _, arg in ipairs(args) do
             table.insert(cmdargs, '"' .. arg .. '"')
         end
-        return io.popen(string.format(template, cmd, table.concat(cmdargs, " ")), 'r')
+        return io.popen(string.format(template, cmd, table.concat(cmdargs, " ")), "r")
     end
 
     local shell = {
@@ -161,13 +170,13 @@ function libmacro.new_shell(name, cmd, text)
     }
 
     function shell:display(env, ctx, args)
-        return #self.name ~= 0 and self.name or self.text and get_fd(args):read('a')
+        return #self.name ~= 0 and self.name or self.text and get_fd(args):read("a")
     end
 
     function shell:trigger(env, ctx, args)
         local fd = get_fd(args)
         if self.text then
-            local t = fd:read('a')
+            local t = fd:read("a")
             fd:close()
             if #t ~= 0 then
                 env.engine:commit_text(t)
@@ -186,6 +195,7 @@ end
 ---返回 table 時, 該 table 成員方法 peek 和 eval 接受 self 和 table 參數, 返回 string, 分别指定顯示效果和上屏文本
 ---@param name string
 ---@param expr string
+---@return Macro
 function libmacro.new_eval(name, expr)
     local f = load(expr)
     if not f then

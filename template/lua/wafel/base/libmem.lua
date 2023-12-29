@@ -1,7 +1,7 @@
 ---方案詞典查詢庫
 local libmem = {}
 
-local librime = require("librime")
+local librime = require("wafel.base.librime")
 
 ---@type { string: Memory }
 local loaded_mem = {}
@@ -13,6 +13,7 @@ local loaded_mem = {}
 function libmem.get(env, schema_id)
     local mem = loaded_mem[schema_id]
     if not mem then
+        librime.log.infof("opening schema %s", schema_id)
         ---Schema 對象
         local schema = librime.New.Schema(schema_id)
         ---Memory 對象
@@ -20,10 +21,11 @@ function libmem.get(env, schema_id)
         loaded_mem[schema_id] = mem
         if not mem then
             -- 初始化失敗, 返回空
+            librime.log.warnf("failed to open schema %s", schema_id)
             return nil
         end
     end
     return mem
 end
 
-return libmem;
+return libmem

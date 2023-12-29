@@ -8752,7 +8752,7 @@
 嫎	[女亠丷方,páng_bàng,GBK]
 嫏	[女丶彐阝,láng,GBK]
 嫐	[女田力女,nǎo,GBK]
-嫑	[不西女,báo,GBK]
+嫑	[不西女,biáo,GBK]
 嫓	[女冖冂匕,pì,GBK]
 嫕	[女匚矢心,yì,GBK]
 嫗	[女匚口口,yù_yǔ_kōu,GBK]

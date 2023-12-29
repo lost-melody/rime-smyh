@@ -1,16 +1,33 @@
-local processor = {}
-
----@param env Env
-function processor.init(env)
-end
+local librime = require("wafel.base.librime")
+local reg = require("wafel.core.reg")
 
 ---@param key_event KeyEvent
 ---@param env Env
-function processor.func(key_event, env)
-end
+local function processor(key_event, env)
+    -- 處理快捷鍵
+    local accelerator = reg.get_keymap(key_event.modifier, key_event.keycode)
+    if accelerator then
+        local success, result = pcall(accelerator, key_event, env)
+        if not success then
+            librime.log.warnf("failed to call accelerator: %s", result)
+            return librime.process_results.kNoop
+        end
+        if result == librime.process_results.kRejected or result == librime.process_results.kAccepted then
+            return result
+        end
+    end
 
----@param env Env
-function processor.fini(env)
+    -- 調用注册的 Processor 路由
+    for _, handler in ipairs(reg.processors) do
+        local success, result = pcall(handler, key_event, env)
+        if not success then
+            librime.log.warnf("failed to call processor: %s", result)
+        elseif result == librime.process_results.kRejected or result == librime.process_results.kAccepted then
+            return result
+        end
+    end
+
+    return librime.process_results.kNoop
 end
 
 return processor

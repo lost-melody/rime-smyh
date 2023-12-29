@@ -15,19 +15,36 @@ local librime = {}
 ---配置節點類型枚舉
 ---@enum ConfigType
 librime.config_types = {
-    kNull   = "kNull",   -- 空節點
+    kNull = "kNull", -- 空節點
     kScalar = "kScalar", -- 純數據節點
-    kList   = "kList",   -- 列表節點
-    kMap    = "kMap",    -- 字典節點
+    kList = "kList", -- 列表節點
+    kMap = "kMap", -- 字典節點
 }
 
 ---分詞片段類型枚舉
 ---@enum SegmentType
 librime.segment_types = {
-    kVoid      = "kVoid",
-    kGuess     = "kGuess",
-    kSelected  = "kSelected",
+    kVoid = "kVoid",
+    kGuess = "kGuess",
+    kSelected = "kSelected",
     kConfirmed = "kConfirmed",
+}
+
+---按鍵處理器返回結果枚舉
+---@enum ProcessResult
+librime.process_results = {
+    kRejected = 0,
+    kAccepted = 1,
+    kNoop = 2,
+}
+
+---修飾鍵掩碼枚舉
+---@enum ModifierMask
+librime.modifier_masks = {
+    kShift = 0x1,
+    kLock = 0x2,
+    kControl = 0x4,
+    kAlt = 0x8,
 }
 
 ---對 *librime-lua* 構造方法的封裝
@@ -38,6 +55,32 @@ librime.segment_types = {
 --- `librime.New.Candidate({type="", start=1, _end=2, text=""})`
 ---實現, 增加了語法提示, 也允許一些個性化的封裝
 librime.New = {}
+
+---記録日志
+librime.log = {
+    ---@type fun(string)
+    ---@diagnostic disable-next-line: undefined-global
+    info = log.info,
+    ---@type fun(string)
+    ---@diagnostic disable-next-line: undefined-global
+    warn = log.warning,
+    ---@type fun(string)
+    ---@diagnostic disable-next-line: undefined-global
+    error = log.error,
+}
+
+---Rime 引擎 API
+---@class RimeAPI
+---@field get_rime_version fun(): string
+---@field get_shared_data_dir fun(): string
+---@field get_user_data_dir fun(): string
+---@field get_sync_dir fun(): string
+---@field get_distribution_name fun(): string
+---@field get_distribution_code_name fun(): string
+---@field get_distribution_version fun(): string
+---@field get_user_id fun(): string
+---@diagnostic disable-next-line: undefined-global
+librime.api = rime_api
 
 ---@class Set
 ---method
@@ -127,7 +170,7 @@ local _Schema
 ---@class KeyEvent
 ---element
 ---@field keycode integer
----@field modifier unknown
+---@field modifier integer
 ---method
 ---@field shift fun(self: self): boolean
 ---@field ctrl fun(self: self): boolean
@@ -153,16 +196,22 @@ local _Composition
 
 ---@class Notifier
 ---method
----@field connect fun(self: self, f: function, group: integer|nil): function[]
+---@field connect fun(self: self, f: fun(ctx: Context), group: integer|nil): function[]
 local _Notifier
 
 ---@class OptionUpdateNotifier: Notifier
+---method
+---@field connect fun(self: self, f: fun(ctx: Context, name: string), group:integer|nil): function[]
 local _OptionUpdateNotifier
 
 ---@class PropertyUpdateNotifier: Notifier
+---method
+---@field connect fun(self: self, f: fun(ctx: Context, name: string), group:integer|nil): function[]
 local _PropertyUpdateNotifier
 
 ---@class KeyEventNotifier: Notifier
+---method
+---@field connect fun(self: self, f: fun(ctx: Context, key: string), group:integer|nil): function[]
 local _KeyEventNotifier
 
 ---@class Segment
@@ -256,7 +305,7 @@ local _Menu
 
 ---@class Translation
 ---method
----@field iter fun(self: self): function, integer
+---@field iter fun(self: self): fun(): Candidate|nil
 local _Translation
 
 ---@class Config
@@ -388,8 +437,8 @@ local _Code
 ---@field user_lookup fun(self: self, input: string, predictive: boolean): boolean
 ---@field memorize fun(self: self, callback: fun(ce: CommitEntry))
 ---@field decode fun(self: self, code: Code): { number: string }
----@field iter_dict fun(self: self): function, integer
----@field iter_user fun(self: self): function, integer
+---@field iter_dict fun(self: self): fun(): DictEntry|nil
+---@field iter_user fun(self: self): fun(): DictEntry|nil
 ---@field update_userdict fun(self: self, entry: DictEntry, commits: number, prefix: string): boolean
 local _Memory
 
@@ -415,7 +464,7 @@ local _LevelDb
 ---method
 ---@field reset fun(self: self): boolean
 ---@field jump fun(self: self, prefix: string): boolean
----@field iter fun(self: self): function, self
+---@field iter fun(self: self): fun(): (string, string) | nil
 local _DbAccessor
 
 ---任意類型元素集合
@@ -548,6 +597,31 @@ end
 function librime.New.LevelDb(dbname)
     ---@diagnostic disable-next-line: undefined-global
     return LevelDb(dbname)
+end
+
+---格式化 Info 日志
+---@param format string|number
+function librime.log.infof(format, ...)
+    librime.log.info(string.format(format, ...))
+end
+
+---格式化 Warn 日志
+---@param format string|number
+function librime.log.warnf(format, ...)
+    librime.log.warn(string.format(format, ...))
+end
+
+---格式化 Error 日志
+---@param format string|number
+function librime.log.errorf(format, ...)
+    librime.log.error(string.format(format, ...))
+end
+
+---送出候選
+---@param cand Candidate
+function librime.yield(cand)
+    ---@diagnostic disable-next-line: undefined-global
+    yield(cand)
 end
 
 return librime

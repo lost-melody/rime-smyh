@@ -26,7 +26,7 @@ local libiter = {}
 --- ```
 ---
 ---@param iterable any
----@param handler fun(iter: any, yield: function)
+---@param handler fun(iter: any, yield: fun(_: any))
 ---@return function
 function libiter.wrap_iterator(iterable, handler)
     return function()

@@ -1,21 +1,15 @@
-local filter = {}
-
----@param env Env
-function filter.init(env)
-end
+local librime = require("wafel.base.librime")
+local reg = require("wafel.core.reg")
 
 ---@param input Translation
 ---@param env Env
-function filter.func(input, env)
-end
-
----@param env Env
-function filter.fini(env)
-end
-
----@param seg Segment
----@param env Env
-function filter.tags_match(seg, env)
+local function filter(input, env)
+    for _, handler in ipairs(reg.filters) do
+        local success, err = pcall(handler, input, env)
+        if not success then
+            librime.log.warnf("failed to call filter: %s", err)
+        end
+    end
 end
 
 return filter
