@@ -25,6 +25,8 @@ reg.segmentors = {}
 reg.translators = {}
 ---@type WafelFilter[]
 reg.filters = {}
+---@type WafelFilter[]
+reg.post_filters = {}
 
 ---@type table<ModifierMask, table<integer, WafelProcessor>>
 local keymaps = {}
@@ -57,6 +59,11 @@ end
 ---@param filter WafelFilter
 function reg.add_filter(filter)
     table.insert(reg.filters, filter)
+end
+
+---@param filter WafelFilter
+function reg.add_post_filter(filter)
+    table.insert(reg.post_filters, 1, filter)
 end
 
 ---@param modifier ModifierMask

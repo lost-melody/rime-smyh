@@ -7,14 +7,14 @@ local reg = require("wafel.core.reg")
 ---@param env Env
 function translator.init(env)
     -- 加載配置, 執行初始設置
-    reg.options = libtable.patch_table(reg.options, require("wafel.core"))
+    reg.options = libtable.patch_table(reg.options, require("wafel.default"))
     reg.options = libtable.patch_table(reg.options, require("wafel.custom"))
 
     -- 執行初始化鈎子
-    for _, handler in ipairs(reg.inits) do
+    for i, handler in ipairs(reg.inits) do
         local success, err = pcall(handler, env)
         if not success then
-            librime.log.warnf("failed to call init: %s", err)
+            librime.log.warnf("failed to call init[%d]: %s", i, err)
         end
     end
 end
@@ -22,10 +22,10 @@ end
 ---@param env Env
 function translator.fini(env)
     -- 執行資源釋放鈎子
-    for _, handler in ipairs(reg.finis) do
+    for i, handler in ipairs(reg.finis) do
         local success, err = pcall(handler, env)
         if not success then
-            librime.log.warnf("failed to call fini: %s", err)
+            librime.log.warnf("failed to call fini[%d]: %s", i, err)
         end
     end
 end
@@ -34,10 +34,10 @@ end
 ---@param seg Segment
 ---@param env Env
 function translator.func(input, seg, env)
-    for _, handler in ipairs(reg.translators) do
+    for i, handler in ipairs(reg.translators) do
         local success, err = pcall(handler, input, seg, env)
         if not success then
-            librime.log.warnf("failed to call translator: %s", err)
+            librime.log.warnf("failed to call translator[%d]: %s", i, err)
         end
     end
 end

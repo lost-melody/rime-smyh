@@ -132,22 +132,22 @@ local _Engine
 ---@field get_selected_candidate fun(self: self): Candidate
 ---@field push_input fun(self: self, text: string)
 ---@field pop_input fun(self: self, num: integer): boolean
----@field delete_input function
+---@field delete_input fun(self: self, len: integer): boolean
 ---@field clear fun(self: self)
 ---@field select fun(self: self, index: integer): boolean 通過下標選擇候選詞, 從0開始
----@field confirm_current_selection function
+---@field confirm_current_selection fun(self: self): boolean
 ---@field delete_current_selection fun(self: self): boolean
----@field confirm_previous_selection function
----@field reopen_previous_selection function
----@field clear_previous_segment function
----@field reopen_previous_segment function
----@field clear_non_confirmed_composition function
----@field refresh_non_confirmed_composition function
----@field set_option function
----@field get_option function
+---@field confirm_previous_selection fun(self: self): boolean
+---@field reopen_previous_selection fun(self: self): boolean
+---@field clear_previous_segment fun(self: self): boolean
+---@field reopen_previous_segment fun(self: self): boolean
+---@field clear_non_confirmed_composition fun(self: self): boolean
+---@field refresh_non_confirmed_composition fun(self: self): boolean
+---@field set_option fun(self: self, name: string, value: boolean)
+---@field get_option fun(self: self, name: string): boolean
 ---@field set_property fun(self: self, key: string, value: string) 與 `get_property` 配合使用, 在組件之間傳遞消息
 ---@field get_property fun(self: self, key: string): string 與 `set_property` 配合使用, 在組件之間傳遞消息
----@field clear_transient_options function
+---@field clear_transient_options fun()
 local _Context
 
 ---@class Preedit
@@ -226,10 +226,10 @@ local _KeyEventNotifier
 ---@field selected_index integer
 ---@field prompt string
 ---method
----@field clear function
----@field close function
----@field reopen function
----@field has_tag function
+---@field clear fun(self: self)
+---@field close fun(self: self)
+---@field reopen fun(self: self, caret_pos: integer)
+---@field has_tag fun(self: self, tag: string): boolean
 ---@field get_candidate_at fun(self: self, index: integer): Candidate 獲取指定下標的候選, 從0開始
 ---@field get_selected_candidate fun(self: self): Candidate
 local _Segment
@@ -241,9 +241,9 @@ local _Segment
 ---@field empty fun(self: self): boolean
 ---@field back fun(self: self): Segment
 ---@field pop_back fun(self: self): Segment
----@field reset_length function
+---@field reset_length fun(self: self, length: integer)
 ---@field add_segment fun(self: self, seg: Segment)
----@field forward function
+---@field forward fun(self: self): boolean
 ---@field trim fun(self: self)
 ---@field has_finished_segmentation fun(self: self): boolean
 ---@field get_current_start_position fun(self: self): integer
@@ -268,7 +268,7 @@ local _Segmentation
 ---@field get_genuines fun(self: self): Candidate[]
 ---@field to_shadow_candidate fun(self: self): ShadowCandidate
 ---@field to_uniquified_candidate fun(self: self): UniquifiedCandidate
----@field append fun(self: self, c: unknown)
+---@field append fun(self: self, cand: Candidate)
 local _Candidate
 
 ---@class UniquifiedCandidate: Candidate
@@ -297,7 +297,7 @@ local _Phrase
 ---@class Menu
 ---method
 ---@field add_translation fun(self: self, translation: Translation)
----@field prepare function
+---@field prepare fun(self: self, candidate_count: integer): integer
 ---@field get_candidate_at fun(self: self, i: integer): Candidate|nil
 ---@field candidate_count fun(self: self): integer
 ---@field empty fun(self: self): boolean
@@ -310,8 +310,8 @@ local _Translation
 
 ---@class Config
 ---method
----@field load_from_file function
----@field save_to_file function
+---@field load_from_file fun(self: self, filename: string): boolean
+---@field save_to_file fun(self: self, filename: string): boolean
 ---@field is_null fun(self: self, conf_path: string): boolean
 ---@field is_value fun(self: self, conf_path: string): boolean
 ---@field is_list fun(self: self, conf_path: string): boolean
@@ -338,7 +338,7 @@ local _Config
 ---@class ConfigItem
 ---element
 ---@field type ConfigType
----@field empty unknown
+---@field empty boolean
 ---method
 ---@field get_value fun(self: self): ConfigValue|nil
 ---@field get_map fun(self: self): ConfigMap|nil
@@ -386,20 +386,36 @@ local _ConfigMap
 ---@field get_at fun(self: self, index: integer): ConfigItem|nil
 ---@field get_value_at fun(self: self, index: integer): ConfigValue|nil
 ---@field set_at fun(self: self, index: integer, item: ConfigItem)
----@field append function
----@field insert function
----@field clear function
----@field resize function
+---@field append fun(self: self, item: ConfigItem): boolean
+---@field insert fun(self: self, i: integer, item: ConfigItem): boolean
+---@field clear fun(self: self): boolean
+---@field resize fun(self: self, size: integer): boolean
 local _ConfigList
+
+---@class Switcher
+---element
+---@field attached_engine Engine
+---@field user_config Config
+---@field active boolean
+---method
+---@field select_next_schema fun(self: self)
+---@field is_auto_save fun(self: self, option: string): boolean
+---@field refresh_menu fun(self: self)
+---@field activate fun(self: self)
+---@field deactivate fun(self: self)
+local _Switcher
 
 ---@class Opencc
 ---method
----@field convert function
+---@field convert fun(self: self, text: string): string
+---@field convert_text fun(self: self, text: string): string
+---@field random_convert_text fun(self: self, text: string): string
+---@field convert_word fun(self: self, text: string): string[]
 local _Opencc
 
 ---@class ReverseDb
 ---method
----@field lookup function
+---@field lookup fun(self: self, key: string): string
 local _ReverseDb
 
 ---@class ReverseLookup
@@ -422,12 +438,12 @@ local _DictEntry
 
 ---@class CommitEntry: DictEntry
 ---method
----@field get function
+---@field get fun(self: self, entry: CommitEntry): DictEntry[]
 local _CommitEntry
 
 ---@class Code
 ---method
----@field push fun(self: self, inputCode: unknown)
+---@field push fun(self: self, syllable_id: integer)
 ---@field print fun(self: self): string
 local _Code
 
@@ -518,7 +534,7 @@ end
 ---@param type string 類型標識
 ---@param text string 分詞開始
 ---@param comment string 註解
----@param inherit_comment unknown
+---@param inherit_comment boolean
 ---@return ShadowCandidate
 function librime.New.ShadowCandidate(cand, type, text, comment, inherit_comment)
     ---@diagnostic disable-next-line: undefined-global
@@ -583,6 +599,14 @@ end
 function librime.New.Memory(engine, schema, namespace)
     ---@diagnostic disable-next-line: undefined-global
     return Memory(engine, schema, namespace)
+end
+
+---Switcher
+---@param engine Engine
+---@return Switcher
+function librime.New.Switcher(engine)
+    ---@diagnostic disable-next-line: undefined-global
+    return Switcher(engine)
 end
 
 ---候選詞註釋轉換
