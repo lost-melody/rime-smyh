@@ -1,10 +1,18 @@
 local libmacro = require("wafel.base.libmacro")
 
 ---@class WafelOptions
+---@field dicts? WafelDictsOptions
 ---@field embeded_cands? WafelEmbededCandsOptions
 ---@field macros? WafelMacrosOptions
 ---@field funckeys? WafelFunckeysOptions
 local options = {
+    ---@class WafelDictsOptions
+    ---@field base? string 主詞典的 `schema_id`
+    ---@field full? string 四碼全碼詞典的 `schema_id`
+    dicts = {
+        base = "wafel.base",
+        full = "wafel.full",
+    },
     ---@class WafelEmbededCandsOptions
     ---@field index_indicators? string[]
     ---@field first_format? string

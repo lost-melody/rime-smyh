@@ -1,5 +1,19 @@
 # 雞蛋餅 lua 設計文檔
 
+## 目録結構
+
+- `lua/`
+  - `wafel/`
+    - `base/`: _librime-lua_ 和 _wafel_ 基礎類型, 函數, 功能封裝
+    - `utils/`: 常用的工具函數封裝
+    - `core/`: _wafel_ 功能核心實現代碼
+    - `default/`: 系統默認配置參數
+    - `custom/`: 用户自定義配置參數
+    - `proc.lua`: 按鍵處理器
+    - `seg.lua`: 分段器
+    - `tr.lua`: 翻譯器
+    - `filter.lua`: 過濾器
+
 ## 入口
 
 - 根據 _librime-lua_ 接口設計, _lua_ 共提供四類入口: _processor_, _segmentor_, _translator_, _filter_.

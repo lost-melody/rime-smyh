@@ -25,9 +25,11 @@ local libiter = {}
 --- for v in iter() do print(v) end
 --- ```
 ---
----@param iterable any
----@param handler fun(iter: any, yield: fun(_: any))
----@return function
+---@generic Iter
+---@generic T
+---@param iterable Iter
+---@param handler fun(iter: Iter, yield: fun(_: T))
+---@return fun(): fun(): T|nil
 function libiter.wrap_iterator(iterable, handler)
     return function()
         return coroutine.wrap(function()
@@ -46,7 +48,8 @@ end
 --- for v in iter() do print(v) end
 --- ```
 ---
----@param array table
+---@generic T
+---@param array T[]
 function libiter.wrap_iterator_from_array(array)
     return libiter.wrap_iterator(array, function(arr, yield)
         for _, v in ipairs(arr) do

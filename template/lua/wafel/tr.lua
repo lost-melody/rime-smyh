@@ -1,5 +1,6 @@
 local translator = {}
 
+local libload = require("wafel.utils.libload")
 local librime = require("wafel.base.librime")
 local libtable = require("wafel.utils.libtable")
 local reg = require("wafel.core.reg")
@@ -7,8 +8,10 @@ local reg = require("wafel.core.reg")
 ---@param env Env
 function translator.init(env)
     -- 加載配置, 執行初始設置
-    reg.options = libtable.patch_table(reg.options, require("wafel.default"))
-    reg.options = libtable.patch_table(reg.options, require("wafel.custom"))
+    reg.options = libtable.patch_table(reg.options, require("wafel.default.options") or {})
+    reg.options = libtable.patch_table(reg.options, libload.load_or_nil("wafel.custom.options") or {})
+    require("wafel.defaul.config")
+    libload.load_or_nil("wafel.custom.config")
 
     -- 執行初始化鈎子
     for i, handler in ipairs(reg.inits) do

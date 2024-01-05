@@ -12,7 +12,7 @@ local loaded_mem = {}
 ---@return Memory|nil
 function libmem.get(env, schema_id)
     local mem = loaded_mem[schema_id]
-    if not mem then
+    if not mem and #schema_id ~= 0 then
         librime.log.infof("opening schema %s", schema_id)
         ---Schema 對象
         local schema = librime.New.Schema(schema_id)
