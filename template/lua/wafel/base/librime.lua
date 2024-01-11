@@ -617,10 +617,17 @@ function librime.New.Projection()
 end
 
 ---LevelDB
+---@param dbname string
 ---@return LevelDb
 function librime.New.LevelDb(dbname)
     ---@diagnostic disable-next-line: undefined-global
-    return LevelDb(dbname)
+    local ok, ldb = pcall(LevelDb, dbname)
+    if not ok then
+        local dbpath = librime.api.get_user_data_dir() .. "/" .. dbname .. ".userdb"
+        ---@diagnostic disable-next-line: undefined-global
+        _, ldb = pcall(LevelDb, dbpath, dbname)
+    end
+    return ldb
 end
 
 ---格式化 Info 日志

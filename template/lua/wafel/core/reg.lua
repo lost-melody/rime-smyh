@@ -9,8 +9,13 @@ local librime = require("wafel.base.librime")
 ---@alias WafelTranslator fun(input: string, seg: Segment, env: Env)
 ---@alias WafelFilter fun(input: Translation, env: Env)
 
+---配置项
 ---@type WafelOptions
 reg.options = {}
+
+---開關狀態
+---@type table<string, boolean>
+reg.switches = {}
 
 ---@type WafelInit[]
 reg.inits = {}

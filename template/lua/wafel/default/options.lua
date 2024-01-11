@@ -1,10 +1,11 @@
 local libmacro = require("wafel.base.libmacro")
 
 ---@class WafelOptions
----@field dicts? WafelDictsOptions
----@field embeded_cands? WafelEmbededCandsOptions
----@field macros? WafelMacrosOptions
----@field funckeys? WafelFunckeysOptions
+---@field dicts? WafelDictsOptions 詞典配置
+---@field smart? WafelSmartOptions 自動選重詞典配置
+---@field embeded_cands? WafelEmbededCandsOptions 嵌入候選配置
+---@field macros? WafelMacrosOptions 自定義宏配置 `Map { name: macro }`
+---@field funckeys? WafelFunckeysOptions 快捷鍵配置
 local options = {
     ---@class WafelDictsOptions
     ---@field base? string 主詞典的 `schema_id`
@@ -13,12 +14,19 @@ local options = {
         base = "wafel.base",
         full = "wafel.full",
     },
+    ---@class WafelSmartOptions
+    ---@field userdb? string 用户词典名
+    ---@field userdict? string 用户词库文本文件
+    smart = {
+        userdb = "wafel.smart",
+        userdict = "dict/wafel.smart.txt",
+    },
     ---@class WafelEmbededCandsOptions
-    ---@field index_indicators? string[]
-    ---@field first_format? string
-    ---@field next_format? string
-    ---@field separator? string
-    ---@field stash_placeholder? string
+    ---@field index_indicators? string[] 候選序號格式
+    ---@field first_format? string 首選格式
+    ---@field next_format? string 次選格式
+    ---@field separator? string 分隔符
+    ---@field stash_placeholder? string 暫存候選佔位符
     embeded_cands = {
         index_indicators = { "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰" },
         first_format = "${Stash}[${候選}${Seq}]${Code}${Comment}",
@@ -106,7 +114,15 @@ local options = {
         },
     },
     ---@class WafelFunckeysOptions
-    funckeys = {},
+    ---@field primary? integer[]
+    ---@field secondary? integer[]
+    ---@field tertiary? integer[]
+    ---@field macro? integer[]
+    funckeys = {
+        primary = { 0x20 },
+        secondary = { 0x3b },
+        tertiary = {},
+    },
 }
 
 return options

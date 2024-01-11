@@ -5,6 +5,7 @@ local libos = require("wafel.base.libos")
 local librime = require("wafel.base.librime")
 
 ---@class Macro
+---@field hijack? boolean
 ---@field display fun(self: self, env: Env, ctx: Context, args: string[]): string
 ---@field trigger fun(self: self, env: Env, ctx: Context, args: string[])
 local _Macro
@@ -139,14 +140,16 @@ end
 ---@param name string 非空時顯示爲候選文本, 否则顯示實時執行結果
 ---@param cmd string 待執行的命令内容
 ---@param commit_text boolean 爲 true 時, 命令執行結果上屏, 否则僅執行
+---@param hijack? boolean
 ---@return Macro
-function libmacro.new_shell(name, cmd, commit_text)
+function libmacro.new_shell(name, cmd, commit_text, hijack)
     if not libos.os:android() and not libos.os:linux() and not libos.os:darwin() then
         return libmacro.new_tip(name, cmd)
     end
 
     ---@type Macro
     return {
+        hijack = hijack,
         ---@diagnostic disable-next-line: unused-local
         display = function(self, env, ctx, args)
             return #name ~= 0 and name or commit_text and get_cmd_fd(cmd, args):read("a")
@@ -169,10 +172,12 @@ end
 ---Evaluate 宏, 執行給定的 lua 函數
 ---@param name string 非空時顯示爲候選文本, 否则顯示實時調用結果
 ---@param func fun(args: string[], env: Env): string 待調用的 lua 函數
+---@param hijack? boolean
 ---@return Macro
-function libmacro.new_func(name, func)
+function libmacro.new_func(name, func, hijack)
     ---@type Macro
     return {
+        hijack = hijack,
         ---@diagnostic disable-next-line: unused-local
         display = function(self, env, ctx, args)
             if #name ~= 0 then

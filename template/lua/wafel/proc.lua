@@ -4,6 +4,11 @@ local reg = require("wafel.core.reg")
 ---@param key_event KeyEvent
 ---@param env Env
 local function processor(key_event, env)
+    -- 不處理按鍵釋放
+    if key_event:release() then
+        return librime.process_results.kNoop
+    end
+
     -- 處理快捷鍵
     local accelerator = reg.get_keymap(key_event.modifier, key_event.keycode)
     if accelerator then
