@@ -13,8 +13,8 @@ bus.input = {
 ---暫存編碼
 bus.stash = {
     ---暫存輸入串
-    ---@type string
-    code = "",
+    ---@type string[]
+    code_segs = {},
     ---暫存候選
     ---@type string[]
     cands = {},

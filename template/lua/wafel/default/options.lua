@@ -22,12 +22,14 @@ local options = {
         userdict = "dict/wafel.smart.txt",
     },
     ---@class WafelEmbededCandsOptions
+    ---@field option_name? string 嵌入開關
     ---@field index_indicators? string[] 候選序號格式
     ---@field first_format? string 首選格式
     ---@field next_format? string 次選格式
     ---@field separator? string 分隔符
     ---@field stash_placeholder? string 暫存候選佔位符
     embeded_cands = {
+        option_name = "embeded_cands",
         index_indicators = { "¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰" },
         first_format = "${Stash}[${候選}${Seq}]${Code}${Comment}",
         next_format = "${Stash}${候選}${Seq}${Comment}",
