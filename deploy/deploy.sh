@@ -72,7 +72,7 @@ echo "<!DOCTYPE html><html>" \
 # 打包 Into 方案
 gen_schema into 半音托版 || exit 1
 # 打包標準 Wafel 方案
-gen_schema wafel 純亂序版 || exit 1
+# gen_schema wafel 純亂序版 || exit 1
 # 打包 Star 方案
 # gen_schema star 星陳版 || exit 1
 

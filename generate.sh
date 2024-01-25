@@ -4,7 +4,7 @@
 cd "$(dirname $0)"
 WD="$(pwd)"
 TIME="$(date +%Y%m%d%H%M)"
-NAME="${1:-wafel}"
+NAME="${1:-into}"
 
 mkdir -p /tmp/"${NAME}"
 cp table/*.txt /tmp/"${NAME}"
