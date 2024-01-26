@@ -4,9 +4,9 @@ local libmem = require("wafel.base.libmem")
 local reg = require("wafel.core.reg")
 
 ---@type Memory|nil
-local base_mem
+local main_mem
 ---@type Memory|nil
-local full_mem
+local smart_mem
 
 ---空迭代器
 local nil_iter = function()
@@ -15,8 +15,8 @@ end
 
 ---@type WafelInit
 function mem.init(env)
-    base_mem = libmem.get(env, reg.options.dicts.base)
-    full_mem = libmem.get(env, reg.options.dicts.full)
+    main_mem = libmem.get(env, reg.options.dicts.main)
+    smart_mem = libmem.get(env, reg.options.dicts.smart)
 end
 
 ---@param input string
@@ -24,8 +24,8 @@ end
 ---@param limit? integer
 ---@return fun(): DictEntry|nil
 function mem.query_base(input, predictive, limit)
-    if base_mem and base_mem:dict_lookup(input, predictive or false, limit or 100) then
-        return base_mem:iter_dict()
+    if main_mem and main_mem:dict_lookup(input, predictive or false, limit or 100) then
+        return main_mem:iter_dict()
     else
         return nil_iter
     end
@@ -35,9 +35,9 @@ end
 ---@param predictive? boolean
 ---@param limit? integer
 ---@return fun(): DictEntry|nil
-function mem.query_full(input, predictive, limit)
-    if full_mem and full_mem:dict_lookup(input, predictive or false, limit or 100) then
-        return full_mem:iter_dict()
+function mem.query_smart(input, predictive, limit)
+    if smart_mem and smart_mem:dict_lookup(input, predictive or false, limit or 100) then
+        return smart_mem:iter_dict()
     else
         return nil_iter
     end

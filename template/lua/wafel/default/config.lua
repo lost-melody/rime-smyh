@@ -12,6 +12,8 @@ reg.add_init(switch.init)
 -- preprocess; macro; push; backspace; space; fullci; break; repeat; clearactive
 reg.add_processor(stash.preprocess)
 reg.add_processor(macro.processor)
+reg.add_processor(stash.backspace)
+reg.add_processor(stash.selectionkeys)
 
 -- macro; single; stash(fullcode; smart)
 reg.add_translator(macro.translator)

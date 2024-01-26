@@ -2,6 +2,9 @@ local stash = {}
 
 local bus = require("wafel.core.bus")
 local librime = require("wafel.base.librime")
+local reg = require("wafel.core.reg")
+
+local cBackspace = 0xff08
 
 ---@param input string
 ---@return boolean
@@ -49,6 +52,57 @@ function stash.preprocess(_, env)
         if #bus.active.code == 0 and #bus.stash.code_segs ~= 0 then
             ---@type string
             bus.active.code = table.remove(bus.stash.code_segs)
+        end
+    end
+
+    return librime.process_results.kNoop
+end
+
+---@type WafelProcessor
+function stash.backspace(key_event, env)
+    if key_event.keycode == cBackspace then
+        if string.match(bus.input.init_code, " [a-c]$") then
+            env.engine.context:pop_input(1)
+        end
+    end
+
+    return librime.process_results.kNoop
+end
+
+---@type table<integer, boolean>, table<integer, boolean>, table<integer, boolean>
+local primary, secondary, tertiary
+
+---@param list integer[]|nil
+---@return table<integer, boolean>
+local function list_to_set(list)
+    local set = {}
+    for _, value in ipairs(list or {}) do
+        set[value] = true
+    end
+    return set
+end
+
+---@type WafelProcessor
+function stash.selectionkeys(key_event, env)
+    local ctx = env.engine.context
+
+    local keycode = key_event.keycode
+    local funckeys = reg.options.funckeys or {}
+
+    primary = primary or list_to_set(funckeys.primary)
+    secondary = secondary or list_to_set(funckeys.secondary)
+    tertiary = tertiary or list_to_set(funckeys.tertiary)
+
+    if primary[keycode] or secondary[keycode] or tertiary[keycode] then
+        if string.match(bus.stash.active.code, "^[a-y][a-z]?$") then
+            if primary[keycode] then
+                ctx:push_input(" a")
+            elseif secondary[keycode] then
+                ctx:push_input(" b")
+            elseif tertiary[keycode] then
+                ctx:push_input(" c")
+            end
+            return librime.process_results.kAccepted
         end
     end
 

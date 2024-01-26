@@ -1,25 +1,25 @@
 local libmacro = require("wafel.base.libmacro")
 
 ---@class WafelOptions
+---@field charset_filter? WafelCharsetFilterOptions 字符集过滤
 ---@field dicts? WafelDictsOptions 詞典配置
----@field smart? WafelSmartOptions 自動選重詞典配置
 ---@field embeded_cands? WafelEmbededCandsOptions 嵌入候選配置
 ---@field macros? WafelMacrosOptions 自定義宏配置 `Map { name: macro }`
 ---@field funckeys? WafelFunckeysOptions 快捷鍵配置
 local options = {
-    ---@class WafelDictsOptions
-    ---@field base? string 主詞典的 `schema_id`
-    ---@field full? string 四碼全碼詞典的 `schema_id`
-    dicts = {
-        base = "wafel.base",
-        full = "wafel.full",
+    ---@class WafelCharsetFilterOptions
+    ---@field option_name? string 字符集過濾開關
+    ---@field filename? string 字符集文件件
+    charset_filter = {
+        option_name = "charset.freqly",
+        filename = "dict/wafel.charset.freq.txt",
     },
-    ---@class WafelSmartOptions
-    ---@field userdb? string 用户词典名
-    ---@field userdict? string 用户词库文本文件
-    smart = {
-        userdb = "wafel.smart",
-        userdict = "dict/wafel.smart.txt",
+    ---@class WafelDictsOptions
+    ---@field main? string 主詞典的 `schema_id`
+    ---@field smart? string 自動選重詞典的 `schema_id`
+    dicts = {
+        main = "wafel.main",
+        smart = "wafel.smart",
     },
     ---@class WafelEmbededCandsOptions
     ---@field option_name? string 嵌入開關
@@ -36,7 +36,7 @@ local options = {
         separator = " ",
         stash_placeholder = "~",
     },
-    ---@alias WafelMacrosOptions table<string, Macro[]>
+    ---@alias WafelMacrosOptions table<string, Macro[]|nil>
     macros = {
         help = {
             libmacro.new_tip("配置中心", ""),
@@ -120,10 +120,13 @@ local options = {
     ---@field secondary? integer[]
     ---@field tertiary? integer[]
     ---@field macro? integer[]
+    ---@field clearact? integer[]
     funckeys = {
         primary = { 0x20 },
         secondary = { 0x3b },
         tertiary = {},
+        macro = { 0x2f },
+        clearact = { 0xff0d },
     },
 }
 
