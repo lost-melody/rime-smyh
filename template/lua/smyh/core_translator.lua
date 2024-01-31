@@ -44,14 +44,10 @@ function translator.init(env)
     -- 初始化碼表
     if not schemas and Memory then
         local smyh_rev = ReverseLookup and ReverseLookup("smyh.base")
-        local smyh_tc_rev = ReverseLookup and ReverseLookup("smyh_tc.base")
         schemas = {
             smyh_base = Memory(env.engine, Schema("smyh.base")),
-            smyh_full = Memory(env.engine, Schema("smyh.yuhaowords")),
+            smyh_full = Memory(env.engine, Schema("smyh.words")),
             smyh_trie = core.gen_smart_trie(smyh_rev, "smyh.smart"),
-            smyh_tc_base = Memory(env.engine, Schema("smyh_tc.base")),
-            smyh_tc_full = Memory(env.engine, Schema("smyh_tc.yuhaowords")),
-            smyh_tc_trie = core.gen_smart_trie(smyh_tc_rev, "smyh_tc.smart"),
         }
     elseif not schemas then
         schemas = {}
@@ -61,24 +57,6 @@ function translator.init(env)
         core.full_mem = schemas.smyh_full
         core.word_trie = schemas.smyh_trie
     end
-
-    -- 同步開關狀態, 更新碼表
-    local function schema_switcher(ctx, name)
-        if name == core.switch_names.smyh_tc then
-            local enabled = ctx:get_option(name)
-            if enabled then
-                core.base_mem = schemas.smyh_tc_base
-                core.full_mem = schemas.smyh_tc_full
-                core.word_trie = schemas.smyh_tc_trie
-            else
-                core.base_mem = schemas.smyh_base
-                core.full_mem = schemas.smyh_full
-                core.word_trie = schemas.smyh_trie
-            end
-        end
-    end
-    schema_switcher(env.engine.context, core.switch_names)
-    env.engine.context.option_update_notifier:connect(schema_switcher)
 
     -- 構造回調函數
     local option_names = {

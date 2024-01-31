@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 schema:
-  schema_id: smyh_tc.base
-  name: 吉旦餅·基礎碼表
+  schema_id: smyh.words
+  name: 吉旦餅·全碼官宇詞庫
   description: |
     辅助方案，不能打字。
 
@@ -11,9 +11,8 @@ speller:
   alphabet: "qwertyuiopasdfghjklzxcvbnm"
   initials: "qwertyuiopasdfghjklzxcvbnm"
   algebra:
-    - derive/^([a-z]{1,3})[12]$/$1/
-    - xform/3/1/
+    - xform/([a-z])11$/$1$1$1/
 
 translator:
-  dictionary: smyh_tc.base
+  dictionary: smyh.words
   enable_user_dict: false

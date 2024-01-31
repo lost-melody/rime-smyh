@@ -19,11 +19,7 @@ schema:
     # 基础码表
     - smyh.base
     # 全码官宇词库
-    - smyh.yuhaowords
-    # 基础码表
-    - smyh_tc.base
-    # 全码官宇词库
-    - smyh_tc.yuhaowords
+    - smyh.words
     # 符號碼表
     - smyh.symbols
 
@@ -46,9 +42,6 @@ switches:
   - name: embeded_cands
     states: [ 普通, 嵌入 ]
     reset: 1
-  - name: smyh_tc
-    states: [ 簡化字, 傳統字 ]
-    reset: 0
   - name: completion
     states: [ 簡潔, 預測 ]
     reset: 0
@@ -216,7 +209,6 @@ wafel:
       - { type: switch, name: single_char, states: [ □智能, ■純單 ] }
       - { type: radio, names: [ full.word, full.char, full.off ], states: [ ☑☑字詞, ☐☑全單, ☐☐三碼 ] }
       - { type: switch, name: embeded_cands, states: [ ☐嵌入, ☑嵌入 ] }
-      - { type: switch, name: smyh_tc, states: [ □簡化字, ■傳統字 ] }
       - { type: switch, name: completion, states: [ □簡潔, ■補全 ] }
       - { type: radio, names: [ division.off, division.lv1, division.lv2, division.lv3, division.lv4 ], states: [ ☐☐☐☐註解, ☑☐☐☐註解, ☐☑☐☐註解, ☐☐☑☐註解, ☐☐☐☑註解 ] }
     date:
@@ -238,8 +230,6 @@ wafel:
         states: [ "☑☑四碼字詞: 顯示所有候選", "☐☑四碼全單: 隐藏詞語候選", "☐☐僅三碼: 隐藏四碼候選" ]
     smart:
       - { type: switch, name: single_char, states: [ □智能組詞, ■純單模式 ] }
-    trad:
-      - { type: switch, name: smyh_tc, states: [ "□簡化字: 使用簡化字碼表", "■傳統字: 使用傳統字碼表" ] }
     comp:
       - type: switch
         name: completion
