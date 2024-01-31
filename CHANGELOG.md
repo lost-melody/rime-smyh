@@ -12,6 +12,14 @@
 
 ## 更新日誌
 
+### 雞蛋餅 2023-01-31 更新:
+
+- 移除 `smyh_tc` 方案文件, 移除 `/trad` 命令.
+- 文件名調整:
+    - `smyh.yuhaofull.dict.yaml` -> `smyh.full.dict.yaml`.
+    - `smyh.yuhaowords.dict.yaml` -> `smyh.yuhaowords.dict.yaml`.
+    - `smyh.yuhaowords.schema.yaml` -> `smyh.yuhaowords.schema.yaml`.
+
 ### 雞蛋餅 2023-12-28 更新:
 
 - 主要拆分調整:
