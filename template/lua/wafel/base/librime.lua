@@ -623,7 +623,7 @@ function librime.New.LevelDb(dbname)
     ---@diagnostic disable-next-line: undefined-global
     local ok, ldb = pcall(LevelDb, dbname)
     if not ok then
-        local dbpath = librime.api.get_user_data_dir() .. "/" .. dbname .. ".userdb"
+        local dbpath = librime.api.get_user_data_dir() .. "/" .. dbname
         ---@diagnostic disable-next-line: undefined-global
         _, ldb = pcall(LevelDb, dbpath, dbname)
     end
