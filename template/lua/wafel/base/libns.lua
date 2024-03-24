@@ -1,7 +1,7 @@
 ---wafel namespace配置信息核心庫
 local libns = {}
 
-local ctypes = require("librime").config_types
+local ctypes = require("wafel.base.librime").config_types
 
 ---默認配置原型定義
 local empty_config = {}

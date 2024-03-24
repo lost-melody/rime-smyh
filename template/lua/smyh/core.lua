@@ -71,7 +71,6 @@ core.switch_names = {
     full_char     = "full.char",
     full_off      = "full.off",
     embeded_cands = "embeded_cands",
-    smyh_tc       = "smyh_tc",
     completion    = "completion",
 }
 
@@ -626,7 +625,7 @@ end
 function core.gen_smart_trie(base_rev, db_name)
     local result = {
         base_rev  = base_rev,
-        db_path   = rime_api.get_user_data_dir() .. "/" .. db_name .. ".userdb",
+        db_path   = rime_api.get_user_data_dir() .. "/" .. db_name,
         dict_path = rime_api.get_user_data_dir() .. "/" .. db_name .. ".txt",
     }
 

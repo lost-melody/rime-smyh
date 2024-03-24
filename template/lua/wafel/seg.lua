@@ -1,16 +1,15 @@
-local segmentor = {}
-
----@param env Env
-function segmentor.init(env)
-end
+local librime = require("wafel.base.librime")
+local reg = require("wafel.core.reg")
 
 ---@param segmentation Segmentation
 ---@param env Env
-function segmentor.func(segmentation, env)
-end
-
----@param env Env
-function segmentor.fini(env)
+local function segmentor(segmentation, env)
+    for i, handler in ipairs(reg.segmentors) do
+        local success, err = pcall(handler, segmentation, env)
+        if not success then
+            librime.log.warnf("failed to call translator[%d]: %s", i, err)
+        end
+    end
 end
 
 return segmentor

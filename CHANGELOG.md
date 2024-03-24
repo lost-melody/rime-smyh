@@ -12,6 +12,23 @@
 
 ## 更新日誌
 
+### 雞蛋餅 2023-01-31 更新:
+
+- 移除 `smyh_tc` 方案文件, 移除 `/trad` 命令.
+- 文件名調整:
+    - `smyh.yuhaofull.dict.yaml` -> `smyh.full.dict.yaml`.
+    - `smyh.yuhaowords.dict.yaml` -> `smyh.yuhaowords.dict.yaml`.
+    - `smyh.yuhaowords.schema.yaml` -> `smyh.yuhaowords.schema.yaml`.
+
+### 雞蛋餅 2023-12-28 更新:
+
+- 主要拆分調整:
+    - `丝 = <纟上><纟上>一`.
+    - `卞 = 丶下`.
+    - `垂 = 千龷一`.
+    - `華 = 艹一龷十`.
+- 大字集錯碼修正若幹.
+
 ### 雞蛋餅 2023-12-06 更新:
 
 - 爲 `ascii_mode` 增加狀態描述, 以便在 `Hamster` 中正確顯示中文切換狀態.
