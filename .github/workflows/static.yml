@@ -31,5 +31,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           body_path: CHANGELOG.md
-          files: docs/assets/info-${{ github.ref_name }}.zip
+          files: docs/assets/into-${{ github.ref_name }}.zip
           make_latest: 'true'
