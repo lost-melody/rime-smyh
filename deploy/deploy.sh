@@ -3,7 +3,7 @@
 cd "$(dirname $0)"
 WD="$(pwd)"
 DOC="../docs"
-TIME="$(date +%Y%m%d%H%M)"
+REF_NAME="${REF_NAME:-v$(date +%Y%m%d%H%M)}"
 mkdir -p "${DOC}"/assets
 
 gen_schema() {
@@ -21,7 +21,7 @@ gen_schema() {
     cp ../template/lua/smyh/*.lua "${SCHEMA}/lua/smyh"
     cp ../template/opencc/*.json ../template/opencc/*.txt "${SCHEMA}/opencc"
     sed -i "s/name: 吉旦餅/name: 吉旦餅·${NAME}/g" "${SCHEMA}"/smyh.{custom,schema}.yaml
-    sed -i "s/version: beta/version: beta.${TIME}/g" "${SCHEMA}"/*.dict.yaml "${SCHEMA}"/smyh.schema.yaml
+    sed -i "s/version: beta/version: ${REF_NAME}/g" "${SCHEMA}"/*.dict.yaml "${SCHEMA}"/smyh.schema.yaml
     # 使用 deploy/wafel 覆蓋默認值
     if [ -d "${NAME}" ]; then
         cp -r "${NAME}"/*.txt /tmp/"${NAME}"
@@ -41,8 +41,8 @@ gen_schema() {
     cat /tmp/div.txt >"${SCHEMA}/opencc/smyh_div.txt"
     # 打包
     cd "${SCHEMA}"
-    zip -rq "../assets/${NAME}-${TIME}.zip" "./" || return 1
-    cd "../assets" && ln -fs "${NAME}-${TIME}.zip" "${NAME}-latest.zip"
+    zip -rq "../assets/${NAME}-${REF_NAME}.zip" "./" || return 1
+    # cd "../assets" && ln -fs "${NAME}-${REF_NAME}.zip" "${NAME}-latest.zip"
     cd "${WD}"
     # echo "<li> ${DESC} <a href=\"./assets/${NAME}-${TIME}.zip\"> ${NAME}-latest.zip </a></li>" >>"${DOC}"/index.html
     # 清理
