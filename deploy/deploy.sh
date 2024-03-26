@@ -44,18 +44,18 @@ gen_schema() {
     zip -rq "../assets/${NAME}-${TIME}.zip" "./" || return 1
     cd "../assets" && ln -fs "${NAME}-${TIME}.zip" "${NAME}-latest.zip"
     cd "${WD}"
-    echo "<li> ${DESC} <a href=\"./assets/${NAME}-${TIME}.zip\"> ${NAME}-latest.zip </a></li>" >>"${DOC}"/index.html
+    # echo "<li> ${DESC} <a href=\"./assets/${NAME}-${TIME}.zip\"> ${NAME}-latest.zip </a></li>" >>"${DOC}"/index.html
     # 清理
     rm /tmp/{char,fullcode,div}.txt
     rm -rf "${SCHEMA}"
     rm -rf /tmp/"${NAME}"
 }
 
-echo >"${DOC}"/index.html
-echo "<!DOCTYPE html><html>" \
-    "<head><meta charset=\"utf-8\" /><title>雞蛋餅·下載</title></head>" \
-    "<body><p>可用的方案列表:</p><ul>" \
-    >>"${DOC}"/index.html
+# echo >"${DOC}"/index.html
+# echo "<!DOCTYPE html><html>" \
+#     "<head><meta charset=\"utf-8\" /><title>雞蛋餅·下載</title></head>" \
+#     "<body><p>可用的方案列表:</p><ul>" \
+#     >>"${DOC}"/index.html
 
 # 打包 Into 方案
 gen_schema into 半音托版 || exit 1
@@ -64,4 +64,4 @@ gen_schema into 半音托版 || exit 1
 # 打包 Star 方案
 # gen_schema star 星陳版 || exit 1
 
-echo "</ul></body></html>" >>"${DOC}/index.html"
+# echo "</ul></body></html>" >>"${DOC}/index.html"
