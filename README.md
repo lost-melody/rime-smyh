@@ -14,7 +14,7 @@
 ## 一些说明
 
 - 方案文件下載.
-    - 不建議普通用户Clone Repo, 請移步[此方案打包的下載頁](https://lost-melody.github.io/rime-smyh/)
+    - 不建議普通用户Clone Repo, 請移步 [此方案的發佈頁](https://lost-melody.github.io/rime-smyh/releases)
 - ~暫無字根圖~, 用反查練就完事了.
     - 下載的 `into-latest.zip` 中附有一份 *ASCII* 字根對照表: `mappings_table.txt`.
     - 還有 [字根網頁](https://lost-melody.github.io/wafel)以供收藏.
