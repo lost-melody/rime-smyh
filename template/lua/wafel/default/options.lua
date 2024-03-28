@@ -16,9 +16,11 @@ local options = {
     },
     ---@class WafelDictsOptions
     ---@field main? string 主詞典的 `schema_id`
+    ---@field word? string 四碼全碼詞典的 `schema_id`
     ---@field smart? string 自動選重詞典的 `schema_id`
     dicts = {
         main = "wafel.main",
+        word = "wafel.word",
         smart = "wafel.smart",
     },
     ---@class WafelEmbededCandsOptions

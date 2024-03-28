@@ -22,6 +22,11 @@ local function processor(key_event, env)
         end
     end
 
+    -- 空輸入串不觸發 processor
+    if env.engine.context.input == "" then
+        return librime.process_results.kNoop
+    end
+
     -- 調用注册的 Processor 路由
     for i, handler in ipairs(reg.processors) do
         local success, result = pcall(handler, key_event, env)

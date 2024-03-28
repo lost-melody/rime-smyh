@@ -14,12 +14,13 @@ reg.add_processor(stash.preprocess)
 reg.add_processor(macro.processor)
 reg.add_processor(stash.backspace)
 reg.add_processor(stash.selectionkeys)
+reg.add_processor(stash.clearact)
 
 -- macro; single; stash(fullcode; smart)
 reg.add_translator(macro.translator)
 
 -- charset
-reg.add_translator(charset.filter)
+reg.add_filter(charset.filter)
 
 -- embeded
 reg.add_post_filter(embeded_cands.filter)

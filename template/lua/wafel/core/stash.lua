@@ -22,6 +22,15 @@ local function replace_funckeys(input)
 end
 
 ---@param input string
+local function restore_funckeys(input)
+    return string.gsub(input, "([1-3])", {
+        ["1"] = "a",
+        ["2"] = "b",
+        ["3"] = "c",
+    })
+end
+
+---@param input string
 ---@return string[] code_segs, string remaining
 local function get_code_segs(input)
     local code_segs = {}
@@ -71,6 +80,8 @@ end
 
 ---@type table<integer, boolean>, table<integer, boolean>, table<integer, boolean>
 local primary, secondary, tertiary
+---@type table<integer, boolean>
+local clearact
 
 ---@param list integer[]|nil
 ---@return table<integer, boolean>
@@ -94,7 +105,7 @@ function stash.selectionkeys(key_event, env)
     tertiary = tertiary or list_to_set(funckeys.tertiary)
 
     if primary[keycode] or secondary[keycode] or tertiary[keycode] then
-        if string.match(bus.stash.active.code, "^[a-y][a-z]?$") then
+        if string.match(bus.active.code, "^[a-y][a-z]?$") then
             if primary[keycode] then
                 ctx:push_input(" a")
             elseif secondary[keycode] then
@@ -104,6 +115,23 @@ function stash.selectionkeys(key_event, env)
             end
             return librime.process_results.kAccepted
         end
+    end
+
+    return librime.process_results.kNoop
+end
+
+---@type WafelProcessor
+function stash.clearact(key_event, env)
+    local ctx = env.engine.context
+
+    local keycode = key_event.keycode
+    local funckeys = reg.options.funckeys or {}
+    clearact = clearact or list_to_set(funckeys.clearact)
+
+    if clearact[keycode] and bus.active.code ~= "" then
+        bus.active.code = table.remove(bus.stash.code_segs)
+        ctx:pop_input(#restore_funckeys(bus.active.code))
+        return librime.process_results.kAccepted
     end
 
     return librime.process_results.kNoop

@@ -86,7 +86,7 @@ function macro.processor(key_event, env)
 end
 
 ---@type WafelTranslator
-function macro.translator(input, seg, env)
+function macro.translator(_, seg, env)
     if string.match(bus.input.code, "^/") then
         local ctx = env.engine.context
 
