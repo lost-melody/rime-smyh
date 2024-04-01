@@ -83,7 +83,7 @@ patch:
         name: 訪問倉庫
       - type: shell
         name: ⚛吉旦餅
-        cmd: url="https://github.com/lost-melody/rime-smyh/tree/wafel" &&
+        cmd: url="https://github.com/lost-melody/rime-smyh" &&
           type open && open "${url}" ||
           type xdg-open && xdg-open "${url}" ||
           echo "${url}"
