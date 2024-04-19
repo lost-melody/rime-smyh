@@ -6,12 +6,16 @@ patch:
   # 2. 該開關項寫在 *default.yaml* (*default.custom.yaml*) 的 `switcher/save_options` 列表中,
   #   例如在 *default.custom.yaml* 中寫入: `patch/switcher/save_options: [ single_char, embeded_cands ]`.
   # 3. 開關項的變動是通過 *方案選單* 或 `zhelp` 操作的; 也就是説如果通過快捷鍵操作, 就不會記憶值.
+  switches/@0/reset: 0 # 中文標點·西文標點
+  switches/@1/reset: 0 # 半角·全角
+  switches/@2/reset: 0 # 注解: 關·一·二·三·四
   switches/@3/reset: 0 # 智能組詞·純單模式
   switches/@4/reset: 0 # 四碼字詞·四碼全單·僅三碼
   switches/@5/reset: 1 # 普通模式·嵌入編碼
-  switches/@6/reset: 0 # 簡化字·傳統字
-  switches/@7/reset: 0 # 簡潔模式·編碼預測
-  switches/@8/reset: 0 # 不過濾·僅常用字
+  switches/@6/reset: 0 # 簡潔模式·編碼預測
+  switches/@7/reset: 0 # 不過濾·僅常用字
+  switches/@8/reset: 0 # 無IVD聯想·IVD聯想
+  switches/@9/reset: 0 # 中文模式·ASCII模式
   switches/+:
   key_binder/bindings/+:
   ascii_composer/switch_key/+:
