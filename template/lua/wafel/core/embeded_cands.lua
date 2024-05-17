@@ -125,7 +125,7 @@ local function render_embeded(iter, env, yield)
 
     local digested = false
     local index = 0
-    local get_next = iter()
+    local get_next = iter
     local next = get_next()
     while next do
         index = index % page_size + 1

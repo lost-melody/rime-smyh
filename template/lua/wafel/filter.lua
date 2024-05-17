@@ -16,6 +16,7 @@ local function filter(input, env)
     -- lua_filter@wafel.filter@post
     if env.name_space ~= "post" then
         for i, handler in ipairs(reg.filters) do
+            ---@param yield fun(cand: Candidate)
             iterator = libiter.wrap_iterator(iterator, function(iterable, yield)
                 local success, err = pcall(handler, iterable, env, yield)
                 if not success then
@@ -25,6 +26,7 @@ local function filter(input, env)
         end
     else
         for i, handler in ipairs(reg.post_filters) do
+            ---@param yield fun(cand: Candidate)
             iterator = libiter.wrap_iterator(iterator, function(iterable, yield)
                 local success, err = pcall(handler, iterable, env, yield)
                 if not success then
@@ -34,7 +36,7 @@ local function filter(input, env)
         end
     end
 
-    for cand in iterator() do
+    for cand in iterator do
         librime.yield(cand)
     end
 end

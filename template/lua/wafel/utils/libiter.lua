@@ -22,20 +22,18 @@ local libiter = {}
 --- end
 --- -- 構造迭代器
 --- local iter = wrap_iterator(arr, filter)
---- for v in iter() do print(v) end
+--- for v in iter do print(v) end
 --- ```
 ---
 ---@generic Iter
 ---@generic T
 ---@param iterable Iter
 ---@param handler fun(iter: Iter, yield: fun(_: T))
----@return fun(): fun(): T|nil
+---@return fun(): T|nil
 function libiter.wrap_iterator(iterable, handler)
-    return function()
-        return coroutine.wrap(function()
-            handler(iterable, coroutine.yield)
-        end)
-    end
+    return coroutine.wrap(function()
+        handler(iterable, coroutine.yield)
+    end)
 end
 
 ---從數組創建迭代器, 通過 `wrap_iterator` 實現
@@ -45,7 +43,7 @@ end
 --- ```
 --- local arr = { 3, 1, 4, 1, 5, 9 }
 --- local iter = wrap_iterator_from_array(arr)
---- for v in iter() do print(v) end
+--- for v in iter do print(v) end
 --- ```
 ---
 ---@generic T

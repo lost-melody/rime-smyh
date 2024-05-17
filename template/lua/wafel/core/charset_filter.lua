@@ -29,14 +29,14 @@ function charset_filter.filter(iter, _, yield)
     if reg.switches[reg.options.charset_filter.option_name] then
         -- filter enabled
         charset = charset or load_charset_file(reg.options.charset_filter.filename)
-        for cand in iter() do
+        for cand in iter do
             if utf8.len(cand.text) ~= 1 or charset[cand.text] then
                 yield(cand)
             end
         end
     else
         -- filter disabled
-        for cand in iter() do
+        for cand in iter do
             yield(cand)
         end
     end

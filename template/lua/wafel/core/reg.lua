@@ -7,7 +7,7 @@ local librime = require("wafel.base.librime")
 ---@alias WafelProcessor fun(key_event: KeyEvent, env: Env): ProcessResult
 ---@alias WafelSegmentor fun(segmentation: Segmentation, env: Env)
 ---@alias WafelTranslator fun(input: string, seg: Segment, env: Env)
----@alias WafelFilter fun(iterable: fun(): (fun(): Candidate|nil), env: Env, yield: fun(cand: Candidate))
+---@alias WafelFilter fun(iterable: (fun(): Candidate|nil), env: Env, yield: fun(cand: Candidate))
 
 ---配置项
 ---@type WafelOptions
