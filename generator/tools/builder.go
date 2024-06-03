@@ -29,6 +29,7 @@ var cjkExtSet = map[rune]rune{
 	0x2f800: 0x2fa1f, // Uni
 	0x2f00:  0x2fdf,  // Kangxi
 	0x2e80:  0x2eff,  // CJK radical ext
+	0xe000:  0xf8ff,  // PUA
 }
 
 func init() {
