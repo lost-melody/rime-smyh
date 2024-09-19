@@ -32,16 +32,13 @@
 势	ch1
 便	ef1
 否	eo1
-货	ev1
 逼	fo1
 赤	gu1
 浮	ib1
-颗	ja1
 宗	kd1
 守	km1
 衣	lx1
 特	mg1
 品	oo1
 始	rk1
-领	rl1
 亲	xa1
