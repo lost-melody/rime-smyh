@@ -1,6 +1,7 @@
 package tools
 
 import (
+	"fmt"
 	"sort"
 	"strings"
 
@@ -375,6 +376,9 @@ func calcCodeByDiv(div []string, mappings map[string]string, freq int64) (full s
 	}
 	for _, comp := range div {
 		compCode := mappings[comp]
+		if len(compCode) == 0 {
+			panic(fmt.Errorf("component '%s' of %v not found in mappings table", comp, div))
+		}
 		code += compCode[:1]
 		stack = compCode[1:] + stack
 		full += compCode
