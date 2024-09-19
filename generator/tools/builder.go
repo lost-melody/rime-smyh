@@ -1,6 +1,7 @@
 package tools
 
 import (
+	"fmt"
 	"sort"
 	"strings"
 
@@ -12,6 +13,11 @@ const fallBackFreq = 100
 var (
 	leftHandKeys   = []byte("qwertasdfgzxcvb")
 	leftHandKeySet = map[byte]struct{}{}
+)
+
+const (
+	cjkBaseLeft  = 0x4e00
+	cjkBaseRight = 0x9fff
 )
 
 var cjkExtSet = map[rune]rune{
@@ -51,13 +57,8 @@ func acceptCharacter(char string, cjkExtWhiteSet map[rune]bool) (accept bool) {
 		return
 	}
 
-	for left, right := range cjkExtSet {
-		if u >= left && u <= right {
-			return
-		}
-	}
-
-	accept = true
+	// 僅保留 CJK 基本區字符
+	accept = u >= cjkBaseLeft && u <= cjkBaseRight
 	return
 }
 
@@ -375,6 +376,9 @@ func calcCodeByDiv(div []string, mappings map[string]string, freq int64) (full s
 	}
 	for _, comp := range div {
 		compCode := mappings[comp]
+		if len(compCode) == 0 {
+			panic(fmt.Errorf("component '%s' of %v not found in mappings table", comp, div))
+		}
 		code += compCode[:1]
 		stack = compCode[1:] + stack
 		full += compCode
@@ -387,7 +391,15 @@ func calcCodeByDiv(div []string, mappings map[string]string, freq int64) (full s
 func calcFullCodeByDiv(div []string, mappings map[string]string) (full string, code string) {
 	stack := "11"
 	for _, comp := range div {
+		if comp == "～" && len(stack) != 0 {
+			code += stack[:1]
+			stack = stack[1:]
+			continue
+		}
 		compCode := mappings[comp]
+		if len(compCode) == 0 {
+			panic(fmt.Errorf("component '%s' of %v not found in mappings table", comp, div))
+		}
 		code += compCode[:1]
 		stack = compCode[1:] + stack
 		full += compCode
