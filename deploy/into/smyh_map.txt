@@ -253,7 +253,7 @@ Rj	见
 Rl	隶
 Rm	人
 Rn	目
-Rv	
+Rv	{曹上}
 Rw	兀
 Rx	襾
 Rx	西
