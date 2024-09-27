@@ -12,40 +12,8 @@ local librime = {}
 -- 不清楚的方法定義爲 `function`,
 -- 後續將通過 *librime* 和 *librime-lua* 源碼進一步補全
 
----配置節點類型枚舉
----@enum ConfigType
-librime.config_types = {
-    kNull = "kNull", -- 空節點
-    kScalar = "kScalar", -- 純數據節點
-    kList = "kList", -- 列表節點
-    kMap = "kMap", -- 字典節點
-}
-
----分詞片段類型枚舉
----@enum SegmentType
-librime.segment_types = {
-    kVoid = "kVoid",
-    kGuess = "kGuess",
-    kSelected = "kSelected",
-    kConfirmed = "kConfirmed",
-}
-
----按鍵處理器返回結果枚舉
----@enum ProcessResult
-librime.process_results = {
-    kRejected = 0,
-    kAccepted = 1,
-    kNoop = 2,
-}
-
----修飾鍵掩碼枚舉
----@enum ModifierMask
-librime.modifier_masks = {
-    kShift = 0x1,
-    kLock = 0x2,
-    kControl = 0x4,
-    kAlt = 0x8,
-}
+---一些枚舉類型
+librime.enum = {}
 
 ---對 *librime-lua* 構造方法的封裝
 ---例如原先構造候選項的方法:
@@ -55,6 +23,58 @@ librime.modifier_masks = {
 --- `librime.New.Candidate({type="", start=1, _end=2, text=""})`
 ---實現, 增加了語法提示, 也允許一些個性化的封裝
 librime.New = {}
+
+---用於檢查當前 os 信息的方法
+librime.os = {}
+
+---用於操作 Config 的方法
+librime.config = {}
+
+---配置節點類型枚舉
+---@enum ConfigType
+librime.enum.config_types = {
+    kNull = "kNull", -- 空節點
+    kScalar = "kScalar", -- 純數據節點
+    kList = "kList", -- 列表節點
+    kMap = "kMap", -- 字典節點
+}
+
+---分詞片段類型枚舉
+---@enum SegmentType
+librime.enum.segment_types = {
+    kVoid = "kVoid",
+    kGuess = "kGuess",
+    kSelected = "kSelected",
+    kConfirmed = "kConfirmed",
+}
+
+---按鍵處理器返回結果枚舉
+---@enum ProcessResult
+librime.enum.process_results = {
+    kRejected = 0,
+    kAccepted = 1,
+    kNoop = 2,
+}
+
+---修飾鍵掩碼枚舉
+---@enum ModifierMask
+librime.enum.modifier_masks = {
+    kShift = 0x1,
+    kLock = 0x2,
+    kControl = 0x4,
+    kAlt = 0x8,
+}
+
+---操作系統類型枚舉
+---@enum RimeOSType
+librime.enum.os_types = {
+    unknown = "unknown",
+    android = "android",
+    ios = "ios",
+    linux = "linux",
+    darwin = "darwin",
+    windows = "windows",
+}
 
 ---記録日志
 librime.log = {
@@ -628,6 +648,65 @@ function librime.New.LevelDb(dbname)
         _, ldb = pcall(LevelDb, dbpath, dbname)
     end
     return ldb
+end
+
+---操作系統類型
+---@type RimeOSType
+librime.os.name = librime.enum.os_types.unknown
+
+---通過 *rime_api* 查詢 *librime* 發行版本, 從而獲知系統版本
+local dist = librime.api.get_distribution_code_name()
+if dist == "trime" then
+    librime.os.name = librime.enum.os_types.android
+elseif dist == "Hamster" then
+    librime.os.name = librime.enum.os_types.ios
+elseif dist == "fcitx-rime" or dist == "ibus-rime" then
+    librime.os.name = librime.enum.os_types.linux
+elseif dist == "Squirrel" then
+    librime.os.name = librime.enum.os_types.darwin
+elseif dist == "Weasel" then
+    librime.os.name = librime.enum.os_types.windows
+end
+
+---獲取詞典接口對象
+---@param env Env
+---@param schema_id string
+---@return Memory|nil
+function librime.get_mem(env, schema_id)
+    if #schema_id ~= 0 then
+        ---Schema 對象
+        local schema = librime.New.Schema(schema_id)
+        ---Memory 對象
+        return librime.New.Memory(env.engine, schema)
+    end
+end
+
+---遍歷一個ConfigMap的所有鍵值
+---@param config_map ConfigMap|nil
+---@param handler fun(key: string, item: ConfigItem)
+function librime.config.map_each(config_map, handler)
+    if config_map and config_map.type == librime.enum.config_types.kMap then
+        for _, key in ipairs(config_map:keys()) do
+            local item = config_map:get(key)
+            if item then
+                handler(key, item)
+            end
+        end
+    end
+end
+
+---遍歷一個ConfigList的所有項目
+---@param config_list ConfigList|nil
+---@param handler fun(i: integer, item: ConfigItem)
+function librime.config.list_each(config_list, handler)
+    if config_list and config_list.type == librime.enum.config_types.kList then
+        for i = 0, config_list.size - 1 do
+            local item = config_list:get_at(i)
+            if item then
+                handler(i, item)
+            end
+        end
+    end
 end
 
 ---格式化 Info 日志

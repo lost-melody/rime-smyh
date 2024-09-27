@@ -1,42 +1,50 @@
-local libmerge = {}
-
----@param obj table
----@return table
-function libmerge.clone(obj)
-    local copy = {}
-    for key, value in pairs(obj) do
-        if type(value) == "table" then
-            copy[key] = libmerge.clone(value)
-        else
-            copy[key] = value
-        end
-    end
-    return copy
-end
-
----@param obj table
----@param patch table
----@return table
-function libmerge.patch_table(obj, patch)
-    for key, value in pairs(patch) do
-        local typ = type(value)
-        if typ == "table" then
-            if type(obj[key]) ~= "table" then
-                -- 覆蓋
-                obj[key] = value
-            elseif #value == 0 then
-                -- 對象, 合併
-                libmerge.merge_table(obj[key], value)
+local _module_0 = {}
+local clone
+clone = function(obj)
+    if (type(obj)) == "table" then
+        local copy = {}
+        for key, value in pairs(obj) do
+            if (type(value)) == "table" then
+                copy[key] = clone(value)
             else
-                -- 列表, 覆蓋
-                obj[key] = value
+                copy[key] = value
             end
-        elseif typ == "number" or typ == "string" or typ == "boolean" or typ == "function" then
-            -- 覆蓋
-            obj[key] = value
+        end
+        return copy
+    else
+        return obj
+    end
+end
+_module_0["clone"] = clone
+local _anon_func_0 = function(type, value)
+    local _val_0 = (type(value))
+    return "boolean" == _val_0 or "number" == _val_0 or "string" == _val_0 or "function" == _val_0
+end
+local patch
+patch = function(obj, p)
+    if (type(obj)) == "table" and (type(p)) == "table" then
+        for key, value in pairs(p) do
+            if (type(value)) == "table" then
+                if (type(obj[key])) ~= "table" then
+                    obj[key] = clone(value)
+                elseif #value == 0 then
+                    obj[key] = patch(obj[key], value)
+                else
+                    local _accum_0 = {}
+                    local _len_0 = 1
+                    for _index_0 = 1, #value do
+                        local i = value[_index_0]
+                        _accum_0[_len_0] = i
+                        _len_0 = _len_0 + 1
+                    end
+                    obj[key] = _accum_0
+                end
+            elseif _anon_func_0(type, value) then
+                obj[key] = clone(value)
+            end
         end
     end
     return obj
 end
-
-return libmerge
+_module_0["patch"] = patch
+return _module_0

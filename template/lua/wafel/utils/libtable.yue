@@ -1,0 +1,34 @@
+---@param obj table
+---@return table
+export clone = (obj) ->
+    if (type obj) == "table"
+        copy = {}
+        for key, value in pairs obj
+            if (type value) == "table"
+                copy[key] = clone value
+            else
+                copy[key] = value
+        copy
+    else
+        obj
+
+---@param obj table
+---@param patch table
+---@return table
+export patch = (obj, p) ->
+    if (type obj) == "table" and (type p) == "table"
+        for key, value in pairs p
+            if (type value) == "table"
+                if (type obj[key]) != "table"
+                    -- 覆蓋
+                    obj[key] = clone value
+                elseif #value == 0
+                    -- 對象, 合併
+                    obj[key] = patch obj[key], value
+                else
+                    -- 列表, 覆蓋
+                    obj[key] = [i for i in *value]
+            elseif (type value) in ["boolean", "number", "string", "function"]
+                -- 覆蓋
+                obj[key] = clone value
+    obj
