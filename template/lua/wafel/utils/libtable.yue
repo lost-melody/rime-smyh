@@ -1,34 +1,29 @@
+---克隆對象, 支持表, 布尔, 數值和字符串
 ---@param obj table
 ---@return table
 export clone = (obj) ->
     if (type obj) == "table"
-        copy = {}
-        for key, value in pairs obj
-            if (type value) == "table"
-                copy[key] = clone value
-            else
-                copy[key] = value
-        copy
+        {k, clone v for k, v in pairs obj}
     else
         obj
 
+---將表 patch 的成員遞歸追加到表 obj 中
+---若 patch 僅有鍵值對而非數組 (#patch == 0), 則其鍵值會追加到 obj 中
+---若 patch 符合數組的性質 (#patch ~= 0), 則以 p 的數組元素覆蓋 obj
 ---@param obj table
 ---@param patch table
 ---@return table
-export patch = (obj, p) ->
-    if (type obj) == "table" and (type p) == "table"
-        for key, value in pairs p
-            if (type value) == "table"
-                if (type obj[key]) != "table"
-                    -- 覆蓋
-                    obj[key] = clone value
-                elseif #value == 0
-                    -- 對象, 合併
-                    obj[key] = patch obj[key], value
-                else
-                    -- 列表, 覆蓋
-                    obj[key] = [i for i in *value]
-            elseif (type value) in ["boolean", "number", "string", "function"]
-                -- 覆蓋
-                obj[key] = clone value
-    obj
+export merge = (obj, patch) ->
+    if (type obj) == "table" and (type patch) == "table"
+        if #patch == 0
+            -- patch 不是數組, 將鍵值對並入 obj
+            obj[key] = merge obj[key], value for key, value in pairs patch
+        else
+            -- patch 是數組, 清空 obj 数组成员, 保留鍵值對成員
+            table.remove obj until #obj == 0
+            table.insert obj, value for value in *patch
+        obj
+    elseif patch == nil
+        obj
+    else
+        clone patch

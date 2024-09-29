@@ -1,0 +1,17 @@
+---構造迭代器
+---其中 handler 負責讀取 iter 數據並通過 yield 送出
+---返回函數 iter(): any|nil, 可用於 for v in iter do end
+---@param iter any
+---@param handler fun(iter: any, yield: fun(_: any))
+---@return fun(): any|nil
+export wrap_iter = (iter, handler) ->
+    () <- coroutine.wrap
+    handler iter, coroutine.yield
+
+---縱數組構造迭代器
+---@param array any[]
+---@return fun(): any|nil
+export wrap_iter_from_array = (array) ->
+    (arr, yield) <- wrap_iter array
+    for v in *arr
+        yield v

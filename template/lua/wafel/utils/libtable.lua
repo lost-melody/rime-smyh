@@ -2,49 +2,38 @@ local _module_0 = {}
 local clone
 clone = function(obj)
     if (type(obj)) == "table" then
-        local copy = {}
-        for key, value in pairs(obj) do
-            if (type(value)) == "table" then
-                copy[key] = clone(value)
-            else
-                copy[key] = value
-            end
+        local _tbl_0 = {}
+        for k, v in pairs(obj) do
+            _tbl_0[k] = clone(v)
         end
-        return copy
+        return _tbl_0
     else
         return obj
     end
 end
 _module_0["clone"] = clone
-local _anon_func_0 = function(type, value)
-    local _val_0 = (type(value))
-    return "boolean" == _val_0 or "number" == _val_0 or "string" == _val_0 or "function" == _val_0
-end
-local patch
-patch = function(obj, p)
-    if (type(obj)) == "table" and (type(p)) == "table" then
-        for key, value in pairs(p) do
-            if (type(value)) == "table" then
-                if (type(obj[key])) ~= "table" then
-                    obj[key] = clone(value)
-                elseif #value == 0 then
-                    obj[key] = patch(obj[key], value)
-                else
-                    local _accum_0 = {}
-                    local _len_0 = 1
-                    for _index_0 = 1, #value do
-                        local i = value[_index_0]
-                        _accum_0[_len_0] = i
-                        _len_0 = _len_0 + 1
-                    end
-                    obj[key] = _accum_0
-                end
-            elseif _anon_func_0(type, value) then
-                obj[key] = clone(value)
+local merge
+merge = function(obj, patch)
+    if (type(obj)) == "table" and (type(patch)) == "table" then
+        if #patch == 0 then
+            for key, value in pairs(patch) do
+                obj[key] = merge(obj[key], value)
+            end
+        else
+            while not (#obj == 0) do
+                table.remove(obj)
+            end
+            for _index_0 = 1, #patch do
+                local value = patch[_index_0]
+                table.insert(obj, value)
             end
         end
+        return obj
+    elseif patch == nil then
+        return obj
+    else
+        return clone(patch)
     end
-    return obj
 end
-_module_0["patch"] = patch
+_module_0["merge"] = merge
 return _module_0
