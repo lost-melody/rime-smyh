@@ -1,200 +1,449 @@
----wafel 自定義宏核心庫
-local libmacro = {}
-
-local libos = require("wafel.base.libos")
-local librime = require("wafel.base.librime")
-
----@class Macro
----@field hijack? boolean
----@field display fun(self: self, env: Env, ctx: Context, args: string[]): string
----@field trigger fun(self: self, env: Env, ctx: Context, args: string[])
-local _Macro
-
----@type Switcher|nil
+local _module_0 = {}
+local os_types, libos
+do
+    local _obj_0 = require("wafel.base.librime")
+    os_types, libos = _obj_0.enum.os_types, _obj_0.os
+end
 local switcher
-
----設置開關狀態, 並更新保存的配置值
----@param env Env
----@param ctx Context
----@param option_name string
----@param value boolean
-local function set_option(env, ctx, option_name, value)
-    ctx:set_option(option_name, value)
-    if not switcher then
-        switcher = librime.New.Switcher(env.engine)
+local _anon_func_0 = function(Switcher, env)
+    if Switcher ~= nil then
+        return Switcher(env.engine)
     end
-    if switcher then
-        if switcher:is_auto_save(option_name) and switcher.user_config ~= nil then
-            switcher.user_config:set_bool("var/option/" .. option_name, value)
+    return nil
+end
+local _anon_func_1 = function(args)
+    local _accum_0 = {}
+    local _len_0 = 1
+    for _index_0 = 1, #args do
+        local arg = args[_index_0]
+        _accum_0[_len_0] = '"' .. arg .. '"'
+        _len_0 = _len_0 + 1
+    end
+    return _accum_0
+end
+local Macro
+do
+    local _class_0
+    local _base_0 = {
+        hijack = function(self)
+            return false
+        end,
+        display = function(self, env, ctx, args)
+            return self.name
+        end,
+        trigger = function(self, env, ctx, args)
+            return ctx:clear()
+        end,
+        set_option = function(self, env, ctx, name, value)
+            ctx:set_option(name, value)
+            switcher = switcher or _anon_func_0(Switcher, env)
+            if switcher and switcher:is_auto_save(name and switcher.user_config) then
+                return switcher.user_config:set_bool("var/option/" .. name, value)
+            end
+        end,
+        get_cmd_fd = function(self, cmd, args)
+            local cmdargs = table.concat(_anon_func_1(args), " ")
+            local cmdline = string.format("__macrowrapper() { %s ; }; __macrowrapper %s <<<''", cmd, cmdargs)
+            return io.popen(cmdline, "r")
+        end,
+    }
+    if _base_0.__index == nil then
+        _base_0.__index = _base_0
+    end
+    _class_0 = setmetatable({
+        __init = function(self, name)
+            self.name = name
+        end,
+        __base = _base_0,
+        __name = "Macro",
+    }, {
+        __index = _base_0,
+        __call = function(cls, ...)
+            local _self_0 = setmetatable({}, _base_0)
+            cls.__init(_self_0, ...)
+            return _self_0
+        end,
+    })
+    _base_0.__class = _class_0
+    Macro = _class_0
+end
+_module_0["Macro"] = Macro
+local MacroTip
+do
+    local _class_0
+    local _parent_0 = Macro
+    local _base_0 = {
+        display = function(self, env, ctx, args)
+            if #self.name ~= 0 then
+                return self.name
+            else
+                return self.text
+            end
+        end,
+        trigger = function(self, env, ctx, args)
+            if #self.text ~= 0 then
+                env.engine:commit_text(self.text)
+            end
+            return _class_0.__parent.__base.trigger(self, env, ctx, args)
+        end,
+    }
+    for _key_0, _val_0 in pairs(_parent_0.__base) do
+        if
+            _base_0[_key_0] == nil
+            and _key_0:match("^__")
+            and not (_key_0 == "__index" and _val_0 == _parent_0.__base)
+        then
+            _base_0[_key_0] = _val_0
         end
     end
-end
-
--- 下文的 new_tip, new_switch, new_radio 等是目前已實現的宏類型
--- 其返回類型統一定義爲:
--- {
---   display = function(self, env, ctx) ... end -> string
---   trigger = function(self, env, ctx) ... end
--- }
--- 其中:
--- display() 爲該宏在候選欄中顯示的效果
--- trigger() 爲該宏被選中時, 執行的操作
-
----提示語或快捷短語
----@param name string 候選提示詞
----@param text string 候選上屏字符
----@return Macro
-function libmacro.new_tip(name, text)
-    ---@type Macro
-    return {
-        ---@diagnostic disable-next-line: unused-local
-        display = function(self, env, ctx)
-            return #name ~= 0 and name or text
+    if _base_0.__index == nil then
+        _base_0.__index = _base_0
+    end
+    setmetatable(_base_0, _parent_0.__base)
+    _class_0 = setmetatable({
+        __init = function(self, name, text)
+            self.name = name
+            self.text = text
         end,
-        ---@diagnostic disable-next-line: unused-local
-        trigger = function(self, env, ctx)
-            if #text ~= 0 then
-                env.engine:commit_text(text)
-            end
-            ctx:clear()
-        end,
-    }
-end
-
----顯示開關狀態, 並在選中時切換狀態
----@param name string 開關名稱
----@param states string[] 開關狀態爲 關 和 開 時的顯示效果
----@return Macro
-function libmacro.new_switch(name, states)
-    ---@type Macro
-    return {
-        ---@diagnostic disable-next-line: unused-local
-        display = function(self, env, ctx)
-            local current_value = ctx:get_option(name)
-            local state
-            if current_value then
-                state = states[2] or "開"
+        __base = _base_0,
+        __name = "MacroTip",
+        __parent = _parent_0,
+    }, {
+        __index = function(cls, name)
+            local val = rawget(_base_0, name)
+            if val == nil then
+                local parent = rawget(cls, "__parent")
+                if parent then
+                    return parent[name]
+                end
             else
-                state = states[1] or "關"
+                return val
             end
-            return state
         end,
-        ---@diagnostic disable-next-line: unused-local
-        trigger = function(self, env, ctx)
-            local current_value = ctx:get_option(name)
-            if current_value ~= nil then
-                set_option(env, ctx, name, not current_value)
+        __call = function(cls, ...)
+            local _self_0 = setmetatable({}, _base_0)
+            cls.__init(_self_0, ...)
+            return _self_0
+        end,
+    })
+    _base_0.__class = _class_0
+    if _parent_0.__inherited then
+        _parent_0.__inherited(_parent_0, _class_0)
+    end
+    MacroTip = _class_0
+end
+_module_0["MacroTip"] = MacroTip
+local _anon_func_2 = function(states)
+    if states ~= nil then
+        return states[1]
+    end
+    return nil
+end
+local _anon_func_3 = function(states)
+    if states ~= nil then
+        return states[2]
+    end
+    return nil
+end
+local MacroSwitch
+do
+    local _class_0
+    local _parent_0 = Macro
+    local _base_0 = {
+        display = function(self, env, ctx, args)
+            if ctx:get_option(self.name) then
+                return self.states[2]
+            else
+                return self.states[1]
             end
+        end,
+        trigger = function(self, env, ctx, args)
+            local current_value = ctx:get_option(self.name)
+            if current_value ~= nil then
+                self.__class:set_option(env, ctx, self.name, not current_value)
+            end
+            return _class_0.__parent.__base.trigger(self, env, ctx, args)
         end,
     }
+    for _key_0, _val_0 in pairs(_parent_0.__base) do
+        if
+            _base_0[_key_0] == nil
+            and _key_0:match("^__")
+            and not (_key_0 == "__index" and _val_0 == _parent_0.__base)
+        then
+            _base_0[_key_0] = _val_0
+        end
+    end
+    if _base_0.__index == nil then
+        _base_0.__index = _base_0
+    end
+    setmetatable(_base_0, _parent_0.__base)
+    _class_0 = setmetatable({
+        __init = function(self, name, states)
+            self.name = name
+            self.states = {
+                _anon_func_2(states) or "關",
+                _anon_func_3(states) or "開",
+            }
+        end,
+        __base = _base_0,
+        __name = "MacroSwitch",
+        __parent = _parent_0,
+    }, {
+        __index = function(cls, name)
+            local val = rawget(_base_0, name)
+            if val == nil then
+                local parent = rawget(cls, "__parent")
+                if parent then
+                    return parent[name]
+                end
+            else
+                return val
+            end
+        end,
+        __call = function(cls, ...)
+            local _self_0 = setmetatable({}, _base_0)
+            cls.__init(_self_0, ...)
+            return _self_0
+        end,
+    })
+    _base_0.__class = _class_0
+    if _parent_0.__inherited then
+        _parent_0.__inherited(_parent_0, _class_0)
+    end
+    MacroSwitch = _class_0
 end
-
----顯示一組開關當前的狀態, 並在選中切換關閉當前項, 開啓下一項
----@param states { name: string, display: string }[] 各組開關的名稱及其開啓時的顯示效果
----@return Macro
-function libmacro.new_radio(states)
-    ---@type Macro
-    return {
-        ---@diagnostic disable-next-line: unused-local
-        display = function(self, env, ctx)
-            local state = ""
-            for _, op in ipairs(states) do
-                local value = ctx:get_option(op.name)
-                if value then
-                    state = op.display
-                    break
+_module_0["MacroSwitch"] = MacroSwitch
+local MacroRadio
+do
+    local _class_0
+    local _parent_0 = Macro
+    local _base_0 = {
+        display = function(self, env, ctx, args)
+            local _list_0 = self.states
+            for _index_0 = 1, #_list_0 do
+                local op = _list_0[_index_0]
+                if ctx:get_option(op.name) then
+                    return op.display
                 end
             end
-            return state
+            return _class_0.__parent.__base.display(self, env, ctx, args)
         end,
-        ---@diagnostic disable-next-line: unused-local
-        trigger = function(self, env, ctx)
-            for i, op in ipairs(states) do
+        trigger = function(self, env, ctx, args)
+            for i, op in ipairs(self.states) do
                 local value = ctx:get_option(op.name)
                 if value then
-                    -- 關閉當前選項, 開啓下一選項
-                    set_option(env, ctx, op.name, not value)
-                    set_option(env, ctx, states[i % #states + 1].name, value)
+                    self.__class:set_option(env, ctx, op.name, not value)
+                    self.__class:set_option(env, ctx, self.states[i % #self.states + 1], value)
                     return
                 end
             end
-            -- 全都没開, 那就開一下第一個吧
-            set_option(env, ctx, states[1].name, true)
+            return self.__class:set_option(env, ctx, self.states[1], true)
         end,
     }
-end
-
-local cmd_template = "__macrowrapper() { %s ; }; __macrowrapper %s <<<''"
-
----@param cmd string
----@param args string[]
-local function get_cmd_fd(cmd, args)
-    local cmdargs = {}
-    for _, arg in ipairs(args) do
-        table.insert(cmdargs, '"' .. arg .. '"')
+    for _key_0, _val_0 in pairs(_parent_0.__base) do
+        if
+            _base_0[_key_0] == nil
+            and _key_0:match("^__")
+            and not (_key_0 == "__index" and _val_0 == _parent_0.__base)
+        then
+            _base_0[_key_0] = _val_0
+        end
     end
-    return io.popen(string.format(cmd_template, cmd, table.concat(cmdargs, " ")), "r")
-end
-
----Shell 命令, 僅支持 Linux/Mac 系統, 其他平臺可通過 lua 宏自行擴展
----@param name string 非空時顯示爲候選文本, 否则顯示實時執行結果
----@param cmd string 待執行的命令内容
----@param commit_text boolean 爲 true 時, 命令執行結果上屏, 否则僅執行
----@param hijack? boolean
----@return Macro
-function libmacro.new_shell(name, cmd, commit_text, hijack)
-    if not libos.os:android() and not libos.os:linux() and not libos.os:darwin() then
-        return libmacro.new_tip(name, cmd)
+    if _base_0.__index == nil then
+        _base_0.__index = _base_0
     end
-
-    ---@type Macro
-    return {
-        hijack = hijack,
-        ---@diagnostic disable-next-line: unused-local
-        display = function(self, env, ctx, args)
-            return #name ~= 0 and name or commit_text and get_cmd_fd(cmd, args):read("a")
+    setmetatable(_base_0, _parent_0.__base)
+    _class_0 = setmetatable({
+        __init = function(self, name, states)
+            self.name = name
+            self.states = states or {}
         end,
-        ---@diagnostic disable-next-line: unused-local
-        trigger = function(self, env, ctx, args)
-            local fd = get_cmd_fd(cmd, args)
-            if commit_text then
-                local t = fd:read("a")
-                fd:close()
-                if #t ~= 0 then
-                    env.engine:commit_text(t)
+        __base = _base_0,
+        __name = "MacroRadio",
+        __parent = _parent_0,
+    }, {
+        __index = function(cls, name)
+            local val = rawget(_base_0, name)
+            if val == nil then
+                local parent = rawget(cls, "__parent")
+                if parent then
+                    return parent[name]
                 end
+            else
+                return val
             end
-            ctx:clear()
+        end,
+        __call = function(cls, ...)
+            local _self_0 = setmetatable({}, _base_0)
+            cls.__init(_self_0, ...)
+            return _self_0
+        end,
+    })
+    _base_0.__class = _class_0
+    if _parent_0.__inherited then
+        _parent_0.__inherited(_parent_0, _class_0)
+    end
+    MacroRadio = _class_0
+end
+_module_0["MacroRadio"] = MacroRadio
+local _anon_func_4 = function(libos, os_types)
+    local _val_0 = libos.name
+    return not (os_types.android == _val_0 or os_types.darwin == _val_0 or os_types.linux == _val_0)
+end
+local MacroCmd
+do
+    local _class_0
+    local _parent_0 = Macro
+    local _base_0 = {
+        hijack = function(self)
+            return self.hi
+        end,
+        display = function(self, env, ctx, args)
+            if self.tip then
+                return self.tip:display(env, ctx, args)
+            elseif #self.name ~= 0 then
+                return self.name
+            elseif self.commit then
+                local _with_0 = self.__class:get_cmd_fd(self.cmd, args)
+                local text = _with_0:read("a")
+                _with_0:close()
+                return text
+            else
+                return ""
+            end
+        end,
+        trigger = function(self, env, ctx, args)
+            if self.tip then
+                return self.tip:trigger(env, ctx, args)
+            else
+                do
+                    local _with_0 = self.__class:get_cmd_fd(self.cmd, args)
+                    local text = _with_0:read("a")
+                    _with_0:close()
+                    if #text ~= 0 then
+                        env.engine:commit_text(text)
+                    end
+                end
+                return _class_0.__parent.__base.trigger(self, env, ctx, args)
+            end
         end,
     }
-end
-
----Evaluate 宏, 執行給定的 lua 函數
----@param name string 非空時顯示爲候選文本, 否则顯示實時調用結果
----@param func fun(args: string[], env: Env): string 待調用的 lua 函數
----@param hijack? boolean
----@return Macro
-function libmacro.new_func(name, func, hijack)
-    ---@type Macro
-    return {
-        hijack = hijack,
-        ---@diagnostic disable-next-line: unused-local
-        display = function(self, env, ctx, args)
-            if #name ~= 0 then
-                return name
+    for _key_0, _val_0 in pairs(_parent_0.__base) do
+        if
+            _base_0[_key_0] == nil
+            and _key_0:match("^__")
+            and not (_key_0 == "__index" and _val_0 == _parent_0.__base)
+        then
+            _base_0[_key_0] = _val_0
+        end
+    end
+    if _base_0.__index == nil then
+        _base_0.__index = _base_0
+    end
+    setmetatable(_base_0, _parent_0.__base)
+    _class_0 = setmetatable({
+        __init = function(self, name, cmd, commit, hijack)
+            self.name = name
+            self.cmd = cmd
+            self.commit = commit
+            if _anon_func_4(libos, os_types) then
+                self.tip = MacroTip(self.name, self.cmd)
+            end
+            self.hi = hijack or nil
+        end,
+        __base = _base_0,
+        __name = "MacroCmd",
+        __parent = _parent_0,
+    }, {
+        __index = function(cls, name)
+            local val = rawget(_base_0, name)
+            if val == nil then
+                local parent = rawget(cls, "__parent")
+                if parent then
+                    return parent[name]
+                end
             else
-                return func(args, env)
+                return val
             end
         end,
-        ---@diagnostic disable-next-line: unused-local
-        trigger = function(self, env, ctx, args)
-            local res = func(args, env)
-            if #res ~= 0 then
+        __call = function(cls, ...)
+            local _self_0 = setmetatable({}, _base_0)
+            cls.__init(_self_0, ...)
+            return _self_0
+        end,
+    })
+    _base_0.__class = _class_0
+    if _parent_0.__inherited then
+        _parent_0.__inherited(_parent_0, _class_0)
+    end
+    MacroCmd = _class_0
+end
+_module_0["MacroCmd"] = MacroCmd
+local MacroFunc
+local _class_0
+local _parent_0 = Macro
+local _base_0 = {
+    hijack = function(self)
+        return self.hi
+    end,
+    display = function(self, env, ctx, args)
+        if #self.name ~= 0 then
+            return self.name
+        else
+            return self:func(args, env)
+        end
+    end,
+    trigger = function(self, env, ctx, args)
+        do
+            local res = (self:func(args, env)) and #res ~= 0
+            if res then
                 env.engine:commit_text(res)
             end
-            ctx:clear()
-        end,
-    }
+        end
+        return _class_0.__parent.__base.trigger(self, env, ctx, args)
+    end,
+}
+for _key_0, _val_0 in pairs(_parent_0.__base) do
+    if _base_0[_key_0] == nil and _key_0:match("^__") and not (_key_0 == "__index" and _val_0 == _parent_0.__base) then
+        _base_0[_key_0] = _val_0
+    end
 end
-
-return libmacro
+if _base_0.__index == nil then
+    _base_0.__index = _base_0
+end
+setmetatable(_base_0, _parent_0.__base)
+_class_0 = setmetatable({
+    __init = function(self, name, func, hijack)
+        self.name = name
+        self.func = func
+        self.hi = hijack or nil
+    end,
+    __base = _base_0,
+    __name = "MacroFunc",
+    __parent = _parent_0,
+}, {
+    __index = function(cls, name)
+        local val = rawget(_base_0, name)
+        if val == nil then
+            local parent = rawget(cls, "__parent")
+            if parent then
+                return parent[name]
+            end
+        else
+            return val
+        end
+    end,
+    __call = function(cls, ...)
+        local _self_0 = setmetatable({}, _base_0)
+        cls.__init(_self_0, ...)
+        return _self_0
+    end,
+})
+_base_0.__class = _class_0
+if _parent_0.__inherited then
+    _parent_0.__inherited(_parent_0, _class_0)
+end
+MacroFunc = _class_0
+_module_0["MacroFunc"] = MacroFunc
+return _module_0

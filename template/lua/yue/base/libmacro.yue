@@ -1,0 +1,126 @@
+import "wafel.base.librime" as { enum: { :os_types }, os: libos }
+
+local switcher
+
+export class Macro
+    ---@param name string
+    new: (@name) =>
+    ---是否捕獲選重鍵, 用於在函數宏中輸入數字等
+    hijack: => false
+    ---宏在候選欄中的展示效果
+    display: (env, ctx, args) => @name
+    ---宏在被選中時執行的動作
+    trigger: (env, ctx, args) => ctx::clear!
+    ---設置開關狀態, 並更新保存的配置值
+    ---static
+    ---@param env Env
+    ---@param ctx Context
+    ---@param name string
+    ---@param value boolean
+    set_option: (env, ctx, name, value) =>
+        ctx::set_option name, value
+        switcher = switcher or Switcher? env.engine
+        if switcher and switcher::is_auto_save name and switcher.user_config
+            switcher.user_config::set_bool "var/option/" .. name, value
+    ---執行 shell 命令, 並打開命令輸出
+    ---static
+    ---@param cmd string
+    ---@param args string[]
+    get_cmd_fd: (cmd, args) =>
+        cmdargs = table.concat ['"' .. arg .. '"' for arg in *args], " "
+        cmdline = string.format "__macrowrapper() { %s ; }; __macrowrapper %s <<<''", cmd, cmdargs
+        io.popen cmdline, "r"
+
+---提示語或快捷短語
+export class MacroTip extends Macro
+    ---@param name string
+    ---@param text string
+    new: (@name, @text) =>
+    display: (env, ctx, args) =>
+        if #@name != 0 then @name else @text
+    trigger: (env, ctx, args) =>
+        env.engine::commit_text @text if #@text != 0
+        super env, ctx, args
+
+---顯示開關狀態, 並在選中時切換狀態
+export class MacroSwitch extends Macro
+    ---@param name string 開關名稱
+    ---@param states string[] 開關狀態爲 關 和 開 時分别如何顯示
+    new: (@name, states) =>
+        @states = [states?[1] or "關", states?[2] or "開"]
+    display: (env, ctx, args) =>
+        if ctx::get_option @name then @states[2] else @states[1]
+    trigger: (env, ctx, args) =>
+        current_value = ctx::get_option @name
+        if current_value != nil
+            @@set_option env, ctx, @name, not current_value
+        super env, ctx, args
+
+---顯示一組開關當前的狀態, 並在選中切換關閉當前項, 開啓下一項
+export class MacroRadio extends Macro
+    ---@param name string
+    ---@param states { name: string, display: string }[] 各組開關的名稱及其開啓時的顯示效果
+    new: (@name, states) =>
+        @states = states or []
+    display: (env, ctx, args) =>
+        for op in *@states
+            if ctx::get_option op.name
+                return op.display
+        super env, ctx, args
+    trigger: (env, ctx, args) =>
+        for i, op in ipairs @states
+            if value := ctx::get_option op.name
+                -- 關閉當前開關, 開啓下一開關
+                @@set_option env, ctx, op.name, not value
+                @@set_option env, ctx, @states[i % #@states + 1], value
+                return
+        -- 全都没開, 則開啓第一個
+        @@set_option env, ctx, @states[1], true
+
+export class MacroCmd extends Macro
+    ---@param name string 非空時顯示爲候選文本, 否则顯示實時執行結果
+    ---@param cmd string 待執行的命令内容
+    ---@param commit_text boolean 爲 true 時, 命令執行結果上屏, 否则僅執行
+    ---@param hijack? boolean
+    new: (@name, @cmd, @commit, hijack) =>
+        if libos.name not in [os_types.android, os_types.darwin, os_types.linux]
+            -- 不受支持的系統, 實現爲 MacroTip
+            @tip = MacroTip(@name, @cmd)
+        @hi = hijack or nil
+    hijack: => @hi
+    display: (env, ctx, args) =>
+        if @tip
+            @tip::display env, ctx, args
+        elseif #@name != 0
+            @name
+        elseif @commit
+            with @@get_cmd_fd @cmd, args
+                text = ::read "a"
+                ::close!
+                return text
+        else
+            ""
+    trigger: (env, ctx, args) =>
+        if @tip
+            @tip::trigger env, ctx, args
+        else
+            with @@get_cmd_fd @cmd, args
+                text = ::read "a"
+                ::close!
+                env.engine::commit_text text if #text != 0
+            super env, ctx, args
+
+---函數宏, 執行給定的 lua 函數
+export class MacroFunc extends Macro
+    ---@param name string 非空時顯示爲候選文本, 否则顯示實時調用結果
+    ---@param func fun(args: string[], env: Env): string 待調用的 lua 函數
+    ---@param hijack? boolean
+    new: (@name, @func, hijack) =>
+        @hi = hijack or nil
+    hijack: => @hi
+    display: (env, ctx, args) =>
+        if #@name != 0 then @name else @func args, env
+    trigger: (env, ctx, args) =>
+        if res := (@func args, env) and #res != 0
+            env.engine::commit_text res
+        super env, ctx, args
