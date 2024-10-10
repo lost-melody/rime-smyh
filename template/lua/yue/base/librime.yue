@@ -1,0 +1,109 @@
+---一些枚舉類型
+export enum = {}
+
+---配置節點類型枚舉
+---@enum ConfigType
+enum.config_types = {
+    null: "kNull" -- 空節點
+    scalar: "kScalar" -- 純數據節點
+    list: "kList" -- 列表節點
+    map: "kMap" -- 字典節點
+}
+
+---分詞片段類型枚舉
+---@enum SegmentType
+enum.segment_types = {
+    void: "kVoid"
+    guess: "kGuess"
+    selected: "kSelected"
+    confirmed: "kConfirmed"
+}
+
+---按鍵處理器返回結果枚舉
+---@enum ProcessResult
+enum.process_results = {
+    rejected: 0
+    accepted: 1
+    noop: 2
+}
+
+---修飾鍵掩碼枚舉
+---@enum ModifierMask
+enum.modifier_masks = {
+    shift: 0x1
+    lock: 0x2
+    ctrl: 0x4
+    alt: 0x8
+}
+
+---操作系統類型枚舉
+---@enum RimeOSType
+enum.os_types = {
+    unknown: "unknown"
+    android: "android"
+    ios: "ios"
+    linux: "linux"
+    darwin: "darwin"
+    windows: "windows"
+}
+
+---操作系統類型
+---@type RimeOSType
+export os_name = enum.os_types.unknown
+
+---通過 *rime_api* 查詢 *librime* 發行版本, 從而獲知系統版本
+dist = rime_api.get_distribution_code_name()
+if dist == "trime"
+    os_name = enum.os_types.android
+elseif dist == "Hamster"
+    os_name = enum.os_types.ios
+elseif dist == "fcitx-rime" or dist == "ibus-rime"
+    os_name = enum.os_types.linux
+elseif dist == "Squirrel"
+    os_name = enum.os_types.darwin
+elseif dist == "Weasel"
+    os_name = enum.os_types.windows
+
+---用於操作 Config 的方法
+export config = {}
+
+---遍歷一個 ConfigMap 的所有鍵值
+---@param config_map ConfigMap|nil
+---@param handler fun(key: string, item: ConfigItem)
+config.map_each = (config_map, handler) ->
+    if config_map?.type == enum.config_types.kMap
+        for key in *config_map::keys!
+            handler key, item if item := config_map::get key
+
+---遍歷一個ConfigList的所有項目
+---@param config_list ConfigList|nil
+---@param handler fun(i: integer, item: ConfigItem)
+config.list_each = (config_list, handler) ->
+    if config_list?.type == enum.config_types.kList then
+        for i = 0, config_list.size - 1
+            handler i, item if item := config_list::get_at i
+
+---記録日志
+export log = {
+    ---@type fun(string)
+    info: log.info
+    ---@type fun(string)
+    warn: log.warning
+    ---@type fun(string)
+    error: log.error
+}
+
+---格式化 Info 日志
+---@param format string|number
+log.infof = (format, ...) ->
+    log.info string.format format, ...
+
+---格式化 Warn 日志
+---@param format string|number
+log.warnf = (format, ...) ->
+    log.warn string.format format, ...
+
+---格式化 Error 日志
+---@param format string|number
+log.errorf = (format, ...) ->
+    log.error string.format format, ...

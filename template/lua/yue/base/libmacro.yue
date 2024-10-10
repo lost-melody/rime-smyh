@@ -1,4 +1,4 @@
-import "wafel.base.librime" as { enum: { :os_types }, os: libos }
+import enum, os_name from "wafel.base.librime"
 
 local switcher
 
@@ -83,7 +83,8 @@ export class MacroCmd extends Macro
     ---@param commit_text boolean 爲 true 時, 命令執行結果上屏, 否则僅執行
     ---@param hijack? boolean
     new: (@name, @cmd, @commit, hijack) =>
-        if libos.name not in [os_types.android, os_types.darwin, os_types.linux]
+        import android, linux, darwin from enum.os_types
+        if os_name not in [android, linux, darwin]
             -- 不受支持的系統, 實現爲 MacroTip
             @tip = MacroTip(@name, @cmd)
         @hi = hijack or nil

@@ -1,0 +1,32 @@
+---Wafel init
+
+import enum from "wafel.base.librime"
+
+---lua_processor@*wafel*processor
+export processor = {
+    init: (env) -> enum.process_results.noop
+    func: (key_event, env) ->
+    fini: (env) ->
+}
+
+---lua_segmentor@*wafel*segmentor
+export segmentor = {
+    init: (env) ->
+    func: (segmentation, env) ->
+    fini: (env) ->
+}
+
+---lua_translator@*wafel*translator
+export translator = {
+    init: (env) ->
+    func: (input, seg, env) ->
+    fini: (env) ->
+}
+
+---lua_filter@*wafel*filter
+export filter = {
+    init: (env) ->
+    func: (input, env) ->
+    fini: (env) ->
+    -- tags_match: (segment, env) ->
+}
