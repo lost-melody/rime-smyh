@@ -1,6 +1,7 @@
 ---Wafel init
 
 import enum from "wafel.base.librime"
+import Switches from "wafel.core.lib"
 
 ---lua_processor@*wafel*processor
 export processor = {
@@ -19,6 +20,7 @@ export segmentor = {
 ---lua_translator@*wafel*translator
 export translator = {
     init: (env) ->
+        Switches!::init env
     func: (input, seg, env) ->
     fini: (env) ->
 }

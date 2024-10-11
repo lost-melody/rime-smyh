@@ -1,0 +1,9 @@
+export class Switches
+    ---@type table<string, boolean>
+    switches: {}
+    init: (env) =>
+        env?.engine.context?.option_update_handler.connect (ctx, name) ->
+            @@switches[name] = ctx::get_option name
+            ctx::refresh_non_confirmed_composition!
+    __call: (name) =>
+        @@switches[name]

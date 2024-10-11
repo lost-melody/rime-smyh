@@ -1,8 +1,8 @@
 local _module_0 = {}
-local os_types, libos
+local enum, os_name
 do
     local _obj_0 = require("wafel.base.librime")
-    os_types, libos = _obj_0.enum.os_types, _obj_0.os
+    enum, os_name = _obj_0.enum, _obj_0.os_name
 end
 local switcher
 local _anon_func_0 = function(Switcher, env)
@@ -34,9 +34,14 @@ do
         trigger = function(self, env, ctx, args)
             return ctx:clear()
         end,
-        set_option = function(self, env, ctx, name, value)
+        set_option = function(self, env, ctx, name, value, save)
+            if save == nil then
+                save = false
+            end
             ctx:set_option(name, value)
-            switcher = switcher or _anon_func_0(Switcher, env)
+            if save then
+                switcher = switcher or _anon_func_0(Switcher, env)
+            end
             if switcher and switcher:is_auto_save(name and switcher.user_config) then
                 return switcher.user_config:set_bool("var/option/" .. name, value)
             end
@@ -160,7 +165,7 @@ do
         trigger = function(self, env, ctx, args)
             local current_value = ctx:get_option(self.name)
             if current_value ~= nil then
-                self.__class:set_option(env, ctx, self.name, not current_value)
+                self.__class:set_option(env, ctx, self.name, not current_value, self.save)
             end
             return _class_0.__parent.__base.trigger(self, env, ctx, args)
         end,
@@ -179,8 +184,12 @@ do
     end
     setmetatable(_base_0, _parent_0.__base)
     _class_0 = setmetatable({
-        __init = function(self, name, states)
+        __init = function(self, name, states, save)
+            if save == nil then
+                save = false
+            end
             self.name = name
+            self.save = save
             self.states = {
                 _anon_func_2(states) or "關",
                 _anon_func_3(states) or "開",
@@ -233,12 +242,12 @@ do
             for i, op in ipairs(self.states) do
                 local value = ctx:get_option(op.name)
                 if value then
-                    self.__class:set_option(env, ctx, op.name, not value)
-                    self.__class:set_option(env, ctx, self.states[i % #self.states + 1], value)
+                    self.__class:set_option(env, ctx, op.name, not value, self.save)
+                    self.__class:set_option(env, ctx, self.states[i % #self.states + 1], value, self.save)
                     return
                 end
             end
-            return self.__class:set_option(env, ctx, self.states[1], true)
+            return self.__class:set_option(env, ctx, self.states[1], true, self.save)
         end,
     }
     for _key_0, _val_0 in pairs(_parent_0.__base) do
@@ -255,8 +264,12 @@ do
     end
     setmetatable(_base_0, _parent_0.__base)
     _class_0 = setmetatable({
-        __init = function(self, name, states)
+        __init = function(self, name, states, save)
+            if save == nil then
+                save = false
+            end
             self.name = name
+            self.save = save
             self.states = states or {}
         end,
         __base = _base_0,
@@ -287,10 +300,6 @@ do
     MacroRadio = _class_0
 end
 _module_0["MacroRadio"] = MacroRadio
-local _anon_func_4 = function(libos, os_types)
-    local _val_0 = libos.name
-    return not (os_types.android == _val_0 or os_types.darwin == _val_0 or os_types.linux == _val_0)
-end
 local MacroCmd
 do
     local _class_0
@@ -347,7 +356,12 @@ do
             self.name = name
             self.cmd = cmd
             self.commit = commit
-            if _anon_func_4(libos, os_types) then
+            local android, linux, darwin
+            do
+                local _obj_0 = enum.os_types
+                android, linux, darwin = _obj_0.android, _obj_0.linux, _obj_0.darwin
+            end
+            if not (android == os_name or linux == os_name or darwin == os_name) then
                 self.tip = MacroTip(self.name, self.cmd)
             end
             self.hi = hijack or nil
