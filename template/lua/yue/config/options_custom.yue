@@ -1,0 +1,25 @@
+---配置補丁
+---
+---兩種配置方法任選其一:
+---
+---1. 返回一個 table, 包含所有要覆蓋的配置項:
+---
+---  ```yue
+---  patch =
+---    foo: "bar"
+---  export default patch
+---  ```
+---
+---2. 返回一個函數, 輸入默認 options 並返回新的配置值:
+---
+---  ```yue
+---  patch = (opts) ->
+---    opts.foo = "bar"
+---    opts
+---  export default patch
+---  ```
+
+patch = (opts) ->
+    opts
+
+export default patch

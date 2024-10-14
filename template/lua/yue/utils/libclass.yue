@@ -1,0 +1,60 @@
+---返回對象 obj 的類
+export classOf = (obj) ->
+    obj.__class if "table" == type obj
+
+---返回類 cls 的父類
+export parentOf = (cls) ->
+    cls.__parent if "table" == type cls
+
+---object(obj) 返回一個函數 f, 使 f(fn) -> fn(obj)
+---
+---examples:
+---  (object obj) print
+---  (object obj) instanceOf cls
+---  (object obj) instanceAs cls
+export object = (obj) ->
+    (fn) ->
+        fn obj if "function" == type fn
+
+---判斷 obj 是否類 cls 的實例
+---
+---instanceOf(obj, cls) -> boolean
+---instanceOf(cls) -> (fun(obj) -> boolean)
+---
+---examples:
+---  obj |> instanceOf cls -- 等價於 instanceOf(obj, cls)
+---  obj |> (instanceOf cls) -- 等價於 instanceOf(cls)(obj)
+---  (object obj) instanceOf cls -- 等價於 object(obj)(instanceOf(cls))
+export instanceOf = (obj, cls) ->
+    obj, cls = cls, obj if cls == nil
+    if cls == nil
+        false
+    elseif obj == nil
+        (obj) ->
+            instanceOf obj, cls if "table" == type obj
+    else
+        cls == classOf obj
+
+---判斷 obj 是否類 cls 或其子類的實例
+---
+---instanceAs(obj, cls) -> boolean
+---instanceAs(cls) -> (fun(obj) -> boolean)
+---
+---examples:
+---  obj |> instanceAs cls -- 等價於 instanceAs(obj, cls)
+---  obj |> (instanceAs cls) -- 等價於 instanceAs(cls)(obj)
+---  (object obj) instanceAs cls -- 等價於 object(obj)(instanceAs(cls))
+export instanceAs = (obj, cls) ->
+    obj, cls = cls, obj if cls == nil
+    if cls == nil
+        false
+    elseif obj == nil
+        (obj) ->
+            instanceAs obj, cls if "table" == type obj
+    else
+        c = classOf obj
+        while c != nil
+            if c == cls
+                return true
+            c = parentOf c
+        return false

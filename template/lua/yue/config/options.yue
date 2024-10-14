@@ -1,0 +1,37 @@
+import MacroTip, MacroSwitch, MacroRadio from "wafel.base.libmacro"
+
+options =
+    charset_filter:
+        option_name: "charset.basic"
+        filename: "dict/wafel/charset.basic.txt"
+    dicts:
+        main: "wafel.main"
+        word: "wafel.word"
+        pred: "wafel.pred"
+    embed_cands:
+        option_name: "embed_cands"
+        index_indicators: ["¹", "²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁰"]
+        first_format: "${Stash}[${候選}${Seq}]${Code}${Comment}"
+        next_format: "${Stash}[${候選}${Seq}]${Comment}"
+        separator: " "
+        stash_placeholder: "~"
+    macros:
+        help:
+            * MacroTip "配置中心"
+            * MacroSwitch "single_char", "□自動", "■純單"
+            * MacroRadio
+                * name: "full.word"
+                  display: "■■字詞"
+                * name: "full.char"
+                  display: "□■全單"
+                * name: "full.off"
+                  display: "□□三碼"
+            * MacroSwitch "embed_cands", "□嵌入", "■嵌入"
+
+import "wafel.config.options_custom" as patch
+export default switch type patch
+    when "function"
+        patch options
+    else
+        import merge from "wafel.utils.libtable"
+        merge options, patch

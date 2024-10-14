@@ -36,7 +36,7 @@ export class Macro
 export class MacroTip extends Macro
     ---@param name string
     ---@param text string
-    new: (@name, @text) =>
+    new: (@name, @text="") =>
     display: (env, ctx, args) =>
         if #@name != 0 then @name else @text
     trigger: (env, ctx, args) =>
@@ -60,10 +60,9 @@ export class MacroSwitch extends Macro
 
 ---顯示一組開關當前的狀態, 並在選中切換關閉當前項, 開啓下一項
 export class MacroRadio extends Macro
-    ---@param name string
     ---@param states { name: string, display: string }[] 各組開關的名稱及其開啓時的顯示效果
     ---@param save boolean 是否記憶開關值
-    new: (@name, states, @save=false) =>
+    new: (states, @save=false) =>
         @states = states or []
     display: (env, ctx, args) =>
         for op in *@states
