@@ -3,7 +3,7 @@
 ---@return table
 export clone = (obj) ->
     if (type obj) == "table"
-        {k, clone v for k, v in pairs obj}
+        { k, clone v for k, v in pairs obj }
     else
         obj
 

@@ -1,9 +1,34 @@
+import host from "wafel.base.librime"
+
 export class Switches
     ---@type table<string, boolean>
     switches: {}
+    ---初始化, 注册開關狀態監聽
     init: (env) =>
-        env?.engine.context?.option_update_handler.connect (ctx, name) ->
+        env?.engine.context?.option_update_notifier::connect (ctx, name) ->
             @@switches[name] = ctx::get_option name
             ctx::refresh_non_confirmed_composition!
+    ---查詢開關狀態
     __call: (name) =>
         @@switches[name]
+
+export class CharSet
+    ---<路徑-字符集>字典
+    ---@type table<string, table<string, boolean>>
+    cache: {}
+    ---@param filepath string
+    new: (filepath) =>
+        ---<字符>字典
+        ---@type table<string, boolean>
+        @set = @@cache[filepath]
+        @load filepath if not @set
+    ---加載字符數據文件, 一行一字
+    load: (filepath) =>
+        filepath = host.get_path filepath
+        file, err = io.open filepath, "r"
+        return if err
+        @set = { line, true for line in file::lines! }
+        @@cache[filepath] = @set
+    ---查詢字符是否存在
+    __call: (char) =>
+        @set[char]
