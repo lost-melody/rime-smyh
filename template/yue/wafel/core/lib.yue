@@ -5,9 +5,9 @@ export class Switches
     switches: {}
     ---初始化, 注册開關狀態監聽
     init: (env) =>
-        env?.engine.context?.option_update_notifier::connect (ctx, name) ->
-            @@switches[name] = ctx::get_option name
-            ctx::refresh_non_confirmed_composition!
+        (ctx, name) <- env?.engine.context?.option_update_notifier::connect
+        @@switches[name] = ctx::get_option name
+        ctx::refresh_non_confirmed_composition!
     ---查詢開關狀態
     __call: (name) =>
         @@switches[name]
