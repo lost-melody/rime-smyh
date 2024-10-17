@@ -124,6 +124,7 @@ export class MacroFunc extends Macro
     display: (env, ctx, args) =>
         if #@name != 0 then @name else @func args, env
     trigger: (env, ctx, args) =>
-        if res := (@func args, env) and #res != 0
+        res = @func args, env
+        if res and #res != 0
             env.engine::commit_text res
         super env, ctx, args

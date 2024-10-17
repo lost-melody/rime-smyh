@@ -1,7 +1,8 @@
 ---Wafel init
 
 import enum from "wafel.base.librime"
-import Switches from "wafel.core.lib"
+import Mem, Store, Switches from "wafel.core.lib"
+import dicts from "wafel.config.options"
 
 ---lua_processor@*wafel*processor
 export processor = {
@@ -20,9 +21,14 @@ export segmentor = {
 ---lua_translator@*wafel*translator
 export translator = {
     init: (env) ->
-        Switches!::init env
+        Mem env, dicts.main
+        Mem env, dicts.word
+        Mem env, dicts.pred
+        Switches env
     func: (input, seg, env) ->
     fini: (env) ->
+        Mem::disconnect_all env
+        Store::clean env
 }
 
 ---lua_filter@*wafel*filter

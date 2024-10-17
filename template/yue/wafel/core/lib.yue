@@ -1,34 +1,88 @@
 import host from "wafel.base.librime"
 
+---數據存儲
+---
+---  `(Store env).abc` 等價於 `env.wafel.abc`
+export class Store
+    new: (env) =>
+        env.wafel = {} if not env.wafel
+        @wafel = env.wafel
+    clean: (env) =>
+        env.wafel = nil
+    __index: (key) =>
+        @wafel[key] = {} if not @wafel[key]
+        @wafel[key]
+
+---開關狀態監聽
+---
+---  `value = (Switches env) option_name`
 export class Switches
-    ---@type table<string, boolean>
-    switches: {}
     ---初始化, 注册開關狀態監聽
-    init: (env) =>
-        (ctx, name) <- env?.engine.context?.option_update_notifier::connect
-        @@switches[name] = ctx::get_option name
-        ctx::refresh_non_confirmed_composition!
+    new: (env) =>
+        @switches = (Store env).switches
+        if not @switches[1]
+            @switches[1] = true -- 標識回調函數已注册
+            (ctx, name) <- env.engine.context.option_update_notifier::connect
+            @switches[name] = ctx::get_option name
+            ctx::refresh_non_confirmed_composition!
     ---查詢開關狀態
     __call: (name) =>
-        @@switches[name]
+        @switches[name]
 
+---字符集過濾器集合
+---
+---  `yield cand if (CharSet env, dict) cand.text`
 export class CharSet
-    ---<路徑-字符集>字典
-    ---@type table<string, table<string, boolean>>
-    cache: {}
     ---@param filepath string
-    new: (filepath) =>
+    new: (env, filepath) =>
         ---<字符>字典
         ---@type table<string, boolean>
-        @set = @@cache[filepath]
-        @load filepath if not @set
+        @set = (Store env).charsets[filepath]
+        @load env, filepath if not @set
     ---加載字符數據文件, 一行一字
-    load: (filepath) =>
+    load: (env, filepath) =>
         filepath = host.get_path filepath
         file, err = io.open filepath, "r"
-        return if err
-        @set = { line, true for line in file::lines! }
-        @@cache[filepath] = @set
+        if err
+            @set = {}
+        else
+            @set = { line, true for line in file::lines! }
+            file::close!
+        (Store env).charsets[filepath] = @set
     ---查詢字符是否存在
     __call: (char) =>
         @set[char]
+
+---方案詞典管理器
+---
+---  ```yue
+---  Mem env, schema_id -- init Memory
+---  (Mem env, schema_id)::disconnect! -- close Memory
+---  ```
+export class Mem
+    ---初始化
+    new: (env, @schema_id) =>
+        @mem = (Store env).mems[@schema_id]
+        @load env if not @mem
+    ---打開詞典
+    load: (env) =>
+        @mem = Memory env.engine, Schema schema_id
+        (Store env).mems[@schema_id] = @mem
+    ---關閉詞典
+    disconnect: (env, schema_id=@schema_id) =>
+        mems = (Store env).mems
+        if mem := @mem or mems[schema_id]
+            @mem = nil
+            mems[schema_id] = nil
+            if mem.disconnect
+                mem::disconnect!
+            else
+                mem = nil
+                collectgarbage "collect"
+    ---關閉所有詞典
+    disconnect_all: (env) =>
+        for id in pairs (Store env).mems
+            @disconnect env, id
+    ---獲取詞典對象
+    __call: () =>
+        @mem

@@ -43,9 +43,6 @@ export host =
     os: enum.os_types.unknown
     ---操作系統路徑分隔符
     path_sep: "/"
-    ---拼接用户數據目錄文件路徑
-    get_path: (filepath) ->
-        rime_api.get_user_data_dir! .. host.path_sep .. filepath
 
 ---通過 *rime_api* 查詢 *librime* 發行版本, 從而獲知系統版本
 dist = rime_api.get_distribution_code_name()
@@ -61,6 +58,9 @@ elseif dist == "Weasel"
     host.os = enum.os_types.windows
 
 host.path_sep = "\\" if host.os == enum.os_types.windows
+---拼接用户數據目錄文件路徑
+host.get_path = (filepath) ->
+    rime_api.get_user_data_dir! .. host.path_sep .. filepath
 
 ---用於操作 Config 的方法
 export config =
@@ -87,12 +87,13 @@ export logger =
     warn: log.warning
     ---@type fun(string)
     error: log.error
-    ---@param format string|number
-    infof: (format, ...) ->
-        logger.info string.format format, ...
-    ---@param format string|number
-    warnf: (format, ...) ->
-        logger.warn string.format format, ...
-    ---@param format string|number
-    errorf: (format, ...) ->
-        logger.error string.format format, ...
+
+---@param format string|number
+logger.infof = (format, ...) ->
+    logger.info string.format format, ...
+---@param format string|number
+logger.warnf = (format, ...) ->
+    logger.warn string.format format, ...
+---@param format string|number
+logger.errorf = (format, ...) ->
+    logger.error string.format format, ...
