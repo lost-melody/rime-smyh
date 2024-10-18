@@ -1,0 +1,122 @@
+import enum from "wafel.base.librime"
+import charset_filter, dicts, embed_cands, macros, switches from "wafel.config.options"
+import Store, Switches from "wafel.core.lib"
+
+export class Core
+    chars:
+        a: string.byte "a"
+        y: string.byte "y"
+        z: string.byte "z"
+        space: string.byte " "
+        slash: string.byte "/"
+    ---靜態成員, 枚舉所有狀態
+    states:
+        zero: 0 -- 初始狀態
+        a: 1 -- 一碼
+        ab: 12 -- 二碼
+        abc: 123 -- 三碼
+        abcd: 1234 -- 四碼 (關自動選重)
+        sa: 51 -- 一碼 (暫留字)
+        sab: 512 -- 二碼 (暫留字)
+        sabc: 5123 -- 三碼 (暫留字)
+        z: 20 -- 一碼 (z 鍵)
+        zabc: 21 -- 以 z 起始的任意串
+        h: 30 -- 一碼 (/ 鍵)
+        habc: 31 -- 以 / 起始的任意串
+
+    new: (env) =>
+        @core = (Store env).core
+        @load env if not @core[1]
+    load: (env) =>
+        @core[1] = true
+        @core.key_seq = {}
+
+    ---Processor
+    ---@param key_event KeyEvent
+    proc: (key_event, env) =>
+        :process_results = enum
+        ctx = env.engine.context
+
+        -- 若輸入串爲空, 則記錄的鍵序列也清空
+        @core.key_seq = {} if #ctx.input == 0
+        -- 處理輸入按鍵
+        if key_event.modifier == 0
+            -- 無修飾鍵
+            @core.key_seq[] = key_event.keycode
+        elseif key_event::ctrl!
+            -- ctrl 修飾鍵
+
+        -- 默認返回不處理
+        process_results.noop
+
+    ---Translator
+    ---@param input string
+    ---@param seg Segment
+    tr: (input, seg, env) =>
+        ctx = env.engine.context
+        enabled = Switches env
+
+    ---Filter
+    ---@param input Translation
+    filter: (input, env) =>
+        ctx = env.engine.context
+        enabled = Switches env
+
+    parse_key_seq: (env) =>
+        ctx = env.engine.context
+        enabled = Switches env
+
+        state = @@states.zero
+        res = {}
+        for ch in *@key_seq
+            if @@chars.a <= ch <= @@chars.z
+                state = switch state
+                    when @@states.zero
+                        @@states.a
+
+                    when @@states.a
+                        @@states.ab
+                    when @@states.ab
+                        @@states.abc
+                    when @@states.abc
+                        if enabled switches.single_char
+                            -- 純單模式, 進入四碼狀態
+                            @@states.abcd
+                        else
+                            -- 自動選重開啓, 進入暫留狀態
+                            @@states.sa
+
+                    when @@states.abcd
+                        @@states.ab
+
+                    when @@states.sa
+                        @@states.sab
+                    when @@states.sab
+                        @@states.sabc
+                    when @@states.sabc
+                        @@states.sa
+
+                    when @@states.z
+                        @@states.zabc
+                    when @@states.zabc
+                        @@states.zabc
+
+                    when @@states.h
+                        @@states.habc
+                    when @@states.habc
+                        @@states.habc
+
+                    else
+                        break
+
+            elseif state == @@state.zero
+                state = switch ch
+                    when @@chars.z
+                        @@states.z
+                    when @@chars.slash
+                        @@states.h
+                    else
+                        break
+
+        -- 返回状态和结果
+        state, res

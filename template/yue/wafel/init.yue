@@ -2,12 +2,14 @@
 
 import enum from "wafel.base.librime"
 import Mem, Store, Switches from "wafel.core.lib"
+import Core from "wafel.core.bin"
 import dicts from "wafel.config.options"
 
 ---lua_processor@*wafel*processor
 export processor = {
     init: (env) -> enum.process_results.noop
     func: (key_event, env) ->
+        (Core env)::proc key_event, env
     fini: (env) ->
 }
 
@@ -26,6 +28,7 @@ export translator = {
         Mem env, dicts.pred
         Switches env
     func: (input, seg, env) ->
+        (Core env)::tr input, seg, env
     fini: (env) ->
         Mem::disconnect_all env
         Store::clean env
@@ -35,6 +38,7 @@ export translator = {
 export filter = {
     init: (env) ->
     func: (input, env) ->
+        (Core env)::filter input, env
     fini: (env) ->
     -- tags_match: (segment, env) ->
 }

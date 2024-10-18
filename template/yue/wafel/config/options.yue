@@ -27,6 +27,17 @@ options =
                 * name: "full.off"
                   display: "□□三碼"
             * MacroSwitch "embed_cands", "□嵌入", "■嵌入"
+    switches:
+        ascii_mode: "ascii_mode"
+        single_char: "single_char"
+        full_word: "full.word"
+        full_char: "full.char"
+        full_off: "full.off"
+        embed_cands: "embed_cands"
+        completion: "completion"
+        charset_all: "charset.all"
+        charset_basic: "charset.basic"
+        ivd_map: "ivd_map"
 
 import "wafel.config.options_custom" as patch
 export default switch type patch

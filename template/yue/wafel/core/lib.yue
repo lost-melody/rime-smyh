@@ -2,11 +2,13 @@ import host from "wafel.base.librime"
 
 ---數據存儲
 ---
----  `(Store env).abc` 等價於 `env.wafel.abc`
+---  `(Store env).abc` 等價於 `env.wafel.<ns>.abc`
 export class Store
     new: (env) =>
+        ns = env.name_space
         env.wafel = {} if not env.wafel
-        @wafel = env.wafel
+        env.wafel[ns] = {} if not env.wafel[ns]
+        @wafel = env.wafel[ns]
     clean: (env) =>
         env.wafel = nil
     __index: (key) =>
@@ -27,7 +29,7 @@ export class Switches
             ctx::refresh_non_confirmed_composition!
     ---查詢開關狀態
     __call: (name) =>
-        @switches[name]
+        #name == 0 or @switches[name]
 
 ---字符集過濾器集合
 ---
